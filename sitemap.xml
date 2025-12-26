@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Replace SITE_URL with your deployed canonical base URL.
-  Examples:
-  - https://example.com
-  - https://example.com/solarpoweredproject
--->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://solarpoweredproject.com/</loc>
-  </url>
-  <url>
-    <loc>https://solarpoweredproject.com/index.html</loc>
   </url>
   <url><loc>https://solarpoweredproject.com/pages/12v-vs-24v-vs-48v-solar.html</loc></url>
   <url><loc>https://solarpoweredproject.com/pages/battery-capacity.html</loc></url>
