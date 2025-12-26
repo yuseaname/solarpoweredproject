@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Battery Cable Size for Solar Inverters (12V/24V/48V): How to Choose Safely</title>
+    <meta
+      name="description"
+      content="Battery cable size for solar inverters explained with a safe, practical decision flow: estimate max amps, measure run length, manage voltage drop, and choose DC-rated protection."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="https://app.rybbit.io/api/script.js" data-site-id="afb6050c297b" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html"><span>Solar</span><span class="logo-accent">Guide</span></a>
+        <nav class="nav">
+          <a href="solar-system-sizing.html">Sizing</a>
+          <a href="solar-components.html">Components</a>
+          <a href="solar-wire-size.html">Wiring</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="article-hero">
+        <p class="eyebrow">Wiring decisions</p>
+        <h1 class="article-title">Battery cable size for solar inverters (12V/24V/48V)</h1>
+        <p class="lede">
+          The goal isn’t to memorize a chart. It’s to make one reliable decision: pick battery-to-inverter cables that don’t run hot and don’t cause
+          voltage sag that trips low-voltage shutdown.
+        </p>
+        <p class="article-meta">Informational only. High-current DC wiring can be hazardous—follow manufacturer guidance and local electrical codes.</p>
+      </section>
+
+      <div class="article-grid">
+        <article class="article-card">
+          <h2>Table of contents</h2>
+          <div class="toc">
+            <a class="text-link" href="#takeaways">Key takeaways</a>
+            <a class="text-link" href="#why-this-is-hard">Why inverter cables are different</a>
+            <a class="text-link" href="#step1">Step 1: Estimate maximum DC current</a>
+            <a class="text-link" href="#step2">Step 2: Measure the run (the part most people miss)</a>
+            <a class="text-link" href="#step3">Step 3: Set a practical voltage-drop target</a>
+            <a class="text-link" href="#step4">Step 4: Choose cable + lugs + protection as a system</a>
+            <a class="text-link" href="#voltage">Why 24V/48V makes this easier</a>
+            <a class="text-link" href="#mistakes">Common mistakes</a>
+            <a class="text-link" href="#faq">FAQ</a>
+            <a class="text-link" href="#next">Next logical reads</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="takeaways">
+          <h2>Key takeaways</h2>
+          <ul>
+            <li>Battery-to-inverter cables are often the <strong>highest-current</strong> wires in a solar system.</li>
+            <li>Longer runs and lower voltage (especially 12V) create voltage sag that can look like a “bad battery” or “bad inverter.”</li>
+            <li>Good results come from sizing the <strong>whole chain</strong>: cable, lugs, fuse/breaker, disconnect, and terminations.</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="wiring-decisions.html">Solar wiring decisions (pillar hub)</a>
+            <a class="text-link" href="solar-wire-size.html">Solar wire size: choose the right gauge</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="why-this-is-hard">
+          <h2>Why inverter cables are different (and why mistakes get expensive)</h2>
+          <p>
+            Panel wiring is often higher voltage and lower current. Inverter battery cables are the opposite: low voltage and very high current. That’s
+            why cable size changes so dramatically between 12V, 24V, and 48V systems.
+          </p>
+          <p class="pill"><strong>Rule of thumb:</strong> high current + long distance = heat risk + voltage drop.</p>
+          <figure>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/9/9d/NOCO_12-Volt_Car_Battery_Clips_-_Car_Jumper_Cable_%2842059511091%29.jpg"
+              alt="A close-up of jumper cable clips connected to a car battery terminal, illustrating the kind of high-current connection points involved in inverter battery cabling."
+              loading="lazy"
+              width="640"
+              height="427"
+            />
+            <figcaption class="article-meta">
+              Image: Tony Webster, CC BY 2.0 — Source:
+              <a class="text-link" href="https://commons.wikimedia.org/wiki/File:NOCO_12-Volt_Car_Battery_Clips_-_Car_Jumper_Cable_(42059511091).jpg">Wikimedia Commons</a>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="article-card" id="step1">
+          <h2>Step 1: Estimate maximum DC current (use the inverter’s specs)</h2>
+          <p>
+            Start with the inverter’s <strong>continuous power</strong> and think about whether your loads require <strong>surge</strong> (motor starts,
+            compressors, pumps). Cable and protection decisions should be based on the maximum current the circuit can realistically see.
+          </p>
+
+          <h3>Convert inverter watts to battery amps</h3>
+          <p>
+            A simplified planning estimate is:
+          </p>
+          <p class="pill"><strong>Battery amps</strong> ≈ Inverter watts ÷ Battery voltage</p>
+          <p class="article-meta">
+            Real systems vary because battery voltage changes with state of charge and inverter efficiency. This estimate is still useful for deciding
+            whether your wiring plan is in the right ballpark.
+          </p>
+
+          <div class="related">
+            <a class="text-link" href="solar-inverter-sizing.html">How to size an inverter (watts, surge, draw)</a>
+            <a class="text-link" href="12v-vs-24v-vs-48v-solar.html">12V vs 24V vs 48V solar systems</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="step2">
+          <h2>Step 2: Measure the run (the part most people miss)</h2>
+          <p>
+            Measure the <strong>actual routing path</strong>, not the straight-line distance. Battery cables often need to route around compartments,
+            through grommets, and around corners.
+          </p>
+          <ul>
+            <li><strong>Keep the run short</strong> whenever possible (especially at 12V).</li>
+            <li><strong>Count both conductors</strong>: positive and negative matter for voltage drop.</li>
+            <li><strong>Avoid loose routing</strong> where vibration can work terminations loose over time.</li>
+          </ul>
+          <p class="article-meta">If you’re tempted to place the inverter “where it fits,” re-check the cable run first—layout is a wiring decision.</p>
+        </article>
+
+        <article class="article-card" id="step3">
+          <h2>Step 3: Set a practical voltage-drop target (performance, not perfection)</h2>
+          <p>
+            Voltage drop on inverter cables isn’t just “lost efficiency.” It can change equipment behavior: voltage sag can trigger inverter alarms,
+            shutdowns, and reduced surge capability.
+          </p>
+          <p>
+            A simple planning mindset is: keep voltage drop low enough that the inverter sees a stable battery voltage under load. If you’ve ever seen the
+            inverter shut off even though the battery reads “fine” at rest, wiring voltage drop is a top suspect.
+          </p>
+          <div class="related">
+            <a class="text-link" href="solar-output-troubleshooting.html">Low solar output troubleshooting (symptoms vs causes)</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="step4">
+          <h2>Step 4: Choose cable + lugs + protection as a system</h2>
+          <p>
+            Thick cable only helps if the terminations and protection hardware match. Many “mystery heat” problems are actually at the lugs, bus bars, or
+            disconnect—not in the middle of the cable.
+          </p>
+
+          <h3>Cable selection checklist (planning-level)</h3>
+          <ul>
+            <li><strong>Conductor:</strong> copper is common for high-current inverter runs.</li>
+            <li><strong>Flexibility:</strong> pick a cable type you can route without stressing the lugs.</li>
+            <li><strong>Temperature + abrasion:</strong> protect against sharp edges and hot engine bays (where relevant).</li>
+          </ul>
+
+          <h3>Termination checklist</h3>
+          <ul>
+            <li><strong>Right lug size:</strong> lug barrel matches cable gauge; stud hole matches the terminal.</li>
+            <li><strong>Quality crimps:</strong> poor crimps act like resistors and create heat.</li>
+            <li><strong>Torque and re-check:</strong> high-current connections should be torqued to spec and inspected periodically.</li>
+          </ul>
+
+          <h3>Protection checklist</h3>
+          <ul>
+            <li>Use <strong>DC-rated</strong> fuses/breakers/disconnects at the correct voltage rating for your system.</li>
+            <li>Protection is typically chosen to <strong>protect the wire</strong> and the circuit, not to “protect the appliance.”</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="solar-fuses-vs-breakers.html">Solar fuses vs breakers (where each belongs)</a>
+            <a class="text-link" href="solar-wiring-and-protection-cost.html">Wiring & protection cost (what’s included)</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="voltage">
+          <h2>Why 24V or 48V usually makes battery cabling easier</h2>
+          <p>
+            For similar power, higher voltage means lower current. Lower current usually means smaller cables, less voltage drop, and less-expensive
+            protection hardware.
+          </p>
+          <p class="article-meta">
+            This is one reason many systems “graduate” from 12V to 24V or 48V as inverter size and loads increase.
+          </p>
+          <div class="related">
+            <a class="text-link" href="how-to-choose-solar-system-voltage.html">How to choose solar system voltage</a>
+            <a class="text-link" href="solar-system-sizing.html">How to size a solar system (start-to-finish flow)</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="mistakes">
+          <h2>Common mistakes (and how to avoid them)</h2>
+          <ul>
+            <li><strong>Sizing from “average watts”:</strong> cables are stressed by peak current, not your daily average.</li>
+            <li><strong>Assuming surge doesn’t matter:</strong> it may not change the cable every time, but it often changes the safety margin.</li>
+            <li><strong>Long runs at 12V:</strong> this is a classic cause of voltage sag and low-voltage shutdown.</li>
+            <li><strong>Bad terminations:</strong> heat at lugs and bus bars is a symptom; fix the connection, not just the cable.</li>
+            <li><strong>Non-DC-rated hardware:</strong> DC interrupt ratings and voltage ratings matter for safety.</li>
+          </ul>
+        </article>
+
+        <article class="article-card" id="faq">
+          <h2>FAQ</h2>
+          <div class="faq">
+            <div>
+              <h4>Do I size inverter battery cables for surge or continuous watts?</h4>
+              <p>
+                Plan around the maximum current the circuit can realistically see. If you run motor loads or compressors, surge behavior can be relevant.
+                Use the inverter specs and leave a conservative margin.
+              </p>
+            </div>
+            <div>
+              <h4>Why do 12V inverters need such thick cables?</h4>
+              <p>
+                At 12V, the same power requires more current than at 24V or 48V. High current drives thicker cable, larger lugs, and higher-rated
+                protection.
+              </p>
+            </div>
+            <div>
+              <h4>My inverter shuts down under load—could it be cable size?</h4>
+              <p>
+                Yes. Voltage drop at high current can make the inverter see a “low battery” even if the battery is healthy. Check cable length, lug
+                tightness, and signs of heating at connections.
+              </p>
+            </div>
+            <div>
+              <h4>Can I oversize battery cable?</h4>
+              <p>
+                Often, yes—oversizing reduces voltage drop and heating. The practical limits are cost, routing difficulty, and ensuring your lugs,
+                disconnects, and bus bars are compatible.
+              </p>
+            </div>
+            <div>
+              <h4>Is it safe to use AC breakers on DC inverter circuits?</h4>
+              <p>No. Use devices explicitly rated for DC at your system voltage. DC interrupt ratings are not interchangeable with AC ratings.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-card" id="next">
+          <h2>Next logical reads</h2>
+          <div class="related">
+            <a class="text-link" href="solar-fuses-vs-breakers.html">Solar fuses vs breakers</a>
+            <a class="text-link" href="solar-wire-size.html">Solar wire size</a>
+            <a class="text-link" href="solar-wiring-and-protection-cost.html">Wiring & protection cost</a>
+            <a class="text-link" href="solar-inverter-sizing.html">Inverter sizing</a>
+            <a class="text-link" href="how-to-choose-solar-system-voltage.html">Choose system voltage</a>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
