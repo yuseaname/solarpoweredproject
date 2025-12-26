@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Solar Panels in Series vs Parallel: Which Wiring Is Better for Your Setup?</title>
+    <meta
+      name="description"
+      content="Series vs parallel solar panels explained with a practical decision guide: voltage vs current, shading tradeoffs, controller limits, and common mistakes."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <script
+      src="https://app.rybbit.io/api/script.js"
+      data-site-id="afb6050c297b"
+      defer
+    ></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html"><span>Solar</span><span class="logo-accent">Guide</span></a>
+        <nav class="nav">
+          <a href="solar-system-sizing.html">Sizing</a>
+          <a href="mppt-vs-pwm.html">Controllers</a>
+          <a href="solar-wiring-and-protection-cost.html">Wiring</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="article-hero">
+        <p class="eyebrow">Wiring decisions</p>
+        <h1 class="article-title">Solar panels: series vs parallel (which is better?)</h1>
+        <p class="lede">
+          Series vs parallel is one of the biggest “forks in the road” for a solar build. The good news: you don’t need an engineering degree. You need a
+          clear goal (reliable energy) and a short checklist that matches your shading, wiring distance, and charge controller limits.
+        </p>
+        <p class="article-meta">Informational only. Follow manufacturer limits for array voltage/current and local electrical codes.</p>
+      </section>
+
+      <div class="article-grid">
+        <article class="article-card">
+          <h2>Table of contents</h2>
+          <div class="toc">
+            <a class="text-link" href="#takeaways">Key takeaways</a>
+            <a class="text-link" href="#quick">Quick decision guide</a>
+            <a class="text-link" href="#concept">The concept that makes it click</a>
+            <a class="text-link" href="#series">When series is usually better</a>
+            <a class="text-link" href="#parallel">When parallel is usually better</a>
+            <a class="text-link" href="#mppt-pwm">How this interacts with MPPT vs PWM</a>
+            <a class="text-link" href="#mistakes">Common mistakes</a>
+            <a class="text-link" href="#faq">FAQ</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="takeaways">
+          <h2>Key takeaways</h2>
+          <ul>
+            <li><strong>Series</strong> increases array voltage; <strong>parallel</strong> increases array current.</li>
+            <li>Series often helps with longer wire runs; parallel can be more forgiving in partial shading situations.</li>
+            <li>Your charge controller’s voltage/current limits are the hard boundaries—design inside them.</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="solar-system-sizing.html">How to size a solar system (start here)</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="quick">
+          <h2>Quick decision guide (choose this if…)</h2>
+          <ul>
+            <li><strong>Choose series</strong> if you have longer cable runs, you’re using an MPPT controller, and shading is minimal/consistent.</li>
+            <li><strong>Choose parallel</strong> if partial shading is common (trees, vents), or you need to keep voltage low due to controller limits.</li>
+            <li><strong>Choose series-parallel</strong> (a mix) when you need both: higher voltage than pure parallel, but not as shade-sensitive as a long series string.</li>
+          </ul>
+          <p class="article-meta">
+            The reader is the hero: your job is simply to pick the wiring that prevents the two failures people hate—wasted solar production and wiring that
+            runs too hot.
+          </p>
+        </article>
+
+        <article class="article-card" id="concept">
+          <h2>The one concept that makes it click: voltage up vs current up</h2>
+          <p>
+            Wiring in <strong>series</strong> adds voltage (like stacking batteries end-to-end). Wiring in <strong>parallel</strong> adds current capacity
+            (like widening the pipe).
+          </p>
+          <p class="pill"><strong>Why it matters:</strong> higher current usually drives thicker wire and higher-rated protection devices.</p>
+          <figure>
+            <img
+              src="../assets/images/solar-cells-interconnections.jpg"
+              alt="A sketch showing how solar cells can be interconnected in series and parallel, illustrating how voltage and current change with wiring configuration."
+              loading="lazy"
+              width="1535"
+              height="767"
+            />
+            <figcaption class="article-meta">
+              Image: “Sketch of silicon solar cells interconnections” by Cesardd, CC BY-SA 4.0 — Source:
+              <a class="text-link" href="https://commons.wikimedia.org/wiki/File:Sketch_of_silicon_solar_cells_interconnections.jpg">Wikimedia Commons</a>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="article-card" id="series">
+          <h2>When series is usually better (and the main tradeoff)</h2>
+          <h3>Longer wire runs (voltage drop advantage)</h3>
+          <p>
+            Higher array voltage often means lower current for the same power, which reduces voltage drop and can simplify wiring—especially when panels
+            are far from the controller.
+          </p>
+          <div class="related">
+            <a class="text-link" href="solar-wire-size.html">Solar wire size (amps + distance)</a>
+          </div>
+
+          <h3>MPPT controllers and higher array voltage</h3>
+          <p>
+            MPPT controllers are often more flexible with higher input voltages (within limits) and can convert that voltage efficiently into battery
+            charging current. This is a common reason people choose series strings.
+          </p>
+          <div class="related">
+            <a class="text-link" href="mppt-vs-pwm.html">MPPT vs PWM</a>
+          </div>
+
+          <h3>The tradeoff: shading and mismatch can hurt more</h3>
+          <p>
+            In a series string, one weaker panel can pull down the string’s output. Good design tries to keep panels in a string seeing similar conditions.
+          </p>
+        </article>
+
+        <article class="article-card" id="parallel">
+          <h2>When parallel is usually better (and the main tradeoff)</h2>
+          <h3>Partial shading and uneven conditions</h3>
+          <p>
+            If you expect frequent partial shading (roof vents, trees, seasonal shadows), parallel wiring can reduce how much one shaded panel affects the
+            rest of the array.
+          </p>
+
+          <h3>The tradeoff: more current (often thicker wire + bigger protection)</h3>
+          <p>
+            Parallel wiring typically means higher array current, which can push you toward thicker cable, larger breakers/fuses, or a combiner solution.
+          </p>
+          <div class="related">
+            <a class="text-link" href="solar-fuses-vs-breakers.html">Solar fuses vs breakers</a>
+            <a class="text-link" href="solar-combiner-box-and-disconnect-guide.html">Combiner boxes and disconnects</a>
+            <a class="text-link" href="solar-wiring-and-protection-cost.html">Wiring & protection cost</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="mppt-pwm">
+          <h2>How this interacts with MPPT vs PWM (plain language)</h2>
+          <p>
+            Controller choice can change what “good wiring” means. MPPT often gives you more flexibility to run a higher-voltage array (again: within
+            limits). PWM tends to push people toward keeping array voltage closely matched to the battery bank.
+          </p>
+          <div class="related">
+            <a class="text-link" href="mppt-vs-pwm.html">MPPT vs PWM: controller comparison</a>
+            <a class="text-link" href="solar-components.html">Charge controllers and batteries (component roles)</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="mistakes">
+          <h2>Common mistakes (and what they look like)</h2>
+          <ul>
+            <li><strong>Exceeding controller limits:</strong> can cause shutdowns or damage; always design within voltage/current ratings.</li>
+            <li><strong>Assuming “more panels” fixes shading:</strong> shading is a layout problem first, a panel-count problem second.</li>
+            <li><strong>Ignoring wire run length:</strong> parallel can punish long distances with higher current and voltage drop.</li>
+            <li><strong>Mixing mismatched panels:</strong> different specs in the same string often reduce real output.</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="solar-output-troubleshooting.html">Low solar output troubleshooting</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="faq">
+          <h2>FAQ</h2>
+          <div class="faq">
+            <div>
+              <h4>Is series or parallel “better”?</h4>
+              <p>Neither is universally better. Series often helps with long runs and MPPT setups; parallel can be more forgiving with partial shading.</p>
+            </div>
+            <div>
+              <h4>Does series increase watts?</h4>
+              <p>It increases voltage, not “free power.” Total power depends on sunlight and panel output. Wiring changes how that power is delivered.</p>
+            </div>
+            <div>
+              <h4>What happens if one panel is shaded?</h4>
+              <p>Shading can reduce output more in series strings. Design tries to group panels with similar sun exposure in the same string.</p>
+            </div>
+            <div>
+              <h4>Can I mix series and parallel?</h4>
+              <p>Yes, many arrays are built as series strings connected in parallel. The safe approach is to keep strings consistent and stay within controller limits.</p>
+            </div>
+            <div>
+              <h4>Do I need MPPT for series wiring?</h4>
+              <p>Not always, but MPPT often makes higher-voltage array configurations more practical and efficient (within equipment limits).</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <h2>Next logical reads</h2>
+          <div class="related">
+            <a class="text-link" href="mppt-vs-pwm.html">MPPT vs PWM</a>
+            <a class="text-link" href="solar-wire-size.html">Solar wire size</a>
+            <a class="text-link" href="solar-fuses-vs-breakers.html">Solar fuses vs breakers</a>
+            <a class="text-link" href="solar-panel-output.html">Solar panel output calculator</a>
+            <a class="text-link" href="how-to-choose-solar-system-voltage.html">How to choose system voltage</a>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
+

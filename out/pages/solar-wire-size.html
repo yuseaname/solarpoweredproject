@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Solar Wire Size: How to Choose the Right Gauge (Voltage Drop + Safety)</title>
+    <meta
+      name="description"
+      content="Solar wire size explained with a practical decision flow: identify the circuit, estimate max amps, measure run length, and manage voltage drop safely."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <script
+      src="https://app.rybbit.io/api/script.js"
+      data-site-id="afb6050c297b"
+      defer
+    ></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html"><span>Solar</span><span class="logo-accent">Guide</span></a>
+        <nav class="nav">
+          <a href="solar-system-sizing.html">Sizing</a>
+          <a href="solar-components.html">Components</a>
+          <a href="solar-wiring-and-protection-cost.html">Wiring</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="article-hero">
+        <p class="eyebrow">Wiring decisions</p>
+        <h1 class="article-title">Solar wire size: how to choose the right gauge</h1>
+        <p class="lede">
+          If solar wiring feels intimidating, you’re not alone. The goal isn’t to memorize tables — it’s to make one safe decision: choose a wire size
+          that keeps heat and voltage drop under control for <em>your</em> circuit.
+        </p>
+        <p class="article-meta">Informational only. Electrical work can be hazardous—follow codes and manufacturer guidance.</p>
+      </section>
+
+      <div class="article-grid">
+        <article class="article-card">
+          <h2>Table of contents</h2>
+          <div class="toc">
+            <a class="text-link" href="#takeaways">Key takeaways</a>
+            <a class="text-link" href="#goal">The real goal</a>
+            <a class="text-link" href="#two-rules">Two rules that prevent most mistakes</a>
+            <a class="text-link" href="#flow">A simple 4-step decision flow</a>
+            <a class="text-link" href="#voltage">Why higher voltage simplifies wiring</a>
+            <a class="text-link" href="#dc-rated">A quick “DC-rated” checklist</a>
+            <a class="text-link" href="#mistakes">Common wire-sizing mistakes</a>
+            <a class="text-link" href="#faq">FAQ</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="takeaways">
+          <h2>Key takeaways</h2>
+          <ul>
+            <li>Start by identifying the circuit: PV wiring, controller-to-battery, or battery-to-inverter.</li>
+            <li>Wire size is driven by <strong>max amps</strong> and <strong>run length</strong>, not “average watts.”</li>
+            <li>Higher system voltage usually reduces current, which often means smaller cable and less voltage drop.</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="solar-wiring-and-protection-cost.html">Wiring & protection cost (what’s included)</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="goal">
+          <h2>The real goal (safety + performance)</h2>
+          <p>
+            The reader is the hero here: you want a solar system that works reliably <strong>without hot wires, nuisance shutdowns, or mystery power
+            loss</strong>. This guide is the “plan” that gets you there.
+          </p>
+          <p class="pill"><strong>Good wire sizing</strong> = low heat + manageable voltage drop + compatible connectors and protection.</p>
+          <figure>
+            <img
+              src="../assets/images/copper-wire-comparison.jpg"
+              alt="A close-up comparison of different thicknesses of copper wire, illustrating why wire gauge choice matters for current and voltage drop."
+              loading="lazy"
+              width="285"
+              height="297"
+            />
+            <figcaption class="article-meta">
+              Image: “Copper wire comparison” by Chemicalinterest, public domain — Source:
+              <a class="text-link" href="https://commons.wikimedia.org/wiki/File:Copper_wire_comparison.JPG">Wikimedia Commons</a>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="article-card" id="two-rules">
+          <h2>Two rules that prevent most mistakes</h2>
+          <h3>Rule 1: current (amps) drives heat risk</h3>
+          <p>
+            For a given load, lower voltage means higher current. High current pushes you toward thicker cable and higher-rated lugs, bus bars, fuses, and
+            breakers.
+          </p>
+          <div class="related">
+            <a class="text-link" href="12v-vs-24v-vs-48v-solar.html">12V vs 24V vs 48V solar systems</a>
+            <a class="text-link" href="how-to-choose-solar-system-voltage.html">How to choose solar system voltage</a>
+          </div>
+
+          <h3>Rule 2: distance drives voltage drop</h3>
+          <p>
+            The longer the run (especially on high-current battery cables), the more voltage you lose in the wire. Too much drop can look like “the system
+            is underperforming” when the real issue is wiring.
+          </p>
+        </article>
+
+        <article class="article-card" id="flow">
+          <h2>A simple 4-step decision flow (what to measure first)</h2>
+          <h3>Step 1: identify the circuit</h3>
+          <ul>
+            <li><strong>PV wiring:</strong> panels to charge controller (often higher voltage, lower current)</li>
+            <li><strong>Controller-to-battery:</strong> charging current to the battery bank</li>
+            <li><strong>Battery-to-inverter:</strong> usually the highest current wiring in the system</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="solar-components.html">Solar components explained (what connects to what)</a>
+          </div>
+
+          <h3>Step 2: estimate max amps (use labels, not guesses)</h3>
+          <p>
+            Use the equipment specs as your “source of truth.” For example, charge controllers list max output current, and inverters list continuous power
+            and surge behavior.
+          </p>
+          <div class="related">
+            <a class="text-link" href="solar-inverter-sizing.html">How to size an inverter (watts, surge, draw)</a>
+          </div>
+
+          <h3>Step 3: measure one-way run length</h3>
+          <p>
+            Don’t assume a tidy layout. Measure the real path the cable will take (including routing), and remember that long runs are most painful on
+            high-current circuits.
+          </p>
+
+          <h3>Step 4: set a conservative voltage-drop target</h3>
+          <p>
+            If you want a simple rule for planning (not a code substitute), aim to keep voltage drop “small enough that it doesn’t change equipment
+            behavior.” The battery-to-inverter run is often where people tighten this target because voltage sag can trigger low-voltage shutdowns.
+          </p>
+          <p class="article-meta">
+            When in doubt, oversize cable rather than forcing a long, high-current run at a low voltage.
+          </p>
+        </article>
+
+        <article class="article-card" id="voltage">
+          <h2>12V vs 24V vs 48V: why higher voltage usually simplifies wiring</h2>
+          <p>
+            If you keep power roughly the same, higher voltage means lower current. Lower current typically means thinner wire, less voltage drop, and
+            smaller (and sometimes cheaper) protection hardware. That’s why many systems “graduate” to 24V or 48V as power needs grow.
+          </p>
+          <div class="related">
+            <a class="text-link" href="how-to-choose-solar-system-voltage.html">Choose a system voltage (practical guide)</a>
+            <a class="text-link" href="solar-system-sizing.html">System sizing overview (start here)</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="dc-rated">
+          <h2>What “DC-rated” means (a quick checklist)</h2>
+          <ul>
+            <li><strong>Cable type:</strong> use appropriate PV wire for arrays and appropriate battery cable for high-current battery circuits.</li>
+            <li><strong>Connectors:</strong> match the cable type and size; avoid “almost fits” lugs.</li>
+            <li><strong>Protection:</strong> use fuses/breakers/disconnects explicitly rated for your DC voltage and current.</li>
+            <li><strong>Heat:</strong> cable that runs warm under normal load is a warning sign, not “normal.”</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="solar-fuses-vs-breakers.html">Solar fuses vs breakers (where each belongs)</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="mistakes">
+          <h2>Common wire-sizing mistakes (and how to avoid them)</h2>
+          <ul>
+            <li><strong>Sizing from average watts:</strong> wire is stressed by peak current, not a daily average.</li>
+            <li><strong>Forgetting inverter surge:</strong> surge can matter on the battery-to-inverter side.</li>
+            <li><strong>Ignoring distance:</strong> long runs create voltage drop that looks like “low solar output.”</li>
+            <li><strong>Mixing cable types:</strong> PV wire and battery cable solve different problems.</li>
+            <li><strong>Using non-DC-rated hardware:</strong> DC interrupt ratings matter for safety.</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="solar-output-troubleshooting.html">Low solar output troubleshooting (symptoms vs causes)</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="faq">
+          <h2>FAQ</h2>
+          <div class="faq">
+            <div>
+              <h4>Is PV wire the same as battery cable?</h4>
+              <p>No. PV wire is designed for outdoor array wiring. Battery cable is built for high current and flexible routing on the battery side.</p>
+            </div>
+            <div>
+              <h4>What voltage drop is “acceptable” for solar?</h4>
+              <p>It depends on the circuit and equipment behavior. The safest approach is to keep drop low enough that it doesn’t cause shutdowns or lost production.</p>
+            </div>
+            <div>
+              <h4>Why does 12V require thicker wire than 24V or 48V?</h4>
+              <p>For the same power, lower voltage means higher current. Higher current drives thicker cable and higher-rated protection.</p>
+            </div>
+            <div>
+              <h4>Can I oversize wire?</h4>
+              <p>Often yes, and it’s a common way to reduce voltage drop and improve reliability. The practical limits are cost, routing, and connector compatibility.</p>
+            </div>
+            <div>
+              <h4>Do I size for continuous watts or surge?</h4>
+              <p>Use the maximum current that the circuit can realistically see. For inverters, surge can be relevant depending on your loads and design.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <h2>Next logical reads</h2>
+          <div class="related">
+            <a class="text-link" href="solar-wiring-and-protection-cost.html">Solar wiring and protection cost</a>
+            <a class="text-link" href="solar-fuses-vs-breakers.html">Solar fuses vs breakers</a>
+            <a class="text-link" href="solar-panels-series-vs-parallel.html">Series vs parallel solar panels</a>
+            <a class="text-link" href="solar-inverter-sizing.html">How to size an inverter</a>
+            <a class="text-link" href="how-to-choose-solar-system-voltage.html">How to choose system voltage</a>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
+

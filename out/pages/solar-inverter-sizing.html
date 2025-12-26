@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>How to Size an Inverter for Solar (Watts, Surge, Battery Draw)</title>
+    <meta name="description" content="Inverter sizing for solar systems: calculate peak watts, surge watts, and how inverter choice affects battery capacity and solar panel sizing." />
+    <link rel="stylesheet" href="../styles.css" />
+    <script
+      src="https://app.rybbit.io/api/script.js"
+      data-site-id="afb6050c297b"
+      defer
+    ></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html"><span>Solar</span><span class="logo-accent">Guide</span></a>
+        <nav class="nav">
+          <a href="solar-system-sizing.html">System sizing</a>
+          <a href="solar-components.html">Components</a>
+          <a href="solar-system-costs.html">Costs</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="article-hero">
+        <p class="eyebrow">Sizing guide</p>
+        <h1 class="article-title">How to size an inverter for solar</h1>
+        <p class="lede">
+          Inverter sizing has two jobs: (1) handle your maximum AC load (plus surges), and (2) avoid wasting energy with an oversized unit. This guide
+          shows a simple method and the numbers that matter.
+        </p>
+        <p class="article-meta">Informational only. Verify manufacturer specs for surge and wiring requirements.</p>
+      </section>
+
+      <div class="article-grid">
+        <article class="article-card">
+          <h2>Key takeaways</h2>
+          <ul>
+            <li>Size for <strong>continuous watts</strong> and <strong>surge watts</strong>.</li>
+            <li>Oversizing can increase idle losses and cost.</li>
+            <li>Inverter choice affects battery draw and wiring requirements.</li>
+          </ul>
+        </article>
+
+        <article class="article-card">
+          <h2>Step 1: List your AC loads and peak watts</h2>
+          <p>
+            Add up the AC devices you may run at the same time. For each device, use nameplate watts or a measured value (many appliances vary during
+            operation).
+          </p>
+          <p class="pill"><strong>Peak watts</strong> ≈ sum of simultaneous AC watts</p>
+          <p class="article-meta">
+            Related: <a class="text-link" href="solar-system-sizing.html">How to size a solar system</a>
+          </p>
+        </article>
+
+        <div class="ad-slot">Ad slot</div>
+
+        <article class="article-card">
+          <h2>Step 2: Account for surge (starting) power</h2>
+          <p>
+            Some loads require a high startup surge (motors, compressors). Inverter specs typically list a surge rating for a short time window.
+          </p>
+          <p class="pill"><strong>Surge headroom</strong> = inverter surge rating − expected surge load</p>
+          <p>
+            If you’re near the limit, the system may trip or fail to start the device reliably.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Step 3: Check battery-side current draw</h2>
+          <p>
+            Inverters draw significant current from the battery, especially at lower system voltages. A rough estimate:
+          </p>
+          <p class="pill"><strong>Battery amps</strong> ≈ AC watts ÷ (battery volts × efficiency)</p>
+          <p>
+            Example: 1,000W ÷ (12V × 0.9) ≈ 93A. High currents impact wiring size, fusing, and heat.
+          </p>
+          <div class="related">
+            <a class="text-link" href="battery-capacity.html">Battery capacity calculator</a>
+            <a class="text-link" href="solar-components.html">Components overview</a>
+          </div>
+        </article>
+
+        <div class="ad-slot">Ad slot</div>
+
+        <article class="article-card">
+          <h2>Step 4: Choose inverter type and waveform</h2>
+          <p>
+            For many off-grid and RV use cases, waveform matters for compatibility.
+          </p>
+          <div class="related">
+            <a class="text-link" href="pure-sine-vs-modified-sine-inverter.html">Pure sine vs modified sine wave</a>
+            <a class="text-link" href="micro-vs-string-inverters.html">Micro vs string inverters (grid-tied)</a>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <h2>Common sizing examples (quick ranges)</h2>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Use case</th>
+                  <th>Typical inverter size</th>
+                  <th>Common notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Charging + small appliances</td>
+                  <td>300–800W</td>
+                  <td>Lower surge needs</td>
+                </tr>
+                <tr>
+                  <td>Microwave / mixed RV loads</td>
+                  <td>1,000–2,000W</td>
+                  <td>Surge and wiring matter</td>
+                </tr>
+                <tr>
+                  <td>Heavy loads</td>
+                  <td>2,000–4,000W+</td>
+                  <td>Battery bank and voltage become critical</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <h2>FAQ</h2>
+          <div class="faq">
+            <div>
+              <h4>What happens if my inverter is too small?</h4>
+              <p>It may trip under load, fail to start surge devices, or run hot near its limit.</p>
+            </div>
+            <div>
+              <h4>Is a bigger inverter always better?</h4>
+              <p>No. Bigger units cost more and can waste energy at idle. Size to realistic peak and surge needs.</p>
+            </div>
+            <div>
+              <h4>Does inverter size change battery size?</h4>
+              <p>Indirectly. Higher AC loads require more battery energy, and inverter losses add to demand.</p>
+            </div>
+            <div>
+              <h4>Should I choose pure sine wave for solar?</h4>
+              <p>If you run a mix of electronics and appliances, pure sine wave is usually the safest default.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <h2>Next logical reads</h2>
+          <div class="related">
+            <a class="text-link" href="pure-sine-vs-modified-sine-inverter.html">Pure sine vs modified sine wave</a>
+            <a class="text-link" href="inverter-keeps-shutting-off-troubleshooting.html">Inverter keeps shutting off (troubleshooting)</a>
+            <a class="text-link" href="rv-solar-sizing.html">RV solar sizing guide</a>
+            <a class="text-link" href="solar-system-sizing.html">How to size a solar system</a>
+            <a class="text-link" href="solar-system-costs.html">Solar system cost breakdown</a>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
+

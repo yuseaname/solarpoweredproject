@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Battery Capacity Calculator for Solar Systems</title>
+    <meta name="description" content="Calculate battery capacity based on daily energy use and desired backup time. Includes a simple sizing formula." />
+    <link rel="stylesheet" href="../styles.css" />
+    <script
+      src="https://app.rybbit.io/api/script.js"
+      data-site-id="afb6050c297b"
+      defer
+    ></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html"><span>Solar</span><span class="logo-accent">Guide</span></a>
+        <nav class="nav">
+          <a href="solar-system-sizing.html">Sizing</a>
+          <a href="solar-components.html">Components</a>
+          <a href="solar-system-costs.html">Costs</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="article-hero">
+        <p class="eyebrow">Calculator</p>
+        <h1 class="article-title">Battery capacity calculator</h1>
+        <p class="lede">Estimate the battery storage you need based on daily load and backup time.</p>
+        <p class="article-meta">Adjust for depth of discharge and system voltage.</p>
+      </section>
+
+      <div class="article-grid">
+        <article class="article-card">
+          <h2>Formula</h2>
+          <p><strong>Battery Wh</strong> = Daily Wh × Days of autonomy ÷ Depth of discharge</p>
+          <p class="pill">Example: 2,000Wh × 1 day ÷ 0.8 = 2,500Wh</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Tips</h2>
+          <ul>
+            <li>Li-ion often supports deeper discharge than lead-acid.</li>
+            <li>Factor in inverter efficiency for AC loads.</li>
+            <li>Size for critical loads first.</li>
+          </ul>
+        </article>
+
+        <div class="ad-slot">Ad slot</div>
+
+        <article class="article-card">
+          <h2>Next logical reads</h2>
+          <div class="related">
+            <a class="text-link" href="solar-system-sizing.html">Sizing guide</a>
+            <a class="text-link" href="li-ion-vs-lead-acid.html">Li-ion vs lead-acid</a>
+            <a class="text-link" href="solar-system-costs.html">Cost breakdown</a>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Solar Battery Not Charging: Troubleshooting Checklist (MPPT, Wiring, Loads)</title>
+    <meta
+      name="description"
+      content="Solar battery not charging? Use this safe checklist to narrow the cause: sunlight vs shading, charge controller status, battery state, wiring/protection, and load vs charge balance."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="https://app.rybbit.io/api/script.js" data-site-id="afb6050c297b" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html"><span>Solar</span><span class="logo-accent">Guide</span></a>
+        <nav class="nav">
+          <a href="solar-maintenance.html">Maintenance</a>
+          <a href="solar-components.html">Components</a>
+          <a href="solar-system-sizing.html">Sizing</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="article-hero">
+        <p class="eyebrow">Troubleshooting</p>
+        <h1 class="article-title">Solar battery not charging (troubleshooting checklist)</h1>
+        <p class="lede">
+          When a battery “won’t charge,” the fastest path is to stop guessing and separate three possibilities: <strong>not enough solar</strong>,
+          <strong>controller behavior that’s normal</strong>, or <strong>a real wiring/battery issue</strong>. This checklist helps you do that safely.
+        </p>
+        <p class="article-meta">Informational only. High-current DC and batteries can be hazardous—follow manufacturer guidance and local codes. If you smell burning, see melted insulation, or aren’t sure what you’re looking at, stop and contact a qualified professional.</p>
+      </section>
+
+      <div class="article-grid">
+        <article class="article-card">
+          <h2>Table of contents</h2>
+          <div class="toc">
+            <a class="text-link" href="#takeaways">Key takeaways</a>
+            <a class="text-link" href="#before">Before you troubleshoot: what “not charging” really means</a>
+            <a class="text-link" href="#step1">Step 1: Rule out “normal low input” (weather, season, shading)</a>
+            <a class="text-link" href="#step2">Step 2: Check the controller status (bulk/absorption/float)</a>
+            <a class="text-link" href="#step3">Step 3: Confirm the battery isn’t already full (or limited by BMS)</a>
+            <a class="text-link" href="#step4">Step 4: Compare charge current vs load (net charging)</a>
+            <a class="text-link" href="#step5">Step 5: Inspect wiring, fuses/breakers, and connections</a>
+            <a class="text-link" href="#mistakes">Common mistakes</a>
+            <a class="text-link" href="#faq">FAQ</a>
+            <a class="text-link" href="#next">Next logical reads</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="takeaways">
+          <h2>Key takeaways</h2>
+          <ul>
+            <li>“Not charging” is often <strong>low solar input</strong> (clouds, winter sun angle, new shading) rather than a failed component.</li>
+            <li>Charge controllers may show <strong>little or no current</strong> when the battery is already near full (float/maintenance behavior).</li>
+            <li>Many “charging problems” are actually <strong>net load problems</strong>: the system is producing power, but loads are consuming it.</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="solar-maintenance.html">Solar maintenance checklist</a>
+            <a class="text-link" href="solar-output-troubleshooting.html">Low solar output troubleshooting</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="before">
+          <h2>Before you troubleshoot: what “not charging” really means</h2>
+          <p>
+            You’re the hero here: you want a system that’s predictable. The plan is to define the symptom precisely.
+          </p>
+          <ul>
+            <li><strong>No charging current</strong> on the controller display/app</li>
+            <li><strong>Battery percentage</strong> or voltage not increasing over time</li>
+            <li><strong>Loads shutting down</strong> due to low voltage even on sunny days</li>
+          </ul>
+          <p class="article-meta">
+            If possible, write down the time of day, weather, and what loads were on. That context often explains the result.
+          </p>
+          <figure>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/8/85/UT61D_digital_multimeter_front.jpg"
+              alt="A digital multimeter, often used to verify battery voltage and basic electrical measurements during troubleshooting."
+              loading="lazy"
+              width="640"
+              height="427"
+            />
+            <figcaption class="article-meta">
+              Image: Anselm Schüler, CC BY-SA 4.0 — Source:
+              <a class="text-link" href="https://commons.wikimedia.org/wiki/File:UT61D_digital_multimeter_front.jpg">Wikimedia Commons</a>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="article-card" id="step1">
+          <h2>Step 1: Rule out “normal low input” (weather, season, shading)</h2>
+          <p>
+            Batteries charge when solar input exceeds loads. On cloudy days (or in winter), your panels may be producing far less than you’re used to.
+          </p>
+          <ul>
+            <li><strong>Compare to the same season</strong>, not summer peak output.</li>
+            <li><strong>Check for new shading</strong> (trees grow, sun path changes, snow cover).</li>
+            <li><strong>Confirm expectations</strong> using a quick estimate.</li>
+          </ul>
+          <p class="pill"><strong>Expected daily Wh</strong> ≈ Panel watts × Peak sun hours × Efficiency</p>
+          <div class="related">
+            <a class="text-link" href="solar-panel-output.html">Solar panel output calculator</a>
+            <a class="text-link" href="solar-basics.html">Solar power basics</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="step2">
+          <h2>Step 2: Check the controller status (bulk/absorption/float)</h2>
+          <p>
+            Many controllers reduce current on purpose as the battery approaches full. That can look like “not charging” when it’s actually
+            <strong>normal float behavior</strong>.
+          </p>
+          <h3>Look for the charging stage</h3>
+          <ul>
+            <li><strong>Bulk:</strong> high current (when available) while the battery is low</li>
+            <li><strong>Absorption:</strong> current tapers as voltage is held near the target</li>
+            <li><strong>Float:</strong> maintenance level once the battery is near full</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="mppt-vs-pwm.html">MPPT vs PWM charge controllers</a>
+            <a class="text-link" href="mppt-charge-controller-not-charging.html">MPPT not charging? (checklist)</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="step3">
+          <h2>Step 3: Confirm the battery isn’t already full (or limited by BMS)</h2>
+          <p>
+            A battery can “refuse charge” for reasons that are protective rather than broken.
+          </p>
+          <ul>
+            <li><strong>Battery already near full:</strong> the controller will reduce current.</li>
+            <li><strong>Cold-temperature limits:</strong> many lithium batteries restrict charging when cold.</li>
+            <li><strong>BMS protection:</strong> the battery may limit current or disconnect charging under certain conditions.</li>
+          </ul>
+          <p class="article-meta">
+            The safest approach is to use your battery manufacturer’s documentation and app (if available) rather than guessing.
+          </p>
+          <div class="related">
+            <a class="text-link" href="li-ion-vs-lead-acid.html">Li-ion vs lead-acid batteries</a>
+            <a class="text-link" href="battery-capacity.html">Battery capacity calculator</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="step4">
+          <h2>Step 4: Compare charge current vs load (net charging)</h2>
+          <p>
+            If loads are high, the battery may not rise even with solar present. This shows up as “controller says charging, battery stays flat.”
+          </p>
+          <ul>
+            <li>If possible, <strong>turn off non-critical loads</strong> briefly and see whether net charge changes.</li>
+            <li>Check whether a new load was added (space heater, fridge mode change, pumps, battery charger).</li>
+            <li>Verify inverter idle draw if you’re off-grid.</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="solar-inverter-sizing.html">Inverter sizing (battery draw basics)</a>
+            <a class="text-link" href="inverter-keeps-shutting-off-troubleshooting.html">Inverter keeps shutting off (troubleshooting)</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="step5">
+          <h2>Step 5: Inspect wiring, fuses/breakers, and connections</h2>
+          <p>
+            A loose connection can behave like a resistor: it limits current and creates heat. This is where you should be conservative: if you see
+            discoloration, melted insulation, or hot terminals, stop.
+          </p>
+          <ul>
+            <li><strong>Look for obvious issues:</strong> loose lugs, corrosion, damaged insulation, tripped breakers.</li>
+            <li><strong>Verify DC ratings:</strong> protection devices should be DC-rated for your voltage.</li>
+            <li><strong>Check the “highest-current run”:</strong> battery-to-inverter cabling (if you have an inverter).</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="wiring-decisions.html">Solar wiring decisions (hub)</a>
+            <a class="text-link" href="solar-fuse-and-breaker-sizing.html">Solar fuse and breaker sizing</a>
+            <a class="text-link" href="battery-cable-size-for-inverter.html">Battery cable size for inverters</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="mistakes">
+          <h2>Common mistakes (and what they look like)</h2>
+          <ul>
+            <li><strong>Assuming the controller is broken on cloudy days:</strong> low input is the most common “cause.”</li>
+            <li><strong>Ignoring charging stage:</strong> float/absorption taper can look like “no charge.”</li>
+            <li><strong>Chasing battery percentage only:</strong> look at trends over time with the same loads and conditions.</li>
+            <li><strong>Oversizing loads without resizing the system:</strong> net load overwhelms net charge.</li>
+            <li><strong>Reusing non-DC-rated protection hardware:</strong> creates real safety risk.</li>
+          </ul>
+        </article>
+
+        <article class="article-card" id="faq">
+          <h2>FAQ</h2>
+          <div class="faq">
+            <div>
+              <h4>Why is my solar battery not charging during the day?</h4>
+              <p>Common causes include low sun input (weather/season/shading), a battery that’s already near full (float), high loads consuming the charge, or wiring/protection issues limiting current.</p>
+            </div>
+            <div>
+              <h4>How do I tell if my charge controller is working?</h4>
+              <p>Look for PV input readings, charging stage indicators, and whether battery voltage/current changes when conditions and loads change. Use the controller’s manual/app indicators as the primary reference.</p>
+            </div>
+            <div>
+              <h4>Can a full battery look like “not charging”?</h4>
+              <p>Yes. In float mode the controller may show low current because it’s only maintaining charge.</p>
+            </div>
+            <div>
+              <h4>Why does charging stop when it’s cold?</h4>
+              <p>Many lithium batteries limit charging at low temperatures to avoid damage. This can appear as zero charge current until the battery warms.</p>
+            </div>
+            <div>
+              <h4>When should I call a professional?</h4>
+              <p>If you see heat damage, smell burning, find melted insulation, or can’t verify DC ratings and safe isolation points, stop and contact a qualified professional.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-card" id="next">
+          <h2>Next logical reads</h2>
+          <div class="related">
+            <a class="text-link" href="solar-output-troubleshooting.html">Low solar output troubleshooting</a>
+            <a class="text-link" href="mppt-charge-controller-not-charging.html">MPPT not charging? (checklist)</a>
+            <a class="text-link" href="inverter-keeps-shutting-off-troubleshooting.html">Inverter keeps shutting off (troubleshooting)</a>
+            <a class="text-link" href="solar-maintenance.html">Solar maintenance checklist</a>
+            <a class="text-link" href="solar-system-sizing.html">How to size a solar system</a>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
