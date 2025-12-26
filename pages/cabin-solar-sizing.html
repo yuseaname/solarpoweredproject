@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>How to Size a Solar System for a Cabin (Panels, Battery, Inverter)</title>
+    <meta
+      name="description"
+      content="Step-by-step off-grid cabin solar sizing: estimate daily watt-hours, size battery capacity for autonomy, choose panel watts for sun hours, and pick inverter power."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html"><span>Solar</span><span class="logo-accent">Guide</span></a>
+        <nav class="nav">
+          <a href="solar-use-cases.html">Use cases</a>
+          <a href="solar-system-sizing.html">Sizing</a>
+          <a href="solar-system-costs.html">Costs</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="article-hero">
+        <p class="eyebrow">Use case: Cabin</p>
+        <h1 class="article-title">How to size a solar system for a cabin</h1>
+        <p class="lede">
+          If you’re powering a cabin, your goal is simple: cover your real daily energy use and still have enough reserve for cloudy days or short winter
+          sun. This guide gives you a practical sizing process so you can plan confidently before you buy hardware.
+        </p>
+        <p class="article-meta">Informational only. Follow local electrical codes and manufacturer requirements.</p>
+      </section>
+
+      <div class="article-grid">
+        <article class="article-card">
+          <h2>Table of contents</h2>
+          <div class="toc">
+            <a class="text-link" href="#what-you-are-sizing">What you’re sizing</a>
+            <a class="text-link" href="#step-1-load">Step 1: Daily energy use</a>
+            <a class="text-link" href="#step-2-battery">Step 2: Battery capacity</a>
+            <a class="text-link" href="#step-3-panels">Step 3: Panel watts</a>
+            <a class="text-link" href="#step-4-inverter">Step 4: Inverter sizing</a>
+            <a class="text-link" href="#step-5-voltage">Step 5: System voltage</a>
+            <a class="text-link" href="#mistakes">Common mistakes</a>
+            <a class="text-link" href="#faq">FAQ</a>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <h2 id="what-you-are-sizing">What you’re sizing (and why cabins are different)</h2>
+          <p>
+            Most cabin solar systems are off-grid or “mostly off-grid,” which means you’re sizing for both <strong>energy</strong> (watt-hours per day)
+            and <strong>power</strong> (peak watts at one moment). Cabins also have two common curveballs:
+          </p>
+          <ul>
+            <li><strong>Seasonality:</strong> winter sun can be dramatically lower than summer in many locations.</li>
+            <li><strong>Occasional heavy loads:</strong> tools, pumps, or a microwave can spike peak power even if daily energy is modest.</li>
+          </ul>
+          <figure>
+            <img
+              src="../assets/images/log-cabin.jpg"
+              alt="A log cabin building with a sod roof, representing a typical cabin use case for off-grid power planning."
+              loading="lazy"
+              width="1338"
+              height="734"
+            />
+            <figcaption class="article-meta">
+              Image: “Norskfolkemuseum 1” by Kjetil Bjørnsrud, CC BY-SA 3.0 — Source:
+              <a class="text-link" href="https://commons.wikimedia.org/wiki/File:Norskfolkemuseum_1.jpg">Wikimedia Commons</a>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="article-card">
+          <h2 id="step-1-load">Step 1: Estimate your cabin’s daily energy use (Wh/day)</h2>
+          <p>
+            You don’t need perfect numbers to start. You need a realistic list of what you’ll run on a normal day, and roughly how long you’ll run it.
+          </p>
+          <p class="pill"><strong>Watt-hours (Wh)</strong> = Watts × Hours per day</p>
+          <h3>A quick cabin load list (common categories)</h3>
+          <ul>
+            <li>Lighting (LEDs)</li>
+            <li>Water pump</li>
+            <li>Phone/laptop charging</li>
+            <li>Refrigeration (often the biggest daily energy draw)</li>
+            <li>Fans or small heater loads (season-dependent)</li>
+            <li>Occasional tools (higher peak watts; not always high daily Wh)</li>
+          </ul>
+          <p>
+            If you want a fast baseline, start with “critical loads only” and expand later. You’ll make better choices when you size for what you truly
+            need, not everything you might want.
+          </p>
+          <div class="related">
+            <a class="text-link" href="solar-system-sizing.html">System sizing overview</a>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <h2 id="step-2-battery">Step 2: Choose autonomy and size battery capacity</h2>
+          <p>
+            Autonomy is how long you can run without meaningful solar input. Many cabin setups aim for <strong>1–2 days</strong> of autonomy, then adjust
+            based on weather patterns and how often the cabin is occupied.
+          </p>
+          <p class="pill"><strong>Battery Wh</strong> ≈ Daily Wh × Days of autonomy ÷ DoD</p>
+          <p>
+            DoD (depth of discharge) is how much of the battery you plan to use regularly. Using a more conservative DoD can improve longevity.
+          </p>
+          <div class="related">
+            <a class="text-link" href="battery-capacity.html">Battery capacity calculator</a>
+            <a class="text-link" href="solar-battery-cost-per-kwh.html">Battery cost per kWh</a>
+            <a class="text-link" href="li-ion-vs-lead-acid.html">Li-ion vs lead-acid</a>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <h2 id="step-3-panels">Step 3: Size solar panels to refill the battery each day</h2>
+          <p>
+            Panel sizing is about replacing what you use daily (plus losses). The most common sizing error for cabins is using “best case summer sun” when
+            you actually need a system that works in shoulder seasons or winter.
+          </p>
+          <p class="pill"><strong>Panel watts</strong> ≈ Daily Wh ÷ Peak sun hours ÷ Efficiency</p>
+          <p>Use an efficiency factor like <strong>0.75–0.85</strong> for real-world losses.</p>
+          <figure>
+            <img
+              src="../assets/images/solar-panel-array.jpg"
+              alt="An aerial view of a large solar panel array, representing how solar panels generate energy from sunlight."
+              loading="lazy"
+              width="1400"
+              height="788"
+            />
+            <figcaption class="article-meta">
+              Image: “Dji fly 20230602 … solar array” by Wikipedeon, CC BY-SA 4.0 — Source:
+              <a class="text-link" href="https://commons.wikimedia.org/wiki/File:Dji_fly_20230602_13826_PM_27_1719032149374_photo_optimized.jpg"
+                >Wikimedia Commons</a
+              >
+            </figcaption>
+          </figure>
+          <div class="related">
+            <a class="text-link" href="solar-panel-output.html">Solar panel output calculator</a>
+            <a class="text-link" href="mppt-vs-pwm.html">MPPT vs PWM (controller choice)</a>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <h2 id="step-4-inverter">Step 4: Size the inverter (continuous + surge)</h2>
+          <p>
+            Your inverter needs to handle your maximum simultaneous AC watts, plus starting surges for some devices (motors, compressors). Oversizing can
+            increase idle losses, so aim for a realistic peak.
+          </p>
+          <div class="related">
+            <a class="text-link" href="solar-inverter-sizing.html">How to size an inverter</a>
+            <a class="text-link" href="pure-sine-vs-modified-sine-inverter.html">Pure sine vs modified sine</a>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <h2 id="step-5-voltage">Step 5: Pick a system voltage that fits your power level</h2>
+          <p>
+            Voltage choice affects current, cable thickness, and how easy it is to scale. If your cabin system will run higher power loads or longer
+            cable runs, higher voltage can simplify the build.
+          </p>
+          <div class="related">
+            <a class="text-link" href="12v-vs-24v-vs-48v-solar.html">12V vs 24V vs 48V comparison</a>
+            <a class="text-link" href="how-to-choose-solar-system-voltage.html">How to choose system voltage</a>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <h2 id="mistakes">Common cabin sizing mistakes (and how to avoid them)</h2>
+          <ul>
+            <li><strong>Using summer-only assumptions:</strong> if you use the cabin in winter, plan for lower sun.</li>
+            <li><strong>Sizing the inverter “just in case”:</strong> peak watts drives wiring and battery stress.</li>
+            <li><strong>Skipping autonomy planning:</strong> batteries are expensive; decide the reserve you actually need.</li>
+            <li><strong>Forgetting losses:</strong> controller and inverter losses reduce usable energy.</li>
+          </ul>
+        </article>
+
+        <article class="article-card">
+          <h2 id="faq">FAQ</h2>
+          <div class="faq">
+            <div>
+              <h4>How many solar panels do I need for a cabin?</h4>
+              <p>Estimate daily Wh, then divide by peak sun hours and an efficiency factor to get required panel watts.</p>
+            </div>
+            <div>
+              <h4>What’s the best battery size for a cabin?</h4>
+              <p>Battery size depends on daily Wh and autonomy. Start with 1–2 days, then adjust for your weather and use pattern.</p>
+            </div>
+            <div>
+              <h4>Is 24V better than 12V for a cabin?</h4>
+              <p>Often, yes for higher-power setups because current is lower. For small systems, 12V can be simpler.</p>
+            </div>
+            <div>
+              <h4>What if I only use the cabin on weekends?</h4>
+              <p>You can size for weekend loads and let solar recharge during the week. That can reduce battery and panel requirements.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <h2>Next logical reads</h2>
+          <div class="related">
+            <a class="text-link" href="cabin-solar-cost.html">Off-grid cabin solar cost breakdown</a>
+            <a class="text-link" href="cabin-solar-vs-generator.html">Solar vs generator for an off-grid cabin</a>
+            <a class="text-link" href="solar-use-cases.html">More solar use cases</a>
+            <a class="text-link" href="solar-system-costs.html">Solar system cost breakdown (general)</a>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
+
