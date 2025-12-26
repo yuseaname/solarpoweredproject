@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Replace SITE_URL with your deployed canonical base URL.
+  Examples:
+  - https://example.com
+  - https://example.com/solarpoweredproject
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>SITE_URL/</loc>
+  </url>
+  <url>
+    <loc>SITE_URL/index.html</loc>
+  </url>
+  <url><loc>SITE_URL/pages/12v-vs-24v-vs-48v-solar.html</loc></url>
+  <url><loc>SITE_URL/pages/battery-capacity.html</loc></url>
+  <url><loc>SITE_URL/pages/cabin-solar-cost.html</loc></url>
+  <url><loc>SITE_URL/pages/cabin-solar-sizing.html</loc></url>
+  <url><loc>SITE_URL/pages/cabin-solar-vs-generator.html</loc></url>
+  <url><loc>SITE_URL/pages/diy-vs-installer.html</loc></url>
+  <url><loc>SITE_URL/pages/editorial-policy.html</loc></url>
+  <url><loc>SITE_URL/pages/how-to-choose-solar-system-voltage.html</loc></url>
+  <url><loc>SITE_URL/pages/li-ion-vs-lead-acid.html</loc></url>
+  <url><loc>SITE_URL/pages/micro-vs-string-inverters.html</loc></url>
+  <url><loc>SITE_URL/pages/mppt-charge-controller-cost.html</loc></url>
+  <url><loc>SITE_URL/pages/mppt-vs-pwm.html</loc></url>
+  <url><loc>SITE_URL/pages/privacy.html</loc></url>
+  <url><loc>SITE_URL/pages/pure-sine-vs-modified-sine-inverter.html</loc></url>
+  <url><loc>SITE_URL/pages/rv-solar-cost.html</loc></url>
+  <url><loc>SITE_URL/pages/rv-solar-sizing.html</loc></url>
+  <url><loc>SITE_URL/pages/solar-basics.html</loc></url>
+  <url><loc>SITE_URL/pages/solar-battery-cost-per-kwh.html</loc></url>
+  <url><loc>SITE_URL/pages/solar-components.html</loc></url>
+  <url><loc>SITE_URL/pages/solar-fuses-vs-breakers.html</loc></url>
+  <url><loc>SITE_URL/pages/solar-inverter-cost.html</loc></url>
+  <url><loc>SITE_URL/pages/solar-inverter-sizing.html</loc></url>
+  <url><loc>SITE_URL/pages/solar-maintenance.html</loc></url>
+  <url><loc>SITE_URL/pages/solar-output-troubleshooting.html</loc></url>
+  <url><loc>SITE_URL/pages/solar-panel-cleaning-cost.html</loc></url>
+  <url><loc>SITE_URL/pages/solar-panel-cost-per-watt.html</loc></url>
+  <url><loc>SITE_URL/pages/solar-panel-output.html</loc></url>
+  <url><loc>SITE_URL/pages/solar-panels-series-vs-parallel.html</loc></url>
+  <url><loc>SITE_URL/pages/solar-system-costs.html</loc></url>
+  <url><loc>SITE_URL/pages/solar-system-sizing.html</loc></url>
+  <url><loc>SITE_URL/pages/solar-use-cases.html</loc></url>
+  <url><loc>SITE_URL/pages/solar-wire-size.html</loc></url>
+  <url><loc>SITE_URL/pages/solar-wiring-and-protection-cost.html</loc></url>
+  <url><loc>SITE_URL/pages/terms.html</loc></url>
+  <url><loc>SITE_URL/pages/wiring-decisions.html</loc></url>
+</urlset>
