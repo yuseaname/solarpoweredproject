@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Inverter Keeps Shutting Off: Troubleshooting (Overload, Low Voltage, Heat)</title>
+    <meta
+      name="description"
+      content="Inverter keeps shutting off? Use this safe checklist to identify overload/surge, low battery voltage, voltage drop from cables, overheating, and settings issues—plus the next logical fixes."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="https://app.rybbit.io/api/script.js" data-site-id="afb6050c297b" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html"><span>Solar</span><span class="logo-accent">Guide</span></a>
+        <nav class="nav">
+          <a href="solar-inverter-sizing.html">Inverters</a>
+          <a href="solar-maintenance.html">Maintenance</a>
+          <a href="wiring-decisions.html">Wiring</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="article-hero">
+        <p class="eyebrow">Troubleshooting</p>
+        <h1 class="article-title">Inverter keeps shutting off (troubleshooting checklist)</h1>
+        <p class="lede">
+          When an inverter shuts off, it’s usually protecting itself. Your job is to identify <em>which protection</em> is triggering:
+          overload/surge, low voltage, overheating, or a wiring/connection issue that makes a healthy battery look “low” under load.
+        </p>
+        <p class="article-meta">Informational only. High-current DC can be hazardous—follow manufacturer guidance and local codes. If you’re not able to safely isolate circuits, stop and contact a qualified professional.</p>
+      </section>
+
+      <div class="article-grid">
+        <article class="article-card">
+          <h2>Table of contents</h2>
+          <div class="toc">
+            <a class="text-link" href="#takeaways">Key takeaways</a>
+            <a class="text-link" href="#first">First: capture the shutdown clue</a>
+            <a class="text-link" href="#overload">Cause 1: overload or surge start</a>
+            <a class="text-link" href="#lowvoltage">Cause 2: low battery voltage (real) vs voltage drop (wiring)</a>
+            <a class="text-link" href="#heat">Cause 3: overheating / poor airflow</a>
+            <a class="text-link" href="#settings">Cause 4: settings, modes, and cutoffs</a>
+            <a class="text-link" href="#mistakes">Common mistakes</a>
+            <a class="text-link" href="#faq">FAQ</a>
+            <a class="text-link" href="#next">Next logical reads</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="takeaways">
+          <h2>Key takeaways</h2>
+          <ul>
+            <li>Most inverter shutdowns are caused by <strong>overload/surge</strong> or <strong>low voltage under load</strong>.</li>
+            <li>Low voltage shutdown can be a <strong>battery problem</strong> or a <strong>cabling/termination voltage-drop problem</strong>.</li>
+            <li>Use the inverter’s alarm code/status as your compass—don’t change multiple things at once.</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="solar-inverter-sizing.html">How to size an inverter (watts, surge, draw)</a>
+            <a class="text-link" href="battery-cable-size-for-inverter.html">Battery cable size for inverters</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="first">
+          <h2>First: capture the shutdown clue</h2>
+          <p>
+            Before you “fix” anything, get one data point:
+          </p>
+          <ul>
+            <li>What does the inverter say? (fault code, LED pattern, app message)</li>
+            <li>What load was running at shutdown? (microwave, pump, compressor, power tool)</li>
+            <li>Did it shut off instantly (surge) or after minutes (heat)?</li>
+          </ul>
+          <p class="article-meta">If your inverter has a history log, that’s often the fastest answer.</p>
+          <figure>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Inverter_CJC01.jpg"
+              alt="A small portable DC-to-AC power inverter, similar to the devices used in RV and off-grid systems."
+              loading="lazy"
+              width="640"
+              height="459"
+            />
+            <figcaption class="article-meta">
+              Image: C J Cowie, CC BY-SA 3.0 — Source:
+              <a class="text-link" href="https://commons.wikimedia.org/wiki/File:Inverter_CJC01.jpg">Wikimedia Commons</a>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="article-card" id="overload">
+          <h2>Cause 1: overload or surge start</h2>
+          <p>
+            If the inverter shuts off when a device starts (fridge compressor, pump, microwave), suspect surge. If it shuts off when several things run
+            together, suspect overload.
+          </p>
+          <h3>What to do (safe checks)</h3>
+          <ul>
+            <li>Try the same load with <strong>everything else off</strong>.</li>
+            <li>Test a <strong>smaller load</strong> (lights, phone charger) to confirm the inverter can run at all.</li>
+            <li>Check whether the load is actually larger than expected (some appliances have higher start current than the label suggests).</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="solar-inverter-sizing.html">Inverter sizing guide</a>
+            <a class="text-link" href="pure-sine-vs-modified-sine-inverter.html">Pure sine vs modified sine (compatibility)</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="lowvoltage">
+          <h2>Cause 2: low battery voltage (real) vs voltage drop (wiring)</h2>
+          <p>
+            This is the most common “mystery” shutdown: the battery reads fine at rest, but the inverter trips low voltage under load.
+          </p>
+
+          <h3>Scenario A: the battery is actually low</h3>
+          <ul>
+            <li>Battery was discharged overnight and hasn’t recovered yet.</li>
+            <li>Solar input is low (clouds, shade, winter sun angle).</li>
+            <li>Battery capacity is smaller than the loads demand.</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="battery-capacity.html">Battery capacity calculator</a>
+            <a class="text-link" href="solar-battery-not-charging-troubleshooting.html">Solar battery not charging (checklist)</a>
+          </div>
+
+          <h3>Scenario B: the wiring is causing voltage drop</h3>
+          <p>
+            High current at 12V (and sometimes 24V) punishes long battery cable runs and marginal lugs. The inverter “sees” the sag and protects itself.
+          </p>
+          <ul>
+            <li>Long battery-to-inverter cable run</li>
+            <li>Undersized cable or incompatible terminals</li>
+            <li>Loose or corroded connections (heat is a warning sign)</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="battery-cable-size-for-inverter.html">Battery cable size for inverters</a>
+            <a class="text-link" href="solar-wire-size.html">Solar wire size</a>
+            <a class="text-link" href="solar-fuse-and-breaker-sizing.html">Fuse and breaker sizing</a>
+          </div>
+
+          <h3>System-voltage reality check</h3>
+          <p>
+            If you’re pushing a lot of power through a 12V inverter, shutdowns can be a design signal. Higher system voltage usually reduces current and
+            makes stable performance easier.
+          </p>
+          <div class="related">
+            <a class="text-link" href="how-to-choose-solar-system-voltage.html">How to choose solar system voltage</a>
+            <a class="text-link" href="12v-vs-24v-vs-48v-solar.html">12V vs 24V vs 48V</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="heat">
+          <h2>Cause 3: overheating / poor airflow</h2>
+          <p>
+            If shutdown happens after minutes (especially at higher loads), suspect temperature. Inverters need airflow, and some compartments heat up far
+            more than expected.
+          </p>
+          <ul>
+            <li>Check ventilation and clearance around the inverter.</li>
+            <li>Look for dust buildup on vents and fans.</li>
+            <li>Confirm the inverter is not mounted near a heat source.</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="solar-maintenance.html">Solar maintenance checklist</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="settings">
+          <h2>Cause 4: settings, modes, and cutoffs</h2>
+          <p>
+            Some inverters have configurable low-voltage cutoffs or eco/search modes. A mismatch between your battery type and settings can create
+            confusing behavior.
+          </p>
+          <ul>
+            <li>Confirm battery type (lead-acid vs lithium) and recommended cutoffs.</li>
+            <li>Check eco/search mode if small loads cause “cycling.”</li>
+            <li>Verify any external remote switch or wiring isn’t intermittently disconnecting.</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="li-ion-vs-lead-acid.html">Li-ion vs lead-acid batteries</a>
+            <a class="text-link" href="solar-components.html">Solar components explained</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="mistakes">
+          <h2>Common mistakes</h2>
+          <ul>
+            <li><strong>Upsizing the inverter to solve wiring:</strong> bigger inverters often increase battery current and make the real problem worse.</li>
+            <li><strong>Ignoring terminations:</strong> heat at lugs/bus bars is a serious clue.</li>
+            <li><strong>Blaming solar production first:</strong> many shutdowns happen even with full sun if the battery-side path is weak.</li>
+            <li><strong>Changing multiple settings at once:</strong> you lose the signal of what actually fixed it.</li>
+          </ul>
+        </article>
+
+        <article class="article-card" id="faq">
+          <h2>FAQ</h2>
+          <div class="faq">
+            <div>
+              <h4>Why does my inverter shut off when I start the microwave?</h4>
+              <p>Microwaves can create a surge and high continuous draw. If the inverter is near its surge limit, or the battery voltage sags under load due to cables/terminals, it may shut down to protect itself.</p>
+            </div>
+            <div>
+              <h4>Battery voltage looks fine—why does the inverter say low voltage?</h4>
+              <p>Voltage at rest can look normal. Under load, current increases and voltage can sag. That sag can be caused by a low battery, undersized cables, long runs, or bad terminations.</p>
+            </div>
+            <div>
+              <h4>Is inverter shutdown dangerous?</h4>
+              <p>Shutdown itself is usually protective. But repeated shutdowns can signal overheating, loose connections, or undersized wiring—those can be safety issues worth addressing promptly.</p>
+            </div>
+            <div>
+              <h4>When should I call a professional?</h4>
+              <p>If you see melted insulation, smell burning, find hot terminals, or can’t safely isolate the battery/inverter circuit, stop and contact a qualified professional.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-card" id="next">
+          <h2>Next logical reads</h2>
+          <div class="related">
+            <a class="text-link" href="solar-inverter-sizing.html">Inverter sizing (prevent overload/surge issues)</a>
+            <a class="text-link" href="battery-cable-size-for-inverter.html">Battery cable size for inverters</a>
+            <a class="text-link" href="solar-battery-not-charging-troubleshooting.html">Solar battery not charging</a>
+            <a class="text-link" href="solar-maintenance.html">Solar maintenance checklist</a>
+            <a class="text-link" href="solar-output-troubleshooting.html">Low solar output troubleshooting</a>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

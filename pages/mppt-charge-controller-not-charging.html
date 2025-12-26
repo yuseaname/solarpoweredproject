@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MPPT Charge Controller Not Charging: Troubleshooting Checklist (PV Voltage, Settings)</title>
+    <meta
+      name="description"
+      content="MPPT charge controller not charging? Use this safe checklist to diagnose PV voltage issues, wiring configuration, controller limits, charging stages, settings, and battery protections."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="https://app.rybbit.io/api/script.js" data-site-id="afb6050c297b" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html"><span>Solar</span><span class="logo-accent">Guide</span></a>
+        <nav class="nav">
+          <a href="mppt-vs-pwm.html">Controllers</a>
+          <a href="solar-panels-series-vs-parallel.html">PV wiring</a>
+          <a href="solar-maintenance.html">Maintenance</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="article-hero">
+        <p class="eyebrow">Troubleshooting</p>
+        <h1 class="article-title">MPPT charge controller not charging (troubleshooting checklist)</h1>
+        <p class="lede">
+          MPPT controllers aren’t “magic.” They can only charge when there’s enough usable PV voltage and power available—and when the battery is willing
+          to accept charge. This checklist helps you identify which side is limiting the system.
+        </p>
+        <p class="article-meta">Informational only. PV wiring can be hazardous even when loads are off—follow manufacturer limits and local electrical codes.</p>
+      </section>
+
+      <div class="article-grid">
+        <article class="article-card">
+          <h2>Table of contents</h2>
+          <div class="toc">
+            <a class="text-link" href="#takeaways">Key takeaways</a>
+            <a class="text-link" href="#how-mppt-works">How MPPT “finds” power (one concept)</a>
+            <a class="text-link" href="#step1">Step 1: Confirm PV input exists (sun/shade/soiling)</a>
+            <a class="text-link" href="#step2">Step 2: Confirm PV voltage is high enough</a>
+            <a class="text-link" href="#step3">Step 3: Validate array wiring and controller limits</a>
+            <a class="text-link" href="#step4">Step 4: Check charging stage and settings</a>
+            <a class="text-link" href="#step5">Step 5: Battery protections (BMS, temperature, full battery)</a>
+            <a class="text-link" href="#mistakes">Common mistakes</a>
+            <a class="text-link" href="#faq">FAQ</a>
+            <a class="text-link" href="#next">Next logical reads</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="takeaways">
+          <h2>Key takeaways</h2>
+          <ul>
+            <li>MPPT needs <strong>enough PV voltage headroom</strong> above battery voltage to do its job.</li>
+            <li>“Not charging” is often <strong>normal behavior</strong> (battery full/float) or <strong>low input</strong> (clouds/shade).</li>
+            <li>The fastest fix is usually a wiring/config check: <strong>series vs parallel</strong> and staying within controller limits.</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="mppt-vs-pwm.html">MPPT vs PWM</a>
+            <a class="text-link" href="solar-battery-not-charging-troubleshooting.html">Solar battery not charging</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="how-mppt-works">
+          <h2>How MPPT “finds” power (one concept)</h2>
+          <p>
+            Solar panels have a “sweet spot” where voltage and current combine to produce the most power. MPPT controllers adjust how they draw power so
+            the array operates near that maximum power point.
+          </p>
+          <p class="pill"><strong>Practical implication:</strong> if PV voltage is too low (or input is tiny), there’s no useful point to track.</p>
+          <figure>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/5/53/MaximumPowerPoint.svg"
+              alt="A chart showing the maximum power point on a power-versus-voltage curve, illustrating how MPPT controllers aim to operate panels at the most productive point."
+              loading="lazy"
+              width="640"
+              height="360"
+            />
+            <figcaption class="article-meta">
+              Image: Stündle, Public domain — Source:
+              <a class="text-link" href="https://commons.wikimedia.org/wiki/File:MaximumPowerPoint.svg">Wikimedia Commons</a>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="article-card" id="step1">
+          <h2>Step 1: Confirm PV input exists (sun/shade/soiling)</h2>
+          <p>
+            Start with the obvious because it’s usually correct. If you have a monitoring app, check PV watts across a few minutes.
+          </p>
+          <ul>
+            <li>Weather and seasonality can reduce input dramatically.</li>
+            <li>New shading (trees, vent shadows) can reduce output more than expected.</li>
+            <li>Heavy soiling or snow cover can bring PV watts close to zero.</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="solar-output-troubleshooting.html">Low solar output troubleshooting</a>
+            <a class="text-link" href="solar-panel-cleaning-cost.html">Solar panel cleaning cost</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="step2">
+          <h2>Step 2: Confirm PV voltage is high enough</h2>
+          <p>
+            MPPT controllers typically need PV input voltage above battery voltage (plus internal overhead). If PV voltage collapses (wrong wiring or heavy
+            shade), charging can stop.
+          </p>
+          <ul>
+            <li>If your controller shows PV volts, verify it’s in a reasonable range for your array wiring.</li>
+            <li>If PV volts are near battery volts in bright sun, suspect wiring configuration or a controller/input issue.</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="solar-panels-series-vs-parallel.html">Series vs parallel solar panels</a>
+            <a class="text-link" href="solar-panel-output.html">Solar panel output calculator</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="step3">
+          <h2>Step 3: Validate array wiring and controller limits</h2>
+          <p>
+            Design inside the hard boundaries:
+          </p>
+          <ul>
+            <li><strong>Max PV voltage</strong> (especially in cold weather)</li>
+            <li><strong>Max PV current</strong> and/or maximum PV watts</li>
+            <li><strong>Battery bank voltage</strong> (12V/24V/48V)</li>
+          </ul>
+          <p class="article-meta">
+            If your system is near the limits, “it charged yesterday” doesn’t prove it’s safe today—temperature changes PV voltage.
+          </p>
+          <div class="related">
+            <a class="text-link" href="solar-components.html">Solar components explained</a>
+            <a class="text-link" href="how-to-choose-solar-system-voltage.html">How to choose solar system voltage</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="step4">
+          <h2>Step 4: Check charging stage and settings</h2>
+          <p>
+            Controllers may intentionally limit current in absorption/float, or stop charging if settings don’t match the battery.
+          </p>
+          <ul>
+            <li>Confirm battery type settings (lead-acid vs lithium profiles).</li>
+            <li>Check for scheduled charge windows (some systems support this).</li>
+            <li>Look for error states (overvoltage, overtemp, PV overvoltage, etc.).</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="li-ion-vs-lead-acid.html">Li-ion vs lead-acid (charging behavior differences)</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="step5">
+          <h2>Step 5: Battery protections (BMS, temperature, full battery)</h2>
+          <p>
+            Even with plenty of solar input, the battery may refuse charge under certain conditions.
+          </p>
+          <ul>
+            <li><strong>Battery full:</strong> controller sits in float with low current.</li>
+            <li><strong>Cold battery:</strong> many lithium packs block charging until warmed.</li>
+            <li><strong>BMS events:</strong> battery may limit current or disconnect charging for protection.</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="solar-battery-not-charging-troubleshooting.html">Solar battery not charging (full checklist)</a>
+            <a class="text-link" href="solar-maintenance.html">Solar maintenance checklist</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="mistakes">
+          <h2>Common mistakes</h2>
+          <ul>
+            <li><strong>Using parallel wiring by default:</strong> can keep PV voltage too low for MPPT to charge efficiently in some setups.</li>
+            <li><strong>Ignoring controller voltage limits:</strong> especially risky in cold weather when PV voltage rises.</li>
+            <li><strong>Assuming “zero amps” means broken:</strong> float mode or a full battery can legitimately show low current.</li>
+            <li><strong>Chasing settings before checking PV input:</strong> always confirm sun/shade and PV watts first.</li>
+          </ul>
+        </article>
+
+        <article class="article-card" id="faq">
+          <h2>FAQ</h2>
+          <div class="faq">
+            <div>
+              <h4>Why is my MPPT controller showing PV voltage but zero charge current?</h4>
+              <p>Common reasons include a full battery (float), low PV watts due to clouds/shade, battery protections (BMS/cold), or settings that don’t match the battery.</p>
+            </div>
+            <div>
+              <h4>Does MPPT work with panels wired in parallel?</h4>
+              <p>Often, yes—but the array voltage must be high enough above battery voltage for the controller to convert power effectively. Configuration depends on your panel specs and battery voltage.</p>
+            </div>
+            <div>
+              <h4>Can cold weather stop MPPT charging?</h4>
+              <p>Cold can increase PV voltage (affecting limits) and lithium batteries may prevent charging when cold. Both can change charging behavior.</p>
+            </div>
+            <div>
+              <h4>When should I call a professional?</h4>
+              <p>If you can’t verify PV voltage/current within safe procedures, see repeated faults, or suspect wiring damage, stop and contact a qualified professional.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-card" id="next">
+          <h2>Next logical reads</h2>
+          <div class="related">
+            <a class="text-link" href="mppt-vs-pwm.html">MPPT vs PWM</a>
+            <a class="text-link" href="solar-panels-series-vs-parallel.html">Series vs parallel panels</a>
+            <a class="text-link" href="solar-output-troubleshooting.html">Low solar output troubleshooting</a>
+            <a class="text-link" href="solar-battery-not-charging-troubleshooting.html">Solar battery not charging</a>
+            <a class="text-link" href="solar-system-sizing.html">How to size a solar system</a>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
