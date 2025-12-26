@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MPPT Charge Controller Cost: Typical Prices + How to Budget</title>
+    <meta
+      name="description"
+      content="MPPT charge controller cost explained: typical price ranges, MPPT vs PWM pricing, and practical sizing checks to avoid buying the wrong controller."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html"><span>Solar</span><span class="logo-accent">Guide</span></a>
+        <nav class="nav">
+          <a href="solar-system-costs.html">Costs</a>
+          <a href="mppt-vs-pwm.html">MPPT vs PWM</a>
+          <a href="solar-system-sizing.html">Sizing</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="article-hero">
+        <p class="eyebrow">Cost guide</p>
+        <h1 class="article-title">MPPT charge controller cost</h1>
+        <p class="lede">
+          MPPT controllers usually cost more than PWM controllers, but they can improve real-world energy harvest—especially when panel voltage and battery
+          voltage differ. This guide helps you budget for an MPPT controller and avoid costly sizing mistakes.
+        </p>
+        <p class="article-meta">Informational only. Always verify controller voltage and current limits for your array.</p>
+      </section>
+
+      <div class="article-grid">
+        <article class="article-card">
+          <h2>Table of contents</h2>
+          <div class="toc">
+            <a class="text-link" href="#quick">Quick answer</a>
+            <a class="text-link" href="#mppt-vs-pwm">MPPT vs PWM cost comparison</a>
+            <a class="text-link" href="#drivers">What drives controller cost</a>
+            <a class="text-link" href="#avoid-wrong-size">How to avoid buying the wrong size</a>
+            <a class="text-link" href="#mistakes">Common mistakes</a>
+            <a class="text-link" href="#faq">FAQ</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="quick">
+          <h2>Quick answer: typical MPPT controller price ranges</h2>
+          <p>MPPT controllers often land in a broad band depending on voltage class, current rating, and features.</p>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>MPPT controller class</th>
+                  <th>Typical price range</th>
+                  <th>Common fit</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Small (low amps, basic)</td>
+                  <td>$120–$250</td>
+                  <td>Small RV/cabin starter systems</td>
+                </tr>
+                <tr>
+                  <td>Mid-range</td>
+                  <td>$250–$600</td>
+                  <td>Moderate off-grid systems</td>
+                </tr>
+                <tr>
+                  <td>Higher-end / higher voltage</td>
+                  <td>$600–$1,200+</td>
+                  <td>Larger arrays, higher voltage input limits</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="article-meta">
+            If you’re building a full budget, anchor it here:
+            <a class="text-link" href="solar-system-costs.html">solar system cost breakdown</a>.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2 id="mppt-vs-pwm">MPPT vs PWM cost comparison</h2>
+          <p>
+            PWM controllers are cheaper and simpler. MPPT controllers cost more but can convert higher panel voltage more effectively and often improve
+            harvest in mixed conditions.
+          </p>
+          <div class="related">
+            <a class="text-link" href="mppt-vs-pwm.html">MPPT vs PWM (full comparison)</a>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Factor</th>
+                  <th>MPPT</th>
+                  <th>PWM</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Typical price</td>
+                  <td>Higher</td>
+                  <td>Lower</td>
+                </tr>
+                <tr>
+                  <td>Best fit</td>
+                  <td>Higher-voltage arrays, efficiency priority</td>
+                  <td>Small/basic systems with matched voltages</td>
+                </tr>
+                <tr>
+                  <td>Common reason to upgrade</td>
+                  <td>More harvest + flexibility</td>
+                  <td>Cost savings</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <figure>
+            <img
+              src="../assets/images/mppt-curve.png"
+              alt="Graph showing local and global maximum power points on a partially shaded solar generator curve, illustrating what MPPT controllers track."
+              loading="lazy"
+              width="756"
+              height="399"
+            />
+            <figcaption class="article-meta">
+              Image: “UP-curve of partially shaded solar generator” by Staberder, CC BY-SA 4.0 — Source:
+              <a class="text-link" href="https://commons.wikimedia.org/wiki/File:UP-curve_of_partially_shaded_solar_generator.png">Wikimedia Commons</a>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="article-card" id="drivers">
+          <h2>What drives MPPT controller cost the most</h2>
+          <h3>1) Array input voltage limit</h3>
+          <p>
+            Higher voltage input limits often cost more. This matters when your panel strings run at higher voltages than your battery bank.
+          </p>
+          <div class="related">
+            <a class="text-link" href="12v-vs-24v-vs-48v-solar.html">12V vs 24V vs 48V systems</a>
+            <a class="text-link" href="how-to-choose-solar-system-voltage.html">How to choose system voltage</a>
+          </div>
+
+          <h3>2) Output current rating (amps)</h3>
+          <p>
+            Higher current controllers can handle larger arrays charging lower-voltage battery banks, which tends to increase price.
+          </p>
+
+          <h3>3) Monitoring and protection features</h3>
+          <p>Data logging, remote monitoring, temperature compensation, and protections can affect price bands.</p>
+        </article>
+
+        <article class="article-card" id="avoid-wrong-size">
+          <h2>How to avoid buying the wrong controller (simple checks)</h2>
+          <h3>Check A: Can the controller accept your panel string voltage?</h3>
+          <p>
+            Compare your array’s maximum voltage to the controller’s input limit. This is a common place people “save money” and then have to replace the
+            controller.
+          </p>
+          <h3>Check B: Can the controller handle your expected charging current?</h3>
+          <p>
+            Estimate your array watts and divide by battery voltage to estimate charge current. Add headroom for safety and real-world conditions.
+          </p>
+          <div class="related">
+            <a class="text-link" href="solar-panel-output.html">Solar panel output calculator</a>
+            <a class="text-link" href="solar-system-sizing.html">System sizing overview</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="mistakes">
+          <h2>Common mistakes that raise total controller cost</h2>
+          <ul>
+            <li><strong>Buying based on “amps only”:</strong> input voltage limits matter as much as current rating.</li>
+            <li><strong>Skipping headroom:</strong> a controller at the edge of specs can trip or run hot.</li>
+            <li><strong>Ignoring expansion plans:</strong> if you’ll add panels later, plan voltage/current room now.</li>
+          </ul>
+        </article>
+
+        <article class="article-card" id="faq">
+          <h2>FAQ</h2>
+          <div class="faq">
+            <div>
+              <h4>Is MPPT worth the extra cost?</h4>
+              <p>Often, yes when your array voltage is higher than your battery voltage or when you want better performance in mixed conditions.</p>
+            </div>
+            <div>
+              <h4>How much should I budget for a charge controller?</h4>
+              <p>Budget based on array size and voltage class, not a single “typical” number. Larger arrays usually need higher-rated controllers.</p>
+            </div>
+            <div>
+              <h4>Can I use PWM on an off-grid cabin?</h4>
+              <p>Sometimes for small systems, but MPPT is common for efficiency and flexibility as systems grow.</p>
+            </div>
+            <div>
+              <h4>Does controller cost change with battery type?</h4>
+              <p>It can, depending on charging profiles and monitoring needs. Always confirm compatibility with your battery chemistry.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <h2>Next logical reads</h2>
+          <div class="related">
+            <a class="text-link" href="solar-panel-cost-per-watt.html">Solar panel cost per watt</a>
+            <a class="text-link" href="solar-inverter-cost.html">Solar inverter cost</a>
+            <a class="text-link" href="solar-system-costs.html">Solar system cost breakdown</a>
+            <a class="text-link" href="solar-components.html">Solar components explained</a>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
+
