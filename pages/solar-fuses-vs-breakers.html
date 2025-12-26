@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Solar Fuses vs Breakers: What to Use (and Where) in a Solar System</title>
+    <meta
+      name="description"
+      content="Solar fuses vs breakers explained with a placement-focused guide: battery-to-inverter, controller-to-battery, PV strings, disconnects, and DC ratings."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html"><span>Solar</span><span class="logo-accent">Guide</span></a>
+        <nav class="nav">
+          <a href="solar-components.html">Components</a>
+          <a href="solar-wiring-and-protection-cost.html">Wiring</a>
+          <a href="solar-system-sizing.html">Sizing</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="article-hero">
+        <p class="eyebrow">Wiring decisions</p>
+        <h1 class="article-title">Solar fuses vs breakers: what to use (and where)</h1>
+        <p class="lede">
+          You don’t need every protection device on the market. You need the <strong>right</strong> devices in the <strong>right</strong> places, with DC
+          ratings that match your system. This page helps you choose without turning your build into a guessing game.
+        </p>
+        <p class="article-meta">Informational only. Electrical work can be hazardous—follow codes and manufacturer guidance.</p>
+      </section>
+
+      <div class="article-grid">
+        <article class="article-card">
+          <h2>Table of contents</h2>
+          <div class="toc">
+            <a class="text-link" href="#takeaways">Key takeaways</a>
+            <a class="text-link" href="#quick">Quick answer</a>
+            <a class="text-link" href="#strengths">What each device is good at</a>
+            <a class="text-link" href="#placement">The five places people get protection wrong</a>
+            <a class="text-link" href="#checklist">A shopping checklist (ratings to verify)</a>
+            <a class="text-link" href="#mistakes">Common mistakes</a>
+            <a class="text-link" href="#faq">FAQ</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="takeaways">
+          <h2>Key takeaways</h2>
+          <ul>
+            <li>Fuses and breakers both provide overcurrent protection, but they’re not interchangeable in every DC application.</li>
+            <li>The best “upgrade” is often better placement and correct DC ratings, not more devices.</li>
+            <li>Battery-to-inverter protection is commonly the highest priority because currents can be high.</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="solar-wiring-and-protection-cost.html">Wiring & protection cost (big picture)</a>
+          </div>
+        </article>
+
+        <article class="article-card" id="quick">
+          <h2>Quick answer (for most small systems)</h2>
+          <p>
+            Think of it this way: the reader is the hero trying to keep a system safe and serviceable. The “guide” (this site) gives you a simple plan:
+            protect the high-current paths, add safe isolation points, and verify DC ratings.
+          </p>
+          <ul>
+            <li><strong>Use fuses</strong> where you want simple, fast protection and you’re fine replacing the device after it trips.</li>
+            <li><strong>Use DC-rated breakers</strong> where resettable protection (and sometimes switching) is useful.</li>
+            <li><strong>Use disconnects</strong> for safe service isolation (disconnects are not automatically overcurrent protection).</li>
+          </ul>
+        </article>
+
+        <article class="article-card" id="strengths">
+          <h2>What each device is good at</h2>
+          <h3>Fuses (simple, fast, one-time)</h3>
+          <p>
+            A fuse is a deliberate weak link: it opens when current exceeds its rating. Many solar builds use fuses on the battery side because they’re
+            straightforward and come in high-current options.
+          </p>
+
+          <h3>Breakers (resettable, but DC ratings matter)</h3>
+          <p>
+            A breaker is resettable and can be convenient for testing or maintenance. The key is that DC interrupt ratings and voltage ratings must match
+            your design.
+          </p>
+
+          <figure>
+            <img
+              src="../assets/images/100a-fuse-holder-open.jpg"
+              alt="A 100 amp fuse in an open holder, representing a common type of overcurrent protection used in high-current DC circuits in solar systems."
+              loading="lazy"
+              width="918"
+              height="1294"
+            />
+            <figcaption class="article-meta">
+              Image: “Fuse 100A with holder, open” by Zureks, CC BY 3.0 — Source:
+              <a class="text-link" href="https://commons.wikimedia.org/wiki/File:Fuse_100A_with_holder,_open.jpg">Wikimedia Commons</a>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="article-card" id="placement">
+          <h2>The five places people get protection wrong</h2>
+
+          <h3>1) Battery-to-inverter protection</h3>
+          <p>
+            This is often where current is highest. Protection choices here should be tied to the inverter’s real draw, surge behavior, and the cable run.
+          </p>
+          <div class="related">
+            <a class="text-link" href="solar-inverter-sizing.html">Inverter sizing (watts, surge, draw)</a>
+            <a class="text-link" href="solar-wire-size.html">Solar wire size (amps + distance)</a>
+          </div>
+
+          <h3>2) Controller-to-battery protection</h3>
+          <p>
+            Charge controllers can deliver substantial current into batteries. Protection here is about preventing wiring faults from turning into
+            overheating or damage.
+          </p>
+          <div class="related">
+            <a class="text-link" href="mppt-vs-pwm.html">MPPT vs PWM (controller choice)</a>
+            <a class="text-link" href="solar-components.html">Components overview</a>
+          </div>
+
+          <h3>3) PV strings / combiner protection</h3>
+          <p>
+            Arrays with multiple strings may need string-level protection depending on the design. The safest approach is to follow the charge
+            controller/combiner guidance for your configuration and voltage.
+          </p>
+          <div class="related">
+            <a class="text-link" href="solar-panels-series-vs-parallel.html">Series vs parallel solar panels</a>
+          </div>
+
+          <h3>4) Loads and DC distribution</h3>
+          <p>
+            Small branch circuits (lights, DC outlets, fans) are where a clean distribution approach improves reliability. The goal is predictable
+            protection, not “one big fuse for everything.”
+          </p>
+
+          <h3>5) Confusing disconnects with overcurrent protection</h3>
+          <p>
+            A disconnect makes a system safer to service, but it doesn’t necessarily protect wiring from overcurrent. Make sure you have both jobs covered
+            where required.
+          </p>
+        </article>
+
+        <article class="article-card" id="checklist">
+          <h2>A shopping checklist that prevents unsafe mismatches</h2>
+          <ul>
+            <li><strong>DC voltage rating:</strong> must be at or above your system voltage (and any array/open-circuit voltage where applicable).</li>
+            <li><strong>Interrupt rating:</strong> the device must be able to safely open the circuit under fault conditions.</li>
+            <li><strong>Current rating:</strong> match the circuit’s expected maximum current with appropriate design margin.</li>
+            <li><strong>Temperature/environment:</strong> some devices are not meant for heat, moisture, or outdoor exposure.</li>
+            <li><strong>Compatibility:</strong> match lugs, bus bars, cable size, and enclosure space.</li>
+          </ul>
+          <p class="article-meta">
+            If protection decisions are forcing awkward cable runs, revisit layout and voltage first:
+            <a class="text-link" href="how-to-choose-solar-system-voltage.html">choose solar system voltage</a>.
+          </p>
+        </article>
+
+        <article class="article-card" id="mistakes">
+          <h2>Common mistakes (risk → symptom → fix direction)</h2>
+          <ul>
+            <li><strong>Using AC breakers on DC circuits:</strong> can fail to interrupt safely; only use devices rated for your DC application.</li>
+            <li><strong>Protection too far from the battery:</strong> leaves more unprotected cable length than intended.</li>
+            <li><strong>Sizing protection to “what I plan to use”:</strong> protection should match potential circuit current, not a guess of normal usage.</li>
+            <li><strong>Using a disconnect as protection:</strong> different job; verify you have overcurrent protection where required.</li>
+          </ul>
+        </article>
+
+        <article class="article-card" id="faq">
+          <h2>FAQ</h2>
+          <div class="faq">
+            <div>
+              <h4>Do I need a fuse and a breaker?</h4>
+              <p>Sometimes. Many systems use a fuse for primary protection and a breaker for convenience/isolation on certain circuits, but the right mix depends on the design.</p>
+            </div>
+            <div>
+              <h4>What does “DC-rated” actually mean?</h4>
+              <p>It means the device is designed and tested to interrupt DC current safely at a specified DC voltage and fault level.</p>
+            </div>
+            <div>
+              <h4>Where should the battery fuse go?</h4>
+              <p>Placement is design- and code-dependent, but the core idea is to protect the wiring connected to the battery from fault current.</p>
+            </div>
+            <div>
+              <h4>Do solar panels need fuses?</h4>
+              <p>Some multi-string arrays do, depending on configuration. Follow your controller/combiner guidance and verify ratings for your array voltage.</p>
+            </div>
+            <div>
+              <h4>Can a breaker be used as a switch?</h4>
+              <p>Only if it’s rated for that use. Some DC breakers are designed for switching; others are not.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <h2>Next logical reads</h2>
+          <div class="related">
+            <a class="text-link" href="solar-wiring-and-protection-cost.html">Solar wiring and protection cost</a>
+            <a class="text-link" href="solar-wire-size.html">Solar wire size</a>
+            <a class="text-link" href="solar-panels-series-vs-parallel.html">Series vs parallel solar panels</a>
+            <a class="text-link" href="solar-inverter-sizing.html">How to size an inverter</a>
+            <a class="text-link" href="mppt-vs-pwm.html">MPPT vs PWM</a>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
+
