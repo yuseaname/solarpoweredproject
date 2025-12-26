@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Micro-Hydro Basics for Off-Grid Power (Realistic Sizing + Safety)</title>
+    <meta
+      name="description"
+      content="A practical, physics-based guide to micro-hydro for off-grid power: the sizing equation, head vs flow, example calculations, components, safety, and how to pair with solar + batteries."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <script
+      src="https://app.rybbit.io/api/script.js"
+      data-site-id="afb6050c297b"
+      defer
+    ></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html"><span>Solar</span><span class="logo-accent">Guide</span></a>
+        <nav class="nav">
+          <a href="../pages/solar-basics.html">Basics</a>
+          <a href="../pages/solar-system-sizing.html">Sizing</a>
+          <a href="../pages/solar-system-costs.html">Costs</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="article-hero">
+        <p class="eyebrow">DIY off-grid energy experiments</p>
+        <h1 class="article-title">Micro-hydro basics for off-grid power</h1>
+        <p class="lede">
+          If you have reliable flowing water, micro-hydro can be one of the most consistent off-grid energy sources.
+          This guide stays realistic: it shows the simple sizing math, explains where projects go wrong, and highlights safety and legal constraints.
+        </p>
+        <p class="article-meta">Evergreen, educational content. Not site-specific engineering advice.</p>
+        <div class="toc">
+          <span>In this pillar:</span>
+          <a class="text-link" href="index.html">DIY off-grid energy experiments</a>
+          <a class="text-link" href="pedal-power-generator-for-off-grid-battery-charging.html">Pedal power generator guide</a>
+        </div>
+      </section>
+
+      <div class="article-grid">
+        <article class="article-card">
+          <h2>Key takeaways</h2>
+          <ul>
+            <li>Micro-hydro output is mainly set by <strong>head</strong> (height drop) and <strong>flow</strong> (water volume per second).</li>
+            <li>Real power is always lower than the “water power” you calculate because of losses and efficiency.</li>
+            <li>Most small off-grid systems are easiest when designed to <strong>charge a battery</strong> (with proper regulation) rather than run loads directly.</li>
+            <li>Before touching hardware, design the electrical side (voltage, wiring, protection) like a normal solar system.</li>
+          </ul>
+        </article>
+
+        <article class="article-card">
+          <h2>What micro-hydro is (and what it is not)</h2>
+          <p>
+            Micro-hydro means using a small water turbine (or water wheel) and generator to convert the energy in moving water into electricity.
+            It’s not “free energy” — the source is the water’s gravitational potential energy (from elevation) or kinetic energy (from moving flow).
+          </p>
+          <p>
+            The reason micro-hydro is so attractive off-grid is that it can run day and night if the water source is steady.
+            A modest continuous power source can beat a larger intermittent source, because energy adds up over time.
+          </p>
+          <p>
+            If you’re new to system thinking (watts vs watt-hours, inverter losses, battery limitations), start here:
+            <a class="text-link" href="../pages/solar-basics.html">Solar power basics</a> and
+            <a class="text-link" href="../pages/solar-system-sizing.html">how to size a solar system</a>.
+          </p>
+        </article>
+
+        <div class="ad-slot">Ad slot</div>
+
+        <article class="article-card">
+          <h2>The one equation you need (to start)</h2>
+          <p>
+            A useful first-order estimate for micro-hydro mechanical power available from a water drop is:
+          </p>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Symbol</th>
+                  <th>Meaning</th>
+                  <th>Typical units</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>P</strong></td>
+                  <td>Electrical power output</td>
+                  <td>W (watts)</td>
+                </tr>
+                <tr>
+                  <td><strong>η</strong></td>
+                  <td>Overall efficiency (turbine + generator + wiring + regulation)</td>
+                  <td>0–1</td>
+                </tr>
+                <tr>
+                  <td><strong>ρ</strong></td>
+                  <td>Water density</td>
+                  <td>≈ 1000 kg/m³</td>
+                </tr>
+                <tr>
+                  <td><strong>g</strong></td>
+                  <td>Gravity</td>
+                  <td>≈ 9.81 m/s²</td>
+                </tr>
+                <tr>
+                  <td><strong>Q</strong></td>
+                  <td>Flow rate</td>
+                  <td>m³/s (or L/s)</td>
+                </tr>
+                <tr>
+                  <td><strong>H</strong></td>
+                  <td>Net head (usable vertical drop)</td>
+                  <td>m</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            The estimate is:
+            <strong>P ≈ η × ρ × g × Q × H</strong>
+          </p>
+          <p>
+            This is not a full design method — it’s a reality check.
+            It tells you quickly whether you’re looking at tens of watts, hundreds of watts, or kilowatts.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Head vs flow: the two measurements that matter</h2>
+          <p>
+            If micro-hydro projects fail, it’s usually because the site’s head or flow was guessed instead of measured.
+            You can’t cheat either one.
+          </p>
+
+          <h3>Head (H): vertical drop, not pipe length</h3>
+          <p>
+            Head is the vertical height difference between where you take water in and where you discharge it.
+            People often confuse head with the length of the pipe (penstock). The pipe length matters for friction losses, but head is about elevation change.
+          </p>
+          <p>
+            You’ll also see “gross head” and “net head.” Gross head is the elevation difference on paper.
+            Net head is what you get after losses (mainly pipe friction and bends). Net head is what you should use in the power equation.
+          </p>
+
+          <h3>Flow (Q): how much water you can count on</h3>
+          <p>
+            Flow is the volume of water per second you can reliably divert through your turbine.
+            Seasonal changes are everything: the best-looking creek in spring can be a trickle in late summer.
+            If the project is meant for year-round use, size for your <em>reliable</em> flow, not the peak.
+          </p>
+
+          <h3>Quick unit conversion: liters per second</h3>
+          <p>
+            Many DIY measurements end up in liters per second (L/s). Since 1 L = 0.001 m³:
+          </p>
+          <ul>
+            <li>1 L/s = 0.001 m³/s</li>
+            <li>10 L/s = 0.01 m³/s</li>
+          </ul>
+        </article>
+
+        <article class="article-card">
+          <h2>Example calculation (so the numbers feel real)</h2>
+          <p>
+            Suppose you measure:
+          </p>
+          <ul>
+            <li>Net head: H = 12 m</li>
+            <li>Reliable flow: Q = 8 L/s = 0.008 m³/s</li>
+            <li>Overall efficiency: η = 0.45 (a conservative DIY estimate)</li>
+          </ul>
+          <p>
+            Water power available before efficiency is:
+            ρ g Q H ≈ 1000 × 9.81 × 0.008 × 12 ≈ 942 W.
+          </p>
+          <p>
+            Electrical output estimate is:
+            P ≈ η × 942 W ≈ 0.45 × 942 ≈ <strong>424 W</strong>.
+          </p>
+          <p>
+            424 W continuous is not a huge number — but it runs all day:
+          </p>
+          <ul>
+            <li>Daily energy: 424 W × 24 h ≈ <strong>10.2 kWh/day</strong></li>
+            <li>Monthly energy: ≈ 306 kWh/month</li>
+          </ul>
+          <p>
+            That’s why steady micro-hydro can feel “big” in real life: the wattage is modest, the runtime is relentless.
+          </p>
+          <p>
+            To connect this to off-grid solar math, review:
+            <a class="text-link" href="../pages/solar-panel-output.html">solar panel output</a> (watts to daily energy) and
+            <a class="text-link" href="../pages/battery-capacity.html">battery capacity</a> (how much storage you need).
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>How to measure head and flow (DIY-friendly methods)</h2>
+          <p>
+            You do not need specialized surveying gear to get a usable first estimate.
+            What you do need is to measure methodically and to repeat measurements across seasons.
+          </p>
+
+          <h3>Measuring head</h3>
+          <ul>
+            <li><strong>Map + spot check</strong>: start with a mapping app for rough elevation difference, then verify with on-site measurements.</li>
+            <li><strong>Hose level</strong>: a long clear hose filled with water can act as a simple level to measure elevation change in segments.</li>
+            <li><strong>Segment method</strong>: measure smaller drops (for example 1–2 meters at a time) and add them.</li>
+          </ul>
+          <p>
+            Whatever method you use, remember you want <strong>net head</strong> at the turbine.
+            If you ignore penstock friction, your calculation will be optimistic.
+          </p>
+
+          <h3>Measuring flow</h3>
+          <ul>
+            <li><strong>Bucket timing</strong> (small flows): divert into a bucket of known volume and time how long it takes to fill. Flow is volume ÷ time.</li>
+            <li><strong>Container + stopwatch</strong>: same idea with larger containers for higher flow.</li>
+            <li><strong>Float method</strong> (rough estimate): measure a stream cross-section area and surface velocity; this is less accurate but can be a starting point.</li>
+          </ul>
+          <p>
+            For off-grid planning, the best number is your <strong>reliable low-season flow</strong>, not the best day you’ve ever seen.
+            If you only measure once, assume you measured during a “good” period and de-rate your estimate.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>How it works (system overview)</h2>
+          <p>
+            A typical micro-hydro setup has two big halves: the water side and the electrical side.
+            Good projects treat both seriously.
+          </p>
+
+          <h3>Water side</h3>
+          <ul>
+            <li><strong>Intake</strong>: diverts some water into your system (not necessarily all flow).</li>
+            <li><strong>Screen / trash rack</strong>: keeps debris out; needs regular maintenance.</li>
+            <li><strong>Forebay / settling box</strong>: calms flow and drops sand before the penstock.</li>
+            <li><strong>Penstock</strong>: the pipe from forebay to turbine; diameter and smoothness strongly affect losses.</li>
+            <li><strong>Nozzle(s)</strong> (for impulse turbines): converts pressure to a high-velocity jet.</li>
+            <li><strong>Turbine runner</strong>: converts jet/flow energy to shaft torque.</li>
+            <li><strong>Tailrace</strong>: returns water to the stream safely (don’t undermine banks).</li>
+          </ul>
+
+          <h3>Electrical side</h3>
+          <ul>
+            <li><strong>Generator</strong>: makes electrical power from the turbine shaft.</li>
+            <li><strong>Rectifier</strong> (if needed): converts AC to DC for battery charging.</li>
+            <li><strong>Regulation</strong>: keeps voltage and current within safe limits, often via a controller and diversion load.</li>
+            <li><strong>Battery bank</strong>: stores energy; choose chemistry/voltage intentionally.</li>
+            <li><strong>Inverter</strong>: converts battery DC to household AC loads if needed.</li>
+            <li><strong>Protection</strong>: fuses/breakers, disconnects, and appropriate wire sizing.</li>
+          </ul>
+
+          <p>
+            If you’re still building the fundamentals for the electrical half, these are the best supporting reads:
+          </p>
+          <div class="related">
+            <a class="text-link" href="../pages/solar-components.html">Solar components explained →</a>
+            <a class="text-link" href="../pages/solar-fuse-and-breaker-sizing.html">Fuse and breaker sizing →</a>
+            <a class="text-link" href="../pages/solar-wire-size.html">Solar wire size guide →</a>
+            <a class="text-link" href="../pages/wiring-decisions.html">Wiring decisions checklist →</a>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <h2>Turbine types (high-head vs low-head)</h2>
+          <p>
+            Turbine selection depends mostly on whether your site has high head and low flow, or low head and high flow.
+            For DIY projects, you’ll most often see these broad categories:
+          </p>
+          <ul>
+            <li><strong>Impulse turbines</strong> (like Pelton-style runners): best for <strong>higher head</strong> and <strong>lower flow</strong>. A nozzle creates a fast jet that hits buckets on the runner.</li>
+            <li><strong>Reaction turbines</strong> (various types): better for <strong>lower head</strong> and <strong>higher flow</strong>; water pressure changes through the turbine and casing.</li>
+          </ul>
+          <p>
+            You don’t need to become a turbine designer to stay realistic.
+            What matters is understanding that the same “water power” can be difficult to harvest if your site pushes you into a turbine category that’s hard to implement well.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Where the losses come from (why efficiency matters)</h2>
+          <p>
+            The equation uses η for a reason: micro-hydro is a chain of conversions.
+            A small loss at each step can add up to a big difference from the ideal number.
+          </p>
+          <ul>
+            <li><strong>Penstock friction</strong>: long runs, small diameter, rough pipe, and lots of bends reduce net head.</li>
+            <li><strong>Turbine mismatch</strong>: wrong runner/nozzle sizing for your head/flow wastes power.</li>
+            <li><strong>Generator losses</strong>: copper loss, magnetic loss, and heating reduce output.</li>
+            <li><strong>Rectification and regulation</strong>: converting and controlling power has efficiency penalties.</li>
+            <li><strong>Battery charging losses</strong>: not all input becomes stored energy (heat, internal resistance, BMS behavior).</li>
+            <li><strong>Inverter losses</strong>: running AC loads adds conversion loss on top of everything else.</li>
+          </ul>
+          <p>
+            This is why “battery-first” designs are often simpler: stabilize the system around a known battery voltage, then invert to AC if needed.
+            If you’re deciding between 12V, 24V, and 48V battery systems, see:
+            <a class="text-link" href="../pages/12v-vs-24v-vs-48v-solar.html">12V vs 24V vs 48V solar</a>.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Penstock basics (the pipe can make or break the project)</h2>
+          <p>
+            The penstock is the pipe that turns elevation into pressure at the turbine.
+            It also creates one of the most important losses: friction.
+            In practical terms, a penstock that’s too small or too rough can erase a large portion of your “net head.”
+          </p>
+          <ul>
+            <li><strong>Diameter</strong>: larger diameter generally reduces friction loss but costs more and is harder to handle.</li>
+            <li><strong>Length</strong>: longer pipe increases loss; route efficiently, but don’t create unsafe slopes or unstable trenches.</li>
+            <li><strong>Bends and fittings</strong>: sharp turns add loss; design smoother transitions where possible.</li>
+            <li><strong>Air management</strong>: trapped air can reduce performance and create unstable flow; design so air can purge.</li>
+          </ul>
+          <p>
+            You don’t need perfect calculations to stay realistic.
+            The key is to treat the penstock as a first-class part of the system — not an afterthought — and to expect that it will reduce your net head.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Electrical regulation: keeping voltage safe as the stream changes</h2>
+          <p>
+            A micro-hydro generator often wants to produce more voltage when unloaded and less when heavily loaded.
+            Without regulation, that variability can damage electronics or charge batteries incorrectly.
+          </p>
+          <p>
+            Many small hydro systems use some form of <strong>load control</strong>:
+          </p>
+          <ul>
+            <li><strong>Battery charging control</strong>: a charger/controller limits battery current and voltage.</li>
+            <li><strong>Diversion (dump) load</strong>: when the battery is full, excess power is diverted to a resistive load (often heating water/air) to keep generator loading stable.</li>
+            <li><strong>Inverter/charger hybrid</strong>: some systems centralize charging and inversion so multiple sources can feed the same battery bus safely.</li>
+          </ul>
+          <p>
+            If you’re new to “battery bus” thinking, read:
+            <a class="text-link" href="../pages/solar-components.html">solar components explained</a> and
+            <a class="text-link" href="../pages/solar-battery-not-charging-troubleshooting.html">solar battery not charging troubleshooting</a>.
+            The same mindset applies: keep voltages within limits, protect conductors, and verify behavior with measurements.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Maintenance checklist (micro-hydro is a living system)</h2>
+          <p>
+            Micro-hydro is rarely “install it and forget it.”
+            Expect regular inspection and maintenance, especially during leaf season, storms, and freeze/thaw cycles.
+          </p>
+          <ul>
+            <li>Check intake screens and remove debris before it starves the turbine.</li>
+            <li>Inspect the penstock for leaks, movement, UV damage, and anchor issues.</li>
+            <li>Verify that protective devices (fuses/breakers) are correctly rated and not bypassed.</li>
+            <li>Look for unusual vibration/noise at the turbine and generator.</li>
+            <li>Confirm charging voltage/current behavior as the battery approaches full.</li>
+          </ul>
+          <p>
+            For troubleshooting patterns that overlap with solar (loose connections, undersized wire, unexpected voltage drop), see:
+            <a class="text-link" href="../pages/solar-output-troubleshooting.html">solar output troubleshooting</a>.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Pairing micro-hydro with solar (hybrid thinking)</h2>
+          <p>
+            Micro-hydro and solar complement each other:
+          </p>
+          <ul>
+            <li>Solar often peaks in summer; many streams also have seasonal patterns, but not always aligned.</li>
+            <li>Micro-hydro can provide overnight energy that solar cannot.</li>
+            <li>Together, they can reduce battery cycling depth (which can extend battery life).</li>
+          </ul>
+          <p>
+            In practice, you typically size the battery and inverter for the loads you want, then treat generation sources as charging inputs.
+            If your goal is to reduce generator runtime, compare the economics in:
+            <a class="text-link" href="../pages/cabin-solar-vs-generator.html">cabin solar vs generator</a>.
+          </p>
+          <p>
+            A hybrid setup can also simplify troubleshooting because you can isolate sources.
+            If you’re chasing inconsistent output, you may find the troubleshooting patterns similar to solar:
+            <a class="text-link" href="../pages/solar-output-troubleshooting.html">solar output troubleshooting</a>.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Safety, legality, and environmental reality checks</h2>
+          <p>
+            Micro-hydro is not just a “plug and play” gadget. Your biggest constraints are often not electrical — they’re physical and regulatory.
+          </p>
+          <h3>Electrical and battery safety</h3>
+          <ul>
+            <li><strong>Overcurrent protection</strong>: use appropriately sized fuses/breakers and place them correctly.</li>
+            <li><strong>Wire sizing</strong>: undersized conductors can overheat; voltage drop can cause equipment misbehavior.</li>
+            <li><strong>Disconnects</strong>: plan for a safe way to isolate the generator/controller and the battery bank.</li>
+          </ul>
+          <p>
+            Use these as your baseline references:
+            <a class="text-link" href="../pages/solar-fuses-vs-breakers.html">fuses vs breakers</a> and
+            <a class="text-link" href="../pages/solar-combiner-box-and-disconnect-guide.html">combiner boxes and disconnects</a>.
+          </p>
+
+          <h3>Mechanical and water safety</h3>
+          <ul>
+            <li><strong>Spinning machinery</strong>: guard shafts and belts; treat turbine runners like power tools.</li>
+            <li><strong>High-pressure water</strong>: penstocks can hold significant pressure; use appropriate pipe ratings and secure anchors.</li>
+            <li><strong>Debris and ice</strong>: intakes clog; freezing can burst pipes; floods can destroy hardware.</li>
+          </ul>
+
+          <h3>Legal and environmental constraints</h3>
+          <p>
+            Many places regulate water diversion, fish passage, stream modifications, and property/usage rights.
+            If you cannot legally divert flow or construct an intake, the project may be a non-starter.
+            Treat this as step zero and verify local rules.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>FAQ</h2>
+
+          <h3>How much power do I need for “useful” off-grid living?</h3>
+          <p>
+            It depends on the loads. A cabin running lights, electronics, and efficient refrigeration might average a few hundred watts but with higher peaks.
+            Start with a load estimate and work backward:
+            <a class="text-link" href="../pages/solar-system-sizing.html">solar system sizing</a>.
+          </p>
+
+          <h3>Should I design micro-hydro to run AC loads directly?</h3>
+          <p>
+            For many small DIY systems, it’s simpler to charge a battery bank and then run AC loads from an inverter.
+            That gives you stable voltage and lets you keep generation and consumption decoupled.
+            Inverter selection matters; see:
+            <a class="text-link" href="../pages/solar-inverter-sizing.html">solar inverter sizing</a>.
+          </p>
+
+          <h3>Is micro-hydro “better” than solar?</h3>
+          <p>
+            If your water source is reliable and legal to use, micro-hydro can be incredible because it’s continuous.
+            If the site is seasonal, remote, or high-maintenance, solar may be cheaper and easier.
+            Many real systems are hybrids.
+          </p>
+
+          <h3>What’s the biggest beginner mistake?</h3>
+          <p>
+            Assuming the stream you see today is the stream you’ll have year-round.
+            Measure and design around reliable conditions, then treat anything better as a bonus.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Suggested images & diagrams</h2>
+          <ul>
+            <li>Diagram: micro-hydro system layout (intake → forebay → penstock → turbine/generator → controller → battery → inverter → loads).</li>
+            <li>Diagram: head vs flow concept (two sites with same water power but different turbine suitability).</li>
+            <li>Simple chart: how continuous watts translate to kWh/day (e.g., 50W, 100W, 250W, 500W).</li>
+            <li>Photo: a screened intake/trash rack example and why it needs maintenance.</li>
+            <li>Diagram: where to place disconnects and protection on a battery-charging setup.</li>
+          </ul>
+        </article>
+
+        <article class="article-card">
+          <h2>Next logical reads</h2>
+          <div class="related">
+            <a class="text-link" href="index.html">DIY off-grid energy experiments (pillar) →</a>
+            <a class="text-link" href="pedal-power-generator-for-off-grid-battery-charging.html">Pedal power generator guide →</a>
+            <a class="text-link" href="../pages/battery-capacity.html">Battery capacity calculator →</a>
+            <a class="text-link" href="../pages/solar-wire-size.html">Wire size guide →</a>
+            <a class="text-link" href="../pages/solar-system-costs.html">Solar system costs →</a>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
