@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DIY Dump Load (Diversion Control) for Wind + Hydro: Protect Batteries Safely</title>
+    <meta
+      name="description"
+      content="A practical DIY diversion (dump load) guide for wind and hydro experiments: why batteries need protection when full, how diversion control works, sizing a dump load, safe wiring with fuses and disconnects, heat management, common mistakes, and how diversion fits into a multi-source solar battery system."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="https://app.rybbit.io/api/script.js" data-site-id="afb6050c297b" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html"><span>Solar</span><span class="logo-accent">Guide</span></a>
+        <nav class="nav">
+          <a href="../pages/solar-basics.html">Basics</a>
+          <a href="../pages/solar-system-sizing.html">Sizing</a>
+          <a href="../pages/solar-system-costs.html">Costs</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="article-hero">
+        <p class="eyebrow">DIY off-grid energy experiments</p>
+        <h1 class="article-title">DIY Dump Load (Diversion Control) for Wind and Hydro: Keep Batteries Safe When Output Spikes</h1>
+        <p class="lede">
+          Solar charging is mostly simple: when the battery is full, the controller limits charge.
+          Wind and hydro experiments can be different.
+          A turbine can keep pushing power when the battery is already full — and if that energy has nowhere to go, voltage can rise and things can fail.
+          A dump load (also called diversion control) gives your system a safe place to send excess energy.
+          This guide explains what diversion does, how to size it realistically, and how to wire it safely.
+        </p>
+        <p class="article-meta">Evergreen, educational content. Not site-specific engineering advice.</p>
+        <div class="toc">
+          <span>In this pillar:</span>
+          <a class="text-link" href="index.html">DIY off-grid energy experiments</a>
+          <a class="text-link" href="multi-source-hybrid-charge-controller.html">Hybrid charge controller guide</a>
+          <a class="text-link" href="diy-small-wind-turbine-for-off-grid-battery-charging.html">Small wind guide</a>
+          <a class="text-link" href="micro-hydro-basics-for-off-grid-power.html">Micro-hydro basics</a>
+        </div>
+      </section>
+
+      <div class="article-grid">
+        <article id="key-takeaways" class="article-card">
+          <h2>Key takeaways</h2>
+          <ul>
+            <li>A dump load is a <strong>controlled heat sink</strong> for excess generator energy.</li>
+            <li>Wind and hydro can require diversion because the source can keep producing power when the battery is full.</li>
+            <li>Sizing is about <strong>maximum plausible watts</strong> plus margin, and <strong>heat management</strong>.</li>
+            <li>Safety depends on <strong>fusing near energy sources</strong>, a <strong>disconnect</strong>, and wiring sized for current.</li>
+          </ul>
+        </article>
+
+        <article id="table-of-contents" class="article-card">
+          <h2>Table of contents</h2>
+          <ul>
+            <li><a class="text-link" href="#beginner">Beginner explanation</a></li>
+            <li><a class="text-link" href="#why-needed">Why “battery full” is a problem for turbines</a></li>
+            <li><a class="text-link" href="#how-it-works">How diversion control works</a></li>
+            <li><a class="text-link" href="#dump-load">What a dump load actually is</a></li>
+            <li><a class="text-link" href="#sizing">Sizing a dump load (watts and resistance)</a></li>
+            <li><a class="text-link" href="#wiring">Safe wiring patterns</a></li>
+            <li><a class="text-link" href="#heat">Heat management and mounting</a></li>
+            <li><a class="text-link" href="#pairs-with-solar">How it pairs with solar</a></li>
+            <li><a class="text-link" href="#mistakes">Common mistakes</a></li>
+            <li><a class="text-link" href="#safety">Safety and limitations</a></li>
+            <li><a class="text-link" href="#troubleshooting">Troubleshooting</a></li>
+            <li><a class="text-link" href="#faq">FAQ</a></li>
+          </ul>
+        </article>
+
+        <article id="beginner" class="article-card">
+          <h2>Beginner explanation: diversion is “somewhere safe for power to go”</h2>
+          <p>
+            A dump load is intentionally wasteful. That’s the point.
+            When your generator produces more power than the battery can safely accept, the system diverts the extra power into a load that converts it to heat.
+          </p>
+          <p>
+            Think of it like a pressure relief valve in plumbing:
+            you don’t want to “use” that water — you want to avoid bursting pipes.
+          </p>
+          <p>
+            If you’re new to watts vs watt-hours, read
+            <a class="text-link" href="../pages/solar-basics.html">solar basics</a>.
+            Diversion control is about managing watts in real time to keep voltage stable and components safe.
+          </p>
+        </article>
+
+        <article id="why-needed" class="article-card">
+          <h2>Why “battery full” is a problem for wind and hydro experiments</h2>
+          <p>
+            Batteries are not bottomless.
+            When a battery is full, it should not keep absorbing charging power at the same rate.
+            In a well-designed system, charging current tapers or is stopped.
+          </p>
+
+          <h3>What turbines do when the battery can’t accept power</h3>
+          <p>
+            If a turbine keeps producing energy but the electrical system can’t absorb it, one of three things tends to happen:
+          </p>
+          <ul>
+            <li><strong>Voltage rises</strong> (danger to electronics and batteries).</li>
+            <li><strong>Mechanical overspeed</strong> (danger to blades, bearings, and couplers).</li>
+            <li><strong>Uncontrolled heating</strong> (diodes, wiring, regulators, and connectors can overheat).</li>
+          </ul>
+          <p>
+            Diversion is a controlled way to prevent the “nowhere to go” condition.
+          </p>
+
+          <h3>Why solar often feels easier</h3>
+          <p>
+            Solar panels can be “turned down” by a controller because they are current-limited sources that respond predictably.
+            Turbines can behave differently: changes in electrical load can change RPM and can create unstable behavior if not managed.
+          </p>
+        </article>
+
+        <div class="ad-slot">Ad slot</div>
+
+        <article id="how-it-works" class="article-card">
+          <h2>How diversion control works</h2>
+          <p>
+            A diversion controller monitors battery (or DC bus) voltage.
+            When voltage rises above a threshold (indicating “battery full” or “charging should be limited”), the controller routes current to a dump load.
+          </p>
+
+          <h3>Diversion vs series regulation (high-level)</h3>
+          <ul>
+            <li><strong>Series regulation:</strong> reduces or interrupts current flowing into the battery.</li>
+            <li><strong>Diversion regulation:</strong> keeps the generator loaded by sending excess current to another load.</li>
+          </ul>
+          <p>
+            In many wind/hydro situations, keeping the generator loaded is desirable because it helps prevent overspeed.
+          </p>
+
+          <h3>PWM diversion (the common pattern)</h3>
+          <p>
+            Many diversion systems pulse current to the dump load (PWM) to control average power smoothly.
+            The dump load still gets hot — but now it’s controllably hot.
+          </p>
+        </article>
+
+        <article id="dump-load" class="article-card">
+          <h2>What a dump load actually is</h2>
+          <p>
+            A dump load is simply a device that can safely convert electrical power into heat continuously.
+            For DIY builds, that often means resistors or heating elements.
+          </p>
+
+          <h3>Common dump load types</h3>
+          <ul>
+            <li><strong>Resistor bank</strong> (wirewound resistors mounted to a heat sink or metal enclosure).</li>
+            <li><strong>Heating element</strong> (air heater or water heater element) sized for your voltage.</li>
+            <li><strong>Automotive bulbs</strong> (useful for low-power demos, not for higher power continuous dumping).</li>
+          </ul>
+          <p>
+            The “best” choice depends on power level and how you want to handle heat.
+          </p>
+        </article>
+
+        <div class="ad-slot">Ad slot</div>
+
+        <article id="sizing" class="article-card">
+          <h2>Sizing a dump load (watts and resistance)</h2>
+          <p>
+            A dump load must handle the maximum power your turbine could plausibly produce in your conditions (or at least the portion you want to divert),
+            plus a safety margin.
+          </p>
+
+          <h3>Step 1: estimate maximum plausible watts</h3>
+          <p>
+            Use measured reality, not optimistic ratings.
+            If your wind turbine has produced 120W peaks on a meter, assume the dump load should handle at least that, and preferably more.
+            For hydro, you can estimate water power from head and flow (then apply a conservative efficiency).
+          </p>
+          <p>
+            If you want a measurement-first method, use a generator test bench approach.
+          </p>
+
+          <h3>Step 2: choose a voltage basis (12V / 24V / 48V)</h3>
+          <p>
+            Dump load sizing depends strongly on voltage because for resistive loads:
+          </p>
+          <p class="article-meta"><strong>P = V² / R</strong></p>
+          <p>
+            At higher voltage, the same resistance dissipates more power. At lower voltage, current rises for the same power, which increases wiring demands.
+          </p>
+
+          <h3>Step 3: choose resistance and power rating</h3>
+          <p>
+            Suppose you want to dump about 200W on a 12V system.
+            The effective resistance needed is roughly:
+          </p>
+          <p class="article-meta"><strong>R ≈ V² / P = 12² / 200 ≈ 0.72Ω</strong></p>
+          <p>
+            That’s a low resistance, which means high current (about 16–17A at 12V).
+            That current must be handled by wiring, switches, and connectors.
+          </p>
+          <p>
+            Also, resistors must be rated for the heat.
+            A “200W dump load” is literally a 200W heater.
+            If you build a 200W resistor bank with no airflow or heat sinking, it will overheat.
+          </p>
+
+          <h3>Build in margin</h3>
+          <p>
+            A good DIY rule is to oversize thermal handling.
+            If you think you need 200W, aim for a dump load that can safely dissipate more under your mounting conditions.
+          </p>
+        </article>
+
+        <article id="wiring" class="article-card">
+          <h2>Safe wiring patterns</h2>
+          <p>
+            Diversion systems involve high current, and they are often installed in environments where wind/hydro is already stressing hardware.
+            Build for safety and serviceability.
+          </p>
+
+          <h3>Minimum protection concepts</h3>
+          <ul>
+            <li><strong>Fuse near the battery</strong> and near other energy sources as appropriate.</li>
+            <li><strong>Disconnect</strong> so you can stop the experiment quickly.</li>
+            <li><strong>Wire sized for current</strong> and run length to reduce voltage drop and heating.</li>
+          </ul>
+          <p>
+            Use:
+            <a class="text-link" href="../pages/solar-fuse-and-breaker-sizing.html">fuse/breaker sizing</a>,
+            <a class="text-link" href="../pages/solar-wire-size.html">wire size guidance</a>,
+            and
+            <a class="text-link" href="../pages/wiring-decisions.html">wiring decisions</a>.
+          </p>
+
+          <h3>Where diversion fits in a simple system</h3>
+          <p>
+            The conceptual model is:
+          </p>
+          <ul>
+            <li><strong>Generator charges battery</strong> (through appropriate rectification/regulation).</li>
+            <li><strong>Diversion controller monitors battery voltage.</strong></li>
+            <li><strong>Dump load absorbs excess power</strong> when voltage rises beyond a threshold.</li>
+          </ul>
+          <p>
+            A clean multi-source layout is described in
+            <a class="text-link" href="multi-source-hybrid-charge-controller.html">the hybrid charge controller guide</a>.
+          </p>
+        </article>
+
+        <div class="ad-slot">Ad slot</div>
+
+        <article id="heat" class="article-card">
+          <h2>Heat management and mounting</h2>
+          <p>
+            A dump load is a heater. Treat it like one.
+            You need:
+          </p>
+          <ul>
+            <li><strong>Non-combustible mounting</strong> (metal enclosure or heat sink).</li>
+            <li><strong>Airflow</strong> (vents, spacing, or forced air if needed).</li>
+            <li><strong>Physical clearance</strong> from plastic, wood, and insulation.</li>
+          </ul>
+
+          <h3>Thermal failure is a predictable failure</h3>
+          <p>
+            If your dump load is undersized or enclosed without airflow, it will overheat.
+            If it fails open-circuit, the system may lose its safety valve at the worst time (high wind, full battery).
+            That’s why oversizing and conservative mounting matter.
+          </p>
+        </article>
+
+        <article id="pairs-with-solar" class="article-card">
+          <h2>How it pairs with solar</h2>
+          <p>
+            In a hybrid system, solar usually charges the battery through a solar charge controller.
+            Wind/hydro sources can also charge the same battery system, but they may need diversion control as their “safety path.”
+          </p>
+          <ul>
+            <li>Solar controller handles solar charging behavior.</li>
+            <li>Diversion handles “what happens when the turbine has power but the battery shouldn’t take it.”</li>
+            <li>A clear wiring plan and measurement points keep the system debuggable.</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="../pages/solar-components.html">Solar components →</a>
+            <a class="text-link" href="../pages/solar-system-sizing.html">Solar system sizing →</a>
+          </div>
+        </article>
+
+        <article id="mistakes" class="article-card">
+          <h2>Common mistakes</h2>
+          <ul>
+            <li><strong>Undersizing the dump load</strong> so it overheats.</li>
+            <li><strong>No ventilation</strong> (a heater in a sealed box fails quickly).</li>
+            <li><strong>No fuse near the battery</strong> (high current fault risk).</li>
+            <li><strong>Assuming solar controller behavior applies</strong> to wind/hydro dynamics.</li>
+            <li><strong>Building without a stop plan</strong> (no disconnect, no safe shutdown).</li>
+          </ul>
+        </article>
+
+        <article id="safety" class="article-card">
+          <h2>Safety and limitations</h2>
+          <h3>Burn and fire hazards</h3>
+          <p>
+            Dump loads can reach high temperatures.
+            Treat them like a space heater: keep them away from combustible materials and plan airflow.
+          </p>
+
+          <h3>High current hazards</h3>
+          <p>
+            Low-voltage systems can still produce dangerous current.
+            Use proper fusing, wire sizing, and quality connections.
+          </p>
+
+          <h3>Mechanical overspeed still matters</h3>
+          <p>
+            Diversion helps keep a turbine loaded, but you should still design a mechanical safety strategy appropriate to your turbine type.
+            Don’t rely on any one component to prevent all failures.
+          </p>
+        </article>
+
+        <div class="ad-slot">Ad slot</div>
+
+        <article id="troubleshooting" class="article-card">
+          <h2>Troubleshooting</h2>
+          <h3>My battery voltage rises too high in wind even with a dump load</h3>
+          <ul>
+            <li>The dump load may be undersized for peak conditions.</li>
+            <li>There may be wiring resistance between controller and dump load.</li>
+            <li>Confirm the controller’s setpoint and that it is actually switching current to the load.</li>
+          </ul>
+
+          <h3>My dump load gets dangerously hot</h3>
+          <ul>
+            <li>Improve airflow and mounting to a metal heat sink or enclosure.</li>
+            <li>Oversize resistor bank wattage rating.</li>
+            <li>Verify that the controller isn’t stuck “on” due to wiring or configuration issues.</li>
+          </ul>
+
+          <h3>My turbine overspeeds when the battery fills</h3>
+          <ul>
+            <li>That’s a sign the turbine is being unloaded; diversion should help if wired correctly.</li>
+            <li>Confirm diversion activation under high voltage.</li>
+            <li>Consider additional mechanical safety for your turbine type.</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="../pages/solar-output-troubleshooting.html">Troubleshooting mindset →</a>
+          </div>
+        </article>
+
+        <article id="faq" class="article-card">
+          <h2>FAQ</h2>
+          <div class="faq">
+            <div>
+              <h4>Do I need a dump load for a small wind turbine?</h4>
+              <p>
+                Often, yes — especially if you plan to charge a battery and the turbine can continue producing power when the battery is full.
+                The need depends on your turbine type, controller behavior, and how your system handles “excess power” scenarios.
+              </p>
+            </div>
+            <div>
+              <h4>Can I use a water heater element as a dump load?</h4>
+              <p>
+                Sometimes. Heating elements can handle heat by design, but you must choose an element appropriate for your system voltage and mounting.
+                Wire and protect it as a high-power device, not as an accessory.
+              </p>
+            </div>
+            <div>
+              <h4>How do I size a dump load for 12V or 24V?</h4>
+              <p>
+                Estimate maximum plausible watts to dump, then use P = V² / R to select an effective resistance and wattage rating.
+                Oversize thermal handling and pay attention to current (especially at 12V).
+              </p>
+            </div>
+            <div>
+              <h4>Is diversion the same as braking?</h4>
+              <p>
+                Diversion loads the generator electrically, which can slow the turbine and reduce overspeed risk.
+                It is not always a full mechanical brake, and it’s not a substitute for safe turbine design and mounting.
+              </p>
+            </div>
+            <div>
+              <h4>What’s the safest way to start?</h4>
+              <p>
+                Start with measurement-first experiments and conservative power levels.
+                Confirm your dump load can dissipate heat safely before relying on it as a protection device.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
+
