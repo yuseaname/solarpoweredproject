@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DIY Pelton Turbine Pico Hydro: Simple Runner Build + Realistic Watts</title>
+    <meta
+      name="description"
+      content="Build a safe DIY Pelton-style pico hydro turbine for learning and trickle charging: nozzle sizing, spoon-bucket runner concepts, realistic power math from head + flow, wiring protection, and how to pair hydro experiments with solar batteries."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="https://app.rybbit.io/api/script.js" data-site-id="afb6050c297b" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html"><span>Solar</span><span class="logo-accent">Guide</span></a>
+        <nav class="nav">
+          <a href="../pages/solar-basics.html">Basics</a>
+          <a href="../pages/solar-system-sizing.html">Sizing</a>
+          <a href="../pages/solar-system-costs.html">Costs</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="article-hero">
+        <p class="eyebrow">DIY off-grid energy experiments</p>
+        <h1 class="article-title">DIY Pelton Turbine Pico Hydro: A Simple Build Guide (With Realistic Watts)</h1>
+        <p class="lede">
+          If you have a stream, a spring box, or even a tank you can drain, a small “pico hydro” turbine is one of the best
+          hands-on ways to learn power, losses, and why water energy is both amazing and unforgiving.
+          This guide focuses on a Pelton-style setup: a high-velocity jet hitting small buckets.
+          You’ll build it for learning and measurement first, then for safe trickle charging if your site supports it.
+        </p>
+        <p class="article-meta">Evergreen, educational content. Not site-specific engineering advice.</p>
+        <div class="toc">
+          <span>In this pillar:</span>
+          <a class="text-link" href="index.html">DIY off-grid energy experiments</a>
+          <a class="text-link" href="micro-hydro-basics-for-off-grid-power.html">Micro-hydro basics</a>
+          <a class="text-link" href="diy-water-wheel-generator-low-head.html">Water wheel generator guide</a>
+          <a class="text-link" href="multi-source-hybrid-charge-controller.html">Hybrid charge controller guide</a>
+        </div>
+      </section>
+
+      <div class="article-grid">
+        <article id="key-takeaways" class="article-card">
+          <h2>Key takeaways</h2>
+          <ul>
+            <li>Your maximum power is set by site physics: <strong>watts ≈ 9.81 × head(m) × flow(L/s)</strong> before losses.</li>
+            <li>Pelton-style turbines like <strong>higher head</strong> (pressure) and <strong>lower flow</strong> compared to water wheels.</li>
+            <li>The DIY goal is a <strong>stable jet + controllable load</strong> so you can measure real watts, not just open-circuit voltage.</li>
+            <li>Pair with solar using a <strong>battery-first</strong> approach: regulation, fusing, and realistic expectations.</li>
+          </ul>
+        </article>
+
+        <article id="table-of-contents" class="article-card">
+          <h2>Table of contents</h2>
+          <ul>
+            <li><a class="text-link" href="#beginner">Beginner explanation</a></li>
+            <li><a class="text-link" href="#site-check">Site check: head, flow, and seasonality</a></li>
+            <li><a class="text-link" href="#how-it-works">How a Pelton turbine works</a></li>
+            <li><a class="text-link" href="#build">A practical DIY build (Version 1 → Version 3)</a></li>
+            <li><a class="text-link" href="#nozzle">Nozzles, pipe, and “why my jet is weak”</a></li>
+            <li><a class="text-link" href="#math">Realistic power math (with examples)</a></li>
+            <li><a class="text-link" href="#charging">Charging a battery safely</a></li>
+            <li><a class="text-link" href="#mistakes">Common mistakes</a></li>
+            <li><a class="text-link" href="#safety">Safety and limitations</a></li>
+            <li><a class="text-link" href="#pairs-with-solar">How it pairs with solar</a></li>
+            <li><a class="text-link" href="#troubleshooting">Troubleshooting</a></li>
+            <li><a class="text-link" href="#faq">FAQ</a></li>
+          </ul>
+        </article>
+
+        <article id="beginner" class="article-card">
+          <h2>Beginner explanation: what “pico hydro” actually means</h2>
+          <p>
+            Pico hydro usually means “small enough to be a DIY experiment,” often from a few watts to a few hundred watts.
+            It’s not magic. You’re converting <strong>gravity potential energy</strong> in water (height) into <strong>electrical power</strong>.
+          </p>
+          <p>
+            Two ideas keep expectations honest:
+          </p>
+          <ul>
+            <li><strong>Head</strong> is pressure from height (how far the water drops).</li>
+            <li><strong>Flow</strong> is how much water per second you can move through a nozzle.</li>
+          </ul>
+          <p>
+            A Pelton turbine prefers a strong, fast jet. That generally means you have some usable head (even 5–30 meters is common in “small but real” sites),
+            and your flow is moderate.
+          </p>
+          <p>
+            If you’re new to watts vs watt-hours, read
+            <a class="text-link" href="../pages/solar-basics.html">solar basics</a>
+            and use the
+            <a class="text-link" href="../pages/battery-capacity.html">battery capacity calculator</a>
+            so your hydro experiment is grounded in daily energy needs.
+          </p>
+        </article>
+
+        <article id="site-check" class="article-card">
+          <h2>Site check: head, flow, and seasonality</h2>
+          <h3>Measure head the simple way</h3>
+          <p>
+            You can estimate head with a hose and a pressure gauge, or by measuring elevation difference between intake and turbine with mapping tools.
+            For DIY, you don’t need survey-grade numbers — you need “is this 2m, 10m, or 50m?”
+          </p>
+          <ul>
+            <li><strong>Low head</strong> (0.5–3m): a water wheel or low-head turbine tends to make more sense.</li>
+            <li><strong>Medium head</strong> (3–20m): small turbines can work; pipe friction becomes important.</li>
+            <li><strong>Higher head</strong> (20m+): Pelton-style designs become attractive (and the jet can be dangerous).</li>
+          </ul>
+
+          <h3>Estimate flow without fancy tools</h3>
+          <p>
+            Use a bucket-and-timer test at the intake point if possible.
+            If the stream is too large, test a small diversion line: you care about the flow you can safely and legally capture.
+          </p>
+          <ul>
+            <li>Measure bucket volume (liters).</li>
+            <li>Time how many seconds it takes to fill.</li>
+            <li>Flow (L/s) = liters ÷ seconds.</li>
+          </ul>
+
+          <h3>Reality check: seasonality and debris</h3>
+          <p>
+            Hydro output can vary massively by season. In many places, summer flow is a fraction of spring flow.
+            Also plan for debris: leaves, sand, and ice are “hydro taxes” that show up as clogged intakes and eroded nozzles.
+          </p>
+        </article>
+
+        <div class="ad-slot">Ad slot</div>
+
+        <article id="how-it-works" class="article-card">
+          <h2>How a Pelton turbine works (the short, useful version)</h2>
+          <p>
+            A Pelton turbine is an “impulse turbine.” Water exits a nozzle as a high-speed jet, hits the runner buckets, and transfers momentum.
+            Unlike a water wheel that is pushed by slow-moving water, a Pelton runner is driven by <strong>jet velocity</strong>.
+          </p>
+
+          <h3>What the buckets do</h3>
+          <p>
+            Efficient Pelton buckets split the jet and turn it nearly 180°.
+            That direction change is the whole trick: changing momentum gives you force on the wheel.
+            DIY versions often use “spoon buckets” or 3D-printed cups to approximate this.
+          </p>
+
+          <h3>Where the losses come from</h3>
+          <ul>
+            <li><strong>Pipe friction</strong> (long/skinny pipe turns head into heat).</li>
+            <li><strong>Nozzle losses</strong> (a poor nozzle makes a spray, not a jet).</li>
+            <li><strong>Runner splash</strong> (water hits wrong angle or re-hits buckets).</li>
+            <li><strong>Bearing and generator losses</strong>.</li>
+            <li><strong>Electrical mismatch</strong> (wrong load: you “stall” the turbine or spin it unloaded).</li>
+          </ul>
+        </article>
+
+        <article id="build" class="article-card">
+          <h2>A practical DIY build (Version 1 → Version 3)</h2>
+          <p>
+            Start with a measurement-focused build. Your first win is not “charging a big battery.”
+            Your first win is: <strong>repeatable RPM and repeatable watts</strong> from a known head and flow.
+          </p>
+
+          <h3>Version 1: the runner + safe test stand (learning build)</h3>
+          <ul>
+            <li><strong>Runner:</strong> a small disk (plywood, aluminum, or 3D print) with spoon-like cups evenly spaced.</li>
+            <li><strong>Shaft:</strong> straight rod with real bearings (skate bearings can work at low loads).</li>
+            <li><strong>Containment:</strong> a splash box or tote bin so water is captured and the jet can’t wander.</li>
+            <li><strong>RPM measurement:</strong> cheap optical tachometer or magnet + hall sensor.</li>
+          </ul>
+          <p>
+            Drive it with a hose or a small pump at modest pressure first. The goal is to check balance, splash behavior, and mounting rigidity.
+          </p>
+
+          <h3>Version 2: add a generator and load control</h3>
+          <p>
+            You need a way to convert rotation into electricity and a way to control the load.
+            A practical DIY approach is a permanent-magnet DC motor used as a generator, plus a load you can adjust.
+          </p>
+          <ul>
+            <li><strong>Generator:</strong> PMDC motor, treadmill motor, or scooter motor.</li>
+            <li><strong>Coupling:</strong> belt drive so you can change ratio easily.</li>
+            <li><strong>Load:</strong> a DC buck converter feeding a resistive load, or a dump-load resistor bank.</li>
+            <li><strong>Instrumentation:</strong> a DC watt meter (volts, amps, watts) on the output.</li>
+          </ul>
+          <p>
+            Avoid “voltage only” testing. Open-circuit voltage is easy to get and tells you almost nothing about usable power.
+          </p>
+
+          <h3>Version 3: move to real water with proper intake basics</h3>
+          <ul>
+            <li><strong>Intake:</strong> screened to keep out rocks and leaves.</li>
+            <li><strong>Settling:</strong> if you have sand, consider a small settling bucket or strainer stage.</li>
+            <li><strong>Penstock (pipe):</strong> sized to reduce friction losses.</li>
+            <li><strong>Nozzle:</strong> a stable jet you can aim and adjust.</li>
+          </ul>
+          <p>
+            If you want the “bigger picture” first, read
+            <a class="text-link" href="micro-hydro-basics-for-off-grid-power.html">micro-hydro basics</a>
+            before committing to pipe length and diameter.
+          </p>
+        </article>
+
+        <article id="nozzle" class="article-card">
+          <h2>Nozzles, pipe, and “why my jet is weak”</h2>
+          <h3>Your nozzle diameter controls flow (and jet quality)</h3>
+          <p>
+            A smaller nozzle increases jet velocity for a given pressure, but it also reduces flow.
+            A larger nozzle increases flow, but if your pipe and head can’t support it, the jet turns into a sad spray.
+          </p>
+          <p>
+            For DIY learning, it’s helpful to build a nozzle block where you can swap tips (different drilled sizes) and record watts for each.
+            This turns your turbine into a science experiment instead of a one-shot project.
+          </p>
+
+          <h3>Penstock friction is the invisible thief</h3>
+          <p>
+            Long, narrow pipe can eat your available head before the nozzle.
+            The symptom is familiar: your intake has head, but the nozzle pressure is low.
+          </p>
+          <ul>
+            <li>Shorter pipe helps.</li>
+            <li>Bigger diameter helps (often more than you expect).</li>
+            <li>Smoother pipe and fewer sharp elbows help.</li>
+          </ul>
+
+          <h3>Use a pressure gauge at the nozzle if you can</h3>
+          <p>
+            A small gauge near the nozzle is one of the most useful debugging tools.
+            It tells you whether your issue is “not enough head/flow” or “mechanical/electrical mismatch.”
+          </p>
+        </article>
+
+        <div class="ad-slot">Ad slot</div>
+
+        <article id="math" class="article-card">
+          <h2>Realistic power math (with examples)</h2>
+          <p>
+            The simplest hydro estimate is:
+          </p>
+          <p class="article-meta"><strong>Hydraulic power (W) ≈ 9.81 × head(m) × flow(L/s)</strong></p>
+          <p>
+            That is the power in the water before turbine and electrical losses.
+            A DIY system might end up at 20–60% overall efficiency depending on build quality and operating point.
+          </p>
+
+          <h3>Example 1: “Small but real” creek site</h3>
+          <ul>
+            <li>Head: 12m</li>
+            <li>Flow: 1.5 L/s</li>
+          </ul>
+          <p>
+            Water power ≈ 9.81 × 12 × 1.5 ≈ <strong>176W</strong>.
+            If your total efficiency is 40%, you might see ~<strong>70W</strong> electrical on a stable load.
+          </p>
+          <p>
+            70W continuous is ~1.68 kWh/day. That’s meaningful for lights, device charging, and small refrigeration — but only if flow stays consistent.
+          </p>
+
+          <h3>Example 2: Backyard experiment with a tank</h3>
+          <ul>
+            <li>Head: 3m</li>
+            <li>Flow: 0.5 L/s</li>
+          </ul>
+          <p>
+            Water power ≈ 9.81 × 3 × 0.5 ≈ <strong>15W</strong>.
+            At 30% overall efficiency, that’s ~<strong>5W</strong> electrical.
+            It’s a great experiment, but it won’t charge a large battery quickly.
+          </p>
+
+          <h3>Why “RPM” and “voltage” can mislead you</h3>
+          <p>
+            A turbine can spin fast with almost no load, producing impressive voltage.
+            But real power requires current.
+            The moment you connect a real load, the turbine slows — and your job is to match the load so you get the most watts without stalling.
+          </p>
+        </article>
+
+        <article id="charging" class="article-card">
+          <h2>Charging a battery safely (the battery-first approach)</h2>
+          <p>
+            If you want to store your energy, don’t connect an unpredictable DIY generator directly to a battery and hope.
+            Use regulation, protection, and a wiring layout you trust.
+          </p>
+
+          <h3>Minimum safe architecture</h3>
+          <ul>
+            <li><strong>Generator → rectifier</strong> (if AC) → <strong>regulator/charger</strong> → <strong>fuse</strong> → <strong>battery</strong>.</li>
+            <li><strong>Dump load</strong> or current limiting so runaway voltage doesn’t cook electronics when the battery is full.</li>
+            <li><strong>Disconnect</strong> so you can stop the experiment instantly.</li>
+          </ul>
+          <p>
+            For protection fundamentals, see
+            <a class="text-link" href="../pages/solar-fuse-and-breaker-sizing.html">fuse and breaker sizing</a>
+            and the
+            <a class="text-link" href="../pages/wiring-decisions.html">wiring decisions checklist</a>.
+          </p>
+
+          <h3>Don’t skip wire size</h3>
+          <p>
+            Small systems often run at low voltage (12V), which means higher current for the same power.
+            Voltage drop and hot wires show up fast.
+            Use the
+            <a class="text-link" href="../pages/solar-wire-size.html">wire size guide</a>
+            and keep cable runs short.
+          </p>
+        </article>
+
+        <article id="mistakes" class="article-card">
+          <h2>Common mistakes</h2>
+          <ul>
+            <li><strong>Designing around “rated watts”</strong> instead of measured head + flow at your site.</li>
+            <li><strong>Undersized pipe</strong> that turns head into friction loss before the nozzle.</li>
+            <li><strong>Testing with no load</strong> and believing voltage equals power.</li>
+            <li><strong>Weak mounting</strong> that lets the jet wander or the runner wobble.</li>
+            <li><strong>No intake screening</strong> (one leaf can end your whole day).</li>
+          </ul>
+        </article>
+
+        <div class="ad-slot">Ad slot</div>
+
+        <article id="safety" class="article-card">
+          <h2>Safety and limitations</h2>
+          <h3>Jet safety and containment</h3>
+          <p>
+            A high-head jet can cut skin and inject debris. Treat it like a pressure washer.
+            Use a splash box, point the nozzle into containment, and keep your hands away from the jet path.
+          </p>
+
+          <h3>Spinning parts and belt drives</h3>
+          <ul>
+            <li>Guard belts and couplers.</li>
+            <li>Stop the experiment before adjusting anything.</li>
+            <li>Balance the runner; don’t “push through” vibration.</li>
+          </ul>
+
+          <h3>Electrical safety</h3>
+          <p>
+            Even “small” systems can create dangerous currents.
+            Fuse close to the battery, and use a disconnect.
+            If you’re unsure, treat the project as a measurement demo (no battery) until you’re confident.
+          </p>
+          <div class="related">
+            <a class="text-link" href="../pages/solar-basics.html">Watts vs watt-hours refresher →</a>
+            <a class="text-link" href="../pages/solar-components.html">Solar components (and why regulators matter) →</a>
+          </div>
+        </article>
+
+        <article id="pairs-with-solar" class="article-card">
+          <h2>How it pairs with solar</h2>
+          <p>
+            Hydro and solar complement each other when they’re both treated as charge sources into a battery system:
+            solar is predictable day-to-day, while hydro can be 24/7 when conditions are right.
+          </p>
+          <ul>
+            <li>Use hydro as a <strong>baseline trickle</strong> that reduces battery cycling depth.</li>
+            <li>Use solar as the <strong>bulk energy provider</strong> during sunny periods.</li>
+            <li>Combine sources with a clear architecture (not a tangle of wires).</li>
+          </ul>
+          <p>
+            If you want a clean mental model for combining sources, read
+            <a class="text-link" href="multi-source-hybrid-charge-controller.html">the hybrid charge controller guide</a>.
+          </p>
+        </article>
+
+        <article id="troubleshooting" class="article-card">
+          <h2>Troubleshooting</h2>
+          <h3>My turbine spins fast but produces almost no usable watts</h3>
+          <ul>
+            <li>Add a real load and measure watts; open-circuit voltage doesn’t count.</li>
+            <li>Increase drive ratio so the generator is in its useful RPM range.</li>
+            <li>Check jet alignment: the jet should hit the bucket at the right point consistently.</li>
+          </ul>
+
+          <h3>My jet turns into spray</h3>
+          <ul>
+            <li>Check for air leaks upstream (air makes the jet unstable).</li>
+            <li>Reduce nozzle diameter and test again.</li>
+            <li>Check that your pipe diameter isn’t choking flow.</li>
+          </ul>
+
+          <h3>Power rises then falls as I load it</h3>
+          <p>
+            That’s normal. There’s a “sweet spot” where turbine speed and load match.
+            If you overload it, RPM collapses and watts can drop.
+            Use adjustable loading so you can find the best operating point.
+          </p>
+          <div class="related">
+            <a class="text-link" href="../pages/solar-output-troubleshooting.html">Troubleshooting mindset →</a>
+          </div>
+        </article>
+
+        <article id="faq" class="article-card">
+          <h2>FAQ</h2>
+          <div class="faq">
+            <div>
+              <h4>How much power can a DIY Pelton turbine make?</h4>
+              <p>
+                It depends on head and flow. Use watts ≈ 9.81 × head(m) × flow(L/s), then multiply by an efficiency estimate.
+                Many DIY builds land in the tens of watts unless the site has strong head and consistent flow.
+              </p>
+            </div>
+            <div>
+              <h4>Is a Pelton turbine better than a water wheel?</h4>
+              <p>
+                Pelton-style turbines generally win when you have higher head and can make a fast jet.
+                Water wheels are often better for very low head where you have lots of slow flow.
+              </p>
+            </div>
+            <div>
+              <h4>Can I charge a 12V battery directly from the generator?</h4>
+              <p>
+                It’s risky. Generator voltage and current change with RPM and load.
+                Use a proper charging stage, fusing near the battery, and a way to prevent overvoltage when the battery is full.
+              </p>
+            </div>
+            <div>
+              <h4>What’s the simplest way to increase output?</h4>
+              <p>
+                Reduce losses first: larger pipe (less friction), a cleaner nozzle jet, better bearings, and better load matching.
+                “More buckets” rarely fixes a poor jet or undersized penstock.
+              </p>
+            </div>
+            <div>
+              <h4>Where should I start if I’m totally new?</h4>
+              <p>
+                Start with
+                <a class="text-link" href="micro-hydro-basics-for-off-grid-power.html">micro-hydro basics</a>,
+                then build a measurement-focused Version 1 runner so you can learn safely before integrating batteries.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
+

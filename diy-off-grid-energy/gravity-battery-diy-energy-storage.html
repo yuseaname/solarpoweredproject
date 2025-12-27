@@ -1,0 +1,1004 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)</title>
+    <meta
+      name="description"
+      content="A realistic DIY gravity battery guide: potential energy physics (mgh), energy density vs chemical batteries, pulley system builds, safety considerations, and why it's best as an educational experiment."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <script
+      src="https://app.rybbit.io/api/script.js"
+      data-site-id="afb6050c297b"
+      defer
+    ></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html"><span>Solar</span><span class="logo-accent">Guide</span></a>
+        <nav class="nav">
+          <a href="../pages/solar-basics.html">Basics</a>
+          <a href="../pages/solar-system-sizing.html">Sizing</a>
+          <a href="../pages/solar-system-costs.html">Costs</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="article-hero">
+        <p class="eyebrow">DIY off-grid energy experiments</p>
+        <h1 class="article-title">Gravity Battery DIY: How to Store Energy with Weights (Physics + Realistic Expectations)</h1>
+        <p class="lede">
+          A gravity battery stores energy by lifting weights and releases it by letting them descend while driving a generator.
+          The physics is simple and beautiful, but the energy density is terrible compared to chemical batteries.
+          This guide shows you how to build one safely, calculate realistic output, and understand why it's a fantastic learning tool but rarely a practical off-grid solution.
+        </p>
+        <p class="article-meta">Evergreen, educational content. Not structural engineering or electrical safety advice.</p>
+        <div class="toc">
+          <span>In this pillar:</span>
+          <a class="text-link" href="index.html">DIY off-grid energy experiments</a>
+          <a class="text-link" href="micro-hydro-basics-for-off-grid-power.html">Micro-hydro basics guide</a>
+          <a class="text-link" href="pedal-power-generator-for-off-grid-battery-charging.html">Pedal power generator guide</a>
+          <a class="text-link" href="diy-small-wind-turbine-for-off-grid-battery-charging.html">Small wind turbine guide</a>
+          <a class="text-link" href="diy-flywheel-energy-storage.html">Flywheel energy storage guide</a>
+          <a class="text-link" href="diy-compressed-air-energy-storage.html">Compressed air storage (CAES) guide</a>
+        </div>
+      </section>
+
+      <div class="article-grid">
+        <article id="key-takeaways" class="article-card">
+          <h2>Key takeaways</h2>
+          <ul>
+            <li>Gravity batteries store energy as <strong>gravitational potential energy</strong>: E = mgh (mass × gravity × height).</li>
+            <li>Energy density is extremely low: <strong>1kg lifted 10m stores only 0.027Wh</strong>, vs 50–250Wh for 1kg of lithium battery.</li>
+            <li>Conversion efficiency (mechanical → electrical) is typically <strong>40–70%</strong> depending on gearing, generator, and friction losses.</li>
+            <li>Practical DIY builds range from <strong>desktop demos (1–10Wh)</strong> to garage systems (50–200Wh) to tower setups (500+Wh, advanced).</li>
+            <li>Safety is the biggest concern: <strong>falling weights, structural failure, and crush hazards</strong> require careful design and fail-safes.</li>
+            <li>Best use case: <strong>educational demonstrations</strong> of energy, power, and conversion efficiency — not cost-effective grid replacement.</li>
+          </ul>
+        </article>
+
+        <article id="table-of-contents" class="article-card">
+          <h2>Table of contents</h2>
+          <ul>
+            <li><a class="text-link" href="#beginner-explanation">Beginner explanation</a></li>
+            <li><a class="text-link" href="#how-it-works">How a gravity energy storage system works</a></li>
+            <li><a class="text-link" href="#build-paths">Practical DIY build paths</a></li>
+            <li><a class="text-link" href="#sizing-output">Sizing and expected energy output</a></li>
+            <li><a class="text-link" href="#costs-efficiency">Costs, efficiency, and maintenance</a></li>
+            <li><a class="text-link" href="#electrical-design">Electrical design for useful output</a></li>
+            <li><a class="text-link" href="#common-mistakes">Common mistakes and misconceptions</a></li>
+            <li><a class="text-link" href="#safety-limitations">Safety and limitations</a></li>
+            <li><a class="text-link" href="#pairing-solar">How gravity storage pairs with solar</a></li>
+            <li><a class="text-link" href="#faq">FAQ</a></li>
+          </ul>
+        </article>
+
+        <div class="ad-slot">Ad slot</div>
+
+        <article id="beginner-explanation" class="article-card">
+          <h2>Beginner explanation: what a gravity battery is</h2>
+          <p>
+            If you've ever wound up a mechanical watch or a wind-up toy, you've used a gravity-adjacent energy storage mechanism.
+            Those systems use springs, but the principle is the same: store energy mechanically and release it on demand.
+          </p>
+          <p>
+            A gravity battery skips the spring and uses Earth's gravitational field directly.
+            Lift a weight high, and you've stored potential energy. Let it fall while connected to a generator, and that energy becomes electricity.
+          </p>
+
+          <h3>Potential energy basics (mgh)</h3>
+          <p>
+            The amount of energy stored in a lifted weight is given by:
+          </p>
+          <p>
+            <strong>E = m × g × h</strong>
+          </p>
+          <ul>
+            <li><strong>E</strong>: Energy (joules, J)</li>
+            <li><strong>m</strong>: Mass (kilograms, kg)</li>
+            <li><strong>g</strong>: Acceleration due to gravity (≈ 9.8 m/s² on Earth)</li>
+            <li><strong>h</strong>: Height (meters, m)</li>
+          </ul>
+          <p>
+            This equation is exact — no approximations, no efficiency terms yet.
+            If you lift 100kg by 10m, you store exactly 9,800 joules (about 2.7 watt-hours).
+          </p>
+
+          <h3>Why lifting weights stores energy</h3>
+          <p>
+            When you lift a weight, you do work against gravity.
+            That work gets stored in the gravitational field as potential energy.
+          </p>
+          <p>
+            Release the weight and let it fall, and gravity does work on the weight, accelerating it downward.
+            If you connect the falling weight to a generator through a pulley or gearing system, you can extract that energy as electricity.
+          </p>
+
+          <h3>Conversion to electricity (motor/generator, gearing)</h3>
+          <p>
+            The falling weight must do mechanical work on a generator.
+            This usually involves:
+          </p>
+          <ul>
+            <li><strong>Pulley or winch</strong>: Converts linear descent into rotational motion.</li>
+            <li><strong>Gearing</strong>: Matches the slow speed of descent (maybe 0.1–1 m/s) to the generator's optimal RPM (often 1000+ RPM).</li>
+            <li><strong>Generator</strong>: Converts mechanical rotation into electricity.</li>
+          </ul>
+          <p>
+            Each conversion step introduces losses: bearing friction, gear friction, electrical resistance in the generator, and voltage regulation losses.
+          </p>
+
+          <h3>Energy density reality check (compare to lithium-ion)</h3>
+          <p>
+            This is where gravity batteries hit a wall.
+            Energy density (watt-hours per kilogram) is abysmal:
+          </p>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Energy storage type</th>
+                  <th>Energy density (Wh/kg)</th>
+                  <th>Example</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Gravity (1kg, 10m height)</td>
+                  <td>0.027 Wh/kg</td>
+                  <td>1kg weight at 10m = 0.027Wh</td>
+                </tr>
+                <tr>
+                  <td>Lead-acid battery</td>
+                  <td>30–50 Wh/kg</td>
+                  <td>1kg lead-acid ≈ 40Wh</td>
+                </tr>
+                <tr>
+                  <td>Lithium-ion battery</td>
+                  <td>150–250 Wh/kg</td>
+                  <td>1kg lithium ≈ 200Wh</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            To store the same energy as a 1kg lithium battery (200Wh), you'd need to lift about <strong>7,400kg to a height of 10m</strong>.
+          </p>
+          <p>
+            This is why gravity batteries are educational experiments, not practical grid-scale storage (except in niche cases like pumped hydro at dam scale).
+          </p>
+        </article>
+
+        <article id="how-it-works" class="article-card">
+          <h2>How a gravity energy storage system works</h2>
+          <p>
+            A complete gravity battery has six key subsystems.
+            Each one needs attention or performance collapses.
+          </p>
+
+          <h3>Lifting mechanism (winch, pulley, crank)</h3>
+          <p>
+            Energy input happens during the lift phase.
+            You can power the lift with:
+          </p>
+          <ul>
+            <li><strong>Manual crank</strong>: Simple, zero-cost, and a great workout. Good for educational demos.</li>
+            <li><strong>Electric winch</strong>: Powered by solar or grid. Makes recharging fast but adds cost and complexity.</li>
+            <li><strong>Bicycle pedal drive</strong>: Hybrid human-powered approach. See <a class="text-link" href="pedal-power-generator-for-off-grid-battery-charging.html">pedal power guide</a>.</li>
+          </ul>
+
+          <h3>Stored weight (concrete blocks, water containers, steel)</h3>
+          <p>
+            The mass determines total energy capacity.
+            Common materials:
+          </p>
+          <ul>
+            <li><strong>Concrete blocks or pavers</strong>: Cheap, dense (≈2.4 kg/liter), stackable. Easy to add or remove mass incrementally.</li>
+            <li><strong>Water containers</strong>: 1 kg per liter. Safer if dropped (won't crush things), but messier if containers leak.</li>
+            <li><strong>Steel weights or scrap metal</strong>: Denser (≈7.8 kg/liter), but more expensive unless sourced as scrap.</li>
+          </ul>
+          <p>
+            For a garage-scale build, 50–200kg is typical.
+          </p>
+
+          <h3>Controlled descent and generator</h3>
+          <p>
+            During discharge, the weight must descend at a controlled, steady speed to drive the generator at optimal RPM.
+          </p>
+          <p>
+            Uncontrolled freefall produces no useful electricity — it just converts potential energy into kinetic energy (speed), then waste heat when the weight hits the ground.
+          </p>
+          <p>
+            Speed control mechanisms:
+          </p>
+          <ul>
+            <li><strong>Generator electrical load</strong>: A resistive or battery load creates electromagnetic braking, slowing descent.</li>
+            <li><strong>Friction brake</strong>: Mechanical brake that limits descent speed regardless of electrical load.</li>
+            <li><strong>Governor or flywheel</strong>: Advanced mechanical regulation for constant speed under varying load.</li>
+          </ul>
+
+          <h3>Gearing or speed regulation</h3>
+          <p>
+            A weight descending at 0.5 m/s on a 0.1m-radius pulley yields about 5 RPM at the pulley shaft.
+            Most DC generators need 500–3000 RPM for useful voltage output.
+          </p>
+          <p>
+            You need a gear ratio of roughly 100:1 to 600:1.
+            Options:
+          </p>
+          <ul>
+            <li><strong>Chain or belt drives with multiple stages</strong>: Simple, but each stage adds friction.</li>
+            <li><strong>Worm gears</strong>: Compact, high-ratio, but often 50–70% efficient.</li>
+            <li><strong>Planetary gears</strong>: More expensive, 80–95% efficient, compact.</li>
+          </ul>
+
+          <h3>Electrical output (DC generator or alternator)</h3>
+          <p>
+            The generator converts mechanical shaft power into electricity.
+            Common choices:
+          </p>
+          <ul>
+            <li><strong>DC motor as generator</strong>: Permanent magnet DC motors work in reverse. Simple wiring, but voltage varies with speed.</li>
+            <li><strong>Automotive alternator</strong>: Produces AC, then rectified to DC. Needs higher RPM (1000+ RPM). Common in DIY projects.</li>
+            <li><strong>Bicycle hub dynamo</strong>: Low power (3–6W max) but perfect for small demos.</li>
+          </ul>
+
+          <h3>Battery charging or direct load use</h3>
+          <p>
+            Generator output is rarely stable enough to run loads directly.
+            Buffer the energy in a battery for stable voltage and load matching:
+          </p>
+          <ul>
+            <li><strong>Battery → inverter → AC loads</strong></li>
+            <li><strong>Battery → DC loads</strong> (lights, USB chargers)</li>
+          </ul>
+          <p>
+            Alternatively, run a resistive load directly (like an LED or heating element) for real-time energy measurement without storage.
+          </p>
+        </article>
+
+        <div class="ad-slot">Ad slot</div>
+
+        <article id="build-paths" class="article-card">
+          <h2>Practical DIY build paths</h2>
+          <p>
+            Start small and prove the concept before scaling up.
+            Gravity batteries are mechanically complex and potentially dangerous if built at large scale without engineering rigor.
+          </p>
+
+          <h3>Path A — Desktop demonstration (small weights, low energy)</h3>
+          <p>
+            Goal: Understand the physics and measure conversion efficiency without safety risks.
+          </p>
+          <p><strong>Design:</strong></p>
+          <ul>
+            <li>Mass: 1–5kg (books, water bottles, hand weights)</li>
+            <li>Height: 1–2 meters</li>
+            <li>Total capacity: 0.003–0.027 Wh (10–100 joules)</li>
+            <li>Generator: Small DC motor (toy motor, 3–12V)</li>
+            <li>Gearing: 3D-printed gears or LEGO Technic</li>
+            <li>Load: LED lights or small capacitor charging</li>
+          </ul>
+          <p><strong>Pros:</strong> Safe, cheap, fast to build, excellent for learning.</p>
+          <p><strong>Cons:</strong> Essentially zero practical energy output.</p>
+
+          <h3>Path B — Garage pulley system (moderate scale)</h3>
+          <p>
+            Goal: Store enough energy to charge a phone or run lights for a few minutes.
+          </p>
+          <p><strong>Design:</strong></p>
+          <ul>
+            <li>Mass: 50–100kg (concrete blocks, sandbags)</li>
+            <li>Height: 3–5 meters (ceiling height in garage or shed)</li>
+            <li>Total capacity: 40–135 Wh (if 100% efficient; realistically 20–70 Wh delivered)</li>
+            <li>Pulley system: Heavy-duty steel cable and pulleys rated for load</li>
+            <li>Generator: 12V DC motor or automotive alternator</li>
+            <li>Gearing: Bicycle chain drive with 2–3 stages</li>
+            <li>Battery: Small 12V lead-acid or lithium battery for buffering</li>
+          </ul>
+          <p><strong>Pros:</strong> Enough energy to be "useful" for demos. Teaches system design and instrumentation.</p>
+          <p><strong>Cons:</strong> Moderate cost ($100–$300). Safety risks if poorly designed. Still far less practical than a $50 battery.</p>
+
+          <h3>Path C — Tower/scaffold larger build (advanced, safety-critical)</h3>
+          <p>
+            Goal: Multi-hundred-watt-hour storage, approaching small battery bank capacity.
+          </p>
+          <p><strong>Design:</strong></p>
+          <ul>
+            <li>Mass: 200–1000kg</li>
+            <li>Height: 10–20 meters (scaffolding, tower, or grain silo)</li>
+            <li>Total capacity: 540–5400 Wh theoretical (200–2000 Wh realistic after losses)</li>
+            <li>Structure: Engineered scaffolding or purpose-built tower with load ratings verified</li>
+            <li>Safety: Redundant braking, fall protection, structural engineering review</li>
+            <li>Generator: Industrial-grade alternator or custom-built high-efficiency generator</li>
+          </ul>
+          <p><strong>Pros:</strong> Approaches "interesting" energy capacity. Can demonstrate grid-scale concepts.</p>
+          <p><strong>Cons:</strong> Extremely dangerous if built improperly. High cost ($1,000–$10,000+). Requires engineering expertise. Still worse cost-per-Wh than batteries.</p>
+
+          <h3>Choosing weight, height, and drop time</h3>
+          <p>
+            These three variables define your system:
+          </p>
+          <ul>
+            <li><strong>Weight (mass)</strong>: Scales energy linearly. Double the mass = double the energy.</li>
+            <li><strong>Height</strong>: Also linear. Double the height = double the energy.</li>
+            <li><strong>Drop time</strong>: Determines power (watts). Slow descent = low power over long time. Fast descent = high power briefly.</li>
+          </ul>
+          <p>
+            Example: 100kg at 10m stores 2.7Wh. If it descends in:
+          </p>
+          <ul>
+            <li><strong>1 minute</strong> → average power ≈ 160W (theoretical)</li>
+            <li><strong>10 minutes</strong> → average power ≈ 16W</li>
+            <li><strong>1 hour</strong> → average power ≈ 2.7W</li>
+          </ul>
+          <p>
+            Choose drop time based on the load you want to run and generator efficiency at different speeds.
+          </p>
+        </article>
+
+        <article id="sizing-output" class="article-card">
+          <h2>Sizing and expected energy output</h2>
+          <p>
+            Calculating theoretical capacity is trivial (E = mgh).
+            Predicting real-world delivered energy requires accounting for every loss mechanism.
+          </p>
+
+          <h3>The potential energy equation: E = mgh</h3>
+          <p>
+            This is your starting point.
+            Energy stored (in joules) = mass (kg) × 9.8 (m/s²) × height (m).
+          </p>
+          <p>
+            To convert joules to watt-hours: <strong>1 Wh = 3600 J</strong>.
+          </p>
+          <p>
+            So: <strong>Wh = (m × g × h) / 3600</strong>
+          </p>
+
+          <h3>Worked examples (10kg at 3m, 100kg at 10m, etc.)</h3>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Mass (kg)</th>
+                  <th>Height (m)</th>
+                  <th>Energy (J)</th>
+                  <th>Energy (Wh)</th>
+                  <th>Realistic delivered (Wh)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>10</td>
+                  <td>3</td>
+                  <td>294</td>
+                  <td>0.08</td>
+                  <td>0.04–0.06</td>
+                </tr>
+                <tr>
+                  <td>50</td>
+                  <td>5</td>
+                  <td>2,450</td>
+                  <td>0.68</td>
+                  <td>0.3–0.5</td>
+                </tr>
+                <tr>
+                  <td>100</td>
+                  <td>10</td>
+                  <td>9,800</td>
+                  <td>2.7</td>
+                  <td>1.4–2.0</td>
+                </tr>
+                <tr>
+                  <td>200</td>
+                  <td>10</td>
+                  <td>19,600</td>
+                  <td>5.4</td>
+                  <td>2.7–4.0</td>
+                </tr>
+                <tr>
+                  <td>500</td>
+                  <td>20</td>
+                  <td>98,000</td>
+                  <td>27</td>
+                  <td>14–20</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Conversion efficiency (mechanical → electrical losses)</h3>
+          <p>
+            Realistic system efficiency is 40–70%, depending on:
+          </p>
+          <ul>
+            <li><strong>Pulley and bearing friction</strong>: 5–15% loss</li>
+            <li><strong>Gearing friction</strong>: 10–50% loss (worm gears are worst, planetary gears best)</li>
+            <li><strong>Generator efficiency</strong>: 50–85% (small DC motors are inefficient; alternators better at higher RPM)</li>
+            <li><strong>Voltage regulation and battery charging</strong>: 5–15% loss</li>
+          </ul>
+          <p>
+            A well-designed system with quality bearings, planetary gears, and a matched generator might hit 60–70% overall.
+            A crude system with worm gears and a toy motor might deliver 30–40%.
+          </p>
+
+          <h3>How long can it power a load? (watt-hours vs watts)</h3>
+          <p>
+            This is where beginners get confused: watts vs watt-hours.
+          </p>
+          <ul>
+            <li><strong>Wh</strong> (watt-hours): Total energy stored.</li>
+            <li><strong>W</strong> (watts): Rate of energy use or delivery (power).</li>
+          </ul>
+          <p>
+            Runtime = Wh ÷ W.
+          </p>
+          <p>
+            Example: 100kg at 10m delivers 2Wh (realistic).
+          </p>
+          <ul>
+            <li>Running a 2W LED → 1 hour runtime</li>
+            <li>Running a 10W phone charger → 12 minutes</li>
+            <li>Running a 50W laptop → 2.4 minutes</li>
+          </ul>
+
+          <h3>Comparing to a small lead-acid or lithium battery</h3>
+          <p>
+            Let's compare cost and space for equivalent storage:
+          </p>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Storage method</th>
+                  <th>Capacity</th>
+                  <th>Cost</th>
+                  <th>Weight/size</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Gravity (100kg, 10m)</td>
+                  <td>2 Wh</td>
+                  <td>$50–$200 (pulley, gearing, generator)</td>
+                  <td>100kg + 10m vertical space</td>
+                </tr>
+                <tr>
+                  <td>Lead-acid (35Ah, 12V)</td>
+                  <td>420 Wh</td>
+                  <td>$80–$150</td>
+                  <td>12kg, shoebox-sized</td>
+                </tr>
+                <tr>
+                  <td>Lithium (100Ah, 12V)</td>
+                  <td>1,200 Wh</td>
+                  <td>$300–$600</td>
+                  <td>12kg, shoebox-sized</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            To match a cheap 420Wh lead-acid battery with gravity storage, you'd need to lift 15,500kg by 10m.
+            That's not a DIY project — that's civil engineering.
+          </p>
+        </article>
+
+        <div class="ad-slot">Ad slot</div>
+
+        <article id="costs-efficiency" class="article-card">
+          <h2>Costs, efficiency, and maintenance</h2>
+          <p>
+            Gravity batteries are mechanically intensive.
+            The more capacity you want, the more you pay for structure, gearing, and safety.
+          </p>
+
+          <h3>Material costs (weights, pulleys, frame, generator)</h3>
+          <p>
+            Desktop demo build (1–10 Wh capacity):
+          </p>
+          <ul>
+            <li>Weights: $0 (books, water bottles)</li>
+            <li>Pulley and string: $5–$10</li>
+            <li>Small DC motor: $5–$15</li>
+            <li>Gears/3D-printed parts: $10–$30</li>
+            <li><strong>Total: $20–$65</strong></li>
+          </ul>
+          <p>
+            Garage-scale build (20–100 Wh capacity):
+          </p>
+          <ul>
+            <li>Weights (concrete, sandbags): $20–$50</li>
+            <li>Heavy-duty pulley and cable: $30–$80</li>
+            <li>Gearing (chain drives, sprockets): $40–$120</li>
+            <li>Generator (alternator or DC motor): $30–$100</li>
+            <li>Frame and mounting: $50–$150</li>
+            <li>Battery and regulation: $50–$150</li>
+            <li><strong>Total: $220–$650</strong></li>
+          </ul>
+          <p>
+            Cost per Wh for gravity: $3–$10/Wh.
+            Cost per Wh for lithium battery: $0.25–$0.50/Wh.
+          </p>
+          <p>
+            Gravity batteries are 10–40× more expensive per watt-hour.
+          </p>
+
+          <h3>Efficiency stack (friction, gearing, generator, regulation)</h3>
+          <p>
+            Round-trip efficiency (energy in during lift → energy out during descent) depends on your build quality:
+          </p>
+          <ul>
+            <li><strong>Best case</strong>: Ball-bearing pulleys, planetary gears, high-efficiency generator, MPPT regulation → 60–70% round-trip.</li>
+            <li><strong>Typical DIY</strong>: Bushings, chain drives, DC motor generator, simple regulation → 40–55%.</li>
+            <li><strong>Crude build</strong>: Worm gears, friction-heavy pulleys, mismatched generator → 25–40%.</li>
+          </ul>
+          <p>
+            Compare to lithium battery round-trip efficiency: 90–95%.
+          </p>
+
+          <h3>Mechanical wear and cable/rope inspection</h3>
+          <p>
+            Gravity batteries have moving parts under load — wear is inevitable:
+          </p>
+          <ul>
+            <li><strong>Cable or rope</strong>: Inspect for fraying, kinks, or corrosion every month. Replace annually or after 1000+ cycles.</li>
+            <li><strong>Pulleys and bearings</strong>: Lubricate every 3–6 months. Replace bearings if they develop play or noise.</li>
+            <li><strong>Gears and chains</strong>: Clean and re-lubricate every 6 months. Check for tooth wear.</li>
+            <li><strong>Generator brushes</strong> (if DC motor): Replace every 500–2000 hours of operation.</li>
+          </ul>
+
+          <h3>When is it worth building vs just buying a battery?</h3>
+          <p>
+            Build a gravity battery if:
+          </p>
+          <ul>
+            <li>Your goal is <strong>education</strong> and you want to understand energy storage physics hands-on.</li>
+            <li>You have free materials and time, and enjoy mechanical projects.</li>
+            <li>You're teaching students or demonstrating concepts at a makerspace.</li>
+          </ul>
+          <p>
+            Don't build one if:
+          </p>
+          <ul>
+            <li>You need practical, cost-effective energy storage for off-grid living.</li>
+            <li>You lack fabrication skills or tools for safe structural design.</li>
+            <li>You're hoping to save money vs buying batteries (you won't).</li>
+          </ul>
+        </article>
+
+        <article id="electrical-design" class="article-card">
+          <h2>Electrical design for useful output</h2>
+          <p>
+            The mechanical side is only half the system.
+            You need proper electrical design to extract, regulate, and store the energy usefully.
+          </p>
+
+          <h3>Generator selection (DC motor as generator, alternator)</h3>
+          <p>
+            Generators for DIY gravity batteries:
+          </p>
+          <ul>
+            <li><strong>Permanent magnet DC motor (12V–48V)</strong>: Simple wiring, voltage proportional to RPM. Good for variable-speed systems if paired with a boost/buck converter.</li>
+            <li><strong>Automotive alternator</strong>: Designed for 1000+ RPM. Produces AC, rectified to DC internally (on most units). Needs field excitation but self-regulates voltage once spinning.</li>
+            <li><strong>Stepper motor as generator</strong>: Can work at very low RPM but produces pulsed DC that needs filtering. Common in low-power demos.</li>
+            <li><strong>Bicycle dynamo</strong>: 3–6W at typical speeds. Perfect for desktop demos, useless for meaningful power.</li>
+          </ul>
+
+          <h3>Voltage regulation and battery charging</h3>
+          <p>
+            Generator output voltage varies with descent speed.
+            You need regulation to prevent overcharging the battery or damaging loads:
+          </p>
+          <ul>
+            <li><strong>Charge controller</strong>: Use a 12V solar charge controller (PWM or MPPT) if generator voltage is 15–30V.</li>
+            <li><strong>DC-DC buck/boost converter</strong>: If generator voltage is unstable or outside battery charging range.</li>
+            <li><strong>Shunt regulator</strong>: Diverts excess power to a dump load if battery is full, preventing overvoltage.</li>
+          </ul>
+
+          <h3>Protection and disconnects</h3>
+          <ul>
+            <li><strong>Fuse or breaker</strong> near battery positive terminal (sized for max charging current).</li>
+            <li><strong>Blocking diode</strong> to prevent battery discharging back through the generator when weight is stationary.</li>
+            <li><strong>Mechanical brake or disconnect</strong> to stop descent instantly in an emergency.</li>
+          </ul>
+
+          <h3>Instrumentation (measuring stored vs delivered energy)</h3>
+          <p>
+            The best part of a gravity battery project is quantifying efficiency.
+            Install:
+          </p>
+          <ul>
+            <li><strong>Voltmeter and ammeter</strong> at generator output and battery input.</li>
+            <li><strong>Watt-hour meter</strong> (or log V × A over time) to measure total energy delivered to battery.</li>
+            <li><strong>Timer or position sensor</strong> to measure descent time and calculate average power.</li>
+          </ul>
+          <p>
+            Compare measured Wh delivered to theoretical Wh from mgh to calculate system efficiency.
+          </p>
+        </article>
+
+        <div class="ad-slot">Ad slot</div>
+
+        <article id="common-mistakes" class="article-card">
+          <h2>Common mistakes and misconceptions</h2>
+          <p>
+            Most DIY gravity batteries fail due to mechanical design errors or unrealistic expectations, not electrical problems.
+          </p>
+
+          <h3>Underestimating mechanical losses</h3>
+          <p>
+            Friction eats efficiency.
+            Every pulley, every gear mesh, every bearing adds loss.
+          </p>
+          <p>
+            Beginners often assume 90%+ efficiency and are shocked when real systems deliver 40–60%.
+            Design for worst-case losses and be pleasantly surprised if you do better.
+          </p>
+
+          <h3>Ignoring safety (falling weights, structural failure)</h3>
+          <p>
+            A 100kg weight falling 10m has the kinetic energy of a small car crash by the time it hits the ground.
+          </p>
+          <p>
+            If the cable snaps, pulley fails, or structure collapses, people can die.
+            This is not an exaggeration.
+          </p>
+          <p>
+            Use safety factors of 5:1 or better on all structural components and cables.
+            Add redundant braking and physical barriers.
+          </p>
+
+          <h3>Expecting grid-scale storage from backyard builds</h3>
+          <p>
+            A 500kg weight at 20m stores 27Wh theoretical — enough to run a laptop for 30 minutes.
+          </p>
+          <p>
+            To store 1kWh (one kilowatt-hour, equivalent to a small home battery), you'd need 18,500kg at 20m height.
+            That's 9 full-size cars suspended 6 stories high.
+          </p>
+          <p>
+            Gravity storage scales at industrial/utility level (pumped hydro, crane-based systems), not backyard DIY.
+          </p>
+
+          <h3>Poor speed control causing voltage spikes</h3>
+          <p>
+            If the weight free-falls, the generator spins too fast and produces voltage spikes that can:
+          </p>
+          <ul>
+            <li>Damage electronics and batteries</li>
+            <li>Blow fuses</li>
+            <li>Overheat the generator windings</li>
+          </ul>
+          <p>
+            Use electrical load (resistor or battery charging resistance) or mechanical braking to limit descent speed.
+          </p>
+
+          <h3>Neglecting braking/emergency stop mechanisms</h3>
+          <p>
+            Once a weight starts descending under load, it has momentum.
+            If something goes wrong, you need to stop it instantly.
+          </p>
+          <p>
+            Install:
+          </p>
+          <ul>
+            <li>Mechanical brake (caliper, band brake, or friction pad on pulley)</li>
+            <li>Emergency disconnect (pull-cord or lever that releases electrical load, allowing brake to engage)</li>
+            <li>End-stop or shock absorber at bottom of travel</li>
+          </ul>
+        </article>
+
+        <article id="safety-limitations" class="article-card">
+          <h2>Safety and limitations</h2>
+          <p>
+            Gravity batteries are among the most dangerous DIY energy projects.
+            Treat them with the same respect as a loaded weapon.
+          </p>
+
+          <h3>Structural integrity and load ratings</h3>
+          <p>
+            Every component must be rated for at least <strong>5× the maximum load</strong>:
+          </p>
+          <ul>
+            <li><strong>Cable or rope</strong>: Use steel cable rated for lifting, not hardware-store clothesline. Check working load limit (WLL).</li>
+            <li><strong>Pulleys</strong>: Must be rated for the load. Cheap plastic pulleys will fail.</li>
+            <li><strong>Mounting structure</strong>: Anchor to structural beams (not drywall). Use lag bolts into studs or concrete anchors rated for 10× the load.</li>
+            <li><strong>Weight attachment</strong>: Use secure shackles, bolts, or welded connections. Rope tied around a block is not sufficient.</li>
+          </ul>
+
+          <h3>Fall hazards and crush risk</h3>
+          <p>
+            If the weight falls unexpectedly:
+          </p>
+          <ul>
+            <li>Anyone below is at risk of being crushed or struck.</li>
+            <li>The impact can damage floors, break through ceilings, or destabilize structures.</li>
+          </ul>
+          <p>
+            Mitigation:
+          </p>
+          <ul>
+            <li>Install physical barriers (fencing, cages) around the drop zone.</li>
+            <li>Use guide rails or tracks to prevent lateral swing.</li>
+            <li>Never allow people below a suspended weight.</li>
+            <li>Test with sandbags before using solid weights.</li>
+          </ul>
+
+          <h3>Cable/rope failure modes</h3>
+          <p>
+            Cables fail when:
+          </p>
+          <ul>
+            <li><strong>Overloaded</strong> beyond working load limit.</li>
+            <li><strong>Frayed or corroded</strong> from wear or moisture.</li>
+            <li><strong>Kinked or bent</strong> over sharp edges (weakens internal strands).</li>
+            <li><strong>Improperly terminated</strong> (loops, knots, or clamps installed incorrectly).</li>
+          </ul>
+          <p>
+            Inspect cables before every use and replace if any damage is visible.
+          </p>
+
+          <h3>Electrical safety during descent/generation</h3>
+          <p>
+            While 12V is generally safe, high current (10A+) can still cause:
+          </p>
+          <ul>
+            <li><strong>Arc flash</strong> if connections are opened under load.</li>
+            <li><strong>Fire</strong> from overheated wires or poor connections.</li>
+            <li><strong>Battery damage</strong> from overvoltage or overcurrent.</li>
+          </ul>
+          <p>
+            Use properly rated fuses, connectors, and wire.
+            See <a class="text-link" href="../pages/solar-wire-size.html">wire sizing guide</a> and <a class="text-link" href="../pages/solar-fuse-and-breaker-sizing.html">fuse/breaker sizing</a>.
+          </p>
+
+          <h3>When to keep it purely educational</h3>
+          <p>
+            Build for learning if:
+          </p>
+          <ul>
+            <li>You're demonstrating physics concepts in a classroom or workshop.</li>
+            <li>You're teaching kids about energy and power.</li>
+            <li>You enjoy mechanical builds and want a conversation piece.</li>
+          </ul>
+          <p>
+            Avoid large-scale builds unless:
+          </p>
+          <ul>
+            <li>You have formal engineering training or work with a structural engineer.</li>
+            <li>You can afford to over-build by 5–10× for safety.</li>
+            <li>You accept that cost-per-Wh will be terrible vs batteries.</li>
+          </ul>
+        </article>
+
+        <div class="ad-slot">Ad slot</div>
+
+        <article id="pairing-solar" class="article-card">
+          <h2>How gravity storage pairs with solar</h2>
+          <p>
+            In theory, gravity batteries could store excess solar energy mechanically instead of chemically.
+            In practice, chemical batteries are so much better that this makes sense only as an educational hybrid.
+          </p>
+
+          <h3>Lifting weights with solar during the day</h3>
+          <p>
+            Charge phase: solar panels → charge controller → battery → electric winch → lift weight.
+          </p>
+          <p>
+            This adds two conversion steps vs direct battery charging:
+          </p>
+          <ul>
+            <li>Battery → winch motor (70–85% efficient)</li>
+            <li>Weight descent → generator → battery (40–70% efficient)</li>
+          </ul>
+          <p>
+            Round-trip efficiency: 28–60%, vs 90–95% for battery-only.
+          </p>
+
+          <h3>Discharging at night or during cloudy periods</h3>
+          <p>
+            Discharge phase: weight descends → generator → battery → loads.
+          </p>
+          <p>
+            The gravity battery acts as a "mechanical buffer" between solar input and battery storage.
+            But it's less efficient and more complex than just sizing your battery bank larger.
+          </p>
+
+          <h3>Battery vs gravity hybrid architecture</h3>
+          <p>
+            Hybrid approach:
+          </p>
+          <ul>
+            <li><strong>Primary storage</strong>: Chemical battery (lithium or lead-acid) for efficiency and energy density.</li>
+            <li><strong>Backup/demo storage</strong>: Gravity battery for educational value or extremely long-term storage (weeks/months) without self-discharge.</li>
+          </ul>
+          <p>
+            Gravity storage has zero self-discharge.
+            A suspended weight will hold potential energy indefinitely (ignoring cable creep and material fatigue).
+            Batteries self-discharge 1–20% per month.
+          </p>
+          <p>
+            This makes gravity attractive for ultra-long-term seasonal storage in niche scenarios, but not typical off-grid use.
+          </p>
+
+          <h3>Shared inverter and load management</h3>
+          <p>
+            If both battery and gravity system charge the same battery bank:
+          </p>
+          <ul>
+            <li><strong>Solar → charge controller → battery</strong></li>
+            <li><strong>Gravity generator → regulator → battery</strong></li>
+            <li><strong>Battery → inverter → AC loads</strong></li>
+          </ul>
+          <p>
+            The inverter doesn't care where the battery charge came from.
+            This is the simplest integration path.
+          </p>
+        </article>
+
+        <article id="faq" class="article-card">
+          <h2>FAQ: Gravity battery energy storage</h2>
+
+          <h3>Is a DIY gravity battery practical for off-grid power?</h3>
+          <p>
+            No, not at any realistic scale.
+            Chemical batteries are 10–40× cheaper per watt-hour and 100× more energy-dense.
+          </p>
+          <p>
+            Gravity batteries are best for <strong>education</strong> and demonstrating physics, not replacing lithium or lead-acid batteries.
+          </p>
+
+          <h3>How much weight do I need to power a house for one day?</h3>
+          <p>
+            A modest off-grid home might use 5–10 kWh/day (5,000–10,000 Wh).
+          </p>
+          <p>
+            To store 5,000Wh at 10m height: you'd need to lift <strong>184,000 kg</strong> (184 metric tons, or about 90 cars).
+          </p>
+          <p>
+            This is why pumped hydro (industrial-scale gravity storage) uses millions of liters of water and dam-scale infrastructure.
+          </p>
+
+          <h3>What's the best height for a DIY gravity battery?</h3>
+          <p>
+            For safety and practicality: <strong>3–5 meters</strong> (garage ceiling height).
+          </p>
+          <p>
+            Higher is better for energy density (more Wh per kg), but:
+          </p>
+          <ul>
+            <li>Structural requirements increase (stronger cable, pulleys, mounting).</li>
+            <li>Fall hazards increase exponentially.</li>
+            <li>Building codes and permitting may apply for tall structures.</li>
+          </ul>
+          <p>
+            Unless you have engineering expertise, don't exceed 5m height.
+          </p>
+
+          <h3>Can I use water instead of weights?</h3>
+          <p>
+            Yes. Water is 1 kg per liter, so it's easy to calculate and adjust mass.
+          </p>
+          <p>
+            Pros: Safer if spilled (vs crushing hazard of concrete). Easy to add/remove mass. Free if you have a water source.
+          </p>
+          <p>
+            Cons: Containers can leak. Freezing is a problem in winter. Lower density than concrete or steel, so larger volume needed.
+          </p>
+
+          <h3>How long do gravity batteries last?</h3>
+          <p>
+            Theoretically, indefinitely — there's no chemical degradation like in batteries.
+          </p>
+          <p>
+            Practically, mechanical components wear out:
+          </p>
+          <ul>
+            <li><strong>Cables</strong>: 1,000–10,000 cycles depending on quality and inspection.</li>
+            <li><strong>Bearings</strong>: 5,000–50,000 hours depending on load and lubrication.</li>
+            <li><strong>Gears</strong>: 10,000–100,000+ cycles if well-maintained.</li>
+          </ul>
+          <p>
+            With good maintenance, a gravity battery could last 10–30 years mechanically.
+          </p>
+
+          <h3>What's the round-trip efficiency of a gravity battery?</h3>
+          <p>
+            Realistic DIY builds: <strong>40–60%</strong> (energy in to lift → energy out during descent).
+          </p>
+          <p>
+            High-quality engineered systems: <strong>60–80%</strong>.
+          </p>
+          <p>
+            Compare to lithium batteries: 90–95% round-trip efficiency.
+          </p>
+
+          <h3>Can I build a gravity battery for emergency backup power?</h3>
+          <p>
+            Technically yes, but it's not practical.
+          </p>
+          <p>
+            A simple 100Ah lithium battery (1,200Wh) costs $300–$600 and weighs 12kg.
+            To match that with gravity at 50% efficiency, you'd need to lift 890kg to 10m height.
+          </p>
+          <p>
+            The infrastructure cost and safety risk far exceed just buying a second battery.
+          </p>
+
+          <h3>Are gravity batteries used commercially?</h3>
+          <p>
+            Yes, at utility scale:
+          </p>
+          <ul>
+            <li><strong>Pumped hydro storage</strong>: Water is pumped uphill to a reservoir, then released through turbines. This is the most common grid-scale energy storage worldwide (95%+ of all grid storage).</li>
+            <li><strong>Crane-based systems</strong>: Companies like Energy Vault are developing systems that lift concrete blocks with cranes to store grid energy.</li>
+          </ul>
+          <p>
+            But these are megawatt-scale installations with millions in capital investment — not DIY projects.
+          </p>
+
+          <h3>What can I learn from building a gravity battery?</h3>
+          <p>
+            Hands-on understanding of:
+          </p>
+          <ul>
+            <li><strong>Energy vs power</strong>: Total capacity (Wh) vs rate of delivery (W).</li>
+            <li><strong>Conversion efficiency losses</strong>: How friction, gearing, and regulation eat into theoretical capacity.</li>
+            <li><strong>Mechanical design trade-offs</strong>: Safety, cost, efficiency, complexity.</li>
+            <li><strong>Energy density reality</strong>: Why chemical batteries dominate despite being "worse" in some ways (degradation, safety, recycling).</li>
+          </ul>
+          <p>
+            It's one of the best educational energy projects precisely because the limitations are so obvious and measurable.
+          </p>
+
+          <h3>Should I build a gravity battery if I'm new to off-grid systems?</h3>
+          <p>
+            Start with a desktop demo (under 10kg, under 2m height) to learn the physics safely.
+          </p>
+          <p>
+            Don't attempt garage-scale or larger builds until you've successfully built and instrumented smaller projects.
+          </p>
+          <p>
+            If your goal is practical energy storage, buy batteries and solar panels instead.
+            If your goal is learning, gravity batteries are fantastic — just keep safety paramount.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Suggested images & diagrams</h2>
+          <ul>
+            <li>Diagram: Gravity battery system layout (weight → pulley → gearing → generator → battery).</li>
+            <li>Illustration: Potential energy concept (mgh equation visualized with weight at height).</li>
+            <li>Chart: Energy density comparison (gravity vs lead-acid vs lithium, Wh/kg).</li>
+            <li>Table: Worked examples (10kg/3m, 100kg/10m, 500kg/20m with energy calculations).</li>
+            <li>Diagram: Efficiency loss stack (showing where 100J input becomes 40–60J output).</li>
+            <li>Photo: Example pulley system with safety features (illustrative, not brand-specific).</li>
+            <li>Safety diagram: Proper cable termination, barriers, and emergency brake placement.</li>
+          </ul>
+        </article>
+
+        <article class="article-card">
+          <h2>Next logical reads</h2>
+          <div class="related">
+            <a class="text-link" href="index.html">DIY off-grid energy experiments (pillar) →</a>
+            <a class="text-link" href="pedal-power-generator-for-off-grid-battery-charging.html">Pedal power generator guide →</a>
+            <a class="text-link" href="micro-hydro-basics-for-off-grid-power.html">Micro-hydro basics guide →</a>
+            <a class="text-link" href="diy-small-wind-turbine-for-off-grid-battery-charging.html">Small wind turbine guide →</a>
+            <a class="text-link" href="../pages/battery-capacity.html">Battery capacity calculator →</a>
+            <a class="text-link" href="../pages/solar-wire-size.html">Wire sizing guide →</a>
+            <a class="text-link" href="../pages/solar-fuse-and-breaker-sizing.html">Fuse and breaker sizing →</a>
+            <a class="text-link" href="../pages/solar-system-sizing.html">System sizing guide →</a>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

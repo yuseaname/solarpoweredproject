@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DIY Savonius Wind Turbine (Vertical Axis): Safe Build + Realistic Output</title>
+    <meta
+      name="description"
+      content="A practical DIY Savonius (vertical-axis) wind turbine guide: simple rotor builds, tower and safety basics, realistic watts and Wh/day estimates, wiring protection, common mistakes, and how to pair VAWT experiments with solar + batteries."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="https://app.rybbit.io/api/script.js" data-site-id="afb6050c297b" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html"><span>Solar</span><span class="logo-accent">Guide</span></a>
+        <nav class="nav">
+          <a href="../pages/solar-basics.html">Basics</a>
+          <a href="../pages/solar-system-sizing.html">Sizing</a>
+          <a href="../pages/solar-system-costs.html">Costs</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="article-hero">
+        <p class="eyebrow">DIY off-grid energy experiments</p>
+        <h1 class="article-title">DIY Savonius Wind Turbine (Vertical Axis): A Safe, Measurement-First Build Guide</h1>
+        <p class="lede">
+          A Savonius rotor is the “wind turbine you can actually build and understand” — two scoops that catch wind and spin at low speed.
+          It won’t compete with a tall, efficient horizontal-axis turbine, but it’s a fantastic learning project:
+          torque vs RPM, drag-based limits, and the reality of wind resources at backyard height.
+          This guide focuses on safe construction, realistic output, and how to test like an engineer.
+        </p>
+        <p class="article-meta">Evergreen, educational content. Not site-specific engineering advice.</p>
+        <div class="toc">
+          <span>In this pillar:</span>
+          <a class="text-link" href="index.html">DIY off-grid energy experiments</a>
+          <a class="text-link" href="diy-small-wind-turbine-for-off-grid-battery-charging.html">Small wind turbine guide</a>
+          <a class="text-link" href="treadmill-motor-generator-for-off-grid-charging.html">Treadmill motor generator guide</a>
+          <a class="text-link" href="multi-source-hybrid-charge-controller.html">Hybrid charge controller guide</a>
+        </div>
+      </section>
+
+      <div class="article-grid">
+        <article id="key-takeaways" class="article-card">
+          <h2>Key takeaways</h2>
+          <ul>
+            <li>Savonius turbines are <strong>drag-based</strong>: they’re simple and high-torque, but efficiency is limited.</li>
+            <li>Your biggest “upgrade” is not the rotor — it’s <strong>height and location</strong> (wind speed increases fast with height).</li>
+            <li>Measure output as <strong>Wh/day</strong>, not “spins fast” or “hits 12V open circuit.”</li>
+            <li>Use <strong>regulation + protection</strong> before connecting any wind experiment to a battery.</li>
+          </ul>
+        </article>
+
+        <article id="table-of-contents" class="article-card">
+          <h2>Table of contents</h2>
+          <ul>
+            <li><a class="text-link" href="#beginner">Beginner explanation</a></li>
+            <li><a class="text-link" href="#how-it-works">How a Savonius rotor works</a></li>
+            <li><a class="text-link" href="#build">DIY build paths (Version 1 → Version 3)</a></li>
+            <li><a class="text-link" href="#tower">Mounting, towers, and safety basics</a></li>
+            <li><a class="text-link" href="#math">Realistic output estimates (watts and Wh/day)</a></li>
+            <li><a class="text-link" href="#charging">Charging a battery safely</a></li>
+            <li><a class="text-link" href="#mistakes">Common mistakes and misconceptions</a></li>
+            <li><a class="text-link" href="#safety">Safety and limitations</a></li>
+            <li><a class="text-link" href="#pairs-with-solar">How it pairs with solar</a></li>
+            <li><a class="text-link" href="#troubleshooting">Troubleshooting</a></li>
+            <li><a class="text-link" href="#faq">FAQ</a></li>
+          </ul>
+        </article>
+
+        <article id="beginner" class="article-card">
+          <h2>Beginner explanation: why vertical-axis wind is appealing (and why it’s tricky)</h2>
+          <p>
+            A Savonius wind turbine is a vertical-axis rotor that uses wind drag to spin.
+            Because it’s drag-based, it can start in lower winds and produces usable torque at low RPM — great for demos and DIY.
+          </p>
+          <p>
+            The tradeoff is efficiency. Drag-based machines can’t “outrun” the wind like lift-based turbines can,
+            so your maximum power per swept area is limited.
+            That’s not a deal-breaker if your goal is learning, measurement, or a small trickle charge.
+          </p>
+          <p>
+            If you want the larger context of wind siting and expectations, read
+            <a class="text-link" href="diy-small-wind-turbine-for-off-grid-battery-charging.html">the small wind turbine guide</a>.
+          </p>
+        </article>
+
+        <article id="how-it-works" class="article-card">
+          <h2>How a Savonius rotor works</h2>
+          <p>
+            A classic Savonius rotor is two half-cylinders offset so one scoop “catches” wind more than the other.
+            The wind pushes the advancing scoop harder than it pushes the returning scoop, producing torque.
+          </p>
+
+          <h3>Helical vs straight blades</h3>
+          <p>
+            Straight Savonius rotors can pulse (torque changes during rotation).
+            A helical twist smooths torque and can reduce vibration — but it’s harder to build.
+            For a first project, a straight rotor is fine as long as you mount it securely and measure carefully.
+          </p>
+
+          <h3>Why it has high torque but low RPM</h3>
+          <p>
+            The rotor pushes against the wind like a paddle.
+            This produces torque (good for starting), but it also creates drag that limits top speed.
+            That’s why gearing or belt ratio matters if you’re driving a generator that likes higher RPM.
+          </p>
+        </article>
+
+        <div class="ad-slot">Ad slot</div>
+
+        <article id="build" class="article-card">
+          <h2>DIY build paths (Version 1 → Version 3)</h2>
+          <p>
+            The safest and most successful DIY wind projects start small, prove the concept, then scale.
+            Treat your first build as an experiment: you’re learning rotor behavior and wind at your site.
+          </p>
+
+          <h3>Version 1: tabletop rotor + measurements (no battery)</h3>
+          <ul>
+            <li><strong>Blades:</strong> two pieces of PVC pipe cut lengthwise (or thin sheet wrapped into half-cylinders).</li>
+            <li><strong>End plates:</strong> plywood or plastic circles to keep the blades aligned.</li>
+            <li><strong>Shaft:</strong> straight rod through bearings.</li>
+            <li><strong>Load:</strong> none at first; measure RPM vs wind and check vibration.</li>
+          </ul>
+          <p>
+            Put it in a safe wind stream (not near traffic, power lines, or people).
+            If it wobbles, fix balance before you add a generator.
+          </p>
+
+          <h3>Version 2: add generator + adjustable load</h3>
+          <p>
+            A common DIY approach is using a permanent-magnet DC motor as a generator and a belt drive for ratio changes.
+            Many “it doesn’t work” stories come from trying to couple directly with a generator that needs high RPM.
+          </p>
+          <ul>
+            <li><strong>Generator:</strong> treadmill motor, scooter motor, or other PMDC motor.</li>
+            <li><strong>Drive:</strong> belt and pulleys so you can test multiple ratios.</li>
+            <li><strong>Load control:</strong> a resistor bank or buck converter into a resistive load.</li>
+            <li><strong>Instrumentation:</strong> DC watt meter to measure watts on a real load.</li>
+          </ul>
+          <p>
+            For generator ideas and safe handling, see
+            <a class="text-link" href="treadmill-motor-generator-for-off-grid-charging.html">treadmill motor as a generator</a>.
+          </p>
+
+          <h3>Version 3: outdoor mounting with a real tower plan</h3>
+          <p>
+            Once you have a rotor that spins smoothly and produces stable watts, then you can mount it higher and test daily energy.
+            Don’t start with a tall tower unless you already have experience and a safe site.
+          </p>
+          <ul>
+            <li><strong>Guyed mast</strong> or sturdy post with clear fall zone.</li>
+            <li><strong>Disconnect</strong> and ability to stop the rotor (brake or furling is harder on VAWTs).</li>
+            <li><strong>Weatherproofing</strong> for bearings and electrical connections.</li>
+          </ul>
+        </article>
+
+        <article id="tower" class="article-card">
+          <h2>Mounting, towers, and safety basics</h2>
+          <p>
+            Wind projects fail most often because of siting and structure, not because the rotor shape is wrong.
+            Wind is strongest and smoothest above obstacles. Close to the ground, wind is turbulent and weaker.
+          </p>
+
+          <h3>Height matters more than you want it to</h3>
+          <p>
+            If your rotor is below roofline and surrounded by trees, your effective wind resource may be so low that your turbine “works” but makes almost no energy.
+            That’s not a moral failure — it’s physics.
+          </p>
+
+          <h3>Build for vibration</h3>
+          <ul>
+            <li>Use real bearings and rigid mounts.</li>
+            <li>Balance the rotor before outdoor mounting.</li>
+            <li>Plan for gust loads; “it survived a calm day” is not a test.</li>
+          </ul>
+        </article>
+
+        <div class="ad-slot">Ad slot</div>
+
+        <article id="math" class="article-card">
+          <h2>Realistic output estimates (watts and Wh/day)</h2>
+          <p>
+            Power in wind increases with the cube of wind speed.
+            That’s why wind projects feel confusing: a small increase in wind speed can double or triple power.
+          </p>
+          <p>
+            A useful mental model for “how much power is even available” is the wind power equation:
+            <strong>P ≈ 0.5 × ρ × A × v³ × Cp</strong>.
+            Here ρ is air density, A is swept area, v is wind speed, and Cp is a performance factor (efficiency).
+            The key takeaway is not the exact number — it’s that <strong>v³ dominates</strong>, and a Savonius rotor’s Cp is typically modest because it is drag-based.
+          </p>
+          <p>
+            This is why “same rotor, different yard” produces wildly different results.
+            If your site is sheltered and turbulent, your effective wind speed is low and inconsistent, so energy output stays low no matter how clean your build is.
+          </p>
+
+          <h3>Use Wh/day as your scoreboard</h3>
+          <p>
+            A turbine that makes 30W in a steady breeze is more useful than one that makes 200W in rare gusts.
+            Track watt-hours per day with a meter or data logger.
+          </p>
+
+          <h3>A simple way to estimate energy from measurements</h3>
+          <ul>
+            <li>Measure average watts over a time window (say 10 minutes).</li>
+            <li>Repeat during different conditions (calm, typical breeze, strong breeze).</li>
+            <li>Estimate daily energy by multiplying a “typical” watt level by typical hours of usable wind.</li>
+          </ul>
+          <p>
+            Example: If you often see ~15W for ~8 hours of breezy conditions, that’s ~120 Wh/day.
+            That’s enough for device charging and small lights, but not a refrigerator.
+          </p>
+
+          <h3>Why Savonius turbines often “feel strong” but don’t deliver huge energy</h3>
+          <p>
+            High torque at low RPM makes the rotor feel powerful.
+            But generator efficiency, low RPM, and limited aerodynamic efficiency cap total watts.
+            This is why Savonius rotors are excellent teaching tools and “always-on trickle” experiments, not a primary energy source for most homes.
+          </p>
+          <p>
+            If you want your measurements to translate into something useful, keep a simple log:
+            wind conditions, average watts, peak watts, and how long the output stays above a minimum (for example, above 10W).
+            That “time above a threshold” often predicts real usability better than a single peak number.
+          </p>
+        </article>
+
+        <article id="charging" class="article-card">
+          <h2>Charging a battery safely</h2>
+          <p>
+            Wind output is variable. That variability is exactly why you should use regulation and protection before charging batteries.
+          </p>
+
+          <h3>Minimum safe wiring concepts</h3>
+          <ul>
+            <li><strong>Rectify/regulate</strong> generator output before the battery.</li>
+            <li><strong>Fuse near the battery</strong> so a short doesn’t turn cables into heaters.</li>
+            <li><strong>Dump load or current limiting</strong> so voltage doesn’t run away when the battery is full or disconnected.</li>
+            <li><strong>Disconnect switch</strong> you can reach quickly.</li>
+          </ul>
+          <p>
+            Start with the fundamentals in
+            <a class="text-link" href="../pages/solar-fuse-and-breaker-sizing.html">fuse and breaker sizing</a>
+            and
+            <a class="text-link" href="../pages/solar-wire-size.html">wire size</a>.
+          </p>
+        </article>
+
+        <article id="mistakes" class="article-card">
+          <h2>Common mistakes and misconceptions</h2>
+          <ul>
+            <li><strong>Testing at ground level</strong> in turbulent wind and expecting consistent output.</li>
+            <li><strong>Believing “12V” open-circuit</strong> means it will charge a 12V battery well.</li>
+            <li><strong>Direct-drive mismatch</strong> where the rotor RPM is too low for the generator’s efficient range.</li>
+            <li><strong>No plan for storms</strong> (overspeed and structural loads in gusts).</li>
+            <li><strong>Ignoring noise and neighbor impact</strong> even if the turbine is small.</li>
+          </ul>
+        </article>
+
+        <article id="safety" class="article-card">
+          <h2>Safety and limitations</h2>
+          <h3>Spinning parts</h3>
+          <p>
+            Even slow rotors can hurt you. Keep hands and loose clothing away.
+            Use guards where practical, and don’t mount near walkways.
+          </p>
+
+          <h3>Tower safety</h3>
+          <p>
+            A failed mount can turn a “small turbine” into a falling object problem.
+            Build with a clear fall zone, and don’t install near power lines.
+          </p>
+
+          <h3>Electrical protection</h3>
+          <p>
+            Wind systems can generate voltage spikes under gusty conditions and when loads disconnect.
+            Use appropriate regulation, fusing, and a safe way to stop or disconnect the turbine.
+          </p>
+          <div class="related">
+            <a class="text-link" href="../pages/wiring-decisions.html">Wiring decisions checklist →</a>
+            <a class="text-link" href="../pages/solar-components.html">Solar components and regulators →</a>
+          </div>
+        </article>
+
+        <article id="pairs-with-solar" class="article-card">
+          <h2>How it pairs with solar</h2>
+          <p>
+            Wind and solar can complement each other seasonally: some regions have windier weather when solar is weaker.
+            The clean approach is a shared battery system with separate charging sources and clear protection.
+          </p>
+          <ul>
+            <li>Use solar for predictable daily energy.</li>
+            <li>Use wind as a variable supplement that can extend battery runtime.</li>
+            <li>Consider a hybrid controller approach for multiple sources.</li>
+          </ul>
+          <p>
+            For a practical overview, see
+            <a class="text-link" href="multi-source-hybrid-charge-controller.html">multi-source hybrid charge control</a>.
+          </p>
+        </article>
+
+        <article id="troubleshooting" class="article-card">
+          <h2>Troubleshooting</h2>
+          <h3>It spins, but I get almost no watts</h3>
+          <ul>
+            <li>Measure watts on a real load; don’t trust open-circuit voltage.</li>
+            <li>Try a higher belt ratio to raise generator RPM.</li>
+            <li>Check that the generator is actually being loaded (not just connected).</li>
+          </ul>
+
+          <h3>It vibrates or wobbles outdoors</h3>
+          <ul>
+            <li>Stop and rebalance the rotor.</li>
+            <li>Check shaft alignment and bearing mounts.</li>
+            <li>Consider a helical twist or stiffer end plates to reduce pulsing.</li>
+          </ul>
+
+          <h3>Output is unstable</h3>
+          <ul>
+            <li>Improve regulation (buck/boost stage, charging controller).</li>
+            <li>Shorten wiring runs and increase wire size if current is significant.</li>
+            <li>Add a dump load strategy for gusts.</li>
+          </ul>
+        </article>
+
+        <article id="faq" class="article-card">
+          <h2>FAQ</h2>
+          <div class="faq">
+            <div>
+              <h4>Is a Savonius turbine worth building?</h4>
+              <p>
+                Yes as an educational project and for small “always-on” experiments.
+                For serious off-grid power, tall, well-sited lift-based turbines usually deliver more energy per area.
+              </p>
+            </div>
+            <div>
+              <h4>Can it charge a 12V battery?</h4>
+              <p>
+                It can, but you need regulation and protection.
+                A turbine that “hits 14V” open-circuit may still struggle to provide charging current under load.
+              </p>
+            </div>
+            <div>
+              <h4>What’s the easiest rotor material?</h4>
+              <p>
+                PVC pipe cut lengthwise is common for small rotors because it’s consistent and weather-resistant.
+                Thin sheet material also works if you can keep the shape rigid.
+              </p>
+            </div>
+            <div>
+              <h4>Do I need a tall tower?</h4>
+              <p>
+                For meaningful energy, height helps a lot. For learning and short tests, you can start low — just expect low output.
+              </p>
+            </div>
+            <div>
+              <h4>Should I build this instead of a small horizontal turbine?</h4>
+              <p>
+                Build a Savonius if you want simplicity and a clear learning project.
+                If your goal is more energy, read the
+                <a class="text-link" href="diy-small-wind-turbine-for-off-grid-battery-charging.html">small wind turbine guide</a>
+                and plan around siting and height.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

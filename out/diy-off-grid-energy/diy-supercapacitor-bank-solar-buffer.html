@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DIY Supercapacitor Bank for Solar: Buffer Surges Safely (Balancing Basics)</title>
+    <meta
+      name="description"
+      content="A realistic DIY supercapacitor bank guide for off-grid solar experiments: what supercaps are good for (and not), basic energy math, series balancing, inrush limiting, fusing, safe wiring, and practical ways to use supercaps as a buffer alongside batteries."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="https://app.rybbit.io/api/script.js" data-site-id="afb6050c297b" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html"><span>Solar</span><span class="logo-accent">Guide</span></a>
+        <nav class="nav">
+          <a href="../pages/solar-basics.html">Basics</a>
+          <a href="../pages/solar-system-sizing.html">Sizing</a>
+          <a href="../pages/solar-system-costs.html">Costs</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="article-hero">
+        <p class="eyebrow">DIY off-grid energy experiments</p>
+        <h1 class="article-title">DIY Supercapacitor Bank for Solar: How to Buffer Surges Safely (With the Math)</h1>
+        <p class="lede">
+          Supercapacitors (supercaps) are one of the most misunderstood “storage” technologies in DIY off-grid work.
+          They can dump huge current and recharge fast — which makes them perfect for smoothing short surges and protecting batteries from abuse.
+          But they usually store <em>very little</em> energy compared to batteries.
+          This guide shows what supercaps are good for, how to size them honestly, and how to build a safe experiment with balancing and protection.
+        </p>
+        <p class="article-meta">Evergreen, educational content. Not site-specific engineering advice.</p>
+        <div class="toc">
+          <span>In this pillar:</span>
+          <a class="text-link" href="index.html">DIY off-grid energy experiments</a>
+          <a class="text-link" href="diy-flywheel-energy-storage.html">Flywheel energy storage guide</a>
+          <a class="text-link" href="gravity-battery-diy-energy-storage.html">Gravity battery guide</a>
+          <a class="text-link" href="multi-source-hybrid-charge-controller.html">Hybrid charge controller guide</a>
+        </div>
+      </section>
+
+      <div class="article-grid">
+        <article id="key-takeaways" class="article-card">
+          <h2>Key takeaways</h2>
+          <ul>
+            <li>Supercaps are great for <strong>seconds to minutes</strong> of buffering, not hours of backup.</li>
+            <li>Energy is <strong>E = ½ C V²</strong> — voltage squared is why “just a few volts drop” can be a lot of energy release.</li>
+            <li>Series strings need <strong>balancing</strong> so one cell doesn’t overvoltage.</li>
+            <li>Inrush current can be huge; use <strong>precharge</strong>, fuses, and a disconnect.</li>
+          </ul>
+        </article>
+
+        <article id="table-of-contents" class="article-card">
+          <h2>Table of contents</h2>
+          <ul>
+            <li><a class="text-link" href="#beginner">Beginner explanation</a></li>
+            <li><a class="text-link" href="#what-they-do">What supercaps are good for (and not)</a></li>
+            <li><a class="text-link" href="#how-it-works">How supercapacitors work (useful mental model)</a></li>
+            <li><a class="text-link" href="#math">The math: energy, voltage droop, and “usable” capacity</a></li>
+            <li><a class="text-link" href="#build">DIY build path (Version 1 → Version 3)</a></li>
+            <li><a class="text-link" href="#balancing">Balancing basics for series strings</a></li>
+            <li><a class="text-link" href="#inrush">Precharge and inrush limiting</a></li>
+            <li><a class="text-link" href="#pairs-with-solar">How it pairs with solar + batteries</a></li>
+            <li><a class="text-link" href="#mistakes">Common mistakes</a></li>
+            <li><a class="text-link" href="#safety">Safety and limitations</a></li>
+            <li><a class="text-link" href="#troubleshooting">Troubleshooting</a></li>
+            <li><a class="text-link" href="#faq">FAQ</a></li>
+          </ul>
+        </article>
+
+        <article id="beginner" class="article-card">
+          <h2>Beginner explanation: supercaps are “power buffers,” not “energy tanks”</h2>
+          <p>
+            Batteries are good at storing lots of energy. Supercapacitors are good at moving energy quickly.
+            That difference matters in off-grid systems because many real-world problems are <strong>short, sharp events</strong>:
+            inrush current, motor start surges, momentary load spikes, and rapid charge acceptance from experimental generators.
+          </p>
+          <p>
+            If you’ve ever watched an inverter complain when a fridge starts, or watched voltage sag when a pump kicks on, you’ve seen “power problems.”
+            Supercaps can help with those — but only if you design the system around their limits.
+          </p>
+          <p>
+            For the core concepts behind power vs energy, start with
+            <a class="text-link" href="../pages/solar-basics.html">solar basics</a>.
+          </p>
+        </article>
+
+        <article id="what-they-do" class="article-card">
+          <h2>What supercaps are good for (and not)</h2>
+          <h3>Great use cases</h3>
+          <ul>
+            <li><strong>Surge buffering:</strong> reduce voltage sag during short load spikes.</li>
+            <li><strong>Inrush smoothing:</strong> help with motor starts or converter startup bursts.</li>
+            <li><strong>Experimental source buffering:</strong> smooth output from wind/pedal/hydro experiments before conversion.</li>
+            <li><strong>Regenerative capture demos:</strong> capture short bursts (hand-crank, spin-down energy) into a buffer.</li>
+          </ul>
+
+          <h3>Usually not worth it</h3>
+          <ul>
+            <li><strong>Long backup runtime:</strong> hours of energy storage belongs to batteries.</li>
+            <li><strong>Replacing batteries entirely:</strong> supercaps become enormous and expensive for kWh storage.</li>
+            <li><strong>Direct connection without protection:</strong> uncontrolled inrush and imbalance are common failure modes.</li>
+          </ul>
+          <p>
+            If your goal is energy storage education rather than buffering, compare with
+            <a class="text-link" href="diy-flywheel-energy-storage.html">flywheel storage</a>
+            and
+            <a class="text-link" href="gravity-battery-diy-energy-storage.html">gravity batteries</a>.
+          </p>
+        </article>
+
+        <div class="ad-slot">Ad slot</div>
+
+        <article id="how-it-works" class="article-card">
+          <h2>How supercapacitors work (useful mental model)</h2>
+          <p>
+            You can think of a capacitor as an “electric spring.”
+            Push charge in and voltage rises. Pull charge out and voltage falls.
+            Batteries, in contrast, try to hold roughly the same voltage across a wide range of state of charge.
+          </p>
+
+          <h3>Voltage droop is normal</h3>
+          <p>
+            A supercap bank does not deliver a flat voltage like a battery.
+            Its voltage changes directly with how much charge is stored.
+            That means you often need a DC-DC converter if your load expects a stable voltage.
+          </p>
+
+          <h3>Internal resistance (ESR) matters</h3>
+          <p>
+            Supercaps are popular because ESR can be very low, enabling high current.
+            But even small resistance at high current causes heat, and it adds to voltage drop during surges.
+          </p>
+        </article>
+
+        <article id="math" class="article-card">
+          <h2>The math: energy, voltage droop, and “usable” capacity</h2>
+          <p>
+            The stored energy in a capacitor is:
+          </p>
+          <p class="article-meta"><strong>E = ½ C V²</strong></p>
+          <p>
+            Where E is energy (joules), C is capacitance (farads), and V is voltage.
+            To convert joules to watt-hours, divide by 3600.
+          </p>
+
+          <h3>Example: why supercaps often store less energy than people expect</h3>
+          <p>
+            Suppose you build a 12V-ish bank using supercaps and you end up with an effective capacitance of 100F at 16V max.
+            At 16V, energy is 0.5 × 100 × 16² = 12,800J ≈ 3.6Wh.
+          </p>
+          <p>
+            That’s not a typo: a bank that feels “big” can still store single-digit watt-hours.
+            The benefit is not energy density — it’s fast charge/discharge and surge current capability.
+          </p>
+
+          <h3>Usable energy depends on allowed voltage range</h3>
+          <p>
+            If your load requires at least 12V, and your bank starts at 16V and droops to 12V, your usable energy is the difference:
+            ½ C (Vstart² − Vend²).
+            This is why regulating voltage (buck/boost) can increase usable energy by letting you use a wider voltage swing.
+          </p>
+        </article>
+
+        <div class="ad-slot">Ad slot</div>
+
+        <article id="build" class="article-card">
+          <h2>DIY build path (Version 1 → Version 3)</h2>
+          <p>
+            Start with a small, controlled demo. Your goal is to prove you understand precharge, balancing, and measurement.
+            Then scale.
+          </p>
+
+          <h3>Version 1: single cell demo (learn precharge and measurement)</h3>
+          <ul>
+            <li>Charge a single supercap with a current-limited source.</li>
+            <li>Measure voltage rise over time.</li>
+            <li>Discharge into a known resistor and measure current and temperature.</li>
+          </ul>
+          <p>
+            This teaches the most important lesson: voltage changes constantly, and current can be very large.
+          </p>
+
+          <h3>Version 2: small series bank + balancing</h3>
+          <p>
+            Series connections increase voltage rating but reduce effective capacitance.
+            This is where balancing becomes mandatory.
+          </p>
+          <ul>
+            <li>Build a series string sized for your target voltage.</li>
+            <li>Add balancing (passive resistors or an active balancing module).</li>
+            <li>Add a fuse and a disconnect.</li>
+            <li>Charge through a precharge resistor so inrush is controlled.</li>
+          </ul>
+
+          <h3>Version 3: buffered DC bus for an off-grid experiment</h3>
+          <p>
+            Once you can charge/discharge safely, you can use a supercap bank as a DC bus buffer.
+            Common examples:
+          </p>
+          <ul>
+            <li>Buffering a hand-crank or pedal generator so voltage doesn’t spike wildly.</li>
+            <li>Smoothing a load surge so a battery sees gentler current.</li>
+            <li>Reducing voltage sag for an inverter during short motor starts.</li>
+          </ul>
+        </article>
+
+        <article id="balancing" class="article-card">
+          <h2>Balancing basics for series strings</h2>
+          <p>
+            In a series string, each cell should share voltage evenly.
+            In practice, leakage currents differ, so one cell can drift higher and exceed its voltage rating.
+            Overvoltage can permanently damage a cell.
+          </p>
+
+          <h3>Passive balancing (simple, constant loss)</h3>
+          <p>
+            Passive balancing uses resistors across each cell.
+            It’s simple and often adequate for small DIY banks, but it wastes energy as heat continuously.
+          </p>
+          <ul>
+            <li>Choose resistor values that create balancing current above expected leakage variation.</li>
+            <li>Confirm resistor watt rating and temperature rise.</li>
+            <li>Accept that it’s always “leaking” energy by design.</li>
+          </ul>
+
+          <h3>Active balancing (more complex, less loss)</h3>
+          <p>
+            Active balancers move charge between cells.
+            They reduce standby loss and can be better for larger banks, but they add components and failure modes.
+            For DIY learning, passive balancing is often enough.
+          </p>
+        </article>
+
+        <article id="inrush" class="article-card">
+          <h2>Precharge and inrush limiting (don’t skip this)</h2>
+          <p>
+            An empty supercap bank looks like a short circuit.
+            If you connect it directly to a battery, the inrush current can be enormous — limited only by wiring resistance and ESR.
+          </p>
+
+          <h3>Simple precharge method</h3>
+          <ul>
+            <li>Use a resistor in series for initial charging.</li>
+            <li>Once voltage is close, bypass the resistor with a switch or relay.</li>
+            <li>Measure current during precharge and watch temperatures.</li>
+          </ul>
+          <p>
+            This is also why a disconnect and fusing matter.
+            If you want a practical checklist, use
+            <a class="text-link" href="../pages/wiring-decisions.html">wiring decisions</a>
+            and
+            <a class="text-link" href="../pages/solar-fuse-and-breaker-sizing.html">fuse/breaker sizing</a>.
+          </p>
+        </article>
+
+        <article id="pairs-with-solar" class="article-card">
+          <h2>How it pairs with solar + batteries</h2>
+          <p>
+            The most realistic use of supercaps in a solar setup is as a <strong>buffer in front of a battery</strong>.
+            Batteries don’t love sharp current spikes; supercaps do.
+            A good buffer design can reduce stress on batteries and stabilize a DC bus.
+          </p>
+          <h3>Two practical “buffer” patterns</h3>
+          <ul>
+            <li><strong>Cap bank on a regulated DC bus:</strong> a DC-DC stage maintains a stable bus voltage while the supercaps absorb fast spikes.</li>
+            <li><strong>Cap bank near the surge load:</strong> short, thick wiring near the inverter or motor load reduces sag at the point that matters.</li>
+          </ul>
+          <p>
+            In both cases, the supercaps should not be treated as “just another battery.”
+            Their voltage droops quickly, so a converter and a clear allowable voltage range are what turn a supercap bank from a science demo into a useful buffer.
+          </p>
+          <ul>
+            <li>Use a DC-DC stage to manage supercap voltage droop.</li>
+            <li>Fuse both battery and supercap branches; treat each as an energy source.</li>
+            <li>Keep wiring short and appropriately sized.</li>
+          </ul>
+          <p>
+            For system-level context, see
+            <a class="text-link" href="../pages/solar-components.html">solar components</a>
+            and
+            <a class="text-link" href="../pages/solar-system-sizing.html">solar system sizing</a>.
+          </p>
+        </article>
+
+        <article id="mistakes" class="article-card">
+          <h2>Common mistakes</h2>
+          <ul>
+            <li><strong>Expecting battery-like runtime</strong> (supercaps store little energy per volume).</li>
+            <li><strong>No balancing</strong> in series strings.</li>
+            <li><strong>Direct connection to a battery</strong> without precharge and inrush control.</li>
+            <li><strong>Undersized wiring</strong> that overheats during surges.</li>
+            <li><strong>Skipping fusing</strong> because “it’s only low voltage.”</li>
+          </ul>
+        </article>
+
+        <div class="ad-slot">Ad slot</div>
+
+        <article id="safety" class="article-card">
+          <h2>Safety and limitations</h2>
+          <h3>High current is the main hazard</h3>
+          <p>
+            Supercap banks can deliver extremely high current into a short.
+            That can melt tools, start fires, and damage batteries.
+            Always fuse near energy sources and keep conductors protected.
+          </p>
+
+          <h3>Cell overvoltage</h3>
+          <p>
+            Overvoltage can damage cells and create venting hazards.
+            Use balancing and conservative voltage limits.
+          </p>
+
+          <h3>Don’t use questionable salvaged cells without testing</h3>
+          <p>
+            If you salvage cells from unknown sources, test them individually for leakage and capacity behavior first.
+            Mixed cell health is a recipe for imbalance.
+          </p>
+          <div class="related">
+            <a class="text-link" href="../pages/solar-wire-size.html">Wire size basics →</a>
+            <a class="text-link" href="../pages/battery-capacity.html">Battery capacity (so you set expectations) →</a>
+          </div>
+        </article>
+
+        <article id="troubleshooting" class="article-card">
+          <h2>Troubleshooting</h2>
+          <h3>My bank charges fast at first, then slows down</h3>
+          <p>
+            That’s normal. As voltage rises, current-limited chargers deliver less current, and the voltage difference driving current shrinks.
+          </p>
+
+          <h3>One cell rises higher than the others</h3>
+          <ul>
+            <li>Check balancing connections and resistor values.</li>
+            <li>Measure that cell’s leakage; it may be mismatched or damaged.</li>
+            <li>Stop charging until balance is restored (don’t “push through”).</li>
+          </ul>
+
+          <h3>Wires or resistors get hot during precharge</h3>
+          <ul>
+            <li>Reduce precharge current (higher resistance) and allow more time.</li>
+            <li>Verify resistor watt rating and mounting (heat needs a safe place to go).</li>
+            <li>Shorten and thicken wiring if current is high.</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="../pages/solar-output-troubleshooting.html">Troubleshooting mindset →</a>
+          </div>
+        </article>
+
+        <article id="faq" class="article-card">
+          <h2>FAQ</h2>
+          <div class="faq">
+            <div>
+              <h4>Can supercapacitors replace a battery in an off-grid solar system?</h4>
+              <p>
+                Usually no. For hours of runtime, batteries are far more energy-dense and cost-effective.
+                Supercaps shine as buffers for short surges and rapid charge/discharge events.
+              </p>
+            </div>
+            <div>
+              <h4>Why does voltage drop so quickly when I draw current?</h4>
+              <p>
+                Because capacitors don’t regulate voltage like batteries.
+                As charge is removed, voltage falls. A DC-DC converter can make that voltage swing more usable.
+              </p>
+            </div>
+            <div>
+              <h4>Do I need balancing for series banks?</h4>
+              <p>
+                Yes. Without balancing, one cell can exceed its voltage rating even if the total bank voltage looks safe.
+              </p>
+            </div>
+            <div>
+              <h4>What’s the biggest danger in DIY supercap projects?</h4>
+              <p>
+                High current. Treat the bank like a power tool: fuse it, precharge it, and keep wiring protected.
+              </p>
+            </div>
+            <div>
+              <h4>What’s a good “first use case” in this pillar?</h4>
+              <p>
+                Buffering a short burst source like a
+                <a class="text-link" href="diy-hand-crank-generator-emergency-charging.html">hand-crank generator</a>
+                or a
+                <a class="text-link" href="pedal-power-generator-for-off-grid-battery-charging.html">pedal generator</a>
+                so your output is smoother and your measurements are easier.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
