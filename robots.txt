@@ -1,10 +1,4 @@
-# Replace SITE_URL with your deployed canonical base URL.
-# Examples:
-# - https://example.com
-# - https://example.com/solarpoweredproject
-
 User-agent: *
 Allow: /
 
 Sitemap: https://solarpoweredproject.com/sitemap.xml
-
