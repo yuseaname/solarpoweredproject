@@ -63,6 +63,7 @@
           <div class="related">
             <a class="text-link" href="solar-wiring-and-protection-cost.html">Wiring & protection cost (big picture)</a>
             <a class="text-link" href="solar-fuse-and-breaker-sizing.html">Solar fuse and breaker sizing (planning guide)</a>
+            <a class="text-link" href="wiring-decisions.html">Solar wiring decisions (hub)</a>
           </div>
         </article>
 
@@ -106,6 +107,22 @@
               <a class="text-link" href="https://commons.wikimedia.org/wiki/File:Fuse_100A_with_holder,_open.jpg">Wikimedia Commons</a>
             </figcaption>
           </figure>
+        </article>
+
+        <article class="article-card">
+          <h2>Pros and cons at a glance</h2>
+          <ul>
+            <li><strong>Fuses:</strong> simple, fast, and compact, but require replacement after a trip.</li>
+            <li><strong>Breakers:</strong> resettable and often used as a disconnect, but must be DC-rated and properly matched to the circuit.</li>
+            <li><strong>Disconnects:</strong> great for service isolation, but not always overcurrent protection.</li>
+          </ul>
+          <p>The best choice depends on where the device lives in the circuit and how often you want to reset or isolate it.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Cost and availability</h2>
+          <p>High-current DC fuses are often less expensive than DC breakers at the same rating. Breakers add convenience but can cost more, especially at higher voltages.</p>
+          <p>For small systems, a mix of both can be cost-effective: a fuse for primary battery protection and a breaker where you want a switchable disconnect.</p>
         </article>
 
         <article class="article-card" id="placement">
@@ -169,6 +186,34 @@
           </p>
         </article>
 
+        <article class="article-card">
+          <h2>Maintenance and testing tips</h2>
+          <p>After installation, check for heat at terminals after a period of heavy load. Warm connections often indicate resistance or loose lugs.</p>
+          <p>Label circuits and keep spare fuses on hand. For breakers, verify that they are rated for repeated switching if you plan to use them as a routine disconnect.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Example protection layout</h2>
+          <p>A typical off-grid layout is: PV strings with fuses, controller breaker to the battery, and a high-current fuse between the battery and inverter. This keeps each high-current path protected.</p>
+          <p>For smaller systems, a main battery fuse plus a controller breaker may be enough if branch circuits are still protected downstream.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Labeling and documentation</h2>
+          <p>Label protection devices so you know which circuit they protect. Clear labeling speeds troubleshooting and reduces mistakes during maintenance.</p>
+          <p>A small legend inside the enclosure saves time during troubleshooting quickly.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Expansion note</h2>
+          <p>If you add panels or a larger inverter, revisit protection sizes. Protection must match the new circuit capacity and cable size.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Cold weather note</h2>
+          <p>PV voltage rises in cold conditions. Verify that protection devices are rated for your highest expected voltage.</p>
+        </article>
+
         <article class="article-card" id="mistakes">
           <h2>Common mistakes (risk → symptom → fix direction)</h2>
           <ul>
@@ -181,28 +226,18 @@
 
         <article class="article-card" id="faq">
           <h2>FAQ</h2>
-          <div class="faq">
-            <div>
-              <h4>Do I need a fuse and a breaker?</h4>
-              <p>Sometimes. Many systems use a fuse for primary protection and a breaker for convenience/isolation on certain circuits, but the right mix depends on the design.</p>
-            </div>
-            <div>
-              <h4>What does “DC-rated” actually mean?</h4>
-              <p>It means the device is designed and tested to interrupt DC current safely at a specified DC voltage and fault level.</p>
-            </div>
-            <div>
-              <h4>Where should the battery fuse go?</h4>
-              <p>Placement is design- and code-dependent, but the core idea is to protect the wiring connected to the battery from fault current.</p>
-            </div>
-            <div>
-              <h4>Do solar panels need fuses?</h4>
-              <p>Some multi-string arrays do, depending on configuration. Follow your controller/combiner guidance and verify ratings for your array voltage.</p>
-            </div>
-            <div>
-              <h4>Can a breaker be used as a switch?</h4>
-              <p>Only if it’s rated for that use. Some DC breakers are designed for switching; others are not.</p>
-            </div>
-          </div>
+          <h3>Do I need a fuse and a breaker?</h3>
+          <p>Sometimes. Many systems use a fuse for primary protection and a breaker for convenience or isolation on certain circuits.</p>
+          <h3>What does DC-rated actually mean?</h3>
+          <p>It means the device is designed and tested to interrupt DC current safely at a specified DC voltage and fault level.</p>
+          <h3>Where should the battery fuse go?</h3>
+          <p>Placement is design- and code-dependent, but the core idea is to protect the wiring connected to the battery from fault current.</p>
+          <h3>Do solar panels need fuses?</h3>
+          <p>Some multi-string arrays do, depending on configuration. Follow controller or combiner guidance and verify array voltage ratings.</p>
+          <h3>Can a breaker be used as a switch?</h3>
+          <p>Only if it is rated for that use. Some DC breakers are designed for switching; others are not.</p>
+          <h3>Should I prioritize a disconnect or a breaker?</h3>
+          <p>Use a disconnect for service isolation and a breaker or fuse for overcurrent protection. Some breakers can serve both roles.</p>
         </article>
 
         <article class="article-card">

@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Solar Wiring Decisions: Wire Size, Fuses vs Breakers, Series vs Parallel</title>
+    <title>Solar Wiring Decisions: Wire Size and Protection</title>
     <meta
       name="description"
-      content="A practical hub for key solar wiring decisions: choosing wire size, fuses vs breakers, and series vs parallel panel wiring—with safe, code-aware guidance."
+      content="A practical hub for key solar wiring decisions: wire size, fuses vs breakers, and series vs parallel wiring with safety-first guidance."
     />
     <link rel="stylesheet" href="../styles.css" />
     <link rel="icon" type="image/png" href="../assets/images/solarpoweredproject%20logo.png" />
@@ -41,6 +41,16 @@
 
       <div class="article-grid">
         <article class="article-card">
+          <h2>Key takeaways</h2>
+          <ul>
+            <li>Wire size is driven by current and run length, not just panel watts.</li>
+            <li>Fuses and breakers protect wiring and equipment, not devices themselves.</li>
+            <li>Series wiring increases voltage; parallel wiring increases current.</li>
+            <li>High-current battery cables are the most critical wiring run.</li>
+          </ul>
+        </article>
+
+        <article class="article-card">
           <h2>Quick navigation</h2>
           <div class="toc">
             <a class="text-link" href="solar-wire-size.html">Solar wire size (gauge + voltage drop)</a>
@@ -66,6 +76,18 @@
         </article>
 
         <article class="article-card">
+          <h2>Why current matters more than watts</h2>
+          <p>
+            Wiring is sized by current. The same wattage at a higher voltage means lower current and smaller wire. For example, 1,200W at 12V is about
+            100A, while at 24V it is about 50A. Lower current reduces voltage drop and heat.
+          </p>
+          <p>
+            This is why system voltage is a key decision. See <a class="text-link" href="12v-vs-24v-vs-48v-solar.html">12V vs 24V vs 48V</a> for
+            a deeper comparison.
+          </p>
+        </article>
+
+        <article class="article-card">
           <h2>The wiring mini-cluster (read in this order)</h2>
           <ol>
             <li><a class="text-link" href="solar-wire-size.html">Solar wire size</a> — decide gauge from max amps + distance.</li>
@@ -76,20 +98,181 @@
             <li><a class="text-link" href="solar-combiner-box-and-disconnect-guide.html">Combiner boxes and disconnects</a> — decide when extra isolation and organization helps.</li>
           </ol>
           <p class="article-meta">
-            If you want the cost/budget view of all “small parts,” use:
+            For the cost view of these parts, see:
             <a class="text-link" href="solar-wiring-and-protection-cost.html">solar wiring and protection cost</a>.
           </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Wire size basics (voltage drop)</h2>
+          <p>
+            Voltage drop is the loss of voltage along a wire. Long runs and high current increase drop, which reduces usable power and creates heat. The
+            goal is to keep voltage drop low enough that equipment performs well and wiring stays cool.
+          </p>
+          <p>
+            The <a class="text-link" href="solar-wire-size.html">solar wire size guide</a> includes a step-by-step method using current, run length, and
+            acceptable voltage drop.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Wire size example (quick math)</h2>
+          <p>
+            Suppose you have a 12V battery feeding a 1,200W inverter. Current is roughly 1,200W / 12V = 100A. A long cable run at 100A needs thick
+            wire to prevent heat and voltage sag. Even a small increase in length can require a larger gauge.
+          </p>
+          <p>
+            This is why higher system voltage often reduces wiring size and cost. The battery cable sizing guide goes into the detail.
+          </p>
+        </article>
+        <article class="article-card">
+          <h2>Fuses vs breakers (what to use, where)</h2>
+          <p>
+            Both fuses and breakers protect wiring. Breakers are convenient for switching and reset; fuses are compact and reliable. The key is to use
+            DC-rated protection sized for the wire and equipment.
+          </p>
+          <p>
+            For placement and sizing details, use <a class="text-link" href="solar-fuses-vs-breakers.html">fuses vs breakers</a> and
+            <a class="text-link" href="solar-fuse-and-breaker-sizing.html">fuse/breaker sizing</a>.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Where to place overcurrent protection</h2>
+          <p>
+            Protection should be placed close to the power source so wires are protected for their full length. For batteries, this usually means a
+            fuse or breaker near the positive terminal. For PV strings, protection is often at the combiner or controller input.
+          </p>
+          <p>
+            Use DC-rated devices only. AC breakers are not designed for high-voltage DC arcs.
+          </p>
+        </article>
+        <article class="article-card">
+          <h2>Series vs parallel panels</h2>
+          <p>
+            Series wiring increases voltage and reduces current, which can reduce wire size. Parallel wiring keeps voltage lower but increases current.
+            The right choice depends on shading, controller limits, and array layout.
+          </p>
+          <p>
+            See <a class="text-link" href="solar-panels-series-vs-parallel.html">series vs parallel solar panels</a> for the decision framework.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Series vs parallel quick comparison</h2>
+          <ul>
+            <li><strong>Series:</strong> higher voltage, lower current, smaller wire, more shading sensitive.</li>
+            <li><strong>Parallel:</strong> lower voltage, higher current, thicker wire, more shading tolerant.</li>
+            <li><strong>Hybrid:</strong> series strings combined in parallel for larger arrays.</li>
+          </ul>
+        </article>
+        <article class="article-card">
+          <h2>Battery cables and inverter runs</h2>
+          <p>
+            The highest current in most systems is between the battery and inverter. This run requires thick cable, short length, and high-quality
+            connections. Poor terminations here cause heat and voltage sag.
+          </p>
+          <p>
+            Use the <a class="text-link" href="battery-cable-size-for-inverter.html">battery cable size guide</a> to select the right gauge.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Checklist before energizing</h2>
+          <ul>
+            <li>Confirm wire gauge matches current and run length.</li>
+            <li>Verify DC-rated breakers and disconnects are installed.</li>
+            <li>Check torque on battery terminals and lugs.</li>
+            <li>Label circuits so future troubleshooting is easier.</li>
+          </ul>
+          <p>
+            Verify polarity on all connections before powering up. Use a multimeter to confirm voltage where possible. Do not energize circuits with
+            unknown wiring. Double-check labels.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Disconnects and combiner boxes</h2>
+          <p>
+            Disconnects allow safe maintenance and emergency shutoff. Combiner boxes consolidate multiple strings and add overcurrent protection.
+            Whether you need these depends on array size, string count, and local code requirements.
+          </p>
+          <p>
+            See <a class="text-link" href="solar-combiner-box-and-disconnect-guide.html">combiner boxes and disconnects</a> for guidance.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Grounding and bonding basics</h2>
+          <p>
+            Grounding and bonding help reduce shock risk and protect equipment. Requirements vary by location and system type, so follow manufacturer
+            instructions and local code. If you are unsure, consult a licensed electrician.
+          </p>
+          <p>Local inspectors may require specific labels or signs.</p>
+        </article>
+        <article class="article-card">
+          <h2>Labeling and documentation</h2>
+          <p>
+            Clear labels on disconnects, breakers, and wire runs make future troubleshooting faster. Keep a simple wiring diagram or notes on string
+            layout, fuse sizes, and cable gauges. This is especially helpful if you expand the system later.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Safety warning</h2>
+          <p>
+            Solar wiring can carry high-voltage DC and high current. Incorrect wire size, loose connections, or improper protection can cause fire. If
+            you are not confident in your wiring plan, consult a licensed electrician.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>When to call a professional</h2>
+          <p>
+            If your wiring plan touches a service panel, grid interconnection, or high-voltage battery bank, professional help is the safest option.
+            Electricians can confirm code compliance, verify torque settings, and check for hidden hazards. This is especially important for large
+            systems or rooftop arrays.
+          </p>
+          <p>
+            Call for help if you see hot cables, arcing, repeated breaker trips, or melted insulation. Those are signs of overload or poor connections
+            that need immediate attention.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Common mistakes</h2>
+          <ul>
+            <li>Choosing wire size based on panel wattage instead of current and distance.</li>
+            <li>Using AC-rated breakers on DC circuits.</li>
+            <li>Mixing panels in a string with mismatched voltage ratings.</li>
+            <li>Overlooking battery-to-inverter cable size.</li>
+          </ul>
+        </article>
+
+        <article class="article-card">
+          <h2>Final wiring reminder</h2>
+          <p>Check voltage and current limits before you buy hardware. Correct wiring decisions prevent expensive rework later and improve safety.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>FAQ</h2>
+          <h3>Can I use household wire for solar?</h3>
+          <p>Only if it is rated for the environment and current. Many solar runs require UV-resistant cable.</p>
+          <h3>Do I need a disconnect switch?</h3>
+          <p>Often yes, especially for larger arrays or code-compliant installations.</p>
+          <h3>Is series wiring always better?</h3>
+          <p>No. Series reduces current but is more sensitive to shading.</p>
+          <h3>What should I do if a wire feels hot?</h3>
+          <p>Shut down the system and investigate. Hot wiring indicates overload or poor connections.</p>
         </article>
 
         <article class="article-card">
           <h2>Next logical reads</h2>
           <div class="related">
             <a class="text-link" href="how-to-choose-solar-system-voltage.html">How to choose solar system voltage</a>
-            <a class="text-link" href="12v-vs-24v-vs-48v-solar.html">12V vs 24V vs 48V solar systems</a>
             <a class="text-link" href="solar-inverter-sizing.html">How to size an inverter for solar</a>
-            <a class="text-link" href="solar-system-sizing.html">How to size a solar system (start-to-finish)</a>
+            <a class="text-link" href="solar-system-sizing.html">How to size a solar system</a>
             <a class="text-link" href="solar-system-costs.html">Solar system cost breakdown</a>
-            <a class="text-link" href="mppt-vs-pwm.html">MPPT vs PWM charge controllers</a>
             <a class="text-link" href="solar-components.html">Solar components explained</a>
           </div>
         </article>
@@ -99,4 +282,3 @@
     <script src="../script.js"></script>
   </body>
 </html>
-

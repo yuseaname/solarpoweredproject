@@ -72,6 +72,16 @@
         </article>
 
         <article class="article-card">
+          <h2>Step 2a: Know which loads have surges</h2>
+          <p>Surge loads are usually motors or compressors: fridges, pumps, fans, and power tools. Electronics like laptops and TVs generally do not need a large surge margin.</p>
+          <ul>
+            <li><strong>Motor loads:</strong> high surge for a short time, then lower running watts.</li>
+            <li><strong>Heating loads:</strong> mostly steady and predictable.</li>
+            <li><strong>Electronics:</strong> often close to nameplate watts.</li>
+          </ul>
+        </article>
+
+        <article class="article-card">
           <h2>Step 3: Check battery-side current draw</h2>
           <p>
             Inverters draw significant current from the battery, especially at lower system voltages. A rough estimate:
@@ -97,6 +107,94 @@
             <a class="text-link" href="pure-sine-vs-modified-sine-inverter.html">Pure sine vs modified sine wave</a>
             <a class="text-link" href="micro-vs-string-inverters.html">Micro vs string inverters (grid-tied)</a>
           </div>
+        </article>
+
+        <article class="article-card">
+          <h2>Step 5: Consider efficiency and idle draw</h2>
+          <p>Inverters consume power even when nothing is plugged in. This idle draw matters for off-grid systems because it can drain batteries overnight.</p>
+          <p>Higher-quality inverters often have better efficiency and lower standby losses, which can reduce the size of the battery bank you need.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Step 6: Match inverter size to system voltage</h2>
+          <p>Large inverters draw high current at 12V, which can require very thick cables and larger fuses. Moving to 24V or 48V reduces current and can simplify wiring.</p>
+          <p>Use the <a class="text-link" href="12v-vs-24v-vs-48v-solar.html">system voltage comparison</a> to decide if a higher voltage is appropriate.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Step 7: Plan for wiring and protection</h2>
+          <p>Every inverter needs properly sized DC cables, fuses or breakers, and a disconnect. Undersized cables can overheat and reduce performance.</p>
+          <p>Use the <a class="text-link" href="battery-cable-size-for-inverter.html">battery cable size guide</a> and <a class="text-link" href="solar-fuse-and-breaker-sizing.html">fuse sizing guide</a> to keep the system safe.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Step 8: Consider AC output type and wiring</h2>
+          <p>Some inverters provide standard household AC, while others support split-phase or multi-output wiring. Make sure the inverter output matches your loads and any transfer switch or panel you plan to use.</p>
+          <p>If you are unsure about AC wiring, consult a licensed electrician.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Example sizing walk-through</h2>
+          <p>Suppose your cabin runs a 700W microwave, 120W laptop, and 100W lighting at the same time. Your peak load is roughly 920W before losses. If the microwave has a 1,500W surge, you want an inverter with enough surge headroom to handle that burst.</p>
+          <p>Now check battery current. At 12V and 90% efficiency, 920W ÷ (12V × 0.9) is about 85A. That current level drives thicker cables and larger fuses. If you moved to 24V, that current is closer to 42A, which can simplify wiring.</p>
+          <p>This is why voltage choice and inverter sizing should be considered together.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Inverter features that affect sizing</h2>
+          <ul>
+            <li><strong>Built-in charger:</strong> useful for generator or shore power charging.</li>
+            <li><strong>Transfer switch:</strong> lets you switch between inverter power and an external source.</li>
+            <li><strong>Search or sleep mode:</strong> reduces idle draw when loads are small.</li>
+            <li><strong>Power factor tolerance:</strong> some tools and motors need extra surge headroom.</li>
+          </ul>
+          <p>These features can change how large an inverter you need and how much energy it uses.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Planning checklist</h2>
+          <ul>
+            <li><strong>List peak loads:</strong> include devices that run together.</li>
+            <li><strong>Account for surge:</strong> motors and compressors often need extra headroom.</li>
+            <li><strong>Check battery voltage:</strong> higher voltage reduces current and cable size.</li>
+            <li><strong>Confirm waveform:</strong> sensitive electronics prefer pure sine wave.</li>
+            <li><strong>Verify wiring and protection:</strong> fuses, disconnects, and cable sizes must match.</li>
+          </ul>
+        </article>
+
+        <article class="article-card">
+          <h2>Grid-tied vs off-grid sizing notes</h2>
+          <p>Grid-tied inverters often size to array output and grid rules, while off-grid inverters must handle your peak loads directly from batteries. Off-grid sizing usually prioritizes surge capability and battery draw.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Idle draw and daily energy use</h2>
+          <p>Large inverters can consume meaningful power even with no loads. If you are off-grid, that idle draw should be part of your daily energy budget.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Noise and location</h2>
+          <p>Inverters can produce fan noise when under load. Plan the mounting location so sound and heat are manageable.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Checklist recap</h2>
+          <p>Confirm load list, surge needs, battery voltage, and wiring before purchase.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Common inverter sizing mistakes</h2>
+          <ul>
+            <li><strong>Ignoring surge loads:</strong> motor starts can trip an otherwise “big enough” inverter.</li>
+            <li><strong>Oversizing by default:</strong> large inverters waste energy at idle and cost more.</li>
+            <li><strong>Underestimating DC current:</strong> high current can overheat cables and connectors.</li>
+            <li><strong>Using modified sine with sensitive loads:</strong> can cause noise or poor performance.</li>
+          </ul>
+        </article>
+
+        <article class="article-card">
+          <h2>Safety and code notes</h2>
+          <p>Inverters connect high-current DC to AC loads. Use proper disconnects, DC-rated protection devices, and follow local code requirements. If you are unsure about wiring or bonding, consult a licensed electrician.</p>
         </article>
 
         <article class="article-card">
@@ -132,25 +230,24 @@
         </article>
 
         <article class="article-card">
+          <h2>Plan for future loads</h2>
+          <p>If you expect to add a microwave, power tools, or AC later, note those loads now. A small headroom is fine, but avoid doubling size without a reason. Upgrades also change cable size and battery cost.</p>
+          <p>Write down likely upgrades so you can choose a size with intent.</p>
+          <p>Moving small loads to DC can also reduce the inverter size you need without major rewiring later on.</p>
+        </article>
+
+        <article class="article-card">
           <h2>FAQ</h2>
-          <div class="faq">
-            <div>
-              <h4>What happens if my inverter is too small?</h4>
-              <p>It may trip under load, fail to start surge devices, or run hot near its limit.</p>
-            </div>
-            <div>
-              <h4>Is a bigger inverter always better?</h4>
-              <p>No. Bigger units cost more and can waste energy at idle. Size to realistic peak and surge needs.</p>
-            </div>
-            <div>
-              <h4>Does inverter size change battery size?</h4>
-              <p>Indirectly. Higher AC loads require more battery energy, and inverter losses add to demand.</p>
-            </div>
-            <div>
-              <h4>Should I choose pure sine wave for solar?</h4>
-              <p>If you run a mix of electronics and appliances, pure sine wave is usually the safest default.</p>
-            </div>
-          </div>
+          <h3>What happens if my inverter is too small?</h3>
+          <p>It may trip under load, fail to start surge devices, or run hot near its limit.</p>
+          <h3>Is a bigger inverter always better?</h3>
+          <p>No. Bigger units cost more and can waste energy at idle. Size to realistic peak and surge needs.</p>
+          <h3>Does inverter size change battery size?</h3>
+          <p>Indirectly. Higher AC loads require more battery energy, and inverter losses add to demand.</p>
+          <h3>Should I choose pure sine wave for solar?</h3>
+          <p>If you run a mix of electronics and appliances, pure sine wave is usually the safest default.</p>
+          <h3>Can I run AC loads without an inverter?</h3>
+          <p>Only if those loads are DC or you have a different power source. Most AC appliances require an inverter in off-grid systems.</p>
         </article>
 
         <article class="article-card">
@@ -169,4 +266,3 @@
     <script src="../script.js"></script>
   </body>
 </html>
-

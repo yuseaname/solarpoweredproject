@@ -6,7 +6,7 @@
     <title>MPPT Charge Controller Not Charging: Troubleshooting Checklist (PV Voltage, Settings)</title>
     <meta
       name="description"
-      content="MPPT charge controller not charging? Use this safe checklist to diagnose PV voltage issues, wiring configuration, controller limits, charging stages, settings, and battery protections."
+      content="MPPT controller not charging? Use this safe checklist to check PV voltage, wiring limits, charge stages, settings, and battery protections."
     />
     <link rel="stylesheet" href="../styles.css" />
     <link rel="icon" type="image/png" href="../assets/images/solarpoweredproject%20logo.png" />
@@ -46,6 +46,8 @@
             <a class="text-link" href="#step3">Step 3: Validate array wiring and controller limits</a>
             <a class="text-link" href="#step4">Step 4: Check charging stage and settings</a>
             <a class="text-link" href="#step5">Step 5: Battery protections (BMS, temperature, full battery)</a>
+            <a class="text-link" href="#step6">Step 6: Check thermal and current limits</a>
+            <a class="text-link" href="#step7">Step 7: Validate sensors and battery voltage readings</a>
             <a class="text-link" href="#mistakes">Common mistakes</a>
             <a class="text-link" href="#faq">FAQ</a>
             <a class="text-link" href="#next">Next logical reads</a>
@@ -169,6 +171,63 @@
           </div>
         </article>
 
+        <article class="article-card" id="step6">
+          <h2>Step 6: Check thermal and current limits</h2>
+          <p>Controllers can throttle charging when they are hot or when current limits are reached. This can look like weak or inconsistent charging.</p>
+          <ul>
+            <li><strong>High controller temperature:</strong> limits output to protect components.</li>
+            <li><strong>Current limiting:</strong> a small controller on a large array may cap output.</li>
+            <li><strong>Poor ventilation:</strong> trapped heat reduces performance.</li>
+          </ul>
+          <p>Make sure the controller has airflow and is not installed in a sealed, hot compartment.</p>
+        </article>
+
+        <article class="article-card" id="step7">
+          <h2>Step 7: Validate sensors and battery voltage readings</h2>
+          <p>Many controllers rely on voltage readings to decide when to charge. If the controller senses the wrong battery voltage, it may stop charging early or stay in float.</p>
+          <p>If you are qualified, confirm the battery voltage with a multimeter and compare it to the controller display.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Quick troubleshooting checklist</h2>
+          <ul>
+            <li><strong>PV watts present?</strong> verify sun, shade, and soiling.</li>
+            <li><strong>PV voltage in range?</strong> confirm it is above battery voltage.</li>
+            <li><strong>Controller settings correct?</strong> battery profile and voltage limits.</li>
+            <li><strong>Battery accepting charge?</strong> check BMS and temperature limits.</li>
+          </ul>
+        </article>
+
+        <article class="article-card">
+          <h2>When to stop and call for help</h2>
+          <p>If you see repeated controller faults, damaged wiring, or cannot verify PV voltage safely, stop and contact a qualified electrician or installer.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>After the fix</h2>
+          <p>Once the controller charges again, log the settings and wiring configuration. That record helps when troubleshooting later or expanding the array.</p>
+          <p>Save a screenshot of settings if your controller app allows it.</p>
+          <p>Store it with your system notes for reference.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Baseline readings to record</h2>
+          <p>Capture PV open-circuit voltage, array wiring layout, controller model/firmware, and battery voltage at rest. Note the time of day and weather when you recorded it.</p>
+          <p>Keep a photo of the wiring labels or a simple sketch so you can compare after upgrades.</p>
+          <p>Include any error codes or alarms so you can spot repeating patterns.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Prevent repeat issues</h2>
+          <p>Inspect PV connectors, recheck torque on lugs, and keep controller firmware up to date if updates are available.</p>
+          <p>Recheck connections after storms or heavy vibration, and keep a seasonal inspection schedule.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Quick summary</h2>
+          <p>Most MPPT charging issues are caused by low PV input, incorrect wiring, or battery protections. Start with the simple checks before changing settings.</p>
+        </article>
+
         <article class="article-card" id="mistakes">
           <h2>Common mistakes</h2>
           <ul>
@@ -176,29 +235,22 @@
             <li><strong>Ignoring controller voltage limits:</strong> especially risky in cold weather when PV voltage rises.</li>
             <li><strong>Assuming “zero amps” means broken:</strong> float mode or a full battery can legitimately show low current.</li>
             <li><strong>Chasing settings before checking PV input:</strong> always confirm sun/shade and PV watts first.</li>
+            <li><strong>Mounting the controller in a hot enclosure:</strong> heat can cut charging output.</li>
           </ul>
         </article>
 
         <article class="article-card" id="faq">
           <h2>FAQ</h2>
-          <div class="faq">
-            <div>
-              <h4>Why is my MPPT controller showing PV voltage but zero charge current?</h4>
-              <p>Common reasons include a full battery (float), low PV watts due to clouds/shade, battery protections (BMS/cold), or settings that don’t match the battery.</p>
-            </div>
-            <div>
-              <h4>Does MPPT work with panels wired in parallel?</h4>
-              <p>Often, yes—but the array voltage must be high enough above battery voltage for the controller to convert power effectively. Configuration depends on your panel specs and battery voltage.</p>
-            </div>
-            <div>
-              <h4>Can cold weather stop MPPT charging?</h4>
-              <p>Cold can increase PV voltage (affecting limits) and lithium batteries may prevent charging when cold. Both can change charging behavior.</p>
-            </div>
-            <div>
-              <h4>When should I call a professional?</h4>
-              <p>If you can’t verify PV voltage/current within safe procedures, see repeated faults, or suspect wiring damage, stop and contact a qualified professional.</p>
-            </div>
-          </div>
+          <h3>Why is my MPPT controller showing PV voltage but zero charge current?</h3>
+          <p>Common reasons include a full battery (float), low PV watts due to clouds or shade, battery protections (BMS or cold), or settings that do not match the battery.</p>
+          <h3>Does MPPT work with panels wired in parallel?</h3>
+          <p>Often, yes, but the array voltage must be high enough above battery voltage for the controller to convert power effectively.</p>
+          <h3>Can cold weather stop MPPT charging?</h3>
+          <p>Cold can increase PV voltage (affecting limits) and lithium batteries may prevent charging when cold. Both can change charging behavior.</p>
+          <h3>When should I call a professional?</h3>
+          <p>If you cannot verify PV voltage or current safely, see repeated faults, or suspect wiring damage, stop and contact a qualified professional.</p>
+          <h3>Should I reset the controller?</h3>
+          <p>Only after recording settings. A reset can clear errors, but it can also wipe battery profiles or custom limits.</p>
         </article>
 
         <article class="article-card" id="next">
