@@ -4,7 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>How to Size a Solar System (Step-by-Step)</title>
-    <meta name="description" content="Step-by-step solar system sizing guide with clear formulas, load planning, and links to output and battery calculators." />
+    <meta
+      name="description"
+      content="Step-by-step solar sizing guide: calculate daily load, estimate sun hours, size panels and batteries, and choose inverter capacity."
+    />
     <link rel="stylesheet" href="../styles.css" />
     <link rel="icon" type="image/png" href="../assets/images/solarpoweredproject%20logo.png" />
     <script
@@ -29,45 +32,244 @@
       <section class="article-hero">
         <p class="eyebrow">Sizing guide</p>
         <h1 class="article-title">How to size a solar system</h1>
-        <p class="lede">Use this simple sizing flow: calculate daily energy use, size panels for sun hours, and choose battery capacity.</p>
-        <p class="article-meta">Sizing logic for off-grid and backup systems.</p>
+        <p class="lede">
+          Use this step-by-step sizing flow: calculate daily energy use, size panels for sun hours, choose battery capacity, and confirm inverter and
+          wiring limits.
+        </p>
+        <p class="article-meta">Sizing logic for off-grid and backup systems. Updated periodically for clarity.</p>
       </section>
 
       <div class="article-grid">
         <article class="article-card">
           <h2>Key takeaways</h2>
           <ul>
-            <li>Start with daily watt-hours used.</li>
-            <li>Panel size depends on peak sun hours.</li>
-            <li>Battery size depends on backup time.</li>
+            <li>Start with daily watt-hours (Wh) from your actual loads.</li>
+            <li>Panel size depends on peak sun hours and system losses.</li>
+            <li>Battery size depends on backup hours and usable depth of discharge.</li>
+            <li>Inverter sizing is based on peak watts and surge loads.</li>
           </ul>
         </article>
 
         <article class="article-card">
           <h2>Step 1: Calculate daily load</h2>
-          <p>Add up appliance wattage and daily hours of use. Multiply watts by hours to get watt-hours (Wh).</p>
+          <p>
+            List every device you want to power, then multiply watts by hours used per day. Add up the results for total daily energy use in watt-hours
+            (Wh).
+          </p>
           <p class="pill">Example: 100W x 5 hours = 500Wh</p>
+          <p>
+            For appliances that cycle on and off (like fridges), use the average power or daily energy if available. This step is the foundation for
+            every other calculation.
+          </p>
         </article>
 
         <div class="ad-slot"></div>
 
         <article class="article-card">
-          <h2>Step 2: Size solar panels</h2>
-          <p>Divide daily Wh by average peak sun hours to estimate needed panel watts.</p>
-          <a class="text-link" href="solar-panel-output.html">Solar panel output calculator →</a>
+          <h2>Step 2: Estimate peak sun hours</h2>
+          <p>
+            Peak sun hours is the average daily solar energy for your location. It compresses daily sunlight into an equivalent number of full-sun
+            hours. A typical range might be 3 to 6 depending on climate and season.
+          </p>
+          <p>
+            Use conservative numbers for winter or cloudy seasons. If you plan for year-round reliability, size for the weakest months.
+          </p>
         </article>
 
         <article class="article-card">
-          <h2>Step 3: Size batteries</h2>
-          <p>Choose a battery bank to cover the number of hours or days you want in reserve.</p>
-          <a class="text-link" href="battery-capacity.html">Battery capacity calculator →</a>
+          <h2>Step 2a: Document your inputs</h2>
+          <p>
+            Write down the values you are using for sun hours, loads, and battery assumptions. This makes it easier to change one variable at a time
+            and see the impact on panel and battery size. It also helps when you compare different system voltages or panel configurations.
+          </p>
+          <p>
+            If you are unsure about a number, choose a conservative value and revisit it after you gather more data.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Step 3: Size solar panels</h2>
+          <p>
+            Divide your daily Wh by peak sun hours to estimate the panel watts needed, then adjust for losses. A common rule of thumb is to add 20 to 30
+            percent to account for inefficiencies.
+          </p>
+          <p class="pill">Example: 2,000Wh / 4 sun hours = 500W; add 25% = 625W</p>
+          <p>
+            Use the <a class="text-link" href="solar-panel-output.html">panel output calculator</a> for a more detailed estimate.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Panel losses to consider</h2>
+          <p>
+            Losses come from temperature, wiring, inverter efficiency, dust, and real-world conditions that are not captured in panel ratings. If you
+            size too close to the theoretical number, you may fall short during hot or cloudy periods.
+          </p>
+          <p>
+            A 20 to 30 percent buffer is common for off-grid systems. Grid-tied systems can often use a smaller buffer if you have reliable utility
+            power.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Step 4: Size batteries</h2>
+          <p>
+            Battery sizing depends on how many hours or days you want to run without sun. Convert daily Wh into battery capacity, then adjust for depth
+            of discharge and system voltage.
+          </p>
+          <p>
+            For example, a 2,000Wh daily load with one day of autonomy at 12V requires roughly 2,000Wh / 12V = 167Ah, then adjust for usable capacity.
+            If your battery is rated for 50 percent usable depth of discharge, you would need about 334Ah.
+          </p>
+          <p>
+            Use the <a class="text-link" href="battery-capacity.html">battery capacity calculator</a> to work through the numbers.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Battery chemistry and usable capacity</h2>
+          <p>
+            Lead-acid batteries have lower usable capacity because deeper discharge shortens lifespan. Lithium batteries usually allow deeper discharge
+            and higher usable energy, but cost more upfront. This choice changes the total battery size you need.
+          </p>
+          <p>
+            Compare options in <a class="text-link" href="li-ion-vs-lead-acid.html">li-ion vs lead-acid</a> before finalizing capacity.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Step 5: Size the inverter</h2>
+          <p>
+            The inverter must cover your peak load plus any surge loads (motors, compressors). Add up the watts of devices that may run at the same time,
+            then check the surge ratings.
+          </p>
+          <p>
+            A slightly larger inverter can be helpful, but oversizing too much can reduce efficiency at low loads. The
+            <a class="text-link" href="solar-inverter-sizing.html">inverter sizing guide</a> walks through this step.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>DC vs AC loads</h2>
+          <p>
+            If most of your devices are DC (LED lighting, USB charging, small electronics), you may reduce inverter use and improve efficiency. AC
+            appliances require an inverter, which adds losses. Understanding your load mix can change inverter size and daily energy estimates.
+          </p>
+          <p>DC loads can simplify wiring on small systems and reduce standby losses.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Step 6: Choose system voltage</h2>
+          <p>
+            Higher system voltage reduces current and wire size. Small systems often use 12V, while mid-size systems use 24V or 48V. Your inverter and
+            battery choice set the voltage.
+          </p>
+          <div class="related">
+            <a class="text-link" href="12v-vs-24v-vs-48v-solar.html">12V vs 24V vs 48V systems</a>
+            <a class="text-link" href="how-to-choose-solar-system-voltage.html">How to choose system voltage</a>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <h2>Step 7: Account for losses and safety margins</h2>
+          <p>
+            Real systems lose energy in wiring, charge controllers, and inverters. Add a buffer so the system still works on less-than-perfect days. A
+            20 to 30 percent margin is common for off-grid systems.
+          </p>
+          <p>
+            Also ensure wiring, fuses, and breakers are sized for the current. The <a class="text-link" href="wiring-decisions.html">wiring decisions
+            checklist</a> can help you plan safely.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Worked example (simple loads)</h2>
+          <p>Imagine a small off-grid setup for lights, a laptop, and a mini fridge:</p>
+          <ul>
+            <li>Lights: 40W for 4 hours = 160Wh</li>
+            <li>Laptop: 60W for 3 hours = 180Wh</li>
+            <li>Mini fridge: 60W average for 8 hours = 480Wh</li>
+          </ul>
+          <p>
+            Total daily use = 820Wh. If local sun hours are 4, panel watts = 820 / 4 = 205W. Add 25 percent = about 260W. For one day of battery
+            backup at 12V with 50 percent usable depth, capacity = 820Wh / 12V = 68Ah, then doubled to 136Ah.
+          </p>
+          <p>
+            This is only an example. Your actual devices and weather will change the outcome.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Plan for growth</h2>
+          <p>
+            Loads tend to increase over time. If you expect to add devices later, consider leaving room for extra panels or a larger battery bank.
+            Oversizing wiring and protection early can make future upgrades simpler and safer.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Common sizing mistakes</h2>
+          <ul>
+            <li>Using panel watt ratings without accounting for real sun hours.</li>
+            <li>Ignoring surge loads when choosing inverter size.</li>
+            <li>Under-sizing batteries and relying on unrealistic depth of discharge.</li>
+            <li>Skipping wiring loss and safety margins.</li>
+          </ul>
+        </article>
+
+        <article class="article-card">
+          <h2>Off-grid vs backup sizing</h2>
+          <p>
+            Backup systems are often sized for critical loads only. Off-grid systems must cover all loads and poor weather, which increases panel and
+            battery size. If you are only powering essential devices during outages, you can size much smaller.
+          </p>
+          <p>
+            Use-case guides like <a class="text-link" href="rv-solar-sizing.html">RV sizing</a> and
+            <a class="text-link" href="cabin-solar-sizing.html">cabin sizing</a> show how use case changes the numbers.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Checklist before you buy</h2>
+          <ul>
+            <li>Daily Wh estimate with realistic usage hours.</li>
+            <li>Peak sun hours for your location and season.</li>
+            <li>Chosen system voltage and compatible components.</li>
+            <li>Inverter surge requirements for motor loads.</li>
+            <li>Wire size and protection plan for high-current runs.</li>
+          </ul>
+        </article>
+
+        <article class="article-card">
+          <h2>Safety note</h2>
+          <p>
+            Electrical work can be hazardous. If your system involves service panels, battery banks, or high-voltage wiring, consult a licensed
+            electrician or installer. Always follow manufacturer guidance and local code requirements.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Quick reminder</h2>
+          <p>Revisit sizing after a few months of real use. Actual loads often differ from estimates.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>FAQ</h2>
+          <h3>How many panels do I need?</h3>
+          <p>It depends on your daily Wh, sun hours, and system losses. Use the panel output calculator to estimate.</p>
+          <h3>Is it okay to oversize the battery?</h3>
+          <p>Yes, larger batteries reduce cycling depth, but they increase cost and charging requirements.</p>
+          <h3>Should I size for winter?</h3>
+          <p>If you need year-round reliability, use winter sun hours or plan for backup power.</p>
+          <h3>What if my loads change later?</h3>
+          <p>Plan for growth if possible. Leave room for extra panels and battery capacity if your budget allows.</p>
         </article>
 
         <article class="article-card">
           <h2>Next logical reads</h2>
           <div class="related">
-            <a class="text-link" href="12v-vs-24v-vs-48v-solar.html">12V vs 24V vs 48V solar systems</a>
-            <a class="text-link" href="how-to-choose-solar-system-voltage.html">How to choose solar system voltage</a>
+            <a class="text-link" href="solar-panel-output.html">Solar panel output calculator</a>
+            <a class="text-link" href="battery-capacity.html">Battery capacity calculator</a>
             <a class="text-link" href="solar-system-costs.html">Solar system cost breakdown</a>
             <a class="text-link" href="solar-components.html">Solar components explained</a>
             <a class="text-link" href="mppt-vs-pwm.html">MPPT vs PWM</a>

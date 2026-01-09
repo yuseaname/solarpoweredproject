@@ -63,6 +63,7 @@
           </ul>
           <div class="related">
             <a class="text-link" href="solar-system-sizing.html">How to size a solar system (start here)</a>
+            <a class="text-link" href="wiring-decisions.html">Solar wiring decisions (hub)</a>
           </div>
         </article>
 
@@ -158,6 +159,66 @@
           </div>
         </article>
 
+        <article class="article-card">
+          <h2>Cold weather voltage check</h2>
+          <p>Panel voltage rises in cold weather. A series string that is safe in summer can exceed controller limits in winter. Always check cold-weather open-circuit voltage against your controller’s max input rating.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Series-parallel design tips</h2>
+          <ul>
+            <li><strong>Keep strings identical:</strong> same panel type and orientation for each string.</li>
+            <li><strong>Limit string length by controller voltage:</strong> never exceed input limits.</li>
+            <li><strong>Balance current:</strong> parallel strings should have similar current ratings.</li>
+            <li><strong>Plan for expansion:</strong> leave room for an additional string if you might grow.</li>
+          </ul>
+        </article>
+
+        <article class="article-card">
+          <h2>Decision checklist</h2>
+          <ul>
+            <li><strong>Controller limits:</strong> stay within max PV voltage and current.</li>
+            <li><strong>Shade risk:</strong> more shade favors parallel or shorter strings.</li>
+            <li><strong>Wire run length:</strong> longer runs favor series for lower current.</li>
+            <li><strong>Expansion plan:</strong> design strings so you can add panels later.</li>
+          </ul>
+          <p>Plan where disconnects and combiners will mount before final wiring.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Shading mitigation tips</h2>
+          <p>Keep shaded panels out of long series strings when possible. If shade is unavoidable, consider shorter strings, panel-level optimizers, or rearranging the layout to group similar exposure.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Protection requirements</h2>
+          <p>Parallel strings often need string fuses or breakers to prevent backfeed during faults. Series strings may require fewer protection devices but must stay within controller voltage limits.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Labeling and measurement</h2>
+          <p>Label each string and record its open-circuit voltage and short-circuit current on a clear day. Baseline readings make troubleshooting easier after storms, wiring changes, or panel replacements.</p>
+          <p>If a string is low, you can isolate it quickly instead of guessing.</p>
+          <p>Write the readings on the combiner cover or a small diagram for future checks.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Controller limit reminder</h2>
+          <p>Always verify max PV voltage and current for your controller. Series wiring can exceed limits in cold weather if you ignore open-circuit voltage.</p>
+          <p>Leave a small buffer for temperature swings and manufacturing variance as a safety margin.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Quick summary</h2>
+          <p>Series wiring helps long runs and MPPT use, while parallel helps with shade. Choose the configuration that keeps voltage and current within limits.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Example wiring decision</h2>
+          <p>Suppose you have four panels and a 24V battery bank. Two panels in series might be a good match for an MPPT controller, then you can parallel the two series strings. That gives higher voltage than full parallel while keeping strings manageable.</p>
+          <p>Always verify the controller’s maximum input voltage and current before finalizing the design.</p>
+        </article>
+
         <article class="article-card" id="mistakes">
           <h2>Common mistakes (and what they look like)</h2>
           <ul>
@@ -173,28 +234,18 @@
 
         <article class="article-card" id="faq">
           <h2>FAQ</h2>
-          <div class="faq">
-            <div>
-              <h4>Is series or parallel “better”?</h4>
-              <p>Neither is universally better. Series often helps with long runs and MPPT setups; parallel can be more forgiving with partial shading.</p>
-            </div>
-            <div>
-              <h4>Does series increase watts?</h4>
-              <p>It increases voltage, not “free power.” Total power depends on sunlight and panel output. Wiring changes how that power is delivered.</p>
-            </div>
-            <div>
-              <h4>What happens if one panel is shaded?</h4>
-              <p>Shading can reduce output more in series strings. Design tries to group panels with similar sun exposure in the same string.</p>
-            </div>
-            <div>
-              <h4>Can I mix series and parallel?</h4>
-              <p>Yes, many arrays are built as series strings connected in parallel. The safe approach is to keep strings consistent and stay within controller limits.</p>
-            </div>
-            <div>
-              <h4>Do I need MPPT for series wiring?</h4>
-              <p>Not always, but MPPT often makes higher-voltage array configurations more practical and efficient (within equipment limits).</p>
-            </div>
-          </div>
+          <h3>Is series or parallel better?</h3>
+          <p>Neither is universally better. Series often helps with long runs and MPPT setups; parallel can be more forgiving with partial shading.</p>
+          <h3>Does series increase watts?</h3>
+          <p>It increases voltage, not free power. Total power depends on sunlight and panel output.</p>
+          <h3>What happens if one panel is shaded?</h3>
+          <p>Shading can reduce output more in series strings. Group panels with similar exposure in the same string.</p>
+          <h3>Can I mix series and parallel?</h3>
+          <p>Yes, many arrays are built as series strings connected in parallel. Keep strings consistent and stay within controller limits.</p>
+          <h3>Do I need MPPT for series wiring?</h3>
+          <p>Not always, but MPPT often makes higher-voltage array configurations more practical and efficient.</p>
+          <h3>Should I rewire if I add panels?</h3>
+          <p>Sometimes. Adding panels can change string voltage and current, so recheck controller limits and wiring design.</p>
         </article>
 
         <article class="article-card">

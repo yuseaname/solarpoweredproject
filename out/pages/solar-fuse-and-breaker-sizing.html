@@ -6,7 +6,7 @@
     <title>Solar Fuse and Breaker Sizing: A Simple Planning Guide (By Circuit)</title>
     <meta
       name="description"
-      content="Solar fuse sizing and breaker sizing explained with a circuit-by-circuit planning flow: PV array, controller-to-battery, battery-to-inverter, and service disconnects using DC-rated hardware."
+      content="Solar fuse and breaker sizing explained by circuit: PV array, controller-to-battery, battery-to-inverter, and DC disconnects using DC-rated gear."
     />
     <link rel="stylesheet" href="../styles.css" />
     <link rel="icon" type="image/png" href="../assets/images/solarpoweredproject%20logo.png" />
@@ -141,6 +141,23 @@
           </p>
         </article>
 
+        <article class="article-card">
+          <h2>A simple sizing example (planning-level)</h2>
+          <p>Example: a 40A charge controller feeding a 12V battery bank. A common planning approach is to choose protection slightly above the expected max current, using DC-rated hardware and the correct wire gauge.</p>
+          <p>The exact device size depends on code and manufacturer guidance, but the process is consistent: start with the controller max output, confirm wire capacity, then choose a protective device that fits that circuit.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Fuse vs breaker by circuit</h2>
+          <ul>
+            <li><strong>PV string protection:</strong> fuses or breakers both work when DC-rated and sized to string current.</li>
+            <li><strong>Controller-to-battery:</strong> breakers can double as a service disconnect.</li>
+            <li><strong>Battery-to-inverter:</strong> high-current fuses are common for compact installs.</li>
+            <li><strong>Service isolation:</strong> breakers or disconnect switches improve maintenance safety.</li>
+          </ul>
+          <p>Pick based on access, reset needs, and whether you want a built-in disconnect function.</p>
+        </article>
+
         <article class="article-card" id="placement">
           <h2>Placement rules-of-thumb (planning-level)</h2>
           <ul>
@@ -165,6 +182,36 @@
           <p class="article-meta">If a product page doesn’t clearly state DC ratings, treat that as a red flag.</p>
         </article>
 
+        <article class="article-card">
+          <h2>Inspection and maintenance checklist</h2>
+          <ul>
+            <li><strong>Visual check:</strong> look for discoloration, melted insulation, or loose lugs.</li>
+            <li><strong>Labeling:</strong> ensure each circuit is labeled and easy to isolate.</li>
+            <li><strong>Temperature:</strong> warm terminals indicate resistance or overload.</li>
+            <li><strong>Tighten and recheck:</strong> follow torque specs for terminal connections.</li>
+          </ul>
+        </article>
+
+        <article class="article-card">
+          <h2>Documentation that saves time</h2>
+          <p>Keep a simple wiring diagram and a list of fuse and breaker sizes near the system. It helps troubleshooting and makes future upgrades safer.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>When you upgrade the system</h2>
+          <p>If you add panels, batteries, or a larger inverter, revisit fuse and breaker sizes. Protection should always match the new circuit capacity.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Placement reminder</h2>
+          <p>Protection should be placed as close to the source as practical. Long unprotected runs defeat the purpose of a fuse or breaker.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Labeling reminder</h2>
+          <p>Label each fuse or breaker with its circuit, rating, and date. Clear labels reduce mistakes quickly.</p>
+        </article>
+
         <article class="article-card" id="mistakes">
           <h2>Common mistakes (and how to avoid them)</h2>
           <ul>
@@ -178,43 +225,18 @@
 
         <article class="article-card" id="faq">
           <h2>FAQ</h2>
-          <div class="faq">
-            <div>
-              <h4>Do I need fuses on solar panels wired in parallel?</h4>
-              <p>
-                Sometimes. Parallel strings can allow backfeed current into a faulted string depending on configuration. The safest approach is to follow
-                panel and controller guidance and use appropriate string protection when required.
-              </p>
-            </div>
-            <div>
-              <h4>Breaker vs fuse: which is “better”?</h4>
-              <p>
-                It depends on the circuit and your goals. Breakers can act as a disconnect and reset after troubleshooting; fuses can be simple and robust.
-                Use devices rated for your system’s DC voltage and expected fault current.
-              </p>
-            </div>
-            <div>
-              <h4>What does “DC-rated” actually mean?</h4>
-              <p>
-                It means the device is designed and tested to interrupt current safely on DC at a specified voltage. DC arcs behave differently than AC
-                arcs, so ratings are not interchangeable.
-              </p>
-            </div>
-            <div>
-              <h4>Why does a correctly-sized fuse still blow sometimes?</h4>
-              <p>
-                A fuse can blow due to true overloads, surges, heat from a loose connection, or a short. Treat repeated failures as a diagnostic clue—not a
-                reason to oversize protection.
-              </p>
-            </div>
-            <div>
-              <h4>What’s the safest “first upgrade” for a DIY system?</h4>
-              <p>
-                If your system lacks clear DC-rated disconnects and correctly placed protection, improving isolation and protection can make maintenance and
-                troubleshooting safer.
-              </p>
-            </div>
-          </div>
+          <h3>Do I need fuses on solar panels wired in parallel?</h3>
+          <p>Sometimes. Parallel strings can allow backfeed current into a faulted string. Follow panel and controller guidance and use string protection when required.</p>
+          <h3>Breaker vs fuse: which is better?</h3>
+          <p>It depends on the circuit and your goals. Breakers can act as a disconnect and reset after troubleshooting; fuses can be simple and robust.</p>
+          <h3>What does DC-rated actually mean?</h3>
+          <p>It means the device is designed and tested to interrupt current safely on DC at a specified voltage. DC arcs behave differently than AC arcs.</p>
+          <h3>Why does a correctly sized fuse still blow sometimes?</h3>
+          <p>A fuse can blow due to true overloads, surges, heat from a loose connection, or a short. Treat repeated failures as a diagnostic clue.</p>
+          <h3>What’s the safest first upgrade for a DIY system?</h3>
+          <p>If your system lacks clear DC-rated disconnects and correctly placed protection, improving isolation and protection can make maintenance safer.</p>
+          <h3>Should I upsell to larger protection for expansion?</h3>
+          <p>Only if the wire and equipment are sized for the higher current. Protection must match the circuit capacity.</p>
         </article>
 
         <article class="article-card" id="next">

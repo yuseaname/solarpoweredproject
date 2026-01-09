@@ -113,6 +113,88 @@
         </article>
 
         <article class="article-card">
+          <h2>Step 5: Match the charge controller to your array</h2>
+          <p>Choose a controller that supports your array voltage and battery chemistry. MPPT is common in RV builds because it allows higher-voltage panel wiring and more harvest in mixed conditions.</p>
+          <ul>
+            <li><strong>Input voltage:</strong> keep cold-weather panel Voc below the controller’s max rating.</li>
+            <li><strong>Output current:</strong> size based on array watts ÷ battery voltage with a safety margin.</li>
+            <li><strong>Battery profile:</strong> confirm settings for lead-acid or lithium.</li>
+          </ul>
+          <p>See <a class="text-link" href="mppt-vs-pwm.html">MPPT vs PWM</a> for the full comparison.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Roof space, shading, and mounting constraints</h2>
+          <p>RV roofs have limited real estate, plus vents, AC units, and antennas. Build a panel layout first, then confirm the panel wattage you can actually fit.</p>
+          <p>Partial shading from roof fixtures can reduce output. Consider panel spacing, wire routing, and access for maintenance.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Battery chemistry and weight considerations</h2>
+          <p>Lithium batteries offer more usable energy per pound, which helps when RV weight limits are tight. Lead-acid is cheaper upfront but heavier and needs more capacity for the same usable energy.</p>
+          <p>Use the <a class="text-link" href="li-ion-vs-lead-acid.html">battery chemistry comparison</a> to decide which tradeoffs matter most.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Charging sources beyond solar</h2>
+          <p>Many RVs combine solar with shore power or alternator charging. This can reduce the panel size you need, but it requires compatible chargers and careful wiring.</p>
+          <p>If you camp in shade or winter conditions, plan for a backup charging strategy.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Example sizing snapshot</h2>
+          <p>Example: If your daily use is 2,000 Wh and you want one day of autonomy at 80 percent depth of discharge, the battery target is about 2,500 Wh. With 4 peak sun hours and 0.8 efficiency, panel watts are roughly 625W.</p>
+          <p>Adjust for roof space and seasonal sun hours.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>RV sizing checklist</h2>
+          <ul>
+            <li><strong>List loads:</strong> include any inverter appliances.</li>
+            <li><strong>Check roof space:</strong> panels must physically fit.</li>
+            <li><strong>Pick system voltage:</strong> 12V is common, 24V for larger setups.</li>
+            <li><strong>Plan cable routes:</strong> short runs reduce losses.</li>
+            <li><strong>Confirm controller limits:</strong> especially cold-weather PV voltage.</li>
+          </ul>
+        </article>
+
+        <article class="article-card">
+          <h2>Inverter usage patterns</h2>
+          <p>Heavy inverter use is the biggest driver of RV system size. If you mainly charge devices and run lights, you can keep the inverter small or skip it entirely.</p>
+          <p>If you run a microwave or air conditioner, plan for high surge and large battery capacity.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Seasonal and location effects</h2>
+          <p>Peak sun hours vary by location and season. If you travel north or camp in winter, your panel output will drop and you may need more capacity or backup charging.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Backup charging options</h2>
+          <p>Most RVers keep a backup plan for cloudy weeks: shore power, a generator, or alternator charging while driving. Each option changes your sizing target because it reduces how much solar has to cover on its own.</p>
+          <p>If you rely on alternator charging, confirm wire size and isolation hardware so you do not overload the vehicle electrical system.</p>
+          <p>Even a small backup charger can shrink the array size you need for long trips.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Battery maintenance reminders</h2>
+          <p>Lead-acid batteries may require periodic checks and ventilation. Lithium batteries need a proper BMS and temperature protection.</p>
+          <p>Healthy batteries make sizing assumptions more reliable.</p>
+          <p>Plan ventilation and access so you can inspect terminals safely and periodically.</p>
+          <p>Easy access saves time during troubleshooting too.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Realistic expansion plan</h2>
+          <p>If you expect to add panels later, choose a controller with headroom and leave roof space. Planning for expansion can save money and rework.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Quick summary</h2>
+          <p>Size the battery for autonomy first, then size panels to refill it daily. Roof space and sun hours are the main constraints.</p>
+        </article>
+
+        <article class="article-card">
           <h2>Common RV sizing scenarios (quick ranges)</h2>
           <div class="table-wrap">
             <table>
@@ -153,30 +235,23 @@
 
         <article class="article-card">
           <h2>FAQ</h2>
-          <div class="faq">
-            <div>
-              <h4>How many watts of solar do I need for an RV?</h4>
-              <p>Estimate daily Wh first, then divide by peak sun hours and an efficiency factor to get panel watts.</p>
-            </div>
-            <div>
-              <h4>Is it better to buy more panels or more battery?</h4>
-              <p>More battery increases time off-sun; more panels increase daily refill. Most RV builds need a balance of both.</p>
-            </div>
-            <div>
-              <h4>Do I need MPPT on an RV?</h4>
-              <p>MPPT is often worth it if your panel voltage is higher than battery voltage or you want better performance in mixed conditions.</p>
-            </div>
-            <div>
-              <h4>Can RV solar run an air conditioner?</h4>
-              <p>It can, but it typically requires a large battery bank, substantial panel wattage, and a properly sized inverter.</p>
-            </div>
-          </div>
+          <h3>How many watts of solar do I need for an RV?</h3>
+          <p>Estimate daily Wh first, then divide by peak sun hours and an efficiency factor to get panel watts.</p>
+          <h3>Is it better to buy more panels or more battery?</h3>
+          <p>More battery increases time off-sun; more panels increase daily refill. Most RV builds need a balance of both.</p>
+          <h3>Do I need MPPT on an RV?</h3>
+          <p>MPPT is often worth it if your panel voltage is higher than battery voltage or you want better performance in mixed conditions.</p>
+          <h3>Can RV solar run an air conditioner?</h3>
+          <p>It can, but it typically requires a large battery bank, substantial panel wattage, and a properly sized inverter.</p>
+          <h3>What’s a safe first step if I’m unsure?</h3>
+          <p>Start with your load list and consider a smaller system you can expand later, or consult an RV solar installer.</p>
         </article>
 
         <article class="article-card">
           <h2>Next logical reads</h2>
           <div class="related">
             <a class="text-link" href="rv-solar-cost.html">RV solar system cost breakdown</a>
+            <a class="text-link" href="cabin-solar-sizing.html">Cabin solar sizing</a>
             <a class="text-link" href="battery-capacity.html">Battery capacity calculator</a>
             <a class="text-link" href="solar-system-costs.html">Solar system cost breakdown (general)</a>
             <a class="text-link" href="solar-use-cases.html">More solar use cases</a>

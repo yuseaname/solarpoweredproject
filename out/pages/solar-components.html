@@ -4,7 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Solar Components Explained: Panels, Inverters, Batteries</title>
-    <meta name="description" content="Understand solar panels, inverters, charge controllers, and batteries. Clear component roles with links to comparisons and sizing guides." />
+    <meta
+      name="description"
+      content="Understand solar components in plain English: panels, inverters, charge controllers, batteries, and balance-of-system parts."
+    />
     <link rel="stylesheet" href="../styles.css" />
     <link rel="icon" type="image/png" href="../assets/images/solarpoweredproject%20logo.png" />
     <script
@@ -29,31 +32,75 @@
       <section class="article-hero">
         <p class="eyebrow">Solar components</p>
         <h1 class="article-title">Solar components explained</h1>
-        <p class="lede">This page explains the main components in a solar system and how they work together.</p>
-        <p class="article-meta">Component-focused guide with neutral comparisons.</p>
+        <p class="lede">
+          This guide explains the main components in a solar system, what each part does, and how they work together. It is designed for new planners
+          and DIY learners.
+        </p>
+        <p class="article-meta">Updated periodically for clarity. Component-focused and neutral.</p>
       </section>
 
       <div class="article-grid">
         <article class="article-card">
           <h2>Key takeaways</h2>
           <ul>
-            <li>Panels generate DC power from sunlight.</li>
-            <li>Inverters convert DC to AC for appliances.</li>
-            <li>Batteries store energy for later use.</li>
+            <li>Panels make DC power; inverters turn it into AC for household use.</li>
+            <li>Charge controllers protect batteries and improve charging efficiency.</li>
+            <li>Battery choice affects cost, lifespan, and usable capacity.</li>
+            <li>Balance-of-system parts (wiring, breakers, mounts) are essential for safety.</li>
           </ul>
         </article>
 
         <article class="article-card">
-          <h2>Panels</h2>
-          <p>Panel output is measured in watts. Larger panels produce more energy, but output also depends on sunlight hours and orientation.</p>
+          <h2>How the components fit together</h2>
+          <p>
+            Think of a solar system as a chain. Panels create DC power. The wiring and protection devices move that power safely. A charge controller
+            manages battery charging (if you have batteries). An inverter converts DC to AC. Batteries store energy for later use and smooth out short
+            spikes in demand.
+          </p>
+          <p>
+            If you are new to sizing, start with the <a class="text-link" href="solar-system-sizing.html">system sizing guide</a>.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Solar panels</h2>
+          <p>
+            Panels are rated in watts (W) under standard test conditions. Real output changes based on sun hours, temperature, and shading. Panel types
+            include monocrystalline, polycrystalline, and thin-film, with monocrystalline most common for space-limited setups.
+          </p>
+          <ul>
+            <li><strong>Watt rating:</strong> higher watt panels produce more energy, but also cost more.</li>
+            <li><strong>Voltage and current:</strong> affect wiring and controller compatibility.</li>
+            <li><strong>Orientation:</strong> tilt and direction change daily output.</li>
+          </ul>
           <a class="text-link" href="solar-panel-output.html">Calculate panel output →</a>
+        </article>
+
+        <article class="article-card">
+          <h2>Panel wiring basics</h2>
+          <p>
+            Panels can be wired in series to increase voltage or in parallel to increase current. Higher voltage reduces wire size, while parallel
+            wiring can be more tolerant of partial shading.
+          </p>
+          <p>
+            The right choice depends on charge controller limits and array layout. See
+            <a class="text-link" href="solar-panels-series-vs-parallel.html">series vs parallel solar panels</a> for a step-by-step guide.
+          </p>
         </article>
 
         <div class="ad-slot"></div>
 
         <article class="article-card">
           <h2>Inverters</h2>
-          <p>Inverters transform DC to AC. Micro-inverters optimize per panel, while string inverters are simpler and often cheaper.</p>
+          <p>
+            Inverters convert DC from panels or batteries into AC for appliances. The right inverter depends on your loads and system type. A bigger
+            inverter is not always better; oversized inverters can be inefficient at low loads.
+          </p>
+          <ul>
+            <li><strong>String inverter:</strong> simpler and often cheaper for a single array.</li>
+            <li><strong>Micro-inverters:</strong> one per panel, useful in partial shade.</li>
+            <li><strong>Hybrid inverter:</strong> supports batteries and grid interaction.</li>
+          </ul>
           <div class="related">
             <a class="text-link" href="micro-vs-string-inverters.html">Micro vs string inverters →</a>
             <a class="text-link" href="solar-inverter-sizing.html">How to size an inverter →</a>
@@ -62,13 +109,174 @@
         </article>
 
         <article class="article-card">
-          <h2>Charge controllers and batteries</h2>
-          <p>Charge controllers regulate energy going into batteries. MPPT models typically improve efficiency over PWM models.</p>
+          <h2>Inverter sizing basics</h2>
+          <p>
+            Start by adding the wattage of devices that run at the same time. Then check for surge loads like pumps, fridges, or power tools. Your
+            inverter needs enough surge capacity for these short spikes. If you oversize too much, the inverter may run less efficiently at low loads.
+          </p>
+          <p>
+            The <a class="text-link" href="solar-inverter-sizing.html">inverter sizing guide</a> walks through a step-by-step method with examples.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Charge controllers</h2>
+          <p>
+            Charge controllers regulate power going into batteries. They prevent overcharging and manage charging stages. MPPT controllers are more
+            efficient and allow more flexible panel wiring; PWM controllers are cheaper but less efficient.
+          </p>
           <div class="related">
             <a class="text-link" href="mppt-vs-pwm.html">MPPT vs PWM</a>
-            <a class="text-link" href="li-ion-vs-lead-acid.html">Li-ion vs lead-acid</a>
-            <a class="text-link" href="12v-vs-24v-vs-48v-solar.html">12V vs 24V vs 48V systems</a>
+            <a class="text-link" href="mppt-charge-controller-cost.html">MPPT controller cost</a>
+            <a class="text-link" href="mppt-charge-controller-not-charging.html">MPPT not charging troubleshooting</a>
           </div>
+        </article>
+
+        <article class="article-card">
+          <h2>Charge controller sizing and limits</h2>
+          <p>
+            Controllers have maximum input voltage and current ratings. Series panel wiring can push voltage too high in cold weather, while parallel
+            wiring can exceed current limits. Always compare panel specs to controller limits, and use a safety margin for temperature swings.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Batteries</h2>
+          <p>
+            Batteries store energy so you can use power when the sun is down or during short bursts of high demand. The key decision is chemistry and
+            usable capacity.
+          </p>
+          <ul>
+            <li><strong>Lead-acid:</strong> lower upfront cost, heavier, shorter lifespan.</li>
+            <li><strong>Li-ion:</strong> higher upfront cost, higher usable capacity, longer lifespan.</li>
+            <li><strong>Depth of discharge:</strong> usable energy depends on how deeply you can safely discharge.</li>
+          </ul>
+          <div class="related">
+            <a class="text-link" href="li-ion-vs-lead-acid.html">Li-ion vs lead-acid</a>
+            <a class="text-link" href="battery-capacity.html">Battery capacity calculator</a>
+            <a class="text-link" href="solar-battery-cost-per-kwh.html">Solar battery cost per kWh</a>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <h2>Battery management and safety</h2>
+          <p>
+            Lithium batteries use a battery management system (BMS) to balance cells and prevent overcharge or over-discharge. Lead-acid batteries rely
+            more on proper charging settings and ventilation. In all cases, fusing and disconnects are critical for safety.
+          </p>
+          <p>
+            Review the <a class="text-link" href="solar-fuse-and-breaker-sizing.html">fuse and breaker sizing guide</a> if you are planning a new
+            battery bank.
+          </p>
+        </article>
+        <article class="article-card">
+          <h2>Balance of system (BOS)</h2>
+          <p>
+            BOS refers to everything that connects and protects the system: wiring, breakers, fuses, mounts, disconnects, and combiner boxes. These
+            parts are not optional. They prevent overheating, allow safe maintenance, and reduce voltage loss.
+          </p>
+          <p>Plan for labeled circuits and clean cable routing so future troubleshooting is faster and safer.</p>
+          <div class="related">
+            <a class="text-link" href="solar-wire-size.html">Solar wire size</a>
+            <a class="text-link" href="solar-fuses-vs-breakers.html">Solar fuses vs breakers</a>
+            <a class="text-link" href="solar-combiner-box-and-disconnect-guide.html">Combiner boxes and disconnects</a>
+            <a class="text-link" href="solar-wiring-and-protection-cost.html">Wiring and protection cost</a>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <h2>Grounding and surge protection</h2>
+          <p>
+            Grounding and surge protection help protect equipment and reduce electrical hazards. Requirements vary by system type and location. If you
+            are unsure about grounding methods, consult a licensed electrician.
+          </p>
+        </article>
+        <article class="article-card">
+          <h2>Mounting and racking</h2>
+          <p>
+            Mounting hardware keeps panels secure and correctly angled. Roof mounts must protect the roof surface and handle wind loads. Ground mounts
+            offer easier access but require more space and materials. The mounting choice affects installation cost and long-term maintenance.
+          </p>
+        </article>
+        <article class="article-card">
+          <h2>Monitoring and controls</h2>
+          <p>
+            Many systems include monitoring tools that show daily production, battery state of charge, and inverter status. Monitoring helps you spot
+            performance changes early and can speed up troubleshooting.
+          </p>
+          <p>
+            When output seems low, start with sun conditions and compare against expected production using the
+            <a class="text-link" href="solar-output-troubleshooting.html">low output troubleshooting guide</a>.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Expected lifespan and replacement cycles</h2>
+          <p>
+            Panels can last decades, but inverters and batteries often need replacement sooner. Plan for inverter replacement at some point in the
+            system’s life, and budget for batteries if your system relies on storage. Choosing quality components can reduce downtime and improve long
+            term value.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Planning tip</h2>
+          <p>Choose components that match your system voltage and expansion plans to avoid rework later.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Quality checks before you buy</h2>
+          <p>
+            Look for clear datasheets, warranty terms, and safety certifications. Avoid components with vague specs or missing operating limits. A
+            component that is slightly more expensive but well-documented is easier to size and safer to install.
+          </p>
+          <p>Check operating temperature ranges if the system will be outdoors or in hot enclosures.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>Compatibility checklist</h2>
+          <p>Before buying components, confirm these matches:</p>
+          <ul>
+            <li>Panel voltage and current fit the charge controller limits.</li>
+            <li>Battery voltage matches the inverter and controller.</li>
+            <li>Inverter watt rating covers your peak load and surge loads.</li>
+            <li>Wire gauge is sized for current and run length.</li>
+          </ul>
+          <p>
+            If you are unsure, review <a class="text-link" href="solar-system-sizing.html">system sizing</a> and
+            <a class="text-link" href="how-to-choose-solar-system-voltage.html">system voltage selection</a>.
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Example component stack (small off-grid)</h2>
+          <p>
+            A small off-grid setup might include 400–800W of panels, an MPPT charge controller, a 12V or 24V battery bank, and a 1,000–2,000W inverter.
+            Wire size and protection devices must be selected for the highest current runs, especially between the battery and inverter.
+          </p>
+          <p>
+            Use the <a class="text-link" href="solar-system-sizing.html">sizing guide</a> to build your own stack based on actual loads.
+          </p>
+        </article>
+        <article class="article-card">
+          <h2>Safety notes</h2>
+          <p>
+            Solar wiring can carry high current and high voltage. Improper wire sizing or loose connections can cause heat buildup and fire risk. Use
+            DC-rated disconnects and overcurrent protection, and consult a licensed electrician if you are unsure.
+          </p>
+          <p>Local code may add requirements.</p>
+        </article>
+
+        <article class="article-card">
+          <h2>FAQ</h2>
+          <h3>Do I need an inverter for every system?</h3>
+          <p>Only if you need AC power. DC-only systems can skip the inverter.</p>
+          <h3>Is MPPT always better than PWM?</h3>
+          <p>MPPT is more efficient but costs more. For small systems, PWM can be acceptable.</p>
+          <h3>Can I mix panel brands?</h3>
+          <p>It is usually best to use matching panels in a string to avoid performance loss.</p>
+          <h3>How do I choose battery voltage?</h3>
+          <p>Higher voltages reduce current and wiring losses. See <a class="text-link" href="12v-vs-24v-vs-48v-solar.html">system voltage comparison</a>.</p>
         </article>
 
         <article class="article-card">
@@ -77,6 +285,7 @@
             <a class="text-link" href="solar-system-sizing.html">How to size a system</a>
             <a class="text-link" href="solar-system-costs.html">Cost breakdown</a>
             <a class="text-link" href="diy-vs-installer.html">DIY vs installer cost</a>
+            <a class="text-link" href="solar-maintenance.html">Maintenance checklist</a>
           </div>
         </article>
       </div>
