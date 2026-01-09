@@ -324,6 +324,10 @@ h1 {
   font-size: 0.9rem;
 }
 
+.ad-slot:empty {
+  display: none;
+}
+
 .table-wrap {
   overflow-x: auto;
   border-radius: 12px;
