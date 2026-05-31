@@ -18,12 +18,11 @@ jobs:
           ssh-keygen -y -f ~/.ssh/deploy_key > /dev/null
           chmod 600 ~/.ssh/deploy_key
           ssh-keyscan -H -p 65002 "${{ secrets.HOSTINGER_SSH_HOST }}" >> ~/.ssh/known_hosts
+      - name: Build site
+        run: bash scripts/build.sh
       - name: Deploy via rsync
         run: |
           rsync -avz --delete \
-            --exclude='.git' \
-            --exclude='.github' \
-            --exclude='prompts' \
             -e "ssh -i ~/.ssh/deploy_key -p 65002" \
             ./out/ \
             "${{ secrets.HOSTINGER_SSH_USER }}@${{ secrets.HOSTINGER_SSH_HOST }}:~/domains/solarpoweredproject.com/public_html/"
