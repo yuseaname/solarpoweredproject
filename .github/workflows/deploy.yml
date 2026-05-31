@@ -5,21 +5,38 @@ on:
     branches: [main]
   workflow_dispatch:
 
+concurrency:
+  group: deploy-production
+  cancel-in-progress: true
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.147.0'
+          extended: true
+      - name: Build Hugo content
+        run: hugo --minify --gc
+      - name: Sync static content to out/
+        run: |
+          mkdir -p out
+          cp -r public/* out/
+          cp pages/*.html out/pages/ 2>/dev/null || true
+          cp static/index.html out/ 2>/dev/null || true
+          cp static/robots.txt out/ 2>/dev/null || true
+          cp static/script.js out/ 2>/dev/null || true
+          cp static/styles.css out/ 2>/dev/null || true
+          cp static/sitemap.xml out/ 2>/dev/null || true
       - name: Setup SSH
         run: |
           mkdir -p ~/.ssh
           echo "${{ secrets.HOSTINGER_SSH_KEY }}" > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
           ssh-keygen -y -f ~/.ssh/deploy_key > /dev/null
-          chmod 600 ~/.ssh/deploy_key
           ssh-keyscan -H -p 65002 "${{ secrets.HOSTINGER_SSH_HOST }}" >> ~/.ssh/known_hosts
-      - name: Build site
-        run: bash scripts/build.sh
       - name: Deploy via rsync
         run: |
           rsync -avz --delete \

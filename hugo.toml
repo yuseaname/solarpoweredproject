@@ -1,0 +1,39 @@
+baseURL = 'https://solarpoweredproject.com/'
+languageCode = 'en-us'
+title = 'Solar Powered Project'
+theme = 'adsense-base'
+disableHugoGeneratorInject = true
+uglyURLs = true
+
+# Don't generate section/term pages since all content is static HTML
+disableKinds = ['taxonomy', 'term']
+
+[params]
+  site_name = 'Solar Powered Project'
+  description = 'Clear guides on solar power, off-grid energy, and DIY renewable projects. No jargon, just answers.'
+  tagline = 'Solar power, simplified.'
+  author = 'Solar Powered Project'
+  favicon = '/assets/images/solarpoweredproject%20logo.png'
+  og_image = '/assets/images/solarpoweredproject%20logo.png'
+  google_site_verification = ''
+
+  [params.adsense]
+    client_id = 'ca-pub-5566942094411042'
+    [params.adsense.slots]
+      below_title = { id = '', format = 'auto', responsive = 'true' }
+      mid_article = { id = '', format = 'auto', responsive = 'true' }
+      end_article = { id = '', format = 'auto', responsive = 'true' }
+
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[outputs]
+  home = ['HTML']
+
+[markup.goldmark]
+  [markup.goldmark.renderer]
+    unsafe = true
+
+ignoreLogs = ['warning-goldmark-raw-html']

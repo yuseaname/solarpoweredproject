@@ -1,0 +1,108 @@
++++
+title = "How to Size an RV Solar System (Panels, Battery, Inverter)"
+slug = "rv-solar-sizing"
+date = 2026-05-31
+draft = false
+description = "Step-by-step RV solar sizing: estimate daily watt-hours, choose panel watts, size battery capacity, and pick an inverter for your RV loads."
+image = "/images/rv-solar-sizing/hero.webp"
+author = "Solar Powered Project"
++++
+
+## Key takeaways
+
+-   Start with a realistic daily energy estimate (Wh/day) for your RV loads.
+-   Battery capacity determines how long you can run without sun.
+-   Panel watts determine how quickly you can refill the battery each day.
+
+## Step 1: Estimate your RV daily energy use (Wh/day)
+
+Make a short list of your typical loads (lights, fans, phone/laptop charging, water pump, TV, and any inverter-powered appliances). Then estimate watt-hours:
+
+**Watt-hours** = Watts × Hours per day
+
+If you’re unsure about a device’s wattage, use its label or a plug-in meter (for AC loads). For DC loads, look for amps and multiply by voltage.
+
+Related sizing basics: <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a>
+
+## Step 2: Size your RV battery capacity
+
+Pick an autonomy target: how long you want to run without meaningful solar input (hours or a full day). Then estimate the battery energy you need, accounting for depth of discharge (DoD).
+
+**Battery Wh** ≈ Daily Wh × Days of autonomy ÷ DoD
+
+<a href="battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a>
+
+RV note: if you regularly run high-draw AC devices, plan for inverter losses and short bursts of higher power.
+
+## Step 3: Size solar panels for daily refill
+
+Panel sizing depends on how much energy you need to replace each day and your average peak sun hours. A simple estimate is:
+
+**Panel watts** ≈ Daily Wh ÷ Peak sun hours ÷ Efficiency
+
+Use an efficiency factor like 0.75–0.85 to account for heat, wiring, and charging losses.
+
+<a href="solar-panel-output.html" class="text-link">Solar panel output calculator</a> <a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM (RV controller choice)</a>
+
+## Step 4: Choose an inverter (if you need AC power)
+
+An inverter is sized primarily by the maximum AC wattage you’ll run at once, plus starting surges for some devices. If you only run DC loads and USB charging, you may not need a large inverter.
+
+<a href="solar-components.html" class="text-link">Solar components explained</a> <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter</a> <a href="pure-sine-vs-modified-sine-inverter.html" class="text-link">Pure sine vs modified sine</a> <a href="micro-vs-string-inverters.html" class="text-link">Inverter types (general)</a>
+
+## Common RV sizing scenarios (quick ranges)
+
+<table>
+<thead>
+<tr class="header">
+<th>RV usage style</th>
+<th>Typical daily Wh</th>
+<th>Typical panel range</th>
+<th>Typical battery range</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Light loads (weekends)</td>
+<td>500–1,500</td>
+<td>200–600W</td>
+<td>1–3 kWh</td>
+</tr>
+<tr class="even">
+<td>Moderate loads</td>
+<td>1,500–3,000</td>
+<td>600–1,200W</td>
+<td>3–6 kWh</td>
+</tr>
+<tr class="odd">
+<td>Heavy loads / frequent inverter use</td>
+<td>3,000–6,000+</td>
+<td>1,000–2,000W+</td>
+<td>6–12 kWh+</td>
+</tr>
+</tbody>
+</table>
+
+These ranges are broad by design. Your actual loads, sun conditions, and roof space determine the final numbers.
+
+## FAQ
+
+#### How many watts of solar do I need for an RV?
+
+Estimate daily Wh first, then divide by peak sun hours and an efficiency factor to get panel watts.
+
+#### Is it better to buy more panels or more battery?
+
+More battery increases time off-sun; more panels increase daily refill. Most RV builds need a balance of both.
+
+#### Do I need MPPT on an RV?
+
+MPPT is often worth it if your panel voltage is higher than battery voltage or you want better performance in mixed conditions.
+
+#### Can RV solar run an air conditioner?
+
+It can, but it typically requires a large battery bank, substantial panel wattage, and a properly sized inverter.
+
+## Next logical reads
+
+<a href="rv-solar-cost.html" class="text-link">RV solar system cost breakdown</a> <a href="battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown (general)</a> <a href="solar-use-cases.html" class="text-link">More solar use cases</a>

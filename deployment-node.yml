@@ -1,7 +1,0 @@
-name: solarpoweredproject.com
-domain: solarpoweredproject.com
-framework: static
-build_command: bash scripts/build.sh
-output_dir: out
-hostinger_path: domains/solarpoweredproject.com/public_html
-auto_deploy: true
