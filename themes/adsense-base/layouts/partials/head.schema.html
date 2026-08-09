@@ -21,6 +21,20 @@
   {{- $schemas = $schemas | append $ws -}}
 {{- end -}}
 
+{{/* ── WebPage schema for section/list pages ── */}}
+{{- if and (not .IsHome) .IsNode -}}
+  {{- $webpage := dict
+      "@context" "https://schema.org"
+      "@type" "WebPage"
+      "name" .Title
+      "url" (.Params.canonical | default .Permalink)
+  -}}
+  {{- with .Params.description -}}
+    {{- $webpage = dict "description" (truncate 200 .) | merge $webpage -}}
+  {{- end -}}
+  {{- $schemas = $schemas | append $webpage -}}
+{{- end -}}
+
 {{/* ── Article schema (single pages only) ── */}}
 {{- if and (not .IsHome) (not .IsNode) -}}
   {{- $article := dict

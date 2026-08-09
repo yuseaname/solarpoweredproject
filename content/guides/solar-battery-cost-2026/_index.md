@@ -4,6 +4,8 @@ slug = "solar-battery-cost-2026"
 date = 2026-05-31
 draft = false
 author = "Solar Powered Project"
+description = "Solar battery cost guide for 2026: average prices per kWh, installed system costs, top brands, incentives, and payback timeline."
+image = "/assets/images/solar-battery-cost-2026/solar-battery-cost-chart-2026.jpg"
 +++
 
 # How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide

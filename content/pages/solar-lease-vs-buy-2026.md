@@ -1,10 +1,12 @@
 +++
+
 title = "Solar Lease vs Buy: Which Is Better in 2026? Complete Guide"
 slug = "solar-lease-vs-buy-2026"
 date = 2026-05-31
 draft = false
 image = "/images/solar-lease-vs-buy-2026/hero.webp"
 author = "Solar Powered Project"
+description = "Solar Lease vs Buy. Compare solar lease vs buying options, costs, incentives, and long-term savings."
 +++
 
 \# Solar Lease vs Buy: Which Is Better in 2026? Complete Guide

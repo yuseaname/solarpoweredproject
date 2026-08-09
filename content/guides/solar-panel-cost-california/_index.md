@@ -4,6 +4,8 @@ slug = "solar-panel-cost-california"
 date = 2026-05-31
 draft = false
 author = "Solar Powered Project"
+description = "California solar panel cost guide for 2026: price per watt, system size, city comparisons, NEM 3.0 impact, and federal tax credit savings."
+image = "/assets/images/solar-panel-cost-california/solar-panel-cost-california-hero.jpg"
 +++
 
 # How Much Do Solar Panels Cost in California in 2026?

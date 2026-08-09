@@ -14,3 +14,7 @@ Content is provided for general knowledge and does not replace professional advi
 ## Liability
 
 We are not liable for decisions or actions taken based on the information provided.
+
+## Related pages
+
+<a href="privacy-policy.html" class="text-link">Privacy policy</a> <a href="about.html" class="text-link">About</a>

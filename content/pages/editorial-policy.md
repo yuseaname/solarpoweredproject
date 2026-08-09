@@ -14,3 +14,7 @@ We prioritize reputable sources such as manufacturer datasheets, government agen
 ## Updates
 
 Content is reviewed periodically to reflect new pricing, technology changes, and best practices.
+
+## Related pages
+
+<a href="about.html" class="text-link">About</a> <a href="contact.html" class="text-link">Contact</a> <a href="privacy-policy.html" class="text-link">Privacy policy</a>

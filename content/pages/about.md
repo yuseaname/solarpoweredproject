@@ -22,3 +22,7 @@ The site is ad-supported. Ads help fund ongoing updates and new guides. Advertis
 ## Contact
 
 Questions or corrections? Visit the <a href="contact.html" class="text-link">contact page</a>.
+
+## Related pages
+
+<a href="editorial-policy.html" class="text-link">Editorial policy</a> <a href="contact.html" class="text-link">Contact</a>

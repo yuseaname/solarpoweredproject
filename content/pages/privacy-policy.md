@@ -30,3 +30,7 @@ You can limit cookies through your browser settings and clear existing cookies a
 ## Contact
 
 Questions about privacy? Reach us via the <a href="contact.html" class="text-link">contact page</a>.
+
+## Related pages
+
+<a href="terms.html" class="text-link">Terms of use</a> <a href="contact.html" class="text-link">Contact</a>
