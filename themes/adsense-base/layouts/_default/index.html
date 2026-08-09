@@ -11,7 +11,6 @@
   {{/* Featured/Latest Articles */}}
   <section class="mb-12" aria-label="Latest articles">
     <h2 class="text-2xl font-bold text-gray-900 mb-6">Latest Articles</h2>
-    <p class="text-xs text-red-600 mb-2">DEBUG total={{ len .Site.RegularPages }} first6={{ range first 6 .Site.RegularPages.ByDate.Reverse }}{{ .Title }}|{{ end }}</p>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       {{ range first 6 .Site.RegularPages.ByDate.Reverse }}
         <article class="group">
