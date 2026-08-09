@@ -23,6 +23,13 @@ jobs:
           rm -rf public/
           hugo --minify --gc
 
+      - name: Verify homepage build
+        run: |
+          echo "public/index.html size:"
+          wc -c public/index.html
+          echo "New article titles present:"
+          grep -o 'Best Solar Batteries\|Solar Payback Calculator' public/index.html | sort | uniq -c
+
       - name: Setup SSH
         run: |
           mkdir -p ~/.ssh
