@@ -36,3 +36,7 @@ jobs:
             -e "ssh -i ~/.ssh/deploy_key -p 65002" \
             ./public/ \
             "${{ secrets.HOSTINGER_SSH_USER }}@${{ secrets.HOSTINGER_SSH_HOST }}:~/domains/solarpoweredproject.com/public_html/"
+      - name: Clear Hostinger/LiteSpeed page cache
+        run: |
+          ssh -i ~/.ssh/deploy_key -p 65002 "${{ secrets.HOSTINGER_SSH_USER }}@${{ secrets.HOSTINGER_SSH_HOST }}" \
+            "rm -rf ~/lscache 2>/dev/null; rm -rf ~/domains/solarpoweredproject.com/public_html/.lscache 2>/dev/null; find ~/domains/solarpoweredproject.com/public_html -type d -name 'lscache' -exec rm -rf {} + 2>/dev/null; echo cache cleared" || true
