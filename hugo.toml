@@ -24,6 +24,10 @@ disableKinds = ['taxonomy', 'term']
       mid_article = { id = '7429084400', format = 'auto', responsive = 'true' }
       end_article = { id = '3364726638', format = 'auto', responsive = 'true' }
 
+  [params.rybbit]
+    instance_url = 'https://app.rybbit.io'
+    site_id = 'afb6050c297b'
+
 [sitemap]
   changefreq = 'weekly'
   filename = 'sitemap.xml'
@@ -37,3 +41,7 @@ disableKinds = ['taxonomy', 'term']
     unsafe = true
 
 ignoreLogs = ['warning-goldmark-raw-html']
+
+# Legacy static HTML duplicates content pages and would otherwise overwrite
+# Hugo-rendered pages after the build. Keep static media, but let Hugo own routes.
+ignoreFiles = ['^static/.*\\.html$']
