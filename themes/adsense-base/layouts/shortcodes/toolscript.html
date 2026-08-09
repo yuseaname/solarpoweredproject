@@ -1,0 +1,9 @@
+{{- /* toolscript.html — Inline interactive calculator script wrapper */ -}}
+{{- /* Usage: {{< toolscript id="unique-id" >}} ...JS... {{< /toolscript >}} */ -}}
+{{- $id := .Get "id" | default "tool" -}}
+<script>
+(function(){
+  "use strict";
+  {{ .Inner | safeJS }}
+})();
+</script>

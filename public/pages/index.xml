@@ -54,19 +54,87 @@
 &lt;li>Longer runs and lower voltage (especially 12V) create voltage sag that can look like a “bad battery” or “bad inverter.”&lt;/li>
 &lt;li>Good results come from sizing the &lt;strong>whole chain&lt;/strong>: cable, lugs, fuse/breaker, disconnect, and terminations.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;a href="wiring-decisions.html" class="text-link">Solar wiring decisions (pillar hub)&lt;/a> &lt;a href="solar-wire-size.html" class="text-link">Solar wire size: choose the right gauge&lt;/a>&lt;/p></description></item><item><title>Battery Capacity Calculator for Solar Systems</title><link>https://solarpoweredproject.com/pages/battery-capacity.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/battery-capacity.html</guid><description>&lt;h2 id="formula">Formula&lt;/h2>
-&lt;p>&lt;strong>Battery Wh&lt;/strong> = Daily Wh × Days of autonomy ÷ Depth of discharge&lt;/p>
-&lt;p>Example: 2,000Wh × 1 day ÷ 0.8 = 2,500Wh&lt;/p>
-&lt;h2 id="tips">Tips&lt;/h2>
-&lt;p>For solar systems, usable capacity matters more than nameplate. Match your battery bank to &lt;a href="how-to-choose-solar-system-voltage.html" class="text-link">system voltage&lt;/a> and &lt;a href="solar-inverter-sizing.html" class="text-link">inverter draw&lt;/a> so cabling and protection stay realistic.&lt;/p>
-&lt;ul>
-&lt;li>Li-ion often supports deeper discharge than lead-acid.&lt;/li>
-&lt;li>Factor in inverter efficiency for AC loads.&lt;/li>
-&lt;li>Size for critical loads first.&lt;/li>
-&lt;li>Cold temperatures reduce usable capacity.&lt;/li>
-&lt;/ul>
-&lt;h2 id="next-logical-reads">Next logical reads&lt;/h2>
-&lt;p>&lt;a href="solar-system-sizing.html" class="text-link">Sizing guide&lt;/a> &lt;a href="li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid&lt;/a> &lt;a href="solar-system-costs.html" class="text-link">Cost breakdown&lt;/a>&lt;/p></description></item><item><title>Best solar lights for your yard</title><link>https://solarpoweredproject.com/pages/solar-lights-for-yard.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-lights-for-yard.html</guid><description>&lt;p>Enhancing your outdoor space with solar lighting is one of the most cost-effective ways to improve home security, aesthetics, and usability without increasing your monthly electricity bill. Unlike traditional wired lighting, solar-powered yard lights require no trenching, no electrical permits, and zero ongoing energy costs. However, the market is flooded with options ranging from $5 decorative stakes to $500 high-intensity floodlights. To make an informed decision, you must understand the relationship between lumen output, battery capacity, and solar cell efficiency.&lt;/p></description></item><item><title>Best Solar Panels for a Small Roof: Maximizing Energy Output</title><link>https://solarpoweredproject.com/pages/best-solar-panels-small-roof.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/best-solar-panels-small-roof.html</guid><description>&lt;p># Maximizing Energy: A Guide to Finding the Best Solar Panels for a Small Roof&lt;/p>
+&lt;p>&lt;a href="wiring-decisions.html" class="text-link">Solar wiring decisions (pillar hub)&lt;/a> &lt;a href="solar-wire-size.html" class="text-link">Solar wire size: choose the right gauge&lt;/a>&lt;/p></description></item><item><title>Battery Capacity Calculator for Solar Systems</title><link>https://solarpoweredproject.com/pages/battery-capacity.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/battery-capacity.html</guid><description>&lt;h2 id="quick-estimate">Quick estimate&lt;/h2>
+&lt;p>Use this calculator to find the minimum battery bank size for a given daily load. It converts required watt-hours into amp-hours at your chosen system voltage.&lt;/p>
+&lt;h2 id="battery-capacity-calculator">Battery capacity calculator&lt;/h2>
+&lt;form id="battery-form" class="space-y-4 p-4 bg-gray-50 rounded-lg border border-gray-200">
+ &lt;div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+ &lt;div>
+ &lt;label class="block text-sm font-medium text-gray-700" for="daily-wh">Daily load (Wh)&lt;/label>
+ &lt;input type="number" id="daily-wh" value="2000" min="1" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+ &lt;/div>
+ &lt;div>
+ &lt;label class="block text-sm font-medium text-gray-700" for="autonomy">Days of autonomy&lt;/label>
+ &lt;select id="autonomy" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+ &lt;option value="1">1 day (grid-tied backup)&lt;/option>
+ &lt;option value="1.5">1.5 days&lt;/option>
+ &lt;option value="2" selected>2 days (off-grid common)&lt;/option>
+ &lt;option value="3">3 days (cloudy season buffer)&lt;/option>
+ &lt;/select>
+ &lt;/div>
+ &lt;div>
+ &lt;label class="block text-sm font-medium text-gray-700" for="dod">Depth of discharge (DoD)&lt;/label>
+ &lt;select id="dod" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+ &lt;option value="0.5">50% (lead-acid / conservative)&lt;/option>
+ &lt;option value="0.80" selected>80% (LiFePO4 typical)&lt;/option>
+ &lt;option value="0.9">90% (Li-ion max usable)&lt;/option>
+ &lt;option value="1.0">100% (theoretical only)&lt;/option>
+ &lt;/select>
+ &lt;/div>
+ &lt;div>
+ &lt;label class="block text-sm font-medium text-gray-700" for="inv-eff">Inverter efficiency&lt;/label>
+ &lt;select id="inv-eff" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+ &lt;option value="0.85">0.85 (older/modified sine)&lt;/option>
+ &lt;option value="0.90" selected>0.90 (quality pure sine)&lt;/option>
+ &lt;option value="0.93">0.93 (high-efficiency)&lt;/option>
+ &lt;/select>
+ &lt;/div>
+ &lt;/div>
+ &lt;button type="button" id="calc-battery" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Calculate battery size&lt;/button>
+&lt;/form>
+&lt;div id="battery-results" class="mt-6 hidden">
+ &lt;div class="overflow-x-auto rounded-lg border border-gray-200">
+ &lt;table class="min-w-full text-sm">
+ &lt;thead class="bg-gray-100">
+ &lt;tr>&lt;th class="px-4 py-2 text-left font-medium">Metric&lt;/th>&lt;th class="px-4 py-2 text-left font-medium">Value&lt;/th>&lt;/tr>
+ &lt;/thead>
+ &lt;tbody class="divide-y divide-gray-200">
+ &lt;tr>&lt;td class="px-4 py-2">Required usable energy&lt;/td>&lt;td id="res-usable-wh" class="px-4 py-2 font-semibold">&lt;/td>&lt;/tr>
+ &lt;tr>&lt;td class="px-4 py-2">Required total energy&lt;/td>&lt;td id="res-total-wh" class="px-4 py-2 font-semibold">&lt;/td>&lt;/tr>
+ &lt;tr>&lt;td class="px-4 py-2">At 12V&lt;/td>&lt;td id="res-ah-12" class="px-4 py-2">&lt;/td>&lt;/tr>
+ &lt;tr>&lt;td class="px-4 py-2">At 24V&lt;/td>&lt;td id="res-ah-24" class="px-4 py-2">&lt;/td>&lt;/tr>
+ &lt;tr>&lt;td class="px-4 py-2">At 48V&lt;/td>&lt;td id="res-ah-48" class="px-4 py-2">&lt;/td>&lt;/tr>
+ &lt;/tbody>
+ &lt;/table>
+ &lt;/div>
+&lt;/div>
+&lt;script>
+(function(){
+ "use strict";
+ 
+ function fmt(n){ return n.toLocaleString(undefined, {maximumFractionDigits: 0}); }
+ function calculate(){
+ var dailyWh = parseFloat(document.getElementById('daily-wh').value) || 0;
+ var autonomy = parseFloat(document.getElementById('autonomy').value) || 1;
+ var dod = parseFloat(document.getElementById('dod').value) || 0.8;
+ var invEff = parseFloat(document.getElementById('inv-eff').value) || 0.9;
+ var usableWh = dailyWh * autonomy / invEff;
+ var totalWh = usableWh / dod;
+ document.getElementById('res-usable-wh').textContent = fmt(usableWh) + ' Wh (' + fmt(usableWh/1000) + ' kWh)';
+ document.getElementById('res-total-wh').textContent = fmt(totalWh) + ' Wh (' + fmt(totalWh/1000) + ' kWh)';
+ document.getElementById('res-ah-12').textContent = fmt(totalWh / 12) + ' Ah';
+ document.getElementById('res-ah-24').textContent = fmt(totalWh / 24) + ' Ah';
+ document.getElementById('res-ah-48').textContent = fmt(totalWh / 48) + ' Ah';
+ document.getElementById('battery-results').classList.remove('hidden');
+ }
+ document.getElementById('calc-battery').addEventListener('click', calculate);
+ calculate();
+
+})();
+&lt;/script>
+
+&lt;h2 id="the-formula">The formula&lt;/h2>
+&lt;p>&lt;strong>Battery Wh = (Daily Wh × Days of autonomy ÷ Inverter efficiency) ÷ Depth of discharge&lt;/strong>&lt;/p></description></item><item><title>Best solar lights for your yard</title><link>https://solarpoweredproject.com/pages/solar-lights-for-yard.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-lights-for-yard.html</guid><description>&lt;p>Enhancing your outdoor space with solar lighting is one of the most cost-effective ways to improve home security, aesthetics, and usability without increasing your monthly electricity bill. Unlike traditional wired lighting, solar-powered yard lights require no trenching, no electrical permits, and zero ongoing energy costs. However, the market is flooded with options ranging from $5 decorative stakes to $500 high-intensity floodlights. To make an informed decision, you must understand the relationship between lumen output, battery capacity, and solar cell efficiency.&lt;/p></description></item><item><title>Best Solar Panels for a Small Roof: Maximizing Energy Output</title><link>https://solarpoweredproject.com/pages/best-solar-panels-small-roof.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/best-solar-panels-small-roof.html</guid><description>&lt;p># Maximizing Energy: A Guide to Finding the Best Solar Panels for a Small Roof&lt;/p>
 &lt;p>Are you dreaming of lower electricity bills and energy independence but worried that your limited rooftop real estate will prevent you from going green? Many US homeowners believe that a small roof makes solar power an impossible dream. However, finding the &lt;strong>best solar panels small roof&lt;/strong> owners can utilize is less about the total number of panels and more about the power density and efficiency of each unit.&lt;/p></description></item><item><title>Best Solar Panels for Home in 2026: Future-Proofing Your Solar Investment</title><link>https://solarpoweredproject.com/pages/best-solar-panels-for-home-2026.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/best-solar-panels-for-home-2026.html</guid><description>&lt;p># Best Solar Panels for Home in 2026: Future-Proofing Your Solar Investment&lt;/p>
 &lt;p>The era of energy independence is undergoing a massive transformation. As we approach 2026, the solar industry stands on the cusp of a technological revolution that promises to redefine residential energy systems. The industry-wide shift toward TOPCon and heterojunction (HJT) cell technologies is set to transform what is possible for homeowners, offering unprecedented efficiency and significantly lower degradation rates. This guide explores the best solar panels for your home in 2026, providing the real-world efficiency projections and battery integration strategies you need to future-proof your energy investment.&lt;/p></description></item><item><title>Best Solar Panels for Small Homes: Maximizing Energy Density &amp; Cost-Effectiveness</title><link>https://solarpoweredproject.com/pages/best-solar-panels-for-small-homes.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/best-solar-panels-for-small-homes.html</guid><description>&lt;p># Best Solar Panels for Small Homes: Maximizing Energy Density &amp;amp; Cost-Effectiveness&lt;/p>
 &lt;p>Living in a tiny house or a compact home offers a lifestyle of simplicity and sustainability—but it also presents a unique energy challenge: how do you power your life when you have limited roof space? For many small-home owners, installing solar panels is the most effective way to achieve energy independence. However, the process can feel daunting when you are trying to balance high energy output with a limited installation footprint and a strict budget.&lt;/p></description></item><item><title>Complete Off-Grid Solar System Setup Guide: A Practical Roadmap</title><link>https://solarpoweredproject.com/pages/off-grid-solar-system-setup-guide.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/off-grid-solar-system-setup-guide.html</guid><description>&lt;p># Complete Off-Grid Solar System Setup Guide: A Practical Roadmap&lt;/p>
@@ -215,18 +283,16 @@
 &lt;/ul>
 &lt;h2 id="step-1-start-with-your-inverter-power-target">Step 1: Start with your inverter power target&lt;/h2>
 &lt;p>Your inverter size is a strong signal for voltage choice because it drives peak battery current. If you plan to run high AC loads, higher system voltage generally reduces current and simplifies wiring.&lt;/p></description></item><item><title>How to Read Solar Panel Spec Sheets: A Homeowner's Guide</title><link>https://solarpoweredproject.com/pages/read-solar-panel-specs-sheet.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/read-solar-panel-specs-sheet.html</guid><description>&lt;p># Decoding the Data: A Homeowner’s Guide to How to-Read Solar Panel Spec Sheets&lt;/p>
-&lt;p>When you begin your journey toward energy independence, you will quickly realize that solar marketing brochures are filled with glowing promises and impressive-looking photos of sun-drenched rooftops. However, if you want to make a truly informed investment that protects your home&amp;rsquo;s value and maximizes your ROI, you cannot rely on marketing fluff alone. To make a smart decision, you must learn how to &lt;strong>read solar panel spec sheets&lt;/strong> directly.&lt;/p></description></item><item><title>How to Size a Solar System (Step-by-Step)</title><link>https://solarpoweredproject.com/pages/solar-system-sizing.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-system-sizing.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
+&lt;p>When you begin your journey toward energy independence, you will quickly realize that solar marketing brochures are filled with glowing promises and impressive-looking photos of sun-drenched rooftops. However, if you want to make a truly informed investment that protects your home&amp;rsquo;s value and maximizes your ROI, you cannot rely on marketing fluff alone. To make a smart decision, you must learn how to &lt;strong>read solar panel spec sheets&lt;/strong> directly.&lt;/p></description></item><item><title>How to Size a Solar System (Step-by-Step Load Planner)</title><link>https://solarpoweredproject.com/pages/solar-system-sizing.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-system-sizing.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
 &lt;ul>
-&lt;li>Start with daily watt-hours used.&lt;/li>
-&lt;li>Panel size depends on peak sun hours.&lt;/li>
-&lt;li>Battery size depends on backup time.&lt;/li>
+&lt;li>Start with &lt;strong>daily watt-hours used&lt;/strong> — everything else flows from that number.&lt;/li>
+&lt;li>Panel size depends on &lt;strong>peak sun hours&lt;/strong> at your location.&lt;/li>
+&lt;li>Battery size depends on &lt;strong>backup time&lt;/strong> and &lt;strong>depth of discharge&lt;/strong>.&lt;/li>
+&lt;li>Inverter size must handle &lt;strong>continuous load + surge&lt;/strong>.&lt;/li>
+&lt;li>Use the interactive load planner below to build your own numbers.&lt;/li>
 &lt;/ul>
-&lt;h2 id="step-1-calculate-daily-load">Step 1: Calculate daily load&lt;/h2>
-&lt;p>Add up appliance wattage and daily hours of use. Multiply watts by hours to get watt-hours (Wh).&lt;/p>
-&lt;p>Example: 100W x 5 hours = 500Wh&lt;/p>
-&lt;h2 id="step-2-size-solar-panels">Step 2: Size solar panels&lt;/h2>
-&lt;p>Divide daily Wh by average peak sun hours to estimate needed panel watts.&lt;/p>
-&lt;p>&lt;a href="solar-panel-output.html" class="text-link">Solar panel output calculator →&lt;/a>&lt;/p></description></item><item><title>How to Size a Solar System for a Cabin (Panels, Battery, Inverter)</title><link>https://solarpoweredproject.com/pages/cabin-solar-sizing.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/cabin-solar-sizing.html</guid><description>&lt;h2 id="table-of-contents">Table of contents&lt;/h2>
+&lt;h2 id="step-1-list-every-load">Step 1: List every load&lt;/h2>
+&lt;p>Add up appliance wattage and daily hours of use. Multiply watts by hours to get watt-hours (Wh).&lt;/p></description></item><item><title>How to Size a Solar System for a Cabin (Panels, Battery, Inverter)</title><link>https://solarpoweredproject.com/pages/cabin-solar-sizing.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/cabin-solar-sizing.html</guid><description>&lt;h2 id="table-of-contents">Table of contents&lt;/h2>
 &lt;p>&lt;a href="#what-you-are-sizing" class="text-link">What you’re sizing&lt;/a> &lt;a href="#step-1-load" class="text-link">Step 1: Daily energy use&lt;/a> &lt;a href="#step-2-battery" class="text-link">Step 2: Battery capacity&lt;/a> &lt;a href="#step-3-panels" class="text-link">Step 3: Panel watts&lt;/a> &lt;a href="#step-4-inverter" class="text-link">Step 4: Inverter sizing&lt;/a> &lt;a href="#step-5-voltage" class="text-link">Step 5: System voltage&lt;/a> &lt;a href="#mistakes" class="text-link">Common mistakes&lt;/a> &lt;a href="#faq" class="text-link">FAQ&lt;/a>&lt;/p>
 &lt;h2 id="what-youre-sizing-and-why-cabins-are-different">What you’re sizing (and why cabins are different)&lt;/h2>
 &lt;p>Most cabin solar systems are off-grid or “mostly off-grid,” which means you’re sizing for both &lt;strong>energy&lt;/strong> (watt-hours per day) and &lt;strong>power&lt;/strong> (peak watts at one moment). Cabins also have two common curveballs:&lt;/p>
@@ -684,13 +750,81 @@
 &lt;/ul>
 &lt;h2 id="typical-solar-panel-cost-per-watt">Typical solar panel cost per watt&lt;/h2>
 &lt;p>For consumer purchases, a common range is &lt;strong>$0.40 to $1.20 per watt&lt;/strong> for panels alone. Lower values are more common for larger orders, while smaller one-off buys and premium products trend higher.&lt;/p></description></item><item><title>Solar Panel Degradation Rate: Complete Homeowner Guide</title><link>https://solarpoweredproject.com/pages/solar-panel-degradation-rate.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-panel-degradation-rate.html</guid><description>&lt;p># Understanding Solar Panel Degradation Rate: A Homeowner’s Guide to Long-Term ROI&lt;/p>
-&lt;p>Investing in solar energy is one of the most significant financial decisions a US homeowner can make. When you look at the upfront costs of panels, inverters, and installation, you aren&amp;rsquo;t just buying hardware; you are buying a 25-to-30-year energy production plan. However, a common question arises among prospective solar owners: &amp;ldquo;Will my panels still work in twenty years?&amp;rdquo;&lt;/p></description></item><item><title>Solar panel efficiency explained</title><link>https://solarpoweredproject.com/pages/solar-panel-efficiency.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-panel-efficiency.html</guid><description>&lt;p>When planning a solar installation, the term &amp;ldquo;efficiency&amp;rdquo; is often the most-discussed metric. Homeowners frequently assume that a higher efficiency percentage directly translates to a lower monthly electricity bill. However, solar panel efficiency refers specifically to a panel&amp;rsquo;s ability to convert sunlight into usable electricity, not the total amount of energy a system produces over time. Understanding the nuance between efficiency, power rating, and environmental factors is critical to making a sound financial investment in renewable energy.&lt;/p></description></item><item><title>Solar Panel Output Calculator (Watts to Watt-hours)</title><link>https://solarpoweredproject.com/pages/solar-panel-output.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-panel-output.html</guid><description>&lt;h2 id="formula">Formula&lt;/h2>
-&lt;p>&lt;strong>Daily Wh&lt;/strong> = Panel watts × Peak sun hours × System efficiency&lt;/p>
-&lt;p>Example: 400W × 4.5 hours × 0.8 ≈ 1,440Wh/day&lt;/p>
-&lt;p>Use peak sun hours for your location (not daylight hours). Pair this estimate with your &lt;a href="solar-system-sizing.html" class="text-link">daily load plan&lt;/a> when sizing batteries.&lt;/p>
-&lt;h2 id="choose-an-efficiency-factor">Choose an efficiency factor&lt;/h2>
-&lt;p>Use 0.75 to 0.85 to account for losses from heat, wiring, and inverter efficiency.&lt;/p>
-&lt;p>Losses also come from dust and shading. If your output is lower than expected, review &lt;a href="solar-output-troubleshooting.html" class="text-link">low output troubleshooting&lt;/a> and &lt;a href="solar-panel-cleaning-cost.html" class="text-link">panel cleaning basics&lt;/a>.&lt;/p></description></item><item><title>Solar panel output per square foot</title><link>https://solarpoweredproject.com/pages/solar-panel-output-per-square-foot.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-panel-output-per-square-foot.html</guid><description>&lt;p>Understanding how much energy you can generate based on the physical footprint of your solar installation is critical for homeowners and developers alike. When planning a solar project, the primary constraint is often not budget, but available roof or ground space. Calculating the solar panel output per square foot allows you to determine if your available area can meet your specific kilowatt-hour (kWh) energy demands.&lt;/p>
+&lt;p>Investing in solar energy is one of the most significant financial decisions a US homeowner can make. When you look at the upfront costs of panels, inverters, and installation, you aren&amp;rsquo;t just buying hardware; you are buying a 25-to-30-year energy production plan. However, a common question arises among prospective solar owners: &amp;ldquo;Will my panels still work in twenty years?&amp;rdquo;&lt;/p></description></item><item><title>Solar panel efficiency explained</title><link>https://solarpoweredproject.com/pages/solar-panel-efficiency.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-panel-efficiency.html</guid><description>&lt;p>When planning a solar installation, the term &amp;ldquo;efficiency&amp;rdquo; is often the most-discussed metric. Homeowners frequently assume that a higher efficiency percentage directly translates to a lower monthly electricity bill. However, solar panel efficiency refers specifically to a panel&amp;rsquo;s ability to convert sunlight into usable electricity, not the total amount of energy a system produces over time. Understanding the nuance between efficiency, power rating, and environmental factors is critical to making a sound financial investment in renewable energy.&lt;/p></description></item><item><title>Solar Panel Output Calculator (Watts to Watt-hours)</title><link>https://solarpoweredproject.com/pages/solar-panel-output.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-panel-output.html</guid><description>&lt;h2 id="quick-estimate">Quick estimate&lt;/h2>
+&lt;p>Use this calculator to turn panel watts and peak sun hours into realistic daily energy. The result helps you size batteries, inverters, and loads.&lt;/p>
+&lt;div class="my-4 p-4 rounded-lg border-l-4 bg-green-50 border-green-400 text-green-800">&lt;p class="font-semibold mb-1">Tip&lt;/p>&lt;div>Use &lt;strong>peak sun hours&lt;/strong> for your location, not total daylight. Most US locations get 3.5–6.5 peak sun hours per day. Pair this with your &lt;a href="solar-system-sizing.html">daily load plan&lt;/a>.&lt;/div>
+&lt;/div>
+
+&lt;h2 id="solar-panel-output-calculator">Solar panel output calculator&lt;/h2>
+&lt;form id="output-form" class="space-y-4 p-4 bg-gray-50 rounded-lg border border-gray-200">
+ &lt;div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+ &lt;div>
+ &lt;label class="block text-sm font-medium text-gray-700" for="panel-watts">Panel wattage (W)&lt;/label>
+ &lt;input type="number" id="panel-watts" value="400" min="1" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+ &lt;/div>
+ &lt;div>
+ &lt;label class="block text-sm font-medium text-gray-700" for="sun-hours">Peak sun hours / day&lt;/label>
+ &lt;input type="number" id="sun-hours" value="4.5" min="0" step="0.1" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+ &lt;/div>
+ &lt;div>
+ &lt;label class="block text-sm font-medium text-gray-700" for="efficiency">System efficiency&lt;/label>
+ &lt;select id="efficiency" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+ &lt;option value="0.85">Excellent (0.85)&lt;/option>
+ &lt;option value="0.80" selected>Typical (0.80)&lt;/option>
+ &lt;option value="0.75">Average / hot climate (0.75)&lt;/option>
+ &lt;option value="0.70">Conservative (0.70)&lt;/option>
+ &lt;/select>
+ &lt;/div>
+ &lt;div>
+ &lt;label class="block text-sm font-medium text-gray-700" for="panel-count">Number of panels&lt;/label>
+ &lt;input type="number" id="panel-count" value="1" min="1" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+ &lt;/div>
+ &lt;/div>
+ &lt;button type="button" id="calc-output" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Calculate output&lt;/button>
+&lt;/form>
+&lt;div id="output-results" class="mt-6 hidden">
+ &lt;div class="overflow-x-auto rounded-lg border border-gray-200">
+ &lt;table class="min-w-full text-sm">
+ &lt;thead class="bg-gray-100">
+ &lt;tr>&lt;th class="px-4 py-2 text-left font-medium">Metric&lt;/th>&lt;th class="px-4 py-2 text-left font-medium">Value&lt;/th>&lt;/tr>
+ &lt;/thead>
+ &lt;tbody class="divide-y divide-gray-200">
+ &lt;tr>&lt;td class="px-4 py-2">Daily DC output&lt;/td>&lt;td id="res-daily-wh" class="px-4 py-2 font-semibold">&lt;/td>&lt;/tr>
+ &lt;tr>&lt;td class="px-4 py-2">Monthly output&lt;/td>&lt;td id="res-monthly-kwh" class="px-4 py-2 font-semibold">&lt;/td>&lt;/tr>
+ &lt;tr>&lt;td class="px-4 py-2">Annual output&lt;/td>&lt;td id="res-annual-kwh" class="px-4 py-2 font-semibold">&lt;/td>&lt;/tr>
+ &lt;tr>&lt;td class="px-4 py-2">Can power a typical fridge (1.5 kWh/day)&lt;/td>&lt;td id="res-fridge" class="px-4 py-2">&lt;/td>&lt;/tr>
+ &lt;/tbody>
+ &lt;/table>
+ &lt;/div>
+&lt;/div>
+&lt;script>
+(function(){
+ "use strict";
+ 
+ function fmt(n){ return n.toLocaleString(undefined, {maximumFractionDigits: 1}); }
+ function calculate(){
+ var watts = parseFloat(document.getElementById('panel-watts').value) || 0;
+ var hours = parseFloat(document.getElementById('sun-hours').value) || 0;
+ var eff = parseFloat(document.getElementById('efficiency').value) || 0.8;
+ var count = parseInt(document.getElementById('panel-count').value, 10) || 1;
+ var dailyWh = watts * hours * eff * count;
+ var monthlyKwh = dailyWh * 30 / 1000;
+ var annualKwh = dailyWh * 365 / 1000;
+ var fridgeHours = dailyWh / 1500 * 24;
+ document.getElementById('res-daily-wh').textContent = fmt(dailyWh) + ' Wh (' + fmt(dailyWh/1000) + ' kWh)';
+ document.getElementById('res-monthly-kwh').textContent = fmt(monthlyKwh) + ' kWh';
+ document.getElementById('res-annual-kwh').textContent = fmt(annualKwh) + ' kWh';
+ document.getElementById('res-fridge').textContent = fmt(fridgeHours) + ' hours/day';
+ document.getElementById('output-results').classList.remove('hidden');
+ }
+ document.getElementById('calc-output').addEventListener('click', calculate);
+ calculate();
+
+})();
+&lt;/script>
+
+&lt;h2 id="the-formula">The formula&lt;/h2>
+&lt;p>&lt;strong>Daily Wh = Panel watts × Peak sun hours × System efficiency × Number of panels&lt;/strong>&lt;/p></description></item><item><title>Solar panel output per square foot</title><link>https://solarpoweredproject.com/pages/solar-panel-output-per-square-foot.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-panel-output-per-square-foot.html</guid><description>&lt;p>Understanding how much energy you can generate based on the physical footprint of your solar installation is critical for homeowners and developers alike. When planning a solar project, the primary constraint is often not budget, but available roof or ground space. Calculating the solar panel output per square foot allows you to determine if your available area can meet your specific kilowatt-hour (kWh) energy demands.&lt;/p>
 &lt;h2 id="key-takeaways">Key Takeaways&lt;/h2>
 &lt;ul>
 &lt;li>**Average Efficiency:** On average, a standard residential solar installation produces between 10 and 20 watts per square foot.&lt;/li>
