@@ -34,6 +34,9 @@ jobs:
           echo "=== Latest articles section ==="
           grep -o 'Latest Articles' public/index.html
 
+      - name: Hugo list published pages
+        run: hugo list published | head -20
+
       - name: Setup SSH
         run: |
           mkdir -p ~/.ssh
