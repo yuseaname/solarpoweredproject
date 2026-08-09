@@ -35,7 +35,10 @@ jobs:
           grep -o 'Latest Articles' public/index.html
 
       - name: Hugo list published pages
-        run: hugo list published | head -20
+        run: |
+          hugo list published | head -20
+          echo "=== Titles in public/index.html Latest Articles section ==="
+          python3 -c "import re,sys; html=sys.stdin.read(); m=re.search(r'Latest Articles.*?</section>', html, re.S); print(m.group(0)[:1200] if m else 'not found')" < public/index.html
 
       - name: Setup SSH
         run: |
