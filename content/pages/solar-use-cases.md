@@ -1,4 +1,5 @@
 +++
+
 title = "Solar Use-Case Guides (RV, Cabin, Camping, Backup)"
 slug = "solar-use-cases"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Use-case guides for solar in RVs, cabins, sheds, camping, and emergency backup systems."
 image = "/images/solar-use-cases/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Quick navigation

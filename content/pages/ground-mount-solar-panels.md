@@ -1,4 +1,5 @@
 +++
+
 title = "Ground Mount Solar Panels: Cost, DIY vs Installer, and When to Choose Ground Over Roof"
 slug = "ground-mount-solar-panels"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Everything you need to know about ground-mounted solar panels: when to choose ground over roof, DIY vs installer, estimated costs, and how to size a ground-mount system."
 image = "/images/ground-mount-solar-panels/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Table of contents

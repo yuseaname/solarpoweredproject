@@ -1,4 +1,5 @@
 +++
+
 title = "MPPT Charge Controller Not Charging: Troubleshooting Checklist (PV Voltage, Settings)"
 slug = "mppt-charge-controller-not-charging"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "MPPT charge controller not charging? Use this safe checklist to diagnose PV voltage issues, wiring configuration, controller limits, charging stages, settings, and battery protections."
 image = "/images/mppt-charge-controller-not-charging/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Table of contents

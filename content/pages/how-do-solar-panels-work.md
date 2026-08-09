@@ -1,4 +1,5 @@
 +++
+
 title = "How do solar panels work"
 slug = "how-do-solar-panels-work"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Understanding how solar panels convert sunlight into usable electricity is the first step toward evaluating whether solar energy is a viable investment for..."
 image = "/images/how-do-solar-panels-work/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 Understanding how solar panels convert sunlight into usable electricity is the first step toward evaluating whether solar energy is a viable investment for your home or business. While the process involves complex physics, the fundamental mechanism—the photovoltaic effect—is a predictable and reliable way to generate clean energy.
@@ -154,3 +157,23 @@ Most manufacturers provide a 25-year warranty on the "power output" of the panel
 -   <a href="solar-basics.html" class="text-link">Solar power basics</a>
 -   <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a>
 -   <a href="solar-components.html" class="text-link">Solar components guide</a>
+
+## FAQ
+
+{{< faq "What is a photovoltaic cell made of?" >}}
+Most cells are silicon wafers treated to create an electric field. When photons strike the cell, they knock electrons loose and create a flow of electricity.
+{{< /faq >}}
+
+{{< faq "Why do panels need an inverter?" >}}
+Household appliances and the grid use AC power. Inverters convert the DC electricity from panels or batteries into AC with the correct voltage and frequency.
+{{< /faq >}}
+
+{{< faq "What happens to excess solar power?" >}}
+With net metering, excess power flows to the grid for credits. Without net metering, you may export at a lower rate or store the energy in a battery.
+{{< /faq >}}
+
+{{< faq "Do solar panels need direct sunlight?" >}}
+Direct sunlight produces the most power, but panels also work in indirect and diffuse light. Output depends on irradiance, temperature, and panel orientation.
+{{< /faq >}}
+
+{{< faq-schema >}}

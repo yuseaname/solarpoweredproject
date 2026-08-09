@@ -1,4 +1,5 @@
 +++
+
 title = "Solar Net Metering Explained: Maximize Your Energy Savings"
 slug = "solar-net-metering-explained"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Understand how solar net metering works, what credits you earn and how to maximize savings on your electricity bill with solar energy."
 image = "/images/solar-net-metering-explained/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 864
 +++
 
 \# Solar Net Metering Explained: How to Maximize Your Solar Energy Savings

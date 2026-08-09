@@ -1,4 +1,5 @@
 +++
+
 title = "Best solar lights for your yard"
 slug = "solar-lights-for-yard"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Enhancing your outdoor space with solar lighting is one of the most cost-effective ways to improve home security, aesthetics, and usability without increas..."
 image = "/images/solar-lights-for-yard/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 Enhancing your outdoor space with solar lighting is one of the most cost-effective ways to improve home security, aesthetics, and usability without increasing your monthly electricity bill. Unlike traditional wired lighting, solar-powered yard lights require no trenching, no electrical permits, and zero ongoing energy costs. However, the market is flooded with options ranging from $5 decorative stakes to $500 high-intensity floodlights. To make an informed decision, you must understand the relationship between lumen output, battery capacity, and solar cell efficiency.

@@ -1,4 +1,5 @@
 +++
+
 title = "Solar panel tax credit guide 2026"
 slug = "solar-panel-tax-credit"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "As the transition to renewable energy accelerates, the financial landscape for residential and commercial solar installations continues to evolve. For home..."
 image = "/images/solar-panel-tax-credit/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 As the transition to renewable energy accelerates, the financial landscape for residential and commercial solar installations continues to evolve. For homeowners planning projects for 2026, understanding the federal tax landscape is critical for calculating the true Return on Investment (ROI). The primary driver of solar adoption remains the federal Investment Tax Credit (ITC), a mechanism designed to offset the upfront capital expenditure of solar technology through significant reductions in federal income tax liability.
@@ -138,3 +141,23 @@ The solar ITC specifically covers solar-related equipment. While EV chargers are
 -   <a href="solar-basics.html" class="text-link">Solar power basics</a>
 -   <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a>
 -   <a href="solar-components.html" class="text-link">Solar components guide</a>
+
+## FAQ
+
+{{< faq "What is the federal solar tax credit for 2026?" >}}
+The federal Investment Tax Credit is 30% for residential solar systems placed in service in 2026, subject to IRS rules and eligible tax liability.
+{{< /faq >}}
+
+{{< faq "Can I claim the ITC on a rental property?" >}}
+No. The residential ITC applies to systems installed on a taxpayer's primary or secondary residence used as a dwelling.
+{{< /faq >}}
+
+{{< faq "Does the tax credit apply to batteries?" >}}
+Batteries paired with solar and having at least 3 kWh of capacity generally qualify for the 30% credit. Standalone battery eligibility depends on current IRS guidance.
+{{< /faq >}}
+
+{{< faq "What if my tax liability is less than the credit?" >}}
+The ITC is a non-refundable credit. You can carry forward unused portions to future tax years if allowed by current tax rules.
+{{< /faq >}}
+
+{{< faq-schema >}}

@@ -1,4 +1,5 @@
 +++
+
 title = "How Much Do Solar Batteries Cost? A Comprehensive Guide to TCO and ROI"
 slug = "how-much-do-solar-batteries-cost"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Discover how much solar batteries cost with our detailed guide on total cost of ownership (TCO), battery types, hidden expenses, incentives, and real-world ROI timelines."
 image = "/images/how-much-do-solar-batteries-cost/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 \# How Much Do Solar Batteries Cost? A Comprehensive Guide to TCO and ROI

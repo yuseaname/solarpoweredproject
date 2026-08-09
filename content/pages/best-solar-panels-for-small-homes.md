@@ -1,4 +1,5 @@
 +++
+
 title = "Best Solar Panels for Small Homes: Maximizing Energy Density & Cost-Effectiveness"
 slug = "best-solar-panels-for-small-homes"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Discover the best solar panels for small homes and tiny houses. Learn about high efficiency options, cost analysis, battery storage, and installation tips."
 image = "/images/best-solar-panels-for-small-homes/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 \# Best Solar Panels for Small Homes: Maximizing Energy Density & Cost-Effectiveness

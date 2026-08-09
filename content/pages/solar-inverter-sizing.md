@@ -1,4 +1,5 @@
 +++
+
 title = "How to Size an Inverter for Solar (Watts, Surge, Battery Draw)"
 slug = "solar-inverter-sizing"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Inverter sizing for solar systems: calculate peak watts, surge watts, and how inverter choice affects battery capacity and solar panel sizing."
 image = "/images/solar-inverter-sizing/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Key takeaways

@@ -1,4 +1,5 @@
 +++
+
 title = "Off-Grid Cabin Solar System Cost Breakdown (Typical Price Ranges)"
 slug = "cabin-solar-cost"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Off-grid cabin solar cost breakdown: typical price ranges for panels, batteries, charge controllers, inverters, wiring, protection, and mounting."
 image = "/images/cabin-solar-cost/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Table of contents

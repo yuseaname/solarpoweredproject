@@ -1,4 +1,5 @@
 +++
+
 title = "How much do solar panels cost"
 slug = "how-much-do-solar-panels-cost"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Understanding the cost of solar energy is the most critical step in determining whether a transition to renewable energy is financially viable for your hou..."
 image = "/images/how-much-do-solar-panels-cost/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 Understanding the cost of solar energy is the most critical step in determining whether a transition to renewable energy is financially viable for your household. While the upfront investment can seem daunting, the true cost of solar is measured not just in dollars spent today, but in the long-term reduction of utility bills and the lifetime value of the energy produced. This guide provides a detailed breakdown of the components, variables, and financial incentives that dictate the total price of a solar installation.

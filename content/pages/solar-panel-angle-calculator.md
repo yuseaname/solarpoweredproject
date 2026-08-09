@@ -1,4 +1,5 @@
 +++
+
 title = "Solar panel angle calculator and tilt guide"
 slug = "solar-panel-angle-calculator"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Optimizing the angle of your solar panels is one of the most critical steps in maximizing the Return on Investment (ROI) for a photovoltaic (PV) system. Ev..."
 image = "/images/solar-panel-angle-calculator/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 Optimizing the angle of your solar panels is one of the most critical steps in maximizing the Return on Investment (ROI) for a photovoltaic (PV) system. Even a slight deviation of 5 to 10 degrees from the ideal tilt can result in a measurable drop in annual energy production, potentially extending your system's payback period by several years. This guide provides the technical framework and practical calculations needed to determine the optimal solar panel angle and tilt for your specific geographic location.

@@ -1,4 +1,5 @@
 +++
+
 title = "Solar Battery Not Charging: Troubleshooting Checklist (MPPT, Wiring, Loads)"
 slug = "solar-battery-not-charging-troubleshooting"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Solar battery not charging? Use this safe checklist to narrow the cause: sunlight vs shading, charge controller status, battery state, wiring/protection, and load vs charge balance."
 image = "/images/solar-battery-not-charging-troubleshooting/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Table of contents

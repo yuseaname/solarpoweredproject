@@ -1,4 +1,5 @@
 +++
+
 title = "Ground Mount vs. Roof Mount Solar: Which Is Right for You?"
 slug = "ground-mount-vs-roof-mount-solar"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Compare ground mount and roof mount solar installations. Pros, cons, costs and factors to help you choose the best solar setup for your home."
 image = "/images/ground-mount-vs-roof-mount-solar/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 864
 +++
 
 \# Ground Mount vs. Roof Mount Solar: Which Is Right for Your Home?

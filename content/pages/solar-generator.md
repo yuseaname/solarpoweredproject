@@ -1,4 +1,5 @@
 +++
+
 title = "Solar generator guide"
 slug = "solar-generator"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Navigating the transition to renewable energy or preparing for unexpected power outages requires a reliable source of electricity. A solar generator—techni..."
 image = "/images/solar-generator/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 Navigating the transition to renewable energy or preparing for unexpected power outages requires a reliable source of electricity. A solar generator—technically known as a portable power station paired with solar panels—offers a silent, emission-free alternative to traditional gas-powered generators. This guide provides a technical and financial breakdown to help you understand how these systems work, how to size them, and how to evaluate your investment.

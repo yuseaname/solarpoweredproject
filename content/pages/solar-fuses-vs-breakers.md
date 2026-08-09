@@ -1,4 +1,5 @@
 +++
+
 title = "Solar Fuses vs Breakers: What to Use (and Where) in a Solar System"
 slug = "solar-fuses-vs-breakers"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Solar fuses vs breakers explained with a placement-focused guide: battery-to-inverter, controller-to-battery, PV strings, disconnects, and DC ratings."
 image = "/images/solar-fuses-vs-breakers/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Table of contents

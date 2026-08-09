@@ -1,4 +1,5 @@
 +++
+
 title = "How to Size a Solar System for a Cabin (Panels, Battery, Inverter)"
 slug = "cabin-solar-sizing"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Step-by-step off-grid cabin solar sizing: estimate daily watt-hours, size battery capacity for autonomy, choose panel watts for sun hours, and pick inverter power."
 image = "/images/cabin-solar-sizing/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Table of contents

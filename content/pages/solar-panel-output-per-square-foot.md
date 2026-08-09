@@ -1,4 +1,5 @@
 +++
+
 title = "Solar panel output per square foot"
 slug = "solar-panel-output-per-square-foot"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Understanding how much energy you can generate based on the physical footprint of your solar installation is critical for homeowners and developers alike. ..."
 image = "/images/solar-panel-output-per-square-foot/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 Understanding how much energy you can generate based on the physical footprint of your solar installation is critical for homeowners and developers alike. When planning a solar project, the primary constraint is often not budget, but available roof or ground space. Calculating the solar panel output per square foot allows you to determine if your available area can meet your specific kilowatt-hour (kWh) energy demands.

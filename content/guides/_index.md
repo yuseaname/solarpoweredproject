@@ -9,3 +9,6 @@ Featured guides:
 - <a href="solar-panel-cost-california.html" class="text-link">How Much Do Solar Panels Cost in California</a>
 - <a href="solar-battery-cost-2026.html" class="text-link">Solar Battery Cost in 2026</a>
 - <a href="solar-panel-cost-texas.html" class="text-link">How Much Do Solar Panels Cost in Texas</a>
+- <a href="solar-panel-cost-florida.html" class="text-link">How Much Do Solar Panels Cost in Florida</a>
+- <a href="solar-panel-cost-arizona.html" class="text-link">How Much Do Solar Panels Cost in Arizona</a>
+- <a href="solar-panel-cost-new-york.html" class="text-link">How Much Do Solar Panels Cost in New York</a>

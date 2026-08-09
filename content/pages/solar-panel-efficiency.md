@@ -1,4 +1,5 @@
 +++
+
 title = "Solar panel efficiency explained"
 slug = "solar-panel-efficiency"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "When planning a solar installation, the term"
 image = "/images/solar-panel-efficiency/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 When planning a solar installation, the term "efficiency" is often the most-discussed metric. Homeowners frequently assume that a higher efficiency percentage directly translates to a lower monthly electricity bill. However, solar panel efficiency refers specifically to a panel's ability to convert sunlight into usable electricity, not the total amount of energy a system produces over time. Understanding the nuance between efficiency, power rating, and environmental factors is critical to making a sound financial investment in renewable energy.

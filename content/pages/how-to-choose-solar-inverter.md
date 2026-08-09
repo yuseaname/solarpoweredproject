@@ -1,4 +1,5 @@
 +++
+
 title = "How to Choose a Solar Inverter: Types, Sizing, and What Matters in 2026"
 slug = "how-to-choose-solar-inverter"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Learn how to choose the right solar inverter for your system. We compare string inverters, microinverters, and off-grid inverter/chargers, explain sizing, and tell you what to prioritize for different setups."
 image = "/images/how-to-choose-solar-inverter/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Table of contents

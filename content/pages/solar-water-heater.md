@@ -1,4 +1,5 @@
 +++
+
 title = "Solar water heater guide"
 slug = "solar-water-heater"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Welcome to SolarPoweredProject.com, your resource for mastering renewable energy technology. This guide provides a technical and financial breakdown of sol..."
 image = "/images/solar-water-heater/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 Welcome to SolarPoweredProject.com, your resource for mastering renewable energy technology. This guide provides a technical and financial breakdown of solar water heating systems, designed to help homeowners and project managers evaluate the feasibility, installation requirements, and long-term ROI of transitioning from electric or gas heating to solar thermal energy.

@@ -1,4 +1,5 @@
 +++
+
 title = "Solar Panel Degradation Rate: Complete Homeowner Guide"
 slug = "solar-panel-degradation-rate"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Learn what solar panel degradation rate means, how it affects your ROI over 25+ years, and tips to minimize energy loss from your solar system."
 image = "/images/solar-panel-degradation-rate/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 864
 +++
 
 \# Understanding Solar Panel Degradation Rate: A Homeowner’s Guide to Long-Term ROI

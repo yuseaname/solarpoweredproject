@@ -1,4 +1,5 @@
 +++
+
 title = "Solar Panel Output Calculator (Watts to Watt-hours)"
 slug = "solar-panel-output"
 date = 2026-05-31
@@ -8,6 +9,8 @@ image = "/images/solar-panel-output/hero.webp"
 author = "Solar Powered Project"
 updated = 2026-08-09
 keywords = ["solar panel output calculator", "solar panel watt hours", "daily solar production", "peak sun hours calculator", "solar panel kwh per day"]
+image_width = 1536
+image_height = 1024
 +++
 
 ## Quick estimate
@@ -113,11 +116,16 @@ System efficiency accounts for real-world losses: heat, wiring voltage drop, inv
 
 ## FAQ
 
-**What are peak sun hours?**
+{{< faq "What are peak sun hours?" >}}
 Peak sun hours measure the equivalent number of hours per day when sunlight intensity is about 1,000 W/m². A 400 W panel produces roughly 400 Wh in one peak sun hour.
+{{< /faq >}}
 
-**Does this include inverter losses?**
+{{< faq "Does this include inverter losses?" >}}
 The efficiency factor covers inverter, wiring, temperature, and soiling losses together. For DC-coupled battery systems, use a slightly higher factor; for AC-coupled systems, use a slightly lower one.
+{{< /faq >}}
 
-**How many panels do I need for my house?**
-Start with your annual kWh usage and divide by the per-panel annual production from this calculator. See [how many solar panels to power a house](how-many-solar-panels-to-power-a-house.html).
+{{< faq "How many panels do I need for my house?" >}}
+Start with your annual kWh usage and divide by the per-panel annual production from this calculator. See <a href="how-many-solar-panels-to-power-a-house.html" class="text-link">how many solar panels to power a house</a>.
+{{< /faq >}}
+
+{{< faq-schema >}}

@@ -1,4 +1,5 @@
 +++
+
 title = "Li-ion vs Lead-acid Batteries (Solar Comparison)"
 slug = "li-ion-vs-lead-acid"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Compare lithium-ion vs lead-acid solar batteries for cost, lifespan, depth of discharge, and best use cases."
 image = "/images/li-ion-vs-lead-acid/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Comparison table
@@ -40,3 +43,5 @@ author = "Solar Powered Project"
 ## Next logical reads
 
 <a href="battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-components.html" class="text-link">Components overview</a> <a href="solar-system-costs.html" class="text-link">Cost breakdown</a>
+
+- <a href="best-solar-batteries-2026.html" class="text-link">Best solar batteries 2026 comparison</a>

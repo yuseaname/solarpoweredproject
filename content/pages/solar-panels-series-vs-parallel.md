@@ -1,4 +1,5 @@
 +++
+
 title = "Solar Panels in Series vs Parallel: Which Wiring Is Better for Your Setup?"
 slug = "solar-panels-series-vs-parallel"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Series vs parallel solar panels explained with a practical decision guide: voltage vs current, shading tradeoffs, controller limits, and common mistakes."
 image = "/images/solar-panels-series-vs-parallel/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Table of contents

@@ -1,4 +1,5 @@
 +++
+
 title = "Battery Capacity Calculator for Solar Systems"
 slug = "battery-capacity"
 date = 2026-05-31
@@ -8,6 +9,8 @@ image = "/images/battery-capacity/hero.webp"
 author = "Solar Powered Project"
 updated = 2026-08-09
 keywords = ["battery capacity calculator", "solar battery sizing", "ah calculator", "off grid battery bank", "solar battery kwh"]
+image_width = 1536
+image_height = 1024
 +++
 
 ## Quick estimate
@@ -113,14 +116,20 @@ Example: 2,000 Wh × 2 days ÷ 0.90 ÷ 0.80 = **5,556 Wh total battery bank**.
 
 ## FAQ
 
-**Do I size from daily or peak load?**
+{{< faq "Do I size from daily or peak load?" >}}
 Daily Wh is the baseline. Add surge headroom at the inverter, not the battery, unless surge is sustained.
+{{< /faq >}}
 
-**What if I only need backup for 4 hours?**
+{{< faq "What if I only need backup for 4 hours?" >}}
 Set days of autonomy to 0.17 (4 ÷ 24). The calculator will still apply DoD and inverter efficiency.
+{{< /faq >}}
 
-**Can I use a 12V battery for a whole house?**
+{{< faq "Can I use a 12V battery for a whole house?" >}}
 Usually no. Whole-home storage runs at 48V or 400V to keep current and cable sizes manageable.
+{{< /faq >}}
 
-**Why does the calculator show more Ah at lower voltage?**
+{{< faq "Why does the calculator show more Ah at lower voltage?" >}}
 For the same energy, lower voltage means higher amp-hours (Wh = V × Ah). Higher voltage gives lower Ah and usually easier wiring.
+{{< /faq >}}
+
+{{< faq-schema >}}

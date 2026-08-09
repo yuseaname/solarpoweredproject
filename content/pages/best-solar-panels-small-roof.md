@@ -1,4 +1,5 @@
 +++
+
 title = "Best Solar Panels for a Small Roof: Maximizing Energy Output"
 slug = "best-solar-panels-small-roof"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Discover the highest-efficiency solar panels for small roofs. Compare output, size and cost to maximize solar energy in limited roof space."
 image = "/images/best-solar-panels-small-roof/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 864
 +++
 
 \# Maximizing Energy: A Guide to Finding the Best Solar Panels for a Small Roof

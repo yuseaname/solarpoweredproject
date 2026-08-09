@@ -1,4 +1,5 @@
 +++
+
 title = "Solar Wire Size: How to Choose the Right Gauge (Voltage Drop + Safety)"
 slug = "solar-wire-size"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Solar wire size explained with a practical decision flow: identify the circuit, estimate max amps, measure run length, and manage voltage drop safely."
 image = "/images/solar-wire-size/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Table of contents

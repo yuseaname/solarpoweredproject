@@ -1,4 +1,5 @@
 +++
+
 title = "Solar panels for sheds and outbuildings"
 slug = "solar-panels-for-sheds"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Transforming a shed, garage, or workshop into a self-sustaining power hub is one of the most efficient ways to begin your solar journey. Unlike large-scale..."
 image = "/images/solar-panels-for-sheds/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 Transforming a shed, garage, or workshop into a self-sustaining power hub is one of the most efficient ways to begin your solar journey. Unlike large-scale residential arrays that require complex grid integration and significant permitting, solar for outbuildings often functions as an "off-grid" or "semi-detached" system, providing dedicated power for tools, lighting, security cameras, or even small workshops without increasing your main home's electricity bill.

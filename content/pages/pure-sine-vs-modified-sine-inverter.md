@@ -1,4 +1,5 @@
 +++
+
 title = "Pure Sine Wave vs Modified Sine Wave Inverter (Which to Choose?)"
 slug = "pure-sine-vs-modified-sine-inverter"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Compare pure sine wave vs modified sine wave inverters for solar and RV use: device compatibility, efficiency, noise, and when each makes sense."
 image = "/images/pure-sine-vs-modified-sine-inverter/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Key takeaways

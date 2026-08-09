@@ -1,4 +1,5 @@
 +++
+
 title = "Inverter Keeps Shutting Off: Troubleshooting (Overload, Low Voltage, Heat)"
 slug = "inverter-keeps-shutting-off-troubleshooting"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Inverter keeps shutting off? Use this safe checklist to identify overload/surge, low battery voltage, voltage drop from cables, overheating, and settings issues—plus the next logical fixes."
 image = "/images/inverter-keeps-shutting-off-troubleshooting/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Table of contents

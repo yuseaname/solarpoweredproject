@@ -1,4 +1,5 @@
 +++
+
 title = "Low Solar Output: Troubleshooting Checklist (Common Causes)"
 slug = "solar-output-troubleshooting"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Troubleshoot low solar output: weather vs seasonal effects, shading, dirty panels, inverter issues, and simple checks to identify the cause."
 image = "/images/solar-output-troubleshooting/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Key takeaways

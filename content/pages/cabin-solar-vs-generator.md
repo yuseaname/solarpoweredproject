@@ -1,4 +1,5 @@
 +++
+
 title = "Solar vs Generator for an Off-Grid Cabin (Pros, Cons, Costs)"
 slug = "cabin-solar-vs-generator"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Compare solar vs generator for an off-grid cabin: upfront cost, ongoing fuel cost, reliability, maintenance, noise, and when a hybrid approach makes sense."
 image = "/images/cabin-solar-vs-generator/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Table of contents

@@ -1,4 +1,5 @@
 +++
+
 title = "DIY Solar Panel Installation: Can You Install Solar Yourself?"
 slug = "install-solar-panels-yourself"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Learn whether you can install solar panels yourself. Discover the pros, cons, costs, permits and safety considerations of DIY solar installation."
 image = "/images/install-solar-panels-yourself/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 864
 +++
 
 \# The Ultimate Guide to DIY Solar: Can You Install Solar Panels Yourself?

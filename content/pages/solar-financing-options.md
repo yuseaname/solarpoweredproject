@@ -1,4 +1,5 @@
 +++
+
 title = "Solar Financing Options: How to Pay for Solar Panels"
 slug = "solar-financing-options"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Explore all solar financing options including loans, leases, PPAs and incentives. Find the best way to pay for your solar panel system."
 image = "/images/solar-financing-options/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 864
 +++
 
 \# Navigating Your Investment: A Comprehensive Guide to Solar Financing Options

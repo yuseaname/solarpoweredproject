@@ -28,6 +28,9 @@
     {{ .Content }}
   </div>
 
+  {{/* FAQ schema collected from page shortcodes */}}
+  {{ partial "faq-schema-render.html" . }}
+
   {{/* Bottom ad */}}
   {{ if .Site.Params.adsense.client_id }}{{ partial "adsense.html" (dict "position" "end_article" "ctx" .) }}{{ end }}
 
@@ -40,5 +43,7 @@
   {{ end }}
 
   {{ partial "related-posts.html" . }}
+
+  {{ partial "next-steps.html" . }}
 </article>
 {{ end }}

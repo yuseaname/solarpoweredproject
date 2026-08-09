@@ -1,4 +1,5 @@
 +++
+
 title = "12V vs 24V vs 48V Solar Systems: Key Differences and Best Uses"
 slug = "12v-vs-24v-vs-48v-solar"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Compare 12V vs 24V vs 48V solar systems for current, wiring, inverter sizing, efficiency, and common use cases like RVs and cabins."
 image = "/images/12v-vs-24v-vs-48v-solar/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Key takeaways

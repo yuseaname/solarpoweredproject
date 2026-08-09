@@ -1,4 +1,5 @@
 +++
+
 title = "Solar Panel Cost Per Watt: Typical Prices and What Changes Them"
 slug = "solar-panel-cost-per-watt"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Solar panel cost per watt explained with typical ranges, what affects pricing, and how to estimate panel cost for your system size."
 image = "/images/solar-panel-cost-per-watt/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Key takeaways
@@ -102,3 +105,4 @@ Not reliably. In some systems, batteries or labor dominate. Use a full breakdown
 ## Next logical reads
 
 <a href="solar-battery-cost-per-kwh.html" class="text-link">Solar battery cost per kWh</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="solar-panel-output.html" class="text-link">Solar panel output calculator</a>
+- <a href="solar-payback-calculator.html" class="text-link">Solar payback calculator</a>

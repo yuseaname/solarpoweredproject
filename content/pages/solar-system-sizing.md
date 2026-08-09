@@ -1,4 +1,5 @@
 +++
+
 title = "How to Size a Solar System (Step-by-Step Load Planner)"
 slug = "solar-system-sizing"
 date = 2026-05-31
@@ -8,6 +9,8 @@ image = "/images/solar-system-sizing/hero.webp"
 author = "Solar Powered Project"
 updated = 2026-08-09
 keywords = ["solar system sizing", "how to size solar system", "solar load calculator", "off grid solar sizing", "solar panel sizing"]
+image_width = 1536
+image_height = 1024
 +++
 
 ## Key takeaways
@@ -158,14 +161,20 @@ Compare MPPT and PWM in [MPPT vs PWM](mppt-vs-pwm.html) and see [charge controll
 
 ## FAQ
 
-**Should I size for average or maximum daily use?**
+{{< faq "Should I size for average or maximum daily use?" >}}
 Size for your highest-usage season, then check if it still works in winter. Off-grid systems usually size for winter if year-round use is required.
+{{< /faq >}}
 
-**Can I add panels later?**
+{{< faq "Can I add panels later?" >}}
 Yes, but design the charge controller and battery voltage to handle the final array size so you don’t replace major components.
+{{< /faq >}}
 
-**How does a grid-tied system differ?**
+{{< faq "How does a grid-tied system differ?" >}}
 Grid-tied systems size to offset annual kWh and meet utility/net metering rules. Battery backup is optional. Off-grid systems must cover every load themselves.
+{{< /faq >}}
 
-**What if my roof is small?**
-Use higher-efficiency panels, prioritize consumption reduction, and consider a ground mount. See [best solar panels for small homes](best-solar-panels-for-small-homes.html).
+{{< faq "What if my roof is small?" >}}
+Use higher-efficiency panels, prioritize consumption reduction, and consider a ground mount. See [best solar panels for small homes](best-solar-panels-for-small-homes.html). - <a href="solar-payback-calculator.html" class="text-link">Solar payback calculator</a>
+{{< /faq >}}
+
+{{< faq-schema >}}

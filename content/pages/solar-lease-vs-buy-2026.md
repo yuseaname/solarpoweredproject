@@ -1,5 +1,6 @@
 +++
 
+
 title = "Solar Lease vs Buy: Which Is Better in 2026? Complete Guide"
 slug = "solar-lease-vs-buy-2026"
 date = 2026-05-31
@@ -7,6 +8,8 @@ draft = false
 image = "/images/solar-lease-vs-buy-2026/hero.webp"
 author = "Solar Powered Project"
 description = "Solar Lease vs Buy. Compare solar lease vs buying options, costs, incentives, and long-term savings."
+image_width = 1536
+image_height = 1024
 +++
 
 \# Solar Lease vs Buy: Which Is Better in 2026? Complete Guide
@@ -199,3 +202,4 @@ The solar industry is mature in 2026. Panel efficiency averages 22%+, inverters 
 -   <a href="solar-basics.html" class="text-link">Solar power basics</a>
 -   <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a>
 -   <a href="solar-components.html" class="text-link">Solar components guide</a>
+- <a href="solar-payback-calculator.html" class="text-link">Solar payback calculator</a>

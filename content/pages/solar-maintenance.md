@@ -1,4 +1,5 @@
 +++
+
 title = "Solar Maintenance Checklist and Troubleshooting"
 slug = "solar-maintenance"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Solar maintenance checklist, seasonal performance tips, and basic troubleshooting for common output issues."
 image = "/images/solar-maintenance/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Key takeaways

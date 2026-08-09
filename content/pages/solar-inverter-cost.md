@@ -1,4 +1,5 @@
 +++
+
 title = "Solar Inverter Cost: Typical Prices by Type (String, Hybrid, Off-Grid)"
 slug = "solar-inverter-cost"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Solar inverter cost explained with typical price ranges by inverter type, what changes the price, and how sizing decisions affect total system cost."
 image = "/images/solar-inverter-cost/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Table of contents

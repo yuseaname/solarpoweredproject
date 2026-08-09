@@ -1,4 +1,5 @@
 +++
+
 title = "How Much Do Solar Panels Cost in Texas in 2026?"
 slug = "solar-panel-cost-texas"
 date = 2026-08-09
@@ -7,6 +8,8 @@ layout = "single"
 author = "Solar Powered Project"
 description = "Texas solar panel cost guide for 2026: average price per watt, system size, city cost comparisons, incentives, and payback timeline."
 image = "/assets/images/solar-panel-cost-texas/solar-panel-cost-texas-hero.jpg"
+image_width = 1200
+image_height = 630
 +++
 
 # How Much Do Solar Panels Cost in Texas in 2026?
@@ -16,7 +19,7 @@ As of mid-2026, the average solar panel cost in Texas is **$2.20 to $2.50 per wa
 Texas combines low installation costs with strong sun and high summer air-conditioning demand, which shortens payback periods compared to many other states. However, the state has **no mandatory statewide net metering**, so the value of exported solar depends on your retail electricity provider or utility.
 
 <figure class="article-image article-image--hero">
-<img src="/assets/images/solar-panel-cost-texas/solar-panel-cost-texas-hero.jpg" loading="eager" data-fetchpriority="high" decoding="async" alt="Residential solar panels on a Texas rooftop with clear sky" />
+<img src="/assets/images/solar-panel-cost-texas/solar-panel-cost-texas-hero.jpg" loading="eager" data-fetchpriority="high" decoding="async" alt="Residential solar panels on a Texas rooftop with clear sky" / width="1200" height="630">
 </figure>
 
 ## Average Solar Panel Cost Texas 2026 Breakdown
@@ -114,3 +117,6 @@ Yes, for most homeowners with good sun exposure and a roof in reasonable conditi
 - <a href="../../pages/solar-panel-tax-credit.html" class="text-link">Federal solar tax credit</a>
 - <a href="../../pages/how-many-solar-panels-to-power-a-house.html" class="text-link">How many solar panels do I need?</a>
 - <a href="../../pages/solar-system-sizing.html" class="text-link">Solar system sizing guide</a>
+- <a href="solar-panel-cost-florida.html" class="text-link">Solar panel cost in Florida</a>
+- <a href="solar-panel-cost-arizona.html" class="text-link">Solar panel cost in Arizona</a>
+- <a href="solar-panel-cost-new-york.html" class="text-link">Solar panel cost in New York</a>

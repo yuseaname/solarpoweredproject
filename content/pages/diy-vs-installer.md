@@ -1,4 +1,5 @@
 +++
+
 title = "DIY vs Installer Solar Cost Comparison"
 slug = "diy-vs-installer"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Compare DIY solar costs vs professional installation, including labor, permits, and long-term reliability."
 image = "/images/diy-vs-installer/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Quick comparison

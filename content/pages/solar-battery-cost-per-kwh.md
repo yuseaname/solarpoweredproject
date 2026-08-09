@@ -1,4 +1,5 @@
 +++
+
 title = "Solar Battery Cost Per kWh: Pricing, Lifespan, and Value"
 slug = "solar-battery-cost-per-kwh"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Solar battery cost per kWh explained with typical ranges, what affects price, and how to compare batteries using usable capacity and cycle life."
 image = "/images/solar-battery-cost-per-kwh/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Key takeaways

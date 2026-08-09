@@ -1,4 +1,5 @@
 +++
+
 title = "Solar Battery Backup vs. Generator: Which Is Better?"
 slug = "solar-battery-backup-vs-generator"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Compare solar battery backup systems vs generators for home power outages. Costs, pros, cons and which solution fits your needs best."
 image = "/images/solar-battery-backup-vs-generator/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 864
 +++
 
 \# Solar Battery Backup vs. Generator: Which Backup Power Solution is Right for Your Home?

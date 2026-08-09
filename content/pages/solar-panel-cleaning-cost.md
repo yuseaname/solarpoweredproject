@@ -1,4 +1,5 @@
 +++
+
 title = "Solar Panel Cleaning Cost: DIY vs Professional (Typical Prices)"
 slug = "solar-panel-cleaning-cost"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Solar panel cleaning cost explained: typical professional pricing, DIY costs, what changes the price, and when cleaning is worth it."
 image = "/images/solar-panel-cleaning-cost/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Key takeaways

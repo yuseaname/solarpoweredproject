@@ -1,4 +1,5 @@
 +++
+
 title = "Solar Wiring Decisions: Wire Size, Fuses vs Breakers, Series vs Parallel"
 slug = "wiring-decisions"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "A practical hub for key solar wiring decisions: choosing wire size, fuses vs breakers, and series vs parallel panel wiring—with safe, code-aware guidance."
 image = "/images/wiring-decisions/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Quick navigation

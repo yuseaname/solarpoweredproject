@@ -1,4 +1,5 @@
 +++
+
 title = "How long do solar panels last"
 slug = "how-long-do-solar-panels-last"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "When planning a transition to renewable energy, the most critical question for homeowners and business owners is often not"
 image = "/images/how-long-do-solar-panels-last/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 When planning a transition to renewable energy, the most critical question for homeowners and business owners is often not "how much will it cost," but "how long will the investment pay off?" Understanding the lifespan of solar photovoltaic (PV) technology is essential for calculating your Return on Investment (ROI) and determining your long-term energy independence strategy.

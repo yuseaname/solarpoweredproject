@@ -1,4 +1,5 @@
 +++
+
 title = "Micro vs String Inverters (Solar Comparison)"
 slug = "micro-vs-string-inverters"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Compare micro-inverters vs string inverters for solar arrays: shade performance, cost, monitoring, and maintenance tradeoffs."
 image = "/images/micro-vs-string-inverters/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Comparison table

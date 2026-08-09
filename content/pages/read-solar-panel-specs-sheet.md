@@ -1,4 +1,5 @@
 +++
+
 title = "How to Read Solar Panel Spec Sheets: A Homeowner's Guide"
 slug = "read-solar-panel-specs-sheet"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Learn how to decode solar panel spec sheets. Understand wattage, efficiency, temperature coefficients and other key metrics before you buy."
 image = "/images/read-solar-panel-specs-sheet/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 864
 +++
 
 \# Decoding the Data: A Homeowner’s Guide to How to-Read Solar Panel Spec Sheets

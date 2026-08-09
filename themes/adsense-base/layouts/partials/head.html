@@ -10,6 +10,9 @@
 {{/* Tailwind CSS — compiled locally, no CDN */}}
 <link rel="stylesheet" href="/css/tailwind.css">
 
+{{/* Preconnect to static CSS origin for faster stylesheet fetch */}}
+<link rel="preconnect" href="/css/tailwind.css">
+
 {{/* Design System CSS via Hugo Pipes */}}
 {{ with resources.Get "css/design-system.css" | resources.Minify | resources.Fingerprint "sha512" }}
   <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">

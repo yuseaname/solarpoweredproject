@@ -1,4 +1,5 @@
 +++
+
 title = "Solar Combiner Box and Disconnect Guide: When You Need One (and What It Does)"
 slug = "solar-combiner-box-and-disconnect-guide"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Solar combiner box and DC disconnect explained in plain English: when you need one, what’s inside, where it goes, and how it improves safety and troubleshooting for multi-string arrays."
 image = "/images/solar-combiner-box-and-disconnect-guide/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Table of contents

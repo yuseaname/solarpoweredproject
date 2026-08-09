@@ -1,4 +1,5 @@
 +++
+
 title = "Solar System Cost Breakdown (Panels, Batteries, Inverter)"
 slug = "solar-system-costs"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Solar system cost breakdown with typical price ranges for panels, batteries, inverters, and balance-of-system hardware."
 image = "/images/solar-system-costs/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Key takeaways
@@ -57,3 +60,4 @@ System size, battery choice, inverter type, mounting complexity, and local labor
 ## Next logical reads
 
 <a href="solar-panel-cost-per-watt.html" class="text-link">Solar panel cost per watt</a> <a href="solar-battery-cost-per-kwh.html" class="text-link">Solar battery cost per kWh</a> <a href="solar-system-sizing.html" class="text-link">How to size a system</a> <a href="solar-components.html" class="text-link">Solar components explained</a> <a href="diy-vs-installer.html" class="text-link">DIY vs installer</a>
+- <a href="solar-payback-calculator.html" class="text-link">Solar payback calculator</a>

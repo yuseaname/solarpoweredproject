@@ -1,0 +1,71 @@
+{{- /* next-steps.html — Contextual internal linking block for calculator/cost/comparison pages */ -}}
+{{- $map := dict
+  "solar-system-sizing" (slice
+    (dict "url" "solar-panel-output.html" "label" "Estimate daily panel output")
+    (dict "url" "battery-capacity.html" "label" "Size your battery bank")
+    (dict "url" "how-to-choose-solar-system-voltage.html" "label" "Choose system voltage")
+    (dict "url" "solar-wire-size.html" "label" "Pick wire size")
+  )
+  "solar-panel-output" (slice
+    (dict "url" "solar-system-sizing.html" "label" "Size the full system")
+    (dict "url" "battery-capacity.html" "label" "Size the battery")
+    (dict "url" "how-many-solar-panels-to-power-a-house.html" "label" "Panel count guide")
+  )
+  "battery-capacity" (slice
+    (dict "url" "solar-system-sizing.html" "label" "Plan daily loads")
+    (dict "url" "li-ion-vs-lead-acid.html" "label" "Battery chemistry comparison")
+    (dict "url" "how-to-choose-solar-system-voltage.html" "label" "Choose voltage")
+  )
+  "solar-payback-calculator" (slice
+    (dict "url" "solar-system-costs.html" "label" "Cost breakdown")
+    (dict "url" "solar-panel-cost-per-watt.html" "label" "Cost per watt")
+    (dict "url" "solar-panel-tax-credit.html" "label" "Federal tax credit")
+    (dict "url" "solar-lease-vs-buy-2026.html" "label" "Lease vs buy")
+  )
+  "solar-system-costs" (slice
+    (dict "url" "solar-payback-calculator.html" "label" "Payback calculator")
+    (dict "url" "solar-panel-cost-per-watt.html" "label" "Cost per watt")
+    (dict "url" "solar-financing-options.html" "label" "Financing options")
+  )
+  "solar-panel-cost-per-watt" (slice
+    (dict "url" "solar-system-costs.html" "label" "System cost breakdown")
+    (dict "url" "solar-payback-calculator.html" "label" "Payback calculator")
+    (dict "url" "guides/solar-panel-cost-texas.html" "label" "Texas cost guide")
+    (dict "url" "guides/solar-panel-cost-california.html" "label" "California cost guide")
+  )
+  "how-many-solar-panels-to-power-a-house" (slice
+    (dict "url" "solar-system-sizing.html" "label" "Full system sizing")
+    (dict "url" "solar-panel-output.html" "label" "Panel output calculator")
+    (dict "url" "solar-panel-efficiency.html" "label" "Panel efficiency")
+  )
+  "solar-battery-cost-2026" (slice
+    (dict "url" "battery-capacity.html" "label" "Battery capacity calculator")
+    (dict "url" "best-solar-batteries-2026.html" "label" "Best batteries 2026")
+    (dict "url" "li-ion-vs-lead-acid.html" "label" "Li-ion vs lead-acid")
+  )
+  "best-solar-batteries-2026" (slice
+    (dict "url" "battery-capacity.html" "label" "Size your battery bank")
+    (dict "url" "solar-battery-cost-2026.html" "label" "Battery cost guide")
+    (dict "url" "li-ion-vs-lead-acid.html" "label" "Battery chemistry comparison")
+  )
+  "solar-panel-tax-credit" (slice
+    (dict "url" "solar-payback-calculator.html" "label" "Payback calculator")
+    (dict "url" "solar-system-costs.html" "label" "System cost breakdown")
+  )
+  "solar-financing-options" (slice
+    (dict "url" "solar-payback-calculator.html" "label" "Payback calculator")
+    (dict "url" "solar-lease-vs-buy-2026.html" "label" "Lease vs buy")
+  )
+-}}
+{{- $slug := .Params.slug | default .File.BaseFileName -}}
+{{- with index $map $slug -}}
+  {{- $items := . -}}
+  <section class="mt-10 pt-6 border-t border-gray-200" aria-label="Next steps">
+    <h2 class="text-lg font-semibold text-gray-900 mb-3">Next steps</h2>
+    <div class="flex flex-wrap gap-2">
+      {{- range $items -}}
+        <a href="{{ .url }}" class="text-link inline-flex items-center px-3 py-1.5 bg-blue-50 text-blue-700 rounded-md text-sm font-medium hover:bg-blue-100 transition-colors">{{ .label }}</a>
+      {{- end -}}
+    </div>
+  </section>
+{{- end -}}

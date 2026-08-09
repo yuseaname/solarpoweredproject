@@ -1,4 +1,5 @@
 +++
+
 title = "Solar Power for Mobile Homes: Complete Installation Guide"
 slug = "solar-power-mobile-homes"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Explore solar power options for mobile homes including costs, installation methods, and how to achieve energy independence on a manufactured home."
 image = "/images/solar-power-mobile-homes/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 864
 +++
 
 \# Harnessing the Sun: A Comprehensive Guide to Solar Power for Mobile Homes

@@ -1,4 +1,5 @@
 +++
+
 title = "Solar Wiring & Protection Cost: Cables, Breakers, Fuses (Budget Guide)"
 slug = "solar-wiring-and-protection-cost"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Solar wiring cost explained: what counts as wiring and protection, typical price ranges for cables, fuses, breakers, disconnects, and what drives costs."
 image = "/images/solar-wiring-and-protection-cost/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Table of contents

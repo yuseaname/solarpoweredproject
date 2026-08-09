@@ -1,4 +1,5 @@
 +++
+
 title = "Solar Power Basics: Clear Guide for Beginners"
 slug = "solar-basics"
 date = 2026-05-31
@@ -6,6 +7,8 @@ draft = false
 description = "Learn what solar power is, how it works, and the key pros and cons. Clear explanations and next-step links for beginners."
 image = "/images/solar-basics/hero.webp"
 author = "Solar Powered Project"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Key takeaways
@@ -52,3 +55,23 @@ Related: <a href="solar-components.html" class="text-link">Solar components expl
 ## Next logical reads
 
 <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM charge controllers</a>
+
+## FAQ
+
+{{< faq "How do solar panels produce electricity?" >}}
+Solar panels use photovoltaic cells to convert sunlight into direct current electricity. An inverter then converts DC into alternating current for household use or grid export.
+{{< /faq >}}
+
+{{< faq "What is the difference between DC and AC power?" >}}
+DC flows in one direction; AC alternates direction. Solar panels produce DC, household outlets use AC, and batteries store DC.
+{{< /faq >}}
+
+{{< faq "Do solar panels work on cloudy days?" >}}
+Yes, but output is lower. Panels produce 10–25% of their rated capacity under heavy cloud cover and can still generate useful energy in diffused light.
+{{< /faq >}}
+
+{{< faq "How long do solar panels last?" >}}
+Most residential panels are warrantied for 25–30 years and continue producing at 80% or more of original capacity after that. Inverters typically last 10–15 years.
+{{< /faq >}}
+
+{{< faq-schema >}}
