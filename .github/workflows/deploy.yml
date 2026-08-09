@@ -21,6 +21,9 @@ jobs:
       - name: Build Hugo content
         run: hugo --minify --gc
 
+      - name: Verify homepage build
+        run: head -c 800 public/index.html && echo "" && grep -o 'Best Solar Batteries\|Solar Payback Calculator' public/index.html | head -5
+
       - name: Setup SSH
         run: |
           mkdir -p ~/.ssh
