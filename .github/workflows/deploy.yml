@@ -21,6 +21,8 @@ jobs:
       - name: Build Hugo content
         run: |
           rm -rf public/
+          echo "=== Template before build ==="
+          head -20 themes/adsense-base/layouts/_default/index.html
           hugo --minify --gc
 
       - name: Verify homepage build
