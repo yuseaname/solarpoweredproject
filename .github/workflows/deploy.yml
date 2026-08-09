@@ -22,7 +22,17 @@ jobs:
         run: hugo --minify --gc
 
       - name: Verify homepage build
-        run: head -c 800 public/index.html && echo "" && grep -o 'Best Solar Batteries\|Solar Payback Calculator' public/index.html | head -5
+        run: |
+          echo "=== Git log ==="
+          git log --oneline -5
+          echo "=== New content files ==="
+          ls -la content/pages/best-solar-batteries-2026.md content/pages/solar-payback-calculator.md || true
+          echo "=== public/index.html size ==="
+          wc -c public/index.html
+          echo "=== Check for new article titles ==="
+          grep -o 'Best Solar Batteries\|Solar Payback Calculator' public/index.html | head -5
+          echo "=== Latest articles section ==="
+          grep -o 'Latest Articles' public/index.html
 
       - name: Setup SSH
         run: |
