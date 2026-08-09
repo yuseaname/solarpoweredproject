@@ -19,7 +19,9 @@ jobs:
           hugo-version: '0.141.0'
           extended: true
       - name: Build Hugo content
-        run: hugo --minify --gc
+        run: |
+          rm -rf public/
+          hugo --minify --gc
 
       - name: Verify homepage build
         run: |
