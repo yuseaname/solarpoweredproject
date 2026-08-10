@@ -85,3 +85,8 @@ img { max-width: 100%; height: auto; }
 .lab-feature .lab-tag{position:absolute;top:16px;left:16px;z-index:2;color:#f6cc76;font-size:.65rem;font-weight:700;letter-spacing:.13em;background:rgba(32,36,31,.8);padding:4px 10px}
 @media(max-width:900px){.hero-image-wrap{max-width:520px;margin:0 auto}.planner-art{margin-top:20px}}
 @media(max-width:620px){.hero-photo,.lab-photo,.planner-diagram{width:100%}}
+
+/* Hub banner */
+.hub-banner{margin:0 0 36px;overflow:hidden;border:1px solid var(--ink);box-shadow:10px 10px 0 rgba(65,103,90,.12)}
+.hub-banner-img{display:block;width:100%;height:auto}
+@media(max-width:620px){.hub-banner{margin:0 0 24px;box-shadow:6px 6px 0 rgba(65,103,90,.12)}}
