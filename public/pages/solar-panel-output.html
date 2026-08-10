@@ -1,11 +1,438 @@
-<!doctype html><html lang=en><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=theme-color content="#f7f1e5"><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link rel=preload href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap"></noscript><link rel=stylesheet href=/css/tailwind.css><link rel=stylesheet href=/css/design-system.min.51e3a73d67184782b2cd5a51e8529a4b1cc44852008c328d4ec3357574b77989ff2641126eed7971a3833233ff068ef11730be61f99b64ac89dc3394f0f1f106.css integrity="sha512-UeOnPWcYR4KyzVpR6FKaSxzESFIAjDKNTsM1dXS3eYn/JkESbu15caODMjP/Bo7xFzC+YfmbZKyJ3DOU8PHxBg==" crossorigin=anonymous><title>Solar Panel Output Calculator (Watts to Watt-hours) | Solar Powered Project</title>
-<meta name=description content="Estimate daily solar panel output in watt-hours and kWh. Enter panel watts, peak sun hours, and system efficiency to size batteries and loads."><meta name=author content="Solar Powered Project"><link rel=canonical href=https://solarpoweredproject.com/pages/solar-panel-output.html><link rel=icon href=/assets/images/solarpoweredproject-logo.png><meta property="og:type" content="article"><meta property="og:title" content="Solar Panel Output Calculator (Watts to Watt-hours)"><meta property="og:description" content="Estimate daily solar panel output in watt-hours and kWh. Enter panel watts, peak sun hours, and system efficiency to size batteries and loads."><meta property="og:url" content="https://solarpoweredproject.com/pages/solar-panel-output.html"><meta property="og:site_name" content="Solar Powered Project"><meta property="og:image" content="https://solarpoweredproject.com/assets/images/field-guide/system-sizing-concept.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Solar Panel Output Calculator (Watts to Watt-hours)"><meta name=twitter:description content="Estimate daily solar panel output in watt-hours and kWh. Enter panel watts, peak sun hours, and system efficiency to size batteries and loads."><script type=application/ld+json>"[{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"author\":{\"@type\":\"Person\",\"name\":\"Solar Powered Project\"},\"dateModified\":\"2026-08-09\",\"datePublished\":\"2026-05-31T00:00:00+00:00\",\"description\":\"Estimate daily solar panel output in watt-hours and kWh. Enter panel watts, peak sun hours, and system efficiency to size batteries and loads.\",\"headline\":\"Solar Panel Output Calculator (Watts to Watt-hours)\",\"image\":\"/assets/images/field-guide/system-sizing-concept.jpg\",\"mainEntityOfPage\":{\"@id\":\"https://solarpoweredproject.com/pages/solar-panel-output.html\",\"@type\":\"WebPage\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Solar Powered Project\"}},{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https://solarpoweredproject.com/\",\"name\":\"Home\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https://solarpoweredproject.com/pages.html\",\"name\":\"Articles\",\"position\":2},{\"@type\":\"ListItem\",\"item\":\"https://solarpoweredproject.com/pages/solar-panel-output.html\",\"name\":\"Solar Panel Output Calculator (Watts to Watt-hours)\",\"position\":3}]}]"</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5566942094411042" crossorigin=anonymous></script></head><body class=site-body><a class=skip-link href=#main-content>Skip to content</a><header class=site-header id=main-nav><div class=nav-shell><a class=brand-lockup href=/ aria-label="Solar Powered Project home"><span class=brand-mark aria-hidden=true><i></i><i></i><i></i></span>
-<span><strong>Solar Powered</strong><em>Project</em></span></a><nav class=desktop-nav aria-label="Primary navigation"><a href=/pages/solar-basics.html>Start Here</a><a href=/system-planner.html>Plan a System</a><a href=/guides.html>Costs & Payback</a><a href=/pages/wiring-decisions.html>Build & Fix</a><a href=/diy-off-grid-energy.html>Project Lab</a><a href=/search.html>Search</a></nav><a class="nav-utility desktop-only" href=/pages/solar-system-sizing.html>Size my system <span aria-hidden=true>↗</span></a>
-<button class=menu-toggle id=nav-toggle aria-label="Open navigation" aria-expanded=false aria-controls=mobile-menu><span></span><span></span><span></span></button></div><div class=mobile-panel id=mobile-menu hidden><nav aria-label="Mobile navigation"><a href=/pages/solar-basics.html><strong>Start Here</strong><small>Solar fundamentals and the right first questions.</small></a><a href=/system-planner.html><strong>Plan a System</strong><small>Size panels, batteries, inverters, and wiring.</small></a><a href=/guides.html><strong>Costs & Payback</strong><small>Costs, incentives, financing, and tradeoffs.</small></a><a href=/pages/wiring-decisions.html><strong>Build & Fix</strong><small>Installation choices, protection, and troubleshooting.</small></a><a href=/diy-off-grid-energy.html><strong>Project Lab</strong><small>Honest experiments in alternative generation.</small></a><a href=/search.html><strong>Search</strong><small>Find a specific question or component.</small></a></nav><a class="button button-solar mobile-sizing" href=/pages/solar-system-sizing.html>Size my system <span aria-hidden=true>→</span></a></div></header><main id=main-content tabindex=-1><article class=article-shell><div class=article-header-wrap><nav aria-label=Breadcrumb class=mb-4><ol class="flex flex-wrap items-center gap-1.5 text-sm text-gray-500" itemscope itemtype=https://schema.org/BreadcrumbList><li itemprop=itemListElement itemscope itemtype=https://schema.org/ListItem><a href=/ class="hover:text-blue-600 transition-colors" itemprop=item><span itemprop=name>Home</span>
-</a><meta itemprop=position content="1"></li><li class=text-gray-300 aria-hidden=true>/</li><li itemprop=itemListElement itemscope itemtype=https://schema.org/ListItem><a href=/pages.html class="hover:text-blue-600 transition-colors" itemprop=item><span itemprop=name>Articles</span>
-</a><meta itemprop=position content="2"></li><li class=text-gray-300 aria-hidden=true>/</li><li itemprop=itemListElement itemscope itemtype=https://schema.org/ListItem aria-current=page><span class="text-gray-700 font-medium" itemprop=name>Solar Panel Output Calculator (Watts to Watt-hours)</span>
-<meta itemprop=position content="3"></li></ol></nav><header class=article-header><p class=section-kicker>Practical field guide</p><h1>Solar Panel Output Calculator (Watts to Watt-hours)</h1><p class=article-dek>Estimate daily solar panel output in watt-hours and kWh. Enter panel watts, peak sun hours, and system efficiency to size batteries and loads.</p><div class=article-meta><span>By Solar Powered Project</span><time datetime=2026-05-31>Published May 31, 2026</time><span>Reviewed Aug 9, 2026</span><span>2 min read</span></div></header><section class=system-strip aria-label="At a glance"><div class=system-strip-label>System brief</div><div class=system-strip-grid><div><span>Guide type</span><strong>Practical planning</strong></div><div><span>Approach</span><strong>Use stated assumptions, then verify the actual system.</strong></div><div><span>System boundary</span><strong>Location, loads, equipment, and local rules can change the answer.</strong></div><div><span>Next decision</span><strong>Follow the linked guide that resolves the next system choice.</strong></div></div></section></div><div class=article-layout><aside class=article-rail></aside><div class=article-reading><div class=article-answer><span>In brief</span><p>Estimate daily solar panel output in watt-hours and kWh. Enter panel watts, peak sun hours, and system efficiency to size batteries and loads.</p></div><aside class="ad-region ad-region-below_title" aria-label=Advertisement><span class=ad-label>Advertisement</span><div class=ad-slot><ins class=adsbygoogle style=display:block data-ad-client=ca-pub-5566942094411042 data-ad-slot=9770352885 data-ad-format=auto data-full-width-responsive=true></ins></div><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script></aside><div class="article-content prose"><h2 id=quick-estimate>Quick estimate</h2><p>Use this calculator to turn panel watts and peak sun hours into realistic daily energy. The result helps you size batteries, inverters, and loads.</p><aside class="callout callout-info" role=note><p class=callout-title>Field Note</p><div class=callout-content>Use <strong>peak sun hours</strong> for your location, not total daylight. Most US locations get 3.5–6.5 peak sun hours per day. Pair this with your <a href=solar-system-sizing.html>daily load plan</a>.</div></aside><h2 id=solar-panel-output-calculator>Solar panel output calculator</h2><form id=output-form class="space-y-4 p-4 bg-gray-50 rounded-lg border border-gray-200"><div class="grid grid-cols-1 sm:grid-cols-2 gap-4"><div><label class="block text-sm font-medium text-gray-700" for=panel-watts>Panel wattage (W)</label>
-<input type=number id=panel-watts value=400 min=1 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border"></div><div><label class="block text-sm font-medium text-gray-700" for=sun-hours>Peak sun hours / day</label>
-<input type=number id=sun-hours value=4.5 min=0 step=0.1 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border"></div><div><label class="block text-sm font-medium text-gray-700" for=efficiency>System efficiency</label>
-<select id=efficiency class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border"><option value=0.85>Excellent (0.85)</option><option value=0.80 selected>Typical (0.80)</option><option value=0.75>Average / hot climate (0.75)</option><option value=0.70>Conservative (0.70)</option></select></div><div><label class="block text-sm font-medium text-gray-700" for=panel-count>Number of panels</label>
-<input type=number id=panel-count value=1 min=1 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border"></div></div><button type=button id=calc-output class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Calculate output</button></form><div id=output-results class="mt-6 hidden"><div class="overflow-x-auto rounded-lg border border-gray-200"><table class="min-w-full text-sm"><thead class=bg-gray-100><tr><th class="px-4 py-2 text-left font-medium">Metric</th><th class="px-4 py-2 text-left font-medium">Value</th></tr></thead><tbody class="divide-y divide-gray-200"><tr><td class="px-4 py-2">Daily DC output</td><td id=res-daily-wh class="px-4 py-2 font-semibold"></td></tr><tr><td class="px-4 py-2">Monthly output</td><td id=res-monthly-kwh class="px-4 py-2 font-semibold"></td></tr><tr><td class="px-4 py-2">Annual output</td><td id=res-annual-kwh class="px-4 py-2 font-semibold"></td></tr><tr><td class="px-4 py-2">Can power a typical fridge (1.5 kWh/day)</td><td id=res-fridge class="px-4 py-2"></td></tr></tbody></table></div></div><script>(function(){"use strict";function e(e){return e.toLocaleString(void 0,{maximumFractionDigits:1})}function t(){var n=parseFloat(document.getElementById("panel-watts").value)||0,s=parseFloat(document.getElementById("sun-hours").value)||0,o=parseFloat(document.getElementById("efficiency").value)||.8,i=parseInt(document.getElementById("panel-count").value,10)||1,t=n*s*o*i,a=t*30/1e3,r=t*365/1e3,c=t/1500*24;document.getElementById("res-daily-wh").textContent=e(t)+" Wh ("+e(t/1e3)+" kWh)",document.getElementById("res-monthly-kwh").textContent=e(a)+" kWh",document.getElementById("res-annual-kwh").textContent=e(r)+" kWh",document.getElementById("res-fridge").textContent=e(c)+" hours/day",document.getElementById("output-results").classList.remove("hidden")}document.getElementById("calc-output").addEventListener("click",t),t()})()</script><h2 id=the-formula>The formula</h2><p><strong>Daily Wh = Panel watts × Peak sun hours × System efficiency × Number of panels</strong></p><p>Example: 400 W × 4.5 hours × 0.80 = <strong>1,440 Wh/day</strong> (about 43 kWh/month).</p><p>System efficiency accounts for real-world losses: heat, wiring voltage drop, inverter conversion, dust, shading, and mismatch. Use 0.75–0.85 for planning; drop to 0.70 for conservative off-grid estimates.</p><h2 id=choose-an-efficiency-factor>Choose an efficiency factor</h2><table><thead><tr><th style=text-align:left>Condition</th><th style=text-align:left>Efficiency factor</th><th style=text-align:left>When to use</th></tr></thead><tbody><tr><td style=text-align:left>Cool climate, clean array, quality MPPT</td><td style=text-align:left>0.85</td><td style=text-align:left>Best-case estimate</td></tr><tr><td style=text-align:left>Typical US residential install</td><td style=text-align:left>0.80</td><td style=text-align:left>Default planning value</td></tr><tr><td style=text-align:left>Hot climate, some shading, PWM controller</td><td style=text-align:left>0.75</td><td style=text-align:left>Realistic warm-climate value</td></tr><tr><td style=text-align:left>Off-grid winter estimate or poor conditions</td><td style=text-align:left>0.70</td><td style=text-align:left>Conservative sizing</td></tr></tbody></table><h2 id=why-this-number-matters>Why this number matters</h2><ul><li><strong>Battery sizing:</strong> a 1,440 Wh/day load needs enough usable battery capacity to cover cloudy days. Use the <a href=battery-capacity.html>battery capacity calculator</a>.</li><li><strong>Load planning:</strong> knowing daily production lets you match appliances to available energy. Start with <a href=solar-system-sizing.html>system sizing</a>.</li><li><strong>Troubleshooting:</strong> if real output is much lower than this estimate, check shading, tilt, soiling, or controller issues in <a href=solar-output-troubleshooting.html>low output troubleshooting</a> and <a href=solar-panel-cleaning-cost.html>panel cleaning basics</a>.</li></ul><h2 id=next-logical-reads>Next logical reads</h2><p><a href=solar-system-sizing.html class=text-link>How to size a solar system</a> <a href=/pages/battery-capacity.html class=text-link>Battery capacity calculator</a> <a href=solar-system-costs.html class=text-link>Solar system cost breakdown</a></p><h2 id=faq>FAQ</h2><div class="my-4 border-l-4 border-blue-400 pl-4"><h3 class="font-semibold text-gray-900">What are peak sun hours?</h3><div class="text-gray-600 mt-1">Peak sun hours measure the equivalent number of hours per day when sunlight intensity is about 1,000 W/m². A 400 W panel produces roughly 400 Wh in one peak sun hour.</div></div><div class="my-4 border-l-4 border-blue-400 pl-4"><h3 class="font-semibold text-gray-900">Does this include inverter losses?</h3><div class="text-gray-600 mt-1">The efficiency factor covers inverter, wiring, temperature, and soiling losses together. For DC-coupled battery systems, use a slightly higher factor; for AC-coupled systems, use a slightly lower one.</div></div><div class="my-4 border-l-4 border-blue-400 pl-4"><h3 class="font-semibold text-gray-900">How many panels do I need for my house?</h3><div class="text-gray-600 mt-1">Start with your annual kWh usage and divide by the per-panel annual production from this calculator. See <a href=how-many-solar-panels-to-power-a-house.html class=text-link>how many solar panels to power a house</a>.</div></div><script type=application/ld+json>{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"\"What are peak sun hours?\"","acceptedAnswer":{"@type":"Answer","text":"\"\\nPeak sun hours measure the equivalent number of hours per day when sunlight intensity is about 1,000 W/m². A 400 W panel produces roughly 400 Wh in one peak sun hour.\\n\""}},{"@type":"Question","name":"\"Does this include inverter losses?\"","acceptedAnswer":{"@type":"Answer","text":"\"\\nThe efficiency factor covers inverter, wiring, temperature, and soiling losses together. For DC-coupled battery systems, use a slightly higher factor; for AC-coupled systems, use a slightly lower one.\\n\""}},{"@type":"Question","name":"\"How many panels do I need for my house?\"","acceptedAnswer":{"@type":"Answer","text":"\"\\nStart with your annual kWh usage and divide by the per-panel annual production from this calculator. See \\u003ca href=\\\"how-many-solar-panels-to-power-a-house.html\\\" class=\\\"text-link\\\"\\u003ehow many solar panels to power a house\\u003c/a\\u003e.\\n\""}}]}</script></div><script type=application/ld+json>{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"\"What are peak sun hours?\"","acceptedAnswer":{"@type":"Answer","text":"\"\\nPeak sun hours measure the equivalent number of hours per day when sunlight intensity is about 1,000 W/m². A 400 W panel produces roughly 400 Wh in one peak sun hour.\\n\""}},{"@type":"Question","name":"\"Does this include inverter losses?\"","acceptedAnswer":{"@type":"Answer","text":"\"\\nThe efficiency factor covers inverter, wiring, temperature, and soiling losses together. For DC-coupled battery systems, use a slightly higher factor; for AC-coupled systems, use a slightly lower one.\\n\""}},{"@type":"Question","name":"\"How many panels do I need for my house?\"","acceptedAnswer":{"@type":"Answer","text":"\"\\nStart with your annual kWh usage and divide by the per-panel annual production from this calculator. See \\u003ca href=\\\"how-many-solar-panels-to-power-a-house.html\\\" class=\\\"text-link\\\"\\u003ehow many solar panels to power a house\\u003c/a\\u003e.\\n\""}}]}</script><aside class="ad-region ad-region-end_article" aria-label=Advertisement><span class=ad-label>Advertisement</span><div class=ad-slot><ins class=adsbygoogle style=display:block data-ad-client=ca-pub-5566942094411042 data-ad-slot=3364726638 data-ad-format=auto data-full-width-responsive=true></ins></div><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script></aside><section class="next-steps mt-10 pt-6 border-t border-gray-200" aria-label="Next steps"><p class=eyebrow>Next decision</p><h2 class="text-lg font-semibold text-gray-900 mb-3">Keep the system plan moving</h2><div class="flex flex-wrap gap-2"><a href=/pages/solar-system-sizing.html class="text-link inline-flex items-center px-3 py-1.5 bg-blue-50 text-blue-700 rounded-md text-sm font-medium hover:bg-blue-100 transition-colors">Size the full system</a><a href=/pages/battery-capacity.html class="text-link inline-flex items-center px-3 py-1.5 bg-blue-50 text-blue-700 rounded-md text-sm font-medium hover:bg-blue-100 transition-colors">Size the battery</a><a href=/pages/how-many-solar-panels-to-power-a-house.html class="text-link inline-flex items-center px-3 py-1.5 bg-blue-50 text-blue-700 rounded-md text-sm font-medium hover:bg-blue-100 transition-colors">Panel count guide</a></div></section><section class=related-reading aria-label="Related reading"><div class=section-kicker>Keep exploring</div><h2>Related field guides</h2><div class=related-grid><article><p class=eyebrow>Field guide</p><h3><a href=/pages/best-solar-batteries-2026.html>Best Solar Batteries for Home 2026: Brand Comparison Guide</a></h3><p>Compare the best home solar batteries of 2026: Tesla Powerwall 3, Enphase IQ Battery 5P, FranklinWH aPower2, BYD, and budget DIY …</p><a class=arrow-link href=/pages/best-solar-batteries-2026.html>Read guide <span aria-hidden=true>→</span></a></article><article><p class=eyebrow>Field guide</p><h3><a href=/pages/solar-payback-calculator.html>Solar Payback Calculator (Years to Break Even)</a></h3><p>Estimate how long it takes for solar panels to pay for themselves. Enter system cost, annual production, electricity rate, and …</p><a class=arrow-link href=/pages/solar-payback-calculator.html>Read guide <span aria-hidden=true>→</span></a></article><article><p class=eyebrow>Field guide</p><h3><a href=/pages/12v-vs-24v-vs-48v-solar.html>12V vs 24V vs 48V Solar Systems: Key Differences and Best Uses</a></h3><p>Compare 12V vs 24V vs 48V solar systems for current, wiring, inverter sizing, efficiency, and common use cases like RVs and …</p><a class=arrow-link href=/pages/12v-vs-24v-vs-48v-solar.html>Read guide <span aria-hidden=true>→</span></a></article></div></section></div></div></article></main><footer class=site-footer role=contentinfo><div class=footer-shell><div class=footer-intro><a class="brand-lockup brand-lockup-footer" href=/><span class=brand-mark aria-hidden=true><i></i><i></i><i></i></span><span><strong>Solar Powered</strong><em>Project</em></span></a><p>Practical field guides for independent power systems—built around clear assumptions, safe boundaries, and the next useful decision.</p><a class=footer-start href=/pages/solar-system-sizing.html>Start with system sizing <span aria-hidden=true>→</span></a></div><div class=footer-links><h2>Explore</h2><a href=/pages/solar-basics.html>Start Here</a><a href=/system-planner.html>Plan a System</a><a href=/guides.html>Costs & Payback</a><a href=/pages/wiring-decisions.html>Build & Fix</a><a href=/diy-off-grid-energy.html>Project Lab</a></div><div class=footer-links><h2>Trust & contact</h2><a href=/pages/about.html>About</a><a href=/pages/editorial-policy.html>Editorial Policy</a><a href=/methodology.html>Methodology</a><a href=/corrections.html>Corrections</a><a href=/pages/contact.html>Contact</a><a href=/pages/privacy-policy.html>Privacy</a><a href=/pages/terms.html>Terms</a></div></div><div class=footer-meta><p>© 2026 Solar Powered Project. Practical guidance, not electrical, legal, tax, or engineering advice.</p><p>This site may show advertisements. Advertising does not direct editorial coverage.</p></div></footer><script src=/js/main.js defer></script><script defer src=https://app.rybbit.io/api/script.js data-site-id=afb6050c297b></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f1e5">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap"></noscript>
+<link rel="stylesheet" href="/css/tailwind.css">
+<link rel="stylesheet" href="/css/design-system.min.51e3a73d67184782b2cd5a51e8529a4b1cc44852008c328d4ec3357574b77989ff2641126eed7971a3833233ff068ef11730be61f99b64ac89dc3394f0f1f106.css" integrity="sha512-UeOnPWcYR4KyzVpR6FKaSxzESFIAjDKNTsM1dXS3eYn/JkESbu15caODMjP/Bo7xFzC&#43;YfmbZKyJ3DOU8PHxBg==" crossorigin="anonymous">
+<title>Solar Panel Output Calculator (Watts to Watt-hours) | Solar Powered Project</title>
+<meta name="description" content="Estimate daily solar panel output in watt-hours and kWh. Enter panel watts, peak sun hours, and system efficiency to size batteries and loads.">
+<meta name="author" content="Solar Powered Project">
+<link rel="canonical" href="https://solarpoweredproject.com/pages/solar-panel-output.html">
+<link rel="icon" href="/assets/images/solarpoweredproject-logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Solar Panel Output Calculator (Watts to Watt-hours)">
+<meta property="og:description" content="Estimate daily solar panel output in watt-hours and kWh. Enter panel watts, peak sun hours, and system efficiency to size batteries and loads.">
+<meta property="og:url" content="https://solarpoweredproject.com/pages/solar-panel-output.html"><meta property="og:site_name" content="Solar Powered Project">
+<meta property="og:image" content="https://solarpoweredproject.com/assets/images/field-guide/system-sizing-concept.jpg">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Solar Panel Output Calculator (Watts to Watt-hours)"><meta name="twitter:description" content="Estimate daily solar panel output in watt-hours and kWh. Enter panel watts, peak sun hours, and system efficiency to size batteries and loads.">
+
+<script type="application/ld+json">"[{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"author\":{\"@type\":\"Person\",\"name\":\"Solar Powered Project\"},\"dateModified\":\"2026-08-09\",\"datePublished\":\"2026-05-31T00:00:00+00:00\",\"description\":\"Estimate daily solar panel output in watt-hours and kWh. Enter panel watts, peak sun hours, and system efficiency to size batteries and loads.\",\"headline\":\"Solar Panel Output Calculator (Watts to Watt-hours)\",\"image\":\"/assets/images/field-guide/system-sizing-concept.jpg\",\"mainEntityOfPage\":{\"@id\":\"https://solarpoweredproject.com/pages/solar-panel-output.html\",\"@type\":\"WebPage\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Solar Powered Project\"}},{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https://solarpoweredproject.com/\",\"name\":\"Home\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https://solarpoweredproject.com/pages.html\",\"name\":\"Articles\",\"position\":2},{\"@type\":\"ListItem\",\"item\":\"https://solarpoweredproject.com/pages/solar-panel-output.html\",\"name\":\"Solar Panel Output Calculator (Watts to Watt-hours)\",\"position\":3}]}]"</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5566942094411042" crossorigin="anonymous"></script>
+
+</head>
+<body class="site-body ">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  
+<header class="site-header" id="main-nav">
+  <div class="nav-shell">
+    <a class="brand-lockup" href="/" aria-label="Solar Powered Project home">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span><strong>Solar Powered</strong><em>Project</em></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="/pages/solar-basics.html">Start Here</a><a href="/system-planner.html">Plan a System</a><a href="/guides.html">Costs &amp; Payback</a><a href="/pages/wiring-decisions.html">Build &amp; Fix</a><a href="/diy-off-grid-energy.html">Project Lab</a><a href="/search.html">Search</a>
+    </nav>
+    <a class="nav-utility desktop-only" href="/pages/solar-system-sizing.html">Size my system <span aria-hidden="true">↗</span></a>
+    <button class="menu-toggle" id="nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-panel" id="mobile-menu" hidden>
+    <nav aria-label="Mobile navigation"><a href="/pages/solar-basics.html"><strong>Start Here</strong><small>Solar fundamentals and the right first questions.</small></a><a href="/system-planner.html"><strong>Plan a System</strong><small>Size panels, batteries, inverters, and wiring.</small></a><a href="/guides.html"><strong>Costs &amp; Payback</strong><small>Costs, incentives, financing, and tradeoffs.</small></a><a href="/pages/wiring-decisions.html"><strong>Build &amp; Fix</strong><small>Installation choices, protection, and troubleshooting.</small></a><a href="/diy-off-grid-energy.html"><strong>Project Lab</strong><small>Honest experiments in alternative generation.</small></a><a href="/search.html"><strong>Search</strong><small>Find a specific question or component.</small></a></nav>
+    <a class="button button-solar mobile-sizing" href="/pages/solar-system-sizing.html">Size my system <span aria-hidden="true">→</span></a>
+  </div>
+</header>
+
+  <main id="main-content" tabindex="-1">
+<article class="article-shell ">
+  <div class="article-header-wrap">
+
+
+<nav aria-label="Breadcrumb" class="mb-4">
+  <ol class="flex flex-wrap items-center gap-1.5 text-sm text-gray-500" itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="/" class="hover:text-blue-600 transition-colors" itemprop="item">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content="1">
+    </li>
+
+    
+    
+    
+      <li class="text-gray-300" aria-hidden="true">/</li>
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/pages.html" class="hover:text-blue-600 transition-colors" itemprop="item">
+          <span itemprop="name">Articles</span>
+        </a>
+        <meta itemprop="position" content="2">
+      </li>
+      
+    
+
+    
+    
+      <li class="text-gray-300" aria-hidden="true">/</li>
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" aria-current="page">
+        <span class="text-gray-700 font-medium" itemprop="name">Solar Panel Output Calculator (Watts to Watt-hours)</span>
+        <meta itemprop="position" content="3">
+      </li>
+    
+  </ol>
+</nav>
+
+<header class="article-header"><p class="section-kicker">Practical field guide</p><h1>Solar Panel Output Calculator (Watts to Watt-hours)</h1><p class="article-dek">Estimate daily solar panel output in watt-hours and kWh. Enter panel watts, peak sun hours, and system efficiency to size batteries and loads.</p><div class="article-meta"><span>By Solar Powered Project</span><time datetime="2026-05-31">Published May 31, 2026</time><span>Reviewed Aug 9, 2026</span><span>5 min read</span></div></header>
+
+<section class="system-strip" aria-label="At a glance">
+  <div class="system-strip-label">System brief</div>
+  <div class="system-strip-grid">
+    
+      <div><span>Guide type</span><strong>Practical planning</strong></div>
+      <div><span>Approach</span><strong>Use stated assumptions, then verify the actual system.</strong></div>
+      <div><span>System boundary</span><strong>Location, loads, equipment, and local rules can change the answer.</strong></div>
+      <div><span>Next decision</span><strong>Follow the linked guide that resolves the next system choice.</strong></div>
+    
+  </div>
+</section>
+
+</div>
+  <div class="article-layout"><aside class="article-rail"><nav class="toc my-6 p-4 bg-gray-50 rounded-lg border border-gray-200" aria-label="Table of Contents">
+  <h2 class="text-lg font-semibold text-gray-900 mb-3">Table of Contents</h2>
+  <div class="text-sm text-gray-700 leading-relaxed"><ul class="space-y-1 ml-4">
+    <li class="mt-1"><a href="#quick-estimate">Quick estimate</a></li>
+    <li class="mt-1"><a href="#solar-panel-output-calculator">Solar panel output calculator</a></li>
+    <li class="mt-1"><a href="#the-formula">The formula</a></li>
+    <li class="mt-1"><a href="#choose-an-efficiency-factor">Choose an efficiency factor</a></li>
+    <li class="mt-1"><a href="#quick-reference-output-table">Quick-reference output table</a></li>
+    <li class="mt-1"><a href="#what-can-this-actually-power">What can this actually power?</a></li>
+    <li class="mt-1"><a href="#seasonal-variation-expect-3050-less-in-winter">Seasonal variation: expect 30–50% less in winter</a></li>
+    <li class="mt-1"><a href="#common-mistakes">Common mistakes</a></li>
+    <li class="mt-1"><a href="#why-this-number-matters">Why this number matters</a></li>
+    <li class="mt-1"><a href="#next-logical-reads">Next logical reads</a></li>
+    <li class="mt-1"><a href="#faq">FAQ</a></li>
+  </ul></div>
+</nav></aside><div class="article-reading"><div class="article-answer"><span>In brief</span><p>Estimate daily solar panel output in watt-hours and kWh. Enter panel watts, peak sun hours, and system efficiency to size batteries and loads.</p></div><aside class="ad-region ad-region-below_title" aria-label="Advertisement"><span class="ad-label">Advertisement</span><div class="ad-slot"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5566942094411042" data-ad-slot="9770352885" data-ad-format="auto" data-full-width-responsive="true"></ins></div><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></aside><div class="article-content prose"><h2 id="quick-estimate">Quick estimate</h2>
+<p>A single <strong>400W solar panel</strong> in a typical US location produces about <strong>1,100–1,600 watt-hours (Wh) per day</strong> — roughly 33–48 kWh per month. That&rsquo;s enough to run a small chest freezer, recharge phones and laptops several times over, or run LED lights for hours. Actual output depends on your peak sun hours and system efficiency; use the calculator below for your exact setup.</p>
+<aside class="callout callout-info" role="note">
+  <p class="callout-title">Field Note</p>
+  <div class="callout-content">Use <strong>peak sun hours</strong> for your location, not total daylight. Most US locations get 3.5–6.5 peak sun hours per day. Pair this with your <a href="solar-system-sizing.html">daily load plan</a>.</div>
+</aside>
+<h2 id="solar-panel-output-calculator">Solar panel output calculator</h2>
+<form id="output-form" class="space-y-4 p-4 bg-gray-50 rounded-lg border border-gray-200">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+    <div>
+      <label class="block text-sm font-medium text-gray-700" for="panel-watts">Panel wattage (W)</label>
+      <input type="number" id="panel-watts" value="400" min="1" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+    </div>
+    <div>
+      <label class="block text-sm font-medium text-gray-700" for="sun-hours">Peak sun hours / day</label>
+      <input type="number" id="sun-hours" value="4.5" min="0" step="0.1" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+    </div>
+    <div>
+      <label class="block text-sm font-medium text-gray-700" for="efficiency">System efficiency</label>
+      <select id="efficiency" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+        <option value="0.85">Excellent (0.85)</option>
+        <option value="0.80" selected>Typical (0.80)</option>
+        <option value="0.75">Average / hot climate (0.75)</option>
+        <option value="0.70">Conservative (0.70)</option>
+      </select>
+    </div>
+    <div>
+      <label class="block text-sm font-medium text-gray-700" for="panel-count">Number of panels</label>
+      <input type="number" id="panel-count" value="1" min="1" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+    </div>
+  </div>
+  <button type="button" id="calc-output" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Calculate output</button>
+</form>
+<div id="output-results" class="mt-6 hidden">
+  <div class="overflow-x-auto rounded-lg border border-gray-200">
+    <table class="min-w-full text-sm">
+      <thead class="bg-gray-100">
+        <tr><th class="px-4 py-2 text-left font-medium">Metric</th><th class="px-4 py-2 text-left font-medium">Value</th></tr>
+      </thead>
+      <tbody class="divide-y divide-gray-200">
+        <tr><td class="px-4 py-2">Daily DC output</td><td id="res-daily-wh" class="px-4 py-2 font-semibold"></td></tr>
+        <tr><td class="px-4 py-2">Monthly output</td><td id="res-monthly-kwh" class="px-4 py-2 font-semibold"></td></tr>
+        <tr><td class="px-4 py-2">Annual output</td><td id="res-annual-kwh" class="px-4 py-2 font-semibold"></td></tr>
+        <tr><td class="px-4 py-2">Can power a typical fridge (1.5 kWh/day)</td><td id="res-fridge" class="px-4 py-2"></td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<script>
+(function(){
+  "use strict";
+  
+  function fmt(n){ return n.toLocaleString(undefined, {maximumFractionDigits: 1}); }
+  function calculate(){
+    var watts = parseFloat(document.getElementById('panel-watts').value) || 0;
+    var hours = parseFloat(document.getElementById('sun-hours').value) || 0;
+    var eff = parseFloat(document.getElementById('efficiency').value) || 0.8;
+    var count = parseInt(document.getElementById('panel-count').value, 10) || 1;
+    var dailyWh = watts * hours * eff * count;
+    var monthlyKwh = dailyWh * 30 / 1000;
+    var annualKwh = dailyWh * 365 / 1000;
+    var fridgeHours = dailyWh / 1500 * 24;
+    document.getElementById('res-daily-wh').textContent = fmt(dailyWh) + ' Wh (' + fmt(dailyWh/1000) + ' kWh)';
+    document.getElementById('res-monthly-kwh').textContent = fmt(monthlyKwh) + ' kWh';
+    document.getElementById('res-annual-kwh').textContent = fmt(annualKwh) + ' kWh';
+    document.getElementById('res-fridge').textContent = fmt(fridgeHours) + ' hours/day';
+    document.getElementById('output-results').classList.remove('hidden');
+  }
+  document.getElementById('calc-output').addEventListener('click', calculate);
+  calculate();
+
+})();
+</script>
+
+<h2 id="the-formula">The formula</h2>
+<p><strong>Daily Wh = Panel watts × Peak sun hours × System efficiency × Number of panels</strong></p>
+<p>Example: 400 W × 4.5 hours × 0.80 = <strong>1,440 Wh/day</strong> (about 43 kWh/month).</p>
+<p>System efficiency accounts for real-world losses: heat, wiring voltage drop, inverter conversion, dust, shading, and mismatch. Use 0.75–0.85 for planning; drop to 0.70 for conservative off-grid estimates.</p>
+<h2 id="choose-an-efficiency-factor">Choose an efficiency factor</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Condition</th>
+          <th style="text-align: left">Efficiency factor</th>
+          <th style="text-align: left">When to use</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Cool climate, clean array, quality MPPT</td>
+          <td style="text-align: left">0.85</td>
+          <td style="text-align: left">Best-case estimate</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Typical US residential install</td>
+          <td style="text-align: left">0.80</td>
+          <td style="text-align: left">Default planning value</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Hot climate, some shading, PWM controller</td>
+          <td style="text-align: left">0.75</td>
+          <td style="text-align: left">Realistic warm-climate value</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Off-grid winter estimate or poor conditions</td>
+          <td style="text-align: left">0.70</td>
+          <td style="text-align: left">Conservative sizing</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="quick-reference-output-table">Quick-reference output table</h2>
+<p>Don&rsquo;t want to calculate? Here&rsquo;s realistic daily output for common panel sizes at different peak sun hours, using <strong>0.80 system efficiency</strong> (typical US install):</p>
+<table>
+<thead>
+<tr class="header">
+<th>Panel size</th>
+<th>3.5 sun hrs (cloudy/poor)</th>
+<th>4.5 sun hrs (typical)</th>
+<th>5.5 sun hrs (good/sunny)</th>
+<th>6.5 sun hrs (Southwest)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>100W</strong></td>
+<td>280 Wh/day</td>
+<td>360 Wh/day</td>
+<td>440 Wh/day</td>
+<td>520 Wh/day</td>
+</tr>
+<tr class="even">
+<td><strong>200W</strong></td>
+<td>560 Wh/day</td>
+<td>720 Wh/day</td>
+<td>880 Wh/day</td>
+<td>1,040 Wh/day</td>
+</tr>
+<tr class="odd">
+<td><strong>400W</strong></td>
+<td>1,120 Wh/day</td>
+<td>1,440 Wh/day</td>
+<td>1,760 Wh/day</td>
+<td>2,080 Wh/day</td>
+</tr>
+<tr class="even">
+<td><strong>600W</strong></td>
+<td>1,680 Wh/day</td>
+<td>2,160 Wh/day</td>
+<td>2,640 Wh/day</td>
+<td>3,120 Wh/day</td>
+</tr>
+<tr class="odd">
+<td><strong>800W</strong></td>
+<td>2,240 Wh/day</td>
+<td>2,880 Wh/day</td>
+<td>3,520 Wh/day</td>
+<td>4,160 Wh/day</td>
+</tr>
+</tbody>
+</table>
+<p><strong>How to read this:</strong> A 400W panel in Phoenix (6+ sun hours) produces nearly double what the same panel produces in Seattle (3.5 sun hours). Location matters more than panel brand.</p>
+<h2 id="what-can-this-actually-power">What can this actually power?</h2>
+<p>Numbers are abstract. Here&rsquo;s what common daily outputs translate to in real appliance runtime:</p>
+<p><strong>At 400 Wh/day (one 100W panel, typical conditions):</strong></p>
+<ul>
+<li><strong>Phone charges:</strong> ~25–30 full smartphone charges</li>
+<li><strong>LED lighting:</strong> 10W LED bulb for ~40 hours</li>
+<li><strong>Laptop:</strong> 2–3 full charges of a 15&quot; laptop</li>
+<li><strong>Camping fridge (12V compressor):</strong> About 3–4 hours of runtime (not enough on its own)</li>
+</ul>
+<p><strong>At 1,440 Wh/day (one 400W panel, typical conditions):</strong></p>
+<ul>
+<li><strong>Full-size refrigerator:</strong> ~10–12 hours of runtime (covers a full day with a decent battery buffer)</li>
+<li><strong>CPAP machine:</strong> All night (8+ hours) with humidifier</li>
+<li><strong>TV + streaming stick:</strong> ~6 hours of viewing</li>
+<li><strong>Microwave:</strong> ~1 hour of continuous use (realistically, plenty for daily meals)</li>
+</ul>
+<p><strong>At 2,880 Wh/day (two 400W panels):</strong></p>
+<ul>
+<li><strong>Off-grid cabin basics:</strong> Lights, fridge, laptop charging, water pump, and a fan — all day, with surplus to spare</li>
+<li><strong>RV daily use:</strong> Full off-grid capability including microwave and coffee maker</li>
+</ul>
+<p>For more on matching your production to your loads, see <a href="solar-system-sizing.html" class="text-link">how to size a solar system</a> and <a href="battery-capacity.html" class="text-link">battery capacity calculator</a>.</p>
+<h2 id="seasonal-variation-expect-3050-less-in-winter">Seasonal variation: expect 30–50% less in winter</h2>
+<p>Solar output swings dramatically between summer and winter. Plan for your <strong>worst-producing month</strong>, not your average:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Season</th>
+          <th style="text-align: left">Output vs. peak</th>
+          <th style="text-align: left">What causes it</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Summer</strong></td>
+          <td style="text-align: left">100% (peak)</td>
+          <td style="text-align: left">Long days, high sun angle</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Fall/Spring</strong></td>
+          <td style="text-align: left">70–85%</td>
+          <td style="text-align: left">Shorter days, lower angle</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Winter</strong></td>
+          <td style="text-align: left">40–60%</td>
+          <td style="text-align: left">Short days, low angle, more clouds</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Practical example:</strong> A 400W panel in the US Midwest might produce 2,000+ Wh/day in July but only 700–900 Wh/day in December. If you need reliable winter power, <strong>oversize your array by 40–60%</strong> or add a generator backup.</p>
+<p><strong>Latitude matters most.</strong> The further north you are, the steeper the winter drop. Arizona winters are mild; Minnesota winters cut output nearly in half. If you&rsquo;re sizing an off-grid system for year-round use, always calculate using your December sun hours.</p>
+<h2 id="common-mistakes">Common mistakes</h2>
+<ul>
+<li><strong>Using total daylight instead of peak sun hours.</strong> A location with &ldquo;14 hours of daylight&rdquo; may only get 3.5 peak sun hours. The sun isn&rsquo;t at full intensity all day — it ramps up and down. Always use peak sun hour data.</li>
+<li><strong>Forgetting system losses.</strong> A &ldquo;400W&rdquo; panel rarely delivers 400W. After heat, wiring, inverter, and controller losses, you&rsquo;ll see 280–340W actual. The 0.80 efficiency factor accounts for this.</li>
+<li><strong>Ignoring heat derating.</strong> Panels lose ~0.4% efficiency per °C above 25°C (77°F). A roof-mounted panel at 150°F produces 10–15% less than the same panel in cool air. See <a href="solar-panel-efficiency.html" class="text-link">solar panel efficiency</a> for the full breakdown.</li>
+<li><strong>Planning around summer numbers.</strong> If you size your system using July output, you&rsquo;ll be dark by December. Always size for your worst month.</li>
+<li><strong>Assuming &ldquo;rated watts&rdquo; equals &ldquo;actual watts.&rdquo;</strong> A 400W panel produces 400W only at Standard Test Conditions (STC) — 25°C, 1000W/m², perfect angle. Real conditions rarely match STC.</li>
+</ul>
+<h2 id="why-this-number-matters">Why this number matters</h2>
+<ul>
+<li><strong>Battery sizing:</strong> a 1,440 Wh/day load needs enough usable battery capacity to cover cloudy days. Use the <a href="battery-capacity.html">battery capacity calculator</a>.</li>
+<li><strong>Load planning:</strong> knowing daily production lets you match appliances to available energy. Start with <a href="solar-system-sizing.html">system sizing</a>.</li>
+<li><strong>Troubleshooting:</strong> if real output is much lower than this estimate, check shading, tilt, soiling, or controller issues in <a href="solar-output-troubleshooting.html">low output troubleshooting</a> and <a href="solar-panel-cleaning-cost.html">panel cleaning basics</a>.</li>
+</ul>
+<h2 id="next-logical-reads">Next logical reads</h2>
+<p><a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a></p>
+<h2 id="faq">FAQ</h2>
+<div class="my-4 border-l-4 border-blue-400 pl-4">
+  <h3 class="font-semibold text-gray-900">What are peak sun hours?</h3>
+  <div class="text-gray-600 mt-1">Peak sun hours measure the equivalent number of hours per day when sunlight intensity is about 1,000 W/m². A 400 W panel produces roughly 400 Wh in one peak sun hour.</div>
+</div>
+<div class="my-4 border-l-4 border-blue-400 pl-4">
+  <h3 class="font-semibold text-gray-900">Does this include inverter losses?</h3>
+  <div class="text-gray-600 mt-1">The efficiency factor covers inverter, wiring, temperature, and soiling losses together. For DC-coupled battery systems, use a slightly higher factor; for AC-coupled systems, use a slightly lower one.</div>
+</div>
+<div class="my-4 border-l-4 border-blue-400 pl-4">
+  <h3 class="font-semibold text-gray-900">How many panels do I need for my house?</h3>
+  <div class="text-gray-600 mt-1">Start with your annual kWh usage and divide by the per-panel annual production from this calculator. See <a href="how-many-solar-panels-to-power-a-house.html" class="text-link">how many solar panels to power a house</a>.</div>
+</div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+      "@type": "Question",
+      "name": "\"What are peak sun hours?\"",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "\"\\nPeak sun hours measure the equivalent number of hours per day when sunlight intensity is about 1,000 W/m². A 400 W panel produces roughly 400 Wh in one peak sun hour.\\n\""
+      }
+    },{
+      "@type": "Question",
+      "name": "\"Does this include inverter losses?\"",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "\"\\nThe efficiency factor covers inverter, wiring, temperature, and soiling losses together. For DC-coupled battery systems, use a slightly higher factor; for AC-coupled systems, use a slightly lower one.\\n\""
+      }
+    },{
+      "@type": "Question",
+      "name": "\"How many panels do I need for my house?\"",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "\"\\nStart with your annual kWh usage and divide by the per-panel annual production from this calculator. See \\u003ca href=\\\"how-many-solar-panels-to-power-a-house.html\\\" class=\\\"text-link\\\"\\u003ehow many solar panels to power a house\\u003c/a\\u003e.\\n\""
+      }
+    }]
+}
+</script>
+</div><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+      "@type": "Question",
+      "name": "\"What are peak sun hours?\"",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "\"\\nPeak sun hours measure the equivalent number of hours per day when sunlight intensity is about 1,000 W/m². A 400 W panel produces roughly 400 Wh in one peak sun hour.\\n\""
+      }
+    },{
+      "@type": "Question",
+      "name": "\"Does this include inverter losses?\"",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "\"\\nThe efficiency factor covers inverter, wiring, temperature, and soiling losses together. For DC-coupled battery systems, use a slightly higher factor; for AC-coupled systems, use a slightly lower one.\\n\""
+      }
+    },{
+      "@type": "Question",
+      "name": "\"How many panels do I need for my house?\"",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "\"\\nStart with your annual kWh usage and divide by the per-panel annual production from this calculator. See \\u003ca href=\\\"how-many-solar-panels-to-power-a-house.html\\\" class=\\\"text-link\\\"\\u003ehow many solar panels to power a house\\u003c/a\\u003e.\\n\""
+      }
+    }]
+}
+</script><aside class="ad-region ad-region-end_article" aria-label="Advertisement"><span class="ad-label">Advertisement</span><div class="ad-slot"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5566942094411042" data-ad-slot="3364726638" data-ad-format="auto" data-full-width-responsive="true"></ins></div><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></aside><section class="next-steps mt-10 pt-6 border-t border-gray-200" aria-label="Next steps"><p class="eyebrow">Next decision</p><h2 class="text-lg font-semibold text-gray-900 mb-3">Keep the system plan moving</h2><div class="flex flex-wrap gap-2"><a href="/pages/solar-system-sizing.html" class="text-link inline-flex items-center px-3 py-1.5 bg-blue-50 text-blue-700 rounded-md text-sm font-medium hover:bg-blue-100 transition-colors">Size the full system</a><a href="/pages/battery-capacity.html" class="text-link inline-flex items-center px-3 py-1.5 bg-blue-50 text-blue-700 rounded-md text-sm font-medium hover:bg-blue-100 transition-colors">Size the battery</a><a href="/pages/how-many-solar-panels-to-power-a-house.html" class="text-link inline-flex items-center px-3 py-1.5 bg-blue-50 text-blue-700 rounded-md text-sm font-medium hover:bg-blue-100 transition-colors">Panel count guide</a></div></section>
+<section class="related-reading" aria-label="Related reading"><div class="section-kicker">Keep exploring</div><h2>Related field guides</h2><div class="related-grid"><article><p class="eyebrow">Field guide</p><h3><a href="/pages/best-solar-batteries-2026.html">Best Solar Batteries for Home 2026: Brand Comparison Guide</a></h3><p>Compare the best home solar batteries of 2026: Tesla Powerwall 3, Enphase IQ Battery 5P, FranklinWH aPower2, BYD, and budget DIY …</p><a class="arrow-link" href="/pages/best-solar-batteries-2026.html">Read guide <span aria-hidden="true">→</span></a></article><article><p class="eyebrow">Field guide</p><h3><a href="/pages/solar-payback-calculator.html">Solar Payback Calculator (Years to Break Even)</a></h3><p>Estimate how long it takes for solar panels to pay for themselves. Enter system cost, annual production, electricity rate, and …</p><a class="arrow-link" href="/pages/solar-payback-calculator.html">Read guide <span aria-hidden="true">→</span></a></article><article><p class="eyebrow">Field guide</p><h3><a href="/pages/12v-vs-24v-vs-48v-solar.html">12V vs 24V vs 48V Solar Systems: Key Differences and Best Uses</a></h3><p>Compare 12V vs 24V vs 48V solar systems for current, wiring, inverter sizing, efficiency, and common use cases like RVs and …</p><a class="arrow-link" href="/pages/12v-vs-24v-vs-48v-solar.html">Read guide <span aria-hidden="true">→</span></a></article></div></section>
+</div></div>
+</article></main>
+  <footer class="site-footer" role="contentinfo">
+  <div class="footer-shell">
+    <div class="footer-intro">
+      <a class="brand-lockup brand-lockup-footer" href="/"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span><strong>Solar Powered</strong><em>Project</em></span></a>
+      <p>Practical field guides for independent power systems—built around clear assumptions, safe boundaries, and the next useful decision.</p>
+      <a class="footer-start" href="/pages/solar-system-sizing.html">Start with system sizing <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="footer-links"><h2>Explore</h2><a href="/pages/solar-basics.html">Start Here</a><a href="/system-planner.html">Plan a System</a><a href="/guides.html">Costs &amp; Payback</a><a href="/pages/wiring-decisions.html">Build &amp; Fix</a><a href="/diy-off-grid-energy.html">Project Lab</a></div>
+    <div class="footer-links"><h2>Trust & contact</h2><a href="/pages/about.html">About</a><a href="/pages/editorial-policy.html">Editorial Policy</a><a href="/methodology.html">Methodology</a><a href="/corrections.html">Corrections</a><a href="/pages/contact.html">Contact</a><a href="/pages/privacy-policy.html">Privacy</a><a href="/pages/terms.html">Terms</a></div>
+  </div>
+  <div class="footer-meta"><p>© 2026 Solar Powered Project. Practical guidance, not electrical, legal, tax, or engineering advice.</p><p>This site may show advertisements. Advertising does not direct editorial coverage.</p></div>
+</footer>
+
+  <script src="/js/main.js" defer></script>
+  
+<script defer src="https://app.rybbit.io/api/script.js" data-site-id="afb6050c297b"></script>
+
+
+</body>
+</html>

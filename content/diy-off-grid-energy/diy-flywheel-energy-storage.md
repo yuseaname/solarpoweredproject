@@ -7,6 +7,22 @@ description = "A realistic DIY flywheel energy storage guide: how flywheels stor
 author = "Solar Powered Project"
 +++
 
+## The honest answer up front
+
+A DIY flywheel can store **less than 1 watt-hour** at safe speeds — enough to power an LED for an hour or smooth a brief power surge, but nowhere near enough to replace a battery. A single small 12V battery (50Ah) stores **600 Wh**. You'd need hundreds of flywheels to match that.
+
+**Why build one anyway?** Flywheels are excellent learning tools for understanding energy storage, rotational physics, and system losses. They can also serve as **short-duration buffers** — smoothing out power pulses from variable sources like wind or pedal generators. Just don't expect to run your fridge from one.
+
+| What you want | DIY flywheel | Small battery (50Ah) |
+| :-- | :-- | :-- |
+| Store energy for hours | No | Yes |
+| Deliver high power briefly | Yes | Yes |
+| Typical stored energy | 0.05–2 Wh | ~600 Wh |
+| Cost to build | $30–200 | $100–300 |
+| Best use | Learning, surge buffering | Real energy storage |
+
+If your goal is practical energy storage, <a href="../pages/battery-capacity.html" class="text-link">start with batteries</a>. If you want to understand how energy storage works, keep reading.
+
 ## Key takeaways
 
 -   Flywheels store energy as **rotational kinetic energy**: energy rises with **speed squared**.
@@ -197,13 +213,26 @@ In most off-grid systems, solar + batteries handle the “energy” job well. A 
 
 -   **Buffering short surges** so a small generator (pedal, wind gusts) feels steadier.
 -   **Teaching tool** for system thinking: what happens to voltage, current, and losses as energy flows.
+-   **Demonstrating why batteries are hard to beat** — once you measure a flywheel's actual stored energy, the comparison is immediately clear.
 
 ### When batteries are the better answer
 
 -   If you need **hours** of backup power or meaningful kWh.
 -   If you want simplicity and predictable behavior.
+-   If your goal is practical off-grid energy, not a learning project.
 
-<a href="../pages/solar-system-sizing.html" class="text-link">How to size a solar system →</a> <a href="../pages/solar-components.html" class="text-link">Solar components explained →</a> <a href="../pages/solar-battery-cost-per-kwh.html" class="text-link">Battery cost per kWh guide →</a>
+### Realistic comparison: flywheel vs battery vs gravity storage
+
+| Storage type | DIY energy density | Power delivery | Complexity | Best for |
+| :-- | :-- | :-- | :-- | :-- |
+| Small battery (12V, 50Ah) | ~600 Wh | High, sustained | Low | Real energy storage |
+| DIY flywheel (bike wheel) | ~0.05–0.3 Wh | High, very brief | Medium | Learning, surge buffer |
+| Gravity battery (50 kg, 1m) | ~0.14 Wh | Low, brief | Medium | Physics demonstration |
+| Supercapacitor bank | ~0.1–1 Wh | Very high, seconds | Medium-High | Transient smoothing |
+
+The takeaway is simple: for **practical** energy storage at DIY scale, batteries win by orders of magnitude. Alternative storage methods are valuable for learning, specific niche applications, and understanding the physics — not for replacing your battery bank.
+
+<a href="../pages/solar-system-sizing.html" class="text-link">How to size a solar system →</a> <a href="../pages/solar-components.html" class="text-link">Solar components explained →</a> <a href="../pages/solar-battery-cost-per-kwh.html" class="text-link">Battery cost per kWh guide →</a> <a href="gravity-battery-diy-energy-storage.html" class="text-link">Gravity battery guide →</a> <a href="diy-supercapacitor-bank-solar-buffer.html" class="text-link">Supercapacitor bank guide →</a>
 
 ## Troubleshooting
 

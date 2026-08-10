@@ -16,7 +16,7 @@ image_height = 768
 
 ## Quick estimate
 
-Use this calculator to turn panel watts and peak sun hours into realistic daily energy. The result helps you size batteries, inverters, and loads.
+A single **400W solar panel** in a typical US location produces about **1,100–1,600 watt-hours (Wh) per day** — roughly 33–48 kWh per month. That's enough to run a small chest freezer, recharge phones and laptops several times over, or run LED lights for hours. Actual output depends on your peak sun hours and system efficiency; use the calculator below for your exact setup.
 
 {{< callout "tip" "Tip" >}}
 Use **peak sun hours** for your location, not total daylight. Most US locations get 3.5–6.5 peak sun hours per day. Pair this with your [daily load plan](solar-system-sizing.html).
@@ -104,6 +104,108 @@ System efficiency accounts for real-world losses: heat, wiring voltage drop, inv
 | Typical US residential install | 0.80 | Default planning value |
 | Hot climate, some shading, PWM controller | 0.75 | Realistic warm-climate value |
 | Off-grid winter estimate or poor conditions | 0.70 | Conservative sizing |
+
+## Quick-reference output table
+
+Don't want to calculate? Here's realistic daily output for common panel sizes at different peak sun hours, using **0.80 system efficiency** (typical US install):
+
+<table>
+<thead>
+<tr class="header">
+<th>Panel size</th>
+<th>3.5 sun hrs (cloudy/poor)</th>
+<th>4.5 sun hrs (typical)</th>
+<th>5.5 sun hrs (good/sunny)</th>
+<th>6.5 sun hrs (Southwest)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>100W</strong></td>
+<td>280 Wh/day</td>
+<td>360 Wh/day</td>
+<td>440 Wh/day</td>
+<td>520 Wh/day</td>
+</tr>
+<tr class="even">
+<td><strong>200W</strong></td>
+<td>560 Wh/day</td>
+<td>720 Wh/day</td>
+<td>880 Wh/day</td>
+<td>1,040 Wh/day</td>
+</tr>
+<tr class="odd">
+<td><strong>400W</strong></td>
+<td>1,120 Wh/day</td>
+<td>1,440 Wh/day</td>
+<td>1,760 Wh/day</td>
+<td>2,080 Wh/day</td>
+</tr>
+<tr class="even">
+<td><strong>600W</strong></td>
+<td>1,680 Wh/day</td>
+<td>2,160 Wh/day</td>
+<td>2,640 Wh/day</td>
+<td>3,120 Wh/day</td>
+</tr>
+<tr class="odd">
+<td><strong>800W</strong></td>
+<td>2,240 Wh/day</td>
+<td>2,880 Wh/day</td>
+<td>3,520 Wh/day</td>
+<td>4,160 Wh/day</td>
+</tr>
+</tbody>
+</table>
+
+**How to read this:** A 400W panel in Phoenix (6+ sun hours) produces nearly double what the same panel produces in Seattle (3.5 sun hours). Location matters more than panel brand.
+
+## What can this actually power?
+
+Numbers are abstract. Here's what common daily outputs translate to in real appliance runtime:
+
+**At 400 Wh/day (one 100W panel, typical conditions):**
+
+-   **Phone charges:** ~25–30 full smartphone charges
+-   **LED lighting:** 10W LED bulb for ~40 hours
+-   **Laptop:** 2–3 full charges of a 15" laptop
+-   **Camping fridge (12V compressor):** About 3–4 hours of runtime (not enough on its own)
+
+**At 1,440 Wh/day (one 400W panel, typical conditions):**
+
+-   **Full-size refrigerator:** ~10–12 hours of runtime (covers a full day with a decent battery buffer)
+-   **CPAP machine:** All night (8+ hours) with humidifier
+-   **TV + streaming stick:** ~6 hours of viewing
+-   **Microwave:** ~1 hour of continuous use (realistically, plenty for daily meals)
+
+**At 2,880 Wh/day (two 400W panels):**
+
+-   **Off-grid cabin basics:** Lights, fridge, laptop charging, water pump, and a fan — all day, with surplus to spare
+-   **RV daily use:** Full off-grid capability including microwave and coffee maker
+
+For more on matching your production to your loads, see <a href="solar-system-sizing.html" class="text-link">how to size a solar system</a> and <a href="battery-capacity.html" class="text-link">battery capacity calculator</a>.
+
+## Seasonal variation: expect 30–50% less in winter
+
+Solar output swings dramatically between summer and winter. Plan for your **worst-producing month**, not your average:
+
+| Season | Output vs. peak | What causes it |
+| :-- | :-- | :-- |
+| **Summer** | 100% (peak) | Long days, high sun angle |
+| **Fall/Spring** | 70–85% | Shorter days, lower angle |
+| **Winter** | 40–60% | Short days, low angle, more clouds |
+
+**Practical example:** A 400W panel in the US Midwest might produce 2,000+ Wh/day in July but only 700–900 Wh/day in December. If you need reliable winter power, **oversize your array by 40–60%** or add a generator backup.
+
+**Latitude matters most.** The further north you are, the steeper the winter drop. Arizona winters are mild; Minnesota winters cut output nearly in half. If you're sizing an off-grid system for year-round use, always calculate using your December sun hours.
+
+## Common mistakes
+
+- **Using total daylight instead of peak sun hours.** A location with "14 hours of daylight" may only get 3.5 peak sun hours. The sun isn't at full intensity all day — it ramps up and down. Always use peak sun hour data.
+- **Forgetting system losses.** A "400W" panel rarely delivers 400W. After heat, wiring, inverter, and controller losses, you'll see 280–340W actual. The 0.80 efficiency factor accounts for this.
+- **Ignoring heat derating.** Panels lose ~0.4% efficiency per °C above 25°C (77°F). A roof-mounted panel at 150°F produces 10–15% less than the same panel in cool air. See <a href="solar-panel-efficiency.html" class="text-link">solar panel efficiency</a> for the full breakdown.
+- **Planning around summer numbers.** If you size your system using July output, you'll be dark by December. Always size for your worst month.
+- **Assuming "rated watts" equals "actual watts."** A 400W panel produces 400W only at Standard Test Conditions (STC) — 25°C, 1000W/m², perfect angle. Real conditions rarely match STC.
 
 ## Why this number matters
 

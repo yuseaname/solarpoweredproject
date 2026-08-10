@@ -1,0 +1,165 @@
+{
+  "site": "solarpoweredproject.com",
+  "rybbit_site_id": "afb6050c297b",
+  "measurement_date": "2026-08-11",
+  "period": "2025-12-20 to 2026-08-11",
+  "site_overview": {
+    "total_sessions": 888,
+    "total_pageviews": 1522,
+    "unique_users": 776,
+    "bounce_rate_pct": 81.7,
+    "avg_session_duration_s": 79.9,
+    "pages_per_session": 1.71
+  },
+  "traffic_sources": {
+    "direct_pct": 56,
+    "organic_search_pct": 41,
+    "social_pct": 2.5,
+    "referral_pct": 0.8,
+    "ai_pct": 0.2
+  },
+  "search_engines": {
+    "duckduckgo": 209,
+    "bing": 100,
+    "yahoo": 23,
+    "google": 9,
+    "ecosia": 7,
+    "brave": 3
+  },
+  "geography": {
+    "US": 332,
+    "CN": 164,
+    "GB": 43,
+    "DE": 41,
+    "CA": 29,
+    "PL": 28,
+    "FR": 27,
+    "AU": 25,
+    "SG": 25,
+    "NL": 19
+  },
+  "devices": {
+    "Desktop": 532,
+    "Mobile": 356
+  },
+  "monthly_trend": {
+    "Jan_2026": {
+      "sessions": 36,
+      "pv": 132,
+      "bounce": 61.1,
+      "duration": 330.7,
+      "pps": 3.67
+    },
+    "Feb_2026": {
+      "sessions": 36,
+      "pv": 44,
+      "bounce": 86.1,
+      "duration": 73.5,
+      "pps": 1.22
+    },
+    "Mar_2026": {
+      "sessions": 116,
+      "pv": 186,
+      "bounce": 81.9,
+      "duration": 49.7,
+      "pps": 1.6
+    },
+    "Apr_2026": {
+      "sessions": 152,
+      "pv": 287,
+      "bounce": 71.7,
+      "duration": 87.2,
+      "pps": 1.89
+    },
+    "May_2026": {
+      "sessions": 244,
+      "pv": 429,
+      "bounce": 77.0,
+      "duration": 62.1,
+      "pps": 1.76
+    },
+    "Jun_2026": {
+      "sessions": 67,
+      "pv": 71,
+      "bounce": 95.5,
+      "duration": 6.1,
+      "pps": 1.06
+    },
+    "Jul_2026": {
+      "sessions": 64,
+      "pv": 71,
+      "bounce": 93.8,
+      "duration": 11.3,
+      "pps": 1.11
+    },
+    "Aug_2026": {
+      "sessions": 100,
+      "pv": 103,
+      "bounce": 97.0,
+      "duration": 0.1,
+      "pps": 1.03
+    }
+  },
+  "top_10_pages": {
+    "/": {
+      "sessions": 186,
+      "avg_duration_s": 179.8,
+      "avg_pageviews": 2.24,
+      "bounce_rate_pct": 83.3
+    },
+    "/pages/battery-cable-size-for-inverter.html": {
+      "sessions": 68,
+      "avg_duration_s": 66.9,
+      "avg_pageviews": 1.68,
+      "bounce_rate_pct": 70.6
+    },
+    "/diy-off-grid-energy/diy-hand-crank-generator-emergency-charging.html": {
+      "sessions": 50,
+      "avg_duration_s": 9.9,
+      "avg_pageviews": 1.16,
+      "bounce_rate_pct": 88.0
+    },
+    "/pages/12v-vs-24v-vs-48v-solar.html": {
+      "sessions": 46,
+      "avg_duration_s": 135.5,
+      "avg_pageviews": 1.54,
+      "bounce_rate_pct": 73.9
+    },
+    "/diy-off-grid-energy/diy-flywheel-energy-storage.html": {
+      "sessions": 45,
+      "avg_duration_s": 62.5,
+      "avg_pageviews": 1.49,
+      "bounce_rate_pct": 82.2
+    },
+    "/pages/solar-fuse-and-breaker-sizing.html": {
+      "sessions": 45,
+      "avg_duration_s": 87.4,
+      "avg_pageviews": 2.33,
+      "bounce_rate_pct": 77.8
+    },
+    "/pages/mppt-charge-controller-not-charging.html": {
+      "sessions": 27,
+      "avg_duration_s": 45.8,
+      "avg_pageviews": 1.3,
+      "bounce_rate_pct": 77.8
+    },
+    "/pages/solar-panel-output.html": {
+      "sessions": 25,
+      "avg_duration_s": 15.5,
+      "avg_pageviews": 1.24,
+      "bounce_rate_pct": 88.0
+    },
+    "/pages/pure-sine-vs-modified-sine-inverter.html": {
+      "sessions": 23,
+      "avg_duration_s": 0.0,
+      "avg_pageviews": 1.0,
+      "bounce_rate_pct": 100.0
+    },
+    "/pages/rv-solar-cost.html": {
+      "sessions": 21,
+      "avg_duration_s": 48.9,
+      "avg_pageviews": 1.48,
+      "bounce_rate_pct": 81.0
+    }
+  }
+}

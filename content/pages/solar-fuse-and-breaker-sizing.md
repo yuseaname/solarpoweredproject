@@ -22,6 +22,23 @@ image_height = 768
 -   Size protection using **real equipment ratings** (labels/specs), not “typical” numbers.
 -   Use **DC-rated** devices at the correct voltage rating—AC-only gear is not a substitute.
 
+## Quick sizing reference (planning-level)
+
+Match fuse/breaker size to the **wire ampacity**, not the load. The protection device should be rated at or slightly below the wire's safe current-carrying capacity.
+
+| Circuit | Wire gauge | Typical fuse/breaker | Notes |
+| :-- | :-- | :-- | :-- |
+| Small PV string (1–2 panels) | 10 AWG | 15–20A | Match to panel Isc × 1.56 |
+| Large PV string (3+ parallel) | 8–6 AWG | 20–30A per string | Each parallel string needs its own |
+| Controller → battery (30A MPPT) | 8 AWG | 40A | Sized to controller max output |
+| Controller → battery (60A MPPT) | 6 AWG | 80A | One size above controller rating |
+| Battery → 1000W inverter (12V) | 4 AWG | 100–125A | High-current DC-rated breaker |
+| Battery → 2000W inverter (12V) | 4/0 AWG | 200–250A | Class T fuse or MRBF |
+| Battery → 2000W inverter (24V) | 4 AWG | 100–125A | Verify inverter specs |
+| Battery → 3000W inverter (48V) | 4 AWG | 80–100A | Always DC-rated |
+
+**Golden rule:** the fuse protects the wire. If a fuse keeps blowing, the answer is never "install a bigger fuse" — it means something else is wrong. Check for overloads, shorts, or loose connections.
+
 <a href="solar-fuses-vs-breakers.html" class="text-link">Solar fuses vs breakers (what to use where)</a> <a href="wiring-decisions.html" class="text-link">Solar wiring decisions (pillar hub)</a>
 
 ## What fuses and breakers protect (and what they don’t)
@@ -93,6 +110,18 @@ If a product page doesn’t clearly state DC ratings, treat that as a red flag.
 -   **Confusing PV current numbers:** Isc vs operating current matters on the array side.
 -   **Protection too far from the battery:** long unprotected battery runs raise risk.
 -   **Ignoring system growth:** plan for realistic upgrades (bigger inverter, more strings) if they’re likely.
+
+### If your breaker keeps tripping or fuse keeps blowing
+
+This is one of the most common solar troubleshooting questions. Before replacing anything, work through this checklist:
+
+1.  **Is it actually overloaded?** Add up the running watts of everything on that circuit. If you're pulling more amps than the wire is rated for, the protection is doing its job.
+2.  **Loose connection?** A loose lug creates resistance → heat → the breaker senses heat and trips. Check torque on all terminals.
+3.  **Undersized wire?** If someone installed too-thin wire for the load, it heats up and trips the breaker. The fix is bigger wire, not a bigger breaker.
+4.  **Short circuit?** Look for pinched wires, chafed insulation, or water intrusion. A short trips the breaker instantly, not after a delay.
+5.  **Wrong breaker type?** DC breakers and AC breakers behave differently. A DC-rated breaker may nuisance-trip if it's actually an AC unit being used on DC.
+
+<a href="solar-fuses-vs-breakers.html" class="text-link">Solar fuses vs breakers (what to use where)</a> <a href="solar-output-troubleshooting.html" class="text-link">Low solar output troubleshooting</a>
 
 ## FAQ
 

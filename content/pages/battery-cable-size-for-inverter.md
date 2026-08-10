@@ -18,8 +18,30 @@ image_height = 1024
 ## Key takeaways
 
 -   Battery-to-inverter cables are often the **highest-current** wires in a solar system.
--   Longer runs and lower voltage (especially 12V) create voltage sag that can look like a “bad battery” or “bad inverter.”
+-   Longer runs and lower voltage (especially 12V) create voltage sag that can look like a "bad battery" or "bad inverter."
 -   Good results come from sizing the **whole chain**: cable, lugs, fuse/breaker, disconnect, and terminations.
+
+## Quick reference: common inverter sizes and cable gauge
+
+This table gives you a planning-level starting point for **copper cable** with a **short run** (under 5 feet one-way). Longer runs need upsizing — see Step 2.
+
+| Inverter size | Battery voltage | Approx. max amps | Cable gauge (AWG) |
+| :-- | :-- | :-- | :-- |
+| 300W | 12V | ~25A | 10 AWG |
+| 500W | 12V | ~42A | 8 AWG |
+| 1000W | 12V | ~83A | 4 AWG |
+| 1000W | 24V | ~42A | 8 AWG |
+| 1500W | 12V | ~125A | 2/0 AWG |
+| 1500W | 24V | ~63A | 4 AWG |
+| 2000W | 12V | ~167A | 4/0 AWG |
+| 2000W | 24V | ~83A | 4 AWG |
+| 2000W | 48V | ~42A | 8 AWG |
+| 3000W | 24V | ~125A | 2/0 AWG |
+| 3000W | 48V | ~63A | 4 AWG |
+
+**How to use this table:** find your inverter wattage and battery voltage. The gauge shown is a minimum for a short run. If your cable path is longer than 5 feet, go one size thicker. Always verify against the inverter manufacturer's specs and local codes.
+
+These numbers assume an inverter efficiency of ~85%. Real current varies with load, battery state of charge, and temperature.
 
 <a href="wiring-decisions.html" class="text-link">Solar wiring decisions (pillar hub)</a> <a href="solar-wire-size.html" class="text-link">Solar wire size: choose the right gauge</a>
 
@@ -62,9 +84,21 @@ If you’re tempted to place the inverter “where it fits,” re-check the cabl
 
 Voltage drop on inverter cables isn’t just “lost efficiency.” It can change equipment behavior: voltage sag can trigger inverter alarms, shutdowns, and reduced surge capability.
 
+**Rule of thumb:** keep voltage drop under **3%** for battery-to-inverter runs. For a 12V system, that means losing less than **0.36V** under full load.
+
 A simple planning mindset is: keep voltage drop low enough that the inverter sees a stable battery voltage under load. If you’ve ever seen the inverter shut off even though the battery reads “fine” at rest, wiring voltage drop is a top suspect.
 
-<a href="solar-output-troubleshooting.html" class="text-link">Low solar output troubleshooting (symptoms vs causes)</a>
+### Quick voltage-drop check
+
+Measure battery voltage at the battery terminals, then at the inverter terminals, while running a moderate load. If the inverter-side reading is **more than 0.5V lower** (at 12V), your cables are too thin or too long.
+
+| System voltage | Max acceptable drop (3%) | Symptoms if exceeded |
+| :-- | :-- | :-- |
+| 12V | 0.36V | Inverter low-voltage alarm/shutdown |
+| 24V | 0.72V | Reduced surge capacity, intermittent faults |
+| 48V | 1.44V | Usually only an issue on very long runs |
+
+<a href="solar-output-troubleshooting.html" class="text-link">Low solar output troubleshooting (symptoms vs causes)</a> <a href="inverter-keeps-shutting-off-troubleshooting.html" class="text-link">Inverter keeps shutting off (troubleshooting)</a>
 
 ## Step 4: Choose cable + lugs + protection as a system
 
@@ -95,7 +129,17 @@ For similar power, higher voltage means lower current. Lower current usually mea
 
 This is one reason many systems “graduate” from 12V to 24V or 48V as inverter size and loads increase.
 
-<a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose solar system voltage</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system (start-to-finish flow)</a>
+### Same 2000W inverter at different voltages
+
+| Battery voltage | Max current (approx) | Typical cable | Typical fuse |
+| :-- | :-- | :-- | :-- |
+| 12V | ~167A | 4/0 AWG (very thick, hard to bend) | 200–250A |
+| 24V | ~83A | 4 AWG | 100–125A |
+| 48V | ~42A | 8 AWG | 60–80A |
+
+Going from 12V to 48V for the same inverter means cable cross-section drops by roughly **4x**, and copper cost drops similarly. This is why higher-voltage systems scale better for large loads.
+
+<a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose solar system voltage</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system (start-to-finish flow)</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V comparison</a>
 
 ## Common mistakes (and how to avoid them)
 
