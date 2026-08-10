@@ -5,10 +5,11 @@ slug = "off-grid-solar-system-setup-guide"
 date = 2026-05-31
 draft = false
 description = "Learn how to set up an off-grid solar system with our comprehensive guide. Discover key components, calculate costs, and maximize efficiency for energy independence."
-image = "/images/off-grid-solar-system-setup-guide/hero.webp"
+image = "/assets/images/field-guide/system-planner-architecture.jpg"
+image_alt = "Architecture diagram showing solar panel, charge controller, battery, inverter, and loads"
 author = "Solar Powered Project"
-image_width = 1536
-image_height = 1024
+image_width = 1024
+image_height = 576
 +++
 
 \# Complete Off-Grid Solar System Setup Guide: A Practical Roadmap

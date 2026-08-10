@@ -5,10 +5,11 @@ slug = "how-many-solar-panels-to-power-a-house"
 date = 2026-05-31
 draft = false
 description = "Find out how many solar panels you need to power your house. Calculate based on energy usage, roof space, panel wattage and location."
-image = "/images/how-many-solar-panels-to-power-a-house/hero.webp"
+image = "/assets/images/field-guide/system-sizing-concept.jpg"
+image_alt = "Infographic showing the path from household energy needs to panel count and battery storage"
 author = "Solar Powered Project"
-image_width = 1536
-image_height = 864
+image_width = 1024
+image_height = 768
 +++
 
 \# How Many Solar Panels to Power a House? A Complete Guide for Homeowners

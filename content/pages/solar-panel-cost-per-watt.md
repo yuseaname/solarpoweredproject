@@ -5,10 +5,11 @@ slug = "solar-panel-cost-per-watt"
 date = 2026-05-31
 draft = false
 description = "Solar panel cost per watt explained with typical ranges, what affects pricing, and how to estimate panel cost for your system size."
-image = "/images/solar-panel-cost-per-watt/hero.webp"
+image = "/assets/images/field-guide/social-og-fallback.jpg"
+image_alt = "Solar planning workspace relevant to cost-per-watt estimation"
 author = "Solar Powered Project"
-image_width = 1536
-image_height = 1024
+image_width = 1024
+image_height = 576
 +++
 
 ## Key takeaways

@@ -5,10 +5,11 @@ slug = "12v-vs-24v-vs-48v-solar"
 date = 2026-05-31
 draft = false
 description = "Compare 12V vs 24V vs 48V solar systems for current, wiring, inverter sizing, efficiency, and common use cases like RVs and cabins."
-image = "/images/12v-vs-24v-vs-48v-solar/hero.webp"
+image = "/assets/images/field-guide/system-planner-architecture.jpg"
+image_alt = "Solar power system architecture diagram relevant to voltage selection"
 author = "Solar Powered Project"
-image_width = 1536
-image_height = 1024
+image_width = 1024
+image_height = 576
 +++
 
 ## Key takeaways

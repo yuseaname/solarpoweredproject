@@ -5,12 +5,13 @@ slug = "solar-panel-output"
 date = 2026-05-31
 draft = false
 description = "Estimate daily solar panel output in watt-hours and kWh. Enter panel watts, peak sun hours, and system efficiency to size batteries and loads."
-image = "/images/solar-panel-output/hero.webp"
+image = "/assets/images/field-guide/system-sizing-concept.jpg"
+image_alt = "Sizing infographic showing how panel output feeds into the system planning flow"
 author = "Solar Powered Project"
 updated = 2026-08-09
 keywords = ["solar panel output calculator", "solar panel watt hours", "daily solar production", "peak sun hours calculator", "solar panel kwh per day"]
-image_width = 1536
-image_height = 1024
+image_width = 1024
+image_height = 768
 +++
 
 ## Quick estimate

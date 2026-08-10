@@ -5,10 +5,11 @@ slug = "solar-components"
 date = 2026-05-31
 draft = false
 description = "Understand solar panels, inverters, charge controllers, and batteries. Clear component roles with links to comparisons and sizing guides."
-image = "/images/solar-components/hero.webp"
+image = "/assets/images/field-guide/system-planner-architecture.jpg"
+image_alt = "One-line architecture diagram of a complete solar battery power system"
 author = "Solar Powered Project"
-image_width = 1536
-image_height = 1024
+image_width = 1024
+image_height = 576
 +++
 
 ## Key takeaways

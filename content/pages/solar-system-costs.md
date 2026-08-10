@@ -5,10 +5,11 @@ slug = "solar-system-costs"
 date = 2026-05-31
 draft = false
 description = "Solar system cost breakdown with typical price ranges for panels, batteries, inverters, and balance-of-system hardware."
-image = "/images/solar-system-costs/hero.webp"
+image = "/assets/images/field-guide/social-og-fallback.jpg"
+image_alt = "Editorial still life of solar planning tools including panel sample, clamp meter, and notebook"
 author = "Solar Powered Project"
-image_width = 1536
-image_height = 1024
+image_width = 1024
+image_height = 576
 +++
 
 ## Key takeaways

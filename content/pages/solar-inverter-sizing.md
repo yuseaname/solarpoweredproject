@@ -5,10 +5,11 @@ slug = "solar-inverter-sizing"
 date = 2026-05-31
 draft = false
 description = "Inverter sizing for solar systems: calculate peak watts, surge watts, and how inverter choice affects battery capacity and solar panel sizing."
-image = "/images/solar-inverter-sizing/hero.webp"
+image = "/assets/images/field-guide/system-planner-architecture.jpg"
+image_alt = "Architecture diagram showing inverter placement in a solar battery system"
 author = "Solar Powered Project"
-image_width = 1536
-image_height = 1024
+image_width = 1024
+image_height = 576
 +++
 
 ## Key takeaways

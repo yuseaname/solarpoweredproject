@@ -5,12 +5,13 @@ slug = "solar-system-sizing"
 date = 2026-05-31
 draft = false
 description = "Size a solar system from daily load to panels, battery, inverter, and charge controller. Use the interactive load planner, formulas, and next-step links."
-image = "/images/solar-system-sizing/hero.webp"
+image = "/assets/images/field-guide/system-sizing-concept.jpg"
+image_alt = "Infographic showing solar system sizing flow from appliance loads through watt-hours to panels, battery, and inverter"
 author = "Solar Powered Project"
 updated = 2026-08-09
 keywords = ["solar system sizing", "how to size solar system", "solar load calculator", "off grid solar sizing", "solar panel sizing"]
-image_width = 1536
-image_height = 1024
+image_width = 1024
+image_height = 768
 +++
 
 ## Key takeaways

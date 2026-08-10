@@ -5,10 +5,11 @@ slug = "solar-payback-calculator"
 date = 2026-08-09
 draft = false
 description = "Estimate how long it takes for solar panels to pay for themselves. Enter system cost, annual production, electricity rate, and incentives to see payback, 25-year savings, and NPV."
-image = "/assets/images/solar-payback-calculator/solar-payback-calculator-hero.jpg"
+image = "/assets/images/field-guide/social-og-fallback.jpg"
+image_alt = "Editorial still life of solar planning tools for payback calculation"
 author = "Solar Powered Project"
-image_width = 1200
-image_height = 630
+image_width = 1024
+image_height = 576
 +++
 
 # Solar Payback Calculator

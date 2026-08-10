@@ -5,10 +5,11 @@ slug = "solar-battery-cost-2026"
 date = 2026-05-31
 draft = false
 description = "In 2026, a typical residential solar battery system costs between $10,000 and $20,000 installed, depending on capacity and brand. For a standard 10 kWh system,"
-image = "/images/solar-battery-cost-2026/hero.webp"
+image = "/assets/images/field-guide/social-og-fallback.jpg"
+image_alt = "Solar planning workspace with panel sample and calculation tools for cost estimation"
 author = "Solar Powered Project"
-image_width = 1536
-image_height = 1024
+image_width = 1024
+image_height = 576
 +++
 
 In 2026, a typical residential solar battery system costs between **$10,000 and $20,000 installed**, depending on capacity and brand. For a standard 10 kWh system, homeowners can expect to pay approximately **$1,000 to $1,400 per kWh** before incentives. With the federal Investment Tax Credit (ITC) applied, the net cost drops significantly, often bringing the price closer to **$8,000–$11,000** for a complete setup. These prices reflect a continued decline from 2025, making energy storage more accessible than ever for maximizing solar investments and ensuring backup power resilience.

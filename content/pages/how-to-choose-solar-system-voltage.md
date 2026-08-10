@@ -5,10 +5,11 @@ slug = "how-to-choose-solar-system-voltage"
 date = 2026-05-31
 draft = false
 description = "Choose the right solar system voltage by load size, inverter watts, cable runs, and future expansion. Practical rules of thumb and examples."
-image = "/images/how-to-choose-solar-system-voltage/hero.webp"
+image = "/assets/images/field-guide/system-planner-architecture.jpg"
+image_alt = "System architecture diagram showing component relationships for voltage planning"
 author = "Solar Powered Project"
-image_width = 1536
-image_height = 1024
+image_width = 1024
+image_height = 576
 +++
 
 ## Key takeaways

@@ -5,10 +5,11 @@ slug = "solar-fuse-and-breaker-sizing"
 date = 2026-05-31
 draft = false
 description = "Solar fuse sizing and breaker sizing explained with a circuit-by-circuit planning flow: PV array, controller-to-battery, battery-to-inverter, and service disconnects using DC-rated hardware."
-image = "/images/solar-fuse-and-breaker-sizing/hero.webp"
+image = "/assets/images/field-guide/wiring-protection-diagram.jpg"
+image_alt = "Wiring protection diagram showing fuse and disconnect placement between battery and inverter"
 author = "Solar Powered Project"
-image_width = 1536
-image_height = 1024
+image_width = 1024
+image_height = 768
 +++
 
 ## Table of contents
