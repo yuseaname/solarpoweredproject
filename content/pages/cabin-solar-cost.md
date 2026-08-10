@@ -109,7 +109,7 @@ These ranges are intentionally broad. The point is to set expectations before yo
 
 The most expensive mistakes happen when parts are chosen before you know your daily energy use and peak load. A larger inverter can force heavier wiring, bigger fusing, and more battery capacity—so one “upgrade” can multiply costs.
 
-<a href="cabin-solar-sizing.html" class="text-link">How to size a solar system for a cabin</a> <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter</a> <a href="battery-capacity.html" class="text-link">Battery capacity calculator</a>
+<a href="cabin-solar-sizing.html" class="text-link">How to size a solar system for a cabin</a> <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a>
 
 ## Where cabin solar systems typically overspend
 
@@ -125,7 +125,7 @@ Disconnects, breakers, fuses, bus bars, and quality cable are not optional in a 
 
 Comparing batteries by nameplate kWh only can lead to poor value. Usable kWh and cycle life are the practical comparison points.
 
-<a href="solar-battery-cost-per-kwh.html" class="text-link">Battery cost per kWh (how to compare)</a> <a href="li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a>
+<a href="solar-battery-cost-per-kwh.html" class="text-link">Battery cost per kWh (how to compare)</a> <a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a>
 
 ## FAQ
 

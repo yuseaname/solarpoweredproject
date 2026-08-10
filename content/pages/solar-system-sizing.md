@@ -132,7 +132,7 @@ Divide daily Wh by average peak sun hours to estimate needed panel watts.
 
 Choose a battery bank to cover the number of hours or days you want in reserve.
 
-<a href="battery-capacity.html" class="text-link">Use the battery capacity calculator →</a>
+<a href="/pages/battery-capacity.html" class="text-link">Use the battery capacity calculator →</a>
 
 ## Step 4: Size the inverter
 

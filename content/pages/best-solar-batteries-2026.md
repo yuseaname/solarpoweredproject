@@ -128,8 +128,8 @@ In 2026, residential storage paired with solar generally qualifies for the 30% f
 ## Related guides
 
 - <a href="../guides/solar-battery-cost-2026.html" class="text-link">Solar battery cost in 2026</a>
-- <a href="battery-capacity.html" class="text-link">Battery capacity calculator</a>
-- <a href="li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid batteries</a>
+- <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a>
+- <a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid batteries</a>
 - <a href="solar-battery-backup-vs-generator.html" class="text-link">Battery backup vs generator</a>
 - <a href="solar-components.html" class="text-link">Solar components explained</a>
 

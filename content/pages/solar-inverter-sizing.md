@@ -41,7 +41,7 @@ Inverters draw significant current from the battery, especially at lower system 
 
 Example: 1,000W ÷ (12V × 0.9) ≈ 93A. High currents impact wiring size, fusing, and heat.
 
-<a href="battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-components.html" class="text-link">Components overview</a>
+<a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-components.html" class="text-link">Components overview</a>
 
 ## Step 4: Choose inverter type and waveform
 

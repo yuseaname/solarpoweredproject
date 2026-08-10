@@ -104,4 +104,4 @@ It can influence array configuration and controller choices. Always verify your 
 
 ## Next logical reads
 
-<a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose solar system voltage</a> <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter</a> <a href="battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a>
+<a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose solar system voltage</a> <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a>

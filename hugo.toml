@@ -5,16 +5,15 @@ theme = 'adsense-base'
 disableHugoGeneratorInject = true
 uglyURLs = true
 
-# Don't generate section/term pages since all content is static HTML
 disableKinds = ['taxonomy', 'term']
 
 [params]
   site_name = 'Solar Powered Project'
-  description = 'Clear guides on solar power, off-grid energy, and DIY renewable projects. No jargon, just answers.'
-  tagline = 'Solar power, simplified.'
+  description = 'Practical field guides for independent power systems: solar, batteries, wiring, costs, and reality-checked off-grid projects.'
+  tagline = 'Practical independent power, made clearer.'
   author = 'Solar Powered Project'
-  favicon = '/assets/images/solarpoweredproject%20logo.png'
-  og_image = '/assets/images/solarpoweredproject%20logo.png'
+  favicon = '/assets/images/solarpoweredproject-logo.png'
+  og_image = '/assets/images/solarpoweredproject-og.png'
   google_site_verification = ''
 
   [params.adsense]
@@ -41,7 +40,4 @@ disableKinds = ['taxonomy', 'term']
     unsafe = true
 
 ignoreLogs = ['warning-goldmark-raw-html']
-
-# Legacy static HTML duplicates content pages and would otherwise overwrite
-# Hugo-rendered pages after the build. Keep static media, but let Hugo own routes.
-ignoreFiles = ['^static/.*\\.html$']
+ignoreFiles = ['^static/.*\.html$']

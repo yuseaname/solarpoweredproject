@@ -54,7 +54,7 @@ Autonomy is how long you can run without meaningful solar input. Many cabin setu
 
 DoD (depth of discharge) is how much of the battery you plan to use regularly. Using a more conservative DoD can improve longevity.
 
-<a href="battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-battery-cost-per-kwh.html" class="text-link">Battery cost per kWh</a> <a href="li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a>
+<a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-battery-cost-per-kwh.html" class="text-link">Battery cost per kWh</a> <a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a>
 
 ## Step 3: Size solar panels to refill the battery each day
 

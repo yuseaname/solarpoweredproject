@@ -42,6 +42,6 @@ image_height = 1024
 
 ## Next logical reads
 
-<a href="battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-components.html" class="text-link">Components overview</a> <a href="solar-system-costs.html" class="text-link">Cost breakdown</a>
+<a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-components.html" class="text-link">Components overview</a> <a href="solar-system-costs.html" class="text-link">Cost breakdown</a>
 
-- <a href="best-solar-batteries-2026.html" class="text-link">Best solar batteries 2026 comparison</a>
+- <a href="/pages/best-solar-batteries-2026.html" class="text-link">Best solar batteries 2026 comparison</a>

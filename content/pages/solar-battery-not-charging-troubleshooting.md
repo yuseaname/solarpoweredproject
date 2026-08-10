@@ -72,7 +72,7 @@ A battery can “refuse charge” for reasons that are protective rather than br
 
 The safest approach is to use your battery manufacturer’s documentation and app (if available) rather than guessing.
 
-<a href="li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid batteries</a> <a href="battery-capacity.html" class="text-link">Battery capacity calculator</a>
+<a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid batteries</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a>
 
 ## Step 4: Compare charge current vs load (net charging)
 

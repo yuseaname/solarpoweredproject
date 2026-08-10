@@ -73,7 +73,7 @@ Controllers may intentionally limit current in absorption/float, or stop chargin
 -   Check for scheduled charge windows (some systems support this).
 -   Look for error states (overvoltage, overtemp, PV overvoltage, etc.).
 
-<a href="li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid (charging behavior differences)</a>
+<a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid (charging behavior differences)</a>
 
 ## Step 5: Battery protections (BMS, temperature, full battery)
 

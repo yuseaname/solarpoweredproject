@@ -58,7 +58,7 @@ There are two primary ways to attach panels to a mobile home roof:
 1.  **Penetrative Mounting:** This involves drilling into the roof to secure bolts. While this provides the most secure hold against wind, it creates potential leak points. For mobile homes, waterproofing these penetrations is the highest priority.
 2.  **Ballasted Mounting:** This method uses heavy weights (usually rubberized-bottomed blocks) to hold the panels in place via gravity. This is excellent for preventing leaks because it doesn't require drilling. However, it adds significant weight to the structure, which brings us back to the importance of checking your load-bearing capacity.
 
-**Pro Tip:** If you are also considering solar for smaller, specialized structures like cabins or sheds, you might want to review our detailed guide on [cabin solar cost and sizing](/pages/cabin-t-solar-cost-and-sizing.html) to understand how different-sized footprints affect your budget.
+**Pro Tip:** If you are also considering solar for smaller, specialized structures like cabins or sheds, you might want to review our detailed guide on [cabin solar cost and sizing](/pages/cabin-solar-sizing.html) to understand how different-sized footprints affect your budget.
 
 ---
 

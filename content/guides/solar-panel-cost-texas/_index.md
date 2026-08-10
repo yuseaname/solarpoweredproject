@@ -103,7 +103,7 @@ Texas offers a **100% property tax exemption** on the added value of solar equip
 
 A 10 kW system in Texas producing roughly 15,000 kWh/year at $0.14/kWh saves about **$2,100/year** on electricity. With a net cost near **$17,000**, simple payback is about **8 years**. Over 25 years, cumulative savings can exceed **$40,000–$50,000** before accounting for rising utility rates.
 
-Adding a battery can improve economics if your utility charges time-of-use rates or offers low export compensation. See [solar battery cost 2026](../solar-battery-cost-2026/) for battery pricing.
+Adding a battery can improve economics if your utility charges time-of-use rates or offers low export compensation. See [solar battery cost 2026](/guides/solar-battery-cost-2026.html) for battery pricing.
 
 ## Is Solar Worth It in Texas in 2026?
 
@@ -111,12 +111,12 @@ Yes, for most homeowners with good sun exposure and a roof in reasonable conditi
 
 ## Related guides
 
-- <a href="../solar-panel-cost-california/" class="text-link">Solar panel cost in California</a>
-- <a href="../../pages/solar-panel-cost-per-watt.html" class="text-link">Solar panel cost per watt explained</a>
-- <a href="../../pages/solar-system-costs.html" class="text-link">Solar system cost breakdown</a>
-- <a href="../../pages/solar-panel-tax-credit.html" class="text-link">Federal solar tax credit</a>
-- <a href="../../pages/how-many-solar-panels-to-power-a-house.html" class="text-link">How many solar panels do I need?</a>
-- <a href="../../pages/solar-system-sizing.html" class="text-link">Solar system sizing guide</a>
+- <a href="/guides/solar-panel-cost-california.html" class="text-link">Solar panel cost in California</a>
+- <a href="/pages/solar-panel-cost-per-watt.html" class="text-link">Solar panel cost per watt explained</a>
+- <a href="/pages/solar-system-costs.html" class="text-link">Solar system cost breakdown</a>
+- <a href="/pages/solar-panel-tax-credit.html" class="text-link">Federal solar tax credit</a>
+- <a href="/pages/how-many-solar-panels-to-power-a-house.html" class="text-link">How many solar panels do I need?</a>
+- <a href="/pages/solar-system-sizing.html" class="text-link">Solar system sizing guide</a>
 - <a href="solar-panel-cost-florida.html" class="text-link">Solar panel cost in Florida</a>
 - <a href="solar-panel-cost-arizona.html" class="text-link">Solar panel cost in Arizona</a>
 - <a href="solar-panel-cost-new-york.html" class="text-link">Solar panel cost in New York</a>

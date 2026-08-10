@@ -263,7 +263,7 @@ Yes, this is called retrofitting. Many 2026 battery models, such as the Enphase 
 {{< /faq >}}
 
 {{< faq "Do solar batteries degrade over time?" >}}
-Yes, all chemical batteries degrade over time. Lithium-ion batteries typically lose about 1% to 2% of their capacity per year. This means a 10 kWh battery might only hold 8 kWh after 10 years. Manufacturers warranty against this degradation, guaranteeing a certain capacity retention (e.g., 70% after 10 years) to ensure the battery remains functional throughout its lifespan. - <a href="best-solar-batteries-2026.html" class="text-link">Best solar batteries 2026 comparison</a>
+Yes, all chemical batteries degrade over time. Lithium-ion batteries typically lose about 1% to 2% of their capacity per year. This means a 10 kWh battery might only hold 8 kWh after 10 years. Manufacturers warranty against this degradation, guaranteeing a certain capacity retention (e.g., 70% after 10 years) to ensure the battery remains functional throughout its lifespan. - <a href="/pages/best-solar-batteries-2026.html" class="text-link">Best solar batteries 2026 comparison</a>
 {{< /faq >}}
 
 {{< faq-schema >}}

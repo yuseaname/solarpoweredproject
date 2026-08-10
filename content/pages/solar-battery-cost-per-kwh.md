@@ -43,7 +43,7 @@ A common range is **$200 to $900 per kWh**, depending on chemistry, quality tier
 </tbody>
 </table>
 
-Related: <a href="li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid comparison</a>
+Related: <a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid comparison</a>
 
 ## Use “cost per usable kWh” (not nameplate kWh)
 
@@ -53,7 +53,7 @@ A battery’s nameplate capacity isn’t always the amount you should regularly 
 
 Example: A 10 kWh battery used to 80% DoD has about **8 kWh usable** in typical operation.
 
-Calculator: <a href="battery-capacity.html" class="text-link">Battery capacity calculator</a>
+Calculator: <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a>
 
 ## A practical comparison: cost per lifetime usable kWh
 
@@ -107,4 +107,4 @@ Not always. Batteries can be about resilience and backup rather than pure paybac
 
 ## Next logical reads
 
-<a href="solar-panel-cost-per-watt.html" class="text-link">Solar panel cost per watt</a> <a href="li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a> <a href="battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a>
+<a href="solar-panel-cost-per-watt.html" class="text-link">Solar panel cost per watt</a> <a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a>

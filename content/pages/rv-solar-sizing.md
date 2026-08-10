@@ -33,7 +33,7 @@ Pick an autonomy target: how long you want to run without meaningful solar input
 
 **Battery Wh** ≈ Daily Wh × Days of autonomy ÷ DoD
 
-<a href="battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a>
+<a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a>
 
 RV note: if you regularly run high-draw AC devices, plan for inverter losses and short bursts of higher power.
 
@@ -108,4 +108,4 @@ It can, but it typically requires a large battery bank, substantial panel wattag
 
 ## Next logical reads
 
-<a href="rv-solar-cost.html" class="text-link">RV solar system cost breakdown</a> <a href="battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown (general)</a> <a href="solar-use-cases.html" class="text-link">More solar use cases</a>
+<a href="rv-solar-cost.html" class="text-link">RV solar system cost breakdown</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown (general)</a> <a href="solar-use-cases.html" class="text-link">More solar use cases</a>

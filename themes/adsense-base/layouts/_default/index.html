@@ -1,54 +1,9 @@
 {{ define "main" }}
-<div class="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
-  <header class="mb-10">
-    <h1 class="text-4xl sm:text-5xl font-bold text-gray-900">{{ .Site.Params.site_name | default .Site.Title }}</h1>
-    {{ with .Site.Params.description }}<p class="text-xl text-gray-600 mt-3">{{ . }}</p>{{ end }}
-  </header>
-
-  {{/* Ad slot: homepage top */}}
-  {{ if .Site.Params.adsense.client_id }}{{ partial "adsense.html" (dict "position" "below_title" "ctx" .) }}{{ end }}
-
-  {{/* Featured/Latest Articles */}}
-  <section class="mb-12" aria-label="Latest articles">
-    <h2 class="text-2xl font-bold text-gray-900 mb-6">Latest Articles</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      {{ range first 6 .Site.RegularPages.ByDate.Reverse }}
-        <article class="group">
-          <a href="{{ .RelPermalink }}" class="block h-full">
-            {{ with .Params.image }}
-              <div class="aspect-video bg-gray-100 rounded-lg overflow-hidden mb-3">
-                <img src="{{ . }}" alt="{{ $.Title }}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200" loading="lazy">
-              </div>
-            {{ end }}
-            <h3 class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">{{ .Title }}</h3>
-            <p class="text-sm text-gray-500 mt-1">{{ .Date.Format "Jan 2, 2006" }}</p>
-          </a>
-        </article>
-      {{ end }}
-    </div>
-  </section>
-
-  {{/* Category sections */}}
-  {{ range .Site.Sections }}
-    {{ if gt (len .Pages) 0 }}
-    <section class="mb-12" aria-label="{{ .Title }} articles">
-      <h2 class="text-2xl font-bold text-gray-900 mb-6">{{ .Title }}</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        {{ range first 4 (where .RegularPages ".Kind" "page") }}
-          <a href="{{ .RelPermalink }}" class="group flex gap-3 p-3 rounded-lg hover:bg-gray-50">
-            {{ with .Params.image }}
-              <img src="{{ . }}" alt="" class="w-20 h-20 object-cover rounded flex-shrink-0" loading="lazy">
-            {{ end }}
-            <div>
-              <h3 class="font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2">{{ .Title }}</h3>
-              {{ with .Date }}<time datetime="{{ .Format "2006-01-02" }}" class="text-xs text-gray-400 mt-1 block">{{ .Format "Jan 2, 2006" }}</time>{{ end }}
-            </div>
-          </a>
-        {{ end }}
-      </div>
-      <a href="{{ .RelPermalink }}" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block">View all {{ .Title }} →</a>
-    </section>
-    {{ end }}
-  {{ end }}
-</div>
+<section class="home-hero"><div class="home-hero-grid"><div class="hero-copy"><p class="section-kicker">Independent power, made clearer</p><h1>Build a <em>better plan</em> for your power.</h1><p class="hero-dek">Solar, batteries, wiring, costs, and off-grid projects—explained with real assumptions and useful next steps.</p><div class="hero-actions"><a class="button button-solar" href="{{ "/pages/solar-system-sizing.html" | relURL }}">Start with system sizing <span aria-hidden="true">→</span></a><a class="button button-quiet" href="#choose-setup">Choose your setup</a></div><p class="hero-proof"><span>◒</span> Clear assumptions <span>◒</span> Honest tradeoffs <span>◒</span> Safety-first guidance</p></div><div class="hero-art" aria-label="A solar planning workspace"><div class="sun-disc"></div><div class="panel-sketch"><b></b><b></b><b></b><b></b><b></b><b></b></div><div class="hero-note"><span>FIELD NOTE 01</span><strong>Start with daily energy,<br>not panel count.</strong><i>System planning guide ↗</i></div><div class="cable-line"></div></div></div></section>
+<section class="setup-section" id="choose-setup"><div class="section-heading"><p class="section-kicker">Find your path</p><h2>What are you trying to power?</h2><p>Start with the situation—not a product list. Each path leads to the right calculations and tradeoffs.</p></div><div class="setup-grid"><a href="{{ "/pages/how-many-solar-panels-to-power-a-house.html" | relURL }}"><span class="setup-number">01</span><strong>Home solar</strong><small>Plan a household system</small></a><a href="{{ "/pages/cabin-solar-sizing.html" | relURL }}"><span class="setup-number">02</span><strong>Cabin or off-grid</strong><small>Match storage to real loads</small></a><a href="{{ "/pages/rv-solar-sizing.html" | relURL }}"><span class="setup-number">03</span><strong>RV or van</strong><small>Build for mobile energy</small></a><a href="{{ "/pages/solar-battery-backup-vs-generator.html" | relURL }}"><span class="setup-number">04</span><strong>Backup power</strong><small>Keep critical loads running</small></a><a href="{{ "/pages/solar-panels-for-sheds.html" | relURL }}"><span class="setup-number">05</span><strong>Shed or small project</strong><small>Right-size a compact setup</small></a><a class="setup-lab" href="{{ "/diy-off-grid-energy.html" | relURL }}"><span class="setup-number">06</span><strong>Project Lab</strong><small>Test alternative generation honestly</small></a></div></section>
+<section class="planner-feature"><div class="planner-copy"><p class="section-kicker">The System Planner</p><h2>Plan the whole system—one decision at a time.</h2><p>Our sizing guide starts with the energy you actually use, then takes you through panels, batteries, voltage, inverter capacity, and protection.</p><a class="arrow-link bold-link" href="{{ "/pages/solar-system-sizing.html" | relURL }}">Open the system sizing guide <span aria-hidden="true">→</span></a></div><ol class="decision-trail"><li><span>1</span><div><strong>Estimate usage</strong><small>Turn everyday loads into watt-hours.</small></div></li><li><span>2</span><div><strong>Size panels & storage</strong><small>Plan for production and reserve.</small></div></li><li><span>3</span><div><strong>Choose & protect</strong><small>Set voltage, inverter, wire, and protection.</small></div></li></ol></section>
+<section class="editorial-split"><div class="section-heading"><p class="section-kicker">Read by next decision</p><h2>Practical answers, in the order they matter.</h2></div><div class="editorial-grid"><article class="lead-story"><p class="eyebrow">Costs & payback</p><h3><a href="{{ "/pages/solar-system-costs.html" | relURL }}">What will a solar system really cost?</a></h3><p>Understand the inputs behind system price, batteries, incentives, and payback before you compare quotes.</p><a class="arrow-link" href="{{ "/pages/solar-system-costs.html" | relURL }}">Explore system costs <span aria-hidden="true">→</span></a></article><div class="story-stack"><article><p class="eyebrow">Build & fix</p><h3><a href="{{ "/pages/wiring-decisions.html" | relURL }}">Make safer wiring decisions</a></h3><p>Choose wire, fuses, breakers, and disconnects with the whole system in view.</p></article><article><p class="eyebrow">Components</p><h3><a href="{{ "/pages/solar-components.html" | relURL }}">Know what each component does</a></h3><p>A clear map of panels, controllers, batteries, inverters, and protection.</p></article></div></div></section>
+{{ if .Site.Params.adsense.client_id }}{{ partial "adsense.html" (dict "position" "below_title" "ctx" .) }}{{ end }}
+<section class="lab-feature"><div class="lab-art"><span class="lab-tag">PROJECT LAB</span><div class="lab-wheel"></div><div class="lab-meter"><i></i><i></i><i></i></div></div><div><p class="section-kicker">Alternative generation, measured honestly</p><h2>Before you build a DIY generator, calculate what it can actually produce.</h2><p>Micro-hydro, wind, pedal power, and storage experiments can teach you a lot. The Project Lab puts feasibility, safety, and real output before the build list.</p><a class="button button-ink" href="{{ "/diy-off-grid-energy.html" | relURL }}">Visit Project Lab <span aria-hidden="true">→</span></a></div></section>
+<section class="trust-strip"><div><span class="trust-symbol">≈</span><strong>Assumptions shown</strong><p>See what changes the answer.</p></div><div><span class="trust-symbol">↗</span><strong>Sources where they matter</strong><p>Costs, claims, and safety in context.</p></div><div><span class="trust-symbol">□</span><strong>Editorially independent</strong><p>Advertising does not direct coverage.</p></div></section>
 {{ end }}

@@ -99,7 +99,7 @@ One of the most powerful components of **solar financing options** is the impact
 
 The most significant incentive available to US homeowners is the Federal Solar Tax Credit. Under the Inflation Reduction Act, homeowners can deduct a substantial percentage of their solar installation costs from their federal income taxes.
 
-For example, if your system costs \\20,000 and the credit is 30%, you could receive a \\6,000 credit against your tax liability. This essentially acts as a massive "rebate" on your investment. To understand how this works in detail and how to calculate your potential savings, check out our deep dive on [solar tax credits](/pages/solar-tax-credit.html).
+For example, if your system costs \\20,000 and the credit is 30%, you could receive a \\6,000 credit against your tax liability. This essentially acts as a massive "rebate" on your investment. To understand how this works in detail and how to calculate your potential savings, check out our deep dive on [solar tax credits](/pages/solar-panel-tax-credit.html).
 
 ### State and Local Incentives
 

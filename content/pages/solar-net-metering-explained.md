@@ -58,7 +58,7 @@ Solar panels require a significant upfront investment. To calculate how long it 
 
 ### 3. Synergy with Other Incentives
 
-Net metering does not exist in a vacuum. It works in tandem with federal and state incentives to maximize your savings. For instance, while net metering handles your ongoing energy usage, the [federal solar tax credit](/pages/solar-tax-credit.html) significantly reduces the initial cost of your installation. When you combine the reduction in upfront costs from the tax credit with the long-term savings from net metering, the financial argument for solar becomes much more compelling.
+Net metering does not exist in a vacuum. It works in tandem with federal and state incentives to maximize your savings. For instance, while net metering handles your ongoing energy usage, the [federal solar tax credit](/pages/solar-panel-tax-credit.html) significantly reduces the initial cost of your installation. When you combine the reduction in upfront costs from the tax credit with the long-term savings from net metering, the financial argument for solar becomes much more compelling.
 
 ---
 

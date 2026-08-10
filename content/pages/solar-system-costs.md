@@ -55,7 +55,7 @@ image_height = 1024
 
 System size, battery choice, inverter type, mounting complexity, and local labor rates all affect totals.
 
-<a href="diy-vs-installer.html" class="text-link">DIY vs installer cost</a> <a href="li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a>
+<a href="diy-vs-installer.html" class="text-link">DIY vs installer cost</a> <a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a>
 
 ## Next logical reads
 

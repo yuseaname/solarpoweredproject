@@ -60,7 +60,7 @@ This is the most common “mystery” shutdown: the battery reads fine at rest, 
 -   Solar input is low (clouds, shade, winter sun angle).
 -   Battery capacity is smaller than the loads demand.
 
-<a href="battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-battery-not-charging-troubleshooting.html" class="text-link">Solar battery not charging (checklist)</a>
+<a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-battery-not-charging-troubleshooting.html" class="text-link">Solar battery not charging (checklist)</a>
 
 ### Scenario B: the wiring is causing voltage drop
 
@@ -96,7 +96,7 @@ Some inverters have configurable low-voltage cutoffs or eco/search modes. A mism
 -   Check eco/search mode if small loads cause “cycling.”
 -   Verify any external remote switch or wiring isn’t intermittently disconnecting.
 
-<a href="li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid batteries</a> <a href="solar-components.html" class="text-link">Solar components explained</a>
+<a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid batteries</a> <a href="solar-components.html" class="text-link">Solar components explained</a>
 
 ## Common mistakes
 

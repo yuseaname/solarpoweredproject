@@ -91,4 +91,4 @@ Yes, typically with a DC-DC converter. Plan for it and size it for your 12V load
 
 ## Next logical reads
 
-<a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V comparison</a> <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter</a> <a href="battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a>
+<a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V comparison</a> <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a>

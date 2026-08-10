@@ -53,7 +53,7 @@ Unlike polycrystalline panels, which are made from multiple silicon fragments, m
 
 To make an informed decision, don't just look at the total wattage of the panel; look at its dimensions. A 400W panel that is much larger than a 350W panel might actually be a worse choice for a small roof because it consumes more of your precious real estate. Your goal is to find the highest **wattage-to-size ratio**.
 
-To truly understand how much energy you can extract from your hardware, it is helpful to research [solar panel efficiency](/pages/solar-at-panel-efficiency.html) to see how different cell architectures impact long-term production.
+To truly understand how much energy you can extract from your hardware, it is helpful to research [solar panel efficiency](/pages/solar-panel-efficiency.html) to see how different cell architectures impact long-term production.
 
 ### The Role of PERC Technology
 

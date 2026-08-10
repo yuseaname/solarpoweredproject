@@ -1,28 +1,36 @@
 +++
-title = "About Solar Guide"
+title = "About Solar Powered Project"
 slug = "about"
+aliases = ["/about"]
 date = 2026-05-31
 draft = false
-description = "About SolarPoweredProject.com: our mission, editorial standards, and how we keep solar content practical and independent."
+description = "Solar Powered Project is a practical field guide to independent power systems, built around clear assumptions and useful next decisions."
 author = "Solar Powered Project"
+no_ads = true
 +++
 
-## Our mission
+## A clearer way to plan power
 
-We focus on practical decision-making: system sizing, costs, safety, and real-world performance. The goal is to help you avoid common mistakes and plan realistically before spending money.
+Solar Powered Project helps readers turn a power question into a useful plan. We cover solar systems, batteries, wiring, costs, troubleshooting, and carefully framed off-grid experiments.
 
-## Editorial standards
+Our focus is practical decision-making: what you want to power, the assumptions that shape the answer, the limits that matter, and the next decision to make. We aim to explain the system rather than hand you a generic parts list.
 
-Content is written to be understandable without sacrificing accuracy. We prioritize clear definitions, realistic assumptions, and links to supporting guides. See our <a href="editorial-policy.html" class="text-link">editorial policy</a> for more detail.
+## What we cover
+
+- Solar system sizing, production, storage, inverters, controllers, and protection.
+- Costs, payback, financing, and questions to ask before making a purchase.
+- Use-case planning for homes, cabins, RVs, backup power, and small projects.
+- Troubleshooting and maintenance topics.
+- **Project Lab:** site-specific and educational experiments in alternative generation, clearly separated from everyday solar planning advice.
+
+## How we work
+
+We aim to show assumptions, explain variables, and link to sources where they materially affect safety, policy, cost, performance, or equipment choices. Read our [editorial policy](editorial-policy.html) and [methodology](/methodology.html) for details.
 
 ## Advertising and independence
 
-The site is ad-supported. Ads help fund ongoing updates and new guides. Advertising partners do not control editorial decisions.
+Solar Powered Project is ad-supported. Advertising helps fund the publication, but advertising partners do not direct editorial coverage.
 
-## Contact
+## Contact and corrections
 
-Questions or corrections? Visit the <a href="contact.html" class="text-link">contact page</a>.
-
-## Related pages
-
-<a href="editorial-policy.html" class="text-link">Editorial policy</a> <a href="contact.html" class="text-link">Contact</a>
+Questions, factual corrections, incomplete context, and broken links can be reported through our [contact page](contact.html) or [corrections process](/corrections.html).

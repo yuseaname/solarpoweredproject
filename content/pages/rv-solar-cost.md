@@ -98,7 +98,7 @@ Related: <a href="solar-system-costs.html" class="text-link">Solar system cost b
 
 Many RV solar budgets go sideways because parts are bought before loads are estimated. A bigger inverter may require thicker wiring, larger fusing, and more battery capacity, which multiplies cost.
 
-<a href="rv-solar-sizing.html" class="text-link">How to size an RV solar system</a> <a href="battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-panel-output.html" class="text-link">Solar panel output calculator</a>
+<a href="rv-solar-sizing.html" class="text-link">How to size an RV solar system</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-panel-output.html" class="text-link">Solar panel output calculator</a>
 
 ## Where RV builds typically overspend
 
@@ -114,7 +114,7 @@ Small parts add up: fuses, crimp lugs, proper cable, switches, and monitoring.
 
 Upfront cost matters, but usable capacity and cycle life matter more for frequent off-grid use.
 
-<a href="li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a>
+<a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a>
 
 ## FAQ
 

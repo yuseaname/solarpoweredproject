@@ -31,4 +31,4 @@ Two practical RV-focused guides that connect sizing and cost decisions.
 
 ## Next logical reads
 
-<a href="solar-system-sizing.html" class="text-link">How to size a system</a> <a href="battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-costs.html" class="text-link">Cost breakdown</a>
+<a href="solar-system-sizing.html" class="text-link">How to size a system</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-costs.html" class="text-link">Cost breakdown</a>

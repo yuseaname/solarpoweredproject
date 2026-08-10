@@ -345,4 +345,4 @@ If you want the most reliable off-grid baseline, keep micro-hydro as a measured 
 
 ## Next logical reads
 
-<a href="index.html" class="text-link">DIY off-grid energy experiments (pillar) →</a> <a href="pedal-power-generator-for-off-grid-battery-charging.html" class="text-link">Pedal power generator guide →</a> <a href="../pages/battery-capacity.html" class="text-link">Battery capacity calculator →</a> <a href="../pages/solar-wire-size.html" class="text-link">Wire size guide →</a> <a href="../pages/solar-system-costs.html" class="text-link">Solar system costs →</a>
+<a href="../diy-off-grid-energy.html" class="text-link">DIY off-grid energy experiments (pillar) →</a> <a href="pedal-power-generator-for-off-grid-battery-charging.html" class="text-link">Pedal power generator guide →</a> <a href="../pages/battery-capacity.html" class="text-link">Battery capacity calculator →</a> <a href="../pages/solar-wire-size.html" class="text-link">Wire size guide →</a> <a href="../pages/solar-system-costs.html" class="text-link">Solar system costs →</a>

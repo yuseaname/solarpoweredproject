@@ -112,7 +112,7 @@ System efficiency accounts for real-world losses: heat, wiring voltage drop, inv
 
 ## Next logical reads
 
-<a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a>
+<a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a>
 
 ## FAQ
 

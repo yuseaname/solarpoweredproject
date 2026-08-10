@@ -33,7 +33,7 @@ Inverters transform DC to AC. Micro-inverters optimize per panel, while string i
 
 Charge controllers regulate energy going into batteries. MPPT models typically improve efficiency over PWM models.
 
-<a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM</a> <a href="li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V systems</a>
+<a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM</a> <a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V systems</a>
 
 ## Next logical reads
 

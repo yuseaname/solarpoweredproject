@@ -1,0 +1,19 @@
+{{ $isLab := eq .Section "diy-off-grid-energy" }}{{ $isGuide := eq .Section "pages" }}
+{{ if or $isLab $isGuide .Params.system_type .Params.best_for .Params.safety_gate }}
+<section class="system-strip" aria-label="At a glance">
+  <div class="system-strip-label">{{ if $isLab }}Project Lab{{ else }}System brief{{ end }}</div>
+  <div class="system-strip-grid">
+    {{ if $isLab }}
+      <div><span>Classification</span><strong>Site-specific experiment</strong></div>
+      <div><span>First question</span><strong>What can it realistically produce?</strong></div>
+      <div><span>System boundary</span><strong>Supplemental or educational—not assumed household power.</strong></div>
+      <div><span>Safety gate</span><strong>Protect moving parts and battery circuits before testing.</strong></div>
+    {{ else }}
+      <div><span>Guide type</span><strong>{{ .Params.topic | default "Practical planning" }}</strong></div>
+      <div><span>Approach</span><strong>Use stated assumptions, then verify the actual system.</strong></div>
+      <div><span>System boundary</span><strong>Location, loads, equipment, and local rules can change the answer.</strong></div>
+      <div><span>Next decision</span><strong>Follow the linked guide that resolves the next system choice.</strong></div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

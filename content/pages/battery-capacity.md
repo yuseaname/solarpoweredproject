@@ -112,7 +112,7 @@ Example: 2,000 Wh × 2 days ÷ 0.90 ÷ 0.80 = **5,556 Wh total battery bank**.
 
 ## Next logical reads
 
-<a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose system voltage</a>
+<a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose system voltage</a>
 
 ## FAQ
 

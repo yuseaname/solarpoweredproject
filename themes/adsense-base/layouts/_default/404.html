@@ -1,8 +1,1 @@
-{{ define "main" }}
-<div class="max-w-4xl mx-auto px-4 sm:px-6 py-20 text-center">
-  <h1 class="text-6xl font-bold text-gray-300">404</h1>
-  <p class="text-xl text-gray-600 mt-4">Page not found</p>
-  <p class="text-gray-500 mt-2">The page you're looking for doesn't exist or has been moved.</p>
-  <a href="{{ .Site.BaseURL | absURL }}" class="inline-block mt-6 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">← Back to Home</a>
-</div>
-{{ end }}
+{{ define "main" }}<section class="not-found"><p class="section-kicker">Lost in the wiring?</p><h1>This path doesn’t<br><em>lead anywhere.</em></h1><p>The page may have moved, or the address may be incomplete. Start with the decision you were trying to make.</p><div class="not-found-actions"><a class="button button-solar" href="{{ "/pages/solar-system-sizing.html" | relURL }}">Size my system <span aria-hidden="true">→</span></a><a class="button button-quiet" href="{{ "/search.html" | relURL }}">Search the field guides</a></div></section>{{ end }}
