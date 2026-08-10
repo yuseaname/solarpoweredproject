@@ -15,7 +15,73 @@
 &lt;li>Both architectures need batteries, inverters, and proper protection — the difference is the path power takes.&lt;/li>
 &lt;/ul>
 &lt;h2 id="the-short-answer">The short answer&lt;/h2>
-&lt;p>DC-coupled and AC-coupled describe how your solar panels connect to your battery. In a &lt;strong>DC-coupled&lt;/strong> system, panel output goes straight into a charge controller and then the battery — one direct path. In an &lt;strong>AC-coupled&lt;/strong> system, panels feed a grid-tied inverter that produces AC, which is then coupled with a separate battery inverter/charger that converts it back to DC for storage.&lt;/p></description></item><item><title>Solar Permits and Building Codes: What You Need to Know Before Installing</title><link>https://solarpoweredproject.com/pages/solar-permits-and-building-codes.html</link><pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-permits-and-building-codes.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
+&lt;p>DC-coupled and AC-coupled describe how your solar panels connect to your battery. In a &lt;strong>DC-coupled&lt;/strong> system, panel output goes straight into a charge controller and then the battery — one direct path. In an &lt;strong>AC-coupled&lt;/strong> system, panels feed a grid-tied inverter that produces AC, which is then coupled with a separate battery inverter/charger that converts it back to DC for storage.&lt;/p></description></item><item><title>How Shading Affects Solar Panels (And What Bypass Diodes Actually Do)</title><link>https://solarpoweredproject.com/pages/solar-panel-shading-effects.html</link><pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-panel-shading-effects.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
+&lt;ul>
+&lt;li>A single shaded cell in a series string can drag down the output of the entire panel — and often the entire string — by 30% to 50% or more.&lt;/li>
+&lt;li>Bypass diodes inside the junction box redirect current around shaded cell groups, but they don&amp;rsquo;t eliminate the loss; they cap it at roughly one-third of the module per diode.&lt;/li>
+&lt;li>Shaded cells become resistors, generating heat. This &amp;ldquo;hot spot&amp;rdquo; effect can crack glass, melt solder joints, and permanently destroy a panel.&lt;/li>
+&lt;li>Series-wired strings are the most vulnerable to shading. Parallel wiring limits the damage to the shaded module only.&lt;/li>
+&lt;li>Module-level power electronics (DC optimizers and microinverters) solve the problem by performing MPPT independently on each panel.&lt;/li>
+&lt;/ul>
+&lt;h2 id="the-counterintuitive-truth-about-shading">The counterintuitive truth about shading&lt;/h2>
+&lt;p>Here&amp;rsquo;s something that surprises most new solar owners: shading just 5% of one panel can cut that panel&amp;rsquo;s output by 50% or more. And if that panel is wired in series with others, the entire string&amp;rsquo;s output can collapse to match it. A chimney shadow, a single tree branch, or a power line crossing your array can quietly steal hundreds of kilowatt-hours per year.&lt;/p></description></item><item><title>How to Calculate Your Solar Load: A Step-by-Step Energy Audit</title><link>https://solarpoweredproject.com/pages/how-to-calculate-solar-load.html</link><pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/how-to-calculate-solar-load.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
+&lt;ul>
+&lt;li>A solar load calculation starts with listing every device and finding its wattage and daily run hours.&lt;/li>
+&lt;li>The core formula is simple: &lt;strong>watts × hours = watt-hours per day (Wh/day)&lt;/strong> per device.&lt;/li>
+&lt;li>Sum all devices, divide by your local peak sun hours, then derate for system losses (0.75–0.85).&lt;/li>
+&lt;li>Motors and compressors have a surge 2–3× their running watts that must be factored into inverter sizing.&lt;/li>
+&lt;li>Forgetting &amp;ldquo;phantom&amp;rdquo; loads is the most common sizing mistake — they add up faster than people expect.&lt;/li>
+&lt;li>Battery bank sizing in amp-hours: &lt;strong>daily Wh ÷ battery voltage ÷ depth of discharge&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="why-your-solar-load-calculation-matters">Why your solar load calculation matters&lt;/h2>
+&lt;p>Every correctly sized solar system on the planet starts with the same boring, unglamorous step: an energy audit. People love to start with panels — how many watts, mono or poly, what brand — but the panels are actually the last thing you size. The math flows in one direction: loads first, then battery bank, then panels to recharge it, then a charge controller and inverter sized to match.&lt;/p></description></item><item><title>Solar Battery Enclosure Guide: Ventilation, Temperature, and Safety</title><link>https://solarpoweredproject.com/pages/solar-battery-enclosure-guide.html</link><pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-battery-enclosure-guide.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
+&lt;ul>
+&lt;li>A battery enclosure protects your most expensive component from temperature extremes, moisture, and physical damage — and protects you from the gases and fire risks batteries create.&lt;/li>
+&lt;li>Flooded lead-acid batteries require active ventilation to the outside because they release hydrogen gas during charging; hydrogen is explosive at concentrations above 4%.&lt;/li>
+&lt;li>Lithium (LiFePO4) batteries must never be charged below 0°C (32°F) — you need a heated enclosure, self-heating batteries, or a charge controller with low-temperature cutoff.&lt;/li>
+&lt;li>Place the enclosure between the panels and your loads, and as close to the inverter as practical to minimize voltage drop and expensive copper wire runs.&lt;/li>
+&lt;li>Large battery banks deserve a fire-rated enclosure, proper fusing, and clearance from living spaces. In RVs and boats, secure everything against vibration and road shock.&lt;/li>
+&lt;/ul>
+&lt;h2 id="why-your-battery-enclosure-matters">Why your battery enclosure matters&lt;/h2>
+&lt;p>The battery bank is the single most expensive and most failure-prone component in a solar power system. Panels sit outside and quietly work for decades. Charge controllers are solid-state and relatively forgiving. But batteries — whether flooded lead-acid, sealed AGM, or lithium iron phosphate — are sensitive to temperature, vulnerable to physical damage, and in some cases capable of generating explosive gas or starting fires.&lt;/p></description></item><item><title>Solar Battery Maintenance Guide: How to Extend Battery Life (Lead-Acid and Lithium)</title><link>https://solarpoweredproject.com/pages/solar-battery-maintenance-guide.html</link><pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-battery-maintenance-guide.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
+&lt;ul>
+&lt;li>Batteries are the single most failure-prone and expensive component in an off-grid solar system — proper maintenance can double their working lifespan.&lt;/li>
+&lt;li>Flooded lead-acid batteries need regular watering with distilled water, terminal cleaning, and periodic equalization charges; sealed AGM and gel batteries skip the watering.&lt;/li>
+&lt;li>Lithium (LiFePO4) batteries need almost no maintenance, but they must never be charged below freezing without a built-in heater or low-temperature cutoff.&lt;/li>
+&lt;li>Never mix old and new batteries in the same bank — the new ones will degrade down to the weakest old battery within months.&lt;/li>
+&lt;li>Replace the entire battery bank at once, not one battery at a time, to avoid capacity mismatches and premature failure.&lt;/li>
+&lt;/ul>
+&lt;h2 id="why-battery-maintenance-matters">Why battery maintenance matters&lt;/h2>
+&lt;p>In any off-grid or battery-based solar system, the battery bank is the heart of the setup — and the most expensive part to replace. Panels quietly produce power for 25+ years. A charge controller might run a decade without complaint. But batteries? They age, sulfate, stratify, and fail. A flooded lead-acid bank that should last 7 to 10 years can be destroyed in 18 months by chronic undercharging, neglect, or a single brutal winter.&lt;/p></description></item><item><title>Solar Battery Management Systems (BMS): What They Do and When You Need One</title><link>https://solarpoweredproject.com/pages/solar-battery-management-system-explained.html</link><pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-battery-management-system-explained.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
+&lt;ul>
+&lt;li>A BMS monitors the voltage of each battery or cell and disconnects the bank if any one exceeds safe limits.&lt;/li>
+&lt;li>Lithium batteries &lt;strong>require&lt;/strong> a BMS — without one, cells drift, overcharge, and can catch fire.&lt;/li>
+&lt;li>Lead-acid batteries are more tolerant but still benefit from monitoring and low-voltage disconnect.&lt;/li>
+&lt;li>A BMS is not the same as a charge controller: the controller manages panel input, the BMS manages battery cell health.&lt;/li>
+&lt;li>Basic monitoring-only BMS units cost $30–100; advanced self-leveling units run $100–300.&lt;/li>
+&lt;li>Some lithium batteries have a BMS built in; series-connected lithium banks always need an external one.&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-a-battery-management-system-actually-does">What a battery management system actually does&lt;/h2>
+&lt;p>A battery management system (BMS) is the brain sitting between your battery bank and the rest of your solar system. Its job is simple to state and complex to execute: &lt;strong>keep every cell in the bank within its safe operating limits, and shut things down if any cell goes out of bounds.&lt;/strong>&lt;/p></description></item><item><title>Solar Installation Safety Guide: Electrical, Roof, and PPE Essentials</title><link>https://solarpoweredproject.com/pages/solar-installation-safety-guide.html</link><pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-installation-safety-guide.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
+&lt;ul>
+&lt;li>DC electrical work is dangerous — a shorted battery bank can deliver thousands of amps in an instant.&lt;/li>
+&lt;li>Solar panels are live whenever exposed to light; cover them with opaque material before wiring.&lt;/li>
+&lt;li>Above 6 feet, OSHA requires fall protection: harness, anchor point, and never working alone.&lt;/li>
+&lt;li>Lithium fires need a Class D extinguisher or dry sand — &lt;strong>never water&lt;/strong>.&lt;/li>
+&lt;li>Use insulated, rated tools, remove jewelry, and wear voltage-rated gloves for all DC work.&lt;/li>
+&lt;li>Know when to call a professional: grid-tied AC connections, complex wiring, and anything involving NEC compliance.&lt;/li>
+&lt;/ul>
+&lt;h2 id="why-safety-comes-first-in-solar">Why safety comes first in solar&lt;/h2>
+&lt;p>Solar installation combines three things that can each ruin your day on their own: &lt;strong>DC electrical work at significant current&lt;/strong>, &lt;strong>working at height on a roof&lt;/strong>, and &lt;strong>heavy, fragile, expensive equipment&lt;/strong>. Stack all three and the margin for error shrinks fast. The good news is that solar injuries are almost always preventable — they come down to rushing, skipping PPE, or working alone when you shouldn&amp;rsquo;t.&lt;/p></description></item><item><title>Solar Panel Tilt Angle and Orientation: Maximize Output Year-Round</title><link>https://solarpoweredproject.com/pages/solar-panel-tilt-and-orientation.html</link><pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-panel-tilt-and-orientation.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
+&lt;ul>
+&lt;li>For maximum annual energy production, tilt your panels at an angle roughly equal to your latitude — anywhere from 30° to 45° covers most of the United States.&lt;/li>
+&lt;li>In the Northern Hemisphere, panels should face true south (azimuth 180°) for the highest annual kWh. West-facing arrays produce more in the afternoon and evening, which matters if you&amp;rsquo;re on time-of-use electricity rates.&lt;/li>
+&lt;li>Lower tilt angles favor summer production; steeper angles favor winter. Adjusting tilt seasonally on a ground mount can add 3% to 5% annual output.&lt;/li>
+&lt;li>Tracking systems (1-axis or 2-axis) boost output by 20% to 35% but add 40% to 50% to system cost and introduce maintenance — they&amp;rsquo;re rarely justified for residential roof-mount systems.&lt;/li>
+&lt;li>On a pitched roof, the roof pitch effectively sets your tilt angle. Ground mounts let you choose any angle precisely.&lt;/li>
+&lt;/ul>
+&lt;h2 id="why-tilt-and-orientation-matter">Why tilt and orientation matter&lt;/h2>
+&lt;p>Two angles determine how much sunlight your solar panels capture: the &lt;strong>tilt&lt;/strong> (how steeply they&amp;rsquo;re pitched up from horizontal) and the &lt;strong>azimuth&lt;/strong> (which compass direction they face). Together, these two variables can swing your annual energy production by 20% or more — without changing a single panel, inverter, or battery.&lt;/p></description></item><item><title>Solar Permits and Building Codes: What You Need to Know Before Installing</title><link>https://solarpoweredproject.com/pages/solar-permits-and-building-codes.html</link><pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-permits-and-building-codes.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
 &lt;ul>
 &lt;li>Solar installations are governed by electrical, building, and fire codes that vary by jurisdiction — there is no single national rulebook for every detail.&lt;/li>
 &lt;li>The NEC (National Electrical Code), Article 690, is the backbone for PV system electrical requirements across the US.&lt;/li>

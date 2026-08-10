@@ -15,6 +15,7 @@ disableKinds = ['taxonomy', 'term']
   favicon = '/assets/images/solarpoweredproject-logo.png'
   og_image = '/assets/images/field-guide/social-og-fallback.jpg'
   google_site_verification = ''
+  google_analytics = 'G-GLZVS6799J'
 
   [params.adsense]
     client_id = 'ca-pub-5566942094411042'
