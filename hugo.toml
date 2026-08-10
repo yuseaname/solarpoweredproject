@@ -13,7 +13,7 @@ disableKinds = ['taxonomy', 'term']
   tagline = 'Practical independent power, made clearer.'
   author = 'Solar Powered Project'
   favicon = '/assets/images/solarpoweredproject-logo.png'
-  og_image = '/assets/images/solarpoweredproject-og.png'
+  og_image = '/assets/images/field-guide/social-og-fallback.jpg'
   google_site_verification = ''
 
   [params.adsense]
