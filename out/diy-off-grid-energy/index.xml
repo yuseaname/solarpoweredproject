@@ -110,29 +110,9 @@
 &lt;li>&lt;a href="#faq" class="text-link">FAQ&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="beginner-explanation-diversion-is-somewhere-safe-for-power-to-go">Beginner explanation: diversion is “somewhere safe for power to go”&lt;/h2>
-&lt;p>A dump load is intentionally wasteful. That’s the point. When your generator produces more power than the battery can safely accept, the system diverts the extra power into a load that converts it to heat.&lt;/p></description></item><item><title>DIY Flywheel Energy Storage: Safe Low-Speed Build + Realistic Calculations</title><link>https://solarpoweredproject.com/diy-off-grid-energy/diy-flywheel-energy-storage.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/diy-off-grid-energy/diy-flywheel-energy-storage.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
-&lt;ul>
-&lt;li>Flywheels store energy as &lt;strong>rotational kinetic energy&lt;/strong>: energy rises with &lt;strong>speed squared&lt;/strong>.&lt;/li>
-&lt;li>At “safe DIY speeds,” stored energy is usually &lt;strong>small&lt;/strong> compared to batteries, but power delivery can be high for short bursts.&lt;/li>
-&lt;li>The safest DIY path is a &lt;strong>low-speed demo&lt;/strong> (hundreds of RPM), not a high-speed composite flywheel project.&lt;/li>
-&lt;li>Flywheels pair well with solar as a &lt;strong>buffer&lt;/strong> (smoothing short surges), but they rarely replace batteries for usable kWh.&lt;/li>
-&lt;/ul>
-&lt;h2 id="table-of-contents">Table of contents&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="#beginner" class="text-link">Beginner explanation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#how-it-works" class="text-link">How flywheels store and release energy&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#safe-build-path" class="text-link">A safe DIY build path (Version 1 → Version 3)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#math" class="text-link">The math: energy vs RPM (with real examples)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#expected-output" class="text-link">Expected output and losses&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#measurement" class="text-link">Measurement checklist (RPM, watts, temperature)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#mistakes" class="text-link">Common mistakes and misconceptions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#safety" class="text-link">Safety and limitations&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#pairs-with-solar" class="text-link">How it pairs with solar&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#troubleshooting" class="text-link">Troubleshooting&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#faq" class="text-link">FAQ&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="beginner-explanation-what-a-flywheel-does-and-what-it-doesnt">Beginner explanation: what a flywheel does (and what it doesn’t)&lt;/h2>
-&lt;p>A flywheel is a spinning mass that resists changes in speed. When you speed it up, you “store” energy in its rotation. When you slow it down, you “get” energy back out.&lt;/p></description></item><item><title>DIY Generator Test Bench: Measure Real Watts, Watt-Hours, and Losses</title><link>https://solarpoweredproject.com/diy-off-grid-energy/diy-generator-test-bench-measure-watts-watt-hours.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/diy-off-grid-energy/diy-generator-test-bench-measure-watts-watt-hours.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
+&lt;p>A dump load is intentionally wasteful. That’s the point. When your generator produces more power than the battery can safely accept, the system diverts the extra power into a load that converts it to heat.&lt;/p></description></item><item><title>DIY Flywheel Energy Storage: Safe Low-Speed Build + Realistic Calculations</title><link>https://solarpoweredproject.com/diy-off-grid-energy/diy-flywheel-energy-storage.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/diy-off-grid-energy/diy-flywheel-energy-storage.html</guid><description>&lt;h2 id="the-honest-answer-up-front">The honest answer up front&lt;/h2>
+&lt;p>A DIY flywheel can store &lt;strong>less than 1 watt-hour&lt;/strong> at safe speeds — enough to power an LED for an hour or smooth a brief power surge, but nowhere near enough to replace a battery. A single small 12V battery (50Ah) stores &lt;strong>600 Wh&lt;/strong>. You&amp;rsquo;d need hundreds of flywheels to match that.&lt;/p>
+&lt;p>&lt;strong>Why build one anyway?&lt;/strong> Flywheels are excellent learning tools for understanding energy storage, rotational physics, and system losses. They can also serve as &lt;strong>short-duration buffers&lt;/strong> — smoothing out power pulses from variable sources like wind or pedal generators. Just don&amp;rsquo;t expect to run your fridge from one.&lt;/p></description></item><item><title>DIY Generator Test Bench: Measure Real Watts, Watt-Hours, and Losses</title><link>https://solarpoweredproject.com/diy-off-grid-energy/diy-generator-test-bench-measure-watts-watt-hours.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/diy-off-grid-energy/diy-generator-test-bench-measure-watts-watt-hours.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
 &lt;ul>
 &lt;li>Open-circuit voltage is not output. You need &lt;strong>voltage and current under a real load&lt;/strong>.&lt;/li>
 &lt;li>Use &lt;strong>watts&lt;/strong> to compare setups and &lt;strong>watt-hours per day&lt;/strong> (Wh/day) to judge usefulness.&lt;/li>
@@ -154,30 +134,9 @@
 &lt;li>&lt;a href="#faq" class="text-link">FAQ&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="beginner-explanation-the-three-numbers-that-matter">Beginner explanation: the three numbers that matter&lt;/h2>
-&lt;p>DIY power experiments become clear when you track three quantities consistently:&lt;/p></description></item><item><title>DIY Hand-Crank Generator: Charge Phones and Batteries Safely (Realistic Power)</title><link>https://solarpoweredproject.com/diy-off-grid-energy/diy-hand-crank-generator-emergency-charging.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/diy-off-grid-energy/diy-hand-crank-generator-emergency-charging.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
-&lt;ul>
-&lt;li>Most people can sustain roughly &lt;strong>5–30W&lt;/strong> by hand for meaningful time; spikes higher are possible but tiring.&lt;/li>
-&lt;li>The safe architecture is: &lt;strong>generator → rectifier → regulated DC output → device/battery&lt;/strong>.&lt;/li>
-&lt;li>Directly wiring a hand generator to a battery can cause &lt;strong>overvoltage&lt;/strong>, overheating, and unpredictable current.&lt;/li>
-&lt;li>Hand-crank works best for &lt;strong>phones, radios, lights, and topping up&lt;/strong> a small battery bank — not for running high-power loads.&lt;/li>
-&lt;/ul>
-&lt;h2 id="table-of-contents">Table of contents&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="#beginner" class="text-link">Beginner explanation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#expected-power" class="text-link">Realistic power and charging expectations&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#how-it-works" class="text-link">How a hand-crank generator works&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#safe-architecture" class="text-link">Safe charging architecture (recommended)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#build-options" class="text-link">Build options: USB, 12V battery, or power bank&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#ergonomics" class="text-link">Ergonomics, gearing, and “comfortable watts”&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#energy-budget" class="text-link">A simple emergency energy budget (what to prioritize)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#wiring-protection" class="text-link">Wiring and protection (don’t skip this)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#mistakes" class="text-link">Common mistakes and misconceptions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#pairs-with-solar" class="text-link">How it pairs with solar&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#troubleshooting" class="text-link">Troubleshooting&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#faq" class="text-link">FAQ&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="beginner-explanation-hand-power-is-small-but-still-useful">Beginner explanation: hand power is small, but still useful&lt;/h2>
-&lt;p>Your hands can produce meaningful mechanical power, but not in huge amounts. That’s not a problem if your target is a phone, a flashlight, a radio, or a small battery top-up.&lt;/p></description></item><item><title>DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)</title><link>https://solarpoweredproject.com/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
+&lt;p>DIY power experiments become clear when you track three quantities consistently:&lt;/p></description></item><item><title>DIY Hand-Crank Generator: Charge Phones and Batteries Safely (Realistic Power)</title><link>https://solarpoweredproject.com/diy-off-grid-energy/diy-hand-crank-generator-emergency-charging.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/diy-off-grid-energy/diy-hand-crank-generator-emergency-charging.html</guid><description>&lt;h2 id="the-quick-answer-if-youre-in-a-hurry">The quick answer (if you&amp;rsquo;re in a hurry)&lt;/h2>
+&lt;p>A hand-crank generator can realistically produce &lt;strong>5–30 watts sustained&lt;/strong>. That&amp;rsquo;s enough to charge a phone, run a small radio, or top up a power bank over 30–60 minutes of cranking. It is &lt;strong>not&lt;/strong> enough to run a laptop directly, power an inverter, or charge a car battery in any practical timeframe.&lt;/p>
+&lt;p>&lt;strong>Realistic energy from 30 minutes of cranking at 15W:&lt;/strong> about 7.5 watt-hours — roughly half a phone charge.&lt;/p></description></item><item><title>DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)</title><link>https://solarpoweredproject.com/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
 &lt;ul>
 &lt;li>Micro-hydro output is mainly set by &lt;strong>head&lt;/strong> (height drop) and &lt;strong>flow&lt;/strong> (water volume per second).&lt;/li>
 &lt;li>Real power is always lower than the “water power” you calculate because of losses and efficiency.&lt;/li>

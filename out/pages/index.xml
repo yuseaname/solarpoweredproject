@@ -116,58 +116,25 @@
  &lt;div class="bg-white p-4 rounded-lg border border-gray-200 text-center">
  &lt;p class="text-sm text-gray-500">Net system cost&lt;/p></description></item><item><title>12V vs 24V vs 48V Solar Systems: Key Differences and Best Uses</title><link>https://solarpoweredproject.com/pages/12v-vs-24v-vs-48v-solar.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/12v-vs-24v-vs-48v-solar.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
 &lt;ul>
-&lt;li>Higher voltage means lower current for the same power, which can simplify wiring.&lt;/li>
-&lt;li>12V is common for smaller systems and many RV/van builds.&lt;/li>
-&lt;li>24V and 48V are often better for larger loads and longer cable runs.&lt;/li>
+&lt;li>&lt;strong>Higher voltage = lower current = thinner, cheaper wire.&lt;/strong> Going from 12V to 48V cuts your current by 75%, dramatically reducing copper costs.&lt;/li>
+&lt;li>&lt;strong>12V&lt;/strong> is the standard for small systems and most RVs/vans (under ~1,200W inverter load).&lt;/li>
+&lt;li>&lt;strong>24V&lt;/strong> is the sweet spot for mid-size off-grid cabins and large RVs (1,000–3,000W).&lt;/li>
+&lt;li>&lt;strong>48V&lt;/strong> is the right choice for whole-home backup and large off-grid systems (3,000W+).&lt;/li>
+&lt;li>&lt;strong>Wire size is the deciding factor.&lt;/strong> If you need 4/0 cable (thick as a finger) at 12V, the same load at 48V only needs 8 AWG (pencil-thin).&lt;/li>
 &lt;/ul>
-&lt;h2 id="quick-comparison-table">Quick comparison table&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr class="header">
-&lt;th>Factor&lt;/th>
-&lt;th>12V&lt;/th>
-&lt;th>24V&lt;/th>
-&lt;th>48V&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr class="odd">
-&lt;td>Best fit&lt;/td>
-&lt;td>Small systems, RV basics&lt;/td>
-&lt;td>Mid-size off-grid&lt;/td>
-&lt;td>Large off-grid / high power&lt;/td>
-&lt;/tr>
-&lt;tr class="even">
-&lt;td>Current at 1,000W (rough)&lt;/td>
-&lt;td>High&lt;/td>
-&lt;td>Medium&lt;/td>
-&lt;td>Lower&lt;/td>
-&lt;/tr>
-&lt;tr class="odd">
-&lt;td>Wiring burden&lt;/td>
-&lt;td>Heavier at high power&lt;/td>
-&lt;td>Moderate&lt;/td>
-&lt;td>Often easiest for big loads&lt;/td>
-&lt;/tr>
-&lt;tr class="even">
-&lt;td>Scaling&lt;/td>
-&lt;td>Limited sooner&lt;/td>
-&lt;td>More headroom&lt;/td>
-&lt;td>Most headroom&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>Related: &lt;a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose solar system voltage&lt;/a>&lt;/p></description></item><item><title>About Solar Powered Project</title><link>https://solarpoweredproject.com/pages/about.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/about.html</guid><description>&lt;h2 id="a-clearer-way-to-plan-power">A clearer way to plan power&lt;/h2>
+&lt;h2 id="quick-decision-guide">Quick decision guide&lt;/h2>
+&lt;p>Don&amp;rsquo;t want to read the whole article? Match your situation:&lt;/p></description></item><item><title>About Solar Powered Project</title><link>https://solarpoweredproject.com/pages/about.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/about.html</guid><description>&lt;h2 id="a-clearer-way-to-plan-power">A clearer way to plan power&lt;/h2>
 &lt;p>Solar Powered Project helps readers turn a power question into a useful plan. We cover solar systems, batteries, wiring, costs, troubleshooting, and carefully framed off-grid experiments.&lt;/p>
 &lt;p>Our focus is practical decision-making: what you want to power, the assumptions that shape the answer, the limits that matter, and the next decision to make. We aim to explain the system rather than hand you a generic parts list.&lt;/p></description></item><item><title>Battery Cable Size for Solar Inverters (12V/24V/48V): How to Choose Safely</title><link>https://solarpoweredproject.com/pages/battery-cable-size-for-inverter.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/battery-cable-size-for-inverter.html</guid><description>&lt;h2 id="table-of-contents">Table of contents&lt;/h2>
 &lt;p>&lt;a href="#takeaways" class="text-link">Key takeaways&lt;/a> &lt;a href="#why-this-is-hard" class="text-link">Why inverter cables are different&lt;/a> &lt;a href="#step1" class="text-link">Step 1: Estimate maximum DC current&lt;/a> &lt;a href="#step2" class="text-link">Step 2: Measure the run (the part most people miss)&lt;/a> &lt;a href="#step3" class="text-link">Step 3: Set a practical voltage-drop target&lt;/a> &lt;a href="#step4" class="text-link">Step 4: Choose cable + lugs + protection as a system&lt;/a> &lt;a href="#voltage" class="text-link">Why 24V/48V makes this easier&lt;/a> &lt;a href="#mistakes" class="text-link">Common mistakes&lt;/a> &lt;a href="#faq" class="text-link">FAQ&lt;/a> &lt;a href="#next" class="text-link">Next logical reads&lt;/a>&lt;/p>
 &lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
 &lt;ul>
 &lt;li>Battery-to-inverter cables are often the &lt;strong>highest-current&lt;/strong> wires in a solar system.&lt;/li>
-&lt;li>Longer runs and lower voltage (especially 12V) create voltage sag that can look like a “bad battery” or “bad inverter.”&lt;/li>
+&lt;li>Longer runs and lower voltage (especially 12V) create voltage sag that can look like a &amp;ldquo;bad battery&amp;rdquo; or &amp;ldquo;bad inverter.&amp;rdquo;&lt;/li>
 &lt;li>Good results come from sizing the &lt;strong>whole chain&lt;/strong>: cable, lugs, fuse/breaker, disconnect, and terminations.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;a href="wiring-decisions.html" class="text-link">Solar wiring decisions (pillar hub)&lt;/a> &lt;a href="solar-wire-size.html" class="text-link">Solar wire size: choose the right gauge&lt;/a>&lt;/p></description></item><item><title>Battery Capacity Calculator for Solar Systems</title><link>https://solarpoweredproject.com/pages/battery-capacity.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/battery-capacity.html</guid><description>&lt;h2 id="quick-estimate">Quick estimate&lt;/h2>
+&lt;h2 id="quick-reference-common-inverter-sizes-and-cable-gauge">Quick reference: common inverter sizes and cable gauge&lt;/h2>
+&lt;p>This table gives you a planning-level starting point for &lt;strong>copper cable&lt;/strong> with a &lt;strong>short run&lt;/strong> (under 5 feet one-way). Longer runs need upsizing — see Step 2.&lt;/p></description></item><item><title>Battery Capacity Calculator for Solar Systems</title><link>https://solarpoweredproject.com/pages/battery-capacity.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/battery-capacity.html</guid><description>&lt;h2 id="quick-estimate">Quick estimate&lt;/h2>
 &lt;p>Use this calculator to find the minimum battery bank size for a given daily load. It converts required watt-hours into amp-hours at your chosen system voltage.&lt;/p>
 &lt;h2 id="battery-capacity-calculator">Battery capacity calculator&lt;/h2>
 &lt;form id="battery-form" class="space-y-4 p-4 bg-gray-50 rounded-lg border border-gray-200">
@@ -224,7 +191,7 @@
 &lt;script>
 (function(){
  "use strict";
-
+ 
  function fmt(n){ return n.toLocaleString(undefined, {maximumFractionDigits: 0}); }
  function calculate(){
  var dailyWh = parseFloat(document.getElementById('daily-wh').value) || 0;
@@ -545,15 +512,16 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>If you’re building a full budget, anchor it here: &lt;a href="solar-system-costs.html" class="text-link">solar system cost breakdown&lt;/a>.&lt;/p></description></item><item><title>MPPT Charge Controller Not Charging: Troubleshooting Checklist (PV Voltage, Settings)</title><link>https://solarpoweredproject.com/pages/mppt-charge-controller-not-charging.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/mppt-charge-controller-not-charging.html</guid><description>&lt;h2 id="table-of-contents">Table of contents&lt;/h2>
-&lt;p>&lt;a href="#takeaways" class="text-link">Key takeaways&lt;/a> &lt;a href="#how-mppt-works" class="text-link">How MPPT “finds” power (one concept)&lt;/a> &lt;a href="#step1" class="text-link">Step 1: Confirm PV input exists (sun/shade/soiling)&lt;/a> &lt;a href="#step2" class="text-link">Step 2: Confirm PV voltage is high enough&lt;/a> &lt;a href="#step3" class="text-link">Step 3: Validate array wiring and controller limits&lt;/a> &lt;a href="#step4" class="text-link">Step 4: Check charging stage and settings&lt;/a> &lt;a href="#step5" class="text-link">Step 5: Battery protections (BMS, temperature, full battery)&lt;/a> &lt;a href="#mistakes" class="text-link">Common mistakes&lt;/a> &lt;a href="#faq" class="text-link">FAQ&lt;/a> &lt;a href="#next" class="text-link">Next logical reads&lt;/a>&lt;/p>
-&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
-&lt;ul>
-&lt;li>MPPT needs &lt;strong>enough PV voltage headroom&lt;/strong> above battery voltage to do its job.&lt;/li>
-&lt;li>“Not charging” is often &lt;strong>normal behavior&lt;/strong> (battery full/float) or &lt;strong>low input&lt;/strong> (clouds/shade).&lt;/li>
-&lt;li>The fastest fix is usually a wiring/config check: &lt;strong>series vs parallel&lt;/strong> and staying within controller limits.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM&lt;/a> &lt;a href="solar-battery-not-charging-troubleshooting.html" class="text-link">Solar battery not charging&lt;/a>&lt;/p></description></item><item><title>MPPT vs PWM Charge Controllers (Comparison)</title><link>https://solarpoweredproject.com/pages/mppt-vs-pwm.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/mppt-vs-pwm.html</guid><description>&lt;h2 id="comparison-table">Comparison table&lt;/h2>
+&lt;p>If you’re building a full budget, anchor it here: &lt;a href="solar-system-costs.html" class="text-link">solar system cost breakdown&lt;/a>.&lt;/p></description></item><item><title>MPPT Charge Controller Not Charging: Troubleshooting Checklist (PV Voltage, Settings)</title><link>https://solarpoweredproject.com/pages/mppt-charge-controller-not-charging.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/mppt-charge-controller-not-charging.html</guid><description>&lt;h2 id="quick-diagnostic-flowchart-zero-charge-current-start-here">Quick diagnostic flowchart: zero charge current? Start here&lt;/h2>
+&lt;p>Work through these in order. Most &amp;ldquo;not charging&amp;rdquo; problems are found in the first three steps:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Is the sun actually hitting the panels?&lt;/strong> → Check for shade, snow, heavy dirt. &lt;em>Most common cause in winter.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Does the controller show PV voltage above battery voltage?&lt;/strong> → If not, check array wiring. &lt;em>Most common cause overall.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Is the battery already full?&lt;/strong> → Controller in float mode is normal, not broken. Check battery voltage (see ranges below).&lt;/li>
+&lt;li>&lt;strong>Is it cold with a lithium battery?&lt;/strong> → BMS may be blocking charge. &lt;em>Most common cause below 32°F (0°C).&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Are there error codes on the controller?&lt;/strong> → Check the manual for overvoltage/overtemp/ground fault codes.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Expected voltages for a healthy system in good sun:&lt;/strong>&lt;/p></description></item><item><title>MPPT vs PWM Charge Controllers (Comparison)</title><link>https://solarpoweredproject.com/pages/mppt-vs-pwm.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/mppt-vs-pwm.html</guid><description>&lt;h2 id="comparison-table">Comparison table&lt;/h2>
 &lt;table>
 &lt;thead>
 &lt;tr class="header">
@@ -672,80 +640,16 @@
 &lt;p>These ranges are intentionally broad. The point is to set expectations before you build a parts list.&lt;/p></description></item><item><title>Portable solar panels guide</title><link>https://solarpoweredproject.com/pages/portable-solar-panels.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/portable-solar-panels.html</guid><description>&lt;p>In an era of increasing outdoor adventure and a growing need for energy independence during power outages, portable solar panels have transitioned from niche camping gear to essential utility tools. Unlike fixed rooftop installations designed to power a home for 25 years, portable solar panels are engineered for mobility, flexibility, and immediate deployment. This guide provides a technical and practical breakdown of the portable solar landscape to help you make an informed investment.&lt;/p></description></item><item><title>Privacy Policy</title><link>https://solarpoweredproject.com/pages/privacy-policy.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/privacy-policy.html</guid><description>&lt;h2 id="analytics">Analytics&lt;/h2>
 &lt;p>We use privacy-focused analytics, currently Rybbit, to understand broad traffic patterns and improve the publication. Analytics providers may process information such as pages viewed, browser and device information, approximate location, IP-related information, and event data needed for measurement, security, or fraud prevention.&lt;/p>
 &lt;h2 id="advertising-and-cookies">Advertising and cookies&lt;/h2>
-&lt;p>Solar Powered Project may use Google AdSense and other advertising partners. These vendors may use cookies or similar technologies to serve and measure advertisements, limit repeated ads, and, where allowed, personalize advertising based on visits to this and other sites.&lt;/p></description></item><item><title>Pure Sine Wave vs Modified Sine Wave Inverter (Which to Choose?)</title><link>https://solarpoweredproject.com/pages/pure-sine-vs-modified-sine-inverter.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/pure-sine-vs-modified-sine-inverter.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
+&lt;p>Solar Powered Project may use Google AdSense and other advertising partners. These vendors may use cookies or similar technologies to serve and measure advertisements, limit repeated ads, and, where allowed, personalize advertising based on visits to this and other sites.&lt;/p></description></item><item><title>Pure Sine Wave vs Modified Sine Wave Inverter (Which to Choose?)</title><link>https://solarpoweredproject.com/pages/pure-sine-vs-modified-sine-inverter.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/pure-sine-vs-modified-sine-inverter.html</guid><description>&lt;p>&lt;strong>Short answer:&lt;/strong> Get a &lt;strong>pure sine wave inverter&lt;/strong> if you run laptops, TVs, CPAP machines, refrigerators, microwaves, or any device with a motor or AC adapter. Modified sine works for simple resistive loads (basic heaters, incandescent lights, some phone chargers) and costs about half as much — but the compatibility list is short and getting shorter as modern electronics get pickier.&lt;/p>
+&lt;p>The price gap has narrowed significantly. A 1000W pure sine inverter now costs &lt;strong>$80–$150&lt;/strong>; a modified sine of the same size runs &lt;strong>$40–$90&lt;/strong>. For most people, the extra $40–$60 is cheaper than replacing a damaged laptop charger or a buzzing CPAP machine.&lt;/p></description></item><item><title>RV Solar System Cost Breakdown (Panels, Battery, Inverter)</title><link>https://solarpoweredproject.com/pages/rv-solar-cost.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/rv-solar-cost.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
 &lt;ul>
-&lt;li>Pure sine wave is the safest default for mixed loads and sensitive electronics.&lt;/li>
-&lt;li>Modified sine wave can work for simple resistive loads, but compatibility varies.&lt;/li>
-&lt;li>Choose based on what you actually run and how often you run it.&lt;/li>
+&lt;li>A realistic RV solar setup costs &lt;strong>$1,500–$4,000&lt;/strong> for a system that handles daily off-grid use. Budget systems start around $700; high-capacity builds can exceed $10,000.&lt;/li>
+&lt;li>&lt;strong>The battery is the single biggest cost driver&lt;/strong> — often 30–40% of total system cost.&lt;/li>
+&lt;li>Professional installation adds &lt;strong>$500–$2,000+&lt;/strong> on top of parts. Most RV owners DIY to save 30–50%.&lt;/li>
+&lt;li>Sizing your loads before buying parts is the #1 way to avoid overspending.&lt;/li>
 &lt;/ul>
-&lt;h2 id="comparison-table">Comparison table&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr class="header">
-&lt;th>Factor&lt;/th>
-&lt;th>Pure sine wave&lt;/th>
-&lt;th>Modified sine wave&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr class="odd">
-&lt;td>Device compatibility&lt;/td>
-&lt;td>Best overall&lt;/td>
-&lt;td>Mixed; some devices may run hot or noisy&lt;/td>
-&lt;/tr>
-&lt;tr class="even">
-&lt;td>Cost&lt;/td>
-&lt;td>Higher&lt;/td>
-&lt;td>Lower&lt;/td>
-&lt;/tr>
-&lt;tr class="odd">
-&lt;td>Audio/visual noise&lt;/td>
-&lt;td>Lower&lt;/td>
-&lt;td>Higher risk of buzzing or lines&lt;/td>
-&lt;/tr>
-&lt;tr class="even">
-&lt;td>Motors and compressors&lt;/td>
-&lt;td>Typically better behavior&lt;/td>
-&lt;td>May run hotter or less efficiently&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="what-loads-care-about-waveform-quality">What loads care about waveform quality?&lt;/h2>
-&lt;h3 id="sensitive-electronics">Sensitive electronics&lt;/h3>
-&lt;p>Laptops, medical devices, and certain chargers often behave better on pure sine wave.&lt;/p></description></item><item><title>RV Solar System Cost Breakdown (Panels, Battery, Inverter)</title><link>https://solarpoweredproject.com/pages/rv-solar-cost.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/rv-solar-cost.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
-&lt;ul>
-&lt;li>For many RV builds, the battery is the largest cost driver.&lt;/li>
-&lt;li>Smaller systems can be relatively affordable, but wiring and protection parts still add up.&lt;/li>
-&lt;li>Cost is tightly linked to sizing—estimate your loads before buying.&lt;/li>
-&lt;/ul>
-&lt;h2 id="typical-rv-solar-cost-ranges-high-level">Typical RV solar cost ranges (high-level)&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr class="header">
-&lt;th>System size&lt;/th>
-&lt;th>Typical total range&lt;/th>
-&lt;th>Best for&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr class="odd">
-&lt;td>Starter&lt;/td>
-&lt;td>$700–$2,000&lt;/td>
-&lt;td>Lights, fans, charging, small inverter use&lt;/td>
-&lt;/tr>
-&lt;tr class="even">
-&lt;td>Mid-range&lt;/td>
-&lt;td>$2,000–$6,000&lt;/td>
-&lt;td>Daily off-grid use, regular inverter loads&lt;/td>
-&lt;/tr>
-&lt;tr class="odd">
-&lt;td>High-capacity&lt;/td>
-&lt;td>$6,000–$15,000+&lt;/td>
-&lt;td>Heavy inverter loads and longer autonomy&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>Use this to set expectations, then build a parts list based on your sizing.&lt;/p></description></item><item><title>Solar Battery Backup vs. Generator: Which Is Better?</title><link>https://solarpoweredproject.com/pages/solar-battery-backup-vs-generator.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-battery-backup-vs-generator.html</guid><description>&lt;p># Solar Battery Backup vs. Generator: Which Backup Power Solution is Right for Your Home?&lt;/p>
+&lt;h2 id="real-world-rv-solar-builds-with-actual-costs">Real-world RV solar builds with actual costs&lt;/h2>
+&lt;p>Here are three complete build examples at different budget tiers. Prices reflect 2026 retail from major solar retailers (Renogy, Rich Solar, Battle Born, Victron, etc.):&lt;/p></description></item><item><title>Solar Battery Backup vs. Generator: Which Is Better?</title><link>https://solarpoweredproject.com/pages/solar-battery-backup-vs-generator.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-battery-backup-vs-generator.html</guid><description>&lt;p># Solar Battery Backup vs. Generator: Which Backup Power Solution is Right for Your Home?&lt;/p>
 &lt;p>When the sky turns dark, the wind picks up, and the neighborhood lights suddenly flicker and die, a sense of vulnerability sets in. For US homeowners, a power outage is more than an inconvenience; it can mean spoiled food, interrupted work, and a loss of security. If you are already considering upgrading to renewable energy, you are likely facing the ultimate resilience dilemma: &lt;strong>solar battery backup vs generator&lt;/strong>.&lt;/p></description></item><item><title>Solar Battery Cost Per kWh: Pricing, Lifespan, and Value</title><link>https://solarpoweredproject.com/pages/solar-battery-cost-per-kwh.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-battery-cost-per-kwh.html</guid><description>&lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
 &lt;ul>
 &lt;li>Typical battery pricing is often quoted as dollars per kWh of capacity.&lt;/li>
@@ -811,7 +715,8 @@
 &lt;li>Size protection using &lt;strong>real equipment ratings&lt;/strong> (labels/specs), not “typical” numbers.&lt;/li>
 &lt;li>Use &lt;strong>DC-rated&lt;/strong> devices at the correct voltage rating—AC-only gear is not a substitute.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;a href="solar-fuses-vs-breakers.html" class="text-link">Solar fuses vs breakers (what to use where)&lt;/a> &lt;a href="wiring-decisions.html" class="text-link">Solar wiring decisions (pillar hub)&lt;/a>&lt;/p></description></item><item><title>Solar Fuses vs Breakers: What to Use (and Where) in a Solar System</title><link>https://solarpoweredproject.com/pages/solar-fuses-vs-breakers.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-fuses-vs-breakers.html</guid><description>&lt;h2 id="table-of-contents">Table of contents&lt;/h2>
+&lt;h2 id="quick-sizing-reference-planning-level">Quick sizing reference (planning-level)&lt;/h2>
+&lt;p>Match fuse/breaker size to the &lt;strong>wire ampacity&lt;/strong>, not the load. The protection device should be rated at or slightly below the wire&amp;rsquo;s safe current-carrying capacity.&lt;/p></description></item><item><title>Solar Fuses vs Breakers: What to Use (and Where) in a Solar System</title><link>https://solarpoweredproject.com/pages/solar-fuses-vs-breakers.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-fuses-vs-breakers.html</guid><description>&lt;h2 id="table-of-contents">Table of contents&lt;/h2>
 &lt;p>&lt;a href="#takeaways" class="text-link">Key takeaways&lt;/a> &lt;a href="#quick" class="text-link">Quick answer&lt;/a> &lt;a href="#strengths" class="text-link">What each device is good at&lt;/a> &lt;a href="#placement" class="text-link">The five places people get protection wrong&lt;/a> &lt;a href="#checklist" class="text-link">A shopping checklist (ratings to verify)&lt;/a> &lt;a href="#mistakes" class="text-link">Common mistakes&lt;/a> &lt;a href="#faq" class="text-link">FAQ&lt;/a>&lt;/p>
 &lt;h2 id="key-takeaways">Key takeaways&lt;/h2>
 &lt;ul>
@@ -922,7 +827,7 @@
 &lt;h2 id="typical-solar-panel-cost-per-watt">Typical solar panel cost per watt&lt;/h2>
 &lt;p>For consumer purchases, a common range is &lt;strong>$0.40 to $1.20 per watt&lt;/strong> for panels alone. Lower values are more common for larger orders, while smaller one-off buys and premium products trend higher.&lt;/p></description></item><item><title>Solar Panel Degradation Rate: Complete Homeowner Guide</title><link>https://solarpoweredproject.com/pages/solar-panel-degradation-rate.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-panel-degradation-rate.html</guid><description>&lt;p># Understanding Solar Panel Degradation Rate: A Homeowner’s Guide to Long-Term ROI&lt;/p>
 &lt;p>Investing in solar energy is one of the most significant financial decisions a US homeowner can make. When you look at the upfront costs of panels, inverters, and installation, you aren&amp;rsquo;t just buying hardware; you are buying a 25-to-30-year energy production plan. However, a common question arises among prospective solar owners: &amp;ldquo;Will my panels still work in twenty years?&amp;rdquo;&lt;/p></description></item><item><title>Solar panel efficiency explained</title><link>https://solarpoweredproject.com/pages/solar-panel-efficiency.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-panel-efficiency.html</guid><description>&lt;p>When planning a solar installation, the term &amp;ldquo;efficiency&amp;rdquo; is often the most-discussed metric. Homeowners frequently assume that a higher efficiency percentage directly translates to a lower monthly electricity bill. However, solar panel efficiency refers specifically to a panel&amp;rsquo;s ability to convert sunlight into usable electricity, not the total amount of energy a system produces over time. Understanding the nuance between efficiency, power rating, and environmental factors is critical to making a sound financial investment in renewable energy.&lt;/p></description></item><item><title>Solar Panel Output Calculator (Watts to Watt-hours)</title><link>https://solarpoweredproject.com/pages/solar-panel-output.html</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://solarpoweredproject.com/pages/solar-panel-output.html</guid><description>&lt;h2 id="quick-estimate">Quick estimate&lt;/h2>
-&lt;p>Use this calculator to turn panel watts and peak sun hours into realistic daily energy. The result helps you size batteries, inverters, and loads.&lt;/p>
+&lt;p>A single &lt;strong>400W solar panel&lt;/strong> in a typical US location produces about &lt;strong>1,100–1,600 watt-hours (Wh) per day&lt;/strong> — roughly 33–48 kWh per month. That&amp;rsquo;s enough to run a small chest freezer, recharge phones and laptops several times over, or run LED lights for hours. Actual output depends on your peak sun hours and system efficiency; use the calculator below for your exact setup.&lt;/p>
 &lt;aside class="callout callout-info" role="note">
  &lt;p class="callout-title">Field Note&lt;/p>
  &lt;div class="callout-content">Use &lt;strong>peak sun hours&lt;/strong> for your location, not total daylight. Most US locations get 3.5–6.5 peak sun hours per day. Pair this with your &lt;a href="solar-system-sizing.html">daily load plan&lt;/a>.&lt;/div>
@@ -972,7 +877,7 @@
 &lt;script>
 (function(){
  "use strict";
-
+ 
  function fmt(n){ return n.toLocaleString(undefined, {maximumFractionDigits: 1}); }
  function calculate(){
  var watts = parseFloat(document.getElementById('panel-watts').value) || 0;
