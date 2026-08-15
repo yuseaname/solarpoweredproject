@@ -1,5 +1,5 @@
-{{- $type := .Get "type" | default "info" -}}
-{{- $title := .Get "title" -}}
+{{- $type := .Get "type" | default (.Get 0) | default "info" -}}
+{{- $title := .Get "title" | default (.Get 1) -}}
 {{- $labels := dict "info" "Field Note" "warning" "Reality Check" "tip" "Next Decision" "danger" "Safety Gate" -}}
 <aside class="callout callout-{{ $type }}" role="note">
   <p class="callout-title">{{ $title | default (index $labels $type) }}</p>
