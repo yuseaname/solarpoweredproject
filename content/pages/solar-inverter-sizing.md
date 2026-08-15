@@ -45,7 +45,7 @@ Check the loads you plan to run at the same time. Defaults come from our [solar 
         <tr class="border-b border-gray-100"><td class="py-1.5 pr-2"><input type="checkbox" class="invcalc-chk rounded" data-name="Chest freezer"></td><td class="py-1.5 pr-2">Chest freezer</td><td class="py-1.5 pr-2"><input type="number" class="invcalc-run w-24 rounded-md border-gray-300 shadow-sm px-2 py-1 border" value="150" min="1"></td><td class="py-1.5"><input type="number" class="invcalc-surge w-24 rounded-md border-gray-300 shadow-sm px-2 py-1 border" value="800" min="0"></td></tr>
         <tr class="border-b border-gray-100"><td class="py-1.5 pr-2"><input type="checkbox" class="invcalc-chk rounded" data-name="Well pump (1/2 hp)"></td><td class="py-1.5 pr-2">Well pump (½ hp)</td><td class="py-1.5 pr-2"><input type="number" class="invcalc-run w-24 rounded-md border-gray-300 shadow-sm px-2 py-1 border" value="750" min="1"></td><td class="py-1.5"><input type="number" class="invcalc-surge w-24 rounded-md border-gray-300 shadow-sm px-2 py-1 border" value="2000" min="0"></td></tr>
         <tr class="border-b border-gray-100"><td class="py-1.5 pr-2"><input type="checkbox" class="invcalc-chk rounded" data-name="Window AC (5,000 BTU)"></td><td class="py-1.5 pr-2">Window AC (5,000 BTU)</td><td class="py-1.5 pr-2"><input type="number" class="invcalc-run w-24 rounded-md border-gray-300 shadow-sm px-2 py-1 border" value="600" min="1"></td><td class="py-1.5"><input type="number" class="invcalc-surge w-24 rounded-md border-gray-300 shadow-sm px-2 py-1 border" value="2200" min="0"></td></tr>
-        <tr class="border-b border-gray-100"><td class="py-1.5 pr-2"><input type="checkbox" class="invcalc-chk rounded" data-name="Microwave (1,000W output)"></td><td class="py-1.5 pr-2">Microwave (1,000W output)</td><td class="py-1.5 pr-2"><input type="number" class="invcalc-run w-24 rounded-md border-gray-300 shadow-sm px-2 py-1 border" value="1100" min="1"></td><td class="py-1.5"><input type="number" class="invcalc-surge w-24 rounded-md border-gray-300 shadow-sm px-2 py-1 border" value="1300" min="0"></td></tr>
+        <tr class="border-b border-gray-100"><td class="py-1.5 pr-2"><input type="checkbox" class="invcalc-chk rounded" data-name="Microwave (1,000W output)"></td><td class="py-1.5 pr-2">Microwave (1,000W output)</td><td class="py-1.5 pr-2"><input type="number" class="invcalc-run w-24 rounded-md border-gray-300 shadow-sm px-2 py-1 border" value="1500" min="1"></td><td class="py-1.5"><input type="number" class="invcalc-surge w-24 rounded-md border-gray-300 shadow-sm px-2 py-1 border" value="1500" min="0"></td></tr>
         <tr class="border-b border-gray-100"><td class="py-1.5 pr-2"><input type="checkbox" class="invcalc-chk rounded" data-name="Coffee maker"></td><td class="py-1.5 pr-2">Coffee maker</td><td class="py-1.5 pr-2"><input type="number" class="invcalc-run w-24 rounded-md border-gray-300 shadow-sm px-2 py-1 border" value="1200" min="1"></td><td class="py-1.5"><input type="number" class="invcalc-surge w-24 rounded-md border-gray-300 shadow-sm px-2 py-1 border" value="1200" min="0"></td></tr>
         <tr class="border-b border-gray-100"><td class="py-1.5 pr-2"><input type="checkbox" class="invcalc-chk rounded" data-name="LED lighting"></td><td class="py-1.5 pr-2">LED lighting</td><td class="py-1.5 pr-2"><input type="number" class="invcalc-run w-24 rounded-md border-gray-300 shadow-sm px-2 py-1 border" value="300" min="1"></td><td class="py-1.5"><input type="number" class="invcalc-surge w-24 rounded-md border-gray-300 shadow-sm px-2 py-1 border" value="300" min="0"></td></tr>
         <tr class="border-b border-gray-100"><td class="py-1.5 pr-2"><input type="checkbox" class="invcalc-chk rounded" data-name="Laptops + phone charging"></td><td class="py-1.5 pr-2">Laptops + phone charging</td><td class="py-1.5 pr-2"><input type="number" class="invcalc-run w-24 rounded-md border-gray-300 shadow-sm px-2 py-1 border" value="100" min="1"></td><td class="py-1.5"><input type="number" class="invcalc-surge w-24 rounded-md border-gray-300 shadow-sm px-2 py-1 border" value="100" min="0"></td></tr>
@@ -154,7 +154,7 @@ Some loads require a high startup surge (motors, compressors). Inverter specs ty
 
 **Surge headroom** = inverter surge rating − expected surge load
 
-If you're near the limit, the system may trip or fail to start the device reliably.
+If you're near the limit, the system may trip or fail to start the device reliably. A soft-start kit on a well pump or compressor can cut its startup demand by 50–70%, often removing the surge bottleneck entirely.
 
 ## Step 3: Check battery-side current draw
 
@@ -174,12 +174,12 @@ For many off-grid and RV use cases, waveform matters for compatibility.
 
 ## Worked example: small off-grid cabin
 
-Loads running together: refrigerator (200W), LED lighting (300W), laptop + phone charging (100W), microwave (1,100W).
+Loads running together: refrigerator (200W), LED lighting (300W), laptop + phone charging (100W), microwave (1,500W input — a "1,000W output" microwave draws ~1,400–1,600W from the bank).
 
--   **Simultaneous running load:** 200 + 300 + 100 + 1,100 = **1,700W**
--   **With 25% headroom:** 1,700 × 1.25 = 2,125W → pick a **2,500W** inverter (next common size)
--   **Worst-case startup:** microwave starting while the rest runs = 600 + 1,300 = 1,900W; refrigerator starting while the rest runs = 1,500 + 1,200 = **2,700W** ← the binding case. A 2,500W inverter with a typical 2× surge rating (5,000W) covers it.
--   **Battery-side at 12V (90% efficiency):** 1,700 ÷ 10.8 ≈ **157A continuous**, 2,700 ÷ 10.8 ≈ **250A during startup** — heavy. At 24V both numbers halve; at 48V they quarter. This is why bigger inverter loads push systems toward higher bank voltage (see <a href="/pages/12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V</a>).
+-   **Simultaneous running load:** 200 + 300 + 100 + 1,500 = **2,100W**
+-   **With 25% headroom:** 2,100 × 1.25 = 2,625W → pick a **3,000W** inverter (next common size)
+-   **Worst-case startup:** microwave starting while the rest runs = 600 + 1,500 = 2,100W; refrigerator starting while the rest runs = 1,900 + 1,200 = **3,100W** ← the binding case. A 3,000W inverter with a typical 2× surge rating (6,000W) covers it.
+-   **Battery-side at 12V (90% efficiency):** 2,100 ÷ 10.8 ≈ **194A continuous**, 3,100 ÷ 10.8 ≈ **287A during startup** — heavy. At 24V both numbers halve; at 48V they quarter. This is why bigger inverter loads push systems toward higher bank voltage (see <a href="/pages/12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V</a>).
 
 ## Common sizing examples (quick ranges)
 

@@ -146,7 +146,7 @@ Related: <a href="battery-capacity.html" class="text-link">Understanding battery
 
 ## Surge watts and motors
 
-Resistive loads (lights, chargers, heaters) draw a steady wattage. **Inductive loads** — anything with a motor, compressor, pump, or transformer — have a **surge** (also called inrush or lock-rotor current) that's 2–3× their running wattage for the first few seconds of startup. A 750 W well pump might briefly pull 1,800–2,200 W as the motor spins up.
+Resistive loads (lights, chargers, heaters) draw a steady wattage. **Inductive loads** — anything with a motor, compressor, pump, or transformer — have a **surge** (also called inrush or lock-rotor current) that's typically 2–3× their running wattage for the first few seconds of startup; hard-start loads like well pumps can briefly demand 3–7×. A 750 W well pump might briefly pull 1,800–2,200 W as the motor spins up. Refrigerator surge depends heavily on compressor type: traditional compressors can hit 5–6× running watts, while inverter-compressor models barely surge at all — check which type you have.
 
 Surge doesn't affect your Wh/day calculation much (a few seconds is nothing across a full day), but it **directly determines inverter sizing**. If your inverter can't deliver the surge, the motor won't start and may stall or trip. Always size the inverter for the sum of all likely-to-be-on surge loads plus a safety margin.
 
@@ -154,11 +154,11 @@ Common surge ratios:
 
 | Device | Running watts | Surge (approx.) |
 |---|---|---|
-| Refrigerator (full-size) | 150–250 W | 1,200–1,500 W |
+| Refrigerator (full-size) | 150–250 W | 500–1,500 W (compressor-dependent) |
 | Chest freezer | 100–200 W | 800–1,200 W |
 | Well pump (½ hp) | 750 W | 1,800–2,200 W |
 | Air conditioner (window, 5k BTU) | 500–700 W | 2,000–3,000 W |
-| Microwave (1,000 W output) | 1,000–1,200 W | 1,200–1,500 W |
+| Microwave (1,000 W output) | 1,400–1,600 W (input) | ≈ running (resistive, no motor surge) |
 | Coffee maker | 1,000–1,500 W | 1,000–1,500 W (resistive, no surge) |
 
 The microwave is a good reminder: **watts in (from the wall) ≠ watts out (cooking power)**. A "1,000 W" microwave typically draws 1,400–1,600 W from the outlet. Check the label.

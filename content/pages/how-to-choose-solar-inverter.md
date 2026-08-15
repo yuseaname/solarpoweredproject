@@ -161,13 +161,13 @@ Size to your peak load, not your average load. List every appliance you might ru
 <tbody>
 <tr class="odd">
 <td>Well pump (1HP)</td>
-<td>750W</td>
-<td>2,000–3,000W</td>
+<td>1,000–1,400W</td>
+<td>3,000–5,000W</td>
 </tr>
 <tr class="even">
 <td>Refrigerator</td>
 <td>150W</td>
-<td>400–600W</td>
+<td>500–1,500W (compressor-dependent)</td>
 </tr>
 <tr class="odd">
 <td>Window AC (8,000 BTU)</td>
@@ -175,9 +175,9 @@ Size to your peak load, not your average load. List every appliance you might ru
 <td>1,500–2,000W</td>
 </tr>
 <tr class="even">
-<td>Microwave</td>
-<td>1,000W</td>
-<td>1,000W</td>
+<td>Microwave (1,000W output)</td>
+<td>1,400–1,500W input</td>
+<td>≈ running (resistive)</td>
 </tr>
 <tr class="odd">
 <td>LED lighting (5 circuits)</td>
@@ -187,7 +187,7 @@ Size to your peak load, not your average load. List every appliance you might ru
 </tbody>
 </table>
 
-If you run the well pump + refrigerator + one AC window unit simultaneously, you need ~1,700W running and up to 5,600W surge. A 3,000W continuous / 6,000W surge inverter covers this comfortably.
+If you run the well pump + refrigerator + one AC window unit simultaneously, that's about 2,150W running (1,200 + 150 + 800, using mid-range values). The worst moment is the pump starting while the rest runs: roughly 950 + 4,000 ≈ **5,000W**. A 3,000W continuous inverter with a 6,000W surge rating covers it with margin — and a [soft-start kit on the pump](solar-inverter-sizing.html) shrinks that surge dramatically.
 
 ## Efficiency and key features
 

@@ -137,7 +137,7 @@ Choose a battery bank to cover the number of hours or days you want in reserve.
 
 ## Step 4: Size the inverter
 
-The inverter must handle the sum of all loads that can run at once, plus motor surge. A simple rule is **2× peak running watts**. Learn more in [solar inverter sizing](solar-inverter-sizing.html).
+The inverter must handle the sum of all loads that can run at once, plus motor surge. A practical rule: add **~25% headroom** to your simultaneous running watts, then verify the worst startup moment — motors typically need 2–3× running watts to start, hard-start loads like well pumps 3–7×. Run the numbers with the [inverter sizing calculator](solar-inverter-sizing.html).
 
 ## Step 5: Size the charge controller
 
@@ -153,7 +153,7 @@ Compare MPPT and PWM in [MPPT vs PWM](mppt-vs-pwm.html) and see [charge controll
 
 - **Undersizing winter production:** summer sun is not a year-round baseline.
 - **Forgetting inverter efficiency:** AC loads need ~10% more battery than the raw Wh.
-- **Ignoring surge:** pumps, compressors, and microwaves need 3–7× surge for a few seconds.
+- **Ignoring surge:** pumps and compressors can need 3–7× running watts for a few seconds.
 - **String voltage too low:** a 12 V system for a 3,000 W house creates huge currents and thick cabling.
 
 ## Next logical reads
