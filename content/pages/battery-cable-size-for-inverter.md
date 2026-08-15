@@ -11,6 +11,8 @@ image_width = 1536
 image_height = 1024
 +++
 
+
+{{< affiliate-disclosure >}}
 ## Table of contents
 
 <a href="#takeaways" class="text-link">Key takeaways</a> <a href="#why-this-is-hard" class="text-link">Why inverter cables are different</a> <a href="#step1" class="text-link">Step 1: Estimate maximum DC current</a> <a href="#step2" class="text-link">Step 2: Measure the run (the part most people miss)</a> <a href="#step3" class="text-link">Step 3: Set a practical voltage-drop target</a> <a href="#step4" class="text-link">Step 4: Choose cable + lugs + protection as a system</a> <a href="#voltage" class="text-link">Why 24V/48V makes this easier</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next" class="text-link">Next logical reads</a>
@@ -170,6 +172,9 @@ Often, yes—oversizing reduces voltage drop and heating. The practical limits a
 #### Is it safe to use AC breakers on DC inverter circuits?
 
 No. Use devices explicitly rated for DC at your system voltage. DC interrupt ratings are not interchangeable with AC ratings.
+
+{{< product-box asin="B08B7VPWD4" name="IWISS Battery Lug Crimper (10–2/0 AWG)" label="The crimp tool lugs deserve" description="A proper hex/indent crimper for 10 AWG to 2/0 battery lugs — the difference between a connection you trust at 100A and one that heats. If you are building inverter cables, this is the tool." button="Check price on Amazon" >}}
+
 
 ## Next logical reads
 

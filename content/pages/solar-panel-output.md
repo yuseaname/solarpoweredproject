@@ -14,6 +14,8 @@ image_width = 1024
 image_height = 768
 +++
 
+
+{{< affiliate-disclosure >}}
 ## Quick estimate
 
 A single **400W solar panel** in a typical US location produces about **1,100–1,600 watt-hours (Wh) per day** — roughly 33–48 kWh per month. That's enough to run a small chest freezer, recharge phones and laptops several times over, or run LED lights for hours. Actual output depends on your peak sun hours and system efficiency; use the calculator below for your exact setup.
@@ -212,6 +214,9 @@ Solar output swings dramatically between summer and winter. Plan for your **wors
 - **Battery sizing:** a 1,440 Wh/day load needs enough usable battery capacity to cover cloudy days. Use the [battery capacity calculator](battery-capacity.html).
 - **Load planning:** knowing daily production lets you match appliances to available energy. Start with [system sizing](solar-system-sizing.html).
 - **Troubleshooting:** if real output is much lower than this estimate, check shading, tilt, soiling, or controller issues in [low output troubleshooting](solar-output-troubleshooting.html) and [panel cleaning basics](solar-panel-cleaning-cost.html).
+
+{{< product-box asin="B018CLOSTC" name="Klein Tools MM600 Multimeter" label="Verify real output" description="Estimated output is theory; a meter is truth. A 1000V-rated auto-ranging multimeter lets you confirm panel Voc and string voltage against spec-sheet numbers." button="Check price on Amazon" >}}
+
 
 ## Next logical reads
 

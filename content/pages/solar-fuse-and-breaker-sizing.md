@@ -12,6 +12,8 @@ image_width = 1024
 image_height = 768
 +++
 
+
+{{< affiliate-disclosure >}}
 ## Table of contents
 
 <a href="#takeaways" class="text-link">Key takeaways</a> <a href="#protecting" class="text-link">What fuses/breakers protect (and what they don’t)</a> <a href="#circuits" class="text-link">The 4 common solar circuits</a> <a href="#labels" class="text-link">Sizing using labels (avoid guesswork)</a> <a href="#placement" class="text-link">Placement rules-of-thumb</a> <a href="#dc-rated" class="text-link">DC-rated checklist</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next" class="text-link">Next logical reads</a>
@@ -144,6 +146,11 @@ A fuse can blow due to true overloads, surges, heat from a loose connection, or 
 #### What’s the safest “first upgrade” for a DIY system?
 
 If your system lacks clear DC-rated disconnects and correctly placed protection, improving isolation and protection can make maintenance and troubleshooting safer.
+
+{{< product-box asin="B08L56RDNP" name="BougeRV 15A MC4 Inline Fuse Kit (5-pk)" label="String-level protection" description="Waterproof IP68 in-line fuse holders for panel strings — the cheapest insurance a DIY array can buy. Match the fuse rating to your string current." button="Check price on Amazon" >}}
+
+{{< product-box asin="B00MYSQM58" name="Blue Sea 100A Mini BusBar" label="Clean distribution point" description="A tinned-copper busbar for battery/inverter distribution — the tidy, inspectable alternative to stacked ring terminals that protection devices can actually guard." button="Check price on Amazon" >}}
+
 
 ## Next logical reads
 

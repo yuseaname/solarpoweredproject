@@ -11,6 +11,8 @@ image_width = 1536
 image_height = 1024
 +++
 
+
+{{< affiliate-disclosure >}}
 ## Quick diagnostic flowchart: zero charge current? Start here
 
 Work through these in order. Most "not charging" problems are found in the first three steps:
@@ -190,6 +192,9 @@ Cold can increase PV voltage (affecting limits) and lithium batteries may preven
 #### When should I call a professional?
 
 If you can’t verify PV voltage/current within safe procedures, see repeated faults, or suspect wiring damage, stop and contact a qualified professional.
+
+{{< product-box asin="B018CLOSTC" name="Klein Tools MM600 Multimeter" label="First diagnostic tool" description="Step one of every MPPT troubleshooting checklist is measuring PV voltage — an auto-ranging 1000V meter like this is the tool that answers it." button="Check price on Amazon" >}}
+
 
 ## Next logical reads
 
