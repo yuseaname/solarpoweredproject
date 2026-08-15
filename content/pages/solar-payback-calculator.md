@@ -14,7 +14,7 @@ image_height = 576
 
 # Solar Payback Calculator
 
-Use this calculator to estimate how long it takes a solar system to pay for itself, and how much it can save over its lifetime. It factors in system cost, federal tax credit, electricity rates, utility escalation, and estimated degradation.
+Use this calculator to estimate how long it takes a solar system to pay for itself, and how much it can save over its lifetime. It factors in system cost, tax credits, electricity rates, utility escalation, and estimated degradation. **Default federal credit is 0%** — the 30% residential credit expired Dec 31, 2025 (set it above zero only for a 2025 install you're still claiming).
 
 <figure class="article-image article-image--hero">
 <img src="/assets/images/solar-payback-calculator/solar-payback-calculator-hero.jpg" loading="eager" data-fetchpriority="high" decoding="async" alt="Solar payback timeline showing cumulative savings over 25 years" / width="1200" height="630">
@@ -30,8 +30,8 @@ Use this calculator to estimate how long it takes a solar system to pay for itse
       <input class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500" type="number" id="system_cost" value="27000" min="1000" step="100">
     </div>
     <div>
-      <label class="block text-sm font-medium text-gray-700" for="federal_credit">Federal tax credit (%)</label>
-      <input class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500" type="number" id="federal_credit" value="30" min="0" max="100" step="1">
+      <label class="block text-sm font-medium text-gray-700" for="federal_credit">Tax credit (%) — 0 unless 2025 install</label>
+      <input class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500" type="number" id="federal_credit" value="0" min="0" max="100" step="1">
     </div>
     <div>
       <label class="block text-sm font-medium text-gray-700" for="annual_production">First-year production (kWh)</label>
@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function() {
 | Input | Typical value | Why |
 | :--- | :--- | :--- |
 | Gross system cost | $20,000 – $30,000 | 8–10 kW system before incentives |
-| Federal tax credit | 30% | Current ITC for residential solar |
+| Tax credit | 0% | 30% federal credit expired Dec 31, 2025 (P.L. 119-21); set >0 only for 2025 installs |
 | First-year production | 12,000 – 16,000 kWh | 8–10 kW in decent sun |
 | Electricity rate | $0.14 – $0.25/kWh | Varies widely by state and utility |
 | Rate escalation | 2–4% | Historical utility inflation |
@@ -207,11 +207,11 @@ This calculator gives a directional estimate. It does not include financing cost
 ## Frequently asked questions
 
 {{< faq "What is a good solar payback period?" >}}
-For residential solar in the U.S., a simple payback of **7–10 years** is generally considered good. Systems in high-rate, high-sun states like Arizona or California often land at the lower end; systems in lower-sun or lower-rate areas may take 10–14 years.
+For residential solar in the U.S. without federal incentives, a simple payback of **10–14 years** is the realistic 2026 range. High-rate, high-sun states with full-retail net metering can still land in 8–10 years; avoided-cost export states run longer. Systems bought in 2025 with the 30% credit commonly showed 7–10 years.
 {{< /faq >}}
 
 {{< faq "Does the federal tax credit reduce payback time?" >}}
-Yes. The 30% federal ITC lowers the net upfront cost, which shortens payback proportionally. A $30,000 system becomes a $21,000 system after the credit, cutting the payback period by roughly 30% if the credit is applied immediately.
+It did — the 30% credit (expired Dec 31, 2025) lowered net cost and shortened payback roughly proportionally. For 2026 purchases there is no federal homeowner credit, so payback runs on the full system price. Enter any state/utility incentive you qualify for by reducing the gross cost instead.
 {{< /faq >}}
 
 {{< faq "Should I include a battery in payback calculations?" >}}

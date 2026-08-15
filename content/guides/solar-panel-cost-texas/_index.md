@@ -14,7 +14,7 @@ image_height = 630
 
 # How Much Do Solar Panels Cost in Texas in 2026?
 
-As of mid-2026, the average solar panel cost in Texas is **$2.20 to $2.50 per watt installed** before incentives, making Texas one of the most affordable states for residential solar. A typical 11–12.5 kW system sized for Texas cooling loads costs roughly **$24,000 to $31,000 before incentives**. After the 30% federal Investment Tax Credit (ITC), the net price drops to about **$16,800 to $21,700**.
+As of mid-2026, the average solar panel cost in Texas is **$2.20 to $2.50 per watt installed** before incentives, making Texas one of the most affordable states for residential solar. A typical 11–12.5 kW system sized for Texas cooling loads costs roughly **$24,000 to $31,000**. Note: the 30% federal tax credit expired December 31, 2025 — 2026 buyers pay the full price (minus state exemptions); systems installed in 2025 keep the credit on that year's return. See our [federal tax credit guide](/pages/solar-panel-tax-credit.html).
 
 Texas combines low installation costs with strong sun and high summer air-conditioning demand, which shortens payback periods compared to many other states. However, the state has **no mandatory statewide net metering**, so the value of exported solar depends on your retail electricity provider or utility.
 
@@ -49,7 +49,7 @@ For a 12 kW system at $2.30/W, the gross cost is **$27,600** before incentives.
 
 ### Total System Cost for Typical Homes
 
-| System Size | Gross Cost (before ITC) | Net Cost (after 30% ITC) | Best For |
+| System Size | Gross Cost (2026) | Net for 2025 installs (after 30% ITC) | Best For |
 | :--- | :--- | :--- | :--- |
 | 6 kW | $13,200 – $15,000 | $9,240 – $10,500 | Small home, low usage |
 | 8 kW | $17,600 – $20,000 | $12,320 – $14,000 | Average home |
@@ -86,7 +86,7 @@ Houston, Dallas-Fort Worth, Austin, and San Antonio have dense installer markets
 
 ### Federal Investment Tax Credit (ITC)
 
-The 30% federal solar tax credit applies to Texas systems in 2026. On a $27,600 system, that is **$8,280** in credit against federal tax liability.
+The 30% federal credit **expired December 31, 2025** (P.L. 119-21). If you installed in 2025, claim it on your 2025 return — on a $27,600 system that's **$8,280** against federal tax liability, with carryforward if needed. For 2026 installs, there is no federal credit; your net cost is the full system price minus Texas's property tax exemption and any utility rebates.
 
 ### Property Tax Exemption
 
@@ -101,13 +101,13 @@ Texas offers a **100% property tax exemption** on the added value of solar equip
 
 ## Payback Period and Long-Term Savings
 
-A 10 kW system in Texas producing roughly 15,000 kWh/year at $0.14/kWh saves about **$2,100/year** on electricity. With a net cost near **$17,000**, simple payback is about **8 years**. Over 25 years, cumulative savings can exceed **$40,000–$50,000** before accounting for rising utility rates.
+A 10 kW system in Texas producing roughly 15,000 kWh/year at $0.14/kWh saves about **$2,100/year** on electricity. At 2026 pricing (no federal credit), simple payback on a $24,000–$31,000 system runs roughly **11–15 years**; 2025 installs that claimed the credit sat closer to 8–9 years. Over 25 years, cumulative savings can still exceed **$50,000** before accounting for rising utility rates.
 
 Adding a battery can improve economics if your utility charges time-of-use rates or offers low export compensation. See [solar battery cost 2026](/guides/solar-battery-cost-2026.html) for battery pricing.
 
 ## Is Solar Worth It in Texas in 2026?
 
-Yes, for most homeowners with good sun exposure and a roof in reasonable condition. The combination of low cost per watt, strong peak sun hours, federal tax credit, and property tax exemption makes solar a solid long-term investment. The main variable to check is your specific **buyback or net metering arrangement**, which determines how valuable exported solar is.
+It depends more on your buyback arrangement than it used to. Low cost per watt and strong sun still help, but with the federal credit gone, the math hinges on your electricity rate and how well your retail plan credits exports. Shop buyback plans carefully (see [net metering by state](/pages/net-metering-by-state-2026.html)) and size the array to your actual load rather than oversizing for exports.
 
 ## Related guides
 

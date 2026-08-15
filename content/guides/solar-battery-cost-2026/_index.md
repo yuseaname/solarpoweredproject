@@ -14,7 +14,7 @@ image_height = 2157
 
 # How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide
 
-In 2026, a typical residential solar battery system costs between **$10,000 and $20,000 installed**, depending on capacity and brand. For a standard 10 kWh system, homeowners can expect to pay approximately **$1,000 to $1,400 per kWh** before incentives. With the federal Investment Tax Credit (ITC) applied, the net cost drops significantly, often bringing the price closer to **$8,000–$11,000** for a complete setup. These prices reflect a continued decline from 2025, making energy storage more accessible than ever for maximizing solar investments and ensuring backup power resilience.
+In 2026, a typical residential solar battery system costs between **$10,000 and $20,000 installed**, depending on capacity and brand — roughly **$1,000 to $1,400 per kWh** for a standard 10 kWh system. Note: the 30% federal ITC expired December 31, 2025, so 2026 buyers pay the full hardware price minus state/utility storage incentives (California's SGIP among the strongest). Batteries installed in 2025 — solar-paired or standalone — keep the 30% credit on that year's return.
 
 The market for home energy storage has matured rapidly, shifting from a luxury add-on to a critical component of modern home energy management. As utility rates rise and extreme weather events increase the frequency of grid outages, understanding the true cost of solar batteries is essential for budgeting. This guide breaks down the 2026 pricing landscape, analyzes top models, details federal and state incentives, and helps you calculate the return on investment for your specific situation.
 
@@ -151,23 +151,20 @@ For homeowners on a tighter budget, there are alternative brands such as LG Chem
 
 Navigating financial incentives is complex in 2026, with specific rules affecting standalone batteries versus those paired with solar. Understanding these rules can save you thousands of dollars on your total project cost.
 
-### Understanding the 30% ITC Rules
+### The federal ITC: expired for new installs
 
-The federal Investment Tax Credit (ITC) allows homeowners to deduct a percentage of the installation cost from their federal taxes. For 2026, the standard ITC remains at **30%** for systems installed and placed in service during the tax year. However, there is a critical nuance regarding standalone batteries.
+The 30% federal credit (Section 25D) ended for expenditures after **December 31, 2025** under the One Big Beautiful Bill Act. What this means for storage buyers:
 
-According to Solar.com, the 30% tax credit for standalone batteries (batteries not paired with solar panels at the time of installation) was available for systems installed by **December 31, 2025**. In 2026 and 2027, the federal tax credit eligibility for batteries may have changed, often requiring them to be paired with a solar PV system to qualify for the full credit. Homeowners planning to add storage to an existing solar system from a previous year must verify if the battery can still claim the credit as part of a "retrofit" or if it is excluded. This makes timing your installation crucial for maximizing tax benefits.
-
-### Expiration Dates and Eligibility Changes
-
-The Inflation Reduction Act (IRA) extended the ITC through 2032, but the specific application for storage evolves. If you install a battery in 2026 alongside new solar panels, you generally qualify for the 30% credit on the entire system. If the battery is added later, it may be treated differently.
-
-It is essential to consult with a tax professional or a certified solar installer to confirm your specific eligibility. Some states have interpreted the federal rules differently, and utility programs may offer their own credits that stack with federal ones. For example, if the federal credit is restricted for standalone units in 2026, some state-level programs may step in to fill the gap, though these are often less generous than the federal 30%.
+-   **Battery installed in 2025** (including standalone ≥3 kWh units): claim 30% on your 2025 return via Form 5695; unused amounts carry forward.
+-   **Battery purchased in 2026**: no federal homeowner credit — homeowner-purchased storage now stands on utility rates, TOU arbitrage, outage protection, and state programs alone.
+-   **Business/commercial storage** follows separate rules (Section 48E) that remain live in modified form — consult a tax professional.
+-   **TPO/lease storage** never carried a homeowner credit; operators repriced after the expiry, so compare contract rates carefully.
 
 ### State and Utility Rebates
 
 Beyond federal credits, state and utility incentives play a massive role in the final cost. In 2026, states like California, New York, and Massachusetts offer substantial rebates for energy storage. For instance, California's Self-Generation Incentive Program (SGIP) provides rebates based on the risk of wildfire and the capacity of the battery.
 
-Utility companies also offer Time-of-Use (TOU) rate plans that can effectively act as a rebate by lowering your electricity bill. Some utilities offer direct rebates for installing smart batteries that can communicate with the grid to reduce strain during peak demand. These incentives can reduce the net cost by an additional **10% to 20%** on top of the federal ITC. Always check your local utility provider's website for 2026-specific storage programs, as these change annually based on grid needs.
+Utility companies also offer Time-of-Use (TOU) rate plans that can effectively act as a rebate by lowering your electricity bill. Some utilities offer direct rebates for installing smart batteries that can communicate with the grid to reduce strain during peak demand. With the federal credit gone for new installs, these programs are now the primary discount lever — in California's case SGIP can cover a large share of battery cost for qualifying households. Always check your local utility provider's website for 2026-specific storage programs, as these change annually based on grid needs.
 
 ## Installation Costs and Hidden Fees
 

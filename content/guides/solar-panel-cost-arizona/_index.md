@@ -14,9 +14,9 @@ image_height = 630
 
 # How Much Do Solar Panels Cost in Arizona in 2026?
 
-As of mid-2026, the average solar panel cost in Arizona is **$2.20 – $2.60 per watt installed** before incentives. A typical **8–9.5 kW** residential system costs roughly **$17,600 – $24,700 before incentives**. After the 30% federal Investment Tax Credit (ITC), the net price drops to about **$12,320 – $17,290**.
+As of mid-2026, the average solar panel cost in Arizona is **$2.20 – $2.60 per watt installed**. A typical **8–9.5 kW** residential system costs roughly **$17,600 – $24,700**. Note: the 30% federal ITC expired December 31, 2025 — 2026 buyers pay full price; 2025 installs keep the credit. Arizona's $1,000 state credit, tax exemptions, and 6+ peak sun hours carry the value case.
 
-Arizona homeowners pay an average residential electricity rate near **$0.14/kWh** and see **6.0+ peak sun hours per day**, giving most systems a simple payback of **7–9 years**.
+Arizona homeowners pay an average residential electricity rate near **$0.14/kWh** and see **6.0+ peak sun hours per day**; with no federal credit in 2026, expect simple payback around **9–12 years** (2025 credit-era installs ran 7–9).
 
 Arizona is one of the most favorable residential solar markets in the U.S. thanks to abundant sun, low cost per watt, and strong installer competition. The primary caveat is that major utilities APS and SRP have shifted toward export-rate or net-billing structures, making self-consumption and batteries more valuable.
 
@@ -42,7 +42,7 @@ Marketplace and installer quotes in Arizona typically fall within the **$2.20 �
 
 ### Total System Cost for Typical Homes
 
-| System Size | Gross Cost (before ITC) | Net Cost (after 30% ITC) | Best For |
+| System Size | Gross Cost (2026) | Net for 2025 installs (after 30% ITC) | Best For |
 | :--- | :--- | :--- | :--- |
 | 6 kW | $13,200 – $15,600 | $9,240 – $10,920 | Small home |
 | 8 kW | $17,600 – $20,800 | $12,320 – $14,559 | Average home |
@@ -78,11 +78,11 @@ Arizona offers the Residential Solar Energy Credit (up to $1,000 personal tax cr
 
 ## Payback Period and Long-Term Savings
 
-A 10 kW system in Arizona producing roughly **6.0+ sun-hours/day** will generate about **14,000–17,000 kWh/year** depending on orientation and shading. At **$0.14/kWh**, annual savings often exceed **$2,000–$3,000**. With a net cost near the mid-point of the state range, simple payback lands around **7–9 years**. Over 25 years, cumulative savings can exceed **$40,000–$60,000** before future utility rate increases.
+A 10 kW system in Arizona producing roughly **6.0+ sun-hours/day** will generate about **14,000–17,000 kWh/year** depending on orientation and shading. At **$0.14/kWh**, annual savings often exceed **$2,000–$3,000**. At 2026 pricing (no federal credit, but the $1,000 state credit applies), simple payback runs roughly **9–12 years**. Over 25 years, cumulative savings can exceed **$40,000–$60,000** before future utility rate increases.
 
 ## Is Solar Worth It in Arizona in 2026?
 
-For most homeowners with a suitable roof and reasonable shading, **yes**. The combination of the 30% federal ITC, state-specific incentives, high electricity rates, and long system lifespan makes solar a strong long-term investment in Arizona. The main variables to verify are your local net metering or export compensation rules and your roof's condition.
+For most homeowners with a suitable roof and reasonable shading, **yes — Arizona's sun is strong enough to carry most of the case**. Without the federal credit, the state's $1,000 tax credit, sales/property tax exemptions, and 6+ peak sun hours do the heavy lifting — but export compensation matters a lot here: APS/SRP pay well under retail for exports, so self-consumption and batteries drive the economics. Verify your utility's current structure before signing.
 
 ## Related guides
 

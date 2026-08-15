@@ -14,9 +14,9 @@ image_height = 630
 
 # How Much Do Solar Panels Cost in Florida in 2026?
 
-As of mid-2026, the average solar panel cost in Florida is **$2.50 – $2.90 per watt installed** before incentives. A typical **9–10.5 kW** residential system costs roughly **$22,500 – $30,450 before incentives**. After the 30% federal Investment Tax Credit (ITC), the net price drops to about **$15,750 – $21,315**.
+As of mid-2026, the average solar panel cost in Florida is **$2.50 – $2.90 per watt installed**. A typical **9–10.5 kW** residential system costs roughly **$22,500 – $30,450**. Note: the 30% federal ITC expired December 31, 2025 — 2026 buyers pay the full price; 2025 installs keep the credit. Florida's net metering rules and property tax exemption now carry the value case.
 
-Florida homeowners pay an average residential electricity rate near **$0.15/kWh** and see **4.5–5.5 peak sun hours per day**, giving most systems a simple payback of **8–11 years**.
+Florida homeowners pay an average residential electricity rate near **$0.15/kWh** and see **4.5–5.5 peak sun hours per day**; with no federal credit in 2026, expect simple payback around **10–13 years** (2025 credit-era installs ran 8–11).
 
 Florida combines strong sun, high summer AC loads, and a large installer market. The main design consideration is wind/hurricane loading, which often requires stronger racking and attachment schedules than inland states. Net metering and compensation rules vary by utility.
 
@@ -42,7 +42,7 @@ Marketplace and installer quotes in Florida typically fall within the **$2.50 �
 
 ### Total System Cost for Typical Homes
 
-| System Size | Gross Cost (before ITC) | Net Cost (after 30% ITC) | Best For |
+| System Size | Gross Cost (2026) | Net for 2025 installs (after 30% ITC) | Best For |
 | :--- | :--- | :--- | :--- |
 | 6 kW | $15,000 – $17,400 | $10,500 – $12,180 | Small home |
 | 8 kW | $20,000 – $23,200 | $14,000 – $16,239 | Average home |
@@ -78,11 +78,11 @@ Florida has no state income tax and therefore no state solar tax credit, but it 
 
 ## Payback Period and Long-Term Savings
 
-A 10 kW system in Florida producing roughly **4.5–5.5 sun-hours/day** will generate about **14,000–17,000 kWh/year** depending on orientation and shading. At **$0.15/kWh**, annual savings often exceed **$2,000–$3,000**. With a net cost near the mid-point of the state range, simple payback lands around **8–11 years**. Over 25 years, cumulative savings can exceed **$40,000–$60,000** before future utility rate increases.
+A 10 kW system in Florida producing roughly **4.5–5.5 sun-hours/day** will generate about **14,000–17,000 kWh/year** depending on orientation and shading. At **$0.15/kWh**, annual savings often exceed **$2,000–$3,000**. At 2026 pricing (no federal credit), simple payback runs roughly **10–13 years**. Over 25 years, cumulative savings can exceed **$40,000–$60,000** before future utility rate increases.
 
 ## Is Solar Worth It in Florida in 2026?
 
-For most homeowners with a suitable roof and reasonable shading, **yes**. The combination of the 30% federal ITC, state-specific incentives, high electricity rates, and long system lifespan makes solar a strong long-term investment in Florida. The main variables to verify are your local net metering or export compensation rules and your roof's condition.
+For most homeowners with a suitable roof and reasonable shading, **it can be — but check the export rules first**. Without the federal credit, Florida's full-retail-adjacent net metering and high cooling loads do the heavy lifting. Verify your utility's current compensation structure and roof condition before signing; size to self-consumption rather than maximizing exports.
 
 ## Related guides
 

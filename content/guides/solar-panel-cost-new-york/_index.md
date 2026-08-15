@@ -14,7 +14,7 @@ image_height = 630
 
 # How Much Do Solar Panels Cost in New York in 2026?
 
-As of mid-2026, the average solar panel cost in New-York is **$2.90 – $3.40 per watt installed** before incentives. A typical **8–9 kW** residential system costs roughly **$23,200 – $30,600 before incentives**. After the 30% federal Investment Tax Credit (ITC), the net price drops to about **$16,240 – $21,420**.
+As of mid-2026, the average solar panel cost in New-York is **$2.90 – $3.40 per watt installed**. A typical **8–9 kW** residential system costs roughly **$23,200 – $30,600** before state incentives. Note: the 30% federal ITC expired December 31, 2025 — but New York's own incentives (NY-Sun upfront rebates, 25% state credit up to $5,000) still cut the real price meaningfully.
 
 New-York homeowners pay an average residential electricity rate near **$0.22/kWh** and see **3.5–4.5 peak sun hours per day**, giving most systems a simple payback of **8–11 years**.
 
@@ -42,7 +42,7 @@ Marketplace and installer quotes in New-York typically fall within the **$2.90 �
 
 ### Total System Cost for Typical Homes
 
-| System Size | Gross Cost (before ITC) | Net Cost (after 30% ITC) | Best For |
+| System Size | Gross Cost (2026) | Net for 2025 installs (after 30% ITC) | Best For |
 | :--- | :--- | :--- | :--- |
 | 6 kW | $17,400 – $20,400 | $12,180 – $14,280 | Small home |
 | 8 kW | $23,200 – $27,200 | $16,239 – $19,040 | Average home |
@@ -70,7 +70,7 @@ Marketplace and installer quotes in New-York typically fall within the **$2.90 �
 
 ## New-York Solar Incentives and Financial Benefits
 
-New York offers NY-Sun upfront incentives, a 25% state tax credit up to $5,000, sales tax exemption, and NYC property tax abatement for qualifying systems. These stack with the 30% federal ITC.
+New York offers NY-Sun upfront incentives, a 25% state tax credit up to $5,000, sales tax exemption, and NYC property tax abatement for qualifying systems. These remain live in 2026 — only the federal ITC is gone (expired Dec 31, 2025).
 
 - NY-Sun program provides upfront incentives based on region and block availability.
 - New York State Solar Energy System Equipment Tax Credit: 25% of cost after rebates, up to $5,000.
@@ -78,11 +78,11 @@ New York offers NY-Sun upfront incentives, a 25% state tax credit up to $5,000, 
 
 ## Payback Period and Long-Term Savings
 
-A 10 kW system in New-York producing roughly **3.5–4.5 sun-hours/day** will generate about **14,000–17,000 kWh/year** depending on orientation and shading. At **$0.22/kWh**, annual savings often exceed **$2,000–$3,000**. With a net cost near the mid-point of the state range, simple payback lands around **8–11 years**. Over 25 years, cumulative savings can exceed **$40,000–$60,000** before future utility rate increases.
+A 10 kW system in New-York producing roughly **3.5–4.5 sun-hours/day** will generate about **14,000–17,000 kWh/year** depending on orientation and shading. At **$0.22/kWh**, annual savings often exceed **$2,000–$3,000** — high rates offset much of the lost federal credit. After NY-Sun and the state credit, simple payback lands around **9–12 years** in 2026. Over 25 years, cumulative savings can exceed **$40,000–$60,000** before future utility rate increases.
 
 ## Is Solar Worth It in New-York in 2026?
 
-For most homeowners with a suitable roof and reasonable shading, **yes**. The combination of the 30% federal ITC, state-specific incentives, high electricity rates, and long system lifespan makes solar a strong long-term investment in New-York. The main variables to verify are your local net metering or export compensation rules and your roof's condition.
+For most homeowners with a suitable roof and reasonable shading, **yes — New York's state incentives are strong enough to partially replace the federal credit**. High electricity rates, NY-Sun rebates, and the 25% state credit keep payback competitive; verify your local net metering or export compensation rules and your roof's condition.
 
 ## Related guides
 
