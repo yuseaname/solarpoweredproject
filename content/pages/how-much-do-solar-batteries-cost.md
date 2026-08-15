@@ -11,6 +11,8 @@ image_width = 1536
 image_height = 1024
 +++
 
+
+{{< affiliate-disclosure >}}
 \# How Much Do Solar Batteries Cost? A Comprehensive Guide to TCO and ROI
 
 As homeowners increasingly seek energy independence, solar power has become a cornerstone of modern sustainability. However, for many, the solar panels are only half the story. To truly harness renewable energy, many are looking toward energy storage. This brings us to one of the most critical questions in the transition to green energy: **how much do solar batteries cost?**
@@ -78,6 +80,8 @@ Ultimately, choosing a battery system requires balancing your energy needs with 
 3.  **Check for local incentives:** Are there state-specific rebates or SRECs (Solar Renewable Energy Credits) available in your area?
 
 By weighing these factors, you can transform a complex technical decision into a clear financial strategy.
+
+{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="The budget-tier anchor" description="When sticker shock from turnkey batteries ($15k+) hits, this is the DIY alternative the math points to — the value benchmark for what a kWh of storage should cost." button="Check price on Amazon" >}}
 
 ## Related guides
 

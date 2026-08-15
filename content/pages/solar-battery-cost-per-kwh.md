@@ -11,6 +11,8 @@ image_width = 1536
 image_height = 1024
 +++
 
+
+{{< affiliate-disclosure >}}
 ## Key takeaways
 
 -   Typical battery pricing is often quoted as dollars per kWh of capacity.
@@ -86,6 +88,8 @@ Batteries may need temperature management depending on climate. Total cost shoul
 In grid-tied systems without backup, batteries may be optional. In off-grid or whole-home backup systems, batteries can dominate the budget. Use a full system breakdown to keep estimates realistic.
 
 <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="diy-vs-installer.html" class="text-link">DIY vs installer cost</a>
+
+{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="The $/kWh reference point" description="The battery we benchmark cost-per-kWh math against: 1.28 kWh nominal, thousands of cycles, and a built-in BMS — the datasheet numbers behind realistic DIY cost models." button="Check price on Amazon" >}}
 
 ## FAQ
 

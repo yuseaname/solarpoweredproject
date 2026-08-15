@@ -11,6 +11,8 @@ image_width = 1536
 image_height = 1024
 +++
 
+
+{{< affiliate-disclosure >}}
 ## Table of contents
 
 <a href="#quick" class="text-link">Quick answer</a> <a href="#by-type" class="text-link">Cost by inverter type</a> <a href="#drivers" class="text-link">What drives inverter cost</a> <a href="#sizing" class="text-link">How sizing changes cost</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
@@ -113,6 +115,8 @@ If you’re trying to reduce cost, the cleanest approach is often to define a re
 -   **Buying before sizing:** inverter choice should come after you estimate peak AC loads and surges.
 -   **Ignoring surge requirements:** an undersized surge rating can cause nuisance trips and upgrades.
 -   **Skipping compatibility checks:** confirm battery voltage, controller compatibility, and waveform requirements.
+
+{{< product-box asin="B081CLPDT9" name="Renogy 2000W 12V Pure Sine Inverter" label="Mid-size cost anchor" description="2000W pure sine with remote and cables included — the honest mid-size reference point for inverter cost tables: enough for real loads, without paying for surge headroom you will not use." button="Check price on Amazon" >}}
 
 ## FAQ
 

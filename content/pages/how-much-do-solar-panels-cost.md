@@ -11,6 +11,8 @@ image_width = 1536
 image_height = 1024
 +++
 
+
+{{< affiliate-disclosure >}}
 Understanding the cost of solar energy is the most critical step in determining whether a transition to renewable energy is financially viable for your household. While the upfront investment can seem daunting, the true cost of solar is measured not just in dollars spent today, but in the long-term reduction of utility bills and the lifetime value of the energy produced. This guide provides a detailed breakdown of the components, variables, and financial incentives that dictate the total price of a solar installation.
 
 ## Key Takeaways
@@ -107,6 +109,8 @@ Solar loans are the most popular option. Many-specialized solar loans offer low 
 ### Solar Leases and Power Purchase Agreements (PPA)
 
 In a Lease or PPA, a third-party company installs and maintains the panels on your roof. You simply pay a monthly fee for the power produced. While this requires $0 upfront, you do not receive the 30% federal tax credit, and you may miss out on the significant long-term equity gains of ownership.
+
+{{< product-box asin="B07GF5JY35" name="Renogy 100W 12V Monocrystalline Panel" label="The DIY price benchmark" description="The panel most cost tables are built around. When installer quotes cite $2.50+/Watt installed, a $1/Watt panel like this shows exactly what the labor and overhead line items cost you." button="Check price on Amazon" >}}
 
 ## Frequently Asked Questions
 

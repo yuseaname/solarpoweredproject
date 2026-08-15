@@ -11,6 +11,8 @@ image_width = 1536
 image_height = 1024
 +++
 
+
+{{< affiliate-disclosure >}}
 ## Table of contents
 
 <a href="#quick" class="text-link">Quick answer</a> <a href="#mppt-vs-pwm" class="text-link">MPPT vs PWM cost comparison</a> <a href="#drivers" class="text-link">What drives controller cost</a> <a href="#avoid-wrong-size" class="text-link">How to avoid buying the wrong size</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
@@ -119,6 +121,8 @@ Estimate your array watts and divide by battery voltage to estimate charge curre
 -   **Buying based on “amps only”:** input voltage limits matter as much as current rating.
 -   **Skipping headroom:** a controller at the edge of specs can trip or run hot.
 -   **Ignoring expansion plans:** if you’ll add panels later, plan voltage/current room now.
+
+{{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="The price-performance reference" description="The controller every MPPT cost table benchmarks against — where the diminishing-returns curve flattens. Bluetooth monitoring and lithium presets at the mid-tier price point." button="Check price on Amazon" >}}
 
 ## FAQ
 

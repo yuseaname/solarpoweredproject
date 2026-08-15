@@ -57,6 +57,8 @@ Proper installation and consistent maintenance are the keys to ensuring your sol
 
 Once installed, a regular cleaning schedule is vital. Preventing the buildup of dust, pollen, and debris can significantly impact your system's performance. Additionally, modern monitoring systems allow for real-time tracking of your solar output. Utilizing these tools enables you to identify and resolve potential issues quickly, protecting your long-term investment.
 
+{{< product-box asin="B07GF5JY35" name="Renogy 100W 12V Monocrystalline Panel" label="The expandable starter panel" description="Not a roof replacement — the panel future-proofers start with. Add-by-add scaling without a re-roof contract, and the efficiency tier that makes 2026 shortlists." button="Check price on Amazon" >}}
+
 ## Frequently Asked Questions
 
 **Q: Are solar panels significantly more efficient in 2026?**

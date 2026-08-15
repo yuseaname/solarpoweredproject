@@ -68,6 +68,8 @@ To ensure your solar investment lasts for decades, regular maintenance is key. K
 
 By choosing high-efficiency panels, optimizing your storage, and maintaining your equipment, you can transform your small home into a self-sustaining powerhouse.
 
+{{< product-box asin="B07GF5JY35" name="Renogy 100W 12V Monocrystalline Panel" label="Right-sized for small homes" description="Small-home budgets need panel efficiency per dollar, not maximum wattage — this is the module that wins that math and scales in affordable increments." button="Check price on Amazon" >}}
+
 ## Related guides
 
 -   <a href="solar-basics.html" class="text-link">Solar power basics</a>

@@ -168,6 +168,8 @@ Don't let the size of your roof dictate the size of your sustainable future. The
 
 Start by contacting a local, certified solar installer for a free site assessment. Ask them specifically about high-efficiency options and how they plan to maximize your unique roof layout. Your journey to lower bills and a smaller carbon footprint starts with a single, well-placed panel.
 
+{{< product-box asin="B07GF5JY35" name="Renogy 100W 12V Monocrystalline Panel" label="Small-roof friendly footprint" description="Compact monocrystalline footprint with the output density tight roofs need — easier to fit, wire, and expand than full-size 400W monsters when space is the constraint." button="Check price on Amazon" >}}
+
 ## Related guides
 
 -   <a href="solar-basics.html" class="text-link">Solar power basics</a>

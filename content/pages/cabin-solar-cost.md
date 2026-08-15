@@ -11,6 +11,8 @@ image_width = 1536
 image_height = 1024
 +++
 
+
+{{< affiliate-disclosure >}}
 ## Table of contents
 
 <a href="#drivers" class="text-link">Top cost drivers</a> <a href="#tiers" class="text-link">Budget tiers</a> <a href="#breakdown" class="text-link">Cost breakdown table</a> <a href="#sizing-first" class="text-link">Why sizing first saves money</a> <a href="#overspend" class="text-link">Where cabin systems overspend</a> <a href="#faq" class="text-link">FAQ</a>
@@ -126,6 +128,10 @@ Disconnects, breakers, fuses, bus bars, and quality cable are not optional in a 
 Comparing batteries by nameplate kWh only can lead to poor value. Usable kWh and cycle life are the practical comparison points.
 
 <a href="solar-battery-cost-per-kwh.html" class="text-link">Battery cost per kWh (how to compare)</a> <a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a>
+
+{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="Cabin bank building block" description="The cabin-cost math favorite: 1.28 kWh per unit, scale by stacking. Low-temp protection matters more in cabins than anywhere else on the property." button="Check price on Amazon" >}}
+
+{{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="Right-sized cabin controller" description="The 30A tier covers most weekend-cabin arrays, and Bluetooth lets you check charging from town — the feature cabin owners actually use." button="Check price on Amazon" >}}
 
 ## FAQ
 

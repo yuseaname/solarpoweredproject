@@ -11,6 +11,8 @@ image_width = 1536
 image_height = 1024
 +++
 
+
+{{< affiliate-disclosure >}}
 ## Table of contents
 
 <a href="#types" class="text-link">Inverter types compared</a> <a href="#grid-tied" class="text-link">String inverters for grid-tied</a> <a href="#microinverters" class="text-link">Microinverters</a> <a href="#off-grid" class="text-link">Off-grid inverter/chargers</a> <a href="#hybrid" class="text-link">Hybrid (battery backup) inverters</a> <a href="#sizing" class="text-link">How to size your inverter</a> <a href="#efficiency" class="text-link">Efficiency and features</a> <a href="#faq" class="text-link">FAQ</a>
@@ -201,6 +203,8 @@ Over 20 years, a 1% efficiency difference on a 6kW system at $0.15/kWh = approxi
 -   **Monitoring:** All modern inverters include Wi-Fi monitoring. Ensure it shows energy production history, not just real-time output.
 -   **Grid code compliance:** For grid-tied systems, the inverter must be listed on your utility's approved inverter list. Check before purchasing.
 -   **Service and support:** A well-documented inverter from a major brand with local installer support is worth more than a cheaper unit that's hard to service.
+
+{{< product-box asin="B081CLPDT9" name="Renogy 2000W 12V Pure Sine Inverter" label="A safe default choice" description="If the sizing math in this guide points you at 2000W continuous, this is the honest default: pure sine, remote switch, cables in the box, from a brand that honors warranties." button="Check price on Amazon" >}}
 
 ## Frequently Asked Questions
 
