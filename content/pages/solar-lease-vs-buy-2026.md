@@ -26,9 +26,9 @@ Before diving into comparisons, here is a quick overview of each financing metho
 
 `|--------|--------------|-------------------|-------------|------------------------|`
 
-`| `**`Cash Purchase`**` | You pay the full cost upfront | You | $15,000–$35,000 | Yes (30% ITC) |`
+`| `**`Cash Purchase`**` | You pay the full cost upfront | You | $15,000–$35,000 | 2025 installs only (credit expired Dec 31, 2025) |`
 
-`| `**`Solar Loan`**` | You borrow and pay monthly | You | $0–$5,000 down | Yes (30% ITC) |`
+`| `**`Solar Loan`**` | You borrow and pay monthly | You | $0–$5,000 down | 2025 installs only (credit expired Dec 31, 2025) |`
 
 `| `**`Solar Lease`**` | You rent the system for a fixed monthly payment | Installer/company | $0 | No |`
 
@@ -41,7 +41,7 @@ A cash purchase means you own the system outright from day one. For homeowners w
 **Pros:**
 
 -   **Highest lifetime savings** — no interest payments, no monthly lease fees
--   **Full 30% federal tax credit** — on a $25,000 system, that is $7,500 back
+-   **No interest, no fees** — every dollar of energy savings is yours
 -   **Increased home value** — owned solar adds an average of 4.1% to home value (Zillow, 2025)
 -   **No contractual obligations** — no 20-25 year lease locking you in
 -   **SREC income potential** — in states with Solar Renewable Energy Credits, you earn extra revenue
@@ -56,12 +56,12 @@ A cash purchase means you own the system outright from day one. For homeowners w
 
 ## Solar Loan: Own the System With Zero to Low Down Payment
 
-Solar loans work like any other home improvement loan. You borrow the cost of the system and pay it back over 5–20 years. Because you own the system, you still qualify for the federal tax credit.
+Solar loans work like any other home improvement loan. You borrow the cost of the system and pay it back over 5–20 years. Because you own the system, any remaining incentives (state credits, rebates, SRECs) flow to you — though the federal 30% credit expired December 31, 2025 for new installs.
 
 **Pros:**
 
 -   **Zero or low upfront cost** — most solar loans require $0 down
--   **Tax credit applies to you** — the 30% ITC goes to the system owner (you)
+-   **State incentives apply to you** — state credits, rebates, and SREC income go to the system owner (you); the federal ITC is gone for 2026 installs
 -   **Monthly savings exceed payments** — in most cases, your electric bill reduction is larger than the loan payment
 -   **Increases home value** — same as cash purchase
 -   **Various loan types** — secured (home equity), unsecured, or through the solar installer
@@ -76,7 +76,7 @@ Solar loans work like any other home improvement loan. You borrow the cost of th
 
 ## Solar Lease: Rent Your Roof
 
-With a solar lease, you pay a fixed monthly fee to "rent" the solar system. The leasing company installs, owns, and maintains the equipment. You get the electricity it produces, but the company keeps the tax credits and incentives.
+With a solar lease, you pay a fixed monthly fee to "rent" the solar system. The leasing company installs, owns, and maintains the equipment. You get the electricity it produces, but incentives belong to the company — and since the federal credit expired, expect repriced contracts.
 
 **Pros:**
 

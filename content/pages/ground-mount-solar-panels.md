@@ -192,7 +192,7 @@ Ground-mounted systems cost more to install than rooftop systems of the same cap
 
 **Rough total installed cost for a 6 kW ground-mount system:** $15,000–$24,000 before incentives.
 
-After the 30% federal Investment Tax Credit (ITC): approximately $10,500–$16,800. State and utility incentives may reduce this further.
+The 30% federal ITC expired December 31, 2025 — 2026 buyers pay the full $15,000–$24,000 (2025 installs keep the credit: ~$10,500–$16,800 effective). State and utility incentives may still reduce cost.
 
 For comparison, a 6 kW rooftop system typically costs $12,000–$18,000 installed before incentives.
 

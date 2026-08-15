@@ -121,9 +121,7 @@ As of current market averages, the cost of a residential solar system ranges fro
 
 ### The Impact of the Federal Investment Tax Credit (ITC)
 
-In the United States, the most significant driver of solar adoption is the Federal Solar Tax Credit. Currently, this allows you to deduct **30%** of your total solar installation costs from your federal income taxes.
-
-If your system costs $20,000, the tax credit would provide a $6,000 reduction in your tax liability. This effectively brings your "real" cost down to $14,000.
+The federal Solar Tax Credit historically drove US adoption — but it **expired December 31, 2025**. Systems installed in 2025 still claim 30% ($6,000 on a $20,000 system) on that year's return; 2026 buyers get no federal credit, making electricity rates and [export compensation](/pages/net-metering-by-state-2026.html) the main value drivers.
 
 ### Calculating Return on Investment (ROI)
 

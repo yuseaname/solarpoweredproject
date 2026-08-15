@@ -62,7 +62,7 @@ When evaluating the financial viability of renewable energy, we must look at bot
 
 The cost of solar technology has plummeted over the last decade. As of current market averages, residential solar installations cost between $2.50 and $3.50 per watt installed.
 
-For a standard 7 kW residential system, the gross cost might range from $17,500 to $24,500. After accounting for the Federal Investment Tax Credit (ITC)—which currently allows homeowners to deduct 30% of installation costs from their federal taxes—the net cost can drop significantly.
+For a standard 7 kW residential system, the gross cost might range from $17,500 to $24,500. Note: the 30% federal ITC expired December 31, 2025 — 2026 buyers pay full price (2025 installs keep the credit), which makes high self-consumption and good export rates matter more in the solar-vs-wind comparison.
 
 **Typical Solar Financial Metrics:**
 

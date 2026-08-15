@@ -32,7 +32,7 @@ Choosing the right solar battery in 2026 is harder than ever. The market has mov
 | **BYD Premium HVS/HVM** | 5.1–12.8 | ~$900–$1,200 | 5–10 kW | 10 years | High-voltage European-style systems |
 | **DIY LiFePO4 (EG4, Jakiper, etc.)** | Varies | ~$250–$500 | Varies | Cell/Pack only | Off-grid builders, cost-first buyers |
 
-*Prices are installed or typical all-in estimates before the 30% federal ITC. They vary by region, installer, and companion equipment.*
+*Prices are installed or typical all-in estimates. The 30% federal ITC expired December 31, 2025 — batteries installed in 2025 keep the credit on that year's return; 2026 buyers pay full price minus state programs (e.g., California SGIP). Prices vary by region and installer.*
 
 ## Tesla Powerwall 3
 

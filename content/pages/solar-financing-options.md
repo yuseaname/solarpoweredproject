@@ -73,7 +73,7 @@ If you prefer to avoid debt and do not want to manage the maintenance of the pan
 In a lease agreement, a third-party provider (often called a "solar provider") installs the panels on your roof. You pay a fixed monthly fee to "rent" the equipment.
 
 -   **Pros:** Little to no upfront cost. The provider is usually responsible for repairs and maintenance.
--   **Cons:** You do not own the system, which means you cannot claim the federal tax credit. It can also complicate the sale of your home, as the new buyer must agree to take over the lease.
+-   **Cons:** You do not own the system and never claimed its federal incentives. It can also complicate the sale of your home, as the new buyer must agree to take over the lease.
 
 \#### 2. Power Purchase Agreements (PPAs)
 
@@ -97,9 +97,7 @@ One of the most powerful components of **solar financing options** is the impact
 
 ### The Federal Investment Tax Credit (ITC)
 
-The most significant incentive available to US homeowners is the Federal Solar Tax Credit. Under the Inflation Reduction Act, homeowners can deduct a substantial percentage of their solar installation costs from their federal income taxes.
-
-For example, if your system costs \\20,000 and the credit is 30%, you could receive a \\6,000 credit against your tax liability. This essentially acts as a massive "rebate" on your investment. To understand how this works in detail and how to calculate your potential savings, check out our deep dive on [solar tax credits](/pages/solar-panel-tax-credit.html).
+The Federal Solar Tax Credit (ITC) **expired for systems placed in service after December 31, 2025**. Systems installed in 2025 still claim 30% on that year's return — e.g., a $20,000 system earns a $6,000 credit with carryforward. For 2026 purchases there is no federal homeowner credit, which makes financing terms and [state/local incentives](/pages/net-metering-by-state-2026.html) the deciding factors. Full details: [solar tax credits](/pages/solar-panel-tax-credit.html).
 
 ### State and Local Incentives
 

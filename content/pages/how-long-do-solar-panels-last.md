@@ -99,7 +99,7 @@ To understand if the lifespan justifies the cost, we must look at the "Levelized
 
 ### The Upfront Cost
 
-A typical residential solar installation (6kW to 10kW system) currently costs between **$15,000 and $25,000** before incentives. In the United States, the Federal Investment Tax Credit (ITC) allows you to deduct 30% of this cost from your federal taxes, bringing a $20,000 system down to an effective cost of $14,000.
+A typical residential solar installation (6kW to 10kW system) costs between **$15,000 and $25,000** in 2026. The federal ITC expired December 31, 2025 — a $20,000 system now stays $20,000 for 2026 buyers (2025 installs claimed 30%, bringing it to $14,000). Longevity math should use the full price.
 
 ### The Payback Period
 

@@ -116,7 +116,7 @@ To calculate ROI, consider the average cost of heating water. In the United Stat
 -   \*\*Solar Savings:\*\* A well-sized solar thermal system can reduce this by 70%, saving $420 per year.
 -   \*\*Payback Period:\*\* With a $5,000 net installation cost (after tax credits), the payback period is approximately \*\*11.9 years\*\*.
 
-\*Note: This period can be shortened to 5–7 years if you utilize federal tax credits (such as the ITC in the US, which can cover 30% of the cost) and local utility rebates.\*
+\*Note: The 30% federal credit (which covered solar water heaters) expired December 31, 2025 — systems installed in 2025 keep it on that year's return. In 2026, local utility rebates and state incentives are the remaining levers.\*
 
 ### Maintenance Requirements
 

@@ -18,8 +18,8 @@ Understanding the cost of solar energy is the most critical step in determining 
 ## Key Takeaways
 
 -   \*\*Average Cost per Watt:\*\* Most residential solar installations currently range between $2.50 and $3.50 per watt (installed).
--   \*\*Total System Investment:\*\* A typical 7kW to 10kW system generally costs between $18,000 and $30,000 before federal tax credits.
--   \*\*The 30% Impact:\*\* The Federal Investment Tax Credit (ITC) can reduce your total installation cost by 30% through tax savings.
+-   \*\*Total System Investment:\*\* A typical 7kW to 10kW system generally costs between $18,000 and $30,000 installed in 2026.
+-   \*\*No federal credit in 2026:\*\* The 30% ITC expired December 31, 2025 — budget the full price unless you installed in 2025 (those claims are still live on 2025 returns).
 -   \*\*Payback Period:\*\* Most homeowners see a Return on Investment (ROI) within 6 to 10 years, depending on local electricity rates and sun exposure.
 
 ## Breaking Down the Solar Installation Costs
@@ -92,7 +92,7 @@ How you pay for your system changes the "sticker price" vs. the "total cost of o
 
 | **Ownership** | You own the system | You own the system | Third-party owns system |
 
-| **Tax Credit Benefit** | You claim the 30% ITC | You claim the 30% ITC | The provider claims the ITC |
+| **Tax Credit Benefit** | None in 2026 (2025 installs: you) | None in 2026 (2025 installs: you) | Never yours — provider-side |
 
 | **Long-term Savings** | Maximum | High | Moderate |
 
@@ -108,7 +108,7 @@ Solar loans are the most popular option. Many-specialized solar loans offer low 
 
 ### Solar Leases and Power Purchase Agreements (PPA)
 
-In a Lease or PPA, a third-party company installs and maintains the panels on your roof. You simply pay a monthly fee for the power produced. While this requires $0 upfront, you do not receive the 30% federal tax credit, and you may miss out on the significant long-term equity gains of ownership.
+In a Lease or PPA, a third-party company installs and maintains the panels on your roof. You simply pay a monthly fee for the power produced. While this requires $0 upfront, you never received the federal tax credit under this structure, you miss equity gains, and post-2025 TPO pricing already absorbed the credit's expiry — compare contract $/kWh against your utility rate.
 
 {{< product-box asin="B07GF5JY35" name="Renogy 100W 12V Monocrystalline Panel" label="The DIY price benchmark" description="The panel most cost tables are built around. When installer quotes cite $2.50+/Watt installed, a $1/Watt panel like this shows exactly what the labor and overhead line items cost you." button="Check price on Amazon" >}}
 

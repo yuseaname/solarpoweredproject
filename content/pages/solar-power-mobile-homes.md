@@ -77,7 +77,7 @@ The cost of solar for mobile homes can vary wildly based on system size and your
 
 ### The Federal Solar Tax Credit (ITC)
 
-One of the biggest "wins" for US homeowners is the **Federal Investment Tax Credit (ITC)**. Under current US law, you can deduct a significant percentage (currently 30%) of your total solar installation costs from your federal income taxes. This credit applies to both the equipment and the labor, making the "sticker price" of solar much more manageable.
+Important 2026 update: the **federal ITC expired December 31, 2025** — new installs get no federal credit. Systems placed in service during 2025 still claim 30% (equipment and labor) on that year's return. For 2026 projects, state incentives and utility rebates are what's left; our [tax credit guide](/pages/solar-panel-tax-credit.html) has the full picture.
 
 ### Local Incentives and Net Metering
 
