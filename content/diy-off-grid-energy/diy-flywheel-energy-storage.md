@@ -277,3 +277,10 @@ A bicycle wheel on a stable frame with an RPM measurement, then documenting spin
 #### What’s a safer “energy storage” experiment if I want more watt-hours?
 
 A battery (even a small one) is usually simpler and safer. If you want a pure physics experiment, see the <a href="gravity-battery-diy-energy-storage.html" class="text-link">gravity battery guide</a>.
+
+---
+
+**Related guides:**
+- [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
+- [DIY Stirling Engine Generator: Turn Heat Into Electricity (Educational Build)](/diy-off-grid-energy/diy-stirling-engine-generator-off-grid.html)

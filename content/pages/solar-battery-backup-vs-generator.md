@@ -11,6 +11,8 @@ image_width = 1536
 image_height = 864
 +++
 
+{{< affiliate-disclosure >}}
+
 \# Solar Battery Backup vs. Generator: Which Backup Power Solution is Right for Your Home?
 
 When the sky turns dark, the wind picks up, and the neighborhood lights suddenly flicker and die, a sense of vulnerability sets in. For US homeowners, a power outage is more than an inconvenience; it can mean spoiled food, interrupted work, and a loss of security. If you are already considering upgrading to renewable energy, you are likely facing the ultimate resilience dilemma: **solar battery backup vs generator**.

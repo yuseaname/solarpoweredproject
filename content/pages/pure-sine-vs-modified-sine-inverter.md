@@ -12,6 +12,8 @@ image_height = 1024
 keywords = ["pure sine wave vs modified sine", "inverter waveform comparison", "modified sine wave devices", "best inverter for RV", "pure sine inverter CPAP"]
 +++
 
+{{< affiliate-disclosure >}}
+
 **Short answer:** Get a **pure sine wave inverter** if you run laptops, TVs, CPAP machines, refrigerators, microwaves, or any device with a motor or AC adapter. Modified sine works for simple resistive loads (basic heaters, incandescent lights, some phone chargers) and costs about half as much — but the compatibility list is short and getting shorter as modern electronics get pickier.
 
 The price gap has narrowed significantly. A 1000W pure sine inverter now costs **$80–$150**; a modified sine of the same size runs **$40–$90**. For most people, the extra $40–$60 is cheaper than replacing a damaged laptop charger or a buzzing CPAP machine.
@@ -279,3 +281,10 @@ Quality varies. Cheap inverters labeled "pure sine" may deliver <3% total harmon
 ## Next logical reads
 
 <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter for solar</a> <a href="micro-vs-string-inverters.html" class="text-link">Micro vs string inverters</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="solar-inverter-cost.html" class="text-link">Solar inverter cost guide</a>
+
+---
+
+**Related guides:**
+- [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
+- [How to Calculate Your Solar Load: A Step-by-Step Energy Audit](/pages/how-to-calculate-solar-load.html)
+- [DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)](/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html)

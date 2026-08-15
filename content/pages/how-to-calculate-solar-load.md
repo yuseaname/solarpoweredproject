@@ -249,3 +249,10 @@ Divide watt-hours by battery voltage to get amp-hours: Ah = Wh ÷ V. Then divide
 {{< /faq >}}
 
 {{< faq-schema >}}
+
+---
+
+**Related guides:**
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
+- [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)

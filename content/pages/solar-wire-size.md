@@ -122,3 +122,10 @@ Use the maximum current that the circuit can realistically see. For inverters, s
 ## Next logical reads
 
 <a href="solar-wiring-and-protection-cost.html" class="text-link">Solar wiring and protection cost</a> <a href="solar-fuses-vs-breakers.html" class="text-link">Solar fuses vs breakers</a> <a href="solar-panels-series-vs-parallel.html" class="text-link">Series vs parallel solar panels</a> <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter</a> <a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose system voltage</a>
+
+---
+
+**Related guides:**
+- [Battery Cable Size for Solar Inverters (12V/24V/48V): How to Choose Safely](/pages/battery-cable-size-for-inverter.html)
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)

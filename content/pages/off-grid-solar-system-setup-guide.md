@@ -93,3 +93,10 @@ The lifespan depends on the chemistry. Lithium-ion batteries often last 10+ year
 -   <a href="solar-basics.html" class="text-link">Solar power basics</a>
 -   <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a>
 -   <a href="solar-components.html" class="text-link">Solar components guide</a>
+
+---
+
+**Related guides:**
+- [How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide](/pages/solar-battery-cost-2026.html)
+- [How Much Does a Solar Battery Cost in 2026?](/guides/solar-battery-cost-2026/)
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)

@@ -148,3 +148,10 @@ It is worth it if your roof space is limited. If you have plenty of space and th
 -   <a href="solar-basics.html" class="text-link">Solar power basics</a>
 -   <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a>
 -   <a href="solar-components.html" class="text-link">Solar components guide</a>
+
+---
+
+**Related guides:**
+- [Solar panel output per square foot](/pages/solar-panel-output-per-square-foot.html)
+- [Best Solar Panels for a Small Roof: Maximizing Energy Output](/pages/best-solar-panels-small-roof.html)
+- [How do solar panels work](/pages/how-do-solar-panels-work.html)

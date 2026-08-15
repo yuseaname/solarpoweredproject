@@ -11,6 +11,8 @@ image_width = 1536
 image_height = 1024
 +++
 
+{{< affiliate-disclosure >}}
+
 ## Table of contents
 
 <a href="#quick-answer" class="text-link">Quick answer</a> <a href="#table" class="text-link">Comparison table</a> <a href="#framework" class="text-link">Decision framework</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
@@ -111,3 +113,10 @@ Upfront, it can. But it can reduce the required solar and battery size if you ac
 ## Next logical reads
 
 <a href="cabin-solar-sizing.html" class="text-link">How to size a solar system for a cabin</a> <a href="cabin-solar-cost.html" class="text-link">Off-grid cabin solar cost breakdown</a> <a href="solar-use-cases.html" class="text-link">More solar use cases</a> <a href="solar-basics.html" class="text-link">Solar basics</a>
+
+---
+
+**Related guides:**
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
+- [DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)](/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html)
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)

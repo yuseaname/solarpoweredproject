@@ -271,3 +271,10 @@ NEC Article 690 is the section of the U.S. National Electrical Code that governs
 {{< /faq >}}
 
 {{< faq-schema >}}
+
+---
+
+**Related guides:**
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [Solar Battery Enclosure Guide: Ventilation, Temperature, and Safety](/pages/solar-battery-enclosure-guide.html)
+- [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)

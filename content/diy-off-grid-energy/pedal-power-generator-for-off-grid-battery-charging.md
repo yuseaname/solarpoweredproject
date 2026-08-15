@@ -256,3 +256,10 @@ For a reliable off-grid baseline, pedal power works best as a supplement to a so
 ## Next logical reads
 
 <a href="../diy-off-grid-energy.html" class="text-link">DIY off-grid energy experiments (pillar) →</a> <a href="micro-hydro-basics-for-off-grid-power.html" class="text-link">Micro-hydro basics guide →</a> <a href="../pages/battery-capacity.html" class="text-link">Battery capacity calculator →</a> <a href="../pages/solar-system-sizing.html" class="text-link">System sizing guide →</a> <a href="../pages/solar-maintenance.html" class="text-link">Solar maintenance →</a>
+
+---
+
+**Related guides:**
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
+- [DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)](/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html)
+- [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)

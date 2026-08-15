@@ -107,3 +107,10 @@ Not reliably. In some systems, batteries or labor dominate. Use a full breakdown
 
 <a href="solar-battery-cost-per-kwh.html" class="text-link">Solar battery cost per kWh</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="solar-panel-output.html" class="text-link">Solar panel output calculator</a>
 - <a href="solar-payback-calculator.html" class="text-link">Solar payback calculator</a>
+
+---
+
+**Related guides:**
+- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california/)
+- [How Much Do Solar Panels Cost in California in 2026?](/pages/solar-panel-cost-california.html)
+- [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)

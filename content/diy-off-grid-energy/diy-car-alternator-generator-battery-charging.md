@@ -230,3 +230,10 @@ For many DIY low-speed sources, a PMDC motor is easier to use because it can pro
 #### What’s the safest first step with an alternator project?
 
 Build a measurement-first rig: stable mounting, tachometer, and a controllable load. Prove you can generate stable watts under load before you integrate batteries.
+
+---
+
+**Related guides:**
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
+- [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)

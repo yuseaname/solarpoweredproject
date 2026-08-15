@@ -175,3 +175,10 @@ Yes. While cloudy regions (like the Pacific Northwest) have lower solar irradian
 -   <a href="solar-basics.html" class="text-link">Solar power basics</a>
 -   <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a>
 -   <a href="solar-components.html" class="text-link">Solar components guide</a>
+
+---
+
+**Related guides:**
+- [Solar Panel Tilt Angle and Orientation: Maximize Output Year-Round](/pages/solar-panel-tilt-and-orientation.html)
+- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california/)
+- [How Much Do Solar Panels Cost in California in 2026?](/pages/solar-panel-cost-california.html)

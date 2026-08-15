@@ -9,6 +9,8 @@ author = "Solar Powered Project"
 
 +++
 
+{{< affiliate-disclosure >}}
+
 ## Key takeaways
 
 -   DC-coupled systems send panel power straight to the battery through a charge controller — the most efficient way to charge batteries.
@@ -135,3 +137,10 @@ Not strictly, but it's the standard choice. Whole-home loads (well pumps, HVAC, 
 {{< faq "Does AC coupling work with lithium batteries?" >}}
 Yes. AC-coupled battery inverters work with lithium chemistries like LiFePO4 as long as the inverter/charger supports the appropriate charge profile and communicates with the battery's BMS. Most modern units do.
 {{< /faq >}}
+
+---
+
+**Related guides:**
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
+- [DIY Thermoelectric Generator (TEG): Turn Waste Heat Into Battery Power](/diy-off-grid-energy/diy-thermoelectric-generator-teg-battery-charging.html)

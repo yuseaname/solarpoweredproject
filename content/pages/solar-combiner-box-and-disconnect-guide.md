@@ -122,3 +122,10 @@ Place disconnects where they’re accessible and actually help isolate the part 
 ## Next logical reads
 
 <a href="solar-panels-series-vs-parallel.html" class="text-link">Series vs parallel panels</a> <a href="solar-fuse-and-breaker-sizing.html" class="text-link">Fuse and breaker sizing</a> <a href="solar-wire-size.html" class="text-link">Wire size</a> <a href="solar-wiring-and-protection-cost.html" class="text-link">Wiring &amp; protection cost</a> <a href="solar-components.html" class="text-link">Solar components explained</a>
+
+---
+
+**Related guides:**
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [Solar Fuse and Breaker Sizing: A Simple Planning Guide (By Circuit)](/pages/solar-fuse-and-breaker-sizing.html)
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)

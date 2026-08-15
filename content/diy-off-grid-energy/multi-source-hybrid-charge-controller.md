@@ -704,3 +704,10 @@ Hire a professional if:
 ## Next logical reads
 
 <a href="../diy-off-grid-energy.html" class="text-link">DIY off-grid energy experiments (pillar) →</a> <a href="diy-small-wind-turbine-for-off-grid-battery-charging.html" class="text-link">Small wind turbine guide →</a> <a href="micro-hydro-basics-for-off-grid-power.html" class="text-link">Micro-hydro basics guide →</a> <a href="../pages/solar-system-sizing.html" class="text-link">System sizing guide →</a> <a href="../pages/12v-vs-24v-vs-48v-solar.html" class="text-link">System voltage comparison →</a> <a href="../pages/solar-wire-size.html" class="text-link">Wire sizing guide →</a> <a href="../pages/solar-fuse-and-breaker-sizing.html" class="text-link">Fuse and breaker sizing →</a> <a href="../pages/battery-capacity.html" class="text-link">Battery capacity calculator →</a>
+
+---
+
+**Related guides:**
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
+- [DIY Thermoelectric Generator (TEG): Turn Waste Heat Into Battery Power](/diy-off-grid-energy/diy-thermoelectric-generator-teg-battery-charging.html)
+- [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)

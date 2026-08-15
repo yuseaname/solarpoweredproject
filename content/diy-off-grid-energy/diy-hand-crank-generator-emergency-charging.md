@@ -281,3 +281,10 @@ Switch to pedal power. Your legs can sustain much higher output and it’s more 
 #### What other generator sources use similar wiring logic?
 
 Small wind, micro-hydro, and treadmill motors used as generators all benefit from the same idea: rectify if needed, regulate output, and protect wiring.
+
+---
+
+**Related guides:**
+- [DIY Bicycle Generator: Pedal-Powered Battery Charging (Realistic Guide)](/diy-off-grid-energy/pedal-power-generator-for-off-grid-battery-charging.html)
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)

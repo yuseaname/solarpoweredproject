@@ -248,3 +248,10 @@ Yes — this is one of the advantages of ground mounts. You can extend the racki
 ### Does a ground-mount system need to be fenced or protected?
 
 Utility-scale installations are always fenced. For residential, it depends on your situation. If you have children, animals, or livestock, a low fence around the array prevents damage and keeps people away from energized wiring. In rural settings with deer or other wildlife, a fence also prevents animals from rubbing against and damaging the structure. Check your local permitting requirements — some jurisdictions require fencing for ground-mount arrays above a certain size.
+
+---
+
+**Related guides:**
+- [Solar Panel Tilt Angle and Orientation: Maximize Output Year-Round](/pages/solar-panel-tilt-and-orientation.html)
+- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california/)
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)

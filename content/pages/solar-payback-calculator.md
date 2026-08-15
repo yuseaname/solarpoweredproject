@@ -227,3 +227,10 @@ Yes. Net present value accounts for the time value of money by discounting futur
 {{< /faq >}}
 
 {{< faq-schema >}}
+
+---
+
+**Related guides:**
+- [How to Size a Solar System (Step-by-Step Load Planner)](/pages/solar-system-sizing.html)
+- [Solar Panel Output Calculator (Watts to Watt-hours)](/pages/solar-panel-output.html)
+- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california/)

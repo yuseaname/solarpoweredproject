@@ -230,3 +230,10 @@ Size the enclosure to fit the bank with at least 2 inches of clearance around al
 ## Next logical reads
 
 <a href="li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid comparison</a> <a href="battery-capacity.html" class="text-link">Battery capacity guide</a> <a href="solar-battery-cost-per-kwh.html" class="text-link">Solar battery cost per kWh</a> <a href="cabin-solar-sizing.html" class="text-link">Cabin solar sizing</a> <a href="solar-fuse-and-breaker-sizing.html" class="text-link">Solar fuse and breaker sizing</a>
+
+---
+
+**Related guides:**
+- [Solar Battery Maintenance Guide: How to Extend Battery Life (Lead-Acid and Lithium)](/pages/solar-battery-maintenance-guide.html)
+- [Solar Installation Safety Guide: Electrical, Roof, and PPE Essentials](/pages/solar-installation-safety-guide.html)
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)

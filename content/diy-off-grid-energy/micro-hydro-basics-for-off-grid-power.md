@@ -346,3 +346,10 @@ If you want the most reliable off-grid baseline, keep micro-hydro as a measured 
 ## Next logical reads
 
 <a href="../diy-off-grid-energy.html" class="text-link">DIY off-grid energy experiments (pillar) →</a> <a href="pedal-power-generator-for-off-grid-battery-charging.html" class="text-link">Pedal power generator guide →</a> <a href="../pages/battery-capacity.html" class="text-link">Battery capacity calculator →</a> <a href="../pages/solar-wire-size.html" class="text-link">Wire size guide →</a> <a href="../pages/solar-system-costs.html" class="text-link">Solar system costs →</a>
+
+---
+
+**Related guides:**
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [DIY Bicycle Generator: Pedal-Powered Battery Charging (Realistic Guide)](/diy-off-grid-energy/pedal-power-generator-for-off-grid-battery-charging.html)

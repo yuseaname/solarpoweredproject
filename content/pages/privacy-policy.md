@@ -26,3 +26,10 @@ You can manage or delete cookies through browser settings. Blocking some cookies
 ## Contact
 
 For privacy questions, contact us through the [contact page](contact.html).
+
+---
+
+**Related guides:**
+- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california/)
+- [How Much Do Solar Panels Cost in California in 2026?](/pages/solar-panel-cost-california.html)
+- [DIY Thermoelectric Generator (TEG): Turn Waste Heat Into Battery Power](/diy-off-grid-energy/diy-thermoelectric-generator-teg-battery-charging.html)

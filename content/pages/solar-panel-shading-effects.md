@@ -179,3 +179,10 @@ Yes — snow covering panels blocks light just like any other obstruction. A pan
 ## Next logical reads
 
 <a href="solar-panels-series-vs-parallel.html" class="text-link">Solar panels series vs parallel</a> <a href="solar-panel-efficiency.html" class="text-link">Solar panel efficiency</a> <a href="solar-output-troubleshooting.html" class="text-link">Solar output troubleshooting</a> <a href="solar-panel-angle-calculator.html" class="text-link">Solar panel angle calculator</a> <a href="solar-panel-tilt-and-orientation.html" class="text-link">Solar panel tilt and orientation</a>
+
+---
+
+**Related guides:**
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [Solar Installation Safety Guide: Electrical, Roof, and PPE Essentials](/pages/solar-installation-safety-guide.html)
+- [Solar Battery Management Systems (BMS): What They Do and When You Need One](/pages/solar-battery-management-system-explained.html)

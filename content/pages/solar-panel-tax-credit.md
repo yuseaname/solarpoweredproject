@@ -161,3 +161,10 @@ The ITC is a non-refundable credit. You can carry forward unused portions to fut
 {{< /faq >}}
 
 {{< faq-schema >}}
+
+---
+
+**Related guides:**
+- [How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide](/pages/solar-battery-cost-2026.html)
+- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california/)
+- [How Much Does a Solar Battery Cost in 2026?](/guides/solar-battery-cost-2026/)

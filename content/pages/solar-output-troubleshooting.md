@@ -70,3 +70,10 @@ If you see faults you don’t understand, repeated inverter shutdowns, burning s
 ## Next logical reads
 
 <a href="solar-panel-cleaning-cost.html" class="text-link">Solar panel cleaning cost</a> <a href="solar-maintenance.html" class="text-link">Solar maintenance checklist</a> <a href="solar-battery-not-charging-troubleshooting.html" class="text-link">Solar battery not charging</a> <a href="mppt-charge-controller-not-charging.html" class="text-link">MPPT controller not charging</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a>
+
+---
+
+**Related guides:**
+- [MPPT Charge Controller Not Charging: Troubleshooting Checklist (PV Voltage, Settings)](/pages/mppt-charge-controller-not-charging.html)
+- [Solar Battery Not Charging: Troubleshooting Checklist (MPPT, Wiring, Loads)](/pages/solar-battery-not-charging-troubleshooting.html)
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)

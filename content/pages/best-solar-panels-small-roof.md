@@ -11,6 +11,8 @@ image_width = 1536
 image_height = 864
 +++
 
+{{< affiliate-disclosure >}}
+
 \# Maximizing Energy: A Guide to Finding the Best Solar Panels for a Small Roof
 
 Are you dreaming of lower electricity bills and energy independence but worried that your limited rooftop real estate will prevent you from going green? Many US homeowners believe that a small roof makes solar power an impossible dream. However, finding the **best solar panels small roof** owners can utilize is less about the total number of panels and more about the power density and efficiency of each unit.

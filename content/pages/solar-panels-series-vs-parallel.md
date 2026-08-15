@@ -11,6 +11,8 @@ image_width = 1536
 image_height = 1024
 +++
 
+{{< affiliate-disclosure >}}
+
 ## Table of contents
 
 <a href="#takeaways" class="text-link">Key takeaways</a> <a href="#quick" class="text-link">Quick decision guide</a> <a href="#concept" class="text-link">The concept that makes it click</a> <a href="#series" class="text-link">When series is usually better</a> <a href="#parallel" class="text-link">When parallel is usually better</a> <a href="#mppt-pwm" class="text-link">How this interacts with MPPT vs PWM</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
@@ -112,3 +114,10 @@ Not always, but MPPT often makes higher-voltage array configurations more practi
 ## Next logical reads
 
 <a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM</a> <a href="solar-wire-size.html" class="text-link">Solar wire size</a> <a href="solar-fuses-vs-breakers.html" class="text-link">Solar fuses vs breakers</a> <a href="solar-panel-output.html" class="text-link">Solar panel output calculator</a> <a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose system voltage</a>
+
+---
+
+**Related guides:**
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [MPPT Charge Controller Not Charging: Troubleshooting Checklist (PV Voltage, Settings)](/pages/mppt-charge-controller-not-charging.html)
+- [Solar Wire Size: How to Choose the Right Gauge (Voltage Drop + Safety)](/pages/solar-wire-size.html)

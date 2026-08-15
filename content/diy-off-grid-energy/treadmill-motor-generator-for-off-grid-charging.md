@@ -233,3 +233,10 @@ Mount the motor securely, spin it at known RPM, and test with a resistive load w
 #### Where should I learn hybrid wiring best practices?
 
 Start with <a href="multi-source-hybrid-charge-controller.html" class="text-link">hybrid charge controller architecture</a> and the site’s <a href="../pages/wiring-decisions.html" class="text-link">wiring decisions checklist</a>.
+
+---
+
+**Related guides:**
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
+- [DIY Car Alternator Generator for Battery Charging: What Actually Works](/diy-off-grid-energy/diy-car-alternator-generator-battery-charging.html)

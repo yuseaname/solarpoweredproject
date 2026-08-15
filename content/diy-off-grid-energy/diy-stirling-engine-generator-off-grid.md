@@ -651,3 +651,10 @@ If your goal is education, mechanical skills development, and understanding ther
 ## Next logical reads
 
 <a href="../diy-off-grid-energy.html" class="text-link">DIY off-grid energy experiments (pillar) →</a> <a href="diy-thermoelectric-generator-teg-battery-charging.html" class="text-link">Thermoelectric generator guide →</a> <a href="pedal-power-generator-for-off-grid-battery-charging.html" class="text-link">Pedal power generator guide →</a> <a href="micro-hydro-basics-for-off-grid-power.html" class="text-link">Micro-hydro basics guide →</a> <a href="../pages/battery-capacity.html" class="text-link">Battery capacity calculator →</a> <a href="../pages/solar-wire-size.html" class="text-link">Wire sizing guide →</a> <a href="../pages/solar-system-sizing.html" class="text-link">System sizing guide →</a>
+
+---
+
+**Related guides:**
+- [DIY Thermoelectric Generator (TEG): Turn Waste Heat Into Battery Power](/diy-off-grid-energy/diy-thermoelectric-generator-teg-battery-charging.html)
+- [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)

@@ -148,3 +148,10 @@ If your system lacks clear DC-rated disconnects and correctly placed protection,
 ## Next logical reads
 
 <a href="solar-fuses-vs-breakers.html" class="text-link">Solar fuses vs breakers</a> <a href="solar-panels-series-vs-parallel.html" class="text-link">Series vs parallel panels</a> <a href="solar-wire-size.html" class="text-link">Solar wire size</a> <a href="solar-wiring-and-protection-cost.html" class="text-link">Wiring &amp; protection cost</a> <a href="solar-system-sizing.html" class="text-link">Solar system sizing</a>
+
+---
+
+**Related guides:**
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [12 Common Solar Installation Mistakes (And How to Avoid Each One)](/pages/common-solar-installation-mistakes.html)
+- [Battery Cable Size for Solar Inverters (12V/24V/48V): How to Choose Safely](/pages/battery-cable-size-for-inverter.html)

@@ -223,3 +223,10 @@ Diversion loads the generator electrically, which can slow the turbine and reduc
 #### What’s the safest way to start?
 
 Start with measurement-first experiments and conservative power levels. Confirm your dump load can dissipate heat safely before relying on it as a protection device.
+
+---
+
+**Related guides:**
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
+- [DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)](/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html)

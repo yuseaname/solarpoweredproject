@@ -32,3 +32,10 @@ Start with sun conditions, then check panel cleanliness, inverter status, and ba
 ## Next logical reads
 
 <a href="solar-system-sizing.html" class="text-link">Sizing guide</a> <a href="solar-system-costs.html" class="text-link">Cost breakdown</a> <a href="solar-panel-cleaning-cost.html" class="text-link">Solar panel cleaning cost</a> <a href="solar-output-troubleshooting.html" class="text-link">Low solar output troubleshooting</a> <a href="solar-battery-not-charging-troubleshooting.html" class="text-link">Solar battery not charging</a> <a href="solar-use-cases.html" class="text-link">Use-case guides</a>
+
+---
+
+**Related guides:**
+- [Low Solar Output: Troubleshooting Checklist (Common Causes)](/pages/solar-output-troubleshooting.html)
+- [Solar Battery Not Charging: Troubleshooting Checklist (MPPT, Wiring, Loads)](/pages/solar-battery-not-charging-troubleshooting.html)
+- [MPPT Charge Controller Not Charging: Troubleshooting Checklist (PV Voltage, Settings)](/pages/mppt-charge-controller-not-charging.html)

@@ -233,3 +233,10 @@ If you’re charging a battery, yes. Regulation and protection make the system s
 #### Where should I learn the core micro-hydro math?
 
 Start with the <a href="micro-hydro-basics-for-off-grid-power.html" class="text-link">micro-hydro basics guide</a> for head/flow sizing and realistic expectations.
+
+---
+
+**Related guides:**
+- [DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)](/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html)
+- [DIY Pelton Turbine Pico Hydro: Simple Runner Build + Realistic Watts](/diy-off-grid-energy/diy-pelton-turbine-pico-hydro.html)
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)

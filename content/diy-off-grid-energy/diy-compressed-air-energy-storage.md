@@ -227,3 +227,10 @@ A rated tank with a regulator feeding a safe pneumatic load, while you log press
 #### What’s a simpler storage experiment than CAES?
 
 A flywheel or gravity battery demonstration can teach storage concepts with fewer pressure hazards. See the <a href="diy-flywheel-energy-storage.html" class="text-link">flywheel guide</a> and <a href="gravity-battery-diy-energy-storage.html" class="text-link">gravity battery guide</a>.
+
+---
+
+**Related guides:**
+- [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
+- [DIY Stirling Engine Generator: Turn Heat Into Electricity (Educational Build)](/diy-off-grid-energy/diy-stirling-engine-generator-off-grid.html)

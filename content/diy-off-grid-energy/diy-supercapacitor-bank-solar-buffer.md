@@ -223,3 +223,10 @@ High current. Treat the bank like a power tool: fuse it, precharge it, and keep 
 #### What’s a good “first use case” in this pillar?
 
 Buffering a short burst source like a <a href="diy-hand-crank-generator-emergency-charging.html" class="text-link">hand-crank generator</a> or a <a href="pedal-power-generator-for-off-grid-battery-charging.html" class="text-link">pedal generator</a> so your output is smoother and your measurements are easier.
+
+---
+
+**Related guides:**
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [DIY Thermoelectric Generator (TEG): Turn Waste Heat Into Battery Power](/diy-off-grid-energy/diy-thermoelectric-generator-teg-battery-charging.html)
+- [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)

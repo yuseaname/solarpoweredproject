@@ -233,3 +233,10 @@ Basic monitoring-only units cost $30–100. Full protective external BMS units w
 {{< /faq >}}
 
 {{< faq-schema >}}
+
+---
+
+**Related guides:**
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [Solar Battery Maintenance Guide: How to Extend Battery Life (Lead-Acid and Lithium)](/pages/solar-battery-maintenance-guide.html)
+- [Solar Battery Enclosure Guide: Ventilation, Temperature, and Safety](/pages/solar-battery-enclosure-guide.html)

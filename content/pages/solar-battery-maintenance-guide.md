@@ -212,3 +212,10 @@ Three reliable indicators: capacity has dropped noticeably (shorter runtime), vo
 ## Next logical reads
 
 <a href="li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid comparison</a> <a href="solar-battery-cost-per-kwh.html" class="text-link">Solar battery cost per kWh</a> <a href="battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-battery-not-charging-troubleshooting.html" class="text-link">Solar battery not charging troubleshooting</a> <a href="solar-maintenance.html" class="text-link">Solar maintenance checklist</a>
+
+---
+
+**Related guides:**
+- [Solar Battery Enclosure Guide: Ventilation, Temperature, and Safety](/pages/solar-battery-enclosure-guide.html)
+- [Solar Battery Management Systems (BMS): What They Do and When You Need One](/pages/solar-battery-management-system-explained.html)
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)

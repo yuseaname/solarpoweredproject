@@ -370,3 +370,10 @@ The exact number depends on your turbine and expectations. As a practical test: 
 Follow the turbine and controller’s documented shutdown procedure. Many systems support electrical braking or shorting the generator through a proper brake switch/controller mode, but this must be designed correctly. If you’re unsure, do not improvise during high winds — plan shutdown and disconnects ahead of time.
 
 Want the most reliable off-grid path? Use wind as a measured seasonal supplement, and build your core around a solid solar + battery foundation: <a href="../pages/solar-components.html" class="text-link">solar components</a>, <a href="../pages/solar-system-costs.html" class="text-link">system costs</a>, and <a href="../pages/solar-maintenance.html" class="text-link">maintenance</a>.
+
+---
+
+**Related guides:**
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)](/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html)
+- [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)

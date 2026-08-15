@@ -254,3 +254,10 @@ Reduce losses first: larger pipe (less friction), a cleaner nozzle jet, better b
 #### Where should I start if I’m totally new?
 
 Start with <a href="micro-hydro-basics-for-off-grid-power.html" class="text-link">micro-hydro basics</a>, then build a measurement-focused Version 1 runner so you can learn safely before integrating batteries.
+
+---
+
+**Related guides:**
+- [DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)](/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html)
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
+- [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)

@@ -11,6 +11,8 @@ image_width = 1536
 image_height = 1024
 +++
 
+{{< affiliate-disclosure >}}
+
 ## Quick comparison
 
 <table>
@@ -43,3 +45,10 @@ image_height = 1024
 ## Next logical reads
 
 <a href="solar-system-costs.html" class="text-link">Cost breakdown</a> <a href="solar-system-sizing.html" class="text-link">Sizing guide</a> <a href="solar-maintenance.html" class="text-link">Maintenance checklist</a>
+
+---
+
+**Related guides:**
+- [Ground Mount Solar Panels: Cost, DIY vs Installer, and When to Choose Ground Over Roof](/pages/ground-mount-solar-panels.html)
+- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california/)
+- [How Much Does a Solar Battery Cost in 2026?](/guides/solar-battery-cost-2026/)

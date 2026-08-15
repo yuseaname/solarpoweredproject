@@ -219,3 +219,10 @@ Fuse near the battery and consider fusing other branches as appropriate. The bat
 #### What’s the simplest “do this first” move?
 
 Build a measurement-first setup and prove stable watts under load before integrating with batteries. A <a href="diy-generator-test-bench-measure-watts-watt-hours.html" class="text-link">generator test bench</a> approach makes this much easier.
+
+---
+
+**Related guides:**
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [DIY Thermoelectric Generator (TEG): Turn Waste Heat Into Battery Power](/diy-off-grid-energy/diy-thermoelectric-generator-teg-battery-charging.html)
+- [DIY Car Alternator Generator for Battery Charging: What Actually Works](/diy-off-grid-energy/diy-car-alternator-generator-battery-charging.html)

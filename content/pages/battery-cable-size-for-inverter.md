@@ -174,3 +174,10 @@ No. Use devices explicitly rated for DC at your system voltage. DC interrupt rat
 ## Next logical reads
 
 <a href="solar-fuses-vs-breakers.html" class="text-link">Solar fuses vs breakers</a> <a href="solar-wire-size.html" class="text-link">Solar wire size</a> <a href="solar-wiring-and-protection-cost.html" class="text-link">Wiring &amp; protection cost</a> <a href="solar-inverter-sizing.html" class="text-link">Inverter sizing</a> <a href="how-to-choose-solar-system-voltage.html" class="text-link">Choose system voltage</a>
+
+---
+
+**Related guides:**
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)](/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html)
+- [Solar Wire Size: How to Choose the Right Gauge (Voltage Drop + Safety)](/pages/solar-wire-size.html)

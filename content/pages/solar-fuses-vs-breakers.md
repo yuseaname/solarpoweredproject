@@ -11,6 +11,8 @@ image_width = 1536
 image_height = 1024
 +++
 
+{{< affiliate-disclosure >}}
+
 ## Table of contents
 
 <a href="#takeaways" class="text-link">Key takeaways</a> <a href="#quick" class="text-link">Quick answer</a> <a href="#strengths" class="text-link">What each device is good at</a> <a href="#placement" class="text-link">The five places people get protection wrong</a> <a href="#checklist" class="text-link">A shopping checklist (ratings to verify)</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
@@ -116,3 +118,10 @@ Only if it’s rated for that use. Some DC breakers are designed for switching; 
 ## Next logical reads
 
 <a href="solar-wiring-and-protection-cost.html" class="text-link">Solar wiring and protection cost</a> <a href="solar-wire-size.html" class="text-link">Solar wire size</a> <a href="solar-panels-series-vs-parallel.html" class="text-link">Series vs parallel solar panels</a> <a href="solar-fuse-and-breaker-sizing.html" class="text-link">Solar fuse and breaker sizing</a> <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter</a> <a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM</a>
+
+---
+
+**Related guides:**
+- [Solar Fuse and Breaker Sizing: A Simple Planning Guide (By Circuit)](/pages/solar-fuse-and-breaker-sizing.html)
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)

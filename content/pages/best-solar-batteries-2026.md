@@ -11,6 +11,8 @@ image_width = 1200
 image_height = 630
 +++
 
+{{< affiliate-disclosure >}}
+
 # Best Solar Batteries for Home 2026
 
 Choosing the right solar battery in 2026 is harder than ever. The market has moved beyond one-size-fits-all backup boxes. Homeowners now pick between premium AC-coupled systems, modular microinverter batteries, high-voltage LFP stacks, and budget DIY builds. This guide compares the leading options on capacity, cost per usable kWh, warranty, power output, and real-world fit.

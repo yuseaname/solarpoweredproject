@@ -227,3 +227,10 @@ If future expansion is even possible, yes. Oversizing the controller and inverte
 {{< faq "How does temperature affect solar panel voltage?" >}}
 Cold weather increases panel voltage — on record-cold days, Voc can exceed the charge controller's max input rating and damage it. Hot weather decreases efficiency and output. Always calculate Voc at your local record-low temperature and derate for heat in warm climates.
 {{< /faq >}}
+
+---
+
+**Related guides:**
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [DIY Thermoelectric Generator (TEG): Turn Waste Heat Into Battery Power](/diy-off-grid-energy/diy-thermoelectric-generator-teg-battery-charging.html)
+- [Solar Installation Safety Guide: Electrical, Roof, and PPE Essentials](/pages/solar-installation-safety-guide.html)

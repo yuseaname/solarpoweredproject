@@ -11,6 +11,8 @@ image_width = 1536
 image_height = 1024
 +++
 
+{{< affiliate-disclosure >}}
+
 \# Best Solar Panels for Small Homes: Maximizing Energy Density & Cost-Effectiveness
 
 Living in a tiny house or a compact home offers a lifestyle of simplicity and sustainability—but it also presents a unique energy challenge: how do you power your life when you have limited roof space? For many small-home owners, installing solar panels is the most effective way to achieve energy independence. However, the process can feel daunting when you are trying to balance high energy output with a limited installation footprint and a strict budget.
@@ -71,3 +73,10 @@ By choosing high-efficiency panels, optimizing your storage, and maintaining you
 -   <a href="solar-basics.html" class="text-link">Solar power basics</a>
 -   <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a>
 -   <a href="solar-components.html" class="text-link">Solar components guide</a>
+
+---
+
+**Related guides:**
+- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california/)
+- [Best Solar Panels for a Small Roof: Maximizing Energy Output](/pages/best-solar-panels-small-roof.html)
+- [How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide](/pages/solar-battery-cost-2026.html)

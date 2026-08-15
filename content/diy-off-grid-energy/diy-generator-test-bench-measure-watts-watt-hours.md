@@ -230,3 +230,10 @@ Measure RPM while increasing load. If RPM collapses and watts drop, you’re pas
 #### What’s a realistic “success metric” for wind experiments?
 
 Track Wh/day and “time above a minimum watt level.” Peak watts in gusts matter less than consistent energy over time.
+
+---
+
+**Related guides:**
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [DIY Car Alternator Generator for Battery Charging: What Actually Works](/diy-off-grid-energy/diy-car-alternator-generator-battery-charging.html)

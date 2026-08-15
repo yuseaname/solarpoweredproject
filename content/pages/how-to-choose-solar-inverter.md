@@ -219,3 +219,10 @@ String inverters typically last 10–15 years with a 10–12 year warranty. Micr
 ### Is a higher efficiency inverter always worth the extra cost?
 
 Not usually. Going from 94% to 97% efficiency saves approximately 3% of your production — on a 6kW system in a 1,700kWh/year production environment, that's about 51 kWh/year, worth roughly $7.65/year at $0.15/kWh. A premium inverter charging $300 more for that 3% efficiency gain has a 40-year payback. Focus on reliability and warranty over marginal efficiency improvements.
+
+---
+
+**Related guides:**
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
+- [How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide](/pages/solar-battery-cost-2026.html)

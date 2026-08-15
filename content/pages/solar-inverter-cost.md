@@ -135,3 +135,10 @@ If you run mixed electronics and appliances, pure sine wave is usually the safer
 ## Next logical reads
 
 <a href="solar-wiring-and-protection-cost.html" class="text-link">Solar wiring &amp; protection cost</a> <a href="mppt-charge-controller-cost.html" class="text-link">MPPT charge controller cost</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="solar-components.html" class="text-link">Solar components explained</a>
+
+---
+
+**Related guides:**
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)](/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html)
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)

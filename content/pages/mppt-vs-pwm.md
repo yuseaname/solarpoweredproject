@@ -11,6 +11,8 @@ image_width = 1536
 image_height = 1024
 +++
 
+{{< affiliate-disclosure >}}
+
 ## Comparison table
 
 <table>
@@ -63,3 +65,10 @@ Yes, as long as the controller has a lithium charging profile. Many modern MPPT 
 {{< /faq >}}
 
 {{< faq-schema >}}
+
+---
+
+**Related guides:**
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [Solar Battery Management Systems (BMS): What They Do and When You Need One](/pages/solar-battery-management-system-explained.html)
+- [MPPT Charge Controller Not Charging: Troubleshooting Checklist (PV Voltage, Settings)](/pages/mppt-charge-controller-not-charging.html)

@@ -12,6 +12,8 @@ image_width = 1024
 image_height = 576
 +++
 
+{{< affiliate-disclosure >}}
+
 ## Key takeaways
 
 -   **Higher voltage = lower current = thinner, cheaper wire.** Going from 12V to 48V cuts your current by 75%, dramatically reducing copper costs.

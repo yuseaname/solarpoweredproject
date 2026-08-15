@@ -208,3 +208,10 @@ For meaningful energy, height helps a lot. For learning and short tests, you can
 #### Should I build this instead of a small horizontal turbine?
 
 Build a Savonius if you want simplicity and a clear learning project. If your goal is more energy, read the <a href="diy-small-wind-turbine-for-off-grid-battery-charging.html" class="text-link">small wind turbine guide</a> and plan around siting and height.
+
+---
+
+**Related guides:**
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
+- [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
+- [DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)](/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html)

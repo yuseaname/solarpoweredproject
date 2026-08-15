@@ -132,3 +132,10 @@ Article 690 of the National Electrical Code is the primary US standard for PV sy
 {{< faq "How much do solar permits cost?" >}}
 Costs vary widely by jurisdiction. Some areas charge a flat fee, others charge based on system size or valuation. Statewide-adoption states often have lower, standardized fees. Budget anywhere from tens to several hundred dollars depending on whether you need electrical, building, or both.
 {{< /faq >}}
+
+---
+
+**Related guides:**
+- [Solar Installation Safety Guide: Electrical, Roof, and PPE Essentials](/pages/solar-installation-safety-guide.html)
+- [How Much Does a Solar Battery Cost in 2026?](/guides/solar-battery-cost-2026/)
+- [How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide](/pages/solar-battery-cost-2026.html)

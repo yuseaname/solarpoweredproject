@@ -11,6 +11,8 @@ image_width = 1536
 image_height = 1024
 +++
 
+{{< affiliate-disclosure >}}
+
 ## Comparison table
 
 <table>
@@ -43,3 +45,10 @@ image_height = 1024
 ## Next logical reads
 
 <a href="solar-components.html" class="text-link">Components overview</a> <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter</a> <a href="solar-system-sizing.html" class="text-link">Sizing guide</a> <a href="solar-system-costs.html" class="text-link">Cost breakdown</a>
+
+---
+
+**Related guides:**
+- [Solar Inverter Cost: Typical Prices by Type (String, Hybrid, Off-Grid)](/pages/solar-inverter-cost.html)
+- [How to Choose a Solar Inverter: Types, Sizing, and What Matters in 2026](/pages/how-to-choose-solar-inverter.html)
+- [MPPT Charge Controller Cost: Typical Prices + How to Budget](/pages/mppt-charge-controller-cost.html)

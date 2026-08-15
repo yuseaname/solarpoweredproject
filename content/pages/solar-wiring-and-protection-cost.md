@@ -118,3 +118,10 @@ Often yes, because battery-to-inverter currents can be high, which drives cable 
 ## Next logical reads
 
 <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="cabin-solar-cost.html" class="text-link">Cabin solar cost breakdown</a> <a href="rv-solar-cost.html" class="text-link">RV solar cost breakdown</a> <a href="solar-components.html" class="text-link">Solar components explained</a> <a href="wiring-decisions.html" class="text-link">Solar wiring decisions (hub)</a> <a href="solar-fuse-and-breaker-sizing.html" class="text-link">Solar fuse and breaker sizing</a>
+
+---
+
+**Related guides:**
+- [Battery Cable Size for Solar Inverters (12V/24V/48V): How to Choose Safely](/pages/battery-cable-size-for-inverter.html)
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [Solar Fuses vs Breakers: What to Use (and Where) in a Solar System](/pages/solar-fuses-vs-breakers.html)

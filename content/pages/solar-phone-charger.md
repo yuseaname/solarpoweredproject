@@ -142,3 +142,10 @@ Yes. Dust, fingerprints, and bird droppings create "shading" on the cells. Even 
 -   <a href="solar-basics.html" class="text-link">Solar power basics</a>
 -   <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a>
 -   <a href="solar-components.html" class="text-link">Solar components guide</a>
+
+---
+
+**Related guides:**
+- [Portable solar panels guide](/pages/portable-solar-panels.html)
+- [Best solar lights for your yard](/pages/solar-lights-for-yard.html)
+- [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)

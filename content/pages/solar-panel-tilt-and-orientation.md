@@ -209,3 +209,10 @@ Being 5° off your optimal tilt costs less than 2% of annual production. Being 1
 ## Next logical reads
 
 <a href="solar-panel-angle-calculator.html" class="text-link">Solar panel angle calculator</a> <a href="solar-panel-efficiency.html" class="text-link">Solar panel efficiency</a> <a href="solar-panel-output.html" class="text-link">Solar panel output guide</a> <a href="ground-mount-vs-roof-mount-solar.html" class="text-link">Ground mount vs roof mount solar</a> <a href="solar-panel-shading-effects.html" class="text-link">How shading affects solar panels</a>
+
+---
+
+**Related guides:**
+- [Solar panel angle calculator and tilt guide](/pages/solar-panel-angle-calculator.html)
+- [How Shading Affects Solar Panels (And What Bypass Diodes Actually Do)](/pages/solar-panel-shading-effects.html)
+- [Ground Mount Solar Panels: Cost, DIY vs Installer, and When to Choose Ground Over Roof](/pages/ground-mount-solar-panels.html)

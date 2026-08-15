@@ -107,3 +107,10 @@ Professionals may have the right safety equipment and access methods. Avoid risk
 ## Next logical reads
 
 <a href="solar-output-troubleshooting.html" class="text-link">Troubleshoot low solar output</a> <a href="solar-maintenance.html" class="text-link">Solar maintenance checklist</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="solar-panel-cost-per-watt.html" class="text-link">Solar panel cost per watt</a>
+
+---
+
+**Related guides:**
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
+- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+- [DIY Thermoelectric Generator (TEG): Turn Waste Heat Into Battery Power](/diy-off-grid-energy/diy-thermoelectric-generator-teg-battery-charging.html)

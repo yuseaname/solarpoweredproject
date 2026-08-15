@@ -338,3 +338,10 @@ Key takeaways for 2026 include:
 -   **Long-Term Value:** With an average payback period of 8 years and potential savings of over $50,000 over 25 years, solar remains one of the strongest home energy investments available.
 
 By carefully sizing your system, choosing the right financing method, and leveraging available incentives, California homeowners can secure predictable energy costs and build equity in their homes simultaneously.
+
+---
+
+**Related guides:**
+- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california/)
+- [How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide](/pages/solar-battery-cost-2026.html)
+- [How Much Does a Solar Battery Cost in 2026?](/guides/solar-battery-cost-2026/)
