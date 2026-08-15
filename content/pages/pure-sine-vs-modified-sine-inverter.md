@@ -249,37 +249,35 @@ See <a href="solar-inverter-sizing.html" class="text-link">how to size an invert
 - **Trusting old forum advice.** Posts from 2010 sometimes say "modified sine is fine for everything." Modern switching power supplies are more efficient but also more sensitive to waveform quality.
 
 ## FAQ
-
-#### Will modified sine wave damage my electronics?
-
+{{< faq "Will modified sine wave damage my electronics?" >}}
 It depends on the device. Resistive loads are unaffected. Motors and compressors run hotter and die sooner. Switching power supplies (laptop chargers, LED drivers) may overheat or fail outright. Some devices work fine for years; others fail in weeks. The risk is real and unpredictable — pure sine eliminates it.
+{{< /faq >}}
 
-#### Is pure sine wave more efficient?
-
+{{< faq "Is pure sine wave more efficient?" >}}
 The inverter itself has similar conversion efficiency (85–92%). The bigger difference is that **devices run more efficiently on pure sine** — motors lose less energy to heat, chargers waste less power. A fridge on modified sine may use 10–20% more energy to do the same cooling.
+{{< /faq >}}
 
-#### Can a modified sine wave inverter run a refrigerator?
-
+{{< faq "Can a modified sine wave inverter run a refrigerator?" >}}
 Sometimes, but it's risky. The compressor's starting surge (3–7x running watts) is harder to start on a dirty waveform, and the motor runs hotter. A fridge that lasts 12 years on grid power may last 2–4 years on modified sine. Most off-grid builders use pure sine for any compressor load. For the full picture on battery and system sizing for refrigeration, see <a href="how-to-choose-solar-inverter.html" class="text-link">how to choose a solar inverter</a>.
+{{< /faq >}}
 
-#### Does inverter type change my solar sizing?
-
+{{< faq "Does inverter type change my solar sizing?" >}}
 Indirectly, yes. If devices run less efficiently on modified sine, they draw more energy from your battery bank, which means you need more solar panel and battery capacity to cover the same loads. Pure sine keeps your energy budget tighter.
+{{< /faq >}}
 
-#### Can I run a CPAP on modified sine?
-
+{{< faq "Can I run a CPAP on modified sine?" >}}
 Technically some CPAP machines will run, but most manufacturers (ResMed, Philips Respironics, Fisher & Paykel) explicitly state pure sine wave is required. Using modified sine can void your warranty, cause the heater/humidifier to malfunction, and create an uncomfortable buzzing sound. Don't risk it.
+{{< /faq >}}
 
-#### What about running power tools on modified sine?
-
+{{< faq "What about running power tools on modified sine?" >}}
 Older brushed-motor tools (basic drills, circular saws) usually run, though with slightly reduced power and faster brush wear. Modern brushless tools with electronic speed controls often refuse to run or behave erratically. If your tool has a variable-speed trigger or brushless motor, assume it needs pure sine.
+{{< /faq >}}
 
-#### Is a "pure sine wave" inverter really pure?
-
+{{< faq "Is a \"pure sine wave\" inverter really pure?" >}}
 Quality varies. Cheap inverters labeled "pure sine" may deliver <3% total harmonic distortion (THD) — good enough for almost everything. Ultra-cheap units may claim pure sine but measure 5–8% THD, which is better than modified but not truly clean. Stick with reputable brands (Victron, Renogy, AIMS, Samlex, Xantrex) if waveform quality matters for sensitive gear.
 
 {{< product-box asin="B081CLPDT9" name="Renogy 2000W 12V Pure Sine Inverter" label="Our pure sine pick" description="2000W continuous pure sine with remote switch and cables included — sized for the mid-size off-grid loads where waveform quality actually matters." button="Check price on Amazon" >}}
-
+{{< /faq >}}
 
 ## Next logical reads
 

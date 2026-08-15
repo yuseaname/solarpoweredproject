@@ -126,31 +126,29 @@ This is one of the most common solar troubleshooting questions. Before replacing
 <a href="solar-fuses-vs-breakers.html" class="text-link">Solar fuses vs breakers (what to use where)</a> <a href="solar-output-troubleshooting.html" class="text-link">Low solar output troubleshooting</a>
 
 ## FAQ
-
-#### Do I need fuses on solar panels wired in parallel?
-
+{{< faq "Do I need fuses on solar panels wired in parallel?" >}}
 Sometimes. Parallel strings can allow backfeed current into a faulted string depending on configuration. The safest approach is to follow panel and controller guidance and use appropriate string protection when required.
+{{< /faq >}}
 
-#### Breaker vs fuse: which is “better”?
-
+{{< faq "Breaker vs fuse: which is “better”?" >}}
 It depends on the circuit and your goals. Breakers can act as a disconnect and reset after troubleshooting; fuses can be simple and robust. Use devices rated for your system’s DC voltage and expected fault current.
+{{< /faq >}}
 
-#### What does “DC-rated” actually mean?
-
+{{< faq "What does “DC-rated” actually mean?" >}}
 It means the device is designed and tested to interrupt current safely on DC at a specified voltage. DC arcs behave differently than AC arcs, so ratings are not interchangeable.
+{{< /faq >}}
 
-#### Why does a correctly-sized fuse still blow sometimes?
-
+{{< faq "Why does a correctly-sized fuse still blow sometimes?" >}}
 A fuse can blow due to true overloads, surges, heat from a loose connection, or a short. Treat repeated failures as a diagnostic clue—not a reason to oversize protection.
+{{< /faq >}}
 
-#### What’s the safest “first upgrade” for a DIY system?
-
+{{< faq "What’s the safest “first upgrade” for a DIY system?" >}}
 If your system lacks clear DC-rated disconnects and correctly placed protection, improving isolation and protection can make maintenance and troubleshooting safer.
 
 {{< product-box asin="B08L56RDNP" name="BougeRV 15A MC4 Inline Fuse Kit (5-pk)" label="String-level protection" description="Waterproof IP68 in-line fuse holders for panel strings — the cheapest insurance a DIY array can buy. Match the fuse rating to your string current." button="Check price on Amazon" >}}
 
 {{< product-box asin="B00MYSQM58" name="Blue Sea 100A Mini BusBar" label="Clean distribution point" description="A tinned-copper busbar for battery/inverter distribution — the tidy, inspectable alternative to stacked ring terminals that protection devices can actually guard." button="Check price on Amazon" >}}
-
+{{< /faq >}}
 
 ## Next logical reads
 

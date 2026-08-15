@@ -152,29 +152,27 @@ Going from 12V to 48V for the same inverter means cable cross-section drops by r
 -   **Non-DC-rated hardware:** DC interrupt ratings and voltage ratings matter for safety.
 
 ## FAQ
-
-#### Do I size inverter battery cables for surge or continuous watts?
-
+{{< faq "Do I size inverter battery cables for surge or continuous watts?" >}}
 Plan around the maximum current the circuit can realistically see. If you run motor loads or compressors, surge behavior can be relevant. Use the inverter specs and leave a conservative margin.
+{{< /faq >}}
 
-#### Why do 12V inverters need such thick cables?
-
+{{< faq "Why do 12V inverters need such thick cables?" >}}
 At 12V, the same power requires more current than at 24V or 48V. High current drives thicker cable, larger lugs, and higher-rated protection.
+{{< /faq >}}
 
-#### My inverter shuts down under load—could it be cable size?
-
+{{< faq "My inverter shuts down under load—could it be cable size?" >}}
 Yes. Voltage drop at high current can make the inverter see a “low battery” even if the battery is healthy. Check cable length, lug tightness, and signs of heating at connections.
+{{< /faq >}}
 
-#### Can I oversize battery cable?
-
+{{< faq "Can I oversize battery cable?" >}}
 Often, yes—oversizing reduces voltage drop and heating. The practical limits are cost, routing difficulty, and ensuring your lugs, disconnects, and bus bars are compatible.
+{{< /faq >}}
 
-#### Is it safe to use AC breakers on DC inverter circuits?
-
+{{< faq "Is it safe to use AC breakers on DC inverter circuits?" >}}
 No. Use devices explicitly rated for DC at your system voltage. DC interrupt ratings are not interchangeable with AC ratings.
 
 {{< product-box asin="B08B7VPWD4" name="IWISS Battery Lug Crimper (10–2/0 AWG)" label="The crimp tool lugs deserve" description="A proper hex/indent crimper for 10 AWG to 2/0 battery lugs — the difference between a connection you trust at 100A and one that heats. If you are building inverter cables, this is the tool." button="Check price on Amazon" >}}
-
+{{< /faq >}}
 
 ## Next logical reads
 

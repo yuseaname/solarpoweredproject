@@ -181,27 +181,25 @@ If your loads are under 1,500W and your cable runs are short, 12V is simpler and
 - **Not planning for expansion.** If there's any chance you'll double your system size in 2 years, start at 24V now. Ripping out a 12V system to upgrade later costs more than the voltage difference.
 
 ## FAQ
-
-#### Is 24V more efficient than 12V?
-
+{{< faq "Is 24V more efficient than 12V?" >}}
 Often, yes in practice for higher-power systems because current is lower, which reduces wiring losses and stress on components.
+{{< /faq >}}
 
-#### Do I need 48V for an RV?
-
+{{< faq "Do I need 48V for an RV?" >}}
 Most RV builds don’t need it. If you run large inverters and big battery banks, 24V or 48V may become attractive.
+{{< /faq >}}
 
-#### Can I mix 12V and 24V devices?
-
+{{< faq "Can I mix 12V and 24V devices?" >}}
 Yes, but it requires proper DC-DC conversion and careful design. Keep it simple if you’re new.
+{{< /faq >}}
 
-#### Does system voltage affect solar panel wiring?
-
+{{< faq "Does system voltage affect solar panel wiring?" >}}
 It can influence array configuration and controller choices. Always verify your charge controller’s voltage limits.
 
 {{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="12V building block" description="The value benchmark for starting a 12V bank — built-in 100A BMS, low-temp protection, and thousands of cycles. (Going 24V/48V? Series/parallel-match these.)" button="Check price on Amazon" >}}
 
 {{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="Voltage-flexible controller" description="Auto-detects 12V/24V (48V-capable across the range) with Bluetooth monitoring and lithium presets — the controller that grows with a voltage upgrade." button="Check price on Amazon" >}}
-
+{{< /faq >}}
 
 ## Next logical reads
 

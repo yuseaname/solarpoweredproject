@@ -176,25 +176,23 @@ See <a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM</a> to confirm you'
 -   **Chasing settings before checking PV input:** always confirm sun/shade and PV watts first.
 
 ## FAQ
-
-#### Why is my MPPT controller showing PV voltage but zero charge current?
-
+{{< faq "Why is my MPPT controller showing PV voltage but zero charge current?" >}}
 Common reasons include a full battery (float), low PV watts due to clouds/shade, battery protections (BMS/cold), or settings that don’t match the battery.
+{{< /faq >}}
 
-#### Does MPPT work with panels wired in parallel?
-
+{{< faq "Does MPPT work with panels wired in parallel?" >}}
 Often, yes—but the array voltage must be high enough above battery voltage for the controller to convert power effectively. Configuration depends on your panel specs and battery voltage.
+{{< /faq >}}
 
-#### Can cold weather stop MPPT charging?
-
+{{< faq "Can cold weather stop MPPT charging?" >}}
 Cold can increase PV voltage (affecting limits) and lithium batteries may prevent charging when cold. Both can change charging behavior.
+{{< /faq >}}
 
-#### When should I call a professional?
-
+{{< faq "When should I call a professional?" >}}
 If you can’t verify PV voltage/current within safe procedures, see repeated faults, or suspect wiring damage, stop and contact a qualified professional.
 
 {{< product-box asin="B018CLOSTC" name="Klein Tools MM600 Multimeter" label="First diagnostic tool" description="Step one of every MPPT troubleshooting checklist is measuring PV voltage — an auto-ranging 1000V meter like this is the tool that answers it." button="Check price on Amazon" >}}
-
+{{< /faq >}}
 
 ## Next logical reads
 
