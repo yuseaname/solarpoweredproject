@@ -93,3 +93,10 @@ For most homeowners with a suitable roof and reasonable shading, **yes**. The co
 - <a href="../pages/solar-panel-tax-credit.html" class="text-link">Federal solar tax credit</a>
 - <a href="../pages/how-many-solar-panels-to-power-a-house.html" class="text-link">How many solar panels do I need?</a>
 - <a href="../pages/solar-system-sizing.html" class="text-link">Solar system sizing guide</a>
+
+---
+
+**Related guides:**
+- [How Much Do Solar Panels Cost in Florida in 2026?](/guides/solar-panel-cost-florida/)
+- [How Much Do Solar Panels Cost in Arizona in 2026?](/guides/solar-panel-cost-arizona/)
+- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california/)

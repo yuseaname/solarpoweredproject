@@ -90,3 +90,13 @@ img { max-width: 100%; height: auto; }
 .hub-banner{margin:0 0 36px;overflow:hidden;border:1px solid var(--ink);box-shadow:10px 10px 0 rgba(65,103,90,.12)}
 .hub-banner-img{display:block;width:100%;height:auto}
 @media(max-width:620px){.hub-banner{margin:0 0 24px;box-shadow:6px 6px 0 rgba(65,103,90,.12)}}
+
+/* === Affiliate product boxes (Amazon Associates) === */
+.product-box{position:relative;margin:34px 0;padding:22px 24px 24px;border:1px solid var(--ink);background:var(--surface);box-shadow:8px 8px 0 rgba(65,103,90,.12)}
+.product-box .product-label{display:inline-block;margin-bottom:10px;padding:3px 10px;background:var(--sun);border:1px solid var(--ink);font-size:.62rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink)}
+.product-box .product-name{display:block;margin:0 0 8px;font-family:var(--serif);font-size:1.35rem;letter-spacing:-.025em;line-height:1.1;color:var(--ink)}
+.product-box p{margin:0 0 16px;max-width:560px;color:var(--ink-soft);font-size:.92rem;line-height:1.55}
+.product-box .product-cta{margin-bottom:12px}
+.product-box .product-note{display:block;color:var(--muted);font-size:.68rem;line-height:1.4}
+.amazon-link{font-weight:700}
+@media(max-width:620px){.product-box{padding:18px 16px 20px;box-shadow:5px 5px 0 rgba(65,103,90,.12)}.product-box .button{width:100%}}

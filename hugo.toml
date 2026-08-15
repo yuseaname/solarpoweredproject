@@ -17,6 +17,9 @@ disableKinds = ['taxonomy', 'term']
   google_site_verification = ''
   google_analytics = 'G-GLZVS6799J'
 
+  # Central affiliate swap-point — change here, every Amazon link updates sitewide.
+  amazon_tag = 'litwd-20'
+
   [params.adsense]
     client_id = 'ca-pub-5566942094411042'
     [params.adsense.slots]

@@ -344,3 +344,10 @@ By carefully sizing your system, choosing the right financing method, and levera
 - <a href="solar-panel-cost-florida.html" class="text-link">Solar panel cost in Florida</a>
 - <a href="solar-panel-cost-arizona.html" class="text-link">Solar panel cost in Arizona</a>
 - <a href="solar-panel-cost-new-york.html" class="text-link">Solar panel cost in New York</a>
+
+---
+
+**Related guides:**
+- [How Much Do Solar Panels Cost in California in 2026?](/pages/solar-panel-cost-california.html)
+- [How Much Does a Solar Battery Cost in 2026?](/guides/solar-battery-cost-2026/)
+- [How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide](/pages/solar-battery-cost-2026.html)

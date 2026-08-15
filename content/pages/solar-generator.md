@@ -112,45 +112,5 @@ Brands like **Jackery, EcoFlow, and Bluetti** dominate this market. These units 
 
 This involves buying separate components: a LiFePO4 battery bank (like those from Ampere Time or DIY cells), a separate MPPT controller, and a standalone Pure Sine Wave inverter.
 
--   \*\*Pros:\*\* Significantly higher capacity for a lower cost per Watt-hour. You can scale the system indefinitely by adding more batteries.
--   \*\*Cons:\*\* Requires technical knowledge of wiring, fusing, and circuit protection. It is much heavier and less "portable" than an all-in-one unit.
+{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="Budget battery pick" description="The value benchmark in DIY LiFePO4 — built-in 100A BMS, low-temp cutoff, and the track record that made it the default recommendation in budget build guides." button="Check price on Amazon" >}}
 
-## Maintenance and Longevity Tips
-
-To ensure your solar generator provides power during a critical outage, follow these maintenance protocols:
-
-1.  \*\*Avoid Deep Discharge:\*\* Try not to let your battery drop below 10-20% capacity. Constantly draining a battery to 0% can accelerate chemical degradation.
-2.  \*\*Temperature Management:\*\* Lithium batteries hate extremes. Storing a unit in a freezing garage or a hot car can permanently reduce its capacity. Aim for storage temperatures between 5°C and 25°C (41°F - 77°F).
-3.  \*\*Periodic Recharging:\*\* If you use your generator only for emergencies, do not leave it uncharged for months. Discharge and recharge the unit to 80% every 3 to 6 months to maintain cell health.
-4.  \*\*Dust Management:\*\* For solar panels, even a thin layer of dust can reduce efficiency by 10-15%. Clean panels with water and a microfiber cloth regularly.
-
-## FAQ
-
-**Q: Can a solar generator run a full-sized refrigerator?**
-
-A: Yes, but you need a high-capacity unit (at least 2,000Wh) with a high surge wattage rating. Refrigerators have a "startup surge" that can be 3x their running wattage.
-
-**Q: How long will the battery last if there is no sun?**
-
-A: This depends entirely on your load. A 1,000Wh battery running a 50W device will last approximately 20 hours (accounting for efficiency loss).
-
-**Q: Are solar generators safe to use indoors?**
-
-A: Yes, unlike gas generators, they produce no carbon monoxide. However, ensure the unit has adequate ventilation to prevent overheating during heavy discharge.
-
-**Q: Do I need solar panels to use a solar generator?**
-
-A: No. Most units can be recharged via standard AC wall outlets, car DC ports, or even via USB-C, making them useful even when sunlight is unavailable.
-
-## Related guides
-
--   <a href="solar-basics.html" class="text-link">Solar power basics</a>
--   <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a>
--   <a href="solar-components.html" class="text-link">Solar components guide</a>
-
----
-
-**Related guides:**
-- [How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide](/pages/solar-battery-cost-2026.html)
-- [How Much Does a Solar Battery Cost in 2026?](/guides/solar-battery-cost-2026/)
-- [Portable solar panels guide](/pages/portable-solar-panels.html)

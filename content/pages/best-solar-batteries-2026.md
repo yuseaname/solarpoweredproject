@@ -103,58 +103,5 @@ For off-grid cabins, RVs, and technically skilled homeowners, assembling cells i
 
 Best for off-grid solar systems, workshops, and technically confident owners. See our [battery capacity calculator](battery-capacity.html) to size a DIY bank.
 
-## How to choose: decision framework
+{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="DIY bank building block" description="The value benchmark for DIY banks — built-in 100A BMS, low-temp protection, and thousands of cycles at a fraction of turnkey cost per kWh." button="Check price on Amazon" >}}
 
-### 1. New solar or existing solar?
-- **New solar:** Powerwall 3, BYD + SolarEdge, or FranklinWH are attractive because inverter and battery can be planned together.
-- **Existing solar:** Enphase IQ 5P or FranklinWH AC-coupled systems avoid inverter replacement.
-
-### 2. Whole-home or essential-load backup?
-- **Whole-home AC:** You need 10+ kWh and 7+ kW continuous output. Powerwall 3 or stacked FranklinWH/Enphase.
-- **Essential loads only:** A single Enphase 5P or 10 kWh DIY bank can run fridge, lights, internet, and a few outlets.
-
-### 3. Peak shaving / rate arbitrage?
-If your utility has time-of-use rates, efficiency matters. Enphase's ~96% round-trip efficiency means less energy is lost each charge/discharge cycle. Powerwall 3 and FranklinWH are also strong here.
-
-### 4. Budget priority?
-DIY LiFePO4 wins on upfront cost but costs time and skill. FranklinWH and Enphase 5P offer the best balance of installed price and warranty among turnkey options.
-
-## Cost per usable kWh matters more than sticker price
-
-A battery marketed as "13.5 kWh" at $14,000 sounds like $1,037/kWh, but if only 90% is usable, the real cost is ~$1,153/kWh. Add installation and the all-in number climbs. When comparing options, divide the installed price by usable capacity, not rated capacity. Our [solar battery cost guide](../guides/solar-battery-cost-2026.html) breaks this down further.
-
-## Federal tax credit and incentives
-
-In 2026, residential storage paired with solar generally qualifies for the 30% federal Investment Tax Credit when it has at least 3 kWh of capacity. Standalone batteries may have different eligibility rules depending on the IRS interpretation in effect. Check with a tax professional for your situation. Many state and utility storage rebates — such as California SGIP, Massachusetts SMART, and certain New York incentives — can stack on top of the ITC.
-
-## Related guides
-
-- <a href="../guides/solar-battery-cost-2026.html" class="text-link">Solar battery cost in 2026</a>
-- <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a>
-- <a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid batteries</a>
-- <a href="solar-battery-backup-vs-generator.html" class="text-link">Battery backup vs generator</a>
-- <a href="solar-components.html" class="text-link">Solar components explained</a>
-
-## Frequently asked questions
-
-{{< faq "Which solar battery is best overall in 2026?" >}}
-For most homeowners, the Tesla Powerwall 3 is the safest overall choice due to its 13.5 kWh capacity, 11.5 kW power output, and large installer network. For retrofits, Enphase IQ 5P is often better because it is AC-coupled and modular.
-{{< /faq >}}
-
-{{< faq "Is a solar battery worth it without net metering?" >}}
-Yes. Batteries are most valuable when net metering pays little for exported solar. They let you store daytime solar and use it at night, increasing self-consumption. This is especially relevant under California NEM 3.0 and some Texas retail plans.
-{{< /faq >}}
-
-{{< faq "How many batteries do I need for a 2,000 sq ft home?" >}}
-For essential-load backup, 10–15 kWh is usually enough. For whole-home backup of a 2,000 sq ft home with central AC, 20–30 kWh is more realistic. Use our battery capacity calculator to estimate your exact load.
-{{< /faq >}}
-
-{{< faq "Can I mix different battery brands?" >}}
-Generally no. Most battery management systems are designed to work with identical units from the same manufacturer. Mixing brands can cause communication failures, void warranties, and create safety issues.
-{{< /faq >}}
-
-{{< faq "How long do home solar batteries last?" >}}
-Most lithium-ion home batteries are warrantied for 10–15 years, but actual usable life depends on cycle depth, temperature, and how often the battery is cycled. A battery used daily may degrade faster than one used only for occasional backup.
-{{< /faq >}}
-
-{{< faq-schema >}}

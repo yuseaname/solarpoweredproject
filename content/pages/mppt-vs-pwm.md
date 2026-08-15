@@ -64,11 +64,5 @@ Yes. MPPT benefits are actually larger in cold weather because panel voltage ris
 Yes, as long as the controller has a lithium charging profile. Many modern MPPT controllers include presets for LiFePO4 and other lithium chemistries.
 {{< /faq >}}
 
-{{< faq-schema >}}
+{{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="Our MPPT pick" description="The 100V/30A SmartSolar most DIY builds standardize on — Bluetooth monitoring, lithium presets, and the build quality that made Victron the off-grid default." button="Check price on Amazon" >}}
 
----
-
-**Related guides:**
-- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
-- [Solar Battery Management Systems (BMS): What They Do and When You Need One](/pages/solar-battery-management-system-explained.html)
-- [MPPT Charge Controller Not Charging: Troubleshooting Checklist (PV Voltage, Settings)](/pages/mppt-charge-controller-not-charging.html)

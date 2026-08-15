@@ -180,24 +180,5 @@ The sticker price on panels and batteries is just the beginning. Budget an extra
 - **Upgrading your converter/charger ($200–$400):** If your RV has an old single-stage converter, you may need a modern multi-stage unit to properly charge from shore power too.
 - **Insurance and registration considerations:** Some RV insurance policies require disclosure of modifications. Check before you install.
 
-## FAQ
+{{< product-box asin="B075RTSTKS" name="Victron BMV-712 Battery Monitor" label="Worth-it upgrade" description="Exact state-of-charge at a glance. The component most often skipped and most often regretted." button="Check price on Amazon" >}}
 
-#### How much does RV solar cost to install?
-
-If you hire a professional for a full install, expect **$1,000–$3,000** in labor on top of parts, depending on system complexity. A simple 200W bolt-on might cost $300–$500 in labor; a full 800W system with inverter-charger and lithium batteries could run $2,000–$3,500 in labor alone. Most RV owners do it themselves — the skills needed are basic mechanical and 12V electrical work.
-
-#### What’s the cheapest RV solar setup that works?
-
-A **200W panel + 30A PWM controller + 100Ah lead-acid battery** costs about **$500–$700** total and will run LED lights, fans, and phone charging indefinitely off-grid. It won't support an inverter for AC appliances. This is the minimum viable setup for weekend campers who mostly need lights and device charging.
-
-#### Is lithium worth it for RV solar?
-
-For frequent off-grid use, **yes — lithium pays for itself in 2–3 years.** A 100Ah LiFePO₄ battery costs $400–$700 but delivers 80%+ usable capacity (vs. 50% for lead-acid) and lasts 2,000–5,000 cycles (vs. 300–500 for lead-acid). For occasional weekend use, a $200–$300 AGM lead-acid battery is adequate and much cheaper upfront. See the <a href="solar-battery-cost-per-kwh.html" class="text-link">solar battery cost per kWh</a> breakdown for the full comparison.
-
-#### How do I budget panels accurately?
-
-Use a **$0.70–$1.00 per watt** estimate for the panels themselves (2026 prices), then add 30–40% for mounts, wiring, fuses, and connectors. Example: 600W of panels = $420–$600 for panels, plus $150–$240 for balance-of-system = **$570–$840 total for the solar side** (not counting controller, battery, or inverter).
-
-## Next logical reads
-
-<a href="rv-solar-sizing.html" class="text-link">How to size an RV solar system</a> <a href="solar-panel-cost-per-watt.html" class="text-link">Solar panel cost per watt</a> <a href="solar-battery-cost-per-kwh.html" class="text-link">Solar battery cost per kWh</a> <a href="solar-use-cases.html" class="text-link">More solar use cases</a>
