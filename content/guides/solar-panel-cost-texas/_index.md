@@ -32,7 +32,7 @@ Texas combines low installation costs with strong sun and high summer air-condit
 | **Typical System Cost** | $21,000 – $28,000 | $24,000 – $31,000 | Larger systems common |
 | **Avg. Electricity Rate** | ~$0.18/kWh | ~$0.14/kWh | Lower baseline |
 | **Avg. Sun Hours/Day** | 4.5 hours | 5.5+ hours | Higher production |
-| **Payback Period** | 7–9 years | 7–10 years | Competitive |
+| **Payback Period** | 10–14 years | 11–15 years | Approximate, 2026 (no federal credit) |
 
 Texas installations are cheaper per watt, but systems are often larger because summer AC loads push homeowners toward 11–13 kW arrays. The result is a competitive payback despite lower electricity rates than California.
 
@@ -120,3 +120,5 @@ It depends more on your buyback arrangement than it used to. Low cost per watt a
 - <a href="solar-panel-cost-florida.html" class="text-link">Solar panel cost in Florida</a>
 - <a href="solar-panel-cost-arizona.html" class="text-link">Solar panel cost in Arizona</a>
 - <a href="solar-panel-cost-new-york.html" class="text-link">Solar panel cost in New York</a>
+- <a href="solar-panel-cost-illinois.html" class="text-link">Solar panel cost in Illinois</a>
+- <a href="solar-panel-cost-colorado.html" class="text-link">Solar panel cost in Colorado</a>

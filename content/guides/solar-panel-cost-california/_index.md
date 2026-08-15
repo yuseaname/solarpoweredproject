@@ -70,9 +70,9 @@ California often commands a premium compared to the national average due to high
 </tr>
 <tr class="odd">
 <td><strong>Payback Period</strong></td>
-<td>7-9 Years</td>
-<td>6-8 Years</td>
-<td>Faster in CA</td>
+<td>10-14 Years</td>
+<td>10-13 Years</td>
+<td>Slightly faster in CA (2026, no federal credit)</td>
 </tr>
 </tbody>
 </table>
@@ -216,7 +216,7 @@ Paying cash upfront yields the highest return on investment. You avoid interest 
 
 -   **Pros:** Maximum savings, you keep any remaining incentives (SGIP etc.), increases home value immediately.
 -   **Cons:** High upfront barrier.
--   **Payback:** Typically 6-8 years in California.
+-   **Payback:** Typically 10-13 years in California for 2026 purchases (6-8 was typical for 2025 credit-era installs).
 
 **Solar Loans:**
 
@@ -224,7 +224,7 @@ Most homeowners finance their systems through a third-party lender or the instal
 
 -   **Pros:** Low or no money down, keeps cash flow flexible.
 -   **Cons:** Interest payments reduce total savings, you pay more over the life of the loan.
--   **Payback:** 8-10 years.
+-   **Payback:** 12-15 years with typical loan interest.
 
 ### Solar Lease and PPA Considerations
 
@@ -348,4 +348,5 @@ By carefully sizing your system, choosing the right financing method, and levera
 **Related guides:**
 - [How Much Do Solar Panels Cost in California in 2026?](/pages/solar-panel-cost-california.html)
 - [How Much Does a Solar Battery Cost in 2026?](/guides/solar-battery-cost-2026/)
+- [How Much Do Solar Panels Cost in Nevada in 2026?](/guides/solar-panel-cost-nevada.html)
 - [How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide](/pages/solar-battery-cost-2026.html)

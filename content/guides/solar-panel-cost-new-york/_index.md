@@ -16,7 +16,7 @@ image_height = 630
 
 As of mid-2026, the average solar panel cost in New-York is **$2.90 – $3.40 per watt installed**. A typical **8–9 kW** residential system costs roughly **$23,200 – $30,600** before state incentives. Note: the 30% federal ITC expired December 31, 2025 — but New York's own incentives (NY-Sun upfront rebates, 25% state credit up to $5,000) still cut the real price meaningfully.
 
-New-York homeowners pay an average residential electricity rate near **$0.22/kWh** and see **3.5–4.5 peak sun hours per day**, giving most systems a simple payback of **8–11 years**.
+New-York homeowners pay an average residential electricity rate near **$0.22/kWh** and see **3.5–4.5 peak sun hours per day**. With the federal credit gone but NY-Sun rebates and the 25% state credit in play, simple payback runs **9–12 years**.
 
 New York has higher installation costs and lower sun than the Southwest, but very high electricity rates and strong state incentives keep payback competitive. Upstate homeowners should account for snow load and shorter production seasons.
 
@@ -34,7 +34,7 @@ New York has higher installation costs and lower sun than the Southwest, but ver
 | **Typical System Cost** | $21,000 – $28,000 | $23,200 – $30,600 | Before incentives |
 | **Avg. Electricity Rate** | ~$0.18/kWh | $0.22/kWh | Baseline savings rate |
 | **Avg. Sun Hours/Day** | 4.5 hours | 3.5–4.5 hours | Production factor |
-| **Payback Period** | 7–9 years | 8–11 years | Approximate |
+| **Payback Period** | 10–14 years | 9–12 years | Approximate, 2026 (no federal credit) |
 
 ### Cost Per Watt Analysis
 

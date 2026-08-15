@@ -34,7 +34,7 @@ Florida combines strong sun, high summer AC loads, and a large installer market.
 | **Typical System Cost** | $21,000 – $28,000 | $22,500 – $30,450 | Before incentives |
 | **Avg. Electricity Rate** | ~$0.18/kWh | $0.15/kWh | Baseline savings rate |
 | **Avg. Sun Hours/Day** | 4.5 hours | 4.5–5.5 hours | Production factor |
-| **Payback Period** | 7–9 years | 8–11 years | Approximate |
+| **Payback Period** | 10–14 years | 10–13 years | Approximate, 2026 (no federal credit) |
 
 ### Cost Per Watt Analysis
 

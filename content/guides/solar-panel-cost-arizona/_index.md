@@ -34,7 +34,7 @@ Arizona is one of the most favorable residential solar markets in the U.S. thank
 | **Typical System Cost** | $21,000 – $28,000 | $17,600 – $24,700 | Before incentives |
 | **Avg. Electricity Rate** | ~$0.18/kWh | $0.14/kWh | Baseline savings rate |
 | **Avg. Sun Hours/Day** | 4.5 hours | 6.0+ hours | Production factor |
-| **Payback Period** | 7–9 years | 7–9 years | Approximate |
+| **Payback Period** | 10–14 years | 9–12 years | Approximate, 2026 (no federal credit) |
 
 ### Cost Per Watt Analysis
 
