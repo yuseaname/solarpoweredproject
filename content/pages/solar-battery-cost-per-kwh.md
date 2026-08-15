@@ -92,22 +92,21 @@ In grid-tied systems without backup, batteries may be optional. In off-grid or w
 {{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="The $/kWh reference point" description="The battery we benchmark cost-per-kWh math against: 1.28 kWh nominal, thousands of cycles, and a built-in BMS — the datasheet numbers behind realistic DIY cost models." button="Check price on Amazon" >}}
 
 ## FAQ
-
-#### Why is lithium more expensive per kWh?
-
+{{< faq "Why is lithium more expensive per kWh?" >}}
 Lithium systems often have higher usable capacity, better efficiency, and longer cycle life, which can improve long-term value.
+{{< /faq >}}
 
-#### What’s the biggest mistake when comparing battery prices?
-
+{{< faq "What’s the biggest mistake when comparing battery prices?" >}}
 Comparing nameplate kWh only. Always compare usable kWh and expected cycle life.
+{{< /faq >}}
 
-#### How many kWh do I need for backup?
-
+{{< faq "How many kWh do I need for backup?" >}}
 It depends on your daily energy use and how long you want to run critical loads. Start with a load estimate and autonomy target.
+{{< /faq >}}
 
-#### Do batteries always improve payback?
-
+{{< faq "Do batteries always improve payback?" >}}
 Not always. Batteries can be about resilience and backup rather than pure payback, depending on rates and use case.
+{{< /faq >}}
 
 ## Next logical reads
 

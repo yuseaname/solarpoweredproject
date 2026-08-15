@@ -98,26 +98,25 @@ If you keep power roughly the same, higher voltage means lower current. Lower cu
 <a href="solar-output-troubleshooting.html" class="text-link">Low solar output troubleshooting (symptoms vs causes)</a>
 
 ## FAQ
-
-#### Is PV wire the same as battery cable?
-
+{{< faq "Is PV wire the same as battery cable?" >}}
 No. PV wire is designed for outdoor array wiring. Battery cable is built for high current and flexible routing on the battery side.
+{{< /faq >}}
 
-#### What voltage drop is “acceptable” for solar?
-
+{{< faq "What voltage drop is “acceptable” for solar?" >}}
 It depends on the circuit and equipment behavior. The safest approach is to keep drop low enough that it doesn’t cause shutdowns or lost production.
+{{< /faq >}}
 
-#### Why does 12V require thicker wire than 24V or 48V?
-
+{{< faq "Why does 12V require thicker wire than 24V or 48V?" >}}
 For the same power, lower voltage means higher current. Higher current drives thicker cable and higher-rated protection.
+{{< /faq >}}
 
-#### Can I oversize wire?
-
+{{< faq "Can I oversize wire?" >}}
 Often yes, and it’s a common way to reduce voltage drop and improve reliability. The practical limits are cost, routing, and connector compatibility.
+{{< /faq >}}
 
-#### Do I size for continuous watts or surge?
-
+{{< faq "Do I size for continuous watts or surge?" >}}
 Use the maximum current that the circuit can realistically see. For inverters, surge can be relevant depending on your loads and design.
+{{< /faq >}}
 
 ## Next logical reads
 

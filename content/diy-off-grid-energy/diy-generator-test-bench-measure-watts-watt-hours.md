@@ -210,25 +210,23 @@ You’re likely stalling the system. Back off the load, measure RPM, and find th
 <a href="../pages/solar-output-troubleshooting.html" class="text-link">Troubleshooting mindset →</a>
 
 ## FAQ
-
-#### What’s the best way to measure watt-hours from a DIY generator?
-
+{{< faq "What’s the best way to measure watt-hours from a DIY generator?" >}}
 Use a meter that accumulates Wh and run the generator under a real, repeatable load for a known time window. Repeat across conditions. That gives you a realistic range rather than a single optimistic number.
+{{< /faq >}}
 
-#### Why does voltage drop when I connect a load?
-
+{{< faq "Why does voltage drop when I connect a load?" >}}
 Because real sources have internal resistance and speed-dependent output. Wiring resistance and regulation losses also contribute. Voltage under load is the measurement that tells the truth.
+{{< /faq >}}
 
-#### Do I need a battery to test a generator?
-
+{{< faq "Do I need a battery to test a generator?" >}}
 Not at first. A controlled resistive load is usually safer and more repeatable for early testing. Add batteries later with a charging plan and protection.
+{{< /faq >}}
 
-#### How do I know if I’m stalling the generator?
-
+{{< faq "How do I know if I’m stalling the generator?" >}}
 Measure RPM while increasing load. If RPM collapses and watts drop, you’re past the sweet spot. Back off the load and change gearing or generator choice if needed.
+{{< /faq >}}
 
-#### What’s a realistic “success metric” for wind experiments?
-
+{{< faq "What’s a realistic “success metric” for wind experiments?" >}}
 Track Wh/day and “time above a minimum watt level.” Peak watts in gusts matter less than consistent energy over time.
 
 ---
@@ -237,3 +235,5 @@ Track Wh/day and “time above a minimum watt level.” Peak watts in gusts matt
 - [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
 - [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
 - [DIY Car Alternator Generator for Battery Charging: What Actually Works](/diy-off-grid-energy/diy-car-alternator-generator-battery-charging.html)
+{{< /faq >}}
+

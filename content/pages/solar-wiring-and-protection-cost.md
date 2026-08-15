@@ -98,22 +98,21 @@ More panel strings can require a combiner box and additional fusing or breakers.
 If you’re building off-grid, you’ll also benefit from sizing-first planning: <a href="solar-system-sizing.html" class="text-link">how to size a solar system</a>.
 
 ## FAQ
-
-#### Why is solar wiring so expensive?
-
+{{< faq "Why is solar wiring so expensive?" >}}
 Because safe wiring is sized to current and distance, and protection devices must match the voltage and amperage of the system.
+{{< /faq >}}
 
-#### How can I reduce wiring cost safely?
-
+{{< faq "How can I reduce wiring cost safely?" >}}
 Plan layout to minimize long high-current runs, and consider higher system voltage where appropriate.
+{{< /faq >}}
 
-#### Do I need breakers or fuses?
-
+{{< faq "Do I need breakers or fuses?" >}}
 Protection depends on system design and code requirements, but most safe systems include appropriate fusing/breakers and disconnects.
+{{< /faq >}}
 
-#### Does wiring cost matter more off-grid?
-
+{{< faq "Does wiring cost matter more off-grid?" >}}
 Often yes, because battery-to-inverter currents can be high, which drives cable and protection sizing.
+{{< /faq >}}
 
 ## Next logical reads
 

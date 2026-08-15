@@ -213,25 +213,23 @@ If your water source is reliable, it can complement solar because it may run ove
 <a href="../pages/solar-wire-size.html" class="text-link">Wire size guide →</a> <a href="../pages/solar-fuse-and-breaker-sizing.html" class="text-link">Fuse sizing →</a>
 
 ## FAQ
-
-#### Can a water wheel power my house?
-
+{{< faq "Can a water wheel power my house?" >}}
 Usually not at low head unless flow is very high and the system is engineered well. For most DIY low-head sites, expect modest watts.
+{{< /faq >}}
 
-#### Is a water wheel better than a turbine?
-
+{{< faq "Is a water wheel better than a turbine?" >}}
 It depends on head and flow. Turbines usually win when you have meaningful head; water wheels can be simpler to prototype at low head.
+{{< /faq >}}
 
-#### What’s the best first step?
-
+{{< faq "What’s the best first step?" >}}
 Measure flow and head honestly, then build a small test wheel to observe debris and seasonal behavior before scaling up.
+{{< /faq >}}
 
-#### Do I need a charge controller?
-
+{{< faq "Do I need a charge controller?" >}}
 If you’re charging a battery, yes. Regulation and protection make the system safer and more predictable.
+{{< /faq >}}
 
-#### Where should I learn the core micro-hydro math?
-
+{{< faq "Where should I learn the core micro-hydro math?" >}}
 Start with the <a href="micro-hydro-basics-for-off-grid-power.html" class="text-link">micro-hydro basics guide</a> for head/flow sizing and realistic expectations.
 
 ---
@@ -240,3 +238,5 @@ Start with the <a href="micro-hydro-basics-for-off-grid-power.html" class="text-
 - [DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)](/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html)
 - [DIY Pelton Turbine Pico Hydro: Simple Runner Build + Realistic Watts](/diy-off-grid-energy/diy-pelton-turbine-pico-hydro.html)
 - [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
+{{< /faq >}}
+

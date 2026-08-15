@@ -90,26 +90,25 @@ Controller choice can change what “good wiring” means. MPPT often gives you 
 <a href="solar-output-troubleshooting.html" class="text-link">Low solar output troubleshooting</a>
 
 ## FAQ
-
-#### Is series or parallel “better”?
-
+{{< faq "Is series or parallel “better”?" >}}
 Neither is universally better. Series often helps with long runs and MPPT setups; parallel can be more forgiving with partial shading.
+{{< /faq >}}
 
-#### Does series increase watts?
-
+{{< faq "Does series increase watts?" >}}
 It increases voltage, not “free power.” Total power depends on sunlight and panel output. Wiring changes how that power is delivered.
+{{< /faq >}}
 
-#### What happens if one panel is shaded?
-
+{{< faq "What happens if one panel is shaded?" >}}
 Shading can reduce output more in series strings. Design tries to group panels with similar sun exposure in the same string.
+{{< /faq >}}
 
-#### Can I mix series and parallel?
-
+{{< faq "Can I mix series and parallel?" >}}
 Yes, many arrays are built as series strings connected in parallel. The safe approach is to keep strings consistent and stay within controller limits.
+{{< /faq >}}
 
-#### Do I need MPPT for series wiring?
-
+{{< faq "Do I need MPPT for series wiring?" >}}
 Not always, but MPPT often makes higher-voltage array configurations more practical and efficient (within equipment limits).
+{{< /faq >}}
 
 ## Next logical reads
 

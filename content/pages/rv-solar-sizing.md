@@ -89,22 +89,21 @@ An inverter is sized primarily by the maximum AC wattage you’ll run at once, p
 These ranges are broad by design. Your actual loads, sun conditions, and roof space determine the final numbers.
 
 ## FAQ
-
-#### How many watts of solar do I need for an RV?
-
+{{< faq "How many watts of solar do I need for an RV?" >}}
 Estimate daily Wh first, then divide by peak sun hours and an efficiency factor to get panel watts.
+{{< /faq >}}
 
-#### Is it better to buy more panels or more battery?
-
+{{< faq "Is it better to buy more panels or more battery?" >}}
 More battery increases time off-sun; more panels increase daily refill. Most RV builds need a balance of both.
+{{< /faq >}}
 
-#### Do I need MPPT on an RV?
-
+{{< faq "Do I need MPPT on an RV?" >}}
 MPPT is often worth it if your panel voltage is higher than battery voltage or you want better performance in mixed conditions.
+{{< /faq >}}
 
-#### Can RV solar run an air conditioner?
-
+{{< faq "Can RV solar run an air conditioner?" >}}
 It can, but it typically requires a large battery bank, substantial panel wattage, and a properly sized inverter.
+{{< /faq >}}
 
 ## Next logical reads
 

@@ -103,26 +103,25 @@ A loose connection can behave like a resistor: it limits current and creates hea
 -   **Reusing non-DC-rated protection hardware:** creates real safety risk.
 
 ## FAQ
-
-#### Why is my solar battery not charging during the day?
-
+{{< faq "Why is my solar battery not charging during the day?" >}}
 Common causes include low sun input (weather/season/shading), a battery that’s already near full (float), high loads consuming the charge, or wiring/protection issues limiting current.
+{{< /faq >}}
 
-#### How do I tell if my charge controller is working?
-
+{{< faq "How do I tell if my charge controller is working?" >}}
 Look for PV input readings, charging stage indicators, and whether battery voltage/current changes when conditions and loads change. Use the controller’s manual/app indicators as the primary reference.
+{{< /faq >}}
 
-#### Can a full battery look like “not charging”?
-
+{{< faq "Can a full battery look like “not charging”?" >}}
 Yes. In float mode the controller may show low current because it’s only maintaining charge.
+{{< /faq >}}
 
-#### Why does charging stop when it’s cold?
-
+{{< faq "Why does charging stop when it’s cold?" >}}
 Many lithium batteries limit charging at low temperatures to avoid damage. This can appear as zero charge current until the battery warms.
+{{< /faq >}}
 
-#### When should I call a professional?
-
+{{< faq "When should I call a professional?" >}}
 If you see heat damage, smell burning, find melted insulation, or can’t verify DC ratings and safe isolation points, stop and contact a qualified professional.
+{{< /faq >}}
 
 ## Next logical reads
 

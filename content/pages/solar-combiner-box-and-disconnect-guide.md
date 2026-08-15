@@ -98,26 +98,25 @@ Use disconnects that are explicitly rated for DC at the correct voltage.
 -   **Using AC equipment on DC:** choose DC-rated protection and disconnects.
 
 ## FAQ
-
-#### Do I need a combiner box with only one string?
-
+{{< faq "Do I need a combiner box with only one string?" >}}
 Often, no. If you have a single string with a short, well-routed run and appropriate connectors, a combiner box may add complexity without adding much benefit.
+{{< /faq >}}
 
-#### What’s the difference between a combiner box and a junction box?
-
+{{< faq "What’s the difference between a combiner box and a junction box?" >}}
 A junction box is typically just a protected connection point. A combiner box is specifically meant to combine multiple strings and often includes string protection and isolation.
+{{< /faq >}}
 
-#### Can I use an AC disconnect switch for solar DC?
-
+{{< faq "Can I use an AC disconnect switch for solar DC?" >}}
 No. Use a disconnect explicitly rated for DC at your PV and/or battery voltage.
+{{< /faq >}}
 
-#### How do series vs parallel decisions affect whether I need one?
-
+{{< faq "How do series vs parallel decisions affect whether I need one?" >}}
 Parallel strings are the most common reason combiner boxes show up, because combining and protecting multiple strings is exactly what they’re designed for.
+{{< /faq >}}
 
-#### Where should the disconnect be placed?
-
+{{< faq "Where should the disconnect be placed?" >}}
 Place disconnects where they’re accessible and actually help isolate the part of the system you might need to service. The “best” location depends on your layout.
+{{< /faq >}}
 
 ## Next logical reads
 

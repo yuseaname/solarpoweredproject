@@ -183,31 +183,29 @@ This applies to mixing different brands, capacities, or ages in general. In a se
 | **Every 6 months** | Inspect terminals and torque to spec; verify BMS status and cell balance |
 | **Annually** | Verify low-temperature cutoff or heater is functioning; check firmware |
 
-## FAQ
-
-### How often should I add water to my flooded lead-acid batteries?
-
+## FAQ{{< faq "How often should I add water to my flooded lead-acid batteries?" >}}
 In a typical off-grid solar system, check monthly during summer (when charging is heavy and evaporation is high) and every 2 to 3 months in winter. Only add distilled water, and only after charging — never before, because electrolyte expands during charge and will overflow.
+{{< /faq >}}
 
-### Can I mix AGM and flooded lead-acid batteries in the same bank?
-
+{{< faq "Can I mix AGM and flooded lead-acid batteries in the same bank?" >}}
 No. They have different charging voltage requirements. Flooded batteries need higher absorption and equalization voltages that will overcharge and damage AGM batteries. Always use identical batteries throughout a bank.
+{{< /faq >}}
 
-### Do lithium batteries need a battery management system?
-
+{{< faq "Do lithium batteries need a battery management system?" >}}
 Yes. Every LiFePO4 battery needs a BMS to balance cells, prevent over-discharge, and block charging below freezing. Most lithium batteries sold for solar have a BMS built in. If you're building a pack from raw cells, you must add an external BMS.
+{{< /faq >}}
 
-### What voltage should my 12V battery bank rest at when fully charged?
-
+{{< faq "What voltage should my 12V battery bank rest at when fully charged?" >}}
 A flooded lead-acid bank at rest (no charge or load for 2+ hours) reads 12.6V to 12.8V at 100% charge. AGM is similar at 12.8V to 13.0V. Lithium LiFePO4 rests at 13.3V to 13.4V at 100%. If your bank reads significantly below these numbers at rest, it's not reaching full charge — investigate your charge controller settings or solar input.
+{{< /faq >}}
 
-### Is it okay to leave batteries partially charged for a few days?
-
+{{< faq "Is it okay to leave batteries partially charged for a few days?" >}}
 For lithium, yes — partial state of charge causes no harm. For lead-acid, no. Lead-acid batteries left below 80% charge for more than a day or two begin to sulfate, and prolonged undercharging is the leading cause of premature lead-acid failure. If your solar input can't keep up, use a generator or grid charger to top off the bank.
+{{< /faq >}}
 
-### How do I know if my battery bank is failing?
-
+{{< faq "How do I know if my battery bank is failing?" >}}
 Three reliable indicators: capacity has dropped noticeably (shorter runtime), voltage sags quickly under load, and individual cells show wide specific-gravity variation after a full charge. Any one of these on a bank older than 5 years (lead-acid) or 10 years (lithium) means it's time to plan a replacement.
+{{< /faq >}}
 
 ## Next logical reads
 

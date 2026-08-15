@@ -199,25 +199,23 @@ Boosting increases input current demand for a given output power. That creates m
 <a href="../pages/solar-output-troubleshooting.html" class="text-link">Troubleshooting mindset →</a>
 
 ## FAQ
-
-#### Can I use a buck converter to charge a 12V battery?
-
+{{< faq "Can I use a buck converter to charge a 12V battery?" >}}
 Often, yes — if your generator voltage is reliably above the battery’s required charging voltage under load, and you use a converter with appropriate current limiting and protection. Always fuse near the battery and verify wiring size.
+{{< /faq >}}
 
-#### Should I boost low generator voltage to charge a battery?
-
+{{< faq "Should I boost low generator voltage to charge a battery?" >}}
 Sometimes, but be careful: boosting often increases input current demand and can stall the generator or overheat wiring and converters. Measure input/output power and temperature, and keep the design conservative.
+{{< /faq >}}
 
-#### Do I need MPPT for wind or hydro experiments?
-
+{{< faq "Do I need MPPT for wind or hydro experiments?" >}}
 Not always. For many DIY projects, the priority is safe regulation and repeatable measurement. Advanced maximum-power-point control can help, but it adds complexity and isn’t the best first step for most learning builds.
+{{< /faq >}}
 
-#### Where should I put the fuse when using a converter?
-
+{{< faq "Where should I put the fuse when using a converter?" >}}
 Fuse near the battery and consider fusing other branches as appropriate. The battery can deliver high current into faults, so the battery-side fuse is critical.
+{{< /faq >}}
 
-#### What’s the simplest “do this first” move?
-
+{{< faq "What’s the simplest “do this first” move?" >}}
 Build a measurement-first setup and prove stable watts under load before integrating with batteries. A <a href="diy-generator-test-bench-measure-watts-watt-hours.html" class="text-link">generator test bench</a> approach makes this much easier.
 
 ---
@@ -226,3 +224,5 @@ Build a measurement-first setup and prove stable watts under load before integra
 - [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
 - [DIY Thermoelectric Generator (TEG): Turn Waste Heat Into Battery Power](/diy-off-grid-energy/diy-thermoelectric-generator-teg-battery-charging.html)
 - [DIY Car Alternator Generator for Battery Charging: What Actually Works](/diy-off-grid-energy/diy-car-alternator-generator-battery-charging.html)
+{{< /faq >}}
+

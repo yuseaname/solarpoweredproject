@@ -201,31 +201,29 @@ For sizing a mobile system, see our <a href="rv-solar-sizing.html" class="text-l
 - [ ] Fire-rated construction for banks above 20 kWh
 - [ ] Proper fusing and BMS monitoring
 
-## FAQ
-
-### Do I need to vent lithium batteries?
-
+## FAQ{{< faq "Do I need to vent lithium batteries?" >}}
 Lithium batteries don't produce hydrogen gas, so they don't need ventilation for gas removal like flooded lead-acid does. However, they benefit from some airflow for cooling — sustained temperatures above 45°C (113°F) shorten their lifespan. A passive vent or small thermostatically controlled fan is sufficient.
+{{< /faq >}}
 
-### Can I put batteries inside my house?
-
+{{< faq "Can I put batteries inside my house?" >}}
 Sealed lead-acid (AGM/gel) and lithium batteries can generally be installed indoors in a utility room or closet, subject to local code. Flooded lead-acid batteries are often restricted to garages, sheds, or dedicated non-living spaces due to hydrogen gas. Always check local building codes — requirements vary by jurisdiction.
+{{< /faq >}}
 
-### How cold is too cold for lithium batteries?
-
+{{< faq "How cold is too cold for lithium batteries?" >}}
 Lithium batteries can discharge safely down to -20°C (-4°F), but **charging below 0°C (32°F) causes permanent damage** from lithium plating. If your bank is in an unheated space that drops below freezing, you need self-heating batteries, a low-temperature cutoff on the charge controller, or a heated enclosure.
+{{< /faq >}}
 
-### Do lead-acid batteries freeze?
-
+{{< faq "Do lead-acid batteries freeze?" >}}
 A fully charged flooded lead-acid battery freezes around -57°C (-70°F) — effectively never in normal conditions. But a discharged battery, with electrolyte that's mostly water, can freeze at -7°C (20°F). Frozen electrolyte expands and cracks the case, destroying the battery. The fix is simple: keep the bank charged in cold weather.
+{{< /faq >}}
 
-### What temperature should I keep my battery enclosure at?
-
+{{< faq "What temperature should I keep my battery enclosure at?" >}}
 The ideal temperature range for both lead-acid and lithium is 20°C to 25°C (68°F to 77°F) — that's where batteries deliver rated capacity and last longest. In practice, anything between 10°C and 30°C (50°F to 86°F) is fine. Avoid sustained temperatures below 0°C for lithium (charging restriction) and above 40°C for any chemistry.
+{{< /faq >}}
 
-### How big should my battery enclosure be?
-
+{{< faq "How big should my battery enclosure be?" >}}
 Size the enclosure to fit the bank with at least 2 inches of clearance around all batteries for airflow and inspection, plus 18 to 24 inches of working clearance on at least one side for maintenance access. If you anticipate expanding the bank later, build in 30% to 50% of extra space now — it's far cheaper than building a second enclosure later.
+{{< /faq >}}
 
 ## Next logical reads
 

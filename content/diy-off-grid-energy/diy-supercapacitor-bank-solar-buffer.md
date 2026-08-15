@@ -203,25 +203,23 @@ That’s normal. As voltage rises, current-limited chargers deliver less current
 <a href="../pages/solar-output-troubleshooting.html" class="text-link">Troubleshooting mindset →</a>
 
 ## FAQ
-
-#### Can supercapacitors replace a battery in an off-grid solar system?
-
+{{< faq "Can supercapacitors replace a battery in an off-grid solar system?" >}}
 Usually no. For hours of runtime, batteries are far more energy-dense and cost-effective. Supercaps shine as buffers for short surges and rapid charge/discharge events.
+{{< /faq >}}
 
-#### Why does voltage drop so quickly when I draw current?
-
+{{< faq "Why does voltage drop so quickly when I draw current?" >}}
 Because capacitors don’t regulate voltage like batteries. As charge is removed, voltage falls. A DC-DC converter can make that voltage swing more usable.
+{{< /faq >}}
 
-#### Do I need balancing for series banks?
-
+{{< faq "Do I need balancing for series banks?" >}}
 Yes. Without balancing, one cell can exceed its voltage rating even if the total bank voltage looks safe.
+{{< /faq >}}
 
-#### What’s the biggest danger in DIY supercap projects?
-
+{{< faq "What’s the biggest danger in DIY supercap projects?" >}}
 High current. Treat the bank like a power tool: fuse it, precharge it, and keep wiring protected.
+{{< /faq >}}
 
-#### What’s a good “first use case” in this pillar?
-
+{{< faq "What’s a good “first use case” in this pillar?" >}}
 Buffering a short burst source like a <a href="diy-hand-crank-generator-emergency-charging.html" class="text-link">hand-crank generator</a> or a <a href="pedal-power-generator-for-off-grid-battery-charging.html" class="text-link">pedal generator</a> so your output is smoother and your measurements are easier.
 
 ---
@@ -230,3 +228,5 @@ Buffering a short burst source like a <a href="diy-hand-crank-generator-emergenc
 - [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
 - [DIY Thermoelectric Generator (TEG): Turn Waste Heat Into Battery Power](/diy-off-grid-energy/diy-thermoelectric-generator-teg-battery-charging.html)
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
+{{< /faq >}}
+

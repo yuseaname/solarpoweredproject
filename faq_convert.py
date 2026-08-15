@@ -5,7 +5,7 @@ Only touches the '## FAQ' section. Idempotent (skips files already converted).
 """
 import re, sys
 
-FAQ_HEAD = re.compile(r'^## FAQ\s*$', re.M)
+FAQ_HEAD = re.compile(r'^## FAQ.*$', re.M)
 NEXT_SECTION = re.compile(r'^## ', re.M)
 
 def convert(path: str) -> str:
@@ -20,20 +20,34 @@ def convert(path: str) -> str:
     nxt = NEXT_SECTION.search(src, start)
     end = nxt.start() if nxt else len(src)
     section = src[start:end]
-    # split into #### chunks
-    parts = re.split(r'^#### +', section, flags=re.M)
-    head = parts[0].strip('\n')
-    if len(parts) < 2:
-        return f"SKIP (no #### questions): {path}"
-    out = [head, ''] if head else []
-    for chunk in parts[1:]:
-        lines = chunk.split('\n')
-        q = lines[0].strip()
-        body = '\n'.join(lines[1:]).strip('\n')
-        # strip trailing separators/blank noise
+    # split into question chunks: #### always; ### only if line ends with ?
+    parts = re.split(r'^(?=#{4} )|(?:^### +.*\?\s*$)', section, flags=re.M)
+    # simpler robust pass: collect (q, body) pairs
+    pairs = []
+    cur_q, cur_body = None, []
+    for line in section.split('\n'):
+        mq4 = re.match(r'^#### +(.*)$', line)
+        mq3 = re.match(r'^### +(.*\?)\s*$', line)
+        if mq4:
+            if cur_q: pairs.append((cur_q, '\n'.join(cur_body)))
+            cur_q, cur_body = mq4.group(1).strip(), []
+        elif mq3:
+            if cur_q: pairs.append((cur_q, '\n'.join(cur_body)))
+            cur_q, cur_body = mq3.group(1).strip(), []
+        elif cur_q is not None:
+            cur_body.append(line)
+    if cur_q: pairs.append((cur_q, '\n'.join(cur_body)))
+    head = section.split('\n')[0] if not re.match(r'^(####|###)', section.strip() or '\n') else ''
+    # preamble = lines before first question
+    first_q_at = None
+    for i, line in enumerate(section.split('\n')):
+        if re.match(r'^(#### +|### +.*\?\s*$)', line): first_q_at = i; break
+    preamble = '\n'.join(section.split('\n')[:first_q_at]).strip('\n') if first_q_at is not None else section.strip('\n')
+    if not pairs:
+        return f"SKIP (no questions found): {path}"
+    out = [preamble, ''] if preamble else []
+    for q, body in pairs:
         body = re.sub(r'\n{3,}', '\n\n', body).strip()
-        if not q:
-            continue
         q_esc = q.replace('"', '\\"')
         out.append(f'{{{{< faq "{q_esc}" >}}}}')
         out.append(body)
@@ -41,7 +55,7 @@ def convert(path: str) -> str:
         out.append('')
     new_section = '\n'.join(out).rstrip('\n') + '\n\n'
     open(path, 'w').write(src[:start] + new_section + src[end:])
-    return f"CONVERTED ({len(parts)-1} FAQs): {path}"
+    return f"CONVERTED ({len(pairs)} FAQs): {path}"
 
 if __name__ == '__main__':
     for p in sys.argv[1:]:

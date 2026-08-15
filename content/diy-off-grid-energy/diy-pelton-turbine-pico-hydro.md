@@ -234,25 +234,23 @@ That’s normal. There’s a “sweet spot” where turbine speed and load match
 <a href="../pages/solar-output-troubleshooting.html" class="text-link">Troubleshooting mindset →</a>
 
 ## FAQ
-
-#### How much power can a DIY Pelton turbine make?
-
+{{< faq "How much power can a DIY Pelton turbine make?" >}}
 It depends on head and flow. Use watts ≈ 9.81 × head(m) × flow(L/s), then multiply by an efficiency estimate. Many DIY builds land in the tens of watts unless the site has strong head and consistent flow.
+{{< /faq >}}
 
-#### Is a Pelton turbine better than a water wheel?
-
+{{< faq "Is a Pelton turbine better than a water wheel?" >}}
 Pelton-style turbines generally win when you have higher head and can make a fast jet. Water wheels are often better for very low head where you have lots of slow flow.
+{{< /faq >}}
 
-#### Can I charge a 12V battery directly from the generator?
-
+{{< faq "Can I charge a 12V battery directly from the generator?" >}}
 It’s risky. Generator voltage and current change with RPM and load. Use a proper charging stage, fusing near the battery, and a way to prevent overvoltage when the battery is full.
+{{< /faq >}}
 
-#### What’s the simplest way to increase output?
-
+{{< faq "What’s the simplest way to increase output?" >}}
 Reduce losses first: larger pipe (less friction), a cleaner nozzle jet, better bearings, and better load matching. “More buckets” rarely fixes a poor jet or undersized penstock.
+{{< /faq >}}
 
-#### Where should I start if I’m totally new?
-
+{{< faq "Where should I start if I’m totally new?" >}}
 Start with <a href="micro-hydro-basics-for-off-grid-power.html" class="text-link">micro-hydro basics</a>, then build a measurement-focused Version 1 runner so you can learn safely before integrating batteries.
 
 ---
@@ -261,3 +259,5 @@ Start with <a href="micro-hydro-basics-for-off-grid-power.html" class="text-link
 - [DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)](/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html)
 - [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
+{{< /faq >}}
+

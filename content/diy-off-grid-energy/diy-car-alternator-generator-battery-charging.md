@@ -210,25 +210,23 @@ Alternator regulation is not the same as a modern multi-stage charger designed f
 <a href="../pages/solar-output-troubleshooting.html" class="text-link">Troubleshooting mindset →</a>
 
 ## FAQ
-
-#### Can I charge a 12V battery directly from a car alternator?
-
+{{< faq "Can I charge a 12V battery directly from a car alternator?" >}}
 Sometimes, but not always safely or effectively. You still need proper fusing near the battery, correct wire size, a disconnect, and a plan for controlling output. Many DIY failures come from low RPM (no real current) or poor wiring (voltage drop and heat).
+{{< /faq >}}
 
-#### Do I need to “excite” the alternator?
-
+{{< faq "Do I need to “excite” the alternator?" >}}
 Many alternators require field excitation because the rotor is an electromagnet. In a vehicle, this happens automatically. In DIY setups, lack of excitation is a common reason for weak output.
+{{< /faq >}}
 
-#### How fast does an alternator need to spin to charge?
-
+{{< faq "How fast does an alternator need to spin to charge?" >}}
 It depends on the alternator design, battery voltage, and load, but alternators are generally happiest at high RPM. Plan for a pulley ratio that gives the alternator a few thousand RPM when your drive source is at its comfortable speed.
+{{< /faq >}}
 
-#### Is an alternator better than a treadmill motor as a DIY generator?
-
+{{< faq "Is an alternator better than a treadmill motor as a DIY generator?" >}}
 For many DIY low-speed sources, a PMDC motor is easier to use because it can produce usable voltage at lower RPM and doesn’t need field excitation. Alternators can still work well when you can spin them fast and keep them cool.
+{{< /faq >}}
 
-#### What’s the safest first step with an alternator project?
-
+{{< faq "What’s the safest first step with an alternator project?" >}}
 Build a measurement-first rig: stable mounting, tachometer, and a controllable load. Prove you can generate stable watts under load before you integrate batteries.
 
 ---
@@ -237,3 +235,5 @@ Build a measurement-first rig: stable mounting, tachometer, and a controllable l
 - [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
 - [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+{{< /faq >}}
+

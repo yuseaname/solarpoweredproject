@@ -73,22 +73,21 @@ Voltage choice affects your battery configuration, inverter selection, charge co
 <a href="solar-components.html" class="text-link">Solar components overview</a> <a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM controller comparison</a>
 
 ## FAQ
-
-#### Should I choose 24V instead of 12V for future expansion?
-
+{{< faq "Should I choose 24V instead of 12V for future expansion?" >}}
 If you expect to add a bigger inverter, larger battery capacity, or more panels, 24V can reduce current and simplify wiring later.
+{{< /faq >}}
 
-#### Is 48V “too much” for smaller systems?
-
+{{< faq "Is 48V “too much” for smaller systems?" >}}
 It can be unnecessary complexity if your loads are small, but it’s common for higher-power setups where current would be extreme at 12V.
+{{< /faq >}}
 
-#### Does voltage change battery capacity needs?
-
+{{< faq "Does voltage change battery capacity needs?" >}}
 Energy needs (Wh) don’t change, but the battery configuration and current draw do, which affects wiring and component sizing.
+{{< /faq >}}
 
-#### Can I run 12V devices on a 24V or 48V system?
-
+{{< faq "Can I run 12V devices on a 24V or 48V system?" >}}
 Yes, typically with a DC-DC converter. Plan for it and size it for your 12V loads.
+{{< /faq >}}
 
 ## Next logical reads
 

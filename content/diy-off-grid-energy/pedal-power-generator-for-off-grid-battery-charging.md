@@ -225,33 +225,25 @@ A pedal generator combines mechanical and electrical hazards. Keep your build co
 
 Use these as baseline references for safe DC systems: <a href="../pages/solar-fuse-and-breaker-sizing.html" class="text-link">fuse and breaker sizing</a> and <a href="../pages/solar-fuses-vs-breakers.html" class="text-link">fuses vs breakers</a>.
 
-## FAQ
-
-### Can I charge a battery using a solar charge controller?
-
+## FAQ{{< faq "Can I charge a battery using a solar charge controller?" >}}
 Sometimes, but be careful. Many solar charge controllers expect PV-like input behavior and have specific voltage ranges. A pedal generator can produce variable voltage and may exceed controller limits at high cadence. If you use a controller, ensure the input stays within its rated voltage/current and consider a regulation stage before it.
+{{< /faq >}}
 
-### How long would I need to pedal to “replace” a solar panel?
-
+{{< faq "How long would I need to pedal to “replace” a solar panel?" >}}
 Think in watt-hours. A 100W solar panel might produce a few hundred Wh on a decent day. If you store ~60Wh per hour of pedaling, you may need several hours to match that — and that’s why solar is usually the primary source. Use: <a href="../pages/solar-panel-output.html" class="text-link">solar panel output</a> to estimate your panel’s daily Wh.
+{{< /faq >}}
 
-### Is pedal power worth it for emergencies?
-
+{{< faq "Is pedal power worth it for emergencies?" >}}
 For keeping phones/radios charged, it can be. For running heat or big appliances, it’s not. The value is reliability (you are the fuel) and education.
+{{< /faq >}}
 
-### What’s the biggest beginner mistake?
-
+{{< faq "What’s the biggest beginner mistake?" >}}
 Designing around peak watts instead of comfortable sustained power. A build that charges 30–80W safely and pleasantly will get used; a build that demands 250W will sit unused.
 
 For a reliable off-grid baseline, pedal power works best as a supplement to a solid solar + battery setup: <a href="../pages/solar-components.html" class="text-link">solar components</a>, <a href="../pages/battery-capacity.html" class="text-link">battery sizing</a>, and <a href="../pages/solar-fuse-and-breaker-sizing.html" class="text-link">protection sizing</a>.
+{{< /faq >}}
 
-## Suggested images & diagrams
-
--   Diagram: pedal generator block diagram (generator → rectifier → DC charger → battery → inverter/loads).
--   Chart: watts vs time vs watt-hours (e.g., 50W for 2h = 100Wh).
--   Diagram: where to place the fuse and disconnect near the battery.
--   Photo: stable stationary bike mount / trainer setup (illustrative, not brand-specific).
--   Table: example “what can it run?” list (phone, lights, laptop) with approximate Wh.
+---
 
 ## Next logical reads
 

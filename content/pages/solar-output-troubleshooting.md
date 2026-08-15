@@ -50,22 +50,21 @@ If your panel wattage and peak sun hours are similar to normal, but your output 
 This is an estimate, but it helps quantify whether the drop is meaningful.
 
 ## FAQ
-
-#### Why did my solar output drop suddenly?
-
+{{< faq "Why did my solar output drop suddenly?" >}}
 Common causes include weather changes, new shading, inverter faults, tripped breakers, or heavy soiling.
+{{< /faq >}}
 
-#### How much does dirt reduce solar output?
-
+{{< faq "How much does dirt reduce solar output?" >}}
 It varies. Light dust may have little impact, while heavy or uneven soiling can reduce output more noticeably.
+{{< /faq >}}
 
-#### Should I clean panels first or check the inverter?
-
+{{< faq "Should I clean panels first or check the inverter?" >}}
 Check monitoring and inverter status first. If everything looks normal and you see heavy soiling, cleaning can be the next step.
+{{< /faq >}}
 
-#### When should I call a professional?
-
+{{< faq "When should I call a professional?" >}}
 If you see faults you don’t understand, repeated inverter shutdowns, burning smells, damaged wiring, or you can’t access the system safely.
+{{< /faq >}}
 
 ## Next logical reads
 

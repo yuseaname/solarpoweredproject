@@ -86,22 +86,21 @@ It’s easy to focus on panel $/W and forget the rest of the system. Typical add
 <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="diy-vs-installer.html" class="text-link">DIY vs installer cost</a> <a href="solar-components.html" class="text-link">Solar components explained</a>
 
 ## FAQ
-
-#### Is a lower $/W always better?
-
+{{< faq "Is a lower $/W always better?" >}}
 No. Price should be compared alongside warranty, expected performance, compatibility with your mounting setup, and delivery reliability.
+{{< /faq >}}
 
-#### Why do small orders cost so much more per watt?
-
+{{< faq "Why do small orders cost so much more per watt?" >}}
 Shipping and handling are relatively fixed. When spread across fewer watts, the cost per watt increases.
+{{< /faq >}}
 
-#### Do higher-efficiency panels reduce total system cost?
-
+{{< faq "Do higher-efficiency panels reduce total system cost?" >}}
 Sometimes. If you’re limited by roof space, higher efficiency can reduce the number of panels and mounting hardware needed.
+{{< /faq >}}
 
-#### Should I budget panels as half the total cost?
-
+{{< faq "Should I budget panels as half the total cost?" >}}
 Not reliably. In some systems, batteries or labor dominate. Use a full breakdown to estimate realistically.
+{{< /faq >}}
 
 ## Next logical reads
 

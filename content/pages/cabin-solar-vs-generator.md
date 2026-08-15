@@ -93,22 +93,21 @@ Generator power is only as reliable as your fuel supply and upkeep. If you prefe
 -   **No backup plan:** even solar-first cabins often benefit from a fallback option for long storms.
 
 ## FAQ
-
-#### Is solar worth it for an off-grid cabin?
-
+{{< faq "Is solar worth it for an off-grid cabin?" >}}
 Often yes if you use the cabin regularly. The value is quiet operation and low ongoing cost, especially when sized correctly.
+{{< /faq >}}
 
-#### Can I run a cabin on solar only?
-
+{{< faq "Can I run a cabin on solar only?" >}}
 Many cabins can, but winter conditions and heavy loads may require a larger system or a backup power plan.
+{{< /faq >}}
 
-#### What’s the simplest setup for occasional use?
-
+{{< faq "What’s the simplest setup for occasional use?" >}}
 A small solar setup for lights/charging plus a generator for heavy or infrequent needs is a common practical approach.
+{{< /faq >}}
 
-#### Does a hybrid system cost more?
-
+{{< faq "Does a hybrid system cost more?" >}}
 Upfront, it can. But it can reduce the required solar and battery size if you accept occasional generator use.
+{{< /faq >}}
 
 ## Next logical reads
 

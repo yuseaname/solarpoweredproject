@@ -91,22 +91,21 @@ Voltage choice affects current, cable thickness, and how easy it is to scale. If
 -   **Forgetting losses:** controller and inverter losses reduce usable energy.
 
 ## FAQ
-
-#### How many solar panels do I need for a cabin?
-
+{{< faq "How many solar panels do I need for a cabin?" >}}
 Estimate daily Wh, then divide by peak sun hours and an efficiency factor to get required panel watts.
+{{< /faq >}}
 
-#### What’s the best battery size for a cabin?
-
+{{< faq "What’s the best battery size for a cabin?" >}}
 Battery size depends on daily Wh and autonomy. Start with 1–2 days, then adjust for your weather and use pattern.
+{{< /faq >}}
 
-#### Is 24V better than 12V for a cabin?
-
+{{< faq "Is 24V better than 12V for a cabin?" >}}
 Often, yes for higher-power setups because current is lower. For small systems, 12V can be simpler.
+{{< /faq >}}
 
-#### What if I only use the cabin on weekends?
-
+{{< faq "What if I only use the cabin on weekends?" >}}
 You can size for weekend loads and let solar recharge during the week. That can reduce battery and panel requirements.
+{{< /faq >}}
 
 ## Next logical reads
 

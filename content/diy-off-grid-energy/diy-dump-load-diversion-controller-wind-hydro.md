@@ -203,25 +203,23 @@ Diversion helps keep a turbine loaded, but you should still design a mechanical 
 <a href="../pages/solar-output-troubleshooting.html" class="text-link">Troubleshooting mindset →</a>
 
 ## FAQ
-
-#### Do I need a dump load for a small wind turbine?
-
+{{< faq "Do I need a dump load for a small wind turbine?" >}}
 Often, yes — especially if you plan to charge a battery and the turbine can continue producing power when the battery is full. The need depends on your turbine type, controller behavior, and how your system handles “excess power” scenarios.
+{{< /faq >}}
 
-#### Can I use a water heater element as a dump load?
-
+{{< faq "Can I use a water heater element as a dump load?" >}}
 Sometimes. Heating elements can handle heat by design, but you must choose an element appropriate for your system voltage and mounting. Wire and protect it as a high-power device, not as an accessory.
+{{< /faq >}}
 
-#### How do I size a dump load for 12V or 24V?
-
+{{< faq "How do I size a dump load for 12V or 24V?" >}}
 Estimate maximum plausible watts to dump, then use P = V² / R to select an effective resistance and wattage rating. Oversize thermal handling and pay attention to current (especially at 12V).
+{{< /faq >}}
 
-#### Is diversion the same as braking?
-
+{{< faq "Is diversion the same as braking?" >}}
 Diversion loads the generator electrically, which can slow the turbine and reduce overspeed risk. It is not always a full mechanical brake, and it’s not a substitute for safe turbine design and mounting.
+{{< /faq >}}
 
-#### What’s the safest way to start?
-
+{{< faq "What’s the safest way to start?" >}}
 Start with measurement-first experiments and conservative power levels. Confirm your dump load can dissipate heat safely before relying on it as a protection device.
 
 ---
@@ -230,3 +228,5 @@ Start with measurement-first experiments and conservative power levels. Confirm 
 - [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
 - [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
 - [DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)](/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html)
+{{< /faq >}}
+

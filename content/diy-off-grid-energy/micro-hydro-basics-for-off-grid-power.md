@@ -315,33 +315,25 @@ Use these as your baseline references: <a href="../pages/solar-fuses-vs-breakers
 
 Many places regulate water diversion, fish passage, stream modifications, and property/usage rights. If you cannot legally divert flow or construct an intake, the project may be a non-starter. Treat this as step zero and verify local rules.
 
-## FAQ
-
-### How much power do I need for “useful” off-grid living?
-
+## FAQ{{< faq "How much power do I need for “useful” off-grid living?" >}}
 It depends on the loads. A cabin running lights, electronics, and efficient refrigeration might average a few hundred watts but with higher peaks. Start with a load estimate and work backward: <a href="../pages/solar-system-sizing.html" class="text-link">solar system sizing</a>.
+{{< /faq >}}
 
-### Should I design micro-hydro to run AC loads directly?
-
+{{< faq "Should I design micro-hydro to run AC loads directly?" >}}
 For many small DIY systems, it’s simpler to charge a battery bank and then run AC loads from an inverter. That gives you stable voltage and lets you keep generation and consumption decoupled. Inverter selection matters; see: <a href="../pages/solar-inverter-sizing.html" class="text-link">solar inverter sizing</a>.
+{{< /faq >}}
 
-### Is micro-hydro “better” than solar?
-
+{{< faq "Is micro-hydro “better” than solar?" >}}
 If your water source is reliable and legal to use, micro-hydro can be incredible because it’s continuous. If the site is seasonal, remote, or high-maintenance, solar may be cheaper and easier. Many real systems are hybrids.
+{{< /faq >}}
 
-### What’s the biggest beginner mistake?
-
+{{< faq "What’s the biggest beginner mistake?" >}}
 Assuming the stream you see today is the stream you’ll have year-round. Measure and design around reliable conditions, then treat anything better as a bonus.
 
 If you want the most reliable off-grid baseline, keep micro-hydro as a measured supplement and build your foundation around a solid solar + battery system: <a href="../pages/solar-components.html" class="text-link">solar components</a>, <a href="../pages/solar-inverter-sizing.html" class="text-link">inverter sizing</a>, and <a href="../pages/solar-output-troubleshooting.html" class="text-link">troubleshooting</a>.
+{{< /faq >}}
 
-## Suggested images & diagrams
-
--   Diagram: micro-hydro system layout (intake → forebay → penstock → turbine/generator → controller → battery → inverter → loads).
--   Diagram: head vs flow concept (two sites with same water power but different turbine suitability).
--   Simple chart: how continuous watts translate to kWh/day (e.g., 50W, 100W, 250W, 500W).
--   Photo: a screened intake/trash rack example and why it needs maintenance.
--   Diagram: where to place disconnects and protection on a battery-charging setup.
+---
 
 ## Next logical reads
 

@@ -180,31 +180,29 @@ A tracker adds 40% to 50% to system cost for a 30% to 35% energy gain. Since the
 5. **Skip trackers** unless you have a specific technical reason and budget for them. Buy more panels instead.
 6. **For site-specific optimization,** use a tool like PVWatts (NREL) or our <a href="solar-panel-angle-calculator.html" class="text-link">solar panel angle calculator</a> to model different tilt and azimuth combinations at your exact location.
 
-## FAQ
-
-### What is the best angle for solar panels?
-
+## FAQ{{< faq "What is the best angle for solar panels?" >}}
 For maximum annual energy production, tilt your panels at an angle equal to your latitude. Across most of the US, that's between 30° and 45°. If you want to optimize for summer production, subtract 15° from your latitude; for winter production, add 15°.
+{{< /faq >}}
 
-### Do solar panels need to face south?
-
+{{< faq "Do solar panels need to face south?" >}}
 For maximum annual kWh in the Northern Hemisphere, yes — face true south (azimuth 180°). However, if you're on time-of-use electricity rates, west-facing panels can save more money by producing power during expensive afternoon and evening hours, even though total annual production is 10–15% lower.
+{{< /faq >}}
 
-### Is it worth adjusting solar panel tilt seasonally?
-
+{{< faq "Is it worth adjusting solar panel tilt seasonally?" >}}
 On an adjustable ground mount, yes — seasonal tilt adjustment adds 3% to 5% to annual production for a few minutes of work twice a year. On a fixed roof mount, it's not practical. The gain is modest, so don't choose an adjustable mount solely for this reason if a fixed mount is simpler.
+{{< /faq >}}
 
-### Are solar trackers worth the cost?
-
+{{< faq "Are solar trackers worth the cost?" >}}
 For almost all residential systems, no. Trackers add 30% to 35% more energy but cost 40% to 50% more than fixed mounts, and they require ongoing maintenance. You'll almost always get more kWh per dollar by buying additional panels on fixed mounts. Trackers make sense for utility-scale arrays or space-constrained off-grid sites.
+{{< /faq >}}
 
-### What if my roof faces east or west?
-
+{{< faq "What if my roof faces east or west?" >}}
 East- or west-facing roofs still work — you'll produce about 80% to 90% of what a south-facing roof would generate. If both orientations are available, a common strategy is to split panels between east and west roofs to spread production across the day. If only north-facing roof is available, consider a ground mount instead.
+{{< /faq >}}
 
-### How much does being off-angle cost me?
-
+{{< faq "How much does being off-angle cost me?" >}}
 Being 5° off your optimal tilt costs less than 2% of annual production. Being 10° off costs about 3–4%. Orientation matters more than tilt: facing 30° away from south (southwest or southeast) costs about 3–5%, while facing due east or west costs 15–20%. Small errors are forgiving; large orientation mistakes are not.
+{{< /faq >}}
 
 ## Next logical reads
 

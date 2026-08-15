@@ -188,25 +188,23 @@ For a practical overview, see <a href="multi-source-hybrid-charge-controller.htm
 -   Add a dump load strategy for gusts.
 
 ## FAQ
-
-#### Is a Savonius turbine worth building?
-
+{{< faq "Is a Savonius turbine worth building?" >}}
 Yes as an educational project and for small “always-on” experiments. For serious off-grid power, tall, well-sited lift-based turbines usually deliver more energy per area.
+{{< /faq >}}
 
-#### Can it charge a 12V battery?
-
+{{< faq "Can it charge a 12V battery?" >}}
 It can, but you need regulation and protection. A turbine that “hits 14V” open-circuit may still struggle to provide charging current under load.
+{{< /faq >}}
 
-#### What’s the easiest rotor material?
-
+{{< faq "What’s the easiest rotor material?" >}}
 PVC pipe cut lengthwise is common for small rotors because it’s consistent and weather-resistant. Thin sheet material also works if you can keep the shape rigid.
+{{< /faq >}}
 
-#### Do I need a tall tower?
-
+{{< faq "Do I need a tall tower?" >}}
 For meaningful energy, height helps a lot. For learning and short tests, you can start low — just expect low output.
+{{< /faq >}}
 
-#### Should I build this instead of a small horizontal turbine?
-
+{{< faq "Should I build this instead of a small horizontal turbine?" >}}
 Build a Savonius if you want simplicity and a clear learning project. If your goal is more energy, read the <a href="diy-small-wind-turbine-for-off-grid-battery-charging.html" class="text-link">small wind turbine guide</a> and plan around siting and height.
 
 ---
@@ -215,3 +213,5 @@ Build a Savonius if you want simplicity and a clear learning project. If your go
 - [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
 - [DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)](/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html)
+{{< /faq >}}
+

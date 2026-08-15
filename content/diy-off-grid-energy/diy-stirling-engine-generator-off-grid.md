@@ -552,16 +552,13 @@ Example: 500W fuel input, 25W electrical output (5% efficiency), 475W waste heat
 
 This is why Stirling CHP systems are used in some off-grid cabins and RVs: you're heating the space anyway, so extracting a bit of electricity is a bonus.
 
-## FAQ: Stirling engine generators for off-grid power
-
-### Can a DIY Stirling engine replace solar panels?
-
+## FAQ: Stirling engine generators for off-grid power{{< faq "Can a DIY Stirling engine replace solar panels?" >}}
 No. Solar panels cost $0.30–$1 per watt and require no fuel. Stirling engines cost $10–$200 per watt to build and need continuous heat input.
 
 Use Stirling as a **supplement** when you have free waste heat, not as a primary power source.
+{{< /faq >}}
 
-### How much power can I get from a DIY Stirling engine?
-
+{{< faq "How much power can I get from a DIY Stirling engine?" >}}
 Realistic expectations:
 
 -   **Kit or small DIY build**: 0.1–2W electrical
@@ -569,26 +566,26 @@ Realistic expectations:
 -   **Advanced build (large displacement, optimized)**: 25–100W electrical
 
 Compare to a single 100W solar panel costing $50–$100.
+{{< /faq >}}
 
-### What's the best heat source for a Stirling engine?
-
+{{< faq "What's the best heat source for a Stirling engine?" >}}
 For DIY experimentation: **propane or butane burner** (clean, controllable, safe indoors with ventilation).
 
 For off-grid use: **woodstove or biomass** (free fuel if you're already heating with wood).
 
 For fascinating hybrids: **solar concentrator** (no fuel cost, but only works in direct sun).
+{{< /faq >}}
 
-### Do Stirling engines need maintenance?
-
+{{< faq "Do Stirling engines need maintenance?" >}}
 Yes. Regular tasks include:
 
 -   Lubricating bearings and crankshaft (every 10–50 hours)
 -   Inspecting seals for wear (every 50–100 hours)
 -   Cleaning soot from hot-side surfaces (every 20–100 hours depending on fuel)
 -   Checking alignment and tightening fasteners (monthly if running frequently)
+{{< /faq >}}
 
-### Why is Stirling engine efficiency so low?
-
+{{< faq "Why is Stirling engine efficiency so low?" >}}
 Carnot efficiency sets a theoretical ceiling based on temperature difference. Real engines fall short due to:
 
 -   **Seal friction** and mechanical losses
@@ -597,29 +594,29 @@ Carnot efficiency sets a theoretical ceiling based on temperature difference. Re
 -   **Dead volume** (non-working gas spaces)
 
 High-end commercial Stirling engines (with regenerators and precision machining) can hit 15–25%. DIY builds typically achieve 5–10%.
+{{< /faq >}}
 
-### Can I use a Stirling engine for emergency backup power?
-
+{{< faq "Can I use a Stirling engine for emergency backup power?" >}}
 Only if you have a reliable heat source (woodstove, propane, etc.) and accept low power output.
 
 A gasoline generator provides 1,000–5,000W for $300–$1,000. A Stirling providing 25W costs $200–$500 to build and requires continuous heat.
 
 Stirling makes sense for ultra-low-power backup (charging phones, running LEDs) when fuel is free.
+{{< /faq >}}
 
-### What's the difference between Stirling, steam, and internal combustion engines?
-
+{{< faq "What's the difference between Stirling, steam, and internal combustion engines?" >}}
 -   **Internal combustion**: Burns fuel inside cylinder (car engine). High power density, high efficiency (25–40%), but needs specific fuel (gasoline, diesel).
 -   **Steam engine**: Burns fuel externally to boil water; steam drives piston. Fuel-flexible but bulky and inefficient (5–15%).
 -   **Stirling engine**: External combustion with sealed gas (air, helium). Fuel-flexible, quiet, but low efficiency (5–20%) and low power density.
+{{< /faq >}}
 
-### Can Stirling engines run on solar thermal energy?
-
+{{< faq "Can Stirling engines run on solar thermal energy?" >}}
 Yes. Mount the engine at the focal point of a parabolic dish or Fresnel lens. Concentrated sunlight can heat the hot side to 200–600°C.
 
 This is called a **dish-Stirling system**. Some utility-scale solar farms use this technology, but DIY versions are challenging and expensive compared to photovoltaic panels.
+{{< /faq >}}
 
-### How long do Stirling engines last?
-
+{{< faq "How long do Stirling engines last?" >}}
 With proper maintenance, a well-built Stirling can run for thousands of hours.
 
 Wear items:
@@ -629,24 +626,17 @@ Wear items:
 -   **Cylinder walls**: Essentially indefinite if lubricated
 
 Commercial Stirling CHP units are designed for 40,000–80,000 hours (10–20 years of continuous operation).
+{{< /faq >}}
 
-### Should I build a Stirling engine if I'm new to off-grid systems?
-
+{{< faq "Should I build a Stirling engine if I'm new to off-grid systems?" >}}
 Start with a kit to learn the physics before attempting from-scratch fabrication.
 
 If your goal is practical power, invest in solar panels and batteries instead.
 
 If your goal is education, mechanical skills development, and understanding thermodynamics, Stirling engines are one of the most rewarding projects you can attempt.
+{{< /faq >}}
 
-## Suggested images & diagrams
-
--   Diagram: Stirling cycle phases (isothermal expansion, isochoric cooling, isothermal compression, isochoric heating).
--   Cross-section: Beta or gamma Stirling engine showing displacer, power piston, hot/cold zones.
--   Chart: Carnot efficiency vs temperature difference (showing theoretical ceiling).
--   Table: Example builds with heat input, efficiency, and electrical output.
--   Photo: Kit Stirling engine assembled (illustrative, educational).
--   Diagram: Stirling generator system (heat source → engine → generator → voltage regulation → battery).
--   Illustration: Solar-thermal Stirling hybrid (parabolic concentrator + engine).
+---
 
 ## Next logical reads
 

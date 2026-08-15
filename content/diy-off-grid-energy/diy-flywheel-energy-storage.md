@@ -257,25 +257,23 @@ The takeaway is simple: for **practical** energy storage at DIY scale, batteries
 <a href="../pages/solar-output-troubleshooting.html" class="text-link">Troubleshooting mindset (symptoms vs causes) →</a>
 
 ## FAQ
-
-#### Do flywheels store more energy than batteries?
-
+{{< faq "Do flywheels store more energy than batteries?" >}}
 Not at DIY scale. Batteries store far more energy per kilogram for most practical setups. Flywheels can deliver high power quickly, which makes them useful as buffers.
+{{< /faq >}}
 
-#### Why do flywheels feel powerful if the watt-hours are small?
-
+{{< faq "Why do flywheels feel powerful if the watt-hours are small?" >}}
 Because power and energy are different. A flywheel can deliver a lot of power briefly, even if the total stored energy is small.
+{{< /faq >}}
 
-#### Can I connect a flywheel generator directly to a battery?
-
+{{< faq "Can I connect a flywheel generator directly to a battery?" >}}
 It’s risky. Generator voltage changes with RPM and can overshoot. Use a regulated charging stage and proper protection.
+{{< /faq >}}
 
-#### What’s the simplest “Version 1” flywheel project?
-
+{{< faq "What’s the simplest “Version 1” flywheel project?" >}}
 A bicycle wheel on a stable frame with an RPM measurement, then documenting spin-down time from a known speed to see losses.
+{{< /faq >}}
 
-#### What’s a safer “energy storage” experiment if I want more watt-hours?
-
+{{< faq "What’s a safer “energy storage” experiment if I want more watt-hours?" >}}
 A battery (even a small one) is usually simpler and safer. If you want a pure physics experiment, see the <a href="gravity-battery-diy-energy-storage.html" class="text-link">gravity battery guide</a>.
 
 ---
@@ -284,3 +282,5 @@ A battery (even a small one) is usually simpler and safer. If you want a pure ph
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
 - [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
 - [DIY Stirling Engine Generator: Turn Heat Into Electricity (Educational Build)](/diy-off-grid-energy/diy-stirling-engine-generator-off-grid.html)
+{{< /faq >}}
+

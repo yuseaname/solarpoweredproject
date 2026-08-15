@@ -87,22 +87,21 @@ Cleaning is worth considering when you can tie it to a measurable performance dr
 A practical approach: check your system monitoring for a consistent drop compared with similar weather periods, then inspect for visible dirt or shading changes.
 
 ## FAQ
-
-#### How often should solar panels be cleaned?
-
+{{< faq "How often should solar panels be cleaned?" >}}
 There’s no universal schedule. Clean when you have visible soiling or a sustained performance drop not explained by season or weather.
+{{< /faq >}}
 
-#### Can I use soap or chemicals?
-
+{{< faq "Can I use soap or chemicals?" >}}
 Often you don’t need them. If you use any cleaner, follow manufacturer guidance and avoid harsh chemicals.
+{{< /faq >}}
 
-#### Does cleaning void warranties?
-
+{{< faq "Does cleaning void warranties?" >}}
 Usually not, but improper methods can cause damage. Follow manufacturer recommendations.
+{{< /faq >}}
 
-#### Is professional cleaning safer?
-
+{{< faq "Is professional cleaning safer?" >}}
 Professionals may have the right safety equipment and access methods. Avoid risky DIY roof work.
+{{< /faq >}}
 
 ## Next logical reads
 

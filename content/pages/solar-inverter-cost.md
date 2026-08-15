@@ -119,22 +119,21 @@ If you’re trying to reduce cost, the cleanest approach is often to define a re
 {{< product-box asin="B081CLPDT9" name="Renogy 2000W 12V Pure Sine Inverter" label="Mid-size cost anchor" description="2000W pure sine with remote and cables included — the honest mid-size reference point for inverter cost tables: enough for real loads, without paying for surge headroom you will not use." button="Check price on Amazon" >}}
 
 ## FAQ
-
-#### How much does a solar inverter cost to replace?
-
+{{< faq "How much does a solar inverter cost to replace?" >}}
 Replacement cost depends on inverter type and size. Budget for the unit plus potential labor and any required electrical work.
+{{< /faq >}}
 
-#### Are micro-inverters more expensive?
-
+{{< faq "Are micro-inverters more expensive?" >}}
 Often per watt, yes. The tradeoff can be panel-level monitoring and better performance in shading scenarios.
+{{< /faq >}}
 
-#### Does inverter cost scale linearly with wattage?
-
+{{< faq "Does inverter cost scale linearly with wattage?" >}}
 Not perfectly. Some higher-tier features and warranty categories change price bands more than wattage alone.
+{{< /faq >}}
 
-#### What’s the safest default for waveform?
-
+{{< faq "What’s the safest default for waveform?" >}}
 If you run mixed electronics and appliances, pure sine wave is usually the safer compatibility choice.
+{{< /faq >}}
 
 ## Next logical reads
 

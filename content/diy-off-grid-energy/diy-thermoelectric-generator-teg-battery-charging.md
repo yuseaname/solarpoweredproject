@@ -461,28 +461,25 @@ Design the system with independent disconnects:
 
 Fuse each charging source separately. See <a href="../pages/solar-fuse-and-breaker-sizing.html" class="text-link">fuse and breaker sizing guide</a> for details.
 
-## FAQ: Thermoelectric generators for off-grid power
-
-### Can a thermoelectric generator replace solar panels?
-
+## FAQ: Thermoelectric generators for off-grid power{{< faq "Can a thermoelectric generator replace solar panels?" >}}
 No, not at any realistic scale. TEG modules cost 5–30× more per watt than solar panels and require continuous heat input.
 
 Use TEG to **supplement** solar during winter or at night when a woodstove runs, not as a replacement.
+{{< /faq >}}
 
-### How much power can I get from a woodstove TEG?
-
+{{< faq "How much power can I get from a woodstove TEG?" >}}
 A typical DIY woodstove TEG with 2–4 modules and good cooling produces **5–15W** while the stove is hot.
 
 If the stove runs 8 hours/day, that's 40–120Wh/day — useful for charging small batteries or running low-power DC loads, but not enough to replace solar or grid power.
+{{< /faq >}}
 
-### What's the best heat source for DIY thermoelectric generation?
-
+{{< faq "What's the best heat source for DIY thermoelectric generation?" >}}
 Woodstoves and rocket stoves are the most practical because they provide high temperatures (150–300°C) for extended periods and are already part of off-grid heating systems.
 
 Compost piles work but produce very low power. Engine exhaust is promising but mechanically complex.
+{{< /faq >}}
 
-### Do TEG modules wear out?
-
+{{< faq "Do TEG modules wear out?" >}}
 High-quality modules can last years if operated within thermal limits. Cheap modules degrade faster, especially if subjected to:
 
 -   Excessive hot-side temperature (over 200°C)
@@ -490,27 +487,27 @@ High-quality modules can last years if operated within thermal limits. Cheap mod
 -   Poor mounting causing mechanical stress
 
 Expect 3–10 years of useful life for consumer modules in residential woodstove applications.
+{{< /faq >}}
 
-### Can I use Peltier coolers as generators?
-
+{{< faq "Can I use Peltier coolers as generators?" >}}
 Yes — Peltier coolers and TEG modules are the same device, just used in reverse. However, Peltier modules optimized for cooling may not be optimized for power generation efficiency.
 
 Dedicated TEG modules (often labeled "TEG" or "thermoelectric generator") typically have better internal resistance matching for power output.
+{{< /faq >}}
 
-### What temperature difference do I need for useful power?
-
+{{< faq "What temperature difference do I need for useful power?" >}}
 For useful battery charging (over 1W per module), aim for **ΔT ≥ 80°C**.
 
 Below 50°C ΔT, most modules produce under 500mW, which is educational but marginal for practical off-grid use.
+{{< /faq >}}
 
-### Is active cooling (fans) worth it for TEG systems?
-
+{{< faq "Is active cooling (fans) worth it for TEG systems?" >}}
 Absolutely. A 12V fan pulling 2–5W can increase cold-side cooling enough to boost ΔT by 30–60°C, which can double or triple TEG output.
 
 Once the TEG produces enough power to self-sustain the fan, the system becomes self-regulating.
+{{< /faq >}}
 
-### How do I measure TEG performance?
-
+{{< faq "How do I measure TEG performance?" >}}
 Install:
 
 -   **Thermocouples or IR thermometer** on hot and cold sides to measure ΔT.
@@ -518,31 +515,24 @@ Install:
 -   **Watt-hour counter** to log cumulative energy delivered to the battery.
 
 Compare delivered energy over a week to the effort and cost to decide if the system is worthwhile.
+{{< /faq >}}
 
-### Can TEG modules be stacked in series or parallel?
-
+{{< faq "Can TEG modules be stacked in series or parallel?" >}}
 Yes, with caution:
 
 -   **Series**: Increases voltage but requires all modules to experience identical ΔT. Thermal mismatches reduce output.
 -   **Parallel**: Increases current and is more forgiving of thermal variation. Recommended for most DIY builds.
 
 Match modules by model and test performance before permanent installation.
+{{< /faq >}}
 
-### What's the biggest mistake beginners make with TEG systems?
-
+{{< faq "What's the biggest mistake beginners make with TEG systems?" >}}
 Underestimating the importance of thermal contact and cold-side cooling.
 
 A $20 TEG module with poor thermal paste and no heatsink will produce 10× less power than the same module with proper thermal management. Spend time on mechanical and thermal design, not just electrical wiring.
+{{< /faq >}}
 
-## Suggested images & diagrams
-
--   Block diagram: TEG system layout (heat source → hot side → TEG module → cold side/heatsink → boost converter → battery).
--   Illustration: Seebeck effect (semiconductor junctions, temperature gradient, voltage generation).
--   Chart: ΔT vs power output for a typical consumer module (showing exponential-ish curve).
--   Diagram: Good vs poor thermal contact (showing air gaps and thermal paste application).
--   Photo: Example woodstove TEG mount with heatsink and fan (illustrative, not brand-specific).
--   Table: Temperature scenarios (5°C, 50°C, 150°C ΔT) with expected power output.
--   Wiring diagram: Boost converter connections with fuse, blocking diode, and battery protection.
+---
 
 ## Next logical reads
 

@@ -261,25 +261,23 @@ A hand-crank generator is best as a “last-mile” backup when solar is unavail
 <a href="../pages/solar-output-troubleshooting.html" class="text-link">Troubleshooting mindset (symptoms vs causes) →</a>
 
 ## FAQ
-
-#### How many watts can a hand-crank generator realistically produce?
-
+{{< faq "How many watts can a hand-crank generator realistically produce?" >}}
 Many people can sustain roughly 5–30W by hand for meaningful time. Higher bursts are possible, but not comfortable.
+{{< /faq >}}
 
-#### Is it better to charge a phone directly or charge a power bank?
-
+{{< faq "Is it better to charge a phone directly or charge a power bank?" >}}
 Often a power bank is easier because it smooths output and tolerates variation. Direct charging can work, but it’s more sensitive to voltage stability.
+{{< /faq >}}
 
-#### Can I charge a car battery with a hand-crank generator?
-
+{{< faq "Can I charge a car battery with a hand-crank generator?" >}}
 Topping up is possible, but only through proper regulation and protection. Expect it to be slow because a car battery stores a lot of energy.
+{{< /faq >}}
 
-#### What’s the best upgrade if I want more human-powered energy?
-
+{{< faq "What’s the best upgrade if I want more human-powered energy?" >}}
 Switch to pedal power. Your legs can sustain much higher output and it’s more practical for battery charging.
+{{< /faq >}}
 
-#### What other generator sources use similar wiring logic?
-
+{{< faq "What other generator sources use similar wiring logic?" >}}
 Small wind, micro-hydro, and treadmill motors used as generators all benefit from the same idea: rectify if needed, regulate output, and protect wiring.
 
 ---
@@ -288,3 +286,5 @@ Small wind, micro-hydro, and treadmill motors used as generators all benefit fro
 - [DIY Bicycle Generator: Pedal-Powered Battery Charging (Realistic Guide)](/diy-off-grid-energy/pedal-power-generator-for-off-grid-battery-charging.html)
 - [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
 - [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+{{< /faq >}}
+

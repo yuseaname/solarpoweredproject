@@ -94,26 +94,25 @@ If protection decisions are forcing awkward cable runs, revisit layout and volta
 -   **Using a disconnect as protection:** different job; verify you have overcurrent protection where required.
 
 ## FAQ
-
-#### Do I need a fuse and a breaker?
-
+{{< faq "Do I need a fuse and a breaker?" >}}
 Sometimes. Many systems use a fuse for primary protection and a breaker for convenience/isolation on certain circuits, but the right mix depends on the design.
+{{< /faq >}}
 
-#### What does “DC-rated” actually mean?
-
+{{< faq "What does “DC-rated” actually mean?" >}}
 It means the device is designed and tested to interrupt DC current safely at a specified DC voltage and fault level.
+{{< /faq >}}
 
-#### Where should the battery fuse go?
-
+{{< faq "Where should the battery fuse go?" >}}
 Placement is design- and code-dependent, but the core idea is to protect the wiring connected to the battery from fault current.
+{{< /faq >}}
 
-#### Do solar panels need fuses?
-
+{{< faq "Do solar panels need fuses?" >}}
 Some multi-string arrays do, depending on configuration. Follow your controller/combiner guidance and verify ratings for your array voltage.
+{{< /faq >}}
 
-#### Can a breaker be used as a switch?
-
+{{< faq "Can a breaker be used as a switch?" >}}
 Only if it’s rated for that use. Some DC breakers are designed for switching; others are not.
+{{< /faq >}}
 
 ## Next logical reads
 

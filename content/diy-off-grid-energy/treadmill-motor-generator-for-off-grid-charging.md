@@ -213,25 +213,23 @@ Solar is typically the primary “energy” source; a treadmill motor generator 
 <a href="../pages/solar-output-troubleshooting.html" class="text-link">Troubleshooting mindset →</a> <a href="../pages/solar-fuse-and-breaker-sizing.html" class="text-link">Fuse sizing →</a>
 
 ## FAQ
-
-#### Do treadmill motors generate DC or AC?
-
+{{< faq "Do treadmill motors generate DC or AC?" >}}
 Most treadmill motors are permanent-magnet DC motors, so they produce DC (with ripple) at the terminals when spun.
+{{< /faq >}}
 
-#### Why does my generator “stall” when I connect it to a battery?
-
+{{< faq "Why does my generator “stall” when I connect it to a battery?" >}}
 The battery clamps voltage, which can pull high current, which increases torque resistance and slows the motor. Use regulation/current limiting to make the load predictable.
+{{< /faq >}}
 
-#### Can I use a treadmill motor for wind or water projects?
-
+{{< faq "Can I use a treadmill motor for wind or water projects?" >}}
 Often yes for experiments, but you must match RPM via gearing and regulate output. Don’t assume rated motor power translates directly to generator output.
+{{< /faq >}}
 
-#### What’s the safest first test?
-
+{{< faq "What’s the safest first test?" >}}
 Mount the motor securely, spin it at known RPM, and test with a resistive load while measuring voltage and current.
+{{< /faq >}}
 
-#### Where should I learn hybrid wiring best practices?
-
+{{< faq "Where should I learn hybrid wiring best practices?" >}}
 Start with <a href="multi-source-hybrid-charge-controller.html" class="text-link">hybrid charge controller architecture</a> and the site’s <a href="../pages/wiring-decisions.html" class="text-link">wiring decisions checklist</a>.
 
 ---
@@ -240,3 +238,5 @@ Start with <a href="multi-source-hybrid-charge-controller.html" class="text-link
 - [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
 - [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
 - [DIY Car Alternator Generator for Battery Charging: What Actually Works](/diy-off-grid-energy/diy-car-alternator-generator-battery-charging.html)
+{{< /faq >}}
+

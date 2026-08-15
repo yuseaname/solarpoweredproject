@@ -150,31 +150,29 @@ When you discover shading on your array, work through these fixes in order — c
 
 5. **Switch to microinverters.** The most complete solution and the most expensive. Best for complex roofs with multiple orientations and multiple shade sources, or for new installs where you can design around microinverters from the start.
 
-## FAQ
-
-### Will a little shade really make a big difference?
-
+## FAQ{{< faq "Will a little shade really make a big difference?" >}}
 Yes. Because solar cells in a panel are wired in series, even a small shadow on one cell can reduce that panel's output by a third or more. If the panel is in a series string without optimizers, the effect can ripple across the entire array. A shadow the width of a pencil at the wrong time of day can cost you more energy than you'd expect.
+{{< /faq >}}
 
-### Do all solar panels have bypass diodes?
-
+{{< faq "Do all solar panels have bypass diodes?" >}}
 Essentially all modern crystalline silicon solar panels (monocrystalline and polycrystalline) include 3 or more bypass diodes in the junction box. Thin-film panels may have different internal architecture. Bypass diodes have been standard equipment for over 15 years, so any panel manufactured in that timeframe should have them.
+{{< /faq >}}
 
-### Should I just wire all my panels in parallel to avoid shading losses?
-
+{{< faq "Should I just wire all my panels in parallel to avoid shading losses?" >}}
 Parallel wiring does isolate each panel's current, so a shaded panel won't drag others down. But parallel keeps voltage low (one panel's voltage), which means you need thicker, more expensive wire for long runs, and some charge controllers and inverters need higher voltage to operate efficiently. Parallel is common in small 12V off-grid systems; series (or series-parallel combinations) is standard for larger systems. See <a href="solar-panels-series-vs-parallel.html" class="text-link">series vs parallel</a> for details.
+{{< /faq >}}
 
-### What is a hot spot, and is it dangerous?
-
+{{< faq "What is a hot spot, and is it dangerous?" >}}
 A hot spot occurs when a shaded cell acts as a resistor, converting electrical current into heat. Severe hot spots can reach 150°C, cracking the panel glass, melting internal connections, and in rare cases starting a roof fire. Bypass diodes are specifically designed to prevent hot spots by routing current around shaded cells. If your panel has a persistent brown or burnt spot visible on the front, have it inspected — the bypass diode for that section may have failed.
+{{< /faq >}}
 
-### Are optimizers or microinverters worth the extra cost for a shaded roof?
-
+{{< faq "Are optimizers or microinverters worth the extra cost for a shaded roof?" >}}
 If shading is unavoidable and affects more than 10–15% of your array's annual production, yes. Optimizers or microinverters can recover 50% to 80% of shading losses that a string inverter alone would forfeit. On an unshaded roof, they're not worth the premium. See our inverter comparison for help deciding.
+{{< /faq >}}
 
-### Does snow count as shading?
-
+{{< faq "Does snow count as shading?" >}}
 Yes — snow covering panels blocks light just like any other obstruction. A panel buried under an inch of snow produces essentially nothing. The fix is physical removal (roof rake, warm panels) or simply waiting for it to slide off if your panels are mounted at a steep enough angle. Dark panels in sunlight will often shed snow on their own once the sun comes out.
+{{< /faq >}}
 
 ## Next logical reads
 

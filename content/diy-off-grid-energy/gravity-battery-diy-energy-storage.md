@@ -606,24 +606,21 @@ If both battery and gravity system charge the same battery bank:
 
 The inverter doesn't care where the battery charge came from. This is the simplest integration path.
 
-## FAQ: Gravity battery energy storage
-
-### Is a DIY gravity battery practical for off-grid power?
-
+## FAQ: Gravity battery energy storage{{< faq "Is a DIY gravity battery practical for off-grid power?" >}}
 No, not at any realistic scale. Chemical batteries are 10–40× cheaper per watt-hour and 100× more energy-dense.
 
 Gravity batteries are best for **education** and demonstrating physics, not replacing lithium or lead-acid batteries.
+{{< /faq >}}
 
-### How much weight do I need to power a house for one day?
-
+{{< faq "How much weight do I need to power a house for one day?" >}}
 A modest off-grid home might use 5–10 kWh/day (5,000–10,000 Wh).
 
 To store 5,000Wh at 10m height: you'd need to lift **184,000 kg** (184 metric tons, or about 90 cars).
 
 This is why pumped hydro (industrial-scale gravity storage) uses millions of liters of water and dam-scale infrastructure.
+{{< /faq >}}
 
-### What's the best height for a DIY gravity battery?
-
+{{< faq "What's the best height for a DIY gravity battery?" >}}
 For safety and practicality: **3–5 meters** (garage ceiling height).
 
 Higher is better for energy density (more Wh per kg), but:
@@ -633,17 +630,17 @@ Higher is better for energy density (more Wh per kg), but:
 -   Building codes and permitting may apply for tall structures.
 
 Unless you have engineering expertise, don't exceed 5m height.
+{{< /faq >}}
 
-### Can I use water instead of weights?
-
+{{< faq "Can I use water instead of weights?" >}}
 Yes. Water is 1 kg per liter, so it's easy to calculate and adjust mass.
 
 Pros: Safer if spilled (vs crushing hazard of concrete). Easy to add/remove mass. Free if you have a water source.
 
 Cons: Containers can leak. Freezing is a problem in winter. Lower density than concrete or steel, so larger volume needed.
+{{< /faq >}}
 
-### How long do gravity batteries last?
-
+{{< faq "How long do gravity batteries last?" >}}
 Theoretically, indefinitely — there's no chemical degradation like in batteries.
 
 Practically, mechanical components wear out:
@@ -653,34 +650,34 @@ Practically, mechanical components wear out:
 -   **Gears**: 10,000–100,000+ cycles if well-maintained.
 
 With good maintenance, a gravity battery could last 10–30 years mechanically.
+{{< /faq >}}
 
-### What's the round-trip efficiency of a gravity battery?
-
+{{< faq "What's the round-trip efficiency of a gravity battery?" >}}
 Realistic DIY builds: **40–60%** (energy in to lift → energy out during descent).
 
 High-quality engineered systems: **60–80%**.
 
 Compare to lithium batteries: 90–95% round-trip efficiency.
+{{< /faq >}}
 
-### Can I build a gravity battery for emergency backup power?
-
+{{< faq "Can I build a gravity battery for emergency backup power?" >}}
 Technically yes, but it's not practical.
 
 A simple 100Ah lithium battery (1,200Wh) costs $300–$600 and weighs 12kg. To match that with gravity at 50% efficiency, you'd need to lift 890kg to 10m height.
 
 The infrastructure cost and safety risk far exceed just buying a second battery.
+{{< /faq >}}
 
-### Are gravity batteries used commercially?
-
+{{< faq "Are gravity batteries used commercially?" >}}
 Yes, at utility scale:
 
 -   **Pumped hydro storage**: Water is pumped uphill to a reservoir, then released through turbines. This is the most common grid-scale energy storage worldwide (95%+ of all grid storage).
 -   **Crane-based systems**: Companies like Energy Vault are developing systems that lift concrete blocks with cranes to store grid energy.
 
 But these are megawatt-scale installations with millions in capital investment — not DIY projects.
+{{< /faq >}}
 
-### What can I learn from building a gravity battery?
-
+{{< faq "What can I learn from building a gravity battery?" >}}
 Hands-on understanding of:
 
 -   **Energy vs power**: Total capacity (Wh) vs rate of delivery (W).
@@ -689,24 +686,17 @@ Hands-on understanding of:
 -   **Energy density reality**: Why chemical batteries dominate despite being "worse" in some ways (degradation, safety, recycling).
 
 It's one of the best educational energy projects precisely because the limitations are so obvious and measurable.
+{{< /faq >}}
 
-### Should I build a gravity battery if I'm new to off-grid systems?
-
+{{< faq "Should I build a gravity battery if I'm new to off-grid systems?" >}}
 Start with a desktop demo (under 10kg, under 2m height) to learn the physics safely.
 
 Don't attempt garage-scale or larger builds until you've successfully built and instrumented smaller projects.
 
 If your goal is practical energy storage, buy batteries and solar panels instead. If your goal is learning, gravity batteries are fantastic — just keep safety paramount.
+{{< /faq >}}
 
-## Suggested images & diagrams
-
--   Diagram: Gravity battery system layout (weight → pulley → gearing → generator → battery).
--   Illustration: Potential energy concept (mgh equation visualized with weight at height).
--   Chart: Energy density comparison (gravity vs lead-acid vs lithium, Wh/kg).
--   Table: Worked examples (10kg/3m, 100kg/10m, 500kg/20m with energy calculations).
--   Diagram: Efficiency loss stack (showing where 100J input becomes 40–60J output).
--   Photo: Example pulley system with safety features (illustrative, not brand-specific).
--   Safety diagram: Proper cable termination, barriers, and emergency brake placement.
+---
 
 ## Next logical reads
 

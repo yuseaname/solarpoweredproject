@@ -207,25 +207,23 @@ If your goal is purely electrical backup, batteries remain the simplest and most
 -   Check that pressure is maintained under load, not just at rest.
 
 ## FAQ
-
-#### Is compressed air energy storage efficient?
-
+{{< faq "Is compressed air energy storage efficient?" >}}
 At small DIY scale, it’s usually not highly efficient as electricity-in/electricity-out. It’s best as a learning project or when your end use is pneumatic.
+{{< /faq >}}
 
-#### How much energy is in a typical air tank?
-
+{{< faq "How much energy is in a typical air tank?" >}}
 Often only a few watt-hours unless the tank is large. Use the simplified equation in this guide as a reality check, then verify with measurements.
+{{< /faq >}}
 
-#### What makes CAES hard to do well?
-
+{{< faq "What makes CAES hard to do well?" >}}
 Heat losses during compression and expansion, plus conversion losses in compressors, motors, and generators.
+{{< /faq >}}
 
-#### What’s the safest CAES “first project”?
-
+{{< faq "What’s the safest CAES “first project”?" >}}
 A rated tank with a regulator feeding a safe pneumatic load, while you log pressure drop and temperature changes.
+{{< /faq >}}
 
-#### What’s a simpler storage experiment than CAES?
-
+{{< faq "What’s a simpler storage experiment than CAES?" >}}
 A flywheel or gravity battery demonstration can teach storage concepts with fewer pressure hazards. See the <a href="diy-flywheel-energy-storage.html" class="text-link">flywheel guide</a> and <a href="gravity-battery-diy-energy-storage.html" class="text-link">gravity battery guide</a>.
 
 ---
@@ -234,3 +232,5 @@ A flywheel or gravity battery demonstration can teach storage concepts with fewe
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
 - [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
 - [DIY Stirling Engine Generator: Turn Heat Into Electricity (Educational Build)](/diy-off-grid-energy/diy-stirling-engine-generator-off-grid.html)
+{{< /faq >}}
+

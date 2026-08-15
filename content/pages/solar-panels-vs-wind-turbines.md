@@ -107,23 +107,21 @@ If you are deciding between these two, use the following decision framework:
 2.  \*\*Calculate your budget:\*\* If you want a predictable ROI and low maintenance, \*\*Solar\*\* is the safer investment. If you have high-velocity wind and a higher tolerance for mechanical upkeep, \*\*Wind\*\* can provide supplemental power.
 3.  \*\*Check local zoning:\*\* Many HOAs (Homeowners Associations) have strict rules against wind towers due to height and noise, whereas solar is increasingly protected by "Solar Rights" legislation in many US states.
 
-## FAQ
-
-### Can I run my house on only wind power?
-
+## FAQ{{< faq "Can I run my house on only wind power?" >}}
 It is extremely difficult for a single residential wind turbine to meet 100% of a modern home's load without a very large, expensive industrial-scale turbine. Most residential wind users use it as a supplement to solar or grid power.
+{{< /faq >}}
 
-### Do solar panels work in the winter?
-
+{{< faq "Do solar panels work in the winter?" >}}
 Yes, solar panels produce electricity as long as there is light. While production is lower due to shorter days and lower sun angles, they remain functional. In some regions, snow accumulation can temporarily halt production, but the panels often shed snow naturally as they warm up.
+{{< /faq >}}
 
-### Which is better for battery storage?
-
+{{< faq "Which is better for battery storage?" >}}
 Solar is generally easier to pair with battery storage (like the Tesla Powerwall) because the production pattern is highly predictable (diurnal). Wind production is more erratic, requiring more sophisticated battery management systems to handle sudden surges or drops in power.
+{{< /faq >}}
 
-### Is wind energy noisier than solar?
-
+{{< faq "Is wind energy noisier than solar?" >}}
 Yes. Solar panels are completely silent. Wind turbines produce "aerodynamic noise" from the blades cutting through the air and "mechanical noise" from the gearbox and generator.
+{{< /faq >}}
 
 ## Related guides
 

@@ -608,42 +608,39 @@ Measure actual energy use over a week:
 
 Match generation profile to load profile to minimize battery cycling and maximize efficiency.
 
-## FAQ: Hybrid charge controller systems
-
-### Can I use one charge controller for multiple sources?
-
+## FAQ: Hybrid charge controller systems{{< faq "Can I use one charge controller for multiple sources?" >}}
 Only if the sources are identical in type and behavior.
 
 You can use one solar controller for multiple solar panels (wired in series or parallel). But you cannot use a solar controller for solar + wind, or solar + hydro — the electrical behavior is too different.
+{{< /faq >}}
 
-### Do I need separate batteries for each source?
-
+{{< faq "Do I need separate batteries for each source?" >}}
 No. One shared battery bank is standard and simpler.
 
 Separate batteries make sense only if sources operate at different voltages (e.g., 12V solar, 24V wind) or if you want complete electrical isolation for safety or modularity.
+{{< /faq >}}
 
-### What happens if one source fails in a hybrid system?
-
+{{< faq "What happens if one source fails in a hybrid system?" >}}
 The other sources continue charging normally. This is a key advantage of hybrid: redundancy.
 
 If solar fails (damaged panel, controller fault), wind and hydro keep the battery charged (at reduced total power).
+{{< /faq >}}
 
-### Can I add a generator to a solar + wind + hydro system?
-
+{{< faq "Can I add a generator to a solar + wind + hydro system?" >}}
 Yes. A battery charger (or generator with built-in charger) connects to the battery bus just like the renewable sources.
 
 Use the generator as emergency backup when renewable sources can't keep up.
+{{< /faq >}}
 
-### How do I size dump loads for wind and hydro?
-
+{{< faq "How do I size dump loads for wind and hydro?" >}}
 Dump load wattage must equal or exceed the maximum output of the source.
 
 For a 500W wind turbine: use a 500W+ resistor or water heater element. For a 200W hydro generator: use a 200W+ dump load.
 
 Oversizing by 20–50% adds safety margin.
+{{< /faq >}}
 
-### What voltage setpoints should I use for multi-source systems?
-
+{{< faq "What voltage setpoints should I use for multi-source systems?" >}}
 All controllers must use the same setpoints for your battery chemistry.
 
 Flooded lead-acid example:
@@ -653,15 +650,15 @@ Flooded lead-acid example:
 -   Float: 13.6V
 
 Set these values identically on solar, wind, and hydro controllers.
+{{< /faq >}}
 
-### Can I mix MPPT and PWM controllers in the same system?
-
+{{< faq "Can I mix MPPT and PWM controllers in the same system?" >}}
 Yes, as long as both are set to the same voltage setpoints.
 
 MPPT is more efficient for solar, but PWM is cheaper. You might use MPPT for your large solar array and PWM for a small secondary array.
+{{< /faq >}}
 
-### How do I troubleshoot voltage oscillation between sources?
-
+{{< faq "How do I troubleshoot voltage oscillation between sources?" >}}
 Voltage oscillation (battery voltage bouncing up and down rapidly) indicates:
 
 -   Mismatched controller setpoints (one controller pushing to 14.8V, another pulling to 13.8V).
@@ -669,17 +666,17 @@ Voltage oscillation (battery voltage bouncing up and down rapidly) indicates:
 -   Faulty controller with poor regulation.
 
 Fix by standardizing setpoints, upsizing cables, or replacing faulty controllers.
+{{< /faq >}}
 
-### Is it safe to disconnect one source while others are charging?
-
+{{< faq "Is it safe to disconnect one source while others are charging?" >}}
 Yes, if you follow proper procedure:
 
 -   **Solar**: Disconnect at controller input or use disconnect switch. Safe anytime.
 -   **Wind**: Engage dump load or mechanical brake BEFORE disconnecting. Never open-circuit a spinning turbine.
 -   **Hydro**: Engage dump load or reduce water flow before disconnecting.
+{{< /faq >}}
 
-### Should I install hybrid systems myself or hire a professional?
-
+{{< faq "Should I install hybrid systems myself or hire a professional?" >}}
 DIY is feasible if you have:
 
 -   Basic electrical knowledge (Ohm's law, wire sizing, polarity)
@@ -691,15 +688,9 @@ Hire a professional if:
 -   You're uncomfortable working with DC voltages above 24V.
 -   Local codes require licensed electrician for permit/inspection.
 -   System is large (&gt;5kW) or safety-critical (medical equipment, off-grid home).
+{{< /faq >}}
 
-## Suggested images & diagrams
-
--   Diagram: Multi-source system architecture (solar/wind/hydro → controllers → battery busbar → inverter/loads).
--   Wiring schematic: Solar + wind + hydro with fuses, disconnects, dump loads clearly marked.
--   Combiner box layout: Showing breakers, busbars, and cable routing inside an enclosure.
--   Table: Seasonal energy contribution by source (example data showing solar/wind/hydro balance).
--   Flowchart: Troubleshooting decision tree (battery not charging → check which source → verify voltage/current → check fuse/controller).
--   Photo: Example multi-source installation (illustrative, showing controllers mounted side-by-side).
+---
 
 ## Next logical reads
 

@@ -106,22 +106,21 @@ Some inverters have configurable low-voltage cutoffs or eco/search modes. A mism
 -   **Changing multiple settings at once:** you lose the signal of what actually fixed it.
 
 ## FAQ
-
-#### Why does my inverter shut off when I start the microwave?
-
+{{< faq "Why does my inverter shut off when I start the microwave?" >}}
 Microwaves can create a surge and high continuous draw. If the inverter is near its surge limit, or the battery voltage sags under load due to cables/terminals, it may shut down to protect itself.
+{{< /faq >}}
 
-#### Battery voltage looks fine—why does the inverter say low voltage?
-
+{{< faq "Battery voltage looks fine—why does the inverter say low voltage?" >}}
 Voltage at rest can look normal. Under load, current increases and voltage can sag. That sag can be caused by a low battery, undersized cables, long runs, or bad terminations.
+{{< /faq >}}
 
-#### Is inverter shutdown dangerous?
-
+{{< faq "Is inverter shutdown dangerous?" >}}
 Shutdown itself is usually protective. But repeated shutdowns can signal overheating, loose connections, or undersized wiring—those can be safety issues worth addressing promptly.
+{{< /faq >}}
 
-#### When should I call a professional?
-
+{{< faq "When should I call a professional?" >}}
 If you see melted insulation, smell burning, find hot terminals, or can’t safely isolate the battery/inverter circuit, stop and contact a qualified professional.
+{{< /faq >}}
 
 ## Next logical reads
 

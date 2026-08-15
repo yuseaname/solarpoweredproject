@@ -335,38 +335,35 @@ A common reliable pattern is: solar does the bulk of annual energy, wind helps d
 
 If you want a structured way to plan this, start with: <a href="../pages/solar-system-sizing.html" class="text-link">solar system sizing</a> and <a href="../pages/cabin-solar-vs-generator.html" class="text-link">solar vs generator</a>.
 
-## FAQ
-
-### Can a small wind turbine charge a 12V battery directly?
-
+## FAQ{{< faq "Can a small wind turbine charge a 12V battery directly?" >}}
 Not safely in most cases. Wind turbines can produce widely varying voltage and current depending on speed and load. Use a proper wind charge controller (and rectifier if needed) so charging is regulated and the turbine always has a safe load.
+{{< /faq >}}
 
-### Do I need a dump load for wind turbines?
-
+{{< faq "Do I need a dump load for wind turbines?" >}}
 Many battery-based wind systems do. A dump (diversion) load gives excess power somewhere to go when the battery is full or charging needs to slow, helping prevent dangerous overspeed and voltage spikes.
+{{< /faq >}}
 
-### How tall should a small wind turbine tower be?
-
+{{< faq "How tall should a small wind turbine tower be?" >}}
 Tall enough to reach clean airflow above nearby obstacles. A common rule-of-thumb is positioning the rotor about 30 ft (9 m) above anything within 500 ft (150 m), but local conditions and regulations rule.
+{{< /faq >}}
 
-### Is a rooftop wind turbine worth it?
-
+{{< faq "Is a rooftop wind turbine worth it?" >}}
 Usually not for meaningful energy. Rooftops are typically turbulent, which reduces output and increases wear. Rooftop units can still be educational, but battery-charging performance is often disappointing compared to solar.
+{{< /faq >}}
 
-### How much power does a “400W” small wind turbine really make?
-
+{{< faq "How much power does a “400W” small wind turbine really make?" >}}
 “400W” is typically a rated number at a high wind speed. Real output depends on your wind speeds, turbulence, tower height, and controller behavior. Track watt-hours over time to see what it actually contributes.
+{{< /faq >}}
 
-### Can I connect wind and solar to the same battery bank?
-
+{{< faq "Can I connect wind and solar to the same battery bank?" >}}
 Yes, if each source has proper regulation and protection. Solar typically uses an MPPT/PWM charge controller; wind typically uses a wind controller (often with diversion control).
+{{< /faq >}}
 
-### What wind speed do I need for off-grid charging to be worthwhile?
-
+{{< faq "What wind speed do I need for off-grid charging to be worthwhile?" >}}
 The exact number depends on your turbine and expectations. As a practical test: if your location rarely sees sustained, clean wind at hub height, small wind often becomes an expensive way to learn that solar is easier.
+{{< /faq >}}
 
-### What’s the safest way to shut down a wind turbine in a storm?
-
+{{< faq "What’s the safest way to shut down a wind turbine in a storm?" >}}
 Follow the turbine and controller’s documented shutdown procedure. Many systems support electrical braking or shorting the generator through a proper brake switch/controller mode, but this must be designed correctly. If you’re unsure, do not improvise during high winds — plan shutdown and disconnects ahead of time.
 
 Want the most reliable off-grid path? Use wind as a measured seasonal supplement, and build your core around a solid solar + battery foundation: <a href="../pages/solar-components.html" class="text-link">solar components</a>, <a href="../pages/solar-system-costs.html" class="text-link">system costs</a>, and <a href="../pages/solar-maintenance.html" class="text-link">maintenance</a>.
@@ -377,3 +374,5 @@ Want the most reliable off-grid path? Use wind as a measured seasonal supplement
 - [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
 - [DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)](/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html)
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
+{{< /faq >}}
+
