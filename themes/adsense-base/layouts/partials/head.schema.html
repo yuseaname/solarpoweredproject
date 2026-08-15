@@ -77,13 +77,25 @@
       "name" "Home"
       "item" .Site.BaseURL
   ) -}}
-  {{- $sections := .CurrentSection -}}
-  {{- if and (not .IsSection) (ne .CurrentSection.RelPermalink "/") -}}
+  {{- $crumb := false -}}
+  {{- with .Parent -}}
+    {{- if and (not .IsHome) (ne .Permalink $.Permalink) -}}
+      {{- $crumb = . -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $crumb -}}
+    {{- with .CurrentSection -}}
+      {{- if and (ne .RelPermalink "/") (ne .Permalink $.Permalink) -}}
+        {{- $crumb = . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- with $crumb -}}
     {{- $items = $items | append (dict
         "@type" "ListItem"
         "position" 2
-        "name" $sections.Title
-        "item" $sections.Permalink
+        "name" .Title
+        "item" .Permalink
     ) -}}
   {{- end -}}
   {{- $pos := len $items -}}

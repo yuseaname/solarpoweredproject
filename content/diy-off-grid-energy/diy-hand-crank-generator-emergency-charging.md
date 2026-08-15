@@ -1,5 +1,5 @@
 +++
-title = "DIY Hand-Crank Generator: Charge Phones and Batteries Safely (Realistic Power)"
+title = "DIY Hand-Crank Generator: Realistic Power Output"
 slug = "diy-hand-crank-generator-emergency-charging"
 date = 2026-05-31
 draft = false

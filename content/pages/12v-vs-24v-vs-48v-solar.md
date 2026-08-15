@@ -1,6 +1,6 @@
 +++
 
-title = "12V vs 24V vs 48V Solar Systems: Key Differences and Best Uses"
+title = "12V vs 24V vs 48V Solar Systems: Key Differences"
 slug = "12v-vs-24v-vs-48v-solar"
 date = 2026-05-31
 draft = false

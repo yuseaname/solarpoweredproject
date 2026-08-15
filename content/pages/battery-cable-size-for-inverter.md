@@ -1,6 +1,6 @@
 +++
 
-title = "Battery Cable Size for Solar Inverters (12V/24V/48V): How to Choose Safely"
+title = "Battery Cable Size for Inverters: 12V/24V/48V Chart Guide"
 slug = "battery-cable-size-for-inverter"
 date = 2026-05-31
 draft = false
