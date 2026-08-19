@@ -88,6 +88,7 @@ For most homeowners with a suitable roof and reasonable shading, **yes — Arizo
 
 - <a href="solar-panel-cost-texas.html" class="text-link">Solar panel cost in Texas</a>
 - <a href="solar-panel-cost-california.html" class="text-link">Solar panel cost in California</a>
+- <a href="solar-panel-cost-nevada.html" class="text-link">Solar panel cost in Nevada</a>
 - <a href="../pages/solar-panel-cost-per-watt.html" class="text-link">Solar panel cost per watt explained</a>
 - <a href="../pages/solar-system-costs.html" class="text-link">Solar system cost breakdown</a>
 - <a href="../pages/solar-panel-tax-credit.html" class="text-link">Federal solar tax credit</a>

@@ -83,4 +83,5 @@ Winter production drops, but tilted panels shed snow quickly once sun returns, a
 - <a href="/pages/solar-panel-tax-credit.html" class="text-link">Federal solar tax credit: what ended</a>
 - <a href="/pages/solar-payback-calculator.html" class="text-link">Solar payback calculator</a>
 - <a href="/guides/solar-panel-cost-texas.html" class="text-link">Solar panel cost in Texas</a>
+- <a href="/guides/solar-panel-cost-illinois.html" class="text-link">Solar panel cost in Illinois</a>
 - <a href="/pages/solar-system-sizing.html" class="text-link">Solar system sizing guide</a>

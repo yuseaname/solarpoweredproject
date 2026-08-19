@@ -83,4 +83,5 @@ Increasingly yes — NV Energy time-of-use plans pay very different rates by hou
 - <a href="/pages/solar-panel-tax-credit.html" class="text-link">Federal solar tax credit: what ended</a>
 - <a href="/pages/solar-payback-calculator.html" class="text-link">Solar payback calculator</a>
 - <a href="/guides/solar-panel-cost-arizona.html" class="text-link">Solar panel cost in Arizona</a>
+- <a href="/guides/solar-panel-cost-colorado.html" class="text-link">Solar panel cost in Colorado</a>
 - <a href="/pages/solar-panel-output.html" class="text-link">Solar panel output calculator</a>
