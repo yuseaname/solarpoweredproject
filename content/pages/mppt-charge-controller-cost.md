@@ -145,6 +145,8 @@ It can, depending on charging profiles and monitoring needs. Always confirm comp
 
 <a href="solar-panel-cost-per-watt.html" class="text-link">Solar panel cost per watt</a> <a href="solar-inverter-cost.html" class="text-link">Solar inverter cost</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="solar-components.html" class="text-link">Solar components explained</a>
 
+<a href="best-mppt-charge-controllers.html" class="text-link">Best MPPT charge controllers (2026 buyer guide)</a>
+
 ---
 
 **Related guides:**

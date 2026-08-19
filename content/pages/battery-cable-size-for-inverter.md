@@ -171,7 +171,7 @@ Often, yes—oversizing reduces voltage drop and heating. The practical limits a
 {{< faq "Is it safe to use AC breakers on DC inverter circuits?" >}}
 No. Use devices explicitly rated for DC at your system voltage. DC interrupt ratings are not interchangeable with AC ratings.
 
-{{< product-box asin="B08B7VPWD4" name="IWISS Battery Lug Crimper (10–2/0 AWG)" label="The crimp tool lugs deserve" description="A proper hex/indent crimper for 10 AWG to 2/0 battery lugs — the difference between a connection you trust at 100A and one that heats. If you are building inverter cables, this is the tool." button="Check price on Amazon" >}}
+{{< product-box asin="B017S9EINA" name="iCrimp Heavy-Duty Cable Lug Crimper (9 Dies)" label="The crimp tool lugs deserve" description="A proper hex/indent crimper for 12 AWG to 2/0 battery lugs — the difference between a connection you trust at 100A and one that heats. If you are building inverter cables, this is the tool." button="Check price on Amazon" >}}
 {{< /faq >}}
 
 ## Next logical reads

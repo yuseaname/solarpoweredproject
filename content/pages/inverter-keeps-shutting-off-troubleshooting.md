@@ -80,7 +80,7 @@ If you’re pushing a lot of power through a 12V inverter, shutdowns can be a de
 
 <a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose solar system voltage</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V</a>
 
-{{< product-box asin="B08B7VPWD4" name="IWISS Battery Lug Crimper (10–2/0 AWG)" label="Fix the drop at the lug" description="Voltage-drop shutdowns are usually a connection problem dressed up as a battery problem. A proper hex crimper turns tighten-by-hope lugs into the low-resistance joints the math assumes." button="Check price on Amazon" >}}
+{{< product-box asin="B017S9EINA" name="iCrimp Heavy-Duty Cable Lug Crimper (9 Dies)" label="Fix the drop at the lug" description="Voltage-drop shutdowns are usually a connection problem dressed up as a battery problem. A proper hex crimper for 12–2/0 AWG turns tighten-by-hope lugs into the low-resistance joints the math assumes." button="Check price on Amazon" >}}
 
 ## Cause 3: overheating / poor airflow
 

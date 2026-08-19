@@ -105,6 +105,12 @@ MPPT is often worth it if your panel voltage is higher than battery voltage or y
 It can, but it typically requires a large battery bank, substantial panel wattage, and a properly sized inverter.
 {{< /faq >}}
 
+## Starter kit reference
+
+If you are starting from zero and want a proven single-kit solution that covers panels + controller in one box, the Renogy 200W starter kit is a common baseline to compare against when sizing your own build:
+
+{{< product-box asin="B00BCRG22A" name="Renogy 200W 12V Mono Starter Kit (2×100W Panels + 30A PWM Controller)" label="Single-kit baseline" description="Two 100 W monocrystalline panels with a mounted 30 A PWM Wanderer controller — the simplest way to get a working RV or cabin array before upgrading to an MPPT setup." button="Check price on Amazon" >}}
+
 ## Next logical reads
 
 <a href="rv-solar-cost.html" class="text-link">RV solar system cost breakdown</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown (general)</a> <a href="solar-use-cases.html" class="text-link">More solar use cases</a>

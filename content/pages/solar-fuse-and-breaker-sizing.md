@@ -147,7 +147,7 @@ If your system lacks clear DC-rated disconnects and correctly placed protection,
 
 {{< product-box asin="B08L56RDNP" name="BougeRV 15A MC4 Inline Fuse Kit (5-pk)" label="String-level protection" description="Waterproof IP68 in-line fuse holders for panel strings — the cheapest insurance a DIY array can buy. Match the fuse rating to your string current." button="Check price on Amazon" >}}
 
-{{< product-box asin="B00MYSQM58" name="Blue Sea 100A Mini BusBar" label="Clean distribution point" description="A tinned-copper busbar for battery/inverter distribution — the tidy, inspectable alternative to stacked ring terminals that protection devices can actually guard." button="Check price on Amazon" >}}
+{{< product-box asin="B094QWG3VV" name="Blue Sea Systems 2315 100A Mini BusBar (4 Studs)" label="Clean distribution point" description="Four-stud tinned-copper busbar with cover — the tidy, inspectable alternative to stacked ring terminals that protection devices can actually guard." button="Check price on Amazon" >}}}}
 {{< /faq >}}
 
 ## Next logical reads

@@ -199,6 +199,8 @@ Compare MPPT and PWM in [MPPT vs PWM](mppt-vs-pwm.html) and see [charge controll
 
 <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V solar systems</a> <a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose solar system voltage</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="solar-components.html" class="text-link">Solar components guide</a> <a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM</a>
 
+<a href="best-mppt-charge-controllers.html" class="text-link">Best MPPT charge controllers (2026 buyer guide)</a>
+
 ## FAQ
 
 {{< faq "Should I size for average or maximum daily use?" >}}

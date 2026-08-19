@@ -46,6 +46,8 @@ image_height = 1024
 
 <a href="solar-components.html" class="text-link">Components overview</a> <a href="solar-system-sizing.html" class="text-link">Sizing guide</a> <a href="mppt-charge-controller-not-charging.html" class="text-link">MPPT controller not charging</a> <a href="solar-panels-series-vs-parallel.html" class="text-link">Series vs parallel panels</a> <a href="solar-output-troubleshooting.html" class="text-link">Low solar output troubleshooting</a> <a href="solar-system-costs.html" class="text-link">Cost breakdown</a>
 
+<a href="best-mppt-charge-controllers.html" class="text-link">Best MPPT charge controllers (2026 buyer guide)</a>
+
 ## FAQ
 
 {{< faq "What is the main difference between MPPT and PWM?" >}}

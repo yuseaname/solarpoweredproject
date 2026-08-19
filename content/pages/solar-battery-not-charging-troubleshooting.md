@@ -126,3 +126,5 @@ If you see heat damage, smell burning, find melted insulation, or can’t verify
 ## Next logical reads
 
 <a href="solar-output-troubleshooting.html" class="text-link">Low solar output troubleshooting</a> <a href="mppt-charge-controller-not-charging.html" class="text-link">MPPT not charging? (checklist)</a> <a href="inverter-keeps-shutting-off-troubleshooting.html" class="text-link">Inverter keeps shutting off (troubleshooting)</a> <a href="solar-maintenance.html" class="text-link">Solar maintenance checklist</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a>
+
+<a href="best-mppt-charge-controllers.html" class="text-link">Best MPPT charge controllers (2026 buyer guide)</a>

@@ -168,6 +168,8 @@ Before buying a replacement, confirm the controller is actually the problem. **M
 
 See <a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM</a> to confirm you're buying the right controller type for your setup.
 
+For specific replacement models matched to array watts and battery voltage, see the <a href="best-mppt-charge-controllers.html" class="text-link">best MPPT charge controllers</a> guide.
+
 ## Common mistakes
 
 -   **Using parallel wiring by default:** can keep PV voltage too low for MPPT to charge efficiently in some setups.
