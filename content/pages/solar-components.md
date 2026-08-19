@@ -24,6 +24,8 @@ Panel output is measured in watts. Larger panels produce more energy, but output
 
 <a href="solar-panel-output.html" class="text-link">Calculate panel output →</a>
 
+{{< product-box asin="B07GF5JY35" name="Renogy 100W 12V Monocrystalline Panel" label="The reference panel" description="The module most component guides describe by default — monocrystalline, IP67, and the mounting and branch-connector ecosystem every other component assumes." button="Check price on Amazon" >}}
+
 ## Inverters
 
 Inverters transform DC to AC. Micro-inverters optimize per panel, while string inverters are simpler and often cheaper.
@@ -35,6 +37,8 @@ Inverters transform DC to AC. Micro-inverters optimize per panel, while string i
 Charge controllers regulate energy going into batteries. MPPT models typically improve efficiency over PWM models.
 
 <a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM</a> <a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V systems</a>
+
+{{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="The reference controller" description="The charge controller component diagrams are drawn around — MPPT efficiency, 12/24V auto-detect, lithium presets, and Bluetooth monitoring as the standard feature set." button="Check price on Amazon" >}}
 
 ## Next logical reads
 

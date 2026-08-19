@@ -50,6 +50,8 @@ If the inverter shuts off when a device starts (fridge compressor, pump, microwa
 
 <a href="solar-inverter-sizing.html" class="text-link">Inverter sizing guide</a> <a href="pure-sine-vs-modified-sine-inverter.html" class="text-link">Pure sine vs modified sine (compatibility)</a>
 
+{{< product-box asin="B018CLOSTC" name="Klein Tools MM600 Multimeter" label="Measure before you guess" description="Every shutdown diagnosis starts with real numbers — battery voltage at the terminals, voltage at the inverter input, under load. A 1000V-rated auto-ranging meter is the tool that settles overload vs undervoltage." button="Check price on Amazon" >}}
+
 ## Cause 2: low battery voltage (real) vs voltage drop (wiring)
 
 This is the most common “mystery” shutdown: the battery reads fine at rest, but the inverter trips low voltage under load.
@@ -77,6 +79,8 @@ High current at 12V (and sometimes 24V) punishes long battery cable runs and mar
 If you’re pushing a lot of power through a 12V inverter, shutdowns can be a design signal. Higher system voltage usually reduces current and makes stable performance easier.
 
 <a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose solar system voltage</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V</a>
+
+{{< product-box asin="B08B7VPWD4" name="IWISS Battery Lug Crimper (10–2/0 AWG)" label="Fix the drop at the lug" description="Voltage-drop shutdowns are usually a connection problem dressed up as a battery problem. A proper hex crimper turns tighten-by-hope lugs into the low-resistance joints the math assumes." button="Check price on Amazon" >}}
 
 ## Cause 3: overheating / poor airflow
 

@@ -205,6 +205,8 @@ For many off-grid and RV use cases, waveform matters for compatibility.
 
 <a href="pure-sine-vs-modified-sine-inverter.html" class="text-link">Pure sine vs modified sine wave</a> <a href="micro-vs-string-inverters.html" class="text-link">Micro vs string inverters (grid-tied)</a>
 
+{{< product-box asin="B081CLPDT9" name="Renogy 2000W 12V Pure Sine Inverter" label="When the math says 2000W" description="If your load list lands in the 1500–2000W continuous range, this is the honest default: pure sine for electronics and motors, remote switch, and cables in the box — no surge-headroom upsell." button="Check price on Amazon" >}}
+
 ## Worked example: small off-grid cabin
 
 Loads running together: refrigerator (200W), LED lighting (300W), laptop + phone charging (100W), microwave (1,500W input — a "1,000W output" microwave draws ~1,400–1,600W from the bank).
