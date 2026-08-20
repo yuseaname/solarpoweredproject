@@ -1,0 +1,18 @@
+{{ $items := .Site.Data.navigation.main }}
+<header class="site-header" id="main-nav">
+  <div class="nav-shell">
+    <a class="brand-lockup" href="{{ "/" | relURL }}" aria-label="Solar Powered Project home">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span><strong>Solar Powered</strong><em>Project</em></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      {{ range $items }}<a href="{{ .url | relURL }}">{{ .name }}</a>{{ end }}
+    </nav>
+    <a class="nav-utility desktop-only" href="{{ "/pages/solar-system-sizing.html" | relURL }}">Size my system <span aria-hidden="true">↗</span></a>
+    <button class="menu-toggle" id="nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-panel" id="mobile-menu" hidden>
+    <nav aria-label="Mobile navigation">{{ range $items }}<a href="{{ .url | relURL }}"><strong>{{ .name }}</strong><small>{{ .description }}</small></a>{{ end }}</nav>
+    <a class="button button-solar mobile-sizing" href="{{ "/pages/solar-system-sizing.html" | relURL }}">Size my system <span aria-hidden="true">→</span></a>
+  </div>
+</header>

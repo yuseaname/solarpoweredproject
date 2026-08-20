@@ -1,0 +1,36 @@
+main:
+  - name: Start Here
+    url: /pages/solar-basics.html
+    description: Solar fundamentals and the right first questions.
+  - name: Plan a System
+    url: /system-planner.html
+    description: Size panels, batteries, inverters, and wiring.
+  - name: Costs & Payback
+    url: /guides.html
+    description: Costs, incentives, financing, and tradeoffs.
+  - name: Build & Fix
+    url: /pages/wiring-decisions.html
+    description: Installation choices, protection, and troubleshooting.
+  - name: Project Lab
+    url: /diy-off-grid-energy.html
+    description: Honest experiments in alternative generation.
+  - name: Search
+    url: /search.html
+    description: Find a specific question or component.
+footer:
+  - name: About
+    url: /pages/about.html
+  - name: Editorial Policy
+    url: /pages/editorial-policy.html
+  - name: Methodology
+    url: /methodology.html
+  - name: Corrections
+    url: /corrections.html
+  - name: Contact
+    url: /pages/contact.html
+  - name: Privacy
+    url: /pages/privacy-policy.html
+  - name: Affiliate Disclosure
+    url: /pages/affiliate-disclosure.html
+  - name: Terms
+    url: /pages/terms.html

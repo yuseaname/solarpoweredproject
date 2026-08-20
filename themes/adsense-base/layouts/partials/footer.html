@@ -1,12 +1,63 @@
 <footer class="site-footer" role="contentinfo">
-  <div class="footer-shell">
-    <div class="footer-intro">
-      <a class="brand-lockup brand-lockup-footer" href="{{ "/" | relURL }}"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span><strong>Solar Powered</strong><em>Project</em></span></a>
-      <p>Practical field guides for independent power systems—built around clear assumptions, safe boundaries, and the next useful decision.</p>
-      <a class="footer-start" href="{{ "/pages/solar-system-sizing.html" | relURL }}">Start with system sizing <span aria-hidden="true">→</span></a>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-14">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      <!-- Brand column -->
+      <div class="sm:col-span-2 lg:col-span-1">
+        <a href="{{ .Site.BaseURL | relURL }}" class="flex items-center gap-2 text-sm font-bold footer-brand">
+          <svg class="w-5 h-5 footer-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+          </svg>
+          {{ .Site.Params.site_name | default .Site.Title }}
+        </a>
+        {{ with .Site.Params.description }}
+        <p class="footer-desc mt-3">{{ . }}</p>
+        {{ end }}
+        <p class="footer-copy mt-4">© {{ now.Year }} {{ .Site.Params.site_name | default .Site.Title }}. All rights reserved.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h3 class="footer-heading">Guides</h3>
+        <ul class="footer-list">
+          <li><a href="/" class="footer-link">Home</a></li>
+          <li><a href="/blog/" class="footer-link">All Guides</a></li>
+          <li><a href="/about/" class="footer-link">About</a></li>
+          <li><a href="/contact/" class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Categories -->
+      <div>
+        <h3 class="footer-heading">Topics</h3>
+        <ul class="footer-list">
+          {{ $cats := .Site.Taxonomies.categories }}
+          {{ range first 6 (sort $cats "Count" "desc") }}
+          <li><a href="{{ .Page.RelPermalink }}" class="footer-link">{{ .Page.Title | default (humanize (path.Base .Page.RelPermalink)) | title }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <!-- Trust & Policies -->
+      <div>
+        <h3 class="footer-heading">Trust &amp; Legal</h3>
+        <ul class="footer-list">
+          <li><a href="/editorial-team/" class="footer-link">Editorial Team</a></li>
+          <li><a href="/editorial-policy/" class="footer-link">Editorial Policy</a></li>
+          <li><a href="/methodology/" class="footer-link">Methodology</a></li>
+          <li><a href="/corrections/" class="footer-link">Corrections</a></li>
+          <li><a href="/privacy-policy/" class="footer-link">Privacy Policy</a></li>
+          <li><a href="/terms/" class="footer-link">Terms</a></li>
+          <li><a href="/disclaimer/" class="footer-link">Disclaimer</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="footer-links"><h2>Explore</h2>{{ range .Site.Data.navigation.main }}{{ if ne .name "Search" }}<a href="{{ .url | relURL }}">{{ .name }}</a>{{ end }}{{ end }}</div>
-    <div class="footer-links"><h2>Trust & contact</h2>{{ range .Site.Data.navigation.footer }}<a href="{{ .url | relURL }}">{{ .name }}</a>{{ end }}</div>
+
+    <!-- AdSense disclosure -->
+    <div class="footer-disclosure">
+      <p>
+        This site may display advertisements provided by third parties. Ad placements are automated and not personally endorsed.
+        {{ with .Site.Params.adsense.client_id }}We use Google AdSense to serve ads.{{ end }}
+      </p>
+    </div>
   </div>
-  <div class="footer-meta"><p>© {{ now.Year }} Solar Powered Project. Practical guidance, not electrical, legal, tax, or engineering advice.</p><p>This site may show advertisements. Advertising does not direct editorial coverage.</p></div>
 </footer>

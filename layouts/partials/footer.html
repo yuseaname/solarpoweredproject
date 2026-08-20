@@ -1,0 +1,12 @@
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-shell">
+    <div class="footer-intro">
+      <a class="brand-lockup brand-lockup-footer" href="{{ "/" | relURL }}"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span><strong>Solar Powered</strong><em>Project</em></span></a>
+      <p>Practical field guides for independent power systems—built around clear assumptions, safe boundaries, and the next useful decision.</p>
+      <a class="footer-start" href="{{ "/pages/solar-system-sizing.html" | relURL }}">Start with system sizing <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="footer-links"><h2>Explore</h2>{{ range .Site.Data.navigation.main }}{{ if ne .name "Search" }}<a href="{{ .url | relURL }}">{{ .name }}</a>{{ end }}{{ end }}</div>
+    <div class="footer-links"><h2>Trust & contact</h2>{{ range .Site.Data.navigation.footer }}<a href="{{ .url | relURL }}">{{ .name }}</a>{{ end }}</div>
+  </div>
+  <div class="footer-meta"><p>© {{ now.Year }} Solar Powered Project. Practical guidance, not electrical, legal, tax, or engineering advice.</p><p>This site may show advertisements. Advertising does not direct editorial coverage.</p></div>
+</footer>

@@ -1,0 +1,4 @@
+{{- $pos := .position -}}{{- $ctx := .ctx -}}{{- $client := $ctx.Site.Params.adsense.client_id -}}{{- $slots := $ctx.Site.Params.adsense.slots -}}
+{{- if and $client $slots -}}{{- with index $slots $pos -}}
+<aside class="ad-region ad-region-{{ $pos }}" aria-label="Advertisement"><span class="ad-label">Advertisement</span><div class="ad-slot"><ins class="adsbygoogle" style="display:block" data-ad-client="{{ $client }}" data-ad-slot="{{ .id }}" data-ad-format="{{ .format | default "auto" }}" data-full-width-responsive="{{ .responsive | default "true" }}"></ins></div><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></aside>
+{{- end -}}{{- end -}}

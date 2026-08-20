@@ -1,0 +1,31 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f1e5">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap"></noscript>
+<link rel="stylesheet" href="/css/tailwind.css">
+{{ with resources.Get "css/design-system.css" | resources.Minify | resources.Fingerprint "sha512" }}<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">{{ end }}
+<title>{{ if .IsHome }}Solar Powered Project | Practical independent power guides{{ else }}{{ .Title }} | Solar Powered Project{{ end }}</title>
+{{ $description := .Params.description | default .Site.Params.description }}{{ with $description }}<meta name="description" content="{{ truncate 155 . }}">{{ end }}
+{{ with .Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+<link rel="canonical" href="{{ .Params.canonical | default .Permalink }}">
+{{ with .Site.Params.favicon }}<link rel="icon" href="{{ . }}">{{ end }}
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:title" content="{{ if .IsHome }}Solar Powered Project{{ else }}{{ .Title }}{{ end }}">
+{{ with $description }}<meta property="og:description" content="{{ truncate 155 . }}">{{ end }}
+<meta property="og:url" content="{{ .Permalink }}"><meta property="og:site_name" content="Solar Powered Project">
+{{ with .Params.image }}<meta property="og:image" content="{{ . | absURL }}">{{ else }}{{ with .Site.Params.og_image }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}{{ end }}
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{{ .Title }}">{{ with $description }}<meta name="twitter:description" content="{{ truncate 155 . }}">{{ end }}
+{{ if .Params.noindex }}<meta name="robots" content="noindex, nofollow">{{ end }}
+{{ partial "head.schema.html" . }}
+{{ with .Site.Params.adsense.client_id }}<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ . }}" crossorigin="anonymous"></script>{{ end }}
+{{ with .Site.Params.google_site_verification }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
+{{ with .Site.Params.google_analytics }}<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ . }}');
+</script>{{ end }}

@@ -1,1 +1,43 @@
-{{ define "main" }}<section class="hub-shell">{{ partial "breadcrumbs.html" . }}<header class="hub-header"><p class="section-kicker">Field guide library</p><h1>{{ .Title }}</h1>{{ with .Params.description }}<p>{{ . }}</p>{{ end }}</header><div class="hub-list">{{ range .RegularPages.ByTitle }}<article><p class="eyebrow">Field guide</p><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2><p>{{ .Params.description | default (truncate 160 .Plain) }}</p><a class="arrow-link" href="{{ .RelPermalink }}">Read guide <span aria-hidden="true">→</span></a></article>{{ end }}</div></section>{{ end }}
+{{ define "main" }}
+<div class="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+
+  {{ partial "breadcrumbs.html" . }}
+
+  <!-- Page Header -->
+  <header class="mb-10">
+    <h1 class="text-3xl sm:text-4xl font-bold text-gray-900">{{ .Title }}</h1>
+    {{ with .Params.description }}<p class="text-lg text-gray-600 mt-2 max-w-2xl">{{ . }}</p>{{ end }}
+  </header>
+
+  {{/* Page body content */}}
+  {{ .Content }}
+
+  {{/* Ad: top of list */}}
+  {{ if .Site.Params.adsense.client_id }}{{ partial "adsense.html" (dict "position" "below_title" "ctx" .) }}{{ end }}
+
+  <!-- Articles Grid -->
+  <div class="section-grid">
+    {{ range .RegularPages }}
+      <article class="card">
+        <a href="{{ .RelPermalink }}" class="block">
+          {{ with .Params.image }}
+            <div class="overflow-hidden">
+              <img src="{{ . }}" alt="{{ $.Title }}" class="card-image" loading="lazy">
+            </div>
+          {{ end }}
+          <div class="card-body">
+            <h2 class="card-title">{{ .Title }}</h2>
+            <p class="card-text">{{ .Params.description | default (truncate 120 .Plain) }}</p>
+            <div class="flex items-center justify-between mt-3">
+              <time datetime="{{ .Date.Format "2006-01-02" }}" class="card-meta">{{ .Date.Format "Jan 2, 2006" }}</time>
+              <span class="text-xs text-gray-400">{{ .ReadingTime }} min read</span>
+            </div>
+          </div>
+        </a>
+      </article>
+    {{ end }}
+  </div>
+
+  {{ template "_internal/pagination.html" . }}
+</div>
+{{ end }}
