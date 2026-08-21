@@ -184,3 +184,6 @@ No. Use devices explicitly rated for DC at your system voltage. DC interrupt rat
 - [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
 - [DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)](/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html)
 - [Solar Wire Size: How to Choose the Right Gauge (Voltage Drop + Safety)](/pages/solar-wire-size.html)
+- [What Size Solar Generator to Run a Refrigerator?](/pages/what-size-solar-generator-run-refrigerator.html)
+- [How Long Will a 100Ah Battery Run?](/pages/how-long-will-100ah-battery-run.html)
+- [CPAP Battery Backup: Sizing and Run Times](/pages/cpap-battery-backup-guide.html)
