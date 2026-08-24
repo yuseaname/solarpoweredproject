@@ -20,13 +20,6 @@ disableKinds = ['taxonomy', 'term']
   # Central affiliate swap-point — change here, every Amazon link updates sitewide.
   amazon_tag = 'litwd-20'
 
-  [params.adsense]
-    client_id = 'ca-pub-5566942094411042'
-    [params.adsense.slots]
-      below_title = { id = '9770352885', format = 'auto', responsive = 'true' }
-      mid_article = { id = '7429084400', format = 'auto', responsive = 'true' }
-      end_article = { id = '3364726638', format = 'auto', responsive = 'true' }
-
   [params.rybbit]
     instance_url = 'https://app.rybbit.io'
     site_id = 'afb6050c297b'

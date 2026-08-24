@@ -314,20 +314,6 @@ h1 {
   box-shadow: 0 10px 24px rgba(15, 26, 34, 0.08);
 }
 
-.ad-slot {
-  background: linear-gradient(90deg, rgba(239, 123, 69, 0.1), rgba(72, 128, 156, 0.1));
-  border: 1px dashed rgba(15, 26, 34, 0.18);
-  border-radius: 12px;
-  padding: 16px;
-  text-align: center;
-  color: var(--muted);
-  font-size: 0.9rem;
-}
-
-.ad-slot:empty {
-  display: none;
-}
-
 .table-wrap {
   overflow-x: auto;
   border-radius: 12px;

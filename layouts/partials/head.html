@@ -20,7 +20,6 @@
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{{ .Title }}">{{ with $description }}<meta name="twitter:description" content="{{ truncate 155 . }}">{{ end }}
 {{ if .Params.noindex }}<meta name="robots" content="noindex, nofollow">{{ end }}
 {{ partial "head.schema.html" . }}
-{{ with .Site.Params.adsense.client_id }}<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ . }}" crossorigin="anonymous"></script>{{ end }}
 {{ with .Site.Params.google_site_verification }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
 {{ with .Site.Params.google_analytics }}<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
 <script>
