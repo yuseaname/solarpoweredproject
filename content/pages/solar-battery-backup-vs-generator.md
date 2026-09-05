@@ -9,6 +9,11 @@ image = "/images/solar-battery-backup-vs-generator/hero.webp"
 author = "Solar Powered Project"
 image_width = 1536
 image_height = 864
+related = [
+  "/pages/ac-vs-dc-coupled-solar-systems.html",
+  "/pages/solar-battery-cost-2026.html",
+  "/pages/solar-generator.html"
+]
 +++
 
 {{< affiliate-disclosure >}}

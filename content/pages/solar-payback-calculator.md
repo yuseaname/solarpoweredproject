@@ -10,6 +10,11 @@ image_alt = "Editorial still life of solar planning tools for payback calculatio
 author = "Solar Powered Project"
 image_width = 1024
 image_height = 576
+related = [
+  "/pages/solar-net-metering-explained.html",
+  "/pages/net-metering-by-state-2026.html",
+  "/pages/solar-lease-vs-buy-2026.html"
+]
 +++
 
 # Solar Payback Calculator

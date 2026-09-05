@@ -9,6 +9,11 @@ image = "/images/best-solar-panels-small-roof/hero.webp"
 author = "Solar Powered Project"
 image_width = 1536
 image_height = 864
+related = [
+  "/pages/best-solar-panels-for-home-2026.html",
+  "/pages/solar-panel-output-per-square-foot.html",
+  "/pages/solar-panel-efficiency.html"
+]
 +++
 
 {{< affiliate-disclosure >}}

@@ -9,6 +9,11 @@ image = "/images/how-to-choose-solar-inverter/hero.webp"
 author = "Solar Powered Project"
 image_width = 1536
 image_height = 1024
+related = [
+  "/pages/ac-vs-dc-coupled-solar-systems.html",
+  "/pages/solar-inverter-cost.html",
+  "/pages/how-to-choose-solar-system-voltage.html"
+]
 +++
 
 

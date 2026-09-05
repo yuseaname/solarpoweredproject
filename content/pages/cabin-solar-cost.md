@@ -9,6 +9,11 @@ image = "/images/cabin-solar-cost/hero.webp"
 author = "Solar Powered Project"
 image_width = 1536
 image_height = 1024
+related = [
+  "/pages/solar-power-mobile-homes.html",
+  "/pages/cabin-solar-sizing.html",
+  "/pages/cabin-solar-vs-generator.html"
+]
 +++
 
 

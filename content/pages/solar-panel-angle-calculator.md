@@ -20,6 +20,98 @@ Optimizing the angle of your solar panels is one of the most critical steps in m
 -   **Orientation matters as much as angle:** In the Northern Hemisphere, panels must face true south; in the Southern Hemisphere, true north.
 -   **Fixed vs. Tracking systems:** While fixed mounts are cheaper (averaging $150–$300 per panel), tracking systems can increase efficiency by 25% or more at a higher upfront cost.
 
+## The calculator: your tilt angles in one step
+
+<form id="angle-form" class="space-y-4 p-4 bg-gray-50 rounded-lg border border-gray-200">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+    <div>
+      <label class="block text-sm font-medium text-gray-700" for="latitude">Your latitude (degrees, north positive)</label>
+      <input type="number" id="latitude" value="35" min="-66" max="66" step="0.1" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+    </div>
+    <div>
+      <label class="block text-sm font-medium text-gray-700" for="mount-type">Mounting type</label>
+      <select id="mount-type" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+        <option value="fixed" selected>Fixed (never adjusted)</option>
+        <option value="seasonal">Adjustable twice a year</option>
+      </select>
+    </div>
+  </div>
+  <button type="button" id="calc-angle" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Calculate tilt angles</button>
+</form>
+
+<div id="angle-results" class="mt-6 hidden">
+  <h3>Your recommended tilt</h3>
+  <table>
+  <thead><tr><th>Strategy</th><th>Tilt from horizontal</th></tr></thead>
+  <tbody>
+    <tr><td>Fixed, year-round</td><td id="res-fixed"></td></tr>
+    <tr><td>Summer position (Apr–Sep)</td><td id="res-summer"></td></tr>
+    <tr><td>Winter position (Oct–Mar)</td><td id="res-winter"></td></tr>
+  </tbody>
+  </table>
+  <p id="res-notes"></p>
+</div>
+
+<div class="calc-actions hidden mt-3" data-target="angle-results">
+  <button type="button" class="calc-copy px-3 py-1.5 text-sm font-medium rounded-md border border-gray-300 bg-white hover:bg-gray-50">Copy results</button>
+  <button type="button" class="calc-print px-3 py-1.5 text-sm font-medium rounded-md border border-gray-300 bg-white hover:bg-gray-50">Print</button>
+  <span class="calc-copied hidden text-sm text-green-600 ml-2">Copied!</span>
+</div>
+
+{{< toolscript id="calc-actions-angle-results" >}}
+(function(){
+  var actions = document.querySelector('.calc-actions[data-target="angle-results"]');
+  var target = document.getElementById('angle-results');
+  if (!actions || !target) return;
+  function show(){ if (target.innerHTML.trim() !== '') actions.classList.remove('hidden'); }
+  new MutationObserver(show).observe(target, {childList: true, subtree: true, characterData: true});
+  show();
+  actions.querySelector('.calc-copy').addEventListener('click', function(){
+    var text = target.innerText.trim();
+    function done(){
+      var ok = actions.querySelector('.calc-copied');
+      ok.classList.remove('hidden');
+      setTimeout(function(){ ok.classList.add('hidden'); }, 2000);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done).catch(function(){
+        var ta = document.createElement('textarea');
+        ta.value = text; document.body.appendChild(ta); ta.select();
+        try { document.execCommand('copy'); done(); } catch(e){}
+        document.body.removeChild(ta);
+      });
+    }
+  });
+  actions.querySelector('.calc-print').addEventListener('click', function(){ window.print(); });
+})();
+{{< /toolscript >}}
+
+{{< toolscript id="angle-calc" >}}
+  function clampTilt(v){ return Math.max(0, Math.round(v * 10) / 10); }
+  function calculate(){
+    var lat = parseFloat(document.getElementById('latitude').value) || 0;
+    var mode = document.getElementById('mount-type').value;
+    var fixed = clampTilt(Math.abs(lat) * 0.76 + 3.1);
+    var summer = clampTilt(Math.abs(lat) - 15);
+    var winter = clampTilt(Math.abs(lat) + 15);
+    document.getElementById('res-fixed').textContent = fixed + '°';
+    document.getElementById('res-summer').textContent = mode === 'seasonal' ? summer + '°' : summer + '° (if adjustable)';
+    document.getElementById('res-winter').textContent = mode === 'seasonal' ? winter + '°' : winter + '° (if adjustable)';
+    var notes = [];
+    notes.push(lat >= 0 ? 'Face panels to true south (solar south), not magnetic south.' : 'Face panels to true north (solar north), not magnetic north.');
+    if (Math.abs(lat) > 45) notes.push('High latitude (' + Math.abs(lat).toFixed(1) + '°): a steeper winter tilt also helps shed snow.');
+    if (summer === 0) notes.push('Summer tilt clamps at 0° (flat): at low latitudes, flatten rather than tilt negative.');
+    if (mode === 'fixed') notes.push('Fixed tilt shown maximizes annual yield; expect 3–7% less in winter and summer than a twice-yearly adjustment would capture.');
+    notes.push('Magnetic declination can shift solar south from compass south by 0–20° depending on location — check your local declination.');
+    document.getElementById('res-notes').textContent = notes.join(' ');
+    document.getElementById('angle-results').classList.remove('hidden');
+  }
+  document.getElementById('calc-angle').addEventListener('click', calculate);
+  calculate();
+{{< /toolscript >}}
+
+The formulas behind these numbers — and when to trust them — are explained below.
+
 ## Understanding the Fundamentals of Solar Geometry
 
 To calculate the perfect angle, you must first understand how the sun moves across the sky. The sun's position changes based on two primary factors: your latitude (how far you are from the equator) and the season (the Earth's axial tilt).
@@ -79,17 +171,11 @@ For users living in much higher latitudes (above 45°), the sun stays very low e
 ### Summary Table for Common US Latitudes
 
 | Location | Approx. Latitude | Fixed Tilt (Annual Max) | Summer Tilt (Low) | Winter Tilt (High) |
-
 | :--- | :--- | :--- | :--- | :--- |
-
 | Seattle, WA | 47° N | 38.8° | 32° | 62° |
-
 | Denver, CO | 39° N | 32.7° | 24° | 54° |
-
 | Los Angeles, CA | 34° N | 28.9° | 19° | 49° |
-
 | Houston, TX | 29° N | 25.1° | 14° | 44° |
-
 | Miami, FL | 25° N | 22.1° | 10° | 40° |
 
 ## Comparing Mounting Systems: Fixed, Seasonal, and Tracking

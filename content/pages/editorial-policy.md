@@ -21,9 +21,9 @@ For claims that materially affect safety, policy, cost, performance, or equipmen
 
 Costs, incentives, technology, and equipment specifications change. We may update an article to clarify assumptions, repair links, correct errors, or refresh time-sensitive material. A publication or review date does not mean a claim was independently tested unless that testing is specifically described.
 
-## Advertising independence
+## Funding independence
 
-Solar Powered Project is ad-supported. Advertising partners do not direct editorial coverage or determine conclusions. Advertisements are visually separated from editorial navigation and primary interactive controls.
+Solar Powered Project is reader-supported through affiliate commissions (see our [affiliate disclosure](affiliate-disclosure.html) and [how we pick products](how-we-recommend.html)). No brand pays for coverage, receives drafts, or approves content, and commissions never determine conclusions. Links that earn commissions are marked as sponsored.
 
 ## Product, cost, and comparison content
 

@@ -9,6 +9,11 @@ image = "/images/solar-panel-degradation-rate/hero.webp"
 author = "Solar Powered Project"
 image_width = 1536
 image_height = 864
+related = [
+  "/pages/how-long-do-solar-panels-last.html",
+  "/pages/solar-panel-efficiency.html",
+  "/pages/read-solar-panel-specs-sheet.html"
+]
 +++
 
 \# Understanding Solar Panel Degradation Rate: A Homeowner’s Guide to Long-Term ROI

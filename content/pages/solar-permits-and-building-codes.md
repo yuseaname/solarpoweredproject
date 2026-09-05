@@ -7,6 +7,11 @@ draft = false
 description = "Solar panel permits and building codes explained: NEC requirements, AHJ variations, off-grid vs grid-tied rules, RV exemptions, and how to navigate the permitting process."
 author = "Solar Powered Project"
 
+related = [
+  "/pages/install-solar-panels-yourself.html",
+  "/pages/common-solar-installation-mistakes.html",
+  "/pages/solar-installation-safety-guide.html"
+]
 +++
 
 ## Key takeaways

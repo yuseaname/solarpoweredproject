@@ -9,6 +9,11 @@ image = "/images/solar-battery-cost-per-kwh/hero.webp"
 author = "Solar Powered Project"
 image_width = 1536
 image_height = 1024
+related = [
+  "/pages/how-much-do-solar-batteries-cost.html",
+  "/pages/solar-battery-cost-2026.html",
+  "/pages/battery-capacity.html"
+]
 +++
 
 

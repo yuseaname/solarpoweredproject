@@ -7,6 +7,11 @@ draft = false
 description = "State-by-state solar export compensation for 2026: which states keep full retail net metering, which pay avoided cost, and how Texas buyback plans work. With the federal tax credit gone, this table decides your payback."
 author = "Solar Powered Project"
 updated = 2026-08-15
+related = [
+  "/pages/solar-net-metering-explained.html",
+  "/pages/solar-payback-calculator.html",
+  "/pages/solar-panel-tax-credit.html"
+]
 +++
 
 ## Key takeaways

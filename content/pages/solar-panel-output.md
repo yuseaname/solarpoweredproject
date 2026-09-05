@@ -13,6 +13,7 @@ keywords = ["solar panel output calculator", "solar panel watt hours", "daily so
 image_width = 1024
 image_height = 768
 related = [
+  "/pages/solar-panels-vs-wind-turbines.html",
   "/pages/solar-output-troubleshooting.html",
   "/pages/solar-panel-shading-effects.html",
   "/pages/solar-panel-tilt-and-orientation.html"

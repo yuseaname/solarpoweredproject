@@ -9,6 +9,11 @@ image = "/images/how-much-do-solar-panels-cost/hero.webp"
 author = "Solar Powered Project"
 image_width = 1536
 image_height = 1024
+related = [
+  "/pages/solar-water-heater.html",
+  "/pages/solar-panel-cost-per-watt.html",
+  "/pages/solar-payback-calculator.html"
+]
 +++
 
 

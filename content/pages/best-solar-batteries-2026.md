@@ -9,6 +9,11 @@ image = "/assets/images/best-solar-batteries-2026/best-solar-batteries-2026-hero
 author = "Solar Powered Project"
 image_width = 1200
 image_height = 630
+related = [
+  "/pages/how-much-do-solar-batteries-cost.html",
+  "/pages/solar-battery-cost-per-kwh.html",
+  "/pages/li-ion-vs-lead-acid.html"
+]
 +++
 
 {{< affiliate-disclosure >}}
