@@ -13,7 +13,7 @@ description = "Massachusetts solar panel cost guide for 2026: price per watt, sy
 
 As of mid-2026, the average solar panel cost in Massachusetts is **$2.90 – $3.40 per watt installed** — among the higher-cost states. A typical **8–9 kW** residential system costs roughly **$23,200 – $30,600**. The 30% federal ITC expired December 31, 2025, but Massachusetts softens the blow better than most states: the SMART production program pays for every kWh your system generates, the state adds a 15% tax credit (capped at $1,000), and net metering is available for most residential systems.
 
-Massachusetts homeowners pay some of the highest electricity rates in the country — near **$0.30/kWh** — with **3.5–4.5 peak sun hours per day**. High rates offset modest sun; with SMART income included, simple payback typically runs **9–13 years**.
+Massachusetts homeowners pay some of the highest electricity rates in the country — at **29.61¢/kWh** ([EIA Electric Power Monthly, Table 5.6.A, June 2026](https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a), retrieved 2026-09-05) — with **3.5–4.5 peak sun hours per day**. High rates offset modest sun; with SMART income included, simple payback typically runs **9–13 years**.
 
 ## Average Solar Panel Cost Massachusetts 2026 Breakdown
 
@@ -53,11 +53,11 @@ With the federal credit gone, SMART income is Massachusetts's main lever — it 
 
 ## Payback Period and Long-Term Savings
 
-An 8 kW system generating ~10,000 kWh/year at $0.30/kWh avoids roughly **$3,000/year** in electricity. Add SMART payments (block-rate dependent) and the effective payback lands around **9–13 years** — competitive with sunnier states despite New England weather, purely because rates are so high. Over 25 years, cumulative savings plus SMART income can exceed **$70,000** before utility rate escalation.
+An 8 kW system generating ~10,000 kWh/year at 29.61¢/kWh avoids roughly **$2,960/year** in electricity. Add SMART payments (block-rate dependent) and the effective payback lands around **9–13 years** — competitive with sunnier states despite New England weather, purely because rates are so high. Over 25 years, cumulative savings plus SMART income can exceed **$70,000** before utility rate escalation.
 
 ## Is Solar Worth It in Massachusetts in 2026?
 
-For most homeowners with a suitable roof, **yes — Massachusetts is one of the better post-credit states**. The combination of ~$0.30/kWh rates, SMART production income, the state credit, and net metering replaces much of the lost federal subsidy. Snow load and shading matter more here than in most states — favor south-facing, unshaded roof planes and confirm SMART block availability before signing.
+For most homeowners with a suitable roof, **yes — Massachusetts is one of the better post-credit states**. The combination of ~30¢/kWh rates, SMART production income, the state credit, and net metering replaces much of the lost federal subsidy. Snow load and shading matter more here than in most states — favor south-facing, unshaded roof planes and confirm SMART block availability before signing.
 
 ## FAQ
 

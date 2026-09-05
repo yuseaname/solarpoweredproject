@@ -13,7 +13,7 @@ description = "Nevada solar panel cost guide for 2026: price per watt, NV Energy
 
 As of mid-2026, the average solar panel cost in Nevada is **$2.50 – $2.90 per watt installed**. A typical **8–10 kW** residential system costs roughly **$20,000 – $29,000**. The 30% federal ITC expired December 31, 2025 — but Nevada counters with the best sun in the country and AB 405 net metering credits at roughly 75% of retail, locked for 20 years at interconnection.
 
-Nevada homeowners pay an average residential electricity rate near **$0.15/kWh** and enjoy **6.5–7.0 peak sun hours per day** — the strongest solar resource of any state. Simple payback typically runs **10–13 years** for 2026 purchases.
+Nevada homeowners pay an average residential electricity rate near **13.11¢/kWh** — the lowest residential rate in the nation ([EIA Electric Power Monthly, Table 5.6.A, June 2026](https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a), retrieved 2026-09-05) and enjoy **6.5–7.0 peak sun hours per day** — the strongest solar resource of any state. Simple payback typically runs **10–13 years** for 2026 purchases.
 
 ## Average Solar Panel Cost Nevada 2026 Breakdown
 
@@ -53,11 +53,11 @@ With the federal credit gone, the 20-year locked export credit plus world-class 
 
 ## Payback Period and Long-Term Savings
 
-A 9 kW system generating ~16,500 kWh/year (realistic with 6.5+ sun hours) at $0.15/kWh avoids roughly **$2,475/year**, plus export credits near 75% of retail on surplus. Simple payback runs **10–13 years** for 2026 purchases; every TOU shift and future rate hike pulls it earlier. Over 25 years, cumulative savings can exceed **$60,000** before rate escalation.
+A 9 kW system generating ~16,500 kWh/year (realistic with 6.5+ sun hours) at 13.11¢/kWh avoids roughly **$2,160/year**, plus export credits near 75% of retail on surplus. Simple payback runs **10–13 years** for 2026 purchases; every TOU shift and future rate hike pulls it earlier. Over 25 years, cumulative savings can exceed **$60,000** before rate escalation.
 
 ## Is Solar Worth It in Nevada in 2026?
 
-For most homeowners with usable roof space, **yes**. The sun resource is unbeatable, installation costs are moderate, and the 20-year rate lock on export credits provides rare certainty. The watch-item is NV Energy's rate level itself — at ~$0.15/kWh, payback is decent but not spectacular; larger AC + EV households benefit most. Get quotes from at least three installers and confirm the current AB 405 tier percentage before signing.
+For most homeowners with usable roof space, **yes**. The sun resource is unbeatable, installation costs are moderate, and the 20-year rate lock on export credits provides rare certainty. The watch-item is NV Energy's rate level itself — at ~13¢/kWh, payback is decent but not spectacular; larger AC + EV households benefit most. Get quotes from at least three installers and confirm the current AB 405 tier percentage before signing.
 
 ## FAQ
 

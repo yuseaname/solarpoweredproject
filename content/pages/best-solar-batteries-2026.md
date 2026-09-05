@@ -49,7 +49,7 @@ These are the four installed classes you'll actually see quoted, plus the DIY ra
 | **Tesla Powerwall 3** | 13.5 kWh usable | 11.5 kW off-grid; 10 kW grid-tied | Li-ion (chemistry not broken out on Tesla's public spec sheet; published spec roundups list NMC) | 10 years, ≥70% capacity retention, unlimited cycles | Multiple units per system — current spec sheets commonly cite up to 4 units per system |
 | **Enphase IQ Battery 5P** | 5.0 kWh usable per module | 3.84 kW per module | LiFePO4 (LFP) | 15 years, ≥60% capacity retention | Modular — add units in 5 kWh steps |
 | **FranklinWH aPower 2** | 15 kWh (manufacturer-listed) | 10 kW | LiFePO4 (LFP) | 15 years, 60 MWh throughput | Up to 15 units per aGate (225 kWh) |
-| **EG4 48V rack class (LL-S 48V 100Ah / WallMount Indoor 100Ah)** | 5.12 kWh per module (≈4.6 kWh usable at 90% DoD) | ~5.1 kW per module (100 A × 51.2 V — derived from the 100 A continuous BMS rating) | LiFePO4 (LFP) | 10 years (WallMount Indoor SKU; other SKUs vary) | Parallel up to 64 modules (LL-S) |
+| **EG4 48V DIY rack class (PowerVault / LL-S / WallMount Indoor)** | 5.12 kWh per module (≈4.6 kWh usable at 90% DoD) | ~5.1 kW per module (100 A × 51.2 V — derived from the 100 A continuous BMS rating) | LiFePO4 (LFP) | 10 years (WallMount Indoor SKU; other SKUs vary) | Parallel up to 64 modules (LL-S) |
 | **DIY LiFePO4 server-rack builds (class)** | 5–30 kWh per build | Set by your BMS and inverter choice | LiFePO4 (LFP) | Varies; cells and BMS often carry separate warranties | Rack-scale, fully configurable |
 
 Source notes: Powerwall 3 figures per Tesla's published spec sheet as summarized in spec roundups (tesla.com; thegreenwatt.com, retrieved 2026-09-05); Enphase IQ 5P figures per Enphase product documentation (15-yr warranty; 5.0 kWh usable; 3.84 kW continuous); FranklinWH aPower 2 per franklinwh.com product page (retrieved 2026-09-05); EG4 figures per eg4electronics.com product pages (retrieved 2026-09-05). Battery chemistry and continuous ratings change across generations — treat the table as a point-in-time snapshot, and ask your installer to confirm the exact SKU's datasheet.
@@ -89,6 +89,16 @@ The method from our <a href="/pages/li-ion-vs-lead-acid.html" class="text-link">
 **DIY 48V rack (EG4 class):** a 5.12 kWh module at ~$150–$300/kWh (equipment band) is **$770–$1,540 per module**. Stack two for ~10 kWh usable at 90% DoD for roughly **$1,500–$3,000 in batteries** — then add a hybrid inverter ($1,000–$3,000 class), rack, wiring, and your own labor. Lifetime cost per usable kWh lands closer to a tenth of the installed figure (same arithmetic as the $0.08/kWh LiFePO4 example on our li-ion page), because you're not paying for installation maturity.
 
 Those are planning bands, not quotes — regional labor and your utility's interconnection rules move the real number. Get three installed quotes *and* run the DIY math before deciding; the difference is usually five figures.
+
+The same comparison on a per-path basis looks like this (bands, not quotes):
+
+| Path | Bank size | All-in cost band | What's included | What's missing |
+| :--- | :--- | :--- | :--- | :--- |
+| Installed turnkey (Powerwall 3 / aPower 2 class) | 13.5–15 kWh | ~$13,500–$19,000 | Inverter, gateway, transfer switch, labor, permits, system warranty | You pay for installation maturity |
+| Installed modular (Enphase 5P, 3 modules) | ~15 kWh | ~$15,000–$21,000 (at $1,000–$1,400/kWh) | AC-coupled electronics, labor, permits, 15-yr warranty | Most $/kWh of the installed options |
+| DIY 48V rack (EG4 class, 2 modules) | ~10.2 kWh | ~$1,500–$3,000 in batteries + $1,000–$3,000 inverter | Hardware per module | No labor, no permits, no transfer logic — pack-level warranty only |
+
+All three rows use the same usable-kWh and cost bands as the rest of this page. The honest takeaway: DIY is ~4–7× cheaper in hardware because you are substituting your own labor, wiring, and troubleshooting for an installer's.
 
 ## Questions to ask an installer about any battery
 
