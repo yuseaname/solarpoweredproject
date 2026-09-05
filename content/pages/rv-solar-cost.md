@@ -11,6 +11,7 @@ image_width = 1536
 image_height = 1024
 +++
 
+{{< affiliate-disclosure >}}
 ## Key takeaways
 
 -   A realistic RV solar setup costs **$1,500–$4,000** for a system that handles daily off-grid use. Budget systems start around $700; high-capacity builds can exceed $10,000.

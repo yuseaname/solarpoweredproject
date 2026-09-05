@@ -27,9 +27,9 @@ Our focus is practical decision-making: what you want to power, the assumptions 
 
 We aim to show assumptions, explain variables, and link to sources where they materially affect safety, policy, cost, performance, or equipment choices. Read our [editorial policy](editorial-policy.html) and [methodology](/methodology.html) for details.
 
-## Advertising and independence
+## How we're funded
 
-Solar Powered Project is ad-supported. Advertising helps fund the publication, but advertising partners do not direct editorial coverage.
+Solar Powered Project is reader-supported. When you buy through links on this site we may earn an affiliate commission (typically through the Amazon Associates program) at no extra cost to you. We do not sell ads, and no advertiser or brand directs our coverage, picks, or conclusions. See our [affiliate disclosure](affiliate-disclosure.html) for details.
 
 ## Contact and corrections
 

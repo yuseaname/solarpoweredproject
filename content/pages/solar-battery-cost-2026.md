@@ -245,7 +245,7 @@ While the labor cost is significant, it ensures the system operates at peak effi
 ## Frequently Asked Questions
 
 {{< faq "Can I install a solar battery without solar panels in 2026?" >}}
-Yes, you can install a standalone solar battery system in 2026. However, be aware that the federal tax credit eligibility for standalone batteries may be restricted compared to systems paired with solar. Always check current IRS guidelines and consult with a tax professional to ensure you qualify for the 30% ITC on a standalone unit.
+Yes, you can install a standalone solar battery system in 2026. However, be aware that the 30% federal ITC expired December 31, 2025, so a standalone battery purchased in 2026 does not qualify for any federal homeowner credit. State and utility storage incentives may still apply — check what your state and utility offer and consult a tax professional about your specific situation.
 {{< /faq >}}
 
 {{< faq "How long does a typical solar battery last?" >}}
@@ -257,7 +257,7 @@ A typical home requires **10 kWh to 13.5 kWh** to run essential appliances for 1
 {{< /faq >}}
 
 {{< faq "Are there rebates for replacing an old solar battery?" >}}
-Replacing an old battery with a new one may qualify for federal tax credits if the new system is part of a broader upgrade or meets specific IRS criteria for energy storage. However, standalone replacements often do not qualify for the full ITC unless paired with new solar generation. Check state-specific programs like California's SGIP, which sometimes cover replacements.
+Replacing an old battery with a new one does not qualify for any federal tax credit in 2026 — the 30% ITC expired December 31, 2025, for all homeowner-purchased storage, whether paired with solar or standalone. State and utility programs are still worth checking, however: California's SGIP, for example, sometimes covers replacements.
 {{< /faq >}}
 
 {{< faq "Can I add a battery to my existing solar system later?" >}}

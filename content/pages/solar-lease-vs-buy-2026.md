@@ -83,12 +83,12 @@ With a solar lease, you pay a fixed monthly fee to "rent" the solar system. The 
 **Cons:**
 
 -   **Lower total savings** — you are paying for equipment you do not own
--   **No tax credit** — the 30% ITC goes to the leasing company, not you
+-   **No incentive eligibility** — state credits, rebates, and SRECs go to the leasing company, not you
 -   **Complicates home sales** — buyers must assume the lease or the seller must buy out the contract
 -   **Annual escalators** — many leases increase 2–3% per year
 -   **No home value increase** — leased systems generally do not boost property value (Appraisal Institute)
 
-**Best for:** Homeowners with poor credit, low tax liability (cannot use the ITC), or those who want zero maintenance hassle.
+**Best for:** Homeowners with poor credit, or those who want zero maintenance hassle.
 
 ## Solar PPA (Power Purchase Agreement): Pay Only for What You Use
 
@@ -104,7 +104,7 @@ A solar PPA is similar to a lease, but instead of a fixed monthly rent, you pay 
 **Cons:**
 
 -   **No ownership** — same ownership issues as leases
--   **No tax credit** — goes to the PPA provider
+-   **No incentive eligibility** — state credits and SRECs go to the PPA provider
 -   **Rate escalators** — the per-kWh rate often increases 2–3% annually
 -   **Home sale complications** — same as leases
 -   **Performance risk shifts to you** — some PPAs guarantee production, but not all
@@ -113,35 +113,32 @@ A solar PPA is similar to a lease, but instead of a fixed monthly rent, you pay 
 
 ## Cost Comparison: 20-Year Savings Example
 
-Here is a realistic comparison for a 7 kW system in California (average electricity rate: $0.28/kWh):
+Here is a realistic comparison for a 7 kW system in California (average electricity rate: $0.28/kWh), using full system prices — there is no federal tax credit for 2026 installs:
 
 | Financing Method | Total Cost Over 20 Years | Total Savings vs Utility | Net Benefit |
 |-----------------|--------------------------|--------------------------|-------------|
-| **Cash Purchase** | $25,000 – $7,500 (ITC) = $17,500 + $2,000 maintenance | $42,000 | **+$22,500** |
-| **Solar Loan (5.9%, 20yr)** | $38,000 – $7,500 (ITC) = $30,500 + $2,000 maintenance | $42,000 | **+$9,500** |
+| **Cash Purchase** | $25,000 + $2,000 maintenance = $27,000 | $42,000 | **+$15,000** |
+| **Solar Loan (5.9%, 20yr)** | $38,000 + $2,000 maintenance = $40,000 | $42,000 | **+$2,000** |
 | **Solar Lease** | $18,000–$24,000 (monthly payments × 20 years) | $32,000 | **+$8,000 to $14,000** |
 | **Solar PPA** | $20,000–$26,000 (per-kWh × production × 20 years) | $32,000 | **+$6,000 to $12,000** |
 
-**Key takeaway:** Cash purchase wins by a wide margin. Solar loans are second. Leases and PPAs offer modest savings but sacrifice ownership and tax benefits.
+**Key takeaway:** Cash purchase still wins on net benefit — and unlike a lease or PPA, you own the system, build home value, and keep state incentives. Loan interest now narrows the financed-purchase advantage, so run both numbers before signing.
 
-## The 2026 Federal Investment Tax Credit (ITC)
+## The Federal Tax Credit in 2026: What Ended, What Still Helps
 
-The federal ITC remains at **30%** through 2032 under the Inflation Reduction Act. This is a dollar-for-dollar reduction in your federal tax liability, not just a deduction.
+The 30% federal Residential Clean Energy Credit (IRS Section 25D) **expired December 31, 2025** under the One Big Beautiful Bill Act (P.L. 119-21, signed July 4, 2025). There is **no federal tax credit for systems placed in service on or after January 1, 2026** — a homeowner-purchased system earns $0 federal credit, and payback math must use the full system price.
 
--   **Eligible for:** Cash purchases and solar loans only
--   **Not eligible for:** Leases and PPAs (the leasing/PPA company claims it)
--   **Maximum credit:** There is no cap — on a $35,000 system, you get $10,500 back
--   **Carryover:** If your tax liability is less than the credit, you can carry the remainder forward
-
-Additionally, many states offer their own incentives: state tax credits, property tax exemptions, sales tax exemptions, and SREC programs. Check DSIRE (dsireusa.org) for your state.
+-   **Installed in 2025?** You can still claim 30% on your 2025 federal return (filed in 2026) using Form 5695 — including carryforward if your liability was smaller than the credit.
+-   **Leases and PPAs:** Third-party ownership never gave the homeowner the federal credit anyway — the finance company claimed it. Expect repriced contracts as operators absorb the same loss.
+-   **What still helps:** State tax credits, property tax exemptions, sales tax exemptions, utility rebates, and SREC programs survive — and they flow to the system owner (cash and loan buyers), not lease/PPA customers. Check DSIRE (dsireusa.org) for your state.
 
 ## Decision Framework: Which Option Is Right for You?
 
 Ask yourself these four questions:
 
-### 1. Can you use the 30% tax credit?
+### 1. Can you claim state and local incentives?
 
-If your federal tax liability is high enough to absorb the credit, **buying (cash or loan) is almost always better**. If you have low tax liability, a lease or PPA may make more sense.
+The federal 30% credit expired December 31, 2025, so 2026 economics rest on state credits, rebates, and exemptions — which flow to the system owner, not lease/PPA customers. If your state offers meaningful incentives, **buying (cash or loan) is almost always better**. If not, a lease or PPA may make more sense.
 
 ### 2. How long will you stay in the home?
 
@@ -184,7 +181,7 @@ Regardless of financing method, be aware of these often-overlooked expenses:
 For most homeowners in 2026, the best path is:
 
 1.  **Cash purchase** if you have the funds — maximum savings and simplicity
-2.  **Solar loan** if you want ownership with $0 down — second-best savings, you keep the tax credit
+2.  **Solar loan** if you want ownership with $0 down — you keep state incentives and home-value gains, though loan interest narrows the savings gap
 3.  **Lease or PPA** only if you cannot qualify for a loan, have low tax liability, or value zero-maintenance convenience above all else
 
 The solar industry is mature in 2026. Panel efficiency averages 22%+, inverters are more reliable, and installation costs have dropped 40% since 2015. There has never been a better time to go solar — but choosing the right financing method is what separates a good investment from a great one.

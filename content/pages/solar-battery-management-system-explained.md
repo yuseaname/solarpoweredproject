@@ -11,6 +11,7 @@ image_width = 1536
 image_height = 1024
 +++
 
+{{< affiliate-disclosure >}}
 ## Key takeaways
 
 -   A BMS monitors the voltage of each battery or cell and disconnects the bank if any one exceeds safe limits.

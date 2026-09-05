@@ -13,6 +13,7 @@ image_width = 1536
 image_height = 1024
 +++
 
+{{< affiliate-disclosure >}}
 ## Quick estimate
 
 Use this calculator to find the minimum battery bank size for a given daily load. It converts required watt-hours into amp-hours at your chosen system voltage.

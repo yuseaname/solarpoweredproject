@@ -14,6 +14,10 @@
     {{- $clean = strings.Replace $clean "<ul>" "<ul class=\"space-y-1 ml-4\">" 1 -}}
     {{- $clean = strings.Replace $clean "<ul>" "<ul class=\"ml-4\">" -1 -}}
     {{- $clean = strings.Replace $clean "<li>" "<li class=\"mt-1\">" -1 -}}
+    {{- /* Defense-in-depth: headings that embed shortcodes render Hugo's internal
+         placeholder token (HAHAHUGOSHORTCODE...) into the TOC anchor/text.
+         Strip the token so a fused "## FAQ{{< faq >}}" can never ship garbage. */ -}}
+    {{- $clean = replaceRE `HAHAHUGOSHORTCODE[0-9A-Za-z]+` `` $clean -}}
     {{- $clean | safeHTML -}}
   </div>
 </nav>

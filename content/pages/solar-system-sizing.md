@@ -14,6 +14,7 @@ image_width = 1024
 image_height = 768
 +++
 
+{{< affiliate-disclosure >}}
 ## Key takeaways
 
 - Start with **daily watt-hours used** — everything else flows from that number.

@@ -11,6 +11,7 @@ image_width = 1536
 image_height = 1024
 +++
 
+{{< affiliate-disclosure >}}
 ## Key takeaways
 
 -   Start with a realistic daily energy estimate (Wh/day) for your RV loads.

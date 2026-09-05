@@ -13,6 +13,7 @@ image_height = 576
 updated = 2026-08-15
 +++
 
+{{< affiliate-disclosure >}}
 ## Key takeaways
 
 -   Size for **continuous watts** and **surge watts**.

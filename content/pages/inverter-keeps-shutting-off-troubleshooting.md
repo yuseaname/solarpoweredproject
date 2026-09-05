@@ -11,6 +11,7 @@ image_width = 1536
 image_height = 1024
 +++
 
+{{< affiliate-disclosure >}}
 ## Table of contents
 
 <a href="#takeaways" class="text-link">Key takeaways</a> <a href="#first" class="text-link">First: capture the shutdown clue</a> <a href="#overload" class="text-link">Cause 1: overload or surge start</a> <a href="#lowvoltage" class="text-link">Cause 2: low battery voltage (real) vs voltage drop (wiring)</a> <a href="#heat" class="text-link">Cause 3: overheating / poor airflow</a> <a href="#settings" class="text-link">Cause 4: settings, modes, and cutoffs</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next" class="text-link">Next logical reads</a>

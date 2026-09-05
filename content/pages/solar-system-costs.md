@@ -12,6 +12,7 @@ image_width = 1024
 image_height = 576
 +++
 
+{{< affiliate-disclosure >}}
 ## Key takeaways
 
 -   Panels are usually the largest hardware cost.

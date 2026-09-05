@@ -3,5 +3,5 @@ title = "Search"
 description = "Search practical guides for solar systems, batteries, wiring, costs, troubleshooting, and off-grid projects."
 layout = "search"
 no_ads = true
-noindex = false
+noindex = true
 +++

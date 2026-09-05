@@ -20,6 +20,8 @@ main:
 footer:
   - name: About
     url: /pages/about.html
+  - name: Authors
+    url: /authors.html
   - name: Editorial Policy
     url: /pages/editorial-policy.html
   - name: Methodology
