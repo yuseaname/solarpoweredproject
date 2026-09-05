@@ -16,7 +16,7 @@ related = [
 ]
 +++
 
-<a href="#takeaways" class="text-link">Key takeaways</a> <a href="#before" class="text-link">Before you troubleshoot: what “not charging” really means</a> <a href="#step1" class="text-link">Step 1: Rule out “normal low input” (weather, season, shading)</a> <a href="#step2" class="text-link">Step 2: Check the controller status (bulk/absorption/float)</a> <a href="#step3" class="text-link">Step 3: Confirm the battery isn’t already full (or limited by BMS)</a> <a href="#step4" class="text-link">Step 4: Compare charge current vs load (net charging)</a> <a href="#step5" class="text-link">Step 5: Inspect wiring, fuses/breakers, and connections</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next" class="text-link">Next logical reads</a>
+<a href="#takeaways" class="text-link">Key takeaways</a> <a href="#before" class="text-link">Before you troubleshoot: what “not charging” really means</a> <a href="#step1" class="text-link">Step 1: Rule out “normal low input” (weather, season, shading)</a> <a href="#step2" class="text-link">Step 2: Check the controller status (bulk/absorption/float)</a> <a href="#step3" class="text-link">Step 3: Confirm the battery isn’t already full (or limited by BMS)</a> <a href="#step4" class="text-link">Step 4: Compare charge current vs load (net charging)</a> <a href="#step5" class="text-link">Step 5: Inspect wiring, fuses/breakers, and connections</a> <a href="#panel-side" class="text-link">Panel-side causes: how to test the panels themselves</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next" class="text-link">Next logical reads</a>
 
 ## Key takeaways
 
@@ -104,6 +104,72 @@ A loose connection can behave like a resistor: it limits current and creates hea
 -   **Chasing battery percentage only:** look at trends over time with the same loads and conditions.
 -   **Oversizing loads without resizing the system:** net load overwhelms net charge.
 -   **Reusing non-DC-rated protection hardware:** creates real safety risk.
+
+## Panel-side causes: how to test the panels themselves {#panel-side}
+
+If the controller checks out but the battery still isn't charging, the panels themselves are the next suspect — and a basic multimeter can tell you more in ten minutes than an hour of guessing. Two quick tests, done in full sun with the panels disconnected from the controller, separate a healthy panel from a dead one.
+
+**Safety first:** do these tests with the panel leads disconnected (open-circuit), keep the meter leads away from each other, and never work with wet connectors. If you see melted insulation, browned connectors, or cracked glass, stop and replace rather than test.
+
+### Test 1: Open-circuit voltage (Voc) with a multimeter
+
+Set your meter to DC volts, touch the leads to the panel's positive and negative MC4 contacts (or the exposed leads), and read the number in full sun.
+
+-   **A healthy 12V-nominal panel reads roughly 18–22V Voc** (a typical 100W panel lands around 18–21V). These are rule-of-thumb ranges — check your panel's label for its rated Voc and expect close to that number in good sun.
+-   **A reading near 0V** usually means a broken connection or a dead panel (see below).
+-   **A reading well below label Voc** (say 14–16V on a panel rated ~20V) suggests a damaged cell, a failed bypass diode, or corrosion in a connector.
+
+### Test 2: Short-circuit current (Isc) — with caution
+
+Switch the meter to DC amps (use the 10A jack if yours has one), and briefly connect the leads across the panel's positive and negative. Expect roughly **5–6A for a 100W panel** in full sun.
+
+-   **Only do this if your meter and its leads are rated for the current.** A cheap meter on the wrong setting can blow its internal fuse — or worse.
+-   **Keep the short brief** (a second or two is enough to read it) and don't do this on large arrays.
+-   A reading near 0A with healthy Voc points to a connection problem, not the cells.
+
+### What low or zero Voc actually means
+
+-   **Cracked or damaged cells:** output drops well below the label rating, sometimes unevenly across the panel.
+-   **Failed bypass diode:** the panel can read fine when part of it is shaded but drop sharply when the shaded section is bypassed — a quirk worth knowing before you condemn the whole panel.
+-   **Corroded MC4 connectors:** resistance builds at the connection, and voltage sags under any load. Unplug, inspect for green/white corrosion or water intrusion, and reseat or replace.
+
+### Hot spots and delamination: the visual check
+
+Before you even grab the meter, look at the panel in full sun:
+
+-   **Hot spots:** a single cell or small patch noticeably hotter than the rest (carefully hover a hand a few inches above the surface — never touch). Often a sign of a cracked or shaded cell dumping heat.
+-   **Delamination:** bubbling, milky patches, or the plastic layer separating from the glass. This lets moisture in and degrades output over time.
+-   **Snail trails, browning, or discoloration** along cell lines often track with the hot spots above.
+
+### When it's the wiring, not the panel
+
+Panels get blamed for a lot of wiring problems. Before replacing anything:
+
+-   **Blown inline fuse:** many panel pairs have an inline fuse on the positive lead. If it's blown, the panel reads fine at its leads but delivers nothing at the controller.
+-   **Unseated MC4:** a connector that looks plugged in but isn't fully clicked home can read fine at the panel and read zero at the controller end.
+-   **Wrong series/parallel combination:** wiring panels in series adds their Voc together. Two 20V panels in series = 40V — if that exceeds your controller's max input voltage, the controller will refuse the input entirely (some simply show 0W rather than error). Do the math before you rewire: **total series Voc must stay below the controller's rated max PV input voltage, with cold-weather headroom** (Voc rises as temperature drops).
+
+### Worked example: 200W of panels, 19.2V at the leads, 0W at the controller
+
+Here's a real-world pattern worth memorizing:
+
+-   **Setup:** two 100W 12V-nominal panels wired in parallel, feeding an MPPT controller.
+-   **Measurement at the panel leads:** 19.2V Voc in full sun — right in the healthy 18–21V range for a 100W panel.
+-   **Controller display:** 0W input, no charge current.
+-   **Diagnosis:** the panels are fine. If both panels were dead, you wouldn't see 19.2V at the combined leads. The problem is between the panels and the controller: a blown input fuse, an unseated MC4, or a corroded junction. Check the fuse first — it's the cheapest and most common culprit.
+
+The lesson: **voltage at the panel leads proves the panel; power at the controller proves the path.** You need both to call a panel good.
+
+### Quick reference: panel-side readings
+
+| Measurement | Healthy reading | What a bad reading means |
+| --- | --- | --- |
+| Voc (open-circuit voltage, full sun) | ~18–22V for a 12V-nominal panel (~18–21V for 100W) | Near 0V = broken connection or dead panel; well below label = cracked cell, failed bypass diode, or corroded MC4 |
+| Isc (short-circuit current, meter-rated) | ~5–6A for a 100W panel | Near 0A with healthy Voc = connection/wiring fault, not the cells |
+| Visual (hot spots, delamination) | Even surface temperature, no bubbling or milky patches | Localized heat = cracked/shaded cell; delamination = moisture ingress, degrading output |
+| Voltage at controller input | Close to the panel-lead reading | Big drop or 0V = blown inline fuse, unseated MC4, or series Voc above the controller's max input |
+
+<a href="solar-panel-output.html" class="text-link">Solar panel output calculator</a> <a href="solar-output-troubleshooting.html" class="text-link">Low solar output troubleshooting</a> <a href="mppt-charge-controller-not-charging.html" class="text-link">MPPT not charging? (checklist)</a> <a href="solar-wire-size.html" class="text-link">Solar wire size guide</a>
 
 ## FAQ
 

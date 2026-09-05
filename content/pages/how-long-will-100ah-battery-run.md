@@ -164,6 +164,23 @@ A 150W fridge at 40% duty cycle draws an average of 150 × 0.40 = **60W**. On li
 
 So a 100Ah lithium battery can realistically run a modern fridge for about **16 hours**, and a lead-acid one for about **10 hours** — roughly 2.5× the naive table number. Duty cycle varies with ambient temperature, door openings, and fridge age, so treat these as estimates. For the full method of measuring *your* fridge's real running watts, surge, and daily Wh, see our [what size solar generator to run a refrigerator](/pages/what-size-solar-generator-run-refrigerator.html) guide — we won't duplicate its measuring steps here. And if the load is a medical device like a CPAP, our [CPAP battery backup guide](/pages/cpap-battery-backup-guide.html) applies the same formula to that specific case.
 
+## 200Ah worked example: running a refrigerator
+
+The most common real-world version of this question is "how long will a 200Ah battery run my fridge?" — so here is the full arithmetic at 200Ah, using the same duty-cycle logic from the section above.
+
+**Nameplate energy:** 200Ah x 12V = **2,560Wh**. What you can actually use depends on chemistry:
+
+| Chemistry | Usable fraction | Usable Wh | Est. fridge-days |
+| :-- | :-- | :-- | :-- |
+| LiFePO4 (lithium) | 80-90% | ~2,050-2,300Wh | **~1-2 days** |
+| Lead-acid (AGM/gel) | 50% | 1,280Wh | **~0.75-1 day** |
+
+**The demand side:** an efficient modern full-size fridge averages 1-1.5kWh/day; older or larger units can hit 2kWh+. Add roughly 10% for inverter conversion losses when the fridge runs on AC. A modest 60W average draw (the 150W-at-40%-duty example from above) works out to ~1.44kWh/day.
+
+**Putting it together (LiFePO4):** 2,300Wh usable / (1,440Wh/day x 1.1 inverter tax) = **~1.4 days** of fridge runtime from a 200Ah lithium bank. With a hungrier 2kWh/day fridge, that falls to ~1 day; with a small efficient unit (~1kWh/day), closer to 2. The lead-acid bank delivers roughly half those numbers for the same nameplate — the chemistry difference is worth more than the brand sticker.
+
+For sizing the whole backup around a fridge — surge watts, solar refill rates, and generator trade-offs — see the [what size solar generator to run a refrigerator](/pages/what-size-solar-generator-run-refrigerator.html) guide, and to convert any runtime into a bank size, the [battery capacity calculator](/pages/battery-capacity.html) does the reverse math.
+
 ## Devices with surges and cycles
 
 Three device types bend the formula, and each bends it differently:

@@ -118,6 +118,52 @@ This is electrical, not medical — but a few practical notes:
 
 <a href="/diy-off-grid-energy/diy-hand-crank-generator-emergency-charging.html" class="text-link">Hand-crank charging: what it can actually power</a>
 
+## How long will a power station run a CPAP? (the honest math)
+
+Any "how long will a [brand] run a CPAP" question — Jackery, EcoFlow, Bluetti, no matter — is answered by one formula:
+
+**Runtime (h) = (usable Wh × efficiency) ÷ machine watts**
+
+Three inputs, and only three:
+
+1. **Usable Wh.** A station's rated Wh isn't all deliverable. Plan on ~85% (use 0.85) for an AC port on a lithium machine — that covers inverter overhead plus chemistry. If your station's datasheet quotes a deeper usable depth-of-discharge, run the formula with that number instead; see our [100Ah runtime guide](/pages/how-long-will-100ah-battery-run.html) for the chemistry details.
+2. **Machine watts.** Most CPAPs draw **30–60W without the humidifier** and **60–100W with the heated humidifier**, depending on model and pressure setting. Check *your* machine's label (V × A = W) or manual before buying anything — do not size from a friend's number.
+3. **Efficiency.** On the AC port, the inverter eats ~10–15%. If your machine has a **12V DC input**, a manufacturer's DC cable skips that loss entirely, and the same Wh runs roughly 15% longer.
+
+Worked examples, a 300Wh station:
+
+- **40W, no humidifier:** 300 × 0.85 = 255 Wh usable; 255 ÷ 40 ≈ **6.4h** on AC — call it 6.5h, and up to ~7.5h on DC (300 ÷ 40 = 7.5). That's where the "6.5–7 hours" figure you'll see quoted comes from.
+- **80W, with humidifier:** 255 ÷ 80 ≈ **3.2h ≈ 3h** — one rough night, not two.
+
+Two nights means 16h of runtime. The honest picture for three common station sizes (0.85 usable, 8h nights):
+
+| Power station | Usable Wh (× 0.85) | No humidifier (40W) | With humidifier (80W) |
+| --- | --- | --- | --- |
+| 268Wh | ~228Wh | ~5.7h (0.7 nights) | ~2.9h (0.4 nights) |
+| 512Wh | ~435Wh | ~10.9h (1.4 nights) | ~5.4h (0.7 nights) |
+| 1024Wh | ~870Wh | ~21.8h (2.7 nights) | ~10.9h (1.4 nights) |
+
+Only the 1024Wh class reaches two full nights — and only without the humidifier. On 12V DC each row improves roughly 15%: the 268Wh goes to ~6.7h at 40W, the 512Wh to ~12.8h, the 1024Wh to ~25.6h. Sizing for your worst night with your real draw beats any brand's marketing table: re-run the formula whenever the battery or the machine changes, and treat any quoted runtime with no visible Wh-and-watts arithmetic as an ad.
+
+## Camping and flying with a CPAP battery
+
+The lithium rules that decide your travel battery, straight from TSA/FAA:
+
+- **Up to 100Wh:** generally allowed in carry-on without special approval — no airline sign-off needed for the battery itself. A typical 26,800mAh USB-C power bank works out to ~99.2Wh (26.8Ah × 3.7V), just under the line.
+- **101–160Wh:** need airline approval; most airlines allow them, typically at most **two spares** per passenger.
+- **Over 160Wh:** forbidden on passenger aircraft — not in carry-on, not in checked luggage.
+- **Spares: carry-on only, never checked.** Power banks and spare lithium batteries are prohibited in checked baggage; if your carry-on gets gate-checked, pull the battery out and keep it with you. The CPAP machine itself isn't the regulated item — the battery is.
+
+<!-- Sources verified 2026-09-05: TSA "Power Banks" https://www.tsa.gov/travel/security-screening/whatcanibring/items/power-banks ; TSA "Lithium batteries with more than 100 watt hours" https://www.tsa.gov/travel/security-screening/whatcanibring/items/lithium-batteries-more-100-watt-hours ; FAA PackSafe for Passengers https://www.faa.gov/hazmat/packsafe ; FAA PackSafe – Lithium Batteries https://www.faa.gov/hazmat/packsafe/lithium-batteries -->
+
+That's the flying half. The camping half is three habits:
+
+- **Skip the humidifier.** It's the biggest single saving: it roughly doubles your draw (60–100W → 30–60W), which roughly doubles your nights. Whether that's livable for you is a therapy question for your prescriber; the electrical difference is ours to quote.
+- **Use 12V DC if you can.** A manufacturer-approved DC cable runs the machine straight from a 12V source, skipping the inverter's ~10–15% loss — same battery, roughly 15% more runtime.
+- **Bank vs station.** A sub-100Wh bank is flyable and cheap, but it only helps if your manual says the machine can run from DC or USB-C. A 300–500Wh-plus station gives one to three nights but stays home or in the car — it can't fly. Choose by your actual travel: flyers shop under 100Wh, campers shop the station.
+
+Airlines may impose stricter limits than TSA/FAA, and the TSA officer has the final word at the checkpoint — confirm with your airline before you fly, and keep battery terminals protected (tape or a case) so they can't short out.
+
 ## FAQ
 
 {{< faq "Can a 300Wh station run my CPAP for one night?" >}}

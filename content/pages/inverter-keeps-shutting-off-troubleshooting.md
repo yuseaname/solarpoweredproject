@@ -12,7 +12,7 @@ image_height = 1024
 +++
 
 {{< affiliate-disclosure >}}
-<a href="#takeaways" class="text-link">Key takeaways</a> <a href="#first" class="text-link">First: capture the shutdown clue</a> <a href="#overload" class="text-link">Cause 1: overload or surge start</a> <a href="#lowvoltage" class="text-link">Cause 2: low battery voltage (real) vs voltage drop (wiring)</a> <a href="#heat" class="text-link">Cause 3: overheating / poor airflow</a> <a href="#settings" class="text-link">Cause 4: settings, modes, and cutoffs</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next" class="text-link">Next logical reads</a>
+<a href="#takeaways" class="text-link">Key takeaways</a> <a href="#first" class="text-link">First: capture the shutdown clue</a> <a href="#overload" class="text-link">Cause 1: overload or surge start</a> <a href="#lowvoltage" class="text-link">Cause 2: low battery voltage (real) vs voltage drop (wiring)</a> <a href="#heat" class="text-link">Cause 3: overheating / poor airflow</a> <a href="#settings" class="text-link">Cause 4: settings, modes, and cutoffs</a> <a href="#alarm-keeps-beeping-low-voltage-alarm-before-shutdown" class="text-link">Alarm keeps beeping: low-voltage alarm</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next" class="text-link">Next logical reads</a>
 
 ## Key takeaways
 
@@ -107,6 +107,53 @@ Some inverters have configurable low-voltage cutoffs or eco/search modes. A mism
 -   **Ignoring terminations:** heat at lugs/bus bars is a serious clue.
 -   **Blaming solar production first:** many shutdowns happen even with full sun if the battery-side path is weak.
 -   **Changing multiple settings at once:** you lose the signal of what actually fixed it.
+
+## Alarm keeps beeping: low-voltage alarm before shutdown
+
+**Answer-first:** the alarm means the voltage at the inverter's input terminals has sagged below its low-voltage alarm threshold — typically around **11.0–11.5V on a 12V system** (rule of thumb; exact setpoints vary by brand, and many are adjustable). If the load keeps pulling, the next step on the same ladder is a **low-voltage shutdown**, commonly around **10.5V at 12V**. A beeping inverter with a battery that "reads fine" at rest is usually a **voltage-drop problem**, not a dead battery.
+
+### The alarm-to-shutdown ladder
+
+| Stage | What you see | What it means |
+| :-- | :-- | :-- |
+| 1. Alarm | Beeping or warning code; inverter still running | Input voltage dipped below the alarm threshold (~11.0–11.5V at 12V, typical) |
+| 2. Repeat alarms | Beeps return every time a big load starts | The sag is load-dependent — wiring or battery weakness, not a fixed setting |
+| 3. Shutdown | Inverter cuts AC output | Voltage reached the cutoff (commonly ~10.5V at 12V) |
+
+The key insight: the inverter can only measure the voltage **at its own terminals**. Under load, that number can be far lower than what you measure at the battery posts.
+
+### The three causes, in order of likelihood
+
+1.  **Undersized or thin battery cables (most likely).** Cable resistance creates voltage drop, so the inverter sees less voltage than the battery terminals show. **Test:** with a big load running, measure at the battery terminals and again at the inverter terminals. A difference of **more than ~0.5V at 12V** points to cabling — the same threshold our cable guide uses.
+2.  **Loose or corroded terminals.** Every poor joint adds resistance and heat. Warm lugs, discolored insulation, or flickering that tracks the load points here. Heat at a connection is a safety clue, not just an efficiency loss.
+3.  **Genuinely depleted or undersized battery.** Compare **resting vs loaded** voltage at the battery posts themselves:
+
+| Measurement (at the battery posts) | Weak cables, healthy battery | Depleted or undersized battery |
+| :-- | :-- | :-- |
+| At rest | Normal for its charge level | Low — or looks normal if recently surface-charged |
+| Under load | Stays close to the resting reading | Sags hard, even right at the posts |
+| Minutes after load off | Recovers to near the resting reading | Stays low or recovers slowly |
+
+### Worked example: 12.4V at rest, 10.8V at the inverter
+
+-   Battery at rest: **12.4V** at the posts.
+-   Load: **1,000W** of inverter output → DC current ≈ 1,000W ÷ 12V ≈ **83A** (nameplate math; real current runs a bit higher once inverter losses are included).
+-   Cables: **10 AWG, 10 ft one-way** (20 ft of conductor round trip). 10 AWG copper is ≈ **1.0 Ω per 1,000 ft**.
+
+Voltage drop = 2 × 10 ft × 83A × 1.0 Ω/1000ft = 1,660 ÷ 1,000 = **1.66V**
+
+So under load the inverter sees roughly 12.4V − 1.66V ≈ **10.7V** — which matches the measured **10.8V** at the inverter almost exactly. The battery isn't empty; the cables are eating more than a volt. That's ~14% of a 12V system — far above the **3% (~0.36V)** planning target in our cable guide. And 10 AWG is far too thin for ~83A anyway: the guide's chart calls for about **4 AWG** for a 1,000W/12V inverter even on a short run.
+
+### Fix ladder (cheapest and safest first)
+
+1.  **Tighten and clean terminations.** Battery posts, lugs, inverter input studs, bus bars. Power down and disconnect the battery first, then look for heat discoloration while you're in there.
+2.  **Upsize the cable.** Use the gauge chart and calculator in our cable guide — count both conductors and the full round-trip length.
+3.  **Lower the load.** Voltage drop scales with current: running 500W instead of 1,000W roughly halves the drop through the same cables.
+4.  **Add battery capacity — or raise system voltage.** If the battery itself sags at the posts under modest loads, it's undersized or depleted: add capacity, fix the charging, or consider 24V/48V so the same watts move at half (or a quarter) of the current.
+
+If the alarm sounds **at rest with no load**, that's a different problem: the battery is genuinely low, a cutoff setting is mismatched (see Cause 4 above), or charging is failing.
+
+<a href="battery-cable-size-for-inverter.html" class="text-link">Battery cable size for inverters (with calculator)</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V: choosing system voltage</a> <a href="solar-battery-not-charging-troubleshooting.html" class="text-link">Solar battery not charging: troubleshooting checklist</a>
 
 ## FAQ
 

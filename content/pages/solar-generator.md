@@ -81,6 +81,39 @@ A 100Ah LiFePO4 battery holds 1,280Wh — more than the AC180 above — and what
 - **Whole-home backup buyers.** Running a house (HVAC, water heater, well pump) means multi-day multi-kWh loads — the [battery-backup-vs-generator](solar-battery-backup-vs-generator.html) comparison explains when installed storage or a fuel generator wins.
 - **Anyone who hasn't done the load math.** Buy the notebook before the battery: [how to calculate your solar load](how-to-calculate-solar-load.html).
 
+<!-- Seasonal-planning ranges per work order w3-seasonal (2026-09-05). Corroborated live: DOE Solar Radiation Basics (https://www.energy.gov/eere/solar/articles/solar-radiation-basics) on seasonal sun variation — northern-hemisphere winter days are shorter and the sun is lower; ENERGY STAR Refrigerators (https://www.energystar.gov/products/refrigerators) on keeping a fridge at 35–38°F in a cool location. Storm-day panel yield (10–25% of rated) and peak-sun-hour figures are planning ranges, not guarantees. -->
+
+## Hurricane season: sizing backup that survives day 2
+
+Day one of a hurricane outage is a battery-size game; day two and beyond is a *recharge* game — and that's where most plans die. Prioritize loads in order: fridge **1–2kWh/day**, phone + radio **10–20Wh/day**, LED lights **10–30Wh/day**, and CPAP **300–480Wh/night** if the humidifier runs (per-setting math in our <a href="cpap-battery-backup-guide.html" class="text-link">CPAP battery backup guide</a>). Fridge plus phone and lights for one day: 1,000–2,000 + ~150 ≈ **1,150–2,150Wh** — already a 2–3kWh-class station at 85% usable (1,700–2,550Wh).
+
+The day-2 problem is recharging. Under heavy storm clouds, panels make roughly **10–25% of rated wattage** — a 200W panel might yield just **20–50Wh on a dark storm day**, a few phone charges, not a fridge day. That's why panel input rating matters more than battery size for multi-day outages: a 2kWh station with a 100W input cap can't absorb a big array anyway, and a 5kWh station without panels is a one-way trip after the first clear day. Check the station's max solar-input watts against the panels you actually own.
+
+For medical loads (CPAP, concentrators, insulin refrigeration), add a small gas generator as a hybrid: battery covers the silent indoor hours overnight, gas delivers the high-draw charge burst when the sun doesn't show.
+
+**What to buy for:** size the battery for your worst 24 hours, then buy the largest solar input the station accepts so one good day can refill it. The table below is the planning sheet; the full fridge duty-cycle method is in <a href="what-size-solar-generator-run-refrigerator.html" class="text-link">what size solar generator runs a refrigerator</a>, and the battery-vs-gas decision is in <a href="solar-battery-backup-vs-generator.html" class="text-link">solar battery backup vs generator</a>.
+
+| Outage target | Fridge + basics (Wh) | Class of station |
+| :--- | :--- | :--- |
+| 12h | ~500–1,000 + ~50 ≈ 550–1,050 | 1–1.5kWh |
+| 24h | 1,000–2,000 + ~150 ≈ 1,150–2,150 | 2–3kWh |
+| 48h (no sun) | 2,000–4,000 + ~300 ≈ 2,300–4,300 | 3kWh+ or battery + solar/gas recharge |
+
+## Winter outages: the cold-weather gotchas
+
+Cold changes the rules on both sides of the system. First, the battery: **most LiFePO4 packs refuse or strictly limit charging below 0°C / 32°F** — the BMS uses a low-temperature cutoff to prevent lithium plating, which permanently damages cells. Discharging is usually fine down to about **-20°C**, though capacity and current sag. So keep the battery above freezing: bring the station indoors, or insulate it (an insulated cooler with a sealed heat pack works; never block the vents), and don't connect panels until the unit reports its charging temperature is in range. Some stations have self-heating cells; plan as if yours does not.
+
+Panels are the pleasant surprise: crystalline cells actually run *more* efficiently in cold, so voltage and per-sun-hour output rise slightly in frost. The winter hit is the calendar, not the thermometer — northern states get **2–3 peak sun hours in winter versus 5–6 in summer**:
+
+| Season (northern states) | Peak sun hours | 200W panel daily yield (×0.8 derating) |
+| :--- | :--- | :--- |
+| Summer | 5–6 | ~800–960Wh |
+| Winter | 2–3 | ~320–480Wh |
+
+Even a clear December day brings back less than half of what June does, and snow or ice over the glass rounds that to zero until you clear it — brush, don't scrape. That's the arithmetic that turns a June-adequate array into a December trickle.
+
+One genuine winter assist: a fridge or freezer in an unheated garage or porch draws less in cold air, because the compressor duty cycle drops when ambient air already holds the cold — outdoor-cold location cuts daily Wh and stretches the battery. Just don't store the battery itself in that unheated space. For no-sun stretches that outlast the battery, our <a href="/diy-off-grid-energy/diy-hand-crank-generator-emergency-charging.html" class="text-link">realistic hand-crank charging math</a> shows what a few hours of cranking actually deliver.
+
 ## FAQ
 
 {{< faq "Can a solar generator run a refrigerator?" >}}

@@ -142,6 +142,56 @@ And if the array charges the battery fine but household AC output is low, the in
 -   **Melted insulation, burned smell, or hot connectors = stop.** That's an immediate-call-a-professional situation.
 -   When in doubt on anything above your head or inside a combiner box, hand it to a licensed electrician. Solar maintenance has a safe DIY core — see <a href="solar-maintenance.html" class="text-link">the maintenance checklist</a> for what's reasonable to handle yourself.
 
+## Panel reads completely dead? (zero output)
+
+A panel that reads **0 volts in full sun** is a broken electrical path, not a mystery — and it is almost never the controller or the battery. The fault sits somewhere between the silicon and the controller terminals, and a blanket plus a multimeter pin it down in about 20 minutes. Work in this order: isolation test, Voc/Isc at the leads, continuity through the wiring, then a verdict.
+
+### Step 1: the two-minute isolation test
+
+Do this first because it is free and it clears the controller side of the question.
+
+1. On a clear day with the system producing, note the controller's PV voltage and charge current.
+2. Drop an opaque blanket or tarp over the suspect panel.
+3. Wait 60–90 seconds and watch the display. **Healthy response:** PV voltage collapses toward 0 and charge current falls while covered; both recover within a few seconds of uncovering.
+4. **No reaction at all** — the controller keeps showing the same numbers whether the panel is covered or not — combined with a 0V Voc reading at the panel's own leads in full sun points to the panel or its wiring path, not the charge controller. (If the controller did react, the panel side is fine and the fault is downstream — see <a href="solar-battery-not-charging-troubleshooting.html" class="text-link">solar battery not charging</a>.)
+
+If the controller has no live voltage readout, do the same test with the meter on DC volts at the panel's leads: covered ≈ 0–2V, uncovered jumps back to full Voc.
+
+### Step 2: meter basics — Voc and Isc at the panel, not through the wiring
+
+Disconnect the panel's leads at the controller end (or at the extension cable) and measure **right at the panel's MC4 pair**, so a bad connection downstream can't masquerade as a dead panel.
+
+- **Voc (open-circuit voltage):** meter on DC volts, leads across + and −, panel in full sun. A 12V-nominal 100W panel should read **roughly 18–23V** — lab spec sheets commonly list 21–24V at STC (25°C, 1000 W/m²), and a cool bright afternoon runs higher, not lower. Expect within ~10% of the number printed on the label.
+- **Isc (short-circuit current):** switch the meter to DC amps (leads in the A jack) or use a DC clamp meter around one conductor. Touch across + and − for a few seconds — it's a short by design. A 12V-nominal 100W panel should read **roughly 5–6.5A** and within ~10% of its label. Quick sanity math: 100W ÷ ~18V Vmp ≈ 5.5A at max power, and Isc runs a bit higher than that.
+- **Both readings fall with partial sun.** Voc especially collapses in shade, clouds, or early morning — never condemn a panel measured in anything but full sun on clean glass. (Cover the glass while connecting the leads to reduce arc risk, then uncover to measure — same practice as the safety notes below.)
+
+| Test (in order) | Healthy result | Dead result |
+| :-- | :-- | :-- |
+| Two-minute blanket test at the controller | PV voltage and charge current drop while covered; recover seconds after uncovering | No reaction at all, plus 0V Voc at panel leads in full sun |
+| Panel Voc at MC4 pair, disconnected, full sun | ~18–23V for a 12V-class 100W panel (within ~10% of label) | 0.0V, or under ~1V |
+| Continuity: MC4 pair → inline fuse → controller terminals | Beeps / near-0Ω end to end | Open — no beep; re-check the fuse out of circuit |
+
+### Step 3: bypass diode failure — the "output cut in half" symptom
+
+Most 12V-class panels have three (some four) bypass diodes, each protecting one section of cells. When a diode fails **shorted** — the common failure after years of shading and thermal cycling — the section it protects stays out of circuit permanently:
+
+- The panel **still produces** — the diode gives current a path around the dead section — but voltage and power drop by that section's share: commonly a third to a half of the panel's healthy Voc, which is why a dead diode section reads like "output cut in half."
+- In a series string this shows up as **one panel a clear step below its neighbors' Voc** while the string's current looks normal — the diode carries current, so nothing downstream trips.
+- You can confirm it two ways: shade one section of an otherwise healthy panel and Voc drops by only that section's expected share (normal); a dead diode keeps that same drop in full direct sun with nothing shaded. Or, in an accessible junction box, use the meter's diode mode — a shorted diode beeps in both directions; a good one conducts one way only.
+- An **open** bypass diode (rarer) hides in full sun, but under partial shade it forces the shaded cell group into reverse bias — that heats the group and is exactly the scenario behind localized burn marks and hot spots.
+
+### Step 4: connector and inline-fuse continuity
+
+With the panel disconnected and covered, meter on ohms, check end to end: panel MC4 pair → extension cable → inline fuse → controller's PV terminals. Expect near-0Ω (beep). An open reading means a loose or corroded MC4 (tug and look — cheap pairs are a classic), a chewed conductor, or a blown inline fuse — pull the fuse and check it out of circuit, because fuses can fail open under load and read fine in circuit.
+
+### When it's really dead — and the honest salvage note
+
+Call the panel dead when all of the above is done and cleared: **full sun, clean glass, good continuity, no diode short** — and it still reads 0.0V at its own leads. Add physical tells and the meter doesn't even matter: **cracked glass** (water gets inside and it will fail eventually anyway), **delamination** (bubbles or haze under the glass), or **burn marks** under the glass — those are replace, do not operate, cases regardless of readings; a burned panel can present an electrical-safety and fire risk.
+
+Salvage honestly: cracked-glass and burned laminates have **no safe DIY repair and no salvage value as panels** — route them to a PV recycler; the aluminum frame is the only part worth recovering. A shorted bypass diode in an accessible junction box **can sometimes** be replaced (desolder the diode, solder in a same-rating spec, re-seal with di-electric compound) — but only if the laminate is sound and you are confident soldering; otherwise the "repair" invites moisture ingress and a shorter-life panel. If the panel is salvage-economically on the fence — no glass damage, just a repairable diode — a 50%-output panel still charges better than a garbage can, but it is not worth re-installing in a prime array spot.
+
+For the controller side of the same symptom set, work <a href="mppt-charge-controller-not-charging.html" class="text-link">the MPPT not charging checklist</a>; for expected output numbers from a healthy panel, <a href="solar-panel-output.html" class="text-link">the solar panel output calculator</a> gives the baseline any diagnosis should be compared against.
+
 ## FAQ
 
 {{< faq "How much does dirt actually reduce solar output?" >}}

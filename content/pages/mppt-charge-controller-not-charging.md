@@ -37,7 +37,7 @@ Work through these in order. Most "not charging" problems are found in the first
 | Battery voltage (charging) | 14.0–14.7V (lead-acid bulk) | Stuck below 13.5V in full sun |
 | Charge current | Matches expected based on sun | 0A in good sun when battery isn't full |
 
-<a href="#quick" class="text-link">Quick diagnostic flowchart</a> <a href="#takeaways" class="text-link">Key takeaways</a> <a href="#how-mppt-works" class="text-link">How MPPT finds power</a> <a href="#step1" class="text-link">Step 1: Confirm PV input (sun/shade/soiling)</a> <a href="#step2" class="text-link">Step 2: Confirm PV voltage is high enough</a> <a href="#step3" class="text-link">Step 3: Validate array wiring & controller limits</a> <a href="#step4" class="text-link">Step 4: Check charging stage & settings</a> <a href="#step5" class="text-link">Step 5: Battery protections (BMS/temp/full)</a> <a href="#seasonal" class="text-link">Seasonal patterns</a> <a href="#replace" class="text-link">When to replace vs repair</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next" class="text-link">Next logical reads</a>
+<a href="#quick" class="text-link">Quick diagnostic flowchart</a> <a href="#takeaways" class="text-link">Key takeaways</a> <a href="#how-mppt-works" class="text-link">How MPPT finds power</a> <a href="#step1" class="text-link">Step 1: Confirm PV input (sun/shade/soiling)</a> <a href="#step2" class="text-link">Step 2: Confirm PV voltage is high enough</a> <a href="#step3" class="text-link">Step 3: Validate array wiring & controller limits</a> <a href="#step4" class="text-link">Step 4: Check charging stage & settings</a> <a href="#step5" class="text-link">Step 5: Battery protections (BMS/temp/full)</a> <a href="#seasonal" class="text-link">Seasonal patterns</a> <a href="#replace" class="text-link">When to replace vs repair</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#no-output" class="text-link">No output at all</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next" class="text-link">Next logical reads</a>
 
 ## Key takeaways
 
@@ -178,6 +178,63 @@ For specific replacement models matched to array watts and battery voltage, see 
 -   **Ignoring controller voltage limits:** especially risky in cold weather when PV voltage rises.
 -   **Assuming “zero amps” means broken:** float mode or a full battery can legitimately show low current.
 -   **Chasing settings before checking PV input:** always confirm sun/shade and PV watts first.
+
+## No output at all? (0 W display, dead load terminals) {#no-output}
+
+Answer-first: a controller that shows **nothing at all** and a controller that's **alive but stuck at 0 W** are two different faults — and neither is automatically a dead controller. Work this decision tree top to bottom with a multimeter; each branch ends in either a fix or an honest "replace it" verdict.
+
+| Symptom | First measurement | Most common cause |
+| :-- | :-- | :-- |
+| Display dead, no LEDs | DC volts at the PV input terminals | No power reaching the controller (panel / MC4 / inline fuse) |
+| Display alive, 0 W in full sun | PV Voc, then battery voltage | Battery full (float) or wrong battery-type setting |
+| Load terminals dead, charging fine | Battery voltage with loads off | Low-voltage disconnect (LVD) on a low battery |
+| Burn smell / no comms after a cold snap or new wiring | PV Voc vs controller max rating | Blown input stage (reversed polarity or cold-weather Voc over limit) |
+
+### Branch 1: Display dead, no LEDs at all
+
+The controller has no power, so it can't charge or switch loads until that's fixed.
+
+1.  Set your multimeter to DC volts and measure **directly at the controller's PV input terminals** (probes on PV+ and PV−, panels still connected).
+2.  On a sunny day you should read close to the array's open-circuit voltage (Voc): roughly 18–22V for a single 12V panel, roughly 36–44V for two in series.
+3.  If you read ~0V at the terminals, the fault is upstream of the controller. Trace in this order: panel output → each MC4 pair → inline fuse or breaker.
+
+**Worked example:** two 100W 12V panels in series, ~21V Voc each → expect ~42V at the controller in sun. If you measure ~21V at the first panel's leads but ~0V at the controller, the series MC4 pair between them (or the inline fuse) is the culprit.
+
+**If PV voltage is present but the display is still dead:** check the battery-side fuse next — most controllers power their electronics from the battery, not the PV input. A blank display with confirmed input power is listed in the replace-vs-repair section below as a replace candidate.
+
+### Branch 2: Display alive but 0 W in full sun
+
+The controller has power but isn't converting. Two measurements settle most cases:
+
+1.  **Measure PV Voc** at the controller terminals. Well above battery voltage? Input is fine.
+2.  **Measure battery voltage** at the battery terminals. A controller only charges when battery voltage is **below its absorb/float setpoints** — a full battery sitting in float legitimately shows 0 W. Check which charge stage the display reports (bulk / absorb / float) before calling it a fault.
+3.  **Verify the battery-type setting** matches your actual bank (lead-acid vs lithium). A mismatched profile can hold the wrong target voltage or never trigger charging correctly — Step 4 above covers the settings in detail.
+
+**Rule of thumb:** MPPT needs roughly 5V of PV headroom above battery charging voltage (see Step 2). If PV Voc is healthy, the battery is genuinely low, the setting is right, and it still shows 0 W in full sun — that combination points toward Branch 4.
+
+### Branch 3: Load terminals dead, charging works fine
+
+If the display is alive and charging normally but the **load terminals** feed nothing, the controller may be protecting the battery, not failing.
+
+-   Many controllers' load outputs shut off at a **low-voltage disconnect (LVD)** threshold when the battery gets too low. For 12V systems these cutoffs are typically around **10.5–11V** (some units default near 11.1–11.5V; check your manual for the exact value).
+-   **Measure battery voltage with all loads off** (resting). If it's at or below the LVD threshold, the dead load terminals are the protection working as designed.
+-   Recovery: charge the battery back up (sun or a shore/battery charger) and the load output should re-enable. If the battery is healthy but keeps sagging into LVD, your bank is undersized for the loads — see the <a href="solar-battery-not-charging-troubleshooting.html" class="text-link">solar battery not charging checklist</a> for the battery-side diagnosis.
+-   Note: LVD only protects loads wired to the controller's load terminals. An inverter wired straight to the battery bypasses it entirely.
+
+### Branch 4: Blown controller input (reversed polarity or cold-weather Voc over limit)
+
+The failure mode that actually kills controllers. Two common triggers:
+
+-   **Reversed polarity** — PV+ and PV− swapped at the controller during install.
+-   **Voc over the controller's max PV input rating in cold weather.** Panel Voc rises as temperature drops — roughly **10% below freezing** as a planning margin. A 100V-max controller fed by a 90V Voc string at 25°C can exceed 100V on a cold morning, and the input stage takes the hit.
+
+**How to detect a blown input:**
+
+-   **Burn smell** or visible scorching at the PV terminals — stop using the unit immediately.
+-   **No comms / no display** even with confirmed PV voltage and battery power at the terminals (Branch 1 checks done, still dead).
+-   Repeated PV-overvoltage error codes that persist after the array is reconfigured.
+
+**The honest replacement path:** a blown input stage is not a DIY board repair for most people — replacement is the realistic option. Before buying, note your battery voltage, array watts, and worst-case cold Voc, then size the new controller's max PV input with margin. Our <a href="best-mppt-charge-controllers.html" class="text-link">best MPPT charge controllers</a> guide matches controllers to array size and battery voltage. And to keep the next controller alive: size the PV-side fuse/breaker correctly — see <a href="solar-fuse-and-breaker-sizing.html" class="text-link">solar fuse and breaker sizing</a>.
 
 ## FAQ
 
