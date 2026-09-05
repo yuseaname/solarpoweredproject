@@ -10,6 +10,11 @@ image_alt = "Solar power system architecture diagram relevant to voltage selecti
 author = "Solar Powered Project"
 image_width = 1024
 image_height = 576
+related = [
+  "/pages/battery-cable-size-for-inverter.html",
+  "/pages/how-to-choose-solar-system-voltage.html",
+  "/pages/solar-inverter-sizing.html"
+]
 +++
 
 {{< affiliate-disclosure >}}

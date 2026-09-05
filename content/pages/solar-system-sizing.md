@@ -12,6 +12,11 @@ updated = 2026-08-09
 keywords = ["solar system sizing", "how to size solar system", "solar load calculator", "off grid solar sizing", "solar panel sizing"]
 image_width = 1024
 image_height = 768
+related = [
+  "/pages/how-to-calculate-solar-load.html",
+  "/pages/solar-inverter-sizing.html",
+  "/pages/battery-capacity.html"
+]
 +++
 
 {{< affiliate-disclosure >}}

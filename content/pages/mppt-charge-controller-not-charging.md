@@ -9,6 +9,11 @@ image = "/images/mppt-charge-controller-not-charging/hero.webp"
 author = "Solar Powered Project"
 image_width = 1536
 image_height = 1024
+related = [
+  "/pages/solar-battery-not-charging-troubleshooting.html",
+  "/pages/solar-output-troubleshooting.html",
+  "/pages/inverter-keeps-shutting-off-troubleshooting.html"
+]
 +++
 
 

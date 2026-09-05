@@ -5,6 +5,11 @@ date = 2026-05-31
 draft = false
 description = "A practical DIY hand-crank generator guide: realistic wattage expectations, safe charging architecture, rectifiers and regulators, build options, wiring protection, common mistakes, safety, and how to pair hand power with solar + batteries."
 author = "Solar Powered Project"
+related = [
+  "/diy-off-grid-energy/diy-generator-test-bench-measure-watts-watt-hours.html",
+  "/diy-off-grid-energy/pedal-power-generator-for-off-grid-battery-charging.html",
+  "/diy-off-grid-energy/diy-thermoelectric-generator-teg-battery-charging.html"
+]
 +++
 
 ## The quick answer (if you're in a hurry)

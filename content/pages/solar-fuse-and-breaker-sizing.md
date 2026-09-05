@@ -10,6 +10,11 @@ image_alt = "Wiring protection diagram showing fuse and disconnect placement bet
 author = "Solar Powered Project"
 image_width = 1024
 image_height = 768
+related = [
+  "/pages/battery-cable-size-for-inverter.html",
+  "/pages/solar-wire-size.html",
+  "/pages/solar-fuses-vs-breakers.html"
+]
 +++
 
 

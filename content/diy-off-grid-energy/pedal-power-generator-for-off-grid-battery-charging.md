@@ -5,6 +5,11 @@ date = 2026-05-31
 draft = false
 description = "A realistic DIY bicycle generator guide: expected wattage, safe charging architecture, build styles, sizing examples, limitations, and how to pair pedal power with solar + batteries."
 author = "Solar Powered Project"
+related = [
+  "/diy-off-grid-energy/diy-hand-crank-generator-emergency-charging.html",
+  "/diy-off-grid-energy/treadmill-motor-generator-for-off-grid-charging.html",
+  "/diy-off-grid-energy/diy-generator-test-bench-measure-watts-watt-hours.html"
+]
 +++
 
 ## Key takeaways

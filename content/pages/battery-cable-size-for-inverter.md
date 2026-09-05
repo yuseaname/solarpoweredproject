@@ -9,6 +9,11 @@ image = "/images/battery-cable-size-for-inverter/hero.webp"
 author = "Solar Powered Project"
 image_width = 1536
 image_height = 1024
+related = [
+  "/pages/solar-fuse-and-breaker-sizing.html",
+  "/pages/12v-vs-24v-vs-48v-solar.html",
+  "/pages/solar-wire-size.html"
+]
 +++
 
 

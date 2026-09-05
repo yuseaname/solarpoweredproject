@@ -10,6 +10,11 @@ description = "California solar panel cost guide for 2026: price per watt, syste
 image = "/assets/images/solar-panel-cost-california/solar-panel-cost-california-hero.jpg"
 image_width = 1400
 image_height = 787
+related = [
+  "/guides/solar-panel-cost-california.html",
+  "/pages/solar-panel-cost-per-watt.html",
+  "/pages/solar-payback-calculator.html"
+]
 +++
 
 # How Much Do Solar Panels Cost in California in 2026?

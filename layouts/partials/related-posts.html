@@ -1,2 +1,25 @@
-{{ $current := . }}{{ $all := where .Site.RegularPages "Permalink" "!=" $current.Permalink }}{{ $same := where $all "Section" "eq" .Section }}{{ $items := first 3 $same }}
+{{- /* related-posts.html — curated first, recency fallback.
+     A page can pin its related cards with front matter:
+       related = ["/pages/foo.html", "/pages/bar.html"]
+     Paths are resolved against the site; missing paths are skipped silently.
+     Without `related`, the module falls back to recent same-section pages. */ -}}
+{{- $current := . -}}
+{{- $items := slice -}}
+{{- with .Params.related -}}
+  {{- range . -}}
+    {{- with $current.Site.GetPage . -}}
+      {{- $items = $items | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if lt (len $items) 3 -}}
+  {{- $all := where $current.Site.RegularPages "Permalink" "!=" $current.Permalink -}}
+  {{- $same := where $all "Section" "eq" $current.Section -}}
+  {{- range $same -}}
+    {{- if and (lt (len $items) 3) (not (in $items .)) -}}
+      {{- $items = $items | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $items = $items | first 3 -}}
 {{ if gt (len $items) 0 }}<section class="related-reading" aria-label="Related reading"><div class="section-kicker">Keep exploring</div><h2>Related field guides</h2><div class="related-grid">{{ range $items }}<article><p class="eyebrow">{{ if eq .Section "diy-off-grid-energy" }}Project Lab{{ else }}Field guide{{ end }}</p><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>{{ with .Params.description }}<p>{{ truncate 130 . }}</p>{{ end }}<a class="arrow-link" href="{{ .RelPermalink }}">Read guide <span aria-hidden="true">→</span></a></article>{{ end }}</div></section>{{ end }}

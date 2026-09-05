@@ -9,6 +9,11 @@ image = "/images/rv-solar-cost/hero.webp"
 author = "Solar Powered Project"
 image_width = 1536
 image_height = 1024
+related = [
+  "/pages/rv-solar-sizing.html",
+  "/pages/portable-solar-panels.html",
+  "/pages/solar-generator.html"
+]
 +++
 
 {{< affiliate-disclosure >}}

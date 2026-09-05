@@ -5,6 +5,11 @@ date = 2026-05-31
 draft = false
 description = "Build a safe DIY Pelton-style pico hydro turbine for learning and trickle charging: nozzle sizing, spoon-bucket runner concepts, realistic power math from head + flow, wiring protection, and how to pair hydro experiments with solar batteries."
 author = "Solar Powered Project"
+related = [
+  "/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html",
+  "/diy-off-grid-energy/diy-water-wheel-generator-low-head.html",
+  "/diy-off-grid-energy/diy-generator-test-bench-measure-watts-watt-hours.html"
+]
 +++
 
 ## Key takeaways

@@ -10,6 +10,11 @@ author = "Solar Powered Project"
 image_width = 1536
 image_height = 1024
 canonical = "https://solarpoweredproject.com/guides/solar-panel-cost-california.html"
+related = [
+  "/guides/solar-panel-cost-california.html",
+  "/pages/solar-panel-cost-per-watt.html",
+  "/pages/solar-payback-calculator.html"
+]
 +++
 
 As of March 2026, the average solar panel cost in California ranges from **$2.39 to $3.14 per watt**, bringing the total price for a typical residential system to approximately **$22,000 to $23,000 before incentives**. For the average California household requiring a 9.21 kW system to cover their electric bill, the price typically settles around **$22,588**, though this figure fluctuates based on location, roof complexity, and chosen equipment. Note: the 30% federal ITC expired December 31, 2025 — 2026 buyers pay the full price; 2025 installs keep the credit. California's high electricity rates and NEM 3.0 self-consumption economics now carry the investment case.

@@ -12,6 +12,11 @@ updated = 2026-08-09
 keywords = ["solar panel output calculator", "solar panel watt hours", "daily solar production", "peak sun hours calculator", "solar panel kwh per day"]
 image_width = 1024
 image_height = 768
+related = [
+  "/pages/solar-output-troubleshooting.html",
+  "/pages/solar-panel-shading-effects.html",
+  "/pages/solar-panel-tilt-and-orientation.html"
+]
 +++
 
 
