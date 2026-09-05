@@ -181,6 +181,8 @@ Before you buy, verify these specs on the datasheet — not the marketing page:
 
 **Red flags in marketing:** "peak watts" or "max watts" ratings that conflate surge with continuous. A "2,000W peak" station that only delivers 1,000W continuous will not start a fridge needing 1,800W surge. Always read the fine print for continuous rating. For the basics of how these stations work, see our [solar generator explainer](/pages/solar-generator.html).
 
+{{< product-box asin="B0D7PPG25F" name="Jackery Explorer 1000 v2 (1070Wh, 1500W)" label="Mid-size fridge class pick" description="1070Wh LiFePO4 with 1500W continuous / 3000W surge — covers the modern-fridge class from the worked examples (1,400-1,600Wh/day) for most of a day, and the compressor start spike with margin. 4,000-cycle rated cells per manufacturer spec." button="Check price on Amazon" >}}
+
 ## FAQ
 
 {{< faq "Can I run a fridge and freezer together?" >}}

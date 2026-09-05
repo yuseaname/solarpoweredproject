@@ -32,11 +32,11 @@ Cleaning is worth the cost only when visible soiling or measurable performance d
 
 Not all dirt is created equal. The type of buildup on your panels determines how much energy you lose and how difficult it is to clean.
 
-- **Dust and Sand:** Common in arid regions. It forms a fine, even layer that can significantly block light. It is usually easy to wash away with water.
-- **Pollen:** Seasonal in many regions. Pollen can be "sticky" and, when combined with light rain, can form a paste that is harder to remove than dry dust.
-- **Bird Droppings:** Highly localized but very impactful. A single large dropping can shade a cell, causing a "hot spot" that can damage the panel over time. These require more targeted cleaning.
-- **Salt Spray:** A major concern for coastal installations. Salt buildup is corrosive and can degrade the panel's frame and seals if not addressed. It often requires more frequent rinsing.
-- **Tree Sap and Organic Debris:** Leaves, twigs, and sap can create heavy shading and can be quite difficult to remove without careful scrubbing.
+- **Dust and Sand:** Common in arid regions. It forms a fine, even layer that can significantly block light. It is usually easy to wash away with water, but in desert environments, it can accumulate rapidly between rain events.
+- **Pollen:** Seasonal in many regions. Pollen can be "sticky" and, when combined with light rain, can form a paste that is harder to remove than dry dust. This often requires a more thorough scrub.
+- **Bird Droppings:** Highly localized but extremely impactful. A single large dropping can shade a specific solar cell, causing a "hot spot" that can damage the panel's internal circuitry over time. These require more targeted, careful cleaning.
+- **Salt Spray:** A major concern for coastal installations. Salt buildup is corrosive and can degrade the panel's frame and seals if not addressed. It often requires more frequent rinsing with fresh water to prevent long-term damage.
+- **Tree Sap and Organic Debris:** Leaves, twigs, and sap can create heavy shading and can be quite difficult to remove without careful scrubbing. Sap, in particular, can bake onto the glass in the sun, making it very difficult to clean without specialized tools.
 
 ## The math: Is cleaning worth it?
 
@@ -50,35 +50,35 @@ To decide if cleaning is worth the expense, you must compare the cost of the ser
 Assume an 8kW system in a moderately dusty area with a 5% soiling loss. We'll estimate the annual energy loss and compare it to professional cleaning costs.
 
 1. **Calculate annual production:**
-   8kW × 4 average sun hours/day × 365 days = 11,680 kWh/year
+   8kW $\times$ 4 average sun-hours/day $\times$ 365 days $\approx$ 11,680 kWh/year
 
 2. **Calculate energy lost to soiling (5%):**
-   11,680 kWh × 0.05 = 584 kWh/year
+   11,680 kWh $\times$ 0.05 = 584 kWh/year
 
 3. **Calculate monetary value of lost energy:**
-   Assuming an average electricity rate of $0.16/kWh:
-   584 kWh × $0.16 = $93.44 per year
+   Assuming an average electricity rate of \$0.16/kWh:
+   584 kWh $\times$ \$0.16 = \$93.44 per year
 
 **The Verdict:**
-- **If DIY ($50/year):** You save ~$43/year. It's worth it.
-- **If Professional ($300/year):** You lose ~$206/year. It is not worth it unless you have much higher soiling (e.g., 15% loss in a desert).
+- **If DIY (\$50/year):** You save ~$43/year. It's worth it.
+- **If Professional (\$300/year):** You lose ~$206/year. It is not worth it unless you have much higher soiling (e.g., 15% loss in a desert).
 
 ### Worked Example 2: 10kW System in a Desert Region (High Dust)
 
 Assume a 10kW system in a desert environment with a 20% soiling loss.
 
 1. **Calculate annual production:**
-   10kW × 6 average sun hours/day × 365 days = 21,900 kWh/year
+   10kW $\times$ 6 average sun-hours/day $\times$ 365 days = 21,900 kWh/year
 
 2. **Calculate energy lost to soiling (20%):**
-   21,900 kWh × 0.20 = 4,380 kWh/year
+   21,900 kWh $\times$ 0.20 = 4,380 kWh/year
 
 3. **Calculate monetary value of lost energy:**
-   Assuming an average electricity rate of $0.16/kWh:
-   4,380 kWh × $0.16 = $700.80 per year
+   Assuming an average electricity rate of \$0.16/kWh:
+   4,380 kWh $\times$ \$0.16 = \$700.80 per year
 
 **The Verdict:**
-- **If Professional ($300/year):** You recover $700 in energy for a $300 cost. It is highly profitable to clean.
+- **If Professional (\$300/year):** You recover \$700 in energy for a \$300 cost. It is highly profitable to clean.
 
 ## How to check if YOU need it
 
@@ -99,22 +99,20 @@ If you don't have a sophisticated monitoring system, you can use a more manual a
 3. **The Verification (After):** On a subsequent clear, sunny day with similar weather conditions, check the peak power output again.
 4. **The Comparison:** If the peak output has increased significantly (e.g., from 4.5kW to 5.2kW), the cleaning was successful and justified.
 
-For more on interpreting these numbers, see <a href="solar-panel-output.html" class="text-link">solar panel output guide</a> or <a href="solar-output-troubleshooting.html" class="text-link">troubleshoot low solar output</a>.
-
-## Safe DIY cleaning method
+## Safe DIY method
 
 If you decide to clean your own panels, prioritize safety and panel integrity. Most residential panels can be cleaned with basic tools from the ground or a stable ladder.
 
 ### Recommended Tools
-- **Soft-bristle brush:** A telescopic pole brush designed for windows or solar panels.
-- **Deionized or soft water:** Hard water can leave mineral deposits (scaling) that are harder to remove than dust.
+- **Soft-bristle brush:** A telescopic pole brush designed for windows or solar panels. Avoid anything with stiff bristles that could scratch the glass.
+- **Deionized or soft water:** Hard water can leave mineral deposits (scaling) that are harder to remove. If you have hard water, consider a water softener attachment for your hose.
 - **Mild soap:** A small amount of Dawn dish soap or a dedicated solar cleaner is usually sufficient.
 
 ### The Process
-1. **Clean when cool:** Perform cleaning in the early morning or late evening. Cleaning hot glass with cool water can cause thermal shock and cracking.
+1. **Clean when cool:** Perform cleaning in the early morning or late evening. Cleaning panels while they are hot from the midday sun can cause thermal shock, which may crack the glass.
 2. **Avoid pressure washers:** High pressure can force water past seals or damage the glass surface. Use a garden hose on a gentle setting.
 3. **No harsh chemicals:** Avoid bleach, abrasive cleaners, or anything with high acidity/alkalinity. These can degrade the anti-reflective coating.
-4. **Safety caveat:** Never walk on solar panels. If your panels are on a steep or high roof, hire a professional. The risk of a fall far outweighs the $100 savings.
+4. **Safety caveat:** Never walk on solar panels. If your panels are on a steep or high roof, hire a professional. The risk of a fall far outweighs the \$100 savings.
 
 ## Hiring a Professional: What to look for
 

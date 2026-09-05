@@ -16,6 +16,8 @@ related = [
 ]
 +++
 
+{{< affiliate-disclosure >}}
+
 Transforming a shed, garage, or workshop into a self-sustaining power hub is one of the most efficient ways to begin your solar journey. Unlike large-scale residential arrays that require complex grid integration and significant permitting, solar for outbuildings often functions as an "off-grid" or "semi-detached" system, providing dedicated power for tools, lighting, security cameras, or even small workshops without increasing your main home's electricity bill.
 
 ## Key Takeaways
@@ -164,3 +166,7 @@ Maintenance is minimal. The primary task is cleaning the panels with water and a
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
 - [DIY Thermoelectric Generator (TEG): Turn Waste Heat Into Battery Power](/diy-off-grid-energy/diy-thermoelectric-generator-teg-battery-charging.html)
 - [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
+
+{{< product-box asin="B00BFCNFRM" name="Renogy 100W 12V mono starter kit" label="The 100W shed baseline" description="Panel, 30A PWM controller, Z-brackets, and cables in one box — the exact class this guide sizes from. Fine for lights + tool charging; if your math says 200W+, buy two panels and a bigger MPPT (see our controller guide) instead of two kits." button="Check price on Amazon" >}}
+
+

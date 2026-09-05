@@ -11,6 +11,8 @@ image_width = 1536
 image_height = 1024
 +++
 
+{{< affiliate-disclosure >}}
+
 Enhancing your outdoor space with solar lighting is one of the most cost-effective ways to improve home security, aesthetics, and usability without increasing your monthly electricity bill. Unlike traditional wired lighting, solar-powered yard lights require no trenching, no electrical permits, and zero ongoing energy costs. However, the market is flooded with options ranging from $5 decorative stakes to $500 high-intensity floodlights. To make an informed decision, you must understand the relationship between lumen output, battery capacity, and solar cell efficiency.
 
 ## Key Takeaways
@@ -146,3 +148,7 @@ If you are looking for security or path lighting, yes. A $5 light uses low-quali
 - [How Much Does a Solar Battery Cost in 2026?](/guides/solar-battery-cost-2026/)
 - [How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide](/pages/solar-battery-cost-2026.html)
 - [Solar phone charger](/pages/solar-phone-charger.html)
+
+{{< product-box asin="B0816BTL82" name="SOLPEX 16-pack solar pathway lights" label="The install-and-forget set" description="Warm-white 3000K, IP65 stakes with 1,000mAh cells — sized for the 6-8 hour runtime tier on a full-sun day. Sixteen covers a typical front-walk layout; buy warm white (3000K) if you want them to read as lighting, not security." button="Check price on Amazon" >}}
+
+

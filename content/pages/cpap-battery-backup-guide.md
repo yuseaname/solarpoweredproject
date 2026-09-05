@@ -111,6 +111,10 @@ This is electrical, not medical — but a few practical notes:
 - **Don't touch pressure settings or firmware.** Those are therapy settings. Any question about your treatment goes to your prescriber, not a battery guide.
 - **Read your machine's manual** for its actual input requirements before buying anything.
 
+{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="The deep-cycle CPAP bank" description="1,280Wh of usable-capacity chemistry (100Ah at 12.8V, 80-100% DoD) — at 40-60Wh per CPAP night that is over a week of runtime, and it doubles as the cabin/RV bank the rest of the year. Pair with a 12V DC cable for your machine to skip inverter losses." button="Check price on Amazon" >}}
+
+
+
 ## FAQ
 
 {{< faq "Can a 300Wh station run my CPAP for one night?" >}}
