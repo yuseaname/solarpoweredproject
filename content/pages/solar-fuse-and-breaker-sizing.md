@@ -45,6 +45,141 @@ Match fuse/breaker size to the **wire ampacity**, not the load. The protection d
 
 <a href="solar-fuses-vs-breakers.html" class="text-link">Solar fuses vs breakers (what to use where)</a> <a href="wiring-decisions.html" class="text-link">Solar wiring decisions (pillar hub)</a>
 
+
+## Fuse and breaker calculator (by circuit)
+
+Pick the circuit you're protecting, enter the number from the equipment label, and get a planning-level fuse size using this guide's rules.
+
+<form id="fuse-form" class="space-y-4 p-4 bg-gray-50 rounded-lg border border-gray-200">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+    <div>
+      <label class="block text-sm font-medium text-gray-700" for="fuse-circuit">Circuit</label>
+      <select id="fuse-circuit" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+        <option value="pv" selected>PV string → charge controller</option>
+        <option value="controller">Charge controller → battery</option>
+        <option value="inverter">Battery → inverter</option>
+      </select>
+    </div>
+    <div id="fuse-input-wrap">
+      <label class="block text-sm font-medium text-gray-700" for="fuse-input" id="fuse-input-label">Panel short-circuit current Isc (A)</label>
+      <input type="number" id="fuse-input" value="6" min="0.5" max="400" step="0.1" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+    </div>
+  </div>
+  <div id="fuse-inv-wrap" class="hidden grid grid-cols-1 sm:grid-cols-2 gap-4">
+    <div>
+      <label class="block text-sm font-medium text-gray-700" for="fuse-watts">Inverter watts (continuous)</label>
+      <input type="number" id="fuse-watts" value="1000" min="100" max="6000" step="50" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+    </div>
+    <div>
+      <label class="block text-sm font-medium text-gray-700" for="fuse-volts">Battery voltage</label>
+      <select id="fuse-volts" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+        <option value="12" selected>12V</option>
+        <option value="24">24V</option>
+        <option value="48">48V</option>
+      </select>
+    </div>
+  </div>
+  <button type="button" id="calc-fuse" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Calculate fuse size</button>
+</form>
+
+<div id="fuse-results" class="mt-6 hidden">
+  <h3>Your protection plan (planning-level)</h3>
+  <table>
+  <thead><tr><th>Result</th><th>Value</th></tr></thead>
+  <tbody>
+    <tr><td>Continuous current</td><td id="fuse-amps"></td></tr>
+    <tr><td>Recommended fuse/breaker</td><td id="fuse-size"></td></tr>
+  </tbody>
+  </table>
+  <p id="fuse-notes"></p>
+</div>
+
+<div class="calc-actions hidden mt-3" data-target="fuse-results">
+  <button type="button" class="calc-copy px-3 py-1.5 text-sm font-medium rounded-md border border-gray-300 bg-white hover:bg-gray-50">Copy results</button>
+  <button type="button" class="calc-print px-3 py-1.5 text-sm font-medium rounded-md border border-gray-300 bg-white hover:bg-gray-50">Print</button>
+  <span class="calc-copied hidden text-sm text-green-600 ml-2">Copied!</span>
+</div>
+
+{{< toolscript id="calc-actions-fuse-results" >}}
+(function(){
+  var actions = document.querySelector('.calc-actions[data-target="fuse-results"]');
+  var target = document.getElementById('fuse-results');
+  if (!actions || !target) return;
+  function show(){ if (target.innerHTML.trim() !== '') actions.classList.remove('hidden'); }
+  new MutationObserver(show).observe(target, {childList: true, subtree: true, characterData: true});
+  show();
+  actions.querySelector('.calc-copy').addEventListener('click', function(){
+    var text = target.innerText.trim();
+    function done(){
+      var ok = actions.querySelector('.calc-copied');
+      ok.classList.remove('hidden');
+      setTimeout(function(){ ok.classList.add('hidden'); }, 2000);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done).catch(function(){
+        var ta = document.createElement('textarea');
+        ta.value = text; document.body.appendChild(ta); ta.select();
+        try { document.execCommand('copy'); done(); } catch(e){}
+        document.body.removeChild(ta);
+      });
+    }
+  });
+  actions.querySelector('.calc-print').addEventListener('click', function(){ window.print(); });
+})();
+{{< /toolscript >}}
+{{< toolscript id="fuse-calc" >}}
+  var SIZES = [5,7.5,10,15,20,25,30,35,40,45,50,60,70,80,90,100,110,125,150,175,200,225,250,300,350,400];
+  function nextStd(a){
+    for (var i=0;i<SIZES.length;i++){ if (SIZES[i] >= a) return SIZES[i]; }
+    return null;
+  }
+  function circuit(){ return document.getElementById('fuse-circuit').value; }
+  function syncInputs(){
+    var c = circuit();
+    document.getElementById('fuse-inv-wrap').classList.toggle('hidden', c !== 'inverter');
+    var lbl = document.getElementById('fuse-input-label');
+    var inp = document.getElementById('fuse-input');
+    if (c === 'pv') { lbl.textContent = 'Panel short-circuit current Isc (A)'; inp.value = 6; }
+    if (c === 'controller') { lbl.textContent = 'Controller max output current (A)'; inp.value = 30; }
+    if (c === 'inverter') { lbl.textContent = 'Not used for inverter circuit'; }
+  }
+  function calcFuse(){
+    var c = circuit(), notes = [], amps, target, sized;
+    if (c === 'pv') {
+      amps = parseFloat(document.getElementById('fuse-input').value) || 0;
+      target = amps * 1.56;
+      sized = nextStd(target);
+      notes.push('PV string rule: Isc \u00d7 1.56 (' + amps + ' A \u00d7 1.56 = ' + target.toFixed(1) + ' A).');
+      notes.push('Fuse each parallel string individually. A single series string usually needs no string fuse \u2014 check whether one parallel string can back-feed another.');
+    } else if (c === 'controller') {
+      amps = parseFloat(document.getElementById('fuse-input').value) || 0;
+      target = amps * 1.25;
+      sized = nextStd(target);
+      notes.push('Controller-to-battery rule: max output \u00d7 1.25 (' + amps + ' A \u00d7 1.25 = ' + target.toFixed(1) + ' A).');
+      notes.push('Place it close to the battery end so the battery side is protected.');
+    } else {
+      var w = parseFloat(document.getElementById('fuse-watts').value) || 0;
+      var v = parseFloat(document.getElementById('fuse-volts').value) || 12;
+      amps = w / v;
+      target = amps * 1.25;
+      sized = nextStd(target);
+      notes.push('Battery-to-inverter rule: (watts \u00f7 volts) \u00d7 1.25 = ' + amps.toFixed(0) + ' A \u00d7 1.25 = ' + target.toFixed(0) + ' A.');
+      if (sized >= 150) notes.push('At this size use a Class T fuse or MRBF \u2014 the interrupt rating matters, not just the amp rating.');
+      notes.push('The fuse protects the wire: the cable ampacity must be at or above this fuse rating.');
+    }
+    document.getElementById('fuse-amps').textContent = amps.toFixed(1) + ' A' + (c === 'pv' ? ' (Isc)' : '');
+    document.getElementById('fuse-size').textContent = sized ? sized + ' A' : 'beyond 400 A \u2014 redesign the circuit';
+    if (!sized) notes.push('This current level needs an engineered solution, not a bigger fuse.');
+    notes.push('Planning-level. Follow the equipment manuals and local code; when in doubt, ask a qualified installer.');
+    document.getElementById('fuse-notes').textContent = notes.join(' ');
+    document.getElementById('fuse-results').classList.remove('hidden');
+  }
+  document.getElementById('fuse-circuit').addEventListener('change', function(){ syncInputs(); calcFuse(); });
+  document.getElementById('calc-fuse').addEventListener('click', calcFuse);
+  syncInputs();
+  calcFuse();
+{{< /toolscript >}}
+
 ## What fuses and breakers protect (and what they don’t)
 
 In planning terms, overcurrent protection exists to reduce the chance that a fault turns wiring into a heater. That’s why people often say “fuses protect the wire.”

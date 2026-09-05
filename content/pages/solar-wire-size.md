@@ -70,6 +70,147 @@ If you want a simple rule for planning (not a code substitute), aim to keep volt
 
 When in doubt, oversize cable rather than forcing a long, high-current run at a low voltage.
 
+
+## Wire size calculator (amps, volts, distance)
+
+Enter the circuit numbers from Steps 1–4: the circuit voltage, the max current from the equipment label, and the one-way run length. The calculator picks a gauge that clears both the ampacity ladder and your voltage-drop target.
+
+<form id="wire-form" class="space-y-4 p-4 bg-gray-50 rounded-lg border border-gray-200">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+    <div>
+      <label class="block text-sm font-medium text-gray-700" for="wire-volts">Circuit voltage</label>
+      <select id="wire-volts" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+        <option value="12" selected>12V</option>
+        <option value="24">24V</option>
+        <option value="48">48V</option>
+        <option value="36">~36V (PV string)</option>
+        <option value="60">~60V (PV string)</option>
+      </select>
+    </div>
+    <div>
+      <label class="block text-sm font-medium text-gray-700" for="wire-amps">Max amps (from label)</label>
+      <input type="number" id="wire-amps" value="6" min="0.5" max="200" step="0.5" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+    </div>
+    <div>
+      <label class="block text-sm font-medium text-gray-700" for="wire-run">One-way run (feet)</label>
+      <input type="number" id="wire-run" value="10" min="1" max="120" step="1" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+    </div>
+    <div>
+      <label class="block text-sm font-medium text-gray-700" for="wire-drop">Voltage-drop target</label>
+      <select id="wire-drop" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+        <option value="2">2% (tight)</option>
+        <option value="3" selected>3% (typical)</option>
+        <option value="5">5% (relaxed, non-critical)</option>
+      </select>
+    </div>
+  </div>
+  <button type="button" id="calc-wire" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Calculate wire size</button>
+</form>
+
+<div id="wire-results" class="mt-6 hidden">
+  <h3>Your wire plan (planning-level)</h3>
+  <table>
+  <thead><tr><th>Result</th><th>Value</th></tr></thead>
+  <tbody>
+    <tr><td>Recommended gauge</td><td id="wire-rec"></td></tr>
+    <tr><td>Expected voltage drop</td><td id="wire-drop-res"></td></tr>
+    <tr><td>Ampacity headroom</td><td id="wire-head"></td></tr>
+  </tbody>
+  </table>
+  <p id="wire-notes"></p>
+</div>
+
+<div class="calc-actions hidden mt-3" data-target="wire-results">
+  <button type="button" class="calc-copy px-3 py-1.5 text-sm font-medium rounded-md border border-gray-300 bg-white hover:bg-gray-50">Copy results</button>
+  <button type="button" class="calc-print px-3 py-1.5 text-sm font-medium rounded-md border border-gray-300 bg-white hover:bg-gray-50">Print</button>
+  <span class="calc-copied hidden text-sm text-green-600 ml-2">Copied!</span>
+</div>
+
+{{< toolscript id="calc-actions-wire-results" >}}
+(function(){
+  var actions = document.querySelector('.calc-actions[data-target="wire-results"]');
+  var target = document.getElementById('wire-results');
+  if (!actions || !target) return;
+  function show(){ if (target.innerHTML.trim() !== '') actions.classList.remove('hidden'); }
+  new MutationObserver(show).observe(target, {childList: true, subtree: true, characterData: true});
+  show();
+  actions.querySelector('.calc-copy').addEventListener('click', function(){
+    var text = target.innerText.trim();
+    function done(){
+      var ok = actions.querySelector('.calc-copied');
+      ok.classList.remove('hidden');
+      setTimeout(function(){ ok.classList.add('hidden'); }, 2000);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done).catch(function(){
+        var ta = document.createElement('textarea');
+        ta.value = text; document.body.appendChild(ta); ta.select();
+        try { document.execCommand('copy'); done(); } catch(e){}
+        document.body.removeChild(ta);
+      });
+    }
+  });
+  actions.querySelector('.calc-print').addEventListener('click', function(){ window.print(); });
+})();
+{{< /toolscript >}}
+{{< toolscript id="wire-calc" >}}
+  var LADDER = [
+    {name:'14 AWG', limit:15, r:2.6},
+    {name:'12 AWG', limit:20, r:1.6},
+    {name:'10 AWG', limit:30, r:1.0},
+    {name:'8 AWG', limit:45, r:0.64},
+    {name:'6 AWG', limit:65, r:0.40},
+    {name:'4 AWG', limit:85, r:0.25},
+    {name:'2 AWG', limit:110, r:0.16},
+    {name:'1/0 AWG', limit:125, r:0.10},
+    {name:'2/0 AWG', limit:145, r:0.079},
+    {name:'4/0 AWG', limit:175, r:0.050}
+  ];
+  function calcWire(){
+    var v = parseFloat(document.getElementById('wire-volts').value) || 12;
+    var a = parseFloat(document.getElementById('wire-amps').value) || 0;
+    var ft = parseFloat(document.getElementById('wire-run').value) || 1;
+    var tgt = parseFloat(document.getElementById('wire-drop').value) || 3;
+    var notes = [];
+    var idx = LADDER.findIndex(function(g){ return g.limit >= a; });
+    if (idx === -1) {
+      document.getElementById('wire-rec').textContent = 'beyond 4/0 \u2014 shorten the run or raise voltage';
+      document.getElementById('wire-drop-res').textContent = '—';
+      document.getElementById('wire-head').textContent = '—';
+      document.getElementById('wire-notes').textContent = 'At ' + a + ' A this is battery-cable territory: see the battery cable size guide, parallel feeds, or a higher system voltage.';
+      document.getElementById('wire-results').classList.remove('hidden');
+      return;
+    }
+    function dropPct(i){ return (2 * ft * a * LADDER[i].r / 1000) / v * 100; }
+    var rec = idx;
+    while (dropPct(rec) > tgt && rec < LADDER.length - 1) rec++;
+    var dp = dropPct(rec), dv = 2 * ft * a * LADDER[rec].r / 1000;
+    if (rec > idx) notes.push('Stepped up from ' + LADDER[idx].name + ' to hold the ' + tgt + '% drop target over ' + ft + ' ft.');
+    else notes.push(LADDER[rec].name + ' clears both the ampacity limit and the ' + tgt + '% drop target.');
+    if (dp > tgt) notes.push('Even ' + LADDER[rec].name + ' exceeds ' + tgt + '% on this run \u2014 shorten the path, raise circuit voltage, or parallel conductors.');
+    notes.push('Planning-level (copper, conservative resistance at temperature). Use equipment labels as the source of truth and confirm with the manuals.');
+    document.getElementById('wire-rec').textContent = LADDER[rec].name;
+    document.getElementById('wire-drop-res').textContent = dv.toFixed(2) + ' V (' + dp.toFixed(1) + '%)';
+    document.getElementById('wire-head').textContent = a + ' A on a ' + LADDER[rec].limit + ' A rating (' + Math.round(a / LADDER[rec].limit * 100) + '% used)';
+    document.getElementById('wire-notes').textContent = notes.join(' ');
+    document.getElementById('wire-results').classList.remove('hidden');
+  }
+  document.getElementById('calc-wire').addEventListener('click', calcWire);
+  calcWire();
+{{< /toolscript >}}
+
+### Worked example: what size wire for a 100W solar panel?
+
+A 100W 12V-nominal panel has an Imp around 5–6 A and an Isc a bit above that — so the wire decision runs on roughly **6 A**, not 100 W. At 6 A, even 14 AWG clears ampacity; voltage drop over distance is what actually decides the gauge:
+
+| One-way run | 12 AWG drop | 10 AWG drop | Verdict |
+| :-- | :-- | :-- | :-- |
+| 10 ft | ~1.6% | ~1.0% | 12 AWG is fine |
+| 20 ft | ~3.2% | ~2.0% | 10 AWG recommended |
+| 35 ft | ~5.6% | ~3.5% | 10 AWG minimum; 8 AWG if you want 3% |
+
+Series-string a second panel and the voltage doubles while current stays the same — the same wire suddenly halves its percentage drop, which is one of the quiet advantages of <a href="solar-panels-series-vs-parallel.html" class="text-link">wiring panels in series</a>.
+
 ## 12V vs 24V vs 48V: why higher voltage usually simplifies wiring
 
 If you keep power roughly the same, higher voltage means lower current. Lower current typically means thinner wire, less voltage drop, and smaller (and sometimes cheaper) protection hardware. That’s why many systems “graduate” to 24V or 48V as power needs grow.

@@ -45,6 +45,96 @@ Don't want to read the whole article? Match your situation:
 
 **Whole-home backup:** 48V. No exceptions above 4,000W continuous load.
 
+
+## Pick-your-voltage calculator
+
+Enter your largest continuous AC load and total battery bank size in amp-hours at 12V-equivalent (or just take the default). The calculator applies the decision table above.
+
+<form id="volt-form" class="space-y-4 p-4 bg-gray-50 rounded-lg border border-gray-200">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+    <div>
+      <label class="block text-sm font-medium text-gray-700" for="volt-watts">Max continuous AC load (watts)</label>
+      <input type="number" id="volt-watts" value="1500" min="100" max="12000" step="100" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+    </div>
+    <div>
+      <label class="block text-sm font-medium text-gray-700" for="volt-ah">Battery bank (Ah at 12V-equivalent)</label>
+      <input type="number" id="volt-ah" value="200" min="50" max="2000" step="10" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+    </div>
+  </div>
+  <button type="button" id="calc-volt" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Recommend a voltage</button>
+</form>
+
+<div id="volt-results" class="mt-6 hidden">
+  <h3 id="volt-rec"></h3>
+  <p id="volt-notes"></p>
+</div>
+
+<div class="calc-actions hidden mt-3" data-target="volt-results">
+  <button type="button" class="calc-copy px-3 py-1.5 text-sm font-medium rounded-md border border-gray-300 bg-white hover:bg-gray-50">Copy results</button>
+  <button type="button" class="calc-print px-3 py-1.5 text-sm font-medium rounded-md border border-gray-300 bg-white hover:bg-gray-50">Print</button>
+  <span class="calc-copied hidden text-sm text-green-600 ml-2">Copied!</span>
+</div>
+
+{{< toolscript id="calc-actions-volt-results" >}}
+(function(){
+  var actions = document.querySelector('.calc-actions[data-target="volt-results"]');
+  var target = document.getElementById('volt-results');
+  if (!actions || !target) return;
+  function show(){ if (target.innerHTML.trim() !== '') actions.classList.remove('hidden'); }
+  new MutationObserver(show).observe(target, {childList: true, subtree: true, characterData: true});
+  show();
+  actions.querySelector('.calc-copy').addEventListener('click', function(){
+    var text = target.innerText.trim();
+    function done(){
+      var ok = actions.querySelector('.calc-copied');
+      ok.classList.remove('hidden');
+      setTimeout(function(){ ok.classList.add('hidden'); }, 2000);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done).catch(function(){
+        var ta = document.createElement('textarea');
+        ta.value = text; document.body.appendChild(ta); ta.select();
+        try { document.execCommand('copy'); done(); } catch(e){}
+        document.body.removeChild(ta);
+      });
+    }
+  });
+  actions.querySelector('.calc-print').addEventListener('click', function(){ window.print(); });
+})();
+{{< /toolscript >}}
+{{< toolscript id="volt-calc" >}}
+  function calcVolt(){
+    var w = parseFloat(document.getElementById('volt-watts').value) || 0;
+    var ah = parseFloat(document.getElementById('volt-ah').value) || 0;
+    var rec, notes = [];
+    if (w < 1000) {
+      rec = '12V';
+      notes.push('Loads under 1,000W: 12V keeps everything simple \u2014 one battery voltage for lights, fridge, and fans.');
+      if (ah >= 400) notes.push('Your bank is larger than the load needs \u2014 pick 24V only if you plan to grow past 1,000W continuous.');
+    } else if (w <= 2000 && ah >= 200 && ah <= 400) {
+      rec = '12V or 24V';
+      notes.push('Borderline zone: 12V still works, but 24V halves the current and thins the cables if runs are long or you might grow the system.');
+    } else if (w <= 3000) {
+      rec = '24V';
+      notes.push('At 1,000\u20133,000W continuous, 24V is the sweet spot: manageable current without 48V-grade equipment.');
+    } else if (w <= 6000) {
+      rec = '48V';
+      notes.push('Above 3,000W continuous, 48V keeps battery current \u2014 and therefore cables, fuses, and lugs \u2014 sane.');
+    } else {
+      rec = '48V';
+      notes.push('Whole-home territory: 48V, no exceptions above 4,000W continuous.');
+    }
+    var amps12 = w / 12, ampsAt = w / (rec === '12V or 24V' ? 24 : parseInt(rec, 10));
+    notes.push('Battery-side current at full load: ' + Math.round(amps12) + ' A at 12V vs about ' + Math.round(ampsAt) + ' A on the recommended bus.');
+    notes.push('RV or van? Stay 12V regardless \u2014 the alternator and house gear are already 12V. Planning guidance; confirm equipment availability before committing.');
+    document.getElementById('volt-rec').textContent = 'Recommended system voltage: ' + rec;
+    document.getElementById('volt-notes').textContent = notes.join(' ');
+    document.getElementById('volt-results').classList.remove('hidden');
+  }
+  document.getElementById('calc-volt').addEventListener('click', calcVolt);
+  calcVolt();
+{{< /toolscript >}}
+
 ## Quick comparison table
 
 <table>

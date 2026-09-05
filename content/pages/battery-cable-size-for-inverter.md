@@ -49,6 +49,124 @@ These numbers assume an inverter efficiency of ~85%. Real current varies with lo
 
 <a href="wiring-decisions.html" class="text-link">Solar wiring decisions (pillar hub)</a> <a href="solar-wire-size.html" class="text-link">Solar wire size: choose the right gauge</a>
 
+
+## Cable size calculator (watts, volts, run length)
+
+Enter your inverter's continuous watts, battery voltage, and the one-way cable run. The calculator estimates max DC current, recommends a gauge, and checks voltage drop against the 3% target from Step 3 — using the same planning math as this guide.
+
+<form id="cable-form" class="space-y-4 p-4 bg-gray-50 rounded-lg border border-gray-200">
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+    <div>
+      <label class="block text-sm font-medium text-gray-700" for="cable-watts">Inverter watts (continuous)</label>
+      <input type="number" id="cable-watts" value="1000" min="100" max="6000" step="50" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+    </div>
+    <div>
+      <label class="block text-sm font-medium text-gray-700" for="cable-volts">Battery voltage</label>
+      <select id="cable-volts" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+        <option value="12" selected>12V</option>
+        <option value="24">24V</option>
+        <option value="48">48V</option>
+      </select>
+    </div>
+    <div>
+      <label class="block text-sm font-medium text-gray-700" for="cable-run">One-way run (feet)</label>
+      <input type="number" id="cable-run" value="3" min="1" max="50" step="0.5" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-3 py-2 border">
+    </div>
+  </div>
+  <button type="button" id="calc-cable" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Calculate cable size</button>
+</form>
+
+<div id="cable-results" class="mt-6 hidden">
+  <h3>Your cable plan (planning-level)</h3>
+  <table>
+  <thead><tr><th>Result</th><th>Value</th></tr></thead>
+  <tbody>
+    <tr><td>Estimated max DC current</td><td id="cable-amps"></td></tr>
+    <tr><td>Minimum gauge (short run)</td><td id="cable-min"></td></tr>
+    <tr><td>Recommended gauge (your run)</td><td id="cable-rec"></td></tr>
+    <tr><td>Expected voltage drop at that gauge</td><td id="cable-drop"></td></tr>
+  </tbody>
+  </table>
+  <p id="cable-notes"></p>
+</div>
+
+<div class="calc-actions hidden mt-3" data-target="cable-results">
+  <button type="button" class="calc-copy px-3 py-1.5 text-sm font-medium rounded-md border border-gray-300 bg-white hover:bg-gray-50">Copy results</button>
+  <button type="button" class="calc-print px-3 py-1.5 text-sm font-medium rounded-md border border-gray-300 bg-white hover:bg-gray-50">Print</button>
+  <span class="calc-copied hidden text-sm text-green-600 ml-2">Copied!</span>
+</div>
+
+{{< toolscript id="calc-actions-cable-results" >}}
+(function(){
+  var actions = document.querySelector('.calc-actions[data-target="cable-results"]');
+  var target = document.getElementById('cable-results');
+  if (!actions || !target) return;
+  function show(){ if (target.innerHTML.trim() !== '') actions.classList.remove('hidden'); }
+  new MutationObserver(show).observe(target, {childList: true, subtree: true, characterData: true});
+  show();
+  actions.querySelector('.calc-copy').addEventListener('click', function(){
+    var text = target.innerText.trim();
+    function done(){
+      var ok = actions.querySelector('.calc-copied');
+      ok.classList.remove('hidden');
+      setTimeout(function(){ ok.classList.add('hidden'); }, 2000);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done).catch(function(){
+        var ta = document.createElement('textarea');
+        ta.value = text; document.body.appendChild(ta); ta.select();
+        try { document.execCommand('copy'); done(); } catch(e){}
+        document.body.removeChild(ta);
+      });
+    }
+  });
+  actions.querySelector('.calc-print').addEventListener('click', function(){ window.print(); });
+})();
+{{< /toolscript >}}
+{{< toolscript id="cable-calc" >}}
+  var GAUGES = [
+    {name:'10 AWG', limit:25, r:1.0},
+    {name:'8 AWG', limit:45, r:0.64},
+    {name:'4 AWG', limit:85, r:0.25},
+    {name:'2/0 AWG', limit:130, r:0.079},
+    {name:'4/0 AWG', limit:175, r:0.050}
+  ];
+  function calcCable(){
+    var w = parseFloat(document.getElementById('cable-watts').value) || 0;
+    var v = parseFloat(document.getElementById('cable-volts').value) || 12;
+    var ft = parseFloat(document.getElementById('cable-run').value) || 1;
+    var amps = w / v;
+    var idx = GAUGES.findIndex(function(g){ return g.limit >= amps; });
+    var notes = [];
+    var minGauge = idx === -1 ? 'beyond 4/0' : GAUGES[idx].name;
+    if (idx === -1) {
+      document.getElementById('cable-amps').textContent = Math.round(amps) + ' A';
+      document.getElementById('cable-min').textContent = 'beyond 4/0 AWG';
+      document.getElementById('cable-rec').textContent = 'Parallel cables or move to 48V';
+      document.getElementById('cable-drop').textContent = '—';
+      document.getElementById('cable-notes').textContent = 'At ' + Math.round(amps) + ' A, a single 4/0 cable is past its comfort zone. Parallel 2/0 pairs, shorten the run, or step the system up to 48V — this is exactly the cable pain the 12V vs 24V vs 48V decision predicts.';
+      document.getElementById('cable-results').classList.remove('hidden');
+      return;
+    }
+    var rec = idx;
+    if (ft > 5) { rec = Math.min(idx + 1, GAUGES.length - 1); notes.push('Run is over 5 ft one-way, so one size thicker than the short-run minimum.'); }
+    function dropPct(i){ return (2 * ft * amps * GAUGES[i].r / 1000) / v * 100; }
+    while (dropPct(rec) > 3 && rec < GAUGES.length - 1) { rec++; notes.push('Stepped up a size to keep voltage drop under the 3% target.'); }
+    var dp = dropPct(rec), dv = 2 * ft * amps * GAUGES[rec].r / 1000;
+    document.getElementById('cable-amps').textContent = Math.round(amps) + ' A';
+    document.getElementById('cable-min').textContent = minGauge;
+    document.getElementById('cable-rec').textContent = GAUGES[rec].name;
+    document.getElementById('cable-drop').textContent = dv.toFixed(2) + ' V (' + dp.toFixed(1) + '%)';
+    if (!notes.length) notes.push('Short run: the quick-reference minimum holds.');
+    if (dp > 3) notes.push('Even ' + GAUGES[rec].name + ' exceeds 3% on this run — shorten the path or raise system voltage.');
+    notes.push('Planning estimate (watts \u00f7 volts). Real current runs higher on surge and low battery; verify against the inverter manual and use a DC-rated fuse sized to the cable.');
+    document.getElementById('cable-notes').textContent = notes.join(' ');
+    document.getElementById('cable-results').classList.remove('hidden');
+  }
+  document.getElementById('calc-cable').addEventListener('click', calcCable);
+  calcCable();
+{{< /toolscript >}}
+
 ## Why inverter cables are different (and why mistakes get expensive)
 
 Panel wiring is often higher voltage and lower current. Inverter battery cables are the opposite: low voltage and very high current. That’s why cable size changes so dramatically between 12V, 24V, and 48V systems.
