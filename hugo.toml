@@ -18,7 +18,7 @@ disableKinds = ['taxonomy', 'term']
   google_analytics = 'G-GLZVS6799J'
 
   # Central affiliate swap-point — change here, every Amazon link updates sitewide.
-  amazon_tag = 'litwd-20'
+  amazon_tag = 'slrpwp-20'
 
   [params.rybbit]
     instance_url = 'https://app.rybbit.io'
