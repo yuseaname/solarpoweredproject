@@ -126,6 +126,10 @@ The 30% federal credit offset a lot of policy pain: even a mediocre export rate 
 
 Before you sign anything: (1) find your state above, (2) read your utility's actual tariff sheet, (3) model self-consumption honestly in the [payback calculator](solar-payback-calculator.html) with the credit set to 0, and (4) if you're in an avoided-cost state, price the system with storage [sized to your evening load](solar-inverter-sizing.html).
 
+## State-level cost guides
+
+<a href="/guides/solar-panel-cost-california.html" class="text-link">California</a> <a href="/guides/solar-panel-cost-texas.html" class="text-link">Texas</a> <a href="/guides/solar-panel-cost-florida.html" class="text-link">Florida</a> <a href="/guides/solar-panel-cost-arizona.html" class="text-link">Arizona</a> <a href="/guides/solar-panel-cost-new-york.html" class="text-link">New York</a> <a href="/guides/solar-panel-cost-nevada.html" class="text-link">Nevada</a> <a href="/guides/solar-panel-cost-colorado.html" class="text-link">Colorado</a> <a href="/guides/solar-panel-cost-illinois.html" class="text-link">Illinois</a> <a href="/guides/solar-panel-cost-massachusetts.html" class="text-link">Massachusetts</a> <a href="/guides/solar-panel-cost-new-jersey.html" class="text-link">New Jersey</a>
+
 ## FAQ
 
 {{< faq "What is the difference between net metering and net billing?" >}}

@@ -355,3 +355,5 @@ By carefully sizing your system, choosing the right financing method, and levera
 - [How Much Does a Solar Battery Cost in 2026?](/guides/solar-battery-cost-2026/)
 - [How Much Do Solar Panels Cost in Nevada in 2026?](/guides/solar-panel-cost-nevada.html)
 - [How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide](/pages/solar-battery-cost-2026.html)
+
+<a href="/pages/net-metering-by-state-2026.html" class="text-link">Net metering by state (all 50)</a>
