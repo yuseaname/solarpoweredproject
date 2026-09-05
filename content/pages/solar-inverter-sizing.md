@@ -270,4 +270,4 @@ Cover your worst-case startup moment: the surge watts of your biggest motor load
 
 ## Next logical reads
 
-<a href="pure-sine-vs-modified-sine-inverter.html" class="text-link">Pure sine vs modified sine wave</a> <a href="inverter-keeps-shutting-off-troubleshooting.html" class="text-link">Inverter keeps shutting off (troubleshooting)</a> <a href="rv-solar-sizing.html" class="text-link">RV solar sizing guide</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a>
+<a href="pure-sine-vs-modified-sine-inverter.html" class="text-link">Pure sine vs modified sine wave</a> <a href="inverter-keeps-shutting-off-troubleshooting.html" class="text-link">Inverter keeps shutting off (troubleshooting)</a> <a href="rv-solar-sizing.html" class="text-link">RV solar sizing guide</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="inverter-keeps-shutting-off-troubleshooting.html" class="text-link">Inverter shutdown troubleshooting</a>

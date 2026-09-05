@@ -11,8 +11,6 @@ image_width = 1536
 image_height = 1024
 +++
 
-## Table of contents
-
 <a href="#quick" class="text-link">Quick answer</a> <a href="#included" class="text-link">What counts as wiring &amp; protection</a> <a href="#ranges" class="text-link">Typical cost ranges</a> <a href="#drivers" class="text-link">What drives the cost</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
 
 ## Quick answer: why this category changes the budget
@@ -69,7 +67,7 @@ This is also where the safest systems spend money. If you’re tempted to “cut
 
 Higher power at lower voltage means higher current. High current pushes you toward thicker cables and higher-rated protection devices.
 
-<a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V systems</a> <a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose system voltage</a>
+<a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V systems</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">How to choose system voltage</a>
 
 ### 2) Distance and voltage drop constraints
 

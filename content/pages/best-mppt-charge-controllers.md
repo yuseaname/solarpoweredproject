@@ -13,8 +13,6 @@ image_height = 1024
 
 {{< affiliate-disclosure >}}
 
-## Table of contents
-
 <a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#how-to-pick-an-mppt-before-picking-a-brand" class="text-link">How to pick an MPPT before picking a brand</a> <a href="#budget-picks" class="text-link">Budget picks</a> <a href="#the-victron-step-up" class="text-link">The Victron step-up</a> <a href="#head-to-head-comparison" class="text-link">Head-to-head comparison</a> <a href="#common-buying-mistakes" class="text-link">Common buying mistakes</a> <a href="#faq" class="text-link">FAQ</a>
 
 ## Key takeaways

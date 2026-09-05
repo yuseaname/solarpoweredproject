@@ -4,6 +4,7 @@ title = "Best Solar Panels for Home in 2026: Future-Proofing Your Solar Investme
 slug = "best-solar-panels-for-home-2026"
 date = 2026-05-31
 draft = false
+canonical = "https://solarpoweredproject.com/pages/best-solar-panels-small-roof.html"
 description = "Discover the top-rated home solar panels of 2026, including efficiency comparisons and battery compatibility. Learn how next-gen cell technology will shape residential solar investments."
 image = "/images/best-solar-panels-for-home-2026/hero.webp"
 author = "Solar Powered Project"

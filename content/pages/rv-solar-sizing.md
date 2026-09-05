@@ -115,4 +115,4 @@ If you are starting from zero and want a proven single-kit solution that covers 
 
 ## Next logical reads
 
-<a href="rv-solar-cost.html" class="text-link">RV solar system cost breakdown</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown (general)</a> <a href="solar-use-cases.html" class="text-link">More solar use cases</a>
+<a href="rv-solar-cost.html" class="text-link">RV solar system cost breakdown</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown (general)</a> <a href="solar-use-cases.html" class="text-link">More solar use cases</a> <a href="rv-solar-cost.html" class="text-link">RV solar cost breakdown</a>

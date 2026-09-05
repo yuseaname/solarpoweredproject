@@ -16,10 +16,7 @@ related = [
 ]
 +++
 
-
 {{< affiliate-disclosure >}}
-## Table of contents
-
 <a href="#drivers" class="text-link">Top cost drivers</a> <a href="#tiers" class="text-link">Budget tiers</a> <a href="#breakdown" class="text-link">Cost breakdown table</a> <a href="#sizing-first" class="text-link">Why sizing first saves money</a> <a href="#overspend" class="text-link">Where cabin systems overspend</a> <a href="#faq" class="text-link">FAQ</a>
 
 ## What drives cabin solar cost the most
@@ -158,4 +155,4 @@ Often yes, because you may need more panels, more battery, or a supplemental pow
 
 ## Next logical reads
 
-<a href="cabin-solar-sizing.html" class="text-link">How to size a solar system for a cabin</a> <a href="cabin-solar-vs-generator.html" class="text-link">Solar vs generator for an off-grid cabin</a> <a href="solar-use-cases.html" class="text-link">More solar use cases</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown (general)</a>
+<a href="cabin-solar-sizing.html" class="text-link">How to size a solar system for a cabin</a> <a href="cabin-solar-vs-generator.html" class="text-link">Solar vs generator for an off-grid cabin</a> <a href="solar-use-cases.html" class="text-link">More solar use cases</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown (general)</a> <a href="rv-solar-cost.html" class="text-link">RV solar cost breakdown</a>

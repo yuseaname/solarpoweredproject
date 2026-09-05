@@ -115,6 +115,9 @@ This is electrical, not medical — but a few practical notes:
 
 
 
+
+<a href="/diy-off-grid-energy/diy-hand-crank-generator-emergency-charging.html" class="text-link">Hand-crank charging: what it can actually power</a>
+
 ## FAQ
 
 {{< faq "Can a 300Wh station run my CPAP for one night?" >}}

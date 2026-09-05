@@ -14,22 +14,6 @@ author = "Solar Powered Project"
 -   Water wheels can be easier to prototype than turbines, but they’re vulnerable to **debris, ice, and floods**.
 -   Most DIY systems work best as a **battery charger** with regulation and protection, not as a direct-load supply.
 
-## Table of contents
-
--   <a href="#beginner" class="text-link">Beginner explanation</a>
--   <a href="#water-wheel-vs-turbine" class="text-link">Water wheel vs micro-hydro turbine</a>
--   <a href="#math" class="text-link">Sizing math (low-head reality check)</a>
--   <a href="#build-path" class="text-link">Practical DIY build path</a>
--   <a href="#debris" class="text-link">Debris, screens, and seasonal survival</a>
--   <a href="#generator-matching" class="text-link">Generator matching (RPM, gearing, and drag)</a>
--   <a href="#electrical" class="text-link">Electrical architecture (safe charging)</a>
--   <a href="#costs-output" class="text-link">Costs, efficiency, and expected output</a>
--   <a href="#mistakes" class="text-link">Common mistakes</a>
--   <a href="#safety" class="text-link">Safety and limitations</a>
--   <a href="#pairs-with-solar" class="text-link">How it pairs with solar</a>
--   <a href="#troubleshooting" class="text-link">Troubleshooting</a>
--   <a href="#faq" class="text-link">FAQ</a>
-
 ## Beginner explanation: what “low-head” really means
 
 “Head” is vertical drop — not pipe length, not stream speed. A classic micro-hydro setup uses a penstock to turn head into high-pressure flow through a turbine. Low-head sites don’t have much vertical drop to work with, so you need to be honest about the numbers.

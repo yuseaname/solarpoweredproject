@@ -16,10 +16,7 @@ related = [
 ]
 +++
 
-
 {{< affiliate-disclosure >}}
-## Table of contents
-
 <a href="#takeaways" class="text-link">Key takeaways</a> <a href="#why-this-is-hard" class="text-link">Why inverter cables are different</a> <a href="#step1" class="text-link">Step 1: Estimate maximum DC current</a> <a href="#step2" class="text-link">Step 2: Measure the run (the part most people miss)</a> <a href="#step3" class="text-link">Step 3: Set a practical voltage-drop target</a> <a href="#step4" class="text-link">Step 4: Choose cable + lugs + protection as a system</a> <a href="#voltage" class="text-link">Why 24V/48V makes this easier</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next" class="text-link">Next logical reads</a>
 
 ## Key takeaways
@@ -146,7 +143,7 @@ This is one reason many systems “graduate” from 12V to 24V or 48V as inverte
 
 Going from 12V to 48V for the same inverter means cable cross-section drops by roughly **4x**, and copper cost drops similarly. This is why higher-voltage systems scale better for large loads.
 
-<a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose solar system voltage</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system (start-to-finish flow)</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V comparison</a>
+<a href="12v-vs-24v-vs-48v-solar.html" class="text-link">How to choose solar system voltage</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system (start-to-finish flow)</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V comparison</a>
 
 ## Common mistakes (and how to avoid them)
 
@@ -182,7 +179,7 @@ No. Use devices explicitly rated for DC at your system voltage. DC interrupt rat
 
 ## Next logical reads
 
-<a href="solar-fuses-vs-breakers.html" class="text-link">Solar fuses vs breakers</a> <a href="solar-wire-size.html" class="text-link">Solar wire size</a> <a href="solar-wiring-and-protection-cost.html" class="text-link">Wiring &amp; protection cost</a> <a href="solar-inverter-sizing.html" class="text-link">Inverter sizing</a> <a href="how-to-choose-solar-system-voltage.html" class="text-link">Choose system voltage</a>
+<a href="solar-fuses-vs-breakers.html" class="text-link">Solar fuses vs breakers</a> <a href="solar-wire-size.html" class="text-link">Solar wire size</a> <a href="solar-wiring-and-protection-cost.html" class="text-link">Wiring &amp; protection cost</a> <a href="solar-inverter-sizing.html" class="text-link">Inverter sizing</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">Choose system voltage</a>
 
 ---
 

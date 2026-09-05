@@ -16,8 +16,6 @@ related = [
 ]
 +++
 
-## Table of contents
-
 <a href="#takeaways" class="text-link">Key takeaways</a> <a href="#before" class="text-link">Before you troubleshoot: what “not charging” really means</a> <a href="#step1" class="text-link">Step 1: Rule out “normal low input” (weather, season, shading)</a> <a href="#step2" class="text-link">Step 2: Check the controller status (bulk/absorption/float)</a> <a href="#step3" class="text-link">Step 3: Confirm the battery isn’t already full (or limited by BMS)</a> <a href="#step4" class="text-link">Step 4: Compare charge current vs load (net charging)</a> <a href="#step5" class="text-link">Step 5: Inspect wiring, fuses/breakers, and connections</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next" class="text-link">Next logical reads</a>
 
 ## Key takeaways
@@ -131,6 +129,6 @@ If you see heat damage, smell burning, find melted insulation, or can’t verify
 
 ## Next logical reads
 
-<a href="solar-output-troubleshooting.html" class="text-link">Low solar output troubleshooting</a> <a href="mppt-charge-controller-not-charging.html" class="text-link">MPPT not charging? (checklist)</a> <a href="inverter-keeps-shutting-off-troubleshooting.html" class="text-link">Inverter keeps shutting off (troubleshooting)</a> <a href="solar-maintenance.html" class="text-link">Solar maintenance checklist</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a>
+<a href="solar-output-troubleshooting.html" class="text-link">Low solar output troubleshooting</a> <a href="mppt-charge-controller-not-charging.html" class="text-link">MPPT not charging? (checklist)</a> <a href="inverter-keeps-shutting-off-troubleshooting.html" class="text-link">Inverter keeps shutting off (troubleshooting)</a> <a href="solar-maintenance.html" class="text-link">Solar maintenance checklist</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="inverter-keeps-shutting-off-troubleshooting.html" class="text-link">Inverter keeps shutting off: causes</a>
 
 <a href="best-mppt-charge-controllers.html" class="text-link">Best MPPT charge controllers (2026 buyer guide)</a>

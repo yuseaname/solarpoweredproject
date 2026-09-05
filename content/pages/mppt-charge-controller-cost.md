@@ -11,10 +11,7 @@ image_width = 1536
 image_height = 1024
 +++
 
-
 {{< affiliate-disclosure >}}
-## Table of contents
-
 <a href="#quick" class="text-link">Quick answer</a> <a href="#mppt-vs-pwm" class="text-link">MPPT vs PWM cost comparison</a> <a href="#drivers" class="text-link">What drives controller cost</a> <a href="#avoid-wrong-size" class="text-link">How to avoid buying the wrong size</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
 
 ## Quick answer: typical MPPT controller price ranges
@@ -94,7 +91,7 @@ PWM controllers are cheaper and simpler. MPPT controllers cost more but can conv
 
 Higher voltage input limits often cost more. This matters when your panel strings run at higher voltages than your battery bank.
 
-<a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V systems</a> <a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose system voltage</a>
+<a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V systems</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">How to choose system voltage</a>
 
 ### 2) Output current rating (amps)
 

@@ -259,7 +259,7 @@ Solar output swings dramatically between summer and winter. Plan for your **wors
 
 ## Next logical reads
 
-<a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a>
+<a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="solar-components.html" class="text-link">Solar components explained</a>
 
 ## FAQ
 

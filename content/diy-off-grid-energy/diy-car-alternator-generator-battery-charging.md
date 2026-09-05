@@ -14,20 +14,6 @@ author = "Solar Powered Project"
 -   Measure success as **watts into a real load** or **amps into a battery**, not open-circuit voltage.
 -   Charging batteries safely requires **fusing, correct wire size, and regulation**, not “just connect it.”
 
-## Table of contents
-
--   <a href="#beginner" class="text-link">Beginner explanation</a>
--   <a href="#how-it-works" class="text-link">How a car alternator works</a>
--   <a href="#why-low-rpm" class="text-link">Why alternators disappoint at low RPM</a>
--   <a href="#setup" class="text-link">Practical DIY setups that can charge a battery</a>
--   <a href="#wiring" class="text-link">Safe wiring and protection</a>
--   <a href="#realistic-output" class="text-link">Realistic output expectations</a>
--   <a href="#pairs-with-solar" class="text-link">How it pairs with solar</a>
--   <a href="#mistakes" class="text-link">Common mistakes</a>
--   <a href="#safety" class="text-link">Safety and limitations</a>
--   <a href="#troubleshooting" class="text-link">Troubleshooting</a>
--   <a href="#faq" class="text-link">FAQ</a>
-
 ## Beginner explanation: “It reads 14V” is not the same as “It charges a battery”
 
 A battery charger has one job: push current into a battery at the right voltage and in a controlled way. A spinning alternator has a different job: supply electrical power to a car’s loads and keep a starting battery topped up while an engine is already providing plenty of mechanical power.

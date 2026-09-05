@@ -107,6 +107,9 @@ If you are deciding between these two, use the following decision framework:
 2.  **Calculate your budget:** If you want a predictable ROI and low maintenance, **Solar** is the safer investment. If you have high-velocity wind and a higher tolerance for mechanical upkeep, **Wind** can provide supplemental power.
 3.  **Check local zoning:** Many HOAs (Homeowners Associations) have strict rules against wind towers due to height and noise, whereas solar is increasingly protected by "Solar Rights" legislation in many US states.
 
+
+<a href="/diy-off-grid-energy/diy-savonius-wind-turbine-vertical-axis.html" class="text-link">DIY Savonius VAWT: realistic output</a>
+
 ## FAQ
 
 {{< faq "Can I run my house on only wind power?" >}}

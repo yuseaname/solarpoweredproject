@@ -215,7 +215,7 @@ Mounting is the structural layer: roof rails, ground racks, pole mounts, or tilt
 
 Two things make or break the flow. **Voltages must step deliberately**: panel strings above controller input above battery voltage, with the inverter output at 120/240V AC. And **nothing downstream may be rated below what upstream can deliver** — the controller's output current sets the battery wire; the inverter's draw sets the battery cable and fuse. Pick the bank voltage first ([12V vs 24V vs 48V](/pages/12v-vs-24v-vs-48v-solar.html)), then wire, then protection.
 
-The build order: [calculate the load](/pages/how-to-calculate-solar-load.html) → [size the system](/pages/solar-system-sizing.html) → [choose voltage](/pages/how-to-choose-solar-system-voltage.html) → pick components → [install](/pages/install-solar-panels-yourself.html) → [maintain](/pages/solar-maintenance.html).
+The build order: [calculate the load](/pages/how-to-calculate-solar-load.html) → [size the system](/pages/solar-system-sizing.html) → [choose voltage](/pages/12v-vs-24v-vs-48v-solar.html) → pick components → [install](/pages/install-solar-panels-yourself.html) → [maintain](/pages/solar-maintenance.html).
 
 ## Next logical reads
 

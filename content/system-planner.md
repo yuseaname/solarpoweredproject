@@ -11,7 +11,7 @@ A dependable system begins with daily energy use—not a panel count. Use the si
 1. [Estimate daily energy use](/pages/solar-system-sizing.html)
 2. [Estimate solar panel output](/pages/solar-panel-output.html)
 3. [Size a battery bank](/pages/battery-capacity.html)
-4. [Choose system voltage](/pages/how-to-choose-solar-system-voltage.html)
+4. [Choose system voltage](/pages/12v-vs-24v-vs-48v-solar.html)
 5. [Size the inverter](/pages/solar-inverter-sizing.html)
 6. [Choose wiring and protection](/pages/wiring-decisions.html)
 

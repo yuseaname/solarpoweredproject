@@ -16,22 +16,6 @@ author = "Solar Powered Project"
 -   **Wire sizing must handle combined charging current** from all sources simultaneously during peak conditions.
 -   **Independent fusing and disconnects** for each source allow safe maintenance and troubleshooting without shutting down the entire system.
 
-## Table of contents
-
--   <a href="#beginner-explanation" class="text-link">Beginner explanation</a>
--   <a href="#how-it-works" class="text-link">How a multi-source charging system works</a>
--   <a href="#solar-wind" class="text-link">Solar + wind hybrid architecture</a>
--   <a href="#solar-hydro" class="text-link">Solar + hydro hybrid architecture</a>
--   <a href="#three-way" class="text-link">Three-way hybrid: solar + wind + hydro</a>
--   <a href="#electrical-design" class="text-link">Electrical design essentials</a>
--   <a href="#wiring-installation" class="text-link">Practical wiring and installation</a>
--   <a href="#monitoring" class="text-link">Monitoring and control logic</a>
--   <a href="#common-mistakes" class="text-link">Common mistakes and misconceptions</a>
--   <a href="#safety-troubleshooting" class="text-link">Safety and troubleshooting</a>
--   <a href="#costs-efficiency" class="text-link">Costs and efficiency considerations</a>
--   <a href="#system-sizing" class="text-link">System sizing and source balancing</a>
--   <a href="#faq" class="text-link">FAQ</a>
-
 ## Beginner explanation: why hybrid systems are complex
 
 A battery doesn't care where electrons come from. You can charge it with solar, wind, hydro, a diesel generator, or even a bicycle generator — all at the same time, in theory.
@@ -284,7 +268,7 @@ Factors:
 -   **Cable run distances**: Longer runs favor higher voltage to reduce voltage drop.
 -   **Equipment availability**: 12V has the most options; 48V is more efficient but fewer cheap controllers.
 
-See <a href="../pages/how-to-choose-solar-system-voltage.html" class="text-link">how to choose system voltage</a>.
+See <a href="../pages/12v-vs-24v-vs-48v-solar.html" class="text-link">how to choose system voltage</a>.
 
 ### Wire sizing for each source and combined current
 

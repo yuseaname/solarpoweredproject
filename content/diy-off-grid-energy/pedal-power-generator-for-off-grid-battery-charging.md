@@ -27,19 +27,6 @@ image_height = 1024
 -   The safest approach is: **generator → rectifier → regulated DC charger → battery** (with protection and disconnects).
 -   Pairing pedal power with solar is often ideal: solar does the bulk work; pedal power is an emergency / learning / maintenance option.
 
-## Table of contents
-
--   <a href="#beginner-explanation" class="text-link">Beginner explanation</a>
--   <a href="#expected-output" class="text-link">Costs, efficiency, and expected output</a>
--   <a href="#how-it-works" class="text-link">How a bicycle generator works</a>
--   <a href="#build-style" class="text-link">Choose your build style</a>
--   <a href="#generator-options" class="text-link">Generator options</a>
--   <a href="#build-plan" class="text-link">Practical DIY build steps</a>
--   <a href="#mistakes" class="text-link">Common mistakes and misconceptions</a>
--   <a href="#pairs-with-solar" class="text-link">How it pairs with solar</a>
--   <a href="#safety" class="text-link">Safety and limitations</a>
--   <a href="#faq" class="text-link">FAQ</a>
-
 ## Beginner explanation: what pedal power can (and can’t) do
 
 A bicycle can produce meaningful mechanical power because human legs can sustain moderate effort efficiently. But the key word is *moderate*: human power is limited, and electrical systems have conversion losses.

@@ -11,8 +11,6 @@ image_width = 1536
 image_height = 1024
 +++
 
-## Table of contents
-
 <a href="#takeaways" class="text-link">Key takeaways</a> <a href="#goal" class="text-link">The real goal</a> <a href="#two-rules" class="text-link">Two rules that prevent most mistakes</a> <a href="#flow" class="text-link">A simple 4-step decision flow</a> <a href="#voltage" class="text-link">Why higher voltage simplifies wiring</a> <a href="#dc-rated" class="text-link">A quick “DC-rated” checklist</a> <a href="#mistakes" class="text-link">Common wire-sizing mistakes</a> <a href="#faq" class="text-link">FAQ</a>
 
 ## Key takeaways
@@ -40,7 +38,7 @@ The reader is the hero here: you want a solar system that works reliably **witho
 
 For a given load, lower voltage means higher current. High current pushes you toward thicker cable and higher-rated lugs, bus bars, fuses, and breakers.
 
-<a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V solar systems</a> <a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose solar system voltage</a>
+<a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V solar systems</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">How to choose solar system voltage</a>
 
 ### Rule 2: distance drives voltage drop
 
@@ -76,7 +74,7 @@ When in doubt, oversize cable rather than forcing a long, high-current run at a 
 
 If you keep power roughly the same, higher voltage means lower current. Lower current typically means thinner wire, less voltage drop, and smaller (and sometimes cheaper) protection hardware. That’s why many systems “graduate” to 24V or 48V as power needs grow.
 
-<a href="how-to-choose-solar-system-voltage.html" class="text-link">Choose a system voltage (practical guide)</a> <a href="solar-system-sizing.html" class="text-link">System sizing overview (start here)</a>
+<a href="12v-vs-24v-vs-48v-solar.html" class="text-link">Choose a system voltage (practical guide)</a> <a href="solar-system-sizing.html" class="text-link">System sizing overview (start here)</a>
 
 ## What “DC-rated” means (a quick checklist)
 
@@ -121,7 +119,7 @@ Use the maximum current that the circuit can realistically see. For inverters, s
 
 ## Next logical reads
 
-<a href="solar-wiring-and-protection-cost.html" class="text-link">Solar wiring and protection cost</a> <a href="solar-fuses-vs-breakers.html" class="text-link">Solar fuses vs breakers</a> <a href="solar-panels-series-vs-parallel.html" class="text-link">Series vs parallel solar panels</a> <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter</a> <a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose system voltage</a>
+<a href="solar-wiring-and-protection-cost.html" class="text-link">Solar wiring and protection cost</a> <a href="solar-fuses-vs-breakers.html" class="text-link">Solar fuses vs breakers</a> <a href="solar-panels-series-vs-parallel.html" class="text-link">Series vs parallel solar panels</a> <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">How to choose system voltage</a>
 
 ---
 

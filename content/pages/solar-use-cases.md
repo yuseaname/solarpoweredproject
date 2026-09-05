@@ -272,4 +272,4 @@ On RV- and shed-scale systems, DIY commonly saves 30–50% versus professional i
 
 ## Next logical reads
 
-<a href="/pages/solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="/pages/solar-system-costs.html" class="text-link">Full solar system cost breakdown</a> <a href="/pages/how-to-calculate-solar-load.html" class="text-link">Solar load calculator method</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a>
+<a href="/pages/solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="/pages/solar-system-costs.html" class="text-link">Full solar system cost breakdown</a> <a href="/pages/how-to-calculate-solar-load.html" class="text-link">Solar load calculator method</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="/diy-off-grid-energy/diy-pelton-turbine-pico-hydro.html" class="text-link">DIY Pelton turbine pico hydro</a>

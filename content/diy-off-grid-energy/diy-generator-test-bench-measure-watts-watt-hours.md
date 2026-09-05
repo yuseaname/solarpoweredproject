@@ -14,20 +14,6 @@ author = "Solar Powered Project"
 -   A simple bench needs: **metering**, **adjustable load**, **RPM measurement**, and **safe wiring**.
 -   Most “generator problems” are either **mismatch** (wrong load/RPM) or **loss** (heat in friction, wiring, or regulation).
 
-## Table of contents
-
--   <a href="#beginner" class="text-link">Beginner explanation</a>
--   <a href="#what-to-measure" class="text-link">What to measure (minimum set)</a>
--   <a href="#bench" class="text-link">A reusable DIY test bench (Version 1 → Version 3)</a>
--   <a href="#load-testing" class="text-link">Load testing: how to avoid “voltage-only” lies</a>
--   <a href="#wh-per-day" class="text-link">Estimating Wh/day from measurements</a>
--   <a href="#efficiency" class="text-link">Estimating efficiency and finding bottlenecks</a>
--   <a href="#safety" class="text-link">Safety essentials</a>
--   <a href="#pairs-with-solar" class="text-link">How it pairs with solar</a>
--   <a href="#mistakes" class="text-link">Common mistakes</a>
--   <a href="#troubleshooting" class="text-link">Troubleshooting</a>
--   <a href="#faq" class="text-link">FAQ</a>
-
 ## Beginner explanation: the three numbers that matter
 
 DIY power experiments become clear when you track three quantities consistently:

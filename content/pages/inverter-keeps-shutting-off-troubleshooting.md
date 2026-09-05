@@ -12,8 +12,6 @@ image_height = 1024
 +++
 
 {{< affiliate-disclosure >}}
-## Table of contents
-
 <a href="#takeaways" class="text-link">Key takeaways</a> <a href="#first" class="text-link">First: capture the shutdown clue</a> <a href="#overload" class="text-link">Cause 1: overload or surge start</a> <a href="#lowvoltage" class="text-link">Cause 2: low battery voltage (real) vs voltage drop (wiring)</a> <a href="#heat" class="text-link">Cause 3: overheating / poor airflow</a> <a href="#settings" class="text-link">Cause 4: settings, modes, and cutoffs</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next" class="text-link">Next logical reads</a>
 
 ## Key takeaways
@@ -79,7 +77,7 @@ High current at 12V (and sometimes 24V) punishes long battery cable runs and mar
 
 If you’re pushing a lot of power through a 12V inverter, shutdowns can be a design signal. Higher system voltage usually reduces current and makes stable performance easier.
 
-<a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose solar system voltage</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V</a>
+<a href="12v-vs-24v-vs-48v-solar.html" class="text-link">How to choose solar system voltage</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V</a>
 
 {{< product-box asin="B017S9EINA" name="iCrimp Heavy-Duty Cable Lug Crimper (9 Dies)" label="Fix the drop at the lug" description="Voltage-drop shutdowns are usually a connection problem dressed up as a battery problem. A proper hex crimper for 12–2/0 AWG turns tighten-by-hope lugs into the low-resistance joints the math assumes." button="Check price on Amazon" >}}
 

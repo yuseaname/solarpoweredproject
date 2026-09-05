@@ -14,20 +14,6 @@ author = "Solar Powered Project"
 -   Most small off-grid systems are easiest when designed to **charge a battery** (with proper regulation) rather than run loads directly.
 -   Before touching hardware, design the electrical side (voltage, wiring, protection) like a normal solar system.
 
-## Table of contents
-
--   <a href="#who-its-for" class="text-link">Who this project is for</a>
--   <a href="#beginner-explanation" class="text-link">Beginner explanation</a>
--   <a href="#how-it-works" class="text-link">How the system works</a>
--   <a href="#site-assessment" class="text-link">Site assessment</a>
--   <a href="#components" class="text-link">Components</a>
--   <a href="#build-plan" class="text-link">Practical DIY build plan</a>
--   <a href="#costs-output" class="text-link">Costs, efficiency, and output</a>
--   <a href="#mistakes" class="text-link">Common mistakes</a>
--   <a href="#safety" class="text-link">Safety and limitations</a>
--   <a href="#pairs-with-solar" class="text-link">How it pairs with solar</a>
--   <a href="#faq" class="text-link">FAQ</a>
-
 ## Who this project is (and isn’t) for
 
 Micro-hydro is a great fit when you have a **reliable, legal** water source and you’re willing to maintain an intake and pipe. It’s a poor fit when flow is seasonal, access is limited, or you want “hands-off” power.
@@ -347,3 +333,5 @@ If you want the most reliable off-grid baseline, keep micro-hydro as a measured 
 - [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
 - [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
 - [DIY Bicycle Generator: Pedal-Powered Battery Charging (Realistic Guide)](/diy-off-grid-energy/pedal-power-generator-for-off-grid-battery-charging.html)
+
+<a href="/diy-off-grid-energy/diy-pelton-turbine-pico-hydro.html" class="text-link">Build a DIY Pelton-style pico hydro turbine</a> <a href="/diy-off-grid-energy/diy-dump-load-diversion-controller-wind-hydro.html" class="text-link">Protect the bank with a dump-load diversion controller</a>

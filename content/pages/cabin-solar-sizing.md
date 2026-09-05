@@ -11,8 +11,6 @@ image_width = 1536
 image_height = 1024
 +++
 
-## Table of contents
-
 <a href="#what-you-are-sizing" class="text-link">What you’re sizing</a> <a href="#step-1-load" class="text-link">Step 1: Daily energy use</a> <a href="#step-2-battery" class="text-link">Step 2: Battery capacity</a> <a href="#step-3-panels" class="text-link">Step 3: Panel watts</a> <a href="#step-4-inverter" class="text-link">Step 4: Inverter sizing</a> <a href="#step-5-voltage" class="text-link">Step 5: System voltage</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
 
 ## What you’re sizing (and why cabins are different)
@@ -81,7 +79,7 @@ Your inverter needs to handle your maximum simultaneous AC watts, plus starting 
 
 Voltage choice affects current, cable thickness, and how easy it is to scale. If your cabin system will run higher power loads or longer cable runs, higher voltage can simplify the build.
 
-<a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V comparison</a> <a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose system voltage</a>
+<a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V comparison</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">How to choose system voltage</a>
 
 ## Common cabin sizing mistakes (and how to avoid them)
 

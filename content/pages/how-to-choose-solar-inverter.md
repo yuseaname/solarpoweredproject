@@ -12,14 +12,11 @@ image_height = 1024
 related = [
   "/pages/ac-vs-dc-coupled-solar-systems.html",
   "/pages/solar-inverter-cost.html",
-  "/pages/how-to-choose-solar-system-voltage.html"
+  "/pages/12v-vs-24v-vs-48v-solar.html"
 ]
 +++
 
-
 {{< affiliate-disclosure >}}
-## Table of contents
-
 <a href="#types" class="text-link">Inverter types compared</a> <a href="#grid-tied" class="text-link">String inverters for grid-tied</a> <a href="#microinverters" class="text-link">Microinverters</a> <a href="#off-grid" class="text-link">Off-grid inverter/chargers</a> <a href="#hybrid" class="text-link">Hybrid (battery backup) inverters</a> <a href="#sizing" class="text-link">How to size your inverter</a> <a href="#efficiency" class="text-link">Efficiency and features</a> <a href="#faq" class="text-link">FAQ</a>
 
 ## Inverter types: which one do you need?

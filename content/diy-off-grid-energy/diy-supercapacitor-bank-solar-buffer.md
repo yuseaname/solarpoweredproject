@@ -14,21 +14,6 @@ author = "Solar Powered Project"
 -   Series strings need **balancing** so one cell doesn’t overvoltage.
 -   Inrush current can be huge; use **precharge**, fuses, and a disconnect.
 
-## Table of contents
-
--   <a href="#beginner" class="text-link">Beginner explanation</a>
--   <a href="#what-they-do" class="text-link">What supercaps are good for (and not)</a>
--   <a href="#how-it-works" class="text-link">How supercapacitors work (useful mental model)</a>
--   <a href="#math" class="text-link">The math: energy, voltage droop, and “usable” capacity</a>
--   <a href="#build" class="text-link">DIY build path (Version 1 → Version 3)</a>
--   <a href="#balancing" class="text-link">Balancing basics for series strings</a>
--   <a href="#inrush" class="text-link">Precharge and inrush limiting</a>
--   <a href="#pairs-with-solar" class="text-link">How it pairs with solar + batteries</a>
--   <a href="#mistakes" class="text-link">Common mistakes</a>
--   <a href="#safety" class="text-link">Safety and limitations</a>
--   <a href="#troubleshooting" class="text-link">Troubleshooting</a>
--   <a href="#faq" class="text-link">FAQ</a>
-
 ## Beginner explanation: supercaps are “power buffers,” not “energy tanks”
 
 Batteries are good at storing lots of energy. Supercapacitors are good at moving energy quickly. That difference matters in off-grid systems because many real-world problems are **short, sharp events**: inrush current, motor start surges, momentary load spikes, and rapid charge acceptance from experimental generators.
@@ -231,3 +216,4 @@ Buffering a short burst source like a <a href="diy-hand-crank-generator-emergenc
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
 {{< /faq >}}
 
+<a href="/diy-off-grid-energy/diy-flywheel-energy-storage.html" class="text-link">Compare the physics with our DIY flywheel energy storage build</a>

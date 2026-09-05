@@ -24,19 +24,6 @@ image_height = 1536
 -   Most TEG systems need a **DC-DC boost converter** to match low module voltage (often &lt;5V) to battery charging voltage (12V+).
 -   Best use case: continuous low-power charging as a **supplement** to solar, not a replacement.
 
-## Table of contents
-
--   <a href="#beginner-explanation" class="text-link">Beginner explanation</a>
--   <a href="#how-it-works" class="text-link">How a TEG battery charging system works</a>
--   <a href="#build-options" class="text-link">Practical DIY build options</a>
--   <a href="#sizing-output" class="text-link">Sizing and expected output</a>
--   <a href="#costs-efficiency" class="text-link">Costs, efficiency, and maintenance</a>
--   <a href="#electrical-design" class="text-link">Electrical design for battery charging</a>
--   <a href="#common-mistakes" class="text-link">Common mistakes and misconceptions</a>
--   <a href="#safety-limitations" class="text-link">Safety and limitations</a>
--   <a href="#pairing-solar" class="text-link">How thermoelectric pairs with solar</a>
--   <a href="#faq" class="text-link">FAQ</a>
-
 ## Beginner explanation: how thermoelectric generators work
 
 If you've ever used a Peltier cooler in a mini-fridge or CPU chiller, you've seen the reverse of a thermoelectric generator. Feed electricity to a Peltier module and one side gets hot while the other gets cold.

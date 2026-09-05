@@ -12,8 +12,6 @@ image_width = 1024
 image_height = 768
 +++
 
-## Table of contents
-
 <a href="#takeaways" class="text-link">Key takeaways</a> <a href="#plain-english" class="text-link">What a combiner box does (plain English)</a> <a href="#need-one" class="text-link">When you typically need one</a> <a href="#inside" class="text-link">What’s inside a combiner box</a> <a href="#placement" class="text-link">Where it goes (near array vs near controller)</a> <a href="#disconnect" class="text-link">DC disconnects: what they’re for</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next" class="text-link">Next logical reads</a>
 
 ## Key takeaways
@@ -76,7 +74,7 @@ Placement is a tradeoff. The simplest way to think about it is: put the “combi
 -   May keep more equipment in an accessible service location
 -   Can increase rooftop/outdoor wiring complexity if strings are long
 
-<a href="solar-wire-size.html" class="text-link">Wire size (amps, distance, voltage drop)</a> <a href="how-to-choose-solar-system-voltage.html" class="text-link">Choose a system voltage (planning)</a>
+<a href="solar-wire-size.html" class="text-link">Wire size (amps, distance, voltage drop)</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">Choose a system voltage (planning)</a>
 
 ## DC disconnects: what they’re for (serviceability + safer troubleshooting)
 

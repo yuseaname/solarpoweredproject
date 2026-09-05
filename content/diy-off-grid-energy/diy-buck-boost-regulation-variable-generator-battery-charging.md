@@ -14,21 +14,6 @@ author = "Solar Powered Project"
 -   For charging, you care about **controlled current** and **controlled voltage**, plus protection.
 -   Most failures come from **overload heat**, **inrush**, and **no fusing** at low voltage.
 
-## Table of contents
-
--   <a href="#beginner" class="text-link">Beginner explanation</a>
--   <a href="#why-variable" class="text-link">Why DIY generator voltage varies</a>
--   <a href="#buck-boost" class="text-link">Buck vs boost vs buck-boost</a>
--   <a href="#cc-cv" class="text-link">Constant-current vs constant-voltage (useful version)</a>
--   <a href="#patterns" class="text-link">Practical wiring patterns</a>
--   <a href="#sizing" class="text-link">Sizing and heat: what “rated watts” hides</a>
--   <a href="#protection" class="text-link">Protection: fuses, wire size, disconnects</a>
--   <a href="#pairs-with-solar" class="text-link">How it pairs with solar</a>
--   <a href="#mistakes" class="text-link">Common mistakes</a>
--   <a href="#safety" class="text-link">Safety and limitations</a>
--   <a href="#troubleshooting" class="text-link">Troubleshooting</a>
--   <a href="#faq" class="text-link">FAQ</a>
-
 ## Beginner explanation: regulation turns “variable” into “usable”
 
 A battery is not a “voltage bucket” you can pour anything into. It has preferred charge voltages and current limits, and it can be damaged by overvoltage or excessive current.

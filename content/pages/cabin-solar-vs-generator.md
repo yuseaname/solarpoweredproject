@@ -13,8 +13,6 @@ image_height = 1024
 
 {{< affiliate-disclosure >}}
 
-## Table of contents
-
 <a href="#quick-answer" class="text-link">Quick answer</a> <a href="#table" class="text-link">Comparison table</a> <a href="#framework" class="text-link">Decision framework</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
 
 ## Quick answer: when each option tends to win

@@ -4,6 +4,7 @@ title = "How to Choose Solar System Voltage (12V vs 24V vs 48V)"
 slug = "how-to-choose-solar-system-voltage"
 date = 2026-05-31
 draft = false
+canonical = "https://solarpoweredproject.com/pages/12v-vs-24v-vs-48v-solar.html"
 description = "Choose the right solar system voltage by load size, inverter watts, cable runs, and future expansion. Practical rules of thumb and examples."
 image = "/assets/images/field-guide/system-planner-architecture.jpg"
 image_alt = "System architecture diagram showing component relationships for voltage planning"

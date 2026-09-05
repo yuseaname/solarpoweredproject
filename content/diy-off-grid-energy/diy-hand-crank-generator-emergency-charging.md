@@ -46,21 +46,6 @@ A hand-crank generator can realistically produce **5–30 watts sustained**. Tha
 -   Hand-crank works best for **phones, radios, lights, and topping up** a small battery bank — not for running high-power loads.
 -   For dramatically more human-powered energy, <a href="pedal-power-generator-for-off-grid-battery-charging.html" class="text-link">pedal power generates 50–150W</a> — your legs are far stronger than your arms.
 
-## Table of contents
-
--   <a href="#beginner" class="text-link">Beginner explanation</a>
--   <a href="#expected-power" class="text-link">Realistic power and charging expectations</a>
--   <a href="#how-it-works" class="text-link">How a hand-crank generator works</a>
--   <a href="#safe-architecture" class="text-link">Safe charging architecture (recommended)</a>
--   <a href="#build-options" class="text-link">Build options: USB, 12V battery, or power bank</a>
--   <a href="#ergonomics" class="text-link">Ergonomics, gearing, and “comfortable watts”</a>
--   <a href="#energy-budget" class="text-link">A simple emergency energy budget (what to prioritize)</a>
--   <a href="#wiring-protection" class="text-link">Wiring and protection (don’t skip this)</a>
--   <a href="#mistakes" class="text-link">Common mistakes and misconceptions</a>
--   <a href="#pairs-with-solar" class="text-link">How it pairs with solar</a>
--   <a href="#troubleshooting" class="text-link">Troubleshooting</a>
--   <a href="#faq" class="text-link">FAQ</a>
-
 ## Beginner explanation: hand power is small, but still useful
 
 Your hands can produce meaningful mechanical power, but not in huge amounts. Think in watt-hours:
@@ -171,7 +156,7 @@ If you want to charge a 12V battery bank, treat it like any off-grid source:
 
 **Total for a basic system:** roughly $30–80 depending on what you already have. The power bank is the single most useful component — it solves the "unstable output" problem that makes direct phone charging frustrating.
 
-<a href="../pages/solar-combiner-box-and-disconnect-guide.html" class="text-link">Disconnect guide →</a> <a href="../pages/solar-fuses-vs-breakers.html" class="text-link">Fuses vs breakers →</a> <a href="../pages/how-to-choose-solar-system-voltage.html" class="text-link">Choosing 12V/24V/48V →</a>
+<a href="../pages/solar-combiner-box-and-disconnect-guide.html" class="text-link">Disconnect guide →</a> <a href="../pages/solar-fuses-vs-breakers.html" class="text-link">Fuses vs breakers →</a> <a href="../pages/12v-vs-24v-vs-48v-solar.html" class="text-link">Choosing 12V/24V/48V →</a>
 
 ## Ergonomics, gearing, and “comfortable watts”
 

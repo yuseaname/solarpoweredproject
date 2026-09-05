@@ -14,21 +14,6 @@ author = "Solar Powered Project"
 -   The safest DIY approach is a **rated tank + regulator** and a low-risk demonstration of stored energy and losses.
 -   Solar can run a compressor during surplus hours, but “electricity in → electricity out” CAES is typically inefficient at small scale.
 
-## Table of contents
-
--   <a href="#beginner" class="text-link">Beginner explanation</a>
--   <a href="#how-it-works" class="text-link">How CAES works (and where the losses happen)</a>
--   <a href="#math" class="text-link">Simple energy math (realistic numbers)</a>
--   <a href="#heat-management" class="text-link">Heat management (the biggest efficiency lever)</a>
--   <a href="#safe-experiments" class="text-link">Safe DIY experiment setups</a>
--   <a href="#expected-efficiency" class="text-link">Expected efficiency and outputs</a>
--   <a href="#practical-uses" class="text-link">Practical uses that actually make sense</a>
--   <a href="#mistakes" class="text-link">Common mistakes and misconceptions</a>
--   <a href="#safety" class="text-link">Safety and limitations</a>
--   <a href="#pairs-with-solar" class="text-link">How it pairs with solar</a>
--   <a href="#troubleshooting" class="text-link">Troubleshooting</a>
--   <a href="#faq" class="text-link">FAQ</a>
-
 ## Beginner explanation: what CAES is actually good for
 
 CAES stores energy by compressing air (raising its pressure) in a tank. Later, you release the air through a device that converts pressure + flow into useful work.

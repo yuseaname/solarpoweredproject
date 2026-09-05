@@ -225,7 +225,7 @@ It depends on your electricity rate, net metering terms, and whether you need ou
 
 ## Next logical reads
 
-<a href="/pages/how-do-solar-panels-work.html" class="text-link">How do solar panels work</a> — the photovoltaic effect and panel technology
+<a href="/pages/how-do-solar-panels-work.html" class="text-link">How do solar panels work</a> — the photovoltaic effect and panel technology <a href="solar-use-cases.html" class="text-link">Solar use-case guides</a> <a href="solar-components.html" class="text-link">Solar components explained</a>
 <a href="/pages/solar-components.html" class="text-link">Solar components explained</a> — panels, inverters, charge controllers, batteries
 <a href="/pages/solar-system-sizing.html" class="text-link">How to size a solar system</a> — the full step-by-step with the interactive planner
 <a href="/pages/wiring-decisions.html" class="text-link">Solar wiring decisions</a> — wire size, fuses vs breakers, series vs parallel

@@ -30,20 +30,6 @@ If your goal is practical energy storage, <a href="../pages/battery-capacity.htm
 -   The safest DIY path is a **low-speed demo** (hundreds of RPM), not a high-speed composite flywheel project.
 -   Flywheels pair well with solar as a **buffer** (smoothing short surges), but they rarely replace batteries for usable kWh.
 
-## Table of contents
-
--   <a href="#beginner" class="text-link">Beginner explanation</a>
--   <a href="#how-it-works" class="text-link">How flywheels store and release energy</a>
--   <a href="#safe-build-path" class="text-link">A safe DIY build path (Version 1 → Version 3)</a>
--   <a href="#math" class="text-link">The math: energy vs RPM (with real examples)</a>
--   <a href="#expected-output" class="text-link">Expected output and losses</a>
--   <a href="#measurement" class="text-link">Measurement checklist (RPM, watts, temperature)</a>
--   <a href="#mistakes" class="text-link">Common mistakes and misconceptions</a>
--   <a href="#safety" class="text-link">Safety and limitations</a>
--   <a href="#pairs-with-solar" class="text-link">How it pairs with solar</a>
--   <a href="#troubleshooting" class="text-link">Troubleshooting</a>
--   <a href="#faq" class="text-link">FAQ</a>
-
 ## Beginner explanation: what a flywheel does (and what it doesn’t)
 
 A flywheel is a spinning mass that resists changes in speed. When you speed it up, you “store” energy in its rotation. When you slow it down, you “get” energy back out.

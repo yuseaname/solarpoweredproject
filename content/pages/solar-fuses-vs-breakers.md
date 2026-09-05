@@ -13,8 +13,6 @@ image_height = 1024
 
 {{< affiliate-disclosure >}}
 
-## Table of contents
-
 <a href="#takeaways" class="text-link">Key takeaways</a> <a href="#quick" class="text-link">Quick answer</a> <a href="#strengths" class="text-link">What each device is good at</a> <a href="#placement" class="text-link">The five places people get protection wrong</a> <a href="#checklist" class="text-link">A shopping checklist (ratings to verify)</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
 
 ## Key takeaways
@@ -84,7 +82,7 @@ A disconnect makes a system safer to service, but it doesn’t necessarily prote
 -   **Temperature/environment:** some devices are not meant for heat, moisture, or outdoor exposure.
 -   **Compatibility:** match lugs, bus bars, cable size, and enclosure space.
 
-If protection decisions are forcing awkward cable runs, revisit layout and voltage first: <a href="how-to-choose-solar-system-voltage.html" class="text-link">choose solar system voltage</a>.
+If protection decisions are forcing awkward cable runs, revisit layout and voltage first: <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">choose solar system voltage</a>.
 
 ## Common mistakes (risk → symptom → fix direction)
 

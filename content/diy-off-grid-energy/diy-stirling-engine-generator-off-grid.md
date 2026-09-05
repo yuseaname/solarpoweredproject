@@ -16,19 +16,6 @@ author = "Solar Powered Project"
 -   Best use case: **Educational demonstrations** of thermodynamics, combined heat and power concepts, and off-grid experimentation.
 -   Coupling to a generator requires careful speed matching, vibration isolation, and voltage regulation for battery charging.
 
-## Table of contents
-
--   <a href="#beginner-explanation" class="text-link">Beginner explanation</a>
--   <a href="#how-it-works" class="text-link">How a Stirling engine generator works</a>
--   <a href="#build-options" class="text-link">Practical DIY build options</a>
--   <a href="#sizing-output" class="text-link">Sizing and expected power output</a>
--   <a href="#costs-efficiency" class="text-link">Costs, efficiency, and maintenance</a>
--   <a href="#electrical-design" class="text-link">Electrical design for generator output</a>
--   <a href="#common-mistakes" class="text-link">Common mistakes and misconceptions</a>
--   <a href="#safety-limitations" class="text-link">Safety and limitations</a>
--   <a href="#pairing-solar" class="text-link">How Stirling engines pair with solar</a>
--   <a href="#faq" class="text-link">FAQ</a>
-
 ## Beginner explanation: what a Stirling engine is
 
 Most engines you've seen (car engines, lawnmowers, generators) burn fuel inside a cylinder. That's internal combustion.

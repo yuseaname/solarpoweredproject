@@ -11,10 +11,7 @@ image_width = 1536
 image_height = 1024
 +++
 
-
 {{< affiliate-disclosure >}}
-## Table of contents
-
 <a href="#quick" class="text-link">Quick answer</a> <a href="#by-type" class="text-link">Cost by inverter type</a> <a href="#drivers" class="text-link">What drives inverter cost</a> <a href="#sizing" class="text-link">How sizing changes cost</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
 
 ## Quick answer: typical inverter price ranges
@@ -106,7 +103,7 @@ Longer warranties and proven reliability typically increase upfront price.
 
 An oversized inverter can trigger “hidden” costs: heavier cables, larger fuses/breakers, and a battery configuration that can handle higher current draw. This is especially relevant for off-grid systems where battery-side current can become extreme.
 
-<a href="solar-inverter-sizing.html" class="text-link">How to size an inverter for solar</a> <a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose system voltage</a> <a href="solar-wiring-and-protection-cost.html" class="text-link">Wiring &amp; protection cost</a>
+<a href="solar-inverter-sizing.html" class="text-link">How to size an inverter for solar</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">How to choose system voltage</a> <a href="solar-wiring-and-protection-cost.html" class="text-link">Wiring &amp; protection cost</a>
 
 If you’re trying to reduce cost, the cleanest approach is often to define a realistic “peak load list” and design around that—rather than buying the largest inverter you can afford.
 

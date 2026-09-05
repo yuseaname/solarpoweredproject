@@ -17,10 +17,7 @@ related = [
 ]
 +++
 
-
 {{< affiliate-disclosure >}}
-## Table of contents
-
 <a href="#takeaways" class="text-link">Key takeaways</a> <a href="#protecting" class="text-link">What fuses/breakers protect (and what they don’t)</a> <a href="#circuits" class="text-link">The 4 common solar circuits</a> <a href="#labels" class="text-link">Sizing using labels (avoid guesswork)</a> <a href="#placement" class="text-link">Placement rules-of-thumb</a> <a href="#dc-rated" class="text-link">DC-rated checklist</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next" class="text-link">Next logical reads</a>
 
 ## Key takeaways

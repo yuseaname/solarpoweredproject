@@ -14,22 +14,6 @@ author = "Solar Powered Project"
 -   Start with measurement: RPM, voltage, and watts tell you quickly if the setup is working.
 -   Treadmill motors can be useful for experiments, but output depends on gearing, speed, and how well the electrical load is controlled.
 
-## Table of contents
-
--   <a href="#beginner" class="text-link">Beginner explanation</a>
--   <a href="#voltage-rpm" class="text-link">Voltage vs RPM (the one concept to learn)</a>
--   <a href="#how-it-works" class="text-link">How a PMDC motor generates power</a>
--   <a href="#build-plan" class="text-link">Practical DIY build plan</a>
--   <a href="#example-builds" class="text-link">Example builds (pedal, wind, and water)</a>
--   <a href="#system-voltage" class="text-link">Choosing 12V vs 24V vs 48V for experiments</a>
--   <a href="#charging" class="text-link">Charging a battery safely</a>
--   <a href="#rectification" class="text-link">Rectification, smoothing, and regulation</a>
--   <a href="#expected-output" class="text-link">Expected output, efficiency, and limits</a>
--   <a href="#mistakes" class="text-link">Common mistakes and misconceptions</a>
--   <a href="#pairs-with-solar" class="text-link">How it pairs with solar</a>
--   <a href="#troubleshooting" class="text-link">Troubleshooting</a>
--   <a href="#faq" class="text-link">FAQ</a>
-
 ## Beginner explanation: why treadmill motors are useful for experiments
 
 Many DIY energy sources (pedal power, small wind, water wheels) produce mechanical rotation. A treadmill motor can turn that rotation into electrical output without needing complex alternator wiring.
@@ -130,7 +114,7 @@ Many DIY builds default to 12V because parts are common and loads are easy to fi
 -   **Pros**: lower current for the same wattage; often easier to wire safely for longer runs.
 -   **Cons**: you may need higher RPM or different regulation to reach charging voltage.
 
-<a href="../pages/how-to-choose-solar-system-voltage.html" class="text-link">How to choose solar system voltage →</a> <a href="../pages/solar-wire-size.html" class="text-link">Wire size guide →</a>
+<a href="../pages/12v-vs-24v-vs-48v-solar.html" class="text-link">How to choose solar system voltage →</a> <a href="../pages/solar-wire-size.html" class="text-link">Wire size guide →</a>
 
 ## Charging a battery safely
 

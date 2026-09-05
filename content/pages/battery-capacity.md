@@ -134,7 +134,7 @@ Example: 2,000 Wh × 2 days ÷ 0.90 ÷ 0.80 = **5,556 Wh total battery bank**.
 
 - **Usable capacity** is what you can actually draw before recharging.
 - **Total capacity** is the nameplate you must buy to keep DoD healthy.
-- Higher voltage means lower current for the same power, so less voltage drop and thinner cable. See [12V vs 24V vs 48V solar](12v-vs-24v-vs-48v-solar.html) and [how to choose system voltage](how-to-choose-solar-system-voltage.html).
+- Higher voltage means lower current for the same power, so less voltage drop and thinner cable. See [12V vs 24V vs 48V solar](12v-vs-24v-vs-48v-solar.html) and [how to choose system voltage](12v-vs-24v-vs-48v-solar.html).
 
 {{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="1.28 kWh, exactly" description="The formula's most common real-world answer: at 12.8V nominal, 100Ah is 1.28 kWh — the unit that makes bank-sizing multiplication concrete." button="Check price on Amazon" >}}
 
@@ -148,7 +148,7 @@ Example: 2,000 Wh × 2 days ÷ 0.90 ÷ 0.80 = **5,556 Wh total battery bank**.
 
 ## Next logical reads
 
-<a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose system voltage</a>
+<a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">How to choose system voltage</a> <a href="/diy-off-grid-energy/diy-flywheel-energy-storage.html" class="text-link">Flywheel storage physics</a> <a href="/diy-off-grid-energy/diy-supercapacitor-bank-solar-buffer.html" class="text-link">Supercapacitor banks as buffers</a>
 
 ## FAQ
 

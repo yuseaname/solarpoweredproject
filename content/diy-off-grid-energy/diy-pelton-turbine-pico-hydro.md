@@ -27,21 +27,6 @@ image_height = 1024
 -   The DIY goal is a **stable jet + controllable load** so you can measure real watts, not just open-circuit voltage.
 -   Pair with solar using a **battery-first** approach: regulation, fusing, and realistic expectations.
 
-## Table of contents
-
--   <a href="#beginner" class="text-link">Beginner explanation</a>
--   <a href="#site-check" class="text-link">Site check: head, flow, and seasonality</a>
--   <a href="#how-it-works" class="text-link">How a Pelton turbine works</a>
--   <a href="#build" class="text-link">A practical DIY build (Version 1 → Version 3)</a>
--   <a href="#nozzle" class="text-link">Nozzles, pipe, and “why my jet is weak”</a>
--   <a href="#math" class="text-link">Realistic power math (with examples)</a>
--   <a href="#charging" class="text-link">Charging a battery safely</a>
--   <a href="#mistakes" class="text-link">Common mistakes</a>
--   <a href="#safety" class="text-link">Safety and limitations</a>
--   <a href="#pairs-with-solar" class="text-link">How it pairs with solar</a>
--   <a href="#troubleshooting" class="text-link">Troubleshooting</a>
--   <a href="#faq" class="text-link">FAQ</a>
-
 ## Beginner explanation: what “pico hydro” actually means
 
 Pico hydro usually means “small enough to be a DIY experiment,” often from a few watts to a few hundred watts. It’s not magic. You’re converting **gravity potential energy** in water (height) into **electrical power**.

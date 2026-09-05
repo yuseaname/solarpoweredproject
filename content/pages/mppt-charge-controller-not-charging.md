@@ -16,7 +16,6 @@ related = [
 ]
 +++
 
-
 {{< affiliate-disclosure >}}
 ## Quick diagnostic flowchart: zero charge current? Start here
 
@@ -37,8 +36,6 @@ Work through these in order. Most "not charging" problems are found in the first
 | Battery voltage (resting, lithium) | 13.2–13.6V (12V system) | Below 13.0V or showing 0V (BMS tripped) |
 | Battery voltage (charging) | 14.0–14.7V (lead-acid bulk) | Stuck below 13.5V in full sun |
 | Charge current | Matches expected based on sun | 0A in good sun when battery isn't full |
-
-## Table of contents
 
 <a href="#quick" class="text-link">Quick diagnostic flowchart</a> <a href="#takeaways" class="text-link">Key takeaways</a> <a href="#how-mppt-works" class="text-link">How MPPT finds power</a> <a href="#step1" class="text-link">Step 1: Confirm PV input (sun/shade/soiling)</a> <a href="#step2" class="text-link">Step 2: Confirm PV voltage is high enough</a> <a href="#step3" class="text-link">Step 3: Validate array wiring & controller limits</a> <a href="#step4" class="text-link">Step 4: Check charging stage & settings</a> <a href="#step5" class="text-link">Step 5: Battery protections (BMS/temp/full)</a> <a href="#seasonal" class="text-link">Seasonal patterns</a> <a href="#replace" class="text-link">When to replace vs repair</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next" class="text-link">Next logical reads</a>
 
@@ -105,7 +102,7 @@ If your system is near the limits, "it charged yesterday" doesn't prove it's saf
 
 **Check:** Look up your panel's temperature coefficient (usually -0.3%/°C). Calculate your worst-case cold Voc and compare to your controller's max PV voltage rating. Leave 10% margin.
 
-<a href="solar-components.html" class="text-link">Solar components explained</a> <a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose solar system voltage</a>
+<a href="solar-components.html" class="text-link">Solar components explained</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">How to choose solar system voltage</a>
 
 ## Step 4: Check charging stage and settings {#step4}
 

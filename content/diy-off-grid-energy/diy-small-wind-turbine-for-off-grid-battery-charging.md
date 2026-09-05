@@ -14,22 +14,6 @@ author = "Solar Powered Project"
 -   Wind turbines need **charge control** and often a **dump load** so the turbine always has a safe electrical load.
 -   The safest off-grid pattern is: **turbine → rectifier (if needed) → wind controller (with diversion/dump) → battery → inverter/loads**.
 
-## Table of contents
-
--   <a href="#quick-reality-check" class="text-link">Quick reality check</a>
--   <a href="#beginner-explanation" class="text-link">Beginner explanation</a>
--   <a href="#how-it-works" class="text-link">How the system works</a>
--   <a href="#site-assessment" class="text-link">Site assessment</a>
--   <a href="#diy-build-paths" class="text-link">Practical DIY build paths</a>
--   <a href="#tower-and-mechanical" class="text-link">Tower and mechanical essentials</a>
--   <a href="#electrical-design" class="text-link">Electrical design</a>
--   <a href="#sizing-output" class="text-link">Sizing and expected output</a>
--   <a href="#costs-maintenance" class="text-link">Costs, efficiency, and maintenance</a>
--   <a href="#mistakes" class="text-link">Common mistakes and misconceptions</a>
--   <a href="#safety" class="text-link">Safety, limitations, and legal constraints</a>
--   <a href="#pairs-with-solar" class="text-link">How wind pairs with solar</a>
--   <a href="#faq" class="text-link">FAQ</a>
-
 ## Quick reality check: when small wind works (and when it doesn’t)
 
 If you want a “set it and forget it” power source, small wind is rarely the first place to start. But if you treat it like an experiment and design around reality, it can become a valuable *seasonal* contributor — especially where winter solar struggles.
@@ -192,7 +176,7 @@ Small wind is often installed far from the battery and inverter, which makes wir
 
 For a given power, higher voltage means lower current. Lower current means smaller wires and less voltage drop — which matters a lot when the turbine is 100+ feet from your battery shed.
 
-If your off-grid system voltage isn’t chosen yet, start here: <a href="../pages/12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V</a> and <a href="../pages/how-to-choose-solar-system-voltage.html" class="text-link">how to choose system voltage</a>.
+If your off-grid system voltage isn’t chosen yet, start here: <a href="../pages/12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V</a> and <a href="../pages/12v-vs-24v-vs-48v-solar.html" class="text-link">how to choose system voltage</a>.
 
 ### Wire sizing, voltage drop, and why long runs hurt wind systems
 
@@ -378,3 +362,4 @@ Want the most reliable off-grid path? Use wind as a measured seasonal supplement
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
 {{< /faq >}}
 
+<a href="/diy-off-grid-energy/diy-savonius-wind-turbine-vertical-axis.html" class="text-link">The vertical-axis (Savonius) alternative</a> <a href="/diy-off-grid-energy/diy-dump-load-diversion-controller-wind-hydro.html" class="text-link">Dump-load diversion control for wind</a>

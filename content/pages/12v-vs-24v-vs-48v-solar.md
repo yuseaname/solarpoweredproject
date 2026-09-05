@@ -12,7 +12,7 @@ image_width = 1024
 image_height = 576
 related = [
   "/pages/battery-cable-size-for-inverter.html",
-  "/pages/how-to-choose-solar-system-voltage.html",
+  "/pages/12v-vs-24v-vs-48v-solar.html",
   "/pages/solar-inverter-sizing.html"
 ]
 +++
@@ -108,7 +108,7 @@ Don't want to read the whole article? Match your situation:
 </tbody>
 </table>
 
-Related: <a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose solar system voltage</a>
+Related: <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">How to choose solar system voltage</a>
 
 ## Why voltage matters: current and wiring
 
@@ -209,4 +209,4 @@ It can influence array configuration and controller choices. Always verify your 
 
 ## Next logical reads
 
-<a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose solar system voltage</a> <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="/pages/what-size-solar-generator-run-refrigerator.html" class="text-link">What size solar generator to run a refrigerator</a> <a href="/pages/how-long-will-100ah-battery-run.html" class="text-link">How long will a 100Ah battery run</a> <a href="/pages/cpap-battery-backup-guide.html" class="text-link">CPAP battery backup guide</a>
+<a href="12v-vs-24v-vs-48v-solar.html" class="text-link">How to choose solar system voltage</a> <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="/pages/what-size-solar-generator-run-refrigerator.html" class="text-link">What size solar generator to run a refrigerator</a> <a href="/pages/how-long-will-100ah-battery-run.html" class="text-link">How long will a 100Ah battery run</a> <a href="/pages/cpap-battery-backup-guide.html" class="text-link">CPAP battery backup guide</a>

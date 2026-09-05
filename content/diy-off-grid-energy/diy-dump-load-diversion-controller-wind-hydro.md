@@ -14,21 +14,6 @@ author = "Solar Powered Project"
 -   Sizing is about **maximum plausible watts** plus margin, and **heat management**.
 -   Safety depends on **fusing near energy sources**, a **disconnect**, and wiring sized for current.
 
-## Table of contents
-
--   <a href="#beginner" class="text-link">Beginner explanation</a>
--   <a href="#why-needed" class="text-link">Why “battery full” is a problem for turbines</a>
--   <a href="#how-it-works" class="text-link">How diversion control works</a>
--   <a href="#dump-load" class="text-link">What a dump load actually is</a>
--   <a href="#sizing" class="text-link">Sizing a dump load (watts and resistance)</a>
--   <a href="#wiring" class="text-link">Safe wiring patterns</a>
--   <a href="#heat" class="text-link">Heat management and mounting</a>
--   <a href="#pairs-with-solar" class="text-link">How it pairs with solar</a>
--   <a href="#mistakes" class="text-link">Common mistakes</a>
--   <a href="#safety" class="text-link">Safety and limitations</a>
--   <a href="#troubleshooting" class="text-link">Troubleshooting</a>
--   <a href="#faq" class="text-link">FAQ</a>
-
 ## Beginner explanation: diversion is “somewhere safe for power to go”
 
 A dump load is intentionally wasteful. That’s the point. When your generator produces more power than the battery can safely accept, the system diverts the extra power into a load that converts it to heat.

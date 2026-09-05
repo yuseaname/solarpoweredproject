@@ -14,20 +14,6 @@ author = "Solar Powered Project"
 -   Measure output as **Wh/day**, not “spins fast” or “hits 12V open circuit.”
 -   Use **regulation + protection** before connecting any wind experiment to a battery.
 
-## Table of contents
-
--   <a href="#beginner" class="text-link">Beginner explanation</a>
--   <a href="#how-it-works" class="text-link">How a Savonius rotor works</a>
--   <a href="#build" class="text-link">DIY build paths (Version 1 → Version 3)</a>
--   <a href="#tower" class="text-link">Mounting, towers, and safety basics</a>
--   <a href="#math" class="text-link">Realistic output estimates (watts and Wh/day)</a>
--   <a href="#charging" class="text-link">Charging a battery safely</a>
--   <a href="#mistakes" class="text-link">Common mistakes and misconceptions</a>
--   <a href="#safety" class="text-link">Safety and limitations</a>
--   <a href="#pairs-with-solar" class="text-link">How it pairs with solar</a>
--   <a href="#troubleshooting" class="text-link">Troubleshooting</a>
--   <a href="#faq" class="text-link">FAQ</a>
-
 ## Beginner explanation: why vertical-axis wind is appealing (and why it’s tricky)
 
 A Savonius wind turbine is a vertical-axis rotor that uses wind drag to spin. Because it’s drag-based, it can start in lower winds and produces usable torque at low RPM — great for demos and DIY.

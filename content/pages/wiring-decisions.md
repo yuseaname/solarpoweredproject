@@ -37,7 +37,7 @@ If you want the cost/budget view of all “small parts,” use: <a href="solar-w
 
 ## Next logical reads
 
-<a href="how-to-choose-solar-system-voltage.html" class="text-link">How to choose solar system voltage</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V solar systems</a> <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter for solar</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system (start-to-finish)</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM charge controllers</a> <a href="solar-components.html" class="text-link">Solar components explained</a>
+<a href="12v-vs-24v-vs-48v-solar.html" class="text-link">How to choose solar system voltage</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V solar systems</a> <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter for solar</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system (start-to-finish)</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM charge controllers</a> <a href="solar-components.html" class="text-link">Solar components explained</a>
 
 ---
 
