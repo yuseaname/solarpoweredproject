@@ -10,6 +10,10 @@ related = [
   "/diy-off-grid-energy/pedal-power-generator-for-off-grid-battery-charging.html",
   "/diy-off-grid-energy/diy-thermoelectric-generator-teg-battery-charging.html"
 ]
+image = "/images/diy-hand-crank-generator-emergency-charging/hero.webp"
+image_alt = "Hand-crank generator technical plate: cutaway of the dynamo and gear train charging a USB power bank"
+image_width = 1536
+image_height = 1024
 +++
 
 ## The quick answer (if you're in a hurry)

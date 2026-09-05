@@ -5,6 +5,10 @@ date = 2026-05-31
 draft = false
 description = "A realistic DIY thermoelectric generator guide: Seebeck basics, temperature requirements, realistic wattage, module selection, boost converter wiring, and safe battery charging as a supplemental off-grid solar backup."
 author = "Solar Powered Project"
+image = "/images/diy-thermoelectric-generator-teg-battery-charging/hero.webp"
+image_alt = "Thermoelectric generator technical plate: TEG module between stove top and heat sink, with Seebeck-effect cross-section detail"
+image_width = 1024
+image_height = 1536
 +++
 
 ## Key takeaways

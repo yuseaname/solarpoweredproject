@@ -10,6 +10,10 @@ related = [
   "/diy-off-grid-energy/treadmill-motor-generator-for-off-grid-charging.html",
   "/diy-off-grid-energy/diy-generator-test-bench-measure-watts-watt-hours.html"
 ]
+image = "/images/pedal-power-generator-for-off-grid-battery-charging/hero.webp"
+image_alt = "Pedal-powered generator technical plate: bicycle rear roller driving a motor through a charge controller into a 12V battery"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Key takeaways

@@ -10,6 +10,10 @@ related = [
   "/diy-off-grid-energy/diy-water-wheel-generator-low-head.html",
   "/diy-off-grid-energy/diy-generator-test-bench-measure-watts-watt-hours.html"
 ]
+image = "/images/diy-pelton-turbine-pico-hydro/hero.webp"
+image_alt = "Pelton turbine technical plate: penstock nozzle driving the bucket runner and generator from a mountain stream"
+image_width = 1536
+image_height = 1024
 +++
 
 ## Key takeaways
