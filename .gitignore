@@ -4,3 +4,4 @@ out/
 resources/_gen/
 .agency/
 .audit/
+*.zip
