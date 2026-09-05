@@ -41,7 +41,7 @@ If your home is truly mobile—meaning it is frequently moved from one location 
 
 ---
 
-ical considerations: Roof Integrity and Weight
+## Technical considerations: Roof Integrity and Weight
 
 One of the most critical technical hurdles when considering solar panels for mobile homes is the structural integrity of the roof. Unlike traditional site-built homes, many mobile and manufactured homes were constructed with lighter-weight materials to facilitate transport.
 
@@ -111,7 +111,7 @@ Solar installations are significant electrical modifications. Your local municip
 
 ---
 
-able Strategies for Maximizing Solar Efficiency
+## Practical Strategies for Maximizing Solar Efficiency
 
 If you want to get the most out of your solar power mobile home setup, you shouldn't just focus on the panels; you should focus on **energy efficiency**. The less energy you use, the smaller (and cheaper) your solar system can be.
 

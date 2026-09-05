@@ -606,7 +606,9 @@ If both battery and gravity system charge the same battery bank:
 
 The inverter doesn't care where the battery charge came from. This is the simplest integration path.
 
-## FAQ: Gravity battery energy storage{{< faq "Is a DIY gravity battery practical for off-grid power?" >}}
+## FAQ: Gravity battery energy storage
+
+{{< faq "Is a DIY gravity battery practical for off-grid power?" >}}
 No, not at any realistic scale. Chemical batteries are 10–40× cheaper per watt-hour and 100× more energy-dense.
 
 Gravity batteries are best for **education** and demonstrating physics, not replacing lithium or lead-acid batteries.

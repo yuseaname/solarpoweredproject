@@ -15,10 +15,10 @@ Transforming a shed, garage, or workshop into a self-sustaining power hub is one
 
 ## Key Takeaways
 
--   \*\*Cost Efficiency:\*\* Small-scale shed solar systems can be implemented for as little as $500 to $3,000, depending on the load.
--   \*\*Scalability:\*\* Outbuilding systems are ideal for "DC-coupled" setups, making them easy to expand as power needs grow.
--   \*\*Energy Independence:\*\* These systems are perfect for powering high-draw items like power tools or low-draw items like LED lighting and Wi-Fi routers.
--   \*\*Maintenance:\*\* Solar for outbuildings requires minimal upkeep, primarily consisting of cleaning panels twice a year to maintain peak efficiency.
+-   **Cost Efficiency:** Small-scale shed solar systems can be implemented for as little as $500 to $3,000, depending on the load.
+-   **Scalability:** Outbuilding systems are ideal for "DC-coupled" setups, making them easy to expand as power needs grow.
+-   **Energy Independence:** These systems are perfect for powering high-draw items like power tools or low-draw items like LED lighting and Wi-Fi routers.
+-   **Maintenance:** Solar for outbuildings requires minimal upkeep, primarily consisting of cleaning panels twice a year to maintain peak efficiency.
 
 ## Assessing Your Energy Needs and Load Requirements
 
@@ -32,8 +32,8 @@ To determine the size of the system you need, you must calculate the total Watt-
 
 Consider these common shed scenarios:
 
--   \*\*Scenario A: The Security/Smart Shed.\*\* (LED light 10W for 5 hours + Wi-Fi Router 15W for 24 hours + Security Camera 5W for 24 hours) = 50Wh + 360Wh + 120Wh = \*\*530Wh per day.\*\*
--   \*\*Scenario B: The Workshop.\*\* (LED light 20W for 4 hours + Laptop 60W for 3 hours + Cordless Drill Charger 40W for 2 hours + Small Table Saw 1,200W for 15 minutes/0.25 hours) = 80Wh + 180Wh + 80Wh + 300Wh = \*\*560Wh per day.\*\*
+-   **Scenario A: The Security/Smart Shed.** (LED light 10W for 5 hours + Wi-Fi Router 15W for 24 hours + Security Camera 5W for 24 hours) = 50Wh + 360Wh + 120Wh = **530Wh per day.**
+-   **Scenario B: The Workshop.** (LED light 20W for 4 hours + Laptop 60W for 3 hours + Cordless Drill Charger 40W for 2 hours + Small Table Saw 1,200W for 15 minutes/0.25 hours) = 80Wh + 180Wh + 80Wh + 300Wh = **560Wh per day.**
 
 ### Determining Peak Sun Hours
 
@@ -53,25 +53,25 @@ When installing solar on an outbuilding, you have three primary architectural ch
 
 In an off-grid setup, the shed is electrically isolated from the main house. You rely entirely on solar panels, a charge controller, a battery bank, and an inverter.
 
--   \*\*Pros:\*\* No need for expensive trenching or electrical permits to connect to the house; complete autonomy.
--   \*\*Cons:\*\* You must invest in batteries (storage) to ensure power at night.
--   \*\*Estimated Cost:\*\* $600 – $2,500.
+-   **Pros:** No need for expensive trenching or electrical permits to connect to the house; complete autonomy.
+-   **Cons:** You must invest in batteries (storage) to ensure power at night.
+-   **Estimated Cost:** $600 – $2,500.
 
 ### 2. Grid-Tied (AC-Coupled)
 
 If your shed is already wired to your home’s main electrical panel, you can install a grid-tied inverter. This system feeds excess power back into your home's circuit.
 
--   \*\*Pros:\*\* No batteries required; excess energy is "stored" by the utility company via net metering.
--   \*\*Cons:\*\* If the grid goes down, your solar shuts off for safety (anti-islanding); requires professional electrical work and permits.
--   \*\*Estimated Cost:\*\* $1,500 – $5,000+.
+-   **Pros:** No batteries required; excess energy is "stored" by the utility company via net metering.
+-   **Cons:** If the grid goes down, your solar shuts off for safety (anti-islanding); requires professional electrical work and permits.
+-   **Estimated Cost:** $1,500 – $5,000+.
 
 ### 3. Hybrid Systems
 
 A hybrid system uses a battery bank (like a LiFePO4 setup) but remains connected to the house grid.
 
--   \*\*Pros:\*\* Provides backup power during outages while allowing you to use grid power when the sun isn't shining.
--   \*\*Cons:\*\* Most complex and expensive setup.
--   \*\*Estimated Cost:\*\* $3,000 – $7,000+.
+-   **Pros:** Provides backup power during outages while allowing you to use grid power when the sun isn't shining.
+-   **Cons:** Most complex and expensive setup.
+-   **Estimated Cost:** $3,000 – $7,000+.
 
 ## Essential Components and Hardware Selection
 
@@ -81,30 +81,30 @@ A functional solar shed requires four primary hardware components. Choosing the 
 
 For sheds, **Monocrystalline panels** are generally preferred over Polycrystalline. While slightly more expensive, they have a higher efficiency rating (typically 17% to 22% vs. 13% to 16%). This is vital because shed roof space is often limited.
 
--   \*\*Small Scale:\*\* 100W to 200W panels are ideal for lighting and charging.
--   \*\*Large Scale:\*\* 300W to 400W panels are better for workshops with power tools.
+-   **Small Scale:** 100W to 200W panels are ideal for lighting and charging.
+-   **Large Scale:** 300W to 400W panels are better for workshops with power tools.
 
 ### Charge Controllers
 
 The charge controller regulates the voltage coming from the panels to prevent overcharging the batteries.
 
--   \*\*PWM (Pulse Width Modulation):\*\* Cheaper, but less efficient. Best for very small, simple systems (e.g., just a light and a phone charger).
--   \*\*MPPT (Maximum Power Point Tracking):\*\* More expensive but up to 30% more efficient. It "tracks" the optimal voltage to extract maximum power. \*\*Recommendation:\*\* Always use MPPT for any system involving batteries and power tools.
+-   **PWM (Pulse Width Modulation):** Cheaper, but less efficient. Best for very small, simple systems (e.g., just a light and a phone charger).
+-   **MPPT (Maximum Power Point Tracking):** More expensive but up to 30% more efficient. It "tracks" the optimal voltage to extract maximum power. **Recommendation:** Always use MPPT for any system involving batteries and power tools.
 
 ### Battery Storage
 
 The battery is the most expensive part of an off-grid shed system.
 
--   \*\*Lead-Acid (AGM/Deep Cycle):\*\* Lower upfront cost, but you can only discharge them to 50% without damaging them. This means you need a battery twice the size of your daily needs.
--   \*\*Lithium Iron Phosphate (LiFePO4):\*\* Higher upfront cost, but you can discharge them to 90-100%. They last 10 times longer (up to 10 years vs. 2-3 years for Lead-Acid) and handle depth of discharge much better.
--   \*\*Cost Comparison:\*\* A 100Ah AGM battery might cost $150, while a 100Ah LiFePO4 battery might cost $350. However, the LiFePO4 provides double the usable capacity and much longer life.
+-   **Lead-Acid (AGM/Deep Cycle):** Lower upfront cost, but you can only discharge them to 50% without damaging them. This means you need a battery twice the size of your daily needs.
+-   **Lithium Iron Phosphate (LiFePO4):** Higher upfront cost, but you can discharge them to 90-100%. They last 10 times longer (up to 10 years vs. 2-3 years for Lead-Acid) and handle depth of discharge much better.
+-   **Cost Comparison:** A 100Ah AGM battery might cost $150, while a 100Ah LiFePO4 battery might cost $350. However, the LiFePO4 provides double the usable capacity and much longer life.
 
 ### Inverters
 
 The inverter converts the DC power from your batteries into AC power for your tools and lights.
 
--   \*\*Modified Sine Wave:\*\* Cheaper, but can damage sensitive electronics like laptops or high-end power tools.
--   \*\*Pure Sine Wave:\*\* Essential for modern electronics, variable speed motor tools, and anything with a digital clock or transformer. \*\*Recommendation:\*\* Only use Pure Sine Wave inverters for workshop use.
+-   **Modified Sine Wave:** Cheaper, but can damage sensitive electronics like laptops or high-end power tools.
+-   **Pure Sine Wave:** Essential for modern electronics, variable speed motor tools, and anything with a digital clock or transformer. **Recommendation:** Only use Pure Sine Wave inverters for workshop use.
 
 ## Installation Steps and Practical Considerations
 
@@ -114,20 +114,20 @@ For maximum yield, panels should face South (in the Northern Hemisphere). The ti
 
 ### Wiring and Safety
 
--   \*\*Wire Gauge:\*\* Use appropriately sized copper wiring to prevent voltage drop. For long runs from a roof to a floor-mounted battery, thicker wire (e.g., 10 AWG or 8 AWG) is necessary.
--   \*\*Fusing:\*\* Every stage of the circuit—between the panel and controller, the controller and battery, and the battery and inverter—must have an appropriately rated fuse or circuit breaker.
--   \*\*Grounding:\*\* Ensure the solar panel frames and the metal mounting hardware are properly grounded to protect against lightning strikes and static buildup.
+-   **Wire Gauge:** Use appropriately sized copper wiring to prevent voltage drop. For long runs from a roof to a floor-mounted battery, thicker wire (e.g., 10 AWG or 8 AWG) is necessary.
+-   **Fusing:** Every stage of the circuit—between the panel and controller, the controller and battery, and the battery and inverter—must have an appropriately rated fuse or circuit breaker.
+-   **Grounding:** Ensure the solar panel frames and the metal mounting hardware are properly grounded to protect against lightning strikes and static buildup.
 
 ### Budgeting Breakdown (Example 300W System)
 
 To give you a realistic idea of the financial commitment, here is a breakdown of a mid-range, off-grid 300W setup using LiFePO4 technology:
 
--   \*\*3x 100W Monocrystalline Panels:\*\* $300
--   \*\*30A MPPT Charge Controller:\*\* $150
--   \*\*100Ah LiFePO4 Battery:\*\* $350
--   \*\*1000W Pure Sine Wave Inverter:\*\* $200
--   \*\*Wiring, Fuses, and Mounting Hardware:\*\* $200
--   \*\*Total Estimated Cost:\*\* \*\*$1,200\*\*
+-   **3x 100W Monocrystalline Panels:** $300
+-   **30A MPPT Charge Controller:** $150
+-   **100Ah LiFePO4 Battery:** $350
+-   **1000W Pure Sine Wave Inverter:** $200
+-   **Wiring, Fuses, and Mounting Hardware:** $200
+-   **Total Estimated Cost:** **$1,200**
 
 ## Frequently Asked Questions
 

@@ -15,10 +15,10 @@ Enhancing your outdoor space with solar lighting is one of the most cost-effecti
 
 ## Key Takeaways
 
--   \*\*Prioritize Lumens for Functionality:\*\* Use 10–50 lumens for decorative paths and 500+ lumens for security and-task lighting.
--   \*\*Battery Chemistry Matters:\*\* Lithium-ion (Li-ion) or Lithium Iron Phosphate (LiFePO4) batteries offer better longevity and discharge cycles than older NiMH options.
--   \*\*Cost-Benefit Ratio:\*\* While solar lights have a higher upfront cost (averaging $25–$60 per unit for quality), the $0 operating cost provides a return on investment within 1–2 growing seasons.
--   \*\*Weatherproofing is Non-Negotiable:\*\* Look for an IP65 rating or higher to ensure components survive heavy rain and snow.
+-   **Prioritize Lumens for Functionality:** Use 10–50 lumens for decorative paths and 500+ lumens for security and-task lighting.
+-   **Battery Chemistry Matters:** Lithium-ion (Li-ion) or Lithium Iron Phosphate (LiFePO4) batteries offer better longevity and discharge cycles than older NiMH options.
+-   **Cost-Benefit Ratio:** While solar lights have a higher upfront cost (averaging $25–$60 per unit for quality), the $0 operating cost provides a return on investment within 1–2 growing seasons.
+-   **Weatherproofing is Non-Negotiable:** Look for an IP65 rating or higher to ensure components survive heavy rain and snow.
 
 ## Understanding Solar Light Types and Applications
 
@@ -28,28 +28,28 @@ Choosing the "best" light depends entirely on the specific job the light needs t
 
 These lights are designed for aesthetics rather than visibility. They are often used to highlight garden features, trees, or architectural elements.
 
--   \*\*Characteristics:\*\* Low lumen output (5–20 lumens), small solar panels, and often "warm" color temperatures (2700K).
--   \*\*Cost:\*\* $5 to $15 per unit.
--   \*\*Best Use:\*\* Creating a soft ambiance in flower beds or along garden borders.
--   \*\*Limitation:\*\* They provide almost no utility for safety or navigation in the dark.
+-   **Characteristics:** Low lumen output (5–20 lumens), small solar panels, and often "warm" color temperatures (2700K).
+-   **Cost:** $5 to $15 per unit.
+-   **Best Use:** Creating a soft ambiance in flower beds or along garden borders.
+-   **Limitation:** They provide almost no utility for safety or navigation in the dark.
 
 ### Pathway and Path Lights
 
 Pathway lights serve a dual purpose: they guide foot traffic and prevent tripping hazards.
 
--   \*\*Characteristics:\*\* Moderate lumen output (30–100 lumens), larger solar cells, and more robust housings.
--   \*\*Cost:\*\* $25 to $50 per unit.
--   \*\*Best Use:\*\* Lining walkways, driveways, or stairs.
--   \*\*Technical Note:\*\* For effective path lighting, ensure the light is placed every 4 to 6 feet to avoid "dark spots" between poles.
+-   **Characteristics:** Moderate lumen output (30–100 lumens), larger solar cells, and more robust housings.
+-   **Cost:** $25 to $50 per unit.
+-   **Best Use:** Lining walkways, driveways, or stairs.
+-   **Technical Note:** For effective path lighting, ensure the light is placed every 4 to 6 feet to avoid "dark spots" between poles.
 
 ### Security and Floodlighting
 
 Security solar lights are high-intensity units designed to illuminate large areas and deter intruders.
 
--   \*\*Characteristics:\*\* High lumen output (500 to 3,000+ lumens), often equipped with PIR (Passive Infrared) motion sensors, and larger integrated or external solar panels.
--   \*\*Cost:\*\* $50 to $200+ per unit.
--   \*\*Best Use:\*\* Illuminating garage entrances, dark corners of the yard, or side alleys.
--   \*\*Technical Note:\*\* These lights often feature "sensor mode," where the light remains at a low 50-lumen state and jumps to 100% brightness only when motion is detected, preserving battery life.
+-   **Characteristics:** High lumen output (500 to 3,000+ lumens), often equipped with PIR (Passive Infrared) motion sensors, and larger integrated or external solar panels.
+-   **Cost:** $50 to $200+ per unit.
+-   **Best Use:** Illuminating garage entrances, dark corners of the yard, or side alleys.
+-   **Technical Note:** These lights often feature "sensor mode," where the light remains at a low 50-lumen state and jumps to 100% brightness only when motion is detected, preserving battery life.
 
 ## Technical Specifications: What to Look for Before Buying
 
@@ -59,27 +59,27 @@ When shopping on sites like Amazon, Home Depot, or specialized solar retailers, 
 
 Lumens measure the total amount of visible light emitted by a source.
 
--   \*\*Low (10-50 lumens):\*\* Good for mood.
--   \*\*Medium (50-200 lumens):\*\* Good for seeing where you step.
--   \*\*High (500+ lumens):\*\* Good for seeing faces or identifying objects.
+-   **Low (10-50 lumens):** Good for mood.
+-   **Medium (50-200 lumens):** Good for seeing where you step.
+-   **High (500+ lumens):** Good for seeing faces or identifying objects.
 
 If a product description does not list the lumen count, it is likely a low-quality decorative light.
 
-### Im IP Rating (Ingress Protection)
+### IP Rating (Ingress Protection)
 
 The IP rating tells you how well the light resists dust and water.
 
--   \*\*IP44:\*\* Protected against splashing water (minimum requirement).
--   \*\*IP65:\*\* Protected against rain and low-pressure water jets (ideal for most yards).
--   \*\*IP67/IP68:\*\* Fully waterproof (best for lights placed in ponds or heavy flood zones).
+-   **IP44:** Protected against splashing water (minimum requirement).
+-   **IP65:** Protected against rain and low-pressure water jets (ideal for most yards).
+-   **IP67/IP68:** Fully waterproof (best for lights placed in ponds or heavy flood zones).
 
 ### 3. Battery Capacity and Chemistry
 
 The solar panel collects energy, but the battery stores it. The capacity is usually measured in mAh (milliampere-hours).
 
--   \*\*NiMH (Nickel-Metal Hydride):\*\* Common in cheaper lights. They are prone to "memory effect" and degrade faster over 1–2 years.
--   \*\*Li-ion (Lithium-Ion):\*\* The industry standard for mid-range lights. They hold a charge better and last 3–5 years.
--   \*\*LiFePO4 (Lithates):\*\* The premium choice. These batteries can withstand hundreds of more charge cycles and are much safer in extreme heat.
+-   **NiMH (Nickel-Metal Hydride):** Common in cheaper lights. They are prone to "memory effect" and degrade faster over 1–2 years.
+-   **Li-ion (Lithium-Ion):** The industry standard for mid-range lights. They hold a charge better and last 3–5 years.
+-   **LiFePO4 (lithium iron phosphate):** The premium choice. These batteries can withstand hundreds of more charge cycles and are much safer in extreme heat.
 
 **Pro Tip:** Look for a battery capacity of at least 1200mAh for lights intended to stay on for 6–8 hours per night.
 
@@ -111,10 +111,10 @@ One of the most significant design decisions you will make is whether the solar 
 
 Solar lights are "set and forget" devices, but they are not "never look at them" devices. To ensure your investment lasts 5+ years rather than 1 season, follow these maintenance protocols:
 
-1.  \*\*Clean the Solar Cells:\*\* Dust, pollen, and bird droppings can reduce solar efficiency by as much as 30%. Wipe the panels with a damp cloth once every three months.
-2.  \*\*Monitor Battery Degradation:\*\* If you notice lights dimming significantly earlier in the night, the battery is likely reaching the end of its life cycle. Most Li-ion batteries in outdoor lights can be replaced for $5–$10 if the housing is accessible.
-3.  \*\*Check Seals:\*\* Once a year, inspect the rubber gaskets around the battery compartment. If they are cracked or brittle, moisture will enter, causing corrosion of the PCB (Printed Circuit Board).
-4.  \*\*Seasonal Adjustment:\*\* In winter months, when sunlight hours drop by 50% or more, you may need to reduce the "on-time" of your lights via any programmable settings to prevent deep discharge of the battery.
+1.  **Clean the Solar Cells:** Dust, pollen, and bird droppings can reduce solar efficiency by as much as 30%. Wipe the panels with a damp cloth once every three months.
+2.  **Monitor Battery Degradation:** If you notice lights dimming significantly earlier in the night, the battery is likely reaching the end of its life cycle. Most Li-ion batteries in outdoor lights can be replaced for $5–$10 if the housing is accessible.
+3.  **Check Seals:** Once a year, inspect the rubber gaskets around the battery compartment. If they are cracked or brittle, moisture will enter, causing corrosion of the PCB (Printed Circuit Board).
+4.  **Seasonal Adjustment:** In winter months, when sunlight hours drop by 50% or more, you may need to reduce the "on-time" of your lights via any programmable settings to prevent deep discharge of the battery.
 
 ## Frequently Asked Questions
 

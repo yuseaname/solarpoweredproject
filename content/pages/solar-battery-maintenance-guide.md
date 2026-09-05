@@ -183,7 +183,9 @@ This applies to mixing different brands, capacities, or ages in general. In a se
 | **Every 6 months** | Inspect terminals and torque to spec; verify BMS status and cell balance |
 | **Annually** | Verify low-temperature cutoff or heater is functioning; check firmware |
 
-## FAQ{{< faq "How often should I add water to my flooded lead-acid batteries?" >}}
+## FAQ
+
+{{< faq "How often should I add water to my flooded lead-acid batteries?" >}}
 In a typical off-grid solar system, check monthly during summer (when charging is heavy and evaporation is high) and every 2 to 3 months in winter. Only add distilled water, and only after charging — never before, because electrolyte expands during charge and will overflow.
 {{< /faq >}}
 

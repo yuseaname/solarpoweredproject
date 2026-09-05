@@ -22,17 +22,12 @@ Choosing between leasing and buying solar panels is one of the biggest financial
 
 Before diving into comparisons, here is a quick overview of each financing method:
 
-`| Method | How It Works | Who Owns the System | Upfront Cost | Eligible for Tax Credit? |`
-
-`|--------|--------------|-------------------|-------------|------------------------|`
-
-`| `**`Cash Purchase`**` | You pay the full cost upfront | You | $15,000–$35,000 | 2025 installs only (credit expired Dec 31, 2025) |`
-
-`| `**`Solar Loan`**` | You borrow and pay monthly | You | $0–$5,000 down | 2025 installs only (credit expired Dec 31, 2025) |`
-
-`| `**`Solar Lease`**` | You rent the system for a fixed monthly payment | Installer/company | $0 | No |`
-
-`| `**`Solar PPA`**` | You pay per kWh generated at a set rate | Installer/company | $0 | No |`
+| Method | How It Works | Who Owns the System | Upfront Cost | Eligible for Tax Credit? |
+|--------|--------------|-------------------|-------------|------------------------|
+| **Cash Purchase** | You pay the full cost upfront | You | $15,000–$35,000 | 2025 installs only (credit expired Dec 31, 2025) |
+| **Solar Loan** | You borrow and pay monthly | You | $0–$5,000 down | 2025 installs only (credit expired Dec 31, 2025) |
+| **Solar Lease** | You rent the system for a fixed monthly payment | Installer/company | $0 | No |
+| **Solar PPA** | You pay per kWh generated at a set rate | Installer/company | $0 | No |
 
 ## Cash Purchase: Maximum Savings, Highest Upfront Cost
 
@@ -120,17 +115,12 @@ A solar PPA is similar to a lease, but instead of a fixed monthly rent, you pay 
 
 Here is a realistic comparison for a 7 kW system in California (average electricity rate: $0.28/kWh):
 
-`| Financing Method | Total Cost Over 20 Years | Total Savings vs Utility | Net Benefit |`
-
-`|-----------------|--------------------------|--------------------------|-------------|`
-
-`| `**`Cash Purchase`**` | $25,000 – $7,500 (ITC) = $17,500 + $2,000 maintenance | $42,000 | `**`+$22,500`**` |`
-
-`| `**`Solar Loan (5.9%, 20yr)`**` | $38,000 – $7,500 (ITC) = $30,500 + $2,000 maintenance | $42,000 | `**`+$9,500`**` |`
-
-`| `**`Solar Lease`**` | $18,000–$24,000 (monthly payments × 20 years) | $32,000 | `**`+$8,000 to $14,000`**` |`
-
-`| `**`Solar PPA`**` | $20,000–$26,000 (per-kWh × production × 20 years) | $32,000 | `**`+$6,000 to $12,000`**` |`
+| Financing Method | Total Cost Over 20 Years | Total Savings vs Utility | Net Benefit |
+|-----------------|--------------------------|--------------------------|-------------|
+| **Cash Purchase** | $25,000 – $7,500 (ITC) = $17,500 + $2,000 maintenance | $42,000 | **+$22,500** |
+| **Solar Loan (5.9%, 20yr)** | $38,000 – $7,500 (ITC) = $30,500 + $2,000 maintenance | $42,000 | **+$9,500** |
+| **Solar Lease** | $18,000–$24,000 (monthly payments × 20 years) | $32,000 | **+$8,000 to $14,000** |
+| **Solar PPA** | $20,000–$26,000 (per-kWh × production × 20 years) | $32,000 | **+$6,000 to $12,000** |
 
 **Key takeaway:** Cash purchase wins by a wide margin. Solar loans are second. Leases and PPAs offer modest savings but sacrifice ownership and tax benefits.
 

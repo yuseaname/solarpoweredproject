@@ -15,10 +15,10 @@ In an era of increasing outdoor adventure and a growing need for energy independ
 
 ## Key Takeaways
 
--   \*\*Identify your load requirements:\*\* Always calculate the total wattage of the devices you need to power before purchasing a panel.
--   \*\*Efficiency matters:\*\* Monocrystalline panels offer higher efficiency (20-23%) compared to polycrystalline alternatives, making them better for limited space.
--   \*\*Budgeting for portability:\*\* Expect to pay between $150 for small 50W units to over $1,000 for high-output 400W+ folding arrays.
--   \*\*Integration is key:\*\* Portable panels are most effective when paired with a portable power station (LiFePO4 battery) rather than used to charge phones directly via USB.
+-   **Identify your load requirements:** Always calculate the total wattage of the devices you need to power before purchasing a panel.
+-   **Efficiency matters:** Monocrystalline panels offer higher efficiency (20-23%) compared to polycrystalline alternatives, making them better for limited space.
+-   **Budgeting for portability:** Expect to pay between $150 for small 50W units to over $1,000 for high-output 400W+ folding arrays.
+-   **Integration is key:** Portable panels are most effective when paired with a portable power station (LiFePO4 battery) rather than used to charge phones directly via USB.
 
 ## Understanding Portable Solar Panel Technologies
 
@@ -26,40 +26,40 @@ When shopping for portable solar, you will primarily encounter three types of ce
 
 ### Solar Cell Technologies
 
-\#### Monocrystalline Panels
+#### Monocrystalline Panels
 
 Monocrystalline panels are made from a single, continuous crystal structure. They are the industry standard for portable use because they offer the highest efficiency rates, typically ranging from 20% to 23%. Because they convert more sunlight into electricity per square inch, they are the best choice when space is limited (e.g., inside a backpack or a small car trunk). However, they are generally 10-15% more expensive than polycrystalline options.
 
-\#### Polycrystalline Panels
+#### Polycrystalline Panels
 
 Polycrystalline panels are created by melting multiple silicon crystals together. While more affordable to manufacture, their efficiency is lower, usually hovering between 15% and 17%. In a portable context, you would need a much larger surface area of polycrystalline panels to achieve the same 100W output as a monocrystalline panel. This makes them less ideal for true "portable" applications where footprint is a constraint.
 
-\#### Thin-Film Solar
+#### Thin-Film Solar
 
 Thin-film panels are made by depositing layers of photovoltaic material onto a substrate like glass or plastic. They are incredibly lightweight and flexible but have the lowest efficiency (often below 12%). These are excellent for "wearable" solar or integrating into tent fabrics, but they require massive surface areas to be useful for charging heavy electronics.
 
 ### Physical Form Factors
 
-\#### Foldable/Folding Arrays
+#### Foldable/Folding Arrays
 
 These are the most popular for campers. They consist of several panels connected by a hinge system that allows them to fold into a briefcase-style shape.
 
--   \*\*Pros:\*\* High wattage (often 100W to 280W), easy to deploy.
--   \*\*Cons:\*\* Bulky when folded; requires a flat surface.
+-   **Pros:** High wattage (often 100W to 280W), easy to deploy.
+-   **Cons:** Bulky when folded; requires a flat surface.
 
-\#### Rollable/Flexible Panels
+#### Rollable/Flexible Panels
 
 These use thin-film or specialized monocrystalline layers that can be rolled up like a yoga mat.
 
--   \*\*Pros:\*\* Extremely space-efficient; can contour to curved surfaces (like a van roof).
--   \*\*Cons:\*\* Higher cost per watt; more fragile than rigid folding panels.
+-   **Pros:** Extremely space-efficient; can contour to curved surfaces (like a van roof).
+-   **Cons:** Higher cost per watt; more fragile than rigid folding panels.
 
-\#### Rigid Portable Panels
+#### Rigid Portable Panels
 
 These are essentially small, lightweight versions of house panels, often encased in aluminum frames.
 
--   \*\*Pros:\*\* Most durable; highest-quality construction.
--   \*\*Cons:\*\* Not truly "portable" in the sense of being backpack-friendly; heavy.
+-   **Pros:** Most durable; highest-quality construction.
+-   **Cons:** Not truly "portable" in the sense of being backpack-friendly; heavy.
 
 ## Sizing Your Portable Solar Setup: A Practical Approach
 
@@ -69,10 +69,10 @@ The most common mistake in portable solar is underestimating the "load." You can
 
 List every device you plan to run and their power consumption.
 
--   \*\*Smartphone:\*\* ~15Wh per full charge
--   \*\*Laptop:\*\* ~60Wh per charge
--   \*\*12V Portable Fridge:\*\* ~400Wh to 800Wh per 24-hour period (depending on ambient temp)
--   \*\*LED Camping Light:\*\* ~5Wh per hour
+-   **Smartphone:** ~15Wh per full charge
+-   **Laptop:** ~60Wh per charge
+-   **12V Portable Fridge:** ~400Wh to 800Wh per 24-hour period (depending on ambient temp)
+-   **LED Camping Light:** ~5Wh per hour
 
 **Example Scenario:** If you want to run a laptop (60Wh), a phone (15Wh), and a small 12V fridge (500Wh), your total daily requirement is **575Wh**.
 
@@ -96,9 +96,9 @@ In this scenario, a 100W panel will fail you. You would need at least a 200W sol
 
 Portable solar pricing is generally measured in "Price per Watt."
 
--   \*\*Budget Tier ($3 - $5 per watt):\*\* Often found in generic brands on large marketplaces. These may use lower-grade cells and have less durable waterproofing.
--   \*\*Mid-Range Tier ($6 - $10 per watt):\*\* Brands like Renogy or Bougevert. These offer reliable monocrystalline cells and better weather resistance (IP67 ratings).
--   \*\*Premium Tier ($12+ per watt):\*\* Brands like Goal Zero or Jackery. You are paying for integrated battery ecosystems, highly efficient ETFE coatings, and superior customer support.
+-   **Budget Tier ($3 - $5 per watt):** Often found in generic brands on large marketplaces. These may use lower-grade cells and have less durable waterproofing.
+-   **Mid-Range Tier ($6 - $10 per watt):** Brands like Renogy or Bougevert. These offer reliable monocrystalline cells and better weather resistance (IP67 ratings).
+-   **Premium Tier ($12+ per watt):** Brands like Goal Zero or Jackery. You are paying for integrated battery ecosystems, highly efficient ETFE coatings, and superior customer support.
 
 {{< product-box asin="B07GF5JY35" name="Renogy 100W 12V Monocrystalline Panel" label="Solid mid-range pick" description="The reliable mid-tier standard — monocrystalline cells, IP67 weather rating, and the compatibility footprint (brackets, branch connectors) every RV build already assumes." button="Check price on Amazon" >}}
 

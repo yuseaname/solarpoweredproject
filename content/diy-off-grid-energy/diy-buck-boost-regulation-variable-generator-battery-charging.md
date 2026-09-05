@@ -199,6 +199,7 @@ Boosting increases input current demand for a given output power. That creates m
 <a href="../pages/solar-output-troubleshooting.html" class="text-link">Troubleshooting mindset →</a>
 
 ## FAQ
+
 {{< faq "Can I use a buck converter to charge a 12V battery?" >}}
 Often, yes — if your generator voltage is reliably above the battery’s required charging voltage under load, and you use a converter with appropriate current limiting and protection. Always fuse near the battery and verify wiring size.
 {{< /faq >}}

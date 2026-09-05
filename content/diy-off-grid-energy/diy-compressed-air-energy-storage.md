@@ -207,6 +207,7 @@ If your goal is purely electrical backup, batteries remain the simplest and most
 -   Check that pressure is maintained under load, not just at rest.
 
 ## FAQ
+
 {{< faq "Is compressed air energy storage efficient?" >}}
 At small DIY scale, it’s usually not highly efficient as electricity-in/electricity-out. It’s best as a learning project or when your end use is pneumatic.
 {{< /faq >}}

@@ -178,6 +178,7 @@ For specific replacement models matched to array watts and battery voltage, see 
 -   **Chasing settings before checking PV input:** always confirm sun/shade and PV watts first.
 
 ## FAQ
+
 {{< faq "Why is my MPPT controller showing PV voltage but zero charge current?" >}}
 Common reasons include a full battery (float), low PV watts due to clouds/shade, battery protections (BMS/cold), or settings that don’t match the battery.
 {{< /faq >}}

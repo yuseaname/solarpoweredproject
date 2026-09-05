@@ -315,7 +315,9 @@ Use these as your baseline references: <a href="../pages/solar-fuses-vs-breakers
 
 Many places regulate water diversion, fish passage, stream modifications, and property/usage rights. If you cannot legally divert flow or construct an intake, the project may be a non-starter. Treat this as step zero and verify local rules.
 
-## FAQ{{< faq "How much power do I need for “useful” off-grid living?" >}}
+## FAQ
+
+{{< faq "How much power do I need for “useful” off-grid living?" >}}
 It depends on the loads. A cabin running lights, electronics, and efficient refrigeration might average a few hundred watts but with higher peaks. Start with a load estimate and work backward: <a href="../pages/solar-system-sizing.html" class="text-link">solar system sizing</a>.
 {{< /faq >}}
 

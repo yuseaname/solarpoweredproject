@@ -98,6 +98,7 @@ If you keep power roughly the same, higher voltage means lower current. Lower cu
 <a href="solar-output-troubleshooting.html" class="text-link">Low solar output troubleshooting (symptoms vs causes)</a>
 
 ## FAQ
+
 {{< faq "Is PV wire the same as battery cable?" >}}
 No. PV wire is designed for outdoor array wiring. Battery cable is built for high current and flexible routing on the battery side.
 {{< /faq >}}

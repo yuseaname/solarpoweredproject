@@ -152,6 +152,7 @@ Going from 12V to 48V for the same inverter means cable cross-section drops by r
 -   **Non-DC-rated hardware:** DC interrupt ratings and voltage ratings matter for safety.
 
 ## FAQ
+
 {{< faq "Do I size inverter battery cables for surge or continuous watts?" >}}
 Plan around the maximum current the circuit can realistically see. If you run motor loads or compressors, surge behavior can be relevant. Use the inverter specs and leave a conservative margin.
 {{< /faq >}}

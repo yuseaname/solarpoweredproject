@@ -261,6 +261,7 @@ A hand-crank generator is best as a “last-mile” backup when solar is unavail
 <a href="../pages/solar-output-troubleshooting.html" class="text-link">Troubleshooting mindset (symptoms vs causes) →</a>
 
 ## FAQ
+
 {{< faq "How many watts can a hand-crank generator realistically produce?" >}}
 Many people can sustain roughly 5–30W by hand for meaningful time. Higher bursts are possible, but not comfortable.
 {{< /faq >}}

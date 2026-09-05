@@ -89,6 +89,7 @@ An inverter is sized primarily by the maximum AC wattage you’ll run at once, p
 These ranges are broad by design. Your actual loads, sun conditions, and roof space determine the final numbers.
 
 ## FAQ
+
 {{< faq "How many watts of solar do I need for an RV?" >}}
 Estimate daily Wh first, then divide by peak sun hours and an efficiency factor to get panel watts.
 {{< /faq >}}

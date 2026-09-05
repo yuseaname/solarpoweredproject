@@ -119,6 +119,7 @@ If you’re trying to reduce cost, the cleanest approach is often to define a re
 {{< product-box asin="B081CLPDT9" name="Renogy 2000W 12V Pure Sine Inverter" label="Mid-size cost anchor" description="2000W pure sine with remote and cables included — the honest mid-size reference point for inverter cost tables: enough for real loads, without paying for surge headroom you will not use." button="Check price on Amazon" >}}
 
 ## FAQ
+
 {{< faq "How much does a solar inverter cost to replace?" >}}
 Replacement cost depends on inverter type and size. Budget for the unit plus potential labor and any required electrical work.
 {{< /faq >}}

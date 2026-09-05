@@ -257,6 +257,7 @@ The takeaway is simple: for **practical** energy storage at DIY scale, batteries
 <a href="../pages/solar-output-troubleshooting.html" class="text-link">Troubleshooting mindset (symptoms vs causes) →</a>
 
 ## FAQ
+
 {{< faq "Do flywheels store more energy than batteries?" >}}
 Not at DIY scale. Batteries store far more energy per kilogram for most practical setups. Flywheels can deliver high power quickly, which makes them useful as buffers.
 {{< /faq >}}

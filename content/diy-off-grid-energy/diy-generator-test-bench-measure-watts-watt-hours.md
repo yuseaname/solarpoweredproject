@@ -210,6 +210,7 @@ You’re likely stalling the system. Back off the load, measure RPM, and find th
 <a href="../pages/solar-output-troubleshooting.html" class="text-link">Troubleshooting mindset →</a>
 
 ## FAQ
+
 {{< faq "What’s the best way to measure watt-hours from a DIY generator?" >}}
 Use a meter that accumulates Wh and run the generator under a real, repeatable load for a known time window. Repeat across conditions. That gives you a realistic range rather than a single optimistic number.
 {{< /faq >}}

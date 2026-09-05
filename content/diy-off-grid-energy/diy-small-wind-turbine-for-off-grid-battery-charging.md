@@ -335,7 +335,9 @@ A common reliable pattern is: solar does the bulk of annual energy, wind helps d
 
 If you want a structured way to plan this, start with: <a href="../pages/solar-system-sizing.html" class="text-link">solar system sizing</a> and <a href="../pages/cabin-solar-vs-generator.html" class="text-link">solar vs generator</a>.
 
-## FAQ{{< faq "Can a small wind turbine charge a 12V battery directly?" >}}
+## FAQ
+
+{{< faq "Can a small wind turbine charge a 12V battery directly?" >}}
 Not safely in most cases. Wind turbines can produce widely varying voltage and current depending on speed and load. Use a proper wind charge controller (and rectifier if needed) so charging is regulated and the turbine always has a safe load.
 {{< /faq >}}
 

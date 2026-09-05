@@ -50,6 +50,7 @@ If your panel wattage and peak sun hours are similar to normal, but your output 
 This is an estimate, but it helps quantify whether the drop is meaningful.
 
 ## FAQ
+
 {{< faq "Why did my solar output drop suddenly?" >}}
 Common causes include weather changes, new shading, inverter faults, tripped breakers, or heavy soiling.
 {{< /faq >}}

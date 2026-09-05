@@ -97,7 +97,7 @@ This is the most labor-intensive phase.
 2.  **Wiring the Array:** Running DC wiring from the panels to the inverter, and AC wiring from the inverter to your main service panel.
 3.  **Installing the Modules:** Securing the panels to the rails. This requires careful handling to avoid micro-cracks in the silicon cells.
 
-### Step \_4: The Inspection and Commissioning\_
+### Step _4: The Inspection and Commissioning_
 
 Once the hardware is in place, you must pass a physical inspection by your local building authority. Only after the inspector signs off and the utility company installs a bi-directional meter can you officially begin generating "net metered" energy.
 

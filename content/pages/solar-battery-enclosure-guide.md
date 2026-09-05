@@ -201,7 +201,9 @@ For sizing a mobile system, see our <a href="rv-solar-sizing.html" class="text-l
 - [ ] Fire-rated construction for banks above 20 kWh
 - [ ] Proper fusing and BMS monitoring
 
-## FAQ{{< faq "Do I need to vent lithium batteries?" >}}
+## FAQ
+
+{{< faq "Do I need to vent lithium batteries?" >}}
 Lithium batteries don't produce hydrogen gas, so they don't need ventilation for gas removal like flooded lead-acid does. However, they benefit from some airflow for cooling — sustained temperatures above 45°C (113°F) shorten their lifespan. A passive vent or small thermostatically controlled fan is sufficient.
 {{< /faq >}}
 

@@ -63,6 +63,7 @@ System size, battery choice, inverter type, mounting complexity, and local labor
 {{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="The storage cost anchor" description="Turnkey battery quotes can hit five figures; the DIY alternative is priced per kWh — and this is the battery that defines the benchmark for what storage should cost." button="Check price on Amazon" >}}
 
 ## FAQ
+
 {{< faq "How much does a small off-grid solar system cost?" >}}
 A small cabin or RV setup — 400W of panel, 1–2 kWh of storage, and a 1000–2000W inverter — typically lands between $800 and $2,500 in parts when you buy components separately.
 {{< /faq >}}

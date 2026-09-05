@@ -608,7 +608,9 @@ Measure actual energy use over a week:
 
 Match generation profile to load profile to minimize battery cycling and maximize efficiency.
 
-## FAQ: Hybrid charge controller systems{{< faq "Can I use one charge controller for multiple sources?" >}}
+## FAQ: Hybrid charge controller systems
+
+{{< faq "Can I use one charge controller for multiple sources?" >}}
 Only if the sources are identical in type and behavior.
 
 You can use one solar controller for multiple solar panels (wired in series or parallel). But you cannot use a solar controller for solar + wind, or solar + hydro — the electrical behavior is too different.

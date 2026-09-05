@@ -73,6 +73,7 @@ Voltage choice affects your battery configuration, inverter selection, charge co
 <a href="solar-components.html" class="text-link">Solar components overview</a> <a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM controller comparison</a>
 
 ## FAQ
+
 {{< faq "Should I choose 24V instead of 12V for future expansion?" >}}
 If you expect to add a bigger inverter, larger battery capacity, or more panels, 24V can reduce current and simplify wiring later.
 {{< /faq >}}

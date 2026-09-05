@@ -72,7 +72,7 @@ You should also monitor your voltage levels regularly. This allows you to diagno
 
 During the winter months, prepare your system for reduced sunlight and colder temperatures. You can optimize performance by adjusting panel angles and using snow rakes to clear any accumulation from the surface.
 
-*\**
+***
 
 ### Frequently Asked Questions
 

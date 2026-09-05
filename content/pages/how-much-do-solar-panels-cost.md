@@ -17,10 +17,10 @@ Understanding the cost of solar energy is the most critical step in determining 
 
 ## Key Takeaways
 
--   \*\*Average Cost per Watt:\*\* Most residential solar installations currently range between $2.50 and $3.50 per watt (installed).
--   \*\*Total System Investment:\*\* A typical 7kW to 10kW system generally costs between $18,000 and $30,000 installed in 2026.
--   \*\*No federal credit in 2026:\*\* The 30% ITC expired December 31, 2025 — budget the full price unless you installed in 2025 (those claims are still live on 2025 returns).
--   \*\*Payback Period:\*\* Most homeowners see a Return on Investment (ROI) within 6 to 10 years, depending on local electricity rates and sun exposure.
+-   **Average Cost per Watt:** Most residential solar installations currently range between $2.50 and $3.50 per watt (installed).
+-   **Total System Investment:** A typical 7kW to 10kW system generally costs between $18,000 and $30,000 installed in 2026.
+-   **No federal credit in 2026:** The 30% ITC expired December 31, 2025 — budget the full price unless you installed in 2025 (those claims are still live on 2025 returns).
+-   **Payback Period:** Most homeowners see a Return on Investment (ROI) within 6 to 10 years, depending on local electricity rates and sun exposure.
 
 ## Breaking Down the Solar Installation Costs
 
@@ -30,28 +30,28 @@ When you receive a quote from a solar installer, you aren't just paying for glas
 
 The hardware represents the physical "engine" of your system.
 
--   \*\*Solar Panels:\*\* The cost of panels has decreased significantly over the last decade. High-efficiency monocrystalline panels (like those from Maxeon or REC) may cost more per watt but produce more power in less space. Standard polycrystalline panels are cheaper but less efficient.
--   \*\*Inverters:\*\* This is the device that converts DC electricity from the panels into AC electricity for your home.
--   \*\*String Inverters:\*\* The most affordable option. They are a single unit that manages the whole array.
--   \*\*Microinverters:\*\* These are attached to each individual panel (e.g., Enphase). They are more expensive but allow each panel to operate independently, which is vital if you have shading issues.
--   \*\*Power Optimizers:\*\* A middle-ground solution (e.g., SolarEdge) that combines string inverters with module-level power electronics.
--   \*\*Racking and Mounting:\*\* The structural hardware used to secure panels to your roof or the ground. Costs vary based on whether you have a standard asphalt shingle roof, a metal roof, or require a ground-mount system.
+-   **Solar Panels:** The cost of panels has decreased significantly over the last decade. High-efficiency monocrystalline panels (like those from Maxeon or REC) may cost more per watt but produce more power in less space. Standard polycrystalline panels are cheaper but less efficient.
+-   **Inverters:** This is the device that converts DC electricity from the panels into AC electricity for your home.
+-   **String Inverters:** The most affordable option. They are a single unit that manages the whole array.
+-   **Microinverters:** These are attached to each individual panel (e.g., Enphase). They are more expensive but allow each panel to operate independently, which is vital if you have shading issues.
+-   **Power Optimizers:** A middle-ground solution (e.g., SolarEdge) that combines string inverters with module-level power electronics.
+-   **Racking and Mounting:** The structural hardware used to secure panels to your roof or the ground. Costs vary based on whether you have a standard asphalt shingle roof, a metal roof, or require a ground-mount system.
 
 ### Labor and Installation (Approx. 20-30% of total cost)
 
 This covers the physical work performed by certified electricians and installers. This includes-
 
--   \*\*Site Assessment:\*\* Evaluating your roof's structural integrity and sun exposure.
--   \*\*Electrical Work:\*\* Connecting the solar array to your main service panel, which may require a "Main Panel Upgrade" (MPU) if your current electrical box cannot handle the new load. An MPU can add $2,000 to $4,000 to your total.
--   \*\*Permitting and Interconnection:\*\* Fees paid to local municipalities and your utility company to legally connect your system to the grid.
+-   **Site Assessment:** Evaluating your roof's structural integrity and sun exposure.
+-   **Electrical Work:** Connecting the solar array to your main service panel, which may require a "Main Panel Upgrade" (MPU) if your current electrical box cannot handle the new load. An MPU can add $2,000 to $4,000 to your total.
+-   **Permitting and Interconnection:** Fees paid to local municipalities and your utility company to legally connect your system to the grid.
 
 ### Soft Costs (Approx. 20-30% of total cost)
 
 "Soft costs" are the non-hardware expenses that are often invisible to the homeowner.
 
--   \*\*Customer Acquisition:\*\* The cost of marketing, sales commissions, and administrative overhead.
--   \*\*Permitting and Inspection:\*\* The administrative burden of navigating local building codes.
--   \*\*Financing Fees:\*\* If you are taking out a solar loan, interest rates and origination fees will increase the total cost of ownership over time.
+-   **Customer Acquisition:** The cost of marketing, sales commissions, and administrative overhead.
+-   **Permitting and Inspection:** The administrative burden of navigating local building codes.
+-   **Financing Fees:** If you are taking out a solar loan, interest rates and origination fees will increase the total cost of ownership over time.
 
 ## Factors That Influence Your Solar Quote
 
@@ -65,9 +65,9 @@ The larger the system, the lower the cost per watt. This is due to "economies of
 
 The state of your roof is a primary cost driver.
 
--   \*\*Simple Roof:\*\* A flat or low-pitch roof with clear access is the cheapest to install.
--   \*\*Complex Roof:\*\* Roofs with multiple dormers, skylights, or steep pitches require more labor and specialized mounting hardware, increasing costs.
--   \*\*Roof Replacement:\*\* If your roof is near the end of its lifespan (e.g., 15 years old on a 25-year asphalt shingle roof), it is highly recommended to replace it \*before\* installing solar. Adding the cost of a new roof to your solar project is much cheaper than removing panels later to fix a leak.
+-   **Simple Roof:** A flat or low-pitch roof with clear access is the cheapest to install.
+-   **Complex Roof:** Roofs with multiple dormers, skylights, or steep pitches require more labor and specialized mounting hardware, increasing costs.
+-   **Roof Replacement:** If your roof is near the end of its lifespan (e.g., 15 years old on a 25-year asphalt shingle roof), it is highly recommended to replace it *before* installing solar. Adding the cost of a new roof to your solar project is much cheaper than removing panels later to fix a leak.
 
 ### Battery Storage Integration
 
@@ -77,8 +77,8 @@ Adding a battery backup system, such as a Tesla Powerwall or LG Chem Resu, signi
 
 Solar costs are heavily influenced by your geography.
 
--   \*\*State-Specific Rebates:\*\* Some states offer additional cash rebates on top of federal credits.
--   \*\*Net Metering Policies:\*\* This is not a direct cost, but it affects your "effective" cost. In states with 1:1 net metering, your utility credits you fully for excess energy sent to the grid. In states with "Net Billing" or low buy-back rates, you may need a larger (and more expensive) system to cover your needs.
+-   **State-Specific Rebates:** Some states offer additional cash rebates on top of federal credits.
+-   **Net Metering Policies:** This is not a direct cost, but it affects your "effective" cost. In states with 1:1 net metering, your utility credits you fully for excess energy sent to the grid. In states with "Net Billing" or low buy-back rates, you may need a larger (and more expensive) system to cover your needs.
 
 ## Comparing Solar Financing Models
 

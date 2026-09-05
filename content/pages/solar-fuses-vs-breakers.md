@@ -94,6 +94,7 @@ If protection decisions are forcing awkward cable runs, revisit layout and volta
 -   **Using a disconnect as protection:** different job; verify you have overcurrent protection where required.
 
 ## FAQ
+
 {{< faq "Do I need a fuse and a breaker?" >}}
 Sometimes. Many systems use a fuse for primary protection and a breaker for convenience/isolation on certain circuits, but the right mix depends on the design.
 {{< /faq >}}

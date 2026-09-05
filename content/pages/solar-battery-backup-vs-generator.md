@@ -75,23 +75,15 @@ These are permanent installations, much like a central AC unit. They are connect
 
 To make a clear decision, let’s look at a head-to-head comparison across the most critical categories for a homeowner.
 
-`| Feature | Solar Battery Backup | Standby Generator |`
-
-`| :--- | :--- | :--- |`
-
-`| `**`Primary Energy Source`**` | Solar (Renewable) | Gas, Propane, or Diesel (Fossil Fuel) |`
-
-`| `**`Transition Speed`**` | Instant (No interruption) | A few seconds (May cause a flicker) |`
-
-`| `**`Noise Level`**` | Silent | Loud |`
-
-`| `**`Maintenance Needs`**` | Very Low | High (Oil, filters, etc.) |`
-
-`| `**`Running Time`**` | Limited by battery capacity/sunlight | Indefinite (As long as fuel lasts) |`
-
-`| `**`Environmental Impact`**` | Zero Emissions | High Carbon Footprint |`
-
-`| `**`Best For...`**` | Electronics, lights, small appliances | Heavy loads, well pumps, AC units |`
+| Feature | Solar Battery Backup | Standby Generator |
+| :--- | :--- | :--- |
+| **Primary Energy Source** | Solar (Renewable) | Gas, Propane, or Diesel (Fossil Fuel) |
+| **Transition Speed** | Instant (No interruption) | A few seconds (May cause a flicker) |
+| **Noise Level** | Silent | Loud |
+| **Maintenance Needs** | Very Low | High (Oil, filters, etc.) |
+| **Running Time** | Limited by battery capacity/sunlight | Indefinite (As long as fuel lasts) |
+| **Environmental Impact** | Zero Emissions | High Carbon Footprint |
+| **Best For...** | Electronics, lights, small appliances | Heavy loads, well pumps, AC units |
 
 ### The "Load" Factor
 

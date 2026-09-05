@@ -87,6 +87,7 @@ Cleaning is worth considering when you can tie it to a measurable performance dr
 A practical approach: check your system monitoring for a consistent drop compared with similar weather periods, then inspect for visible dirt or shading changes.
 
 ## FAQ
+
 {{< faq "How often should solar panels be cleaned?" >}}
 There’s no universal schedule. Clean when you have visible soiling or a sustained performance drop not explained by season or weather.
 {{< /faq >}}

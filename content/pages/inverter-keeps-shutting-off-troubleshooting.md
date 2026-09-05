@@ -110,6 +110,7 @@ Some inverters have configurable low-voltage cutoffs or eco/search modes. A mism
 -   **Changing multiple settings at once:** you lose the signal of what actually fixed it.
 
 ## FAQ
+
 {{< faq "Why does my inverter shut off when I start the microwave?" >}}
 Microwaves can create a surge and high continuous draw. If the inverter is near its surge limit, or the battery voltage sags under load due to cables/terminals, it may shut down to protect itself.
 {{< /faq >}}

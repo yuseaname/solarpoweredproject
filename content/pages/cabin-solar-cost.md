@@ -134,6 +134,7 @@ Comparing batteries by nameplate kWh only can lead to poor value. Usable kWh and
 {{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="Right-sized cabin controller" description="The 30A tier covers most weekend-cabin arrays, and Bluetooth lets you check charging from town — the feature cabin owners actually use." button="Check price on Amazon" >}}
 
 ## FAQ
+
 {{< faq "How much does it cost to run a cabin on solar?" >}}
 It depends on daily Wh, autonomy, and inverter loads. Batteries and balance-of-system parts often dominate off-grid budgets.
 {{< /faq >}}

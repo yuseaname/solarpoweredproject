@@ -50,14 +50,14 @@ Most US homeowners fall into one of three categories when it comes to funding th
 
 Solar loans are currently the most popular way to finance a system because they allow for full ownership of the equipment. There are two primary types of solar loans:
 
-\#### 1. Unsecured Solar Loans
+#### 1. Unsecured Solar Loans
 
 These are essentially personal loans specifically designed for solar. They do not use your home as collateral.
 
 -   **Pros:** The loan is not tied to your property, making it easier to sell your home later. The process is often much faster than a mortgage.
 -   **Cons:** Because there is no collateral, interest rates are typically higher than secured loans. Approval is heavily dependent on your credit score.
 
-\#### 2. Secured Solar Loans (HELOCs and Home Equity Loans)
+#### 2. Secured Solar Loans (HELOCs and Home Equity Loans)
 
 If you have significant equity in your home, you can use a Home Equity Line of Credit (HELOC) or a traditional Home Equity Loan to fund your solar project.
 
@@ -68,14 +68,14 @@ If you have significant equity in your home, you can use a Home Equity Line of C
 
 If you prefer to avoid debt and do not want to manage the maintenance of the panels, you might consider a lease or a PPA.
 
-\#### 1. Solar Leases
+#### 1. Solar Leases
 
 In a lease agreement, a third-party provider (often called a "solar provider") installs the panels on your roof. You pay a fixed monthly fee to "rent" the equipment.
 
 -   **Pros:** Little to no upfront cost. The provider is usually responsible for repairs and maintenance.
 -   **Cons:** You do not own the system and never claimed its federal incentives. It can also complicate the sale of your home, as the new buyer must agree to take over the lease.
 
-\#### 2. Power Purchase Agreements (PPAs)
+#### 2. Power Purchase Agreements (PPAs)
 
 A PPA is similar to a lease, but instead of paying for the equipment, you are paying for the *power* the panels produce. You agree to purchase electricity from the solar provider at a fixed rate (usually lower than your utility rate).
 
@@ -117,21 +117,14 @@ While not a "financing" option in the traditional sense, Net Metering is a criti
 
 To help you decide, let's look at how these options perform across different financial priorities.
 
-`| Feature | Cash Purchase | Solar Loan (Unsecured) | Solar Lease / PPA | Home Equity (HELOC) |`
-
-`| :--- | :--- | :--- | :--- | :--- |`
-
-`| `**`Upfront Cost`**` | Very High | Low/Moderate | Near Zero | Moderate |`
-
-`| `**`Ownership`**` | You Own It | You Own It | Third-Party Owns It | You Own It |`
-
-`| `**`Monthly Impact`**` | None (Immediate Savings) | Monthly Loan Payment | Monthly Lease/PPA Fee | Monthly Interest/Principal |`
-
-`| `**`Interest Cost`**` | None | High | N/A (Built into rate) | Low |`
-
-`| `**`Tax Credit Benefit`**` | Full Benefit | Full Benefit | No Benefit | Full Benefit |`
-
-`| `**`Best For...`**` | Those with high liquidity and desire for max ROI. | Those wanting ownership without large upfront cash. | Those wanting zero risk and low monthly effort. | Those with high home equity wanting low rates. |`
+| Feature | Cash Purchase | Solar Loan (Unsecured) | Solar Lease / PPA | Home Equity (HELOC) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Upfront Cost** | Very High | Low/Moderate | Near Zero | Moderate |
+| **Ownership** | You Own It | You Own It | Third-Party Owns It | You Own It |
+| **Monthly Impact** | None (Immediate Savings) | Monthly Loan Payment | Monthly Lease/PPA Fee | Monthly Interest/Principal |
+| **Interest Cost** | None | High | N/A (Built into rate) | Low |
+| **Tax Credit Benefit** | Full Benefit | Full Benefit | No Benefit | Full Benefit |
+| **Best For...** | Those with high liquidity and desire for max ROI. | Those wanting ownership without large upfront cash. | Those wanting zero risk and low monthly effort. | Those with high home equity wanting low rates. |
 
 ---
 
@@ -184,7 +177,7 @@ The transition to solar is a marathon, not a sprint. By carefully weighing the i
 
 Start by auditing your current electricity bills and researching the solar incentives available in your specific zip code. The path to energy independence starts with the numbers.
 
-*\**
+***
 
 *Disclaimer: This article is for informational purposes only and does not constitute financial, legal, or tax advice. Always consult with a qualified financial advisor or tax professional before making significant investment decisions.*
 

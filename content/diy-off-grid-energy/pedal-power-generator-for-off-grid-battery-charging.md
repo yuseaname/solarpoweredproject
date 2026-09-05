@@ -225,7 +225,9 @@ A pedal generator combines mechanical and electrical hazards. Keep your build co
 
 Use these as baseline references for safe DC systems: <a href="../pages/solar-fuse-and-breaker-sizing.html" class="text-link">fuse and breaker sizing</a> and <a href="../pages/solar-fuses-vs-breakers.html" class="text-link">fuses vs breakers</a>.
 
-## FAQ{{< faq "Can I charge a battery using a solar charge controller?" >}}
+## FAQ
+
+{{< faq "Can I charge a battery using a solar charge controller?" >}}
 Sometimes, but be careful. Many solar charge controllers expect PV-like input behavior and have specific voltage ranges. A pedal generator can produce variable voltage and may exceed controller limits at high cadence. If you use a controller, ensure the input stays within its rated voltage/current and consider a regulation stage before it.
 {{< /faq >}}
 

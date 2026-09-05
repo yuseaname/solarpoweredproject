@@ -150,7 +150,9 @@ When you discover shading on your array, work through these fixes in order — c
 
 5. **Switch to microinverters.** The most complete solution and the most expensive. Best for complex roofs with multiple orientations and multiple shade sources, or for new installs where you can design around microinverters from the start.
 
-## FAQ{{< faq "Will a little shade really make a big difference?" >}}
+## FAQ
+
+{{< faq "Will a little shade really make a big difference?" >}}
 Yes. Because solar cells in a panel are wired in series, even a small shadow on one cell can reduce that panel's output by a third or more. If the panel is in a series string without optimizers, the effect can ripple across the entire array. A shadow the width of a pencil at the wrong time of day can cost you more energy than you'd expect.
 {{< /faq >}}
 

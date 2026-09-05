@@ -213,6 +213,7 @@ If your water source is reliable, it can complement solar because it may run ove
 <a href="../pages/solar-wire-size.html" class="text-link">Wire size guide →</a> <a href="../pages/solar-fuse-and-breaker-sizing.html" class="text-link">Fuse sizing →</a>
 
 ## FAQ
+
 {{< faq "Can a water wheel power my house?" >}}
 Usually not at low head unless flow is very high and the system is engineered well. For most DIY low-head sites, expect modest watts.
 {{< /faq >}}

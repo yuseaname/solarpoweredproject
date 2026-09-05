@@ -17,10 +17,10 @@ Deciding between solar panels and wind turbines is a pivotal decision for homeow
 
 ## Key Takeaways
 
--   \*\*Predictability vs. Intensity:\*\* Solar energy is generally more predictable on a daily cycle, whereas wind energy can provide higher power density during night hours and storms but is more intermittent.
--   \*\*Installation Constraints:\*\* Solar panels are suitable for most residential rooftops and unshaded plots, while wind turbines require significant vertical clearance and consistent wind speeds (typically 9+ mph) to be viable.
--   \*\*Maintenance Requirements:\*\* Solar PV systems are solid-state with no moving parts, leading to lower long-term maintenance costs compared to wind turbines, which require periodic mechanical servicing.
--   \*\*Cost-Efficiency:\*\* For the average residential user, solar PV currently offers a lower levelized cost of energy (LCOE) and a more accessible entry point in terms of upfront capital expenditure.
+-   **Predictability vs. Intensity:** Solar energy is generally more predictable on a daily cycle, whereas wind energy can provide higher power density during night hours and storms but is more intermittent.
+-   **Installation Constraints:** Solar panels are suitable for most residential rooftops and unshaded plots, while wind turbines require significant vertical clearance and consistent wind speeds (typically 9+ mph) to be viable.
+-   **Maintenance Requirements:** Solar PV systems are solid-state with no moving parts, leading to lower long-term maintenance costs compared to wind turbines, which require periodic mechanical servicing.
+-   **Cost-Efficiency:** For the average residential user, solar PV currently offers a lower levelized cost of energy (LCOE) and a more accessible entry point in terms of upfront capital expenditure.
 
 ## Environmental and Site Suitability
 
@@ -42,7 +42,7 @@ Crucially, wind power follows the "cube law": if wind speed doubles, the power o
 
 | Feature | Solar PV | Small Wind Turbine |
 
-| :--- | :---\_ | :---: |
+| :--- | :---_ | :---: |
 
 | **Primary Resource** | Sunlight (Irradiance) | Wind (Kinetic Energy) |
 
@@ -66,9 +66,9 @@ For a standard 7 kW residential system, the gross cost might range from $17,500 
 
 **Typical Solar Financial Metrics:**
 
--   \*\*Payback Period:\*\* 6 to 10 years (depending on local utility rates).
--   \*\*Lifespan:\*\* 25 to 30 years (with efficiency degradation of roughly 0.5% per year).
--   \*\*Maintenance:\*\* Low (cleaning panels 1-2 times per year).
+-   **Payback Period:** 6 to 10 years (depending on local utility rates).
+-   **Lifespan:** 25 to 30 years (with efficiency degradation of roughly 0.5% per year).
+-   **Maintenance:** Low (cleaning panels 1-2 times per year).
 
 ### Wind Turbine Costs
 
@@ -78,9 +78,9 @@ The complexity of the tower—which must be high enough to reach "clean" (unobst
 
 **Typical Wind Financial Metrics:**
 
--   \*\*Payback Period:\*\* 12 to 20 years (highly dependent on wind consistency).
--   \*\*Lifespan:\*\* 15 to 20 years (requires more frequent component replacement).
--   \*\*Maintenance:\*\* Moderate to High (annual inspections of blades and mechanical components).
+-   **Payback Period:** 12 to 20 years (highly dependent on wind consistency).
+-   **Lifespan:** 15 to 20 years (requires more frequent component replacement).
+-   **Maintenance:** Moderate to High (annual inspections of blades and mechanical components).
 
 ## Technical Comparison: Performance and Reliability
 
@@ -96,18 +96,20 @@ This leads many engineers to recommend a **Hybrid Renewable System**. By combini
 
 ### Durability and Environmental Impact
 
--   \*\*Solar:\*\* Solar panels are highly resistant to extreme weather, including hail (most are rated for 1-inch hail at high speeds). They are passive and do not impact local wildlife.
--   \*\*Wind:\*\* Turbines are subject to mechanical fatigue. Extreme wind events (hurricanes/typhoons) can require turbines to be mechanically braked to prevent destruction. There are also localized concerns regarding noise and impact on migratory bird patterns, though these are significantly minimized in small-scale residential units compared to industrial farms.
+-   **Solar:** Solar panels are highly resistant to extreme weather, including hail (most are rated for 1-inch hail at high speeds). They are passive and do not impact local wildlife.
+-   **Wind:** Turbines are subject to mechanical fatigue. Extreme wind events (hurricanes/typhoons) can require turbines to be mechanically braked to prevent destruction. There are also localized concerns regarding noise and impact on migratory bird patterns, though these are significantly minimized in small-scale residential units compared to industrial farms.
 
 ## Summary of Implementation Strategies
 
 If you are deciding between these two, use the following decision framework:
 
-1.  \*\*Assess your roof/land:\*\* If you have a standard suburban roof with minimal shade, \*\*Solar\*\* is the default winner. If you have 5+ acres of unobstructed, windy land, \*\*Wind\*\* becomes a viable contender.
-2.  \*\*Calculate your budget:\*\* If you want a predictable ROI and low maintenance, \*\*Solar\*\* is the safer investment. If you have high-velocity wind and a higher tolerance for mechanical upkeep, \*\*Wind\*\* can provide supplemental power.
-3.  \*\*Check local zoning:\*\* Many HOAs (Homeowners Associations) have strict rules against wind towers due to height and noise, whereas solar is increasingly protected by "Solar Rights" legislation in many US states.
+1.  **Assess your roof/land:** If you have a standard suburban roof with minimal shade, **Solar** is the default winner. If you have 5+ acres of unobstructed, windy land, **Wind** becomes a viable contender.
+2.  **Calculate your budget:** If you want a predictable ROI and low maintenance, **Solar** is the safer investment. If you have high-velocity wind and a higher tolerance for mechanical upkeep, **Wind** can provide supplemental power.
+3.  **Check local zoning:** Many HOAs (Homeowners Associations) have strict rules against wind towers due to height and noise, whereas solar is increasingly protected by "Solar Rights" legislation in many US states.
 
-## FAQ{{< faq "Can I run my house on only wind power?" >}}
+## FAQ
+
+{{< faq "Can I run my house on only wind power?" >}}
 It is extremely difficult for a single residential wind turbine to meet 100% of a modern home's load without a very large, expensive industrial-scale turbine. Most residential wind users use it as a supplement to solar or grid power.
 {{< /faq >}}
 

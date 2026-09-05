@@ -86,6 +86,7 @@ It’s easy to focus on panel $/W and forget the rest of the system. Typical add
 <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="diy-vs-installer.html" class="text-link">DIY vs installer cost</a> <a href="solar-components.html" class="text-link">Solar components explained</a>
 
 ## FAQ
+
 {{< faq "Is a lower $/W always better?" >}}
 No. Price should be compared alongside warranty, expected performance, compatibility with your mounting setup, and delivery reliability.
 {{< /faq >}}

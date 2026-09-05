@@ -91,6 +91,7 @@ Voltage choice affects current, cable thickness, and how easy it is to scale. If
 -   **Forgetting losses:** controller and inverter losses reduce usable energy.
 
 ## FAQ
+
 {{< faq "How many solar panels do I need for a cabin?" >}}
 Estimate daily Wh, then divide by peak sun hours and an efficiency factor to get required panel watts.
 {{< /faq >}}

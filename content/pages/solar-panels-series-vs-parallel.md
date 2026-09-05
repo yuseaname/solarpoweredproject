@@ -90,6 +90,7 @@ Controller choice can change what “good wiring” means. MPPT often gives you 
 <a href="solar-output-troubleshooting.html" class="text-link">Low solar output troubleshooting</a>
 
 ## FAQ
+
 {{< faq "Is series or parallel “better”?" >}}
 Neither is universally better. Series often helps with long runs and MPPT setups; parallel can be more forgiving with partial shading.
 {{< /faq >}}

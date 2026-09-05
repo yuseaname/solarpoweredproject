@@ -234,6 +234,7 @@ That’s normal. There’s a “sweet spot” where turbine speed and load match
 <a href="../pages/solar-output-troubleshooting.html" class="text-link">Troubleshooting mindset →</a>
 
 ## FAQ
+
 {{< faq "How much power can a DIY Pelton turbine make?" >}}
 It depends on head and flow. Use watts ≈ 9.81 × head(m) × flow(L/s), then multiply by an efficiency estimate. Many DIY builds land in the tens of watts unless the site has strong head and consistent flow.
 {{< /faq >}}

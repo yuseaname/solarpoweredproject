@@ -210,6 +210,7 @@ Alternator regulation is not the same as a modern multi-stage charger designed f
 <a href="../pages/solar-output-troubleshooting.html" class="text-link">Troubleshooting mindset →</a>
 
 ## FAQ
+
 {{< faq "Can I charge a 12V battery directly from a car alternator?" >}}
 Sometimes, but not always safely or effectively. You still need proper fusing near the battery, correct wire size, a disconnect, and a plan for controlling output. Many DIY failures come from low RPM (no real current) or poor wiring (voltage drop and heat).
 {{< /faq >}}

@@ -98,6 +98,7 @@ More panel strings can require a combiner box and additional fusing or breakers.
 If you’re building off-grid, you’ll also benefit from sizing-first planning: <a href="solar-system-sizing.html" class="text-link">how to size a solar system</a>.
 
 ## FAQ
+
 {{< faq "Why is solar wiring so expensive?" >}}
 Because safe wiring is sized to current and distance, and protection devices must match the voltage and amperage of the system.
 {{< /faq >}}

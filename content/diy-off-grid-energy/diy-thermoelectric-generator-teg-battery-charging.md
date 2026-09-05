@@ -461,7 +461,9 @@ Design the system with independent disconnects:
 
 Fuse each charging source separately. See <a href="../pages/solar-fuse-and-breaker-sizing.html" class="text-link">fuse and breaker sizing guide</a> for details.
 
-## FAQ: Thermoelectric generators for off-grid power{{< faq "Can a thermoelectric generator replace solar panels?" >}}
+## FAQ: Thermoelectric generators for off-grid power
+
+{{< faq "Can a thermoelectric generator replace solar panels?" >}}
 No, not at any realistic scale. TEG modules cost 5–30× more per watt than solar panels and require continuous heat input.
 
 Use TEG to **supplement** solar during winter or at night when a woodstove runs, not as a replacement.

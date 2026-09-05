@@ -109,6 +109,7 @@ Between the two budget picks, the Rover’s built-in Bluetooth app is the daily-
 -   **Assuming higher amps = better:** a correctly-sized 30 A controller outperforms an undersized 60 A one running at its limit. Size first; brand second.
 
 ## FAQ
+
 {{< faq "Do I need Bluetooth on an MPPT controller?" >}}
 Not required, but it is genuinely useful for verifying that your array is performing as the sizing math predicted — without opening a panel or adding wiring. If your build is small and you will check output with a multimeter anyway, skip it to save money.
 {{< /faq >}}

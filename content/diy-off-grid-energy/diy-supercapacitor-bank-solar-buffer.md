@@ -203,6 +203,7 @@ That’s normal. As voltage rises, current-limited chargers deliver less current
 <a href="../pages/solar-output-troubleshooting.html" class="text-link">Troubleshooting mindset →</a>
 
 ## FAQ
+
 {{< faq "Can supercapacitors replace a battery in an off-grid solar system?" >}}
 Usually no. For hours of runtime, batteries are far more energy-dense and cost-effective. Supercaps shine as buffers for short surges and rapid charge/discharge events.
 {{< /faq >}}

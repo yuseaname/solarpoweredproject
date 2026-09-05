@@ -125,6 +125,7 @@ Estimate your array watts and divide by battery voltage to estimate charge curre
 {{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="The price-performance reference" description="The controller every MPPT cost table benchmarks against — where the diminishing-returns curve flattens. Bluetooth monitoring and lithium presets at the mid-tier price point." button="Check price on Amazon" >}}
 
 ## FAQ
+
 {{< faq "Is MPPT worth the extra cost?" >}}
 Often, yes when your array voltage is higher than your battery voltage or when you want better performance in mixed conditions.
 {{< /faq >}}

@@ -15,10 +15,10 @@ Understanding how solar panels convert sunlight into usable electricity is the f
 
 ### Key Takeaways
 
--   \*\*The Photovoltaic Effect:\*\* Solar panels work by using semiconductor materials (usually silicon) to create an electric field when hit by photons from sunlight.
--   \*\*DC to AC Conversion:\*\* Solar panels produce Direct Current (DC), but most homes run on Alternating Current (AC), requiring an inverter to bridge the gap.
--   \*\*Efficiency Levels:\*\* Most modern residential solar panels operate at an efficiency rate of 17% to 22%.
--   \*\*Long-term Value:\*\* A well-maintained solar system can last 25 to 30 years, providing a significant return on investment (ROI) by reducing monthly utility bills.
+-   **The Photovoltaic Effect:** Solar panels work by using semiconductor materials (usually silicon) to create an electric field when hit by photons from sunlight.
+-   **DC to AC Conversion:** Solar panels produce Direct Current (DC), but most homes run on Alternating Current (AC), requiring an inverter to bridge the gap.
+-   **Efficiency Levels:** Most modern residential solar panels operate at an efficiency rate of 17% to 22%.
+-   **Long-term Value:** A well-maintained solar system can last 25 to 30 years, providing a significant return on investment (ROI) by reducing monthly utility bills.
 
 ## The Science of the Photovoltaic Effect
 
@@ -28,8 +28,8 @@ To understand how solar panels work, you must first understand the behavior of a
 
 Pure silicon is not a great conductor of electricity. To make it functional for solar energy, manufacturers "dope" the silicon with other elements to create two distinct layers:
 
-1.  \*\*N-type (Negative) Layer:\*\* This layer is infused with phosphorus, which provides an excess of electrons.
-2.  \*\*P-type (Positive) Layer:\*\* This layer is infused with boron, which creates "holes" (the absence of electrons).
+1.  **N-type (Negative) Layer:** This layer is infused with phosphorus, which provides an excess of electrons.
+2.  **P-type (Positive) Layer:** This layer is infused with boron, which creates "holes" (the absence of electrons).
 
 When these two layers are placed together, an electric field is created at the junction between them (the P-N junction). This field acts as a one-way gate for electrons.
 
@@ -49,12 +49,12 @@ A single solar cell only produces a small amount of power—typically about 0.5 
 
 ### Solar Modules and Arrays
 
--   \*\*Solar Cell:\*\* The fundamental unit that generates electricity.
--   \*\*Solar Module (Panel):\*\* A collection of cells (usually 60, 72, or 144 cells) wired together and encapsulated in protective glass and a frame.
+-   **Solar Cell:** The fundamental unit that generates electricity.
+-   **Solar Module (Panel):** A collection of cells (usually 60, 72, or 144 cells) wired together and encapsulated in protective glass and a frame.
 
 able
 
--   \*\*Solar Array:\*\* A larger collection of multiple solar panels connected together to meet the energy demands of a specific building.
+-   **Solar Array:** A larger collection of multiple solar panels connected together to meet the energy demands of a specific building.
 
 ### The Role of the Inverter
 
@@ -62,9 +62,9 @@ As mentioned, solar panels produce DC electricity. However, the standard electri
 
 There are three primary types of inverters used in modern solar installations:
 
-1.  \*\*String Inverters:\*\* The most traditional and cost-effective method. All panels are connected to a single central inverter. The downside is that if one panel is shaded by a tree, the output of the entire string can drop significantly.
-2.  \*\*Microinverters:\*\* These are small inverters installed on the back of \*each individual panel\*. They convert DC to AC right at the source. While they increase the initial installation cost by roughly 10% to 15%, they offer superior performance in shaded conditions and allow for panel-level monitoring.
-3.  \*\*DC Optimizers (Power Optimizers):\*\* A hybrid approach. Panels still feed into a central string inverter, but an optimizer is attached to each panel to manage voltage and mitigate the impact of shading.
+1.  **String Inverters:** The most traditional and cost-effective method. All panels are connected to a single central inverter. The downside is that if one panel is shaded by a tree, the output of the entire string can drop significantly.
+2.  **Microinverters:** These are small inverters installed on the back of *each individual panel*. They convert DC to AC right at the source. While they increase the initial installation cost by roughly 10% to 15%, they offer superior performance in shaded conditions and allow for panel-level monitoring.
+3.  **DC Optimizers (Power Optimizers):** A hybrid approach. Panels still feed into a central string inverter, but an optimizer is attached to each panel to manage voltage and mitigate the impact of shading.
 
 ### Net Metering and the Grid
 
@@ -78,19 +78,19 @@ When shopping for solar panels, you will primarily encounter two types of silico
 
 These are made from a single, continuous crystal structure.
 
--   \*\*Efficiency:\*\* High (typically 19%–22%).
--   \*\*Appearance:\*\* Uniform dark, almost black color.
--   \*\*Space Efficiency:\*\* Because they are more efficient, you need fewer panels to reach your target wattage, making them ideal for roofs with limited space.
--   \*\*Cost:\*\* Higher. The manufacturing process is more complex and results in more silicon waste.
+-   **Efficiency:** High (typically 19%–22%).
+-   **Appearance:** Uniform dark, almost black color.
+-   **Space Efficiency:** Because they are more efficient, you need fewer panels to reach your target wattage, making them ideal for roofs with limited space.
+-   **Cost:** Higher. The manufacturing process is more complex and results in more silicon waste.
 
 ### Polycrystalline Solar Panels
 
 These are made by melting many silicon crystals together.
 
--   \*\*Efficiency:\*\* Moderate (typically 15%–17%).
--   \*\*Appearance:\*\* A blue, speckled look.
--   \*\*Space Efficiency:\*\* Lower. You will likely need a larger surface area on your roof to generate the same amount of power as a monocrystalline system.
--   \*\*Cost:\*\* Lower. The manufacturing process is simpler and more efficient in terms of material usage.
+-   **Efficiency:** Moderate (typically 15%–17%).
+-   **Appearance:** A blue, speckled look.
+-   **Space Efficiency:** Lower. You will likely need a larger surface area on your roof to generate the same amount of power as a monocrystalline system.
+-   **Cost:** Lower. The manufacturing process is simpler and more efficient in terms of material usage.
 
 ### Comparison Summary Table
 
@@ -114,10 +114,10 @@ Investing in solar is a capital expenditure intended to reduce long-term operati
 
 As of current market averages, the cost of a residential solar system ranges from **$2.50 to $3.50 per watt** installed.
 
--   A small \*\*6kW system\*\* might cost approximately \*\*$15,000 - $18,000\*\*.
--   A larger \*\*10kW system\*\* might cost approximately \*\*$25,000 - $30,000\*\*.
+-   A small **6kW system** might cost approximately **$15,000 - $18,000**.
+-   A larger **10kW system** might cost approximately **$25,000 - $30,000**.
 
-\*Note: These figures are before tax credits and incentives.\*
+*Note: These figures are before tax credits and incentives.*
 
 ### The Impact of the Federal Investment Tax Credit (ITC)
 
@@ -127,8 +127,8 @@ The federal Solar Tax Credit historically drove US adoption — but it **expired
 
 The ROI of a solar system is measured by how quickly the energy savings pay for the installation cost.
 
--   \*\*Average Payback Period:\*\* 6 to 10 years.
--   \*\*System Lifespan:\*\* 25 to 30 years.
+-   **Average Payback Period:** 6 to 10 years.
+-   **System Lifespan:** 25 to 30 years.
 
 If your system pays for itself in 8 years and lasts for 25 years, you have 17 years of "free" electricity. When you factor in rising utility rates (which historically increase by roughly 2% to 4% annually), the value of that electricity increases every year.
 

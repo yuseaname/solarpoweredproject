@@ -98,6 +98,7 @@ Use disconnects that are explicitly rated for DC at the correct voltage.
 -   **Using AC equipment on DC:** choose DC-rated protection and disconnects.
 
 ## FAQ
+
 {{< faq "Do I need a combiner box with only one string?" >}}
 Often, no. If you have a single string with a short, well-routed run and appropriate connectors, a combiner box may add complexity without adding much benefit.
 {{< /faq >}}

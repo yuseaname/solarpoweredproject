@@ -203,6 +203,7 @@ Diversion helps keep a turbine loaded, but you should still design a mechanical 
 <a href="../pages/solar-output-troubleshooting.html" class="text-link">Troubleshooting mindset →</a>
 
 ## FAQ
+
 {{< faq "Do I need a dump load for a small wind turbine?" >}}
 Often, yes — especially if you plan to charge a battery and the turbine can continue producing power when the battery is full. The need depends on your turbine type, controller behavior, and how your system handles “excess power” scenarios.
 {{< /faq >}}

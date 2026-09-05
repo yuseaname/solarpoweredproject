@@ -181,6 +181,7 @@ If your loads are under 1,500W and your cable runs are short, 12V is simpler and
 - **Not planning for expansion.** If there's any chance you'll double your system size in 2 years, start at 24V now. Ripping out a 12V system to upgrade later costs more than the voltage difference.
 
 ## FAQ
+
 {{< faq "Is 24V more efficient than 12V?" >}}
 Often, yes in practice for higher-power systems because current is lower, which reduces wiring losses and stress on components.
 {{< /faq >}}

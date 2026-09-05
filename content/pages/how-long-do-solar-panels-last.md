@@ -15,10 +15,10 @@ When planning a transition to renewable energy, the most critical question for h
 
 ## Key Takeaways
 
--   \*\*Expected Lifespan:\*\* Most modern solar panels are designed to last between 25 and 30 years.
--   \*\*Degradation Rates:\*\* Panels do not stop working suddenly; they experience a gradual decline in efficiency, typically losing about 0.5% of their power output per year.
--   \*\*Warranty Coverage:\*\* Standard manufacturer warranties usually cover performance for 25 years, ensuring the panels still produce at least 80-85% of their original wattage.
--   \*\*Maintenance Impact:\*\* While panels have no moving parts, regular cleaning and inverter replacements (every 10–15 years) are necessary to maintain system longevity.
+-   **Expected Lifespan:** Most modern solar panels are designed to last between 25 and 30 years.
+-   **Degradation Rates:** Panels do not stop working suddenly; they experience a gradual decline in efficiency, typically losing about 0.5% of their power output per year.
+-   **Warranty Coverage:** Standard manufacturer warranties usually cover performance for 25 years, ensuring the panels still produce at least 80-85% of their original wattage.
+-   **Maintenance Impact:** While panels have no moving parts, regular cleaning and inverter replacements (every 10–15 years) are necessary to maintain system longevity.
 
 ## The Lifespan of Solar Panels: Understanding Longevity and Degradation
 
@@ -32,9 +32,9 @@ Most high-quality monocrystalline panels from Tier 1 manufacturers (such as SunP
 
 For example, if you install a 400-watt (400W) panel today:
 
--   \*\*Year 1:\*\* 400W output.
--   \*\*Year 10:\*\* Approximately 380W output (assuming 0.5% degradation).
--   \*\*Year 25:\*\* Approximately 350W output (assuming 0.5% degradation).
+-   **Year 1:** 400W output.
+-   **Year 10:** Approximately 380W output (assuming 0.5% degradation).
+-   **Year 25:** Approximately 350W output (assuming 0.5% degradation).
 
 Even after 25 years, the panel is still producing a significant amount of power, often enough to cover a large portion of your electricity needs.
 
@@ -42,8 +42,8 @@ Even after 25 years, the panel is still producing a significant amount of power,
 
 The longevity of your system is heavily dependent on the "Tier" of the manufacturer.
 
--   \*\*Tier 1 Manufacturers:\*\* These companies are financially stable and use high-p/purity silicon. Their panels are more likely to hit the 25–30 year mark with minimal degradation.
--   \*\*Tier 2/3 Manufacturers:\*\* While often cheaper upfront, these panels may have higher degradation rates (up to 0.8% or 1% per year) and may not have the-financial backing to honor warranties decades into the future.
+-   **Tier 1 Manufacturers:** These companies are financially stable and use high-p/purity silicon. Their panels are more likely to hit the 25–30 year mark with minimal degradation.
+-   **Tier 2/3 Manufacturers:** While often cheaper upfront, these panels may have higher degradation rates (up to 0.8% or 1% per year) and may not have the-financial backing to honor warranties decades into the future.
 
 ## Factors That Influence Solar Panel Longevity
 
@@ -51,16 +51,16 @@ While the internal chemistry of the cells dictates the baseline lifespan, extern
 
 ### 1. Environmental Conditions
 
--   \*\*Temperature Fluctuations:\*\* Extreme heat is actually more damaging to solar cells than cold. High temperatures increase the kinetic energy within the cells, accelerating chemical degradation. Systems in climates like Arizona may see slightly higher degradation rates than systems in much cooler, stable climates.
--   \*\*UV Exposure:\*\* The sun's ultraviolet rays break down the polymers used in the "encapsulant" (the clear layer that holds the cells in place). If this layer cracks, moisture can enter.
--   \*\*Humidity and Moisture:\*\* In coastal or tropical regions, high humidity can lead to "Potential Induced Degradation" (PID). This occurs when ions migrate from the solar cell to the frame, causing a drop in efficiency.
+-   **Temperature Fluctuations:** Extreme heat is actually more damaging to solar cells than cold. High temperatures increase the kinetic energy within the cells, accelerating chemical degradation. Systems in climates like Arizona may see slightly higher degradation rates than systems in much cooler, stable climates.
+-   **UV Exposure:** The sun's ultraviolet rays break down the polymers used in the "encapsulant" (the clear layer that holds the cells in place). If this layer cracks, moisture can enter.
+-   **Humidity and Moisture:** In coastal or tropical regions, high humidity can lead to "Potential Induced Degradation" (PID). This occurs when ions migrate from the solar cell to the frame, causing a drop in efficiency.
 
 ### 2. Physical Damage and Maintenance
 
 Solar panels are incredibly durable, often rated to withstand 1-inch hail and heavy snow loads. However, they are not invincible.
 
--   \*\*Micro-cracks:\*\* These are tiny cracks in the silicon cells that are invisible to the naked eye. They can be caused by improper handling during installation or heavy debris hitting the panel. Over time, these cracks can expand, reducing the active surface area of the cell.
--   \*\*Cleaning:\*\* Accumulation of dust, bird droppings, and pollen (known as "soiling") can reduce output by 5% to 25%. While this doesn't shorten the life of the panel, it reduces the economic value of the system.
+-   **Micro-cracks:** These are tiny cracks in the silicon cells that are invisible to the naked eye. They can be caused by improper handling during installation or heavy debris hitting the panel. Over time, these cracks can expand, reducing the active surface area of the cell.
+-   **Cleaning:** Accumulation of dust, bird droppings, and pollen (known as "soiling") can reduce output by 5% to 25%. While this doesn't shorten the life of the panel, it reduces the economic value of the system.
 
 ### 3. The Inverter: The "Weak Link"
 
@@ -68,8 +68,8 @@ It is a common misconception that the entire solar system lasts 25 years. While 
 
 When planning your budget, you should account for the cost of replacing an inverter.
 
--   \*\*String Inverters:\*\* Cost between $1,500 and $3,000.
--   \*\*Microinverters:\*\* These are attached to each panel. While they are more expensive initially, they are easier to replace individually and often have longer warranties (25 years) compared to central string inverters.
+-   **String Inverters:** Cost between $1,500 and $3,000.
+-   **Microinverters:** These are attached to each panel. While they are more expensive initially, they are easier to replace individually and often have longer warranties (25 years) compared to central string inverters.
 
 ## Comparing Solar Technologies: Monocrystalline vs. Polycrystalline
 
@@ -105,8 +105,8 @@ A typical residential solar installation (6kW to 10kW system) costs between **$1
 
 Most solar systems reach a "break-even" point within **6 to 9 years**.
 
--   \*\*Years 1–9:\*\* The system is paying for itself by offsetting electricity bills.
--   \*\*Years 10–25:\*\* The system is generating "pure profit" in the form of avoided utility costs.
+-   **Years 1–9:** The system is paying for itself by offsetting electricity bills.
+-   **Years 10–25:** The system is generating "pure profit" in the form of avoided utility costs.
 
 If your panels last 25 years and pay for themselves in 7 years, you have **18 years of near-zero-cost electricity**. This is why the degradation rate is so important; a panel that degrades at 0.5% vs 1.0% can represent thousands of dollars in difference in electricity savings over those final 18 years.
 

@@ -10,7 +10,7 @@ author = "Solar Powered Project"
 ## Key takeaways
 
 -   Stirling engines use **external combustion** in a closed cycle, making them fuel-flexible (wood, propane, solar thermal, waste heat).
--   Theoretical maximum efficiency follows the **Carnot limit**: η = 1 – (T\_cold / T\_hot), but real-world engines hit **5–15%**.
+-   Theoretical maximum efficiency follows the **Carnot limit**: η = 1 – (T_cold / T_hot), but real-world engines hit **5–15%**.
 -   Typical DIY or kit-based Stirling generators produce **milliwatts to a few watts**, not grid-scale power.
 -   Precision machining matters: seal friction, dead volume, and internal leaks kill efficiency faster than anything else.
 -   Best use case: **Educational demonstrations** of thermodynamics, combined heat and power concepts, and off-grid experimentation.
@@ -47,10 +47,10 @@ This means you can use any heat source: wood fire, propane burner, solar concent
 
 Stirling engines have two key temperatures:
 
--   **T\_hot**: Temperature of the heat input side (heated cylinder or heat exchanger).
--   **T\_cold**: Temperature of the cooling side (often air-cooled fins or water jacket).
+-   **T_hot**: Temperature of the heat input side (heated cylinder or heat exchanger).
+-   **T_cold**: Temperature of the cooling side (often air-cooled fins or water jacket).
 
-The bigger the temperature difference (T\_hot – T\_cold), the more power and efficiency you can theoretically extract. But real-world friction, seals, and heat leakage limit what you actually get.
+The bigger the temperature difference (T_hot – T_cold), the more power and efficiency you can theoretically extract. But real-world friction, seals, and heat leakage limit what you actually get.
 
 ### Mechanical motion from thermal expansion/contraction
 
@@ -62,13 +62,13 @@ This back-and-forth motion drives a crankshaft (like a conventional engine), whi
 
 The theoretical maximum efficiency of any heat engine is the Carnot efficiency:
 
-**η\_Carnot = 1 – (T\_cold / T\_hot)**
+**η_Carnot = 1 – (T_cold / T_hot)**
 
 Temperatures must be in absolute units (Kelvin).
 
-Example: T\_hot = 500K (227°C), T\_cold = 300K (27°C).
+Example: T_hot = 500K (227°C), T_cold = 300K (27°C).
 
-η\_Carnot = 1 – (300/500) = 0.40 = 40%.
+η_Carnot = 1 – (300/500) = 0.40 = 40%.
 
 But that's the thermodynamic ceiling. Real Stirling engines lose efficiency to:
 
@@ -193,8 +193,8 @@ Power output scales roughly with:
 For a first build, target:
 
 -   Displacement: 10–50 cm³
--   T\_hot: 100–300°C (achievable with propane burner or alcohol lamp)
--   T\_cold: Ambient (20–30°C with passive air cooling)
+-   T_hot: 100–300°C (achievable with propane burner or alcohol lamp)
+-   T_cold: Ambient (20–30°C with passive air cooling)
 -   Expected output: 100mW – 5W depending on build quality
 
 ## Sizing and expected power output
@@ -203,17 +203,17 @@ Stirling engines are notoriously optimistic in marketing claims. Real-world powe
 
 ### Theoretical efficiency (Carnot limit)
 
-Maximum possible efficiency for any heat engine operating between T\_hot and T\_cold:
+Maximum possible efficiency for any heat engine operating between T_hot and T_cold:
 
-**η\_max = 1 – (T\_cold / T\_hot)**
+**η_max = 1 – (T_cold / T_hot)**
 
-Example 1: T\_hot = 373K (100°C), T\_cold = 293K (20°C)
+Example 1: T_hot = 373K (100°C), T_cold = 293K (20°C)
 
-η\_max = 1 – (293/373) = 0.214 = 21.4%
+η_max = 1 – (293/373) = 0.214 = 21.4%
 
-Example 2: T\_hot = 573K (300°C), T\_cold = 293K (20°C)
+Example 2: T_hot = 573K (300°C), T_cold = 293K (20°C)
 
-η\_max = 1 – (293/573) = 0.489 = 48.9%
+η_max = 1 – (293/573) = 0.489 = 48.9%
 
 But these are ceilings, not targets. Real engines will achieve 20–40% of Carnot efficiency.
 
@@ -552,7 +552,9 @@ Example: 500W fuel input, 25W electrical output (5% efficiency), 475W waste heat
 
 This is why Stirling CHP systems are used in some off-grid cabins and RVs: you're heating the space anyway, so extracting a bit of electricity is a bonus.
 
-## FAQ: Stirling engine generators for off-grid power{{< faq "Can a DIY Stirling engine replace solar panels?" >}}
+## FAQ: Stirling engine generators for off-grid power
+
+{{< faq "Can a DIY Stirling engine replace solar panels?" >}}
 No. Solar panels cost $0.30–$1 per watt and require no fuel. Stirling engines cost $10–$200 per watt to build and need continuous heat input.
 
 Use Stirling as a **supplement** when you have free waste heat, not as a primary power source.

@@ -249,6 +249,7 @@ See <a href="solar-inverter-sizing.html" class="text-link">how to size an invert
 - **Trusting old forum advice.** Posts from 2010 sometimes say "modified sine is fine for everything." Modern switching power supplies are more efficient but also more sensitive to waveform quality.
 
 ## FAQ
+
 {{< faq "Will modified sine wave damage my electronics?" >}}
 It depends on the device. Resistive loads are unaffected. Motors and compressors run hotter and die sooner. Switching power supplies (laptop chargers, LED drivers) may overheat or fail outright. Some devices work fine for years; others fail in weeks. The risk is real and unpredictable — pure sine eliminates it.
 {{< /faq >}}

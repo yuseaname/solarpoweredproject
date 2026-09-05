@@ -126,6 +126,7 @@ This is one of the most common solar troubleshooting questions. Before replacing
 <a href="solar-fuses-vs-breakers.html" class="text-link">Solar fuses vs breakers (what to use where)</a> <a href="solar-output-troubleshooting.html" class="text-link">Low solar output troubleshooting</a>
 
 ## FAQ
+
 {{< faq "Do I need fuses on solar panels wired in parallel?" >}}
 Sometimes. Parallel strings can allow backfeed current into a faulted string depending on configuration. The safest approach is to follow panel and controller guidance and use appropriate string protection when required.
 {{< /faq >}}

@@ -213,6 +213,7 @@ Solar is typically the primary “energy” source; a treadmill motor generator 
 <a href="../pages/solar-output-troubleshooting.html" class="text-link">Troubleshooting mindset →</a> <a href="../pages/solar-fuse-and-breaker-sizing.html" class="text-link">Fuse sizing →</a>
 
 ## FAQ
+
 {{< faq "Do treadmill motors generate DC or AC?" >}}
 Most treadmill motors are permanent-magnet DC motors, so they produce DC (with ripple) at the terminals when spun.
 {{< /faq >}}

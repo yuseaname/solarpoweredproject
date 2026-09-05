@@ -180,7 +180,9 @@ A tracker adds 40% to 50% to system cost for a 30% to 35% energy gain. Since the
 5. **Skip trackers** unless you have a specific technical reason and budget for them. Buy more panels instead.
 6. **For site-specific optimization,** use a tool like PVWatts (NREL) or our <a href="solar-panel-angle-calculator.html" class="text-link">solar panel angle calculator</a> to model different tilt and azimuth combinations at your exact location.
 
-## FAQ{{< faq "What is the best angle for solar panels?" >}}
+## FAQ
+
+{{< faq "What is the best angle for solar panels?" >}}
 For maximum annual energy production, tilt your panels at an angle equal to your latitude. Across most of the US, that's between 30° and 45°. If you want to optimize for summer production, subtract 15° from your latitude; for winter production, add 15°.
 {{< /faq >}}
 

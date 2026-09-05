@@ -103,6 +103,7 @@ A loose connection can behave like a resistor: it limits current and creates hea
 -   **Reusing non-DC-rated protection hardware:** creates real safety risk.
 
 ## FAQ
+
 {{< faq "Why is my solar battery not charging during the day?" >}}
 Common causes include low sun input (weather/season/shading), a battery that’s already near full (float), high loads consuming the charge, or wiring/protection issues limiting current.
 {{< /faq >}}

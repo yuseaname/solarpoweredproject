@@ -188,6 +188,7 @@ For a practical overview, see <a href="multi-source-hybrid-charge-controller.htm
 -   Add a dump load strategy for gusts.
 
 ## FAQ
+
 {{< faq "Is a Savonius turbine worth building?" >}}
 Yes as an educational project and for small “always-on” experiments. For serious off-grid power, tall, well-sited lift-based turbines usually deliver more energy per area.
 {{< /faq >}}

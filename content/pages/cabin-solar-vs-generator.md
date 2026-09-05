@@ -93,6 +93,7 @@ Generator power is only as reliable as your fuel supply and upkeep. If you prefe
 -   **No backup plan:** even solar-first cabins often benefit from a fallback option for long storms.
 
 ## FAQ
+
 {{< faq "Is solar worth it for an off-grid cabin?" >}}
 Often yes if you use the cabin regularly. The value is quiet operation and low ongoing cost, especially when sized correctly.
 {{< /faq >}}
