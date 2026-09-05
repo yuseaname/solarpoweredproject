@@ -16,6 +16,10 @@ image_width = 1536
 image_height = 1024
 +++
 
+<figure class="article-image article-image--hero">
+<img src="/images/pedal-power-generator-for-off-grid-battery-charging/hero.webp" loading="eager" data-fetchpriority="high" decoding="async" alt="Pedal-powered generator technical plate: bicycle rear roller driving a motor through a charge controller into a 12V battery" width="1536" height="1024" />
+</figure>
+
 ## Key takeaways
 
 -   Most people can sustain roughly **50–150W** of mechanical output for an hour; electrical output will be lower after losses.

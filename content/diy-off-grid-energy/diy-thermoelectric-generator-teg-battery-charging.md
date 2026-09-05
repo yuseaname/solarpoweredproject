@@ -11,6 +11,10 @@ image_width = 1024
 image_height = 1536
 +++
 
+<figure class="article-image article-image--hero">
+<img src="/images/diy-thermoelectric-generator-teg-battery-charging/hero.webp" loading="eager" data-fetchpriority="high" decoding="async" alt="Thermoelectric generator technical plate: TEG module between stove top and heat sink, with Seebeck-effect cross-section detail" width="1024" height="1536" />
+</figure>
+
 ## Key takeaways
 
 -   Thermoelectric generators work via the **Seebeck effect**: a temperature difference across a semiconductor module creates voltage.

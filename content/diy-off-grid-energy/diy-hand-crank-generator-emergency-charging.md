@@ -16,6 +16,10 @@ image_width = 1536
 image_height = 1024
 +++
 
+<figure class="article-image article-image--hero">
+<img src="/images/diy-hand-crank-generator-emergency-charging/hero.webp" loading="eager" data-fetchpriority="high" decoding="async" alt="Hand-crank generator technical plate: cutaway of the dynamo and gear train charging a USB power bank" width="1536" height="1024" />
+</figure>
+
 ## The quick answer (if you're in a hurry)
 
 A hand-crank generator can realistically produce **5–30 watts sustained**. That's enough to charge a phone, run a small radio, or top up a power bank over 30–60 minutes of cranking. It is **not** enough to run a laptop directly, power an inverter, or charge a car battery in any practical timeframe.

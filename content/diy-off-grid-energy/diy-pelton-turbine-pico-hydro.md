@@ -16,6 +16,10 @@ image_width = 1536
 image_height = 1024
 +++
 
+<figure class="article-image article-image--hero">
+<img src="/images/diy-pelton-turbine-pico-hydro/hero.webp" loading="eager" data-fetchpriority="high" decoding="async" alt="Pelton turbine technical plate: penstock nozzle driving the bucket runner and generator from a mountain stream" width="1536" height="1024" />
+</figure>
+
 ## Key takeaways
 
 -   Your maximum power is set by site physics: **watts ≈ 9.81 × head(m) × flow(L/s)** before losses.
