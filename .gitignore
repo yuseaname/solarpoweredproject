@@ -2,3 +2,5 @@ public/
 out/
 .hugo_build.lock
 resources/_gen/
+.agency/
+.audit/
