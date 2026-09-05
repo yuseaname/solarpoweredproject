@@ -225,3 +225,4 @@ Start with the <a href="micro-hydro-basics-for-off-grid-power.html" class="text-
 - [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
 {{< /faq >}}
 
+<a href="/pages/solar-system-sizing.html" class="text-link">Whole-system sizing calculator</a>

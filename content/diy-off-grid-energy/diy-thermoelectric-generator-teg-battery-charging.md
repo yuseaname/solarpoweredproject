@@ -541,3 +541,5 @@ A $20 TEG module with poor thermal paste and no heatsink will produce 10× less 
 - [DIY Stirling Engine Generator: Turn Heat Into Electricity (Educational Build)](/diy-off-grid-energy/diy-stirling-engine-generator-off-grid.html)
 - [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
+
+<a href="/pages/solar-panel-output.html" class="text-link">Compare against panel output (calculator)</a>

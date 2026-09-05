@@ -217,3 +217,5 @@ Buffering a short burst source like a <a href="diy-hand-crank-generator-emergenc
 {{< /faq >}}
 
 <a href="/diy-off-grid-energy/diy-flywheel-energy-storage.html" class="text-link">Compare the physics with our DIY flywheel energy storage build</a>
+
+<a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Battery chemistries compared</a>

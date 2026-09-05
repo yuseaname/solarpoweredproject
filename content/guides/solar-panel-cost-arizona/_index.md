@@ -12,92 +12,128 @@ image_width = 1200
 image_height = 630
 +++
 
-# How Much Do Solar Panels Cost in Arizona in 2026?
+## Quick answer
 
-As of mid-2026, the average solar panel cost in Arizona is **$2.20 – $2.60 per watt installed**. A typical **8–9.5 kW** residential system costs roughly **$17,600 – $24,700**. Note: the 30% federal ITC expired December 31, 2025 — 2026 buyers pay full price; 2025 installs keep the credit. Arizona's $1,000 state credit, tax exemptions, and 6+ peak sun hours carry the value case.
+As of mid-2026, solar in Arizona costs roughly **$2.50–$3.25 per watt installed**, so a typical **7–8 kW** residential system runs **$17,500–$26,000** before incentives. The 30% federal tax credit expired December 31, 2025 — 2026 installs get no federal credit — and Arizona has no active state purchase credit, so the case rests on state fundamentals: a residential rate of **15.18¢/kWh** (EIA, June 2026), elite **6–6.5 peak sun hours**, and export compensation that pays *below* retail for power you send back to the grid.
 
-Arizona homeowners pay an average residential electricity rate near **$0.14/kWh** and see **6.0+ peak sun hours per day**; with no federal credit in 2026, expect simple payback around **9–12 years** (2025 credit-era installs ran 7–9).
+Worked honestly for cash, a 7 kW system producing ~**12,900 kWh/year** offsets about **$1,954/year** at retail. Self-consume most of your output — the right strategy under APS and Salt River Project net billing — and simple payback lands around **9–12 years**; export a large share at below-retail credit and it stretches toward **12–15 years**.
 
-Arizona is one of the most favorable residential solar markets in the U.S. thanks to abundant sun, low cost per watt, and strong installer competition. The primary caveat is that major utilities APS and SRP have shifted toward export-rate or net-billing structures, making self-consumption and batteries more valuable.
+## Key takeaways
 
-<figure class="article-image article-image--hero">
-<img src="/assets/images/solar-panel-cost-arizona/solar-panel-cost-arizona-hero.jpg" loading="eager" data-fetchpriority="high" decoding="async" alt="Residential solar panels on a Arizona rooftop" / width="1200" height="630">
-</figure>
+- Arizona's residential average was **15.18¢/kWh in June 2026**, flat versus 15.23¢ a year earlier, while the U.S. average climbed to 18.34¢ ([EIA Electric Power Monthly, Table 5.6.A](https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a), retrieved 2026-09-05).
+- A 7 kW array producing ~12,900 kWh/year offsets **~$1,954/year** at that rate; against $17,500–$22,750 gross cost, that's **~9–12 years** at high self-consumption, **~12–15 years** at a 70% self-use split.
+- **APS** and **Salt River Project** — Arizona's dominant utilities, serving much of metro Phoenix — have moved new solar customers from retail net metering to **net-billing structures that credit exports below retail**. Exact credits vary by utility, plan, and enrollment date — **confirm yours before signing**. Self-consumption is the economic lever.
+- Monsoon dust and 110°F summer heat cut real production: soiling plus heat derating belong in honest estimates, and panel cleaning genuinely pays off in the desert.
+- HOAs cannot prohibit solar devices ([A.R.S. § 33-1816](https://www.azleg.gov/ars/33/01816.htm)), and a homeowner who substantially prevails over a violation can recover attorney fees.
 
-## Average Solar Panel Cost Arizona 2026 Breakdown
+## What solar costs in Arizona right now
 
-### National vs Arizona Pricing Comparison
+Arizona pricing sits in the lower-middle of the national spread, driven by a mature installer market and heavy competition in the Phoenix and Tucson metros. These are **gross installed prices before incentives**:
 
-| Metric | National Average (2026) | Arizona Average (2026) | Notes |
-| :--- | :--- | :--- | :--- |
-| **Cost Per Watt** | $2.50 – $3.10 | $2.20 – $2.60 | Market-dependent |
-| **Typical System Cost** | $21,000 – $28,000 | $17,600 – $24,700 | Before incentives |
-| **Avg. Electricity Rate** | ~$0.18/kWh | $0.14/kWh | Baseline savings rate |
-| **Avg. Sun Hours/Day** | 4.5 hours | 6.0+ hours | Production factor |
-| **Payback Period** | 10–14 years | 9–12 years | Approximate, 2026 (no federal credit) |
+| System Size | Gross Cost (2026) | Best For |
+| :-- | :-- | :-- |
+| 6 kW | $15,000 – $19,500 | Small home, low usage |
+| 7 kW | $17,500 – $22,750 | Average home / the worked example below |
+| 8 kW | $20,000 – $26,000 | Family home with AC load |
+| 10 kW | $25,000 – $32,500 | Larger home + EV |
 
-### Cost Per Watt Analysis
+*Ranges calculated from the $2.50–$3.25/W spread and rounded to the nearest $50.*
 
-Marketplace and installer quotes in Arizona typically fall within the **$2.20 – $2.60** range. The final price depends on roof complexity, equipment tier, installer density, and whether a battery is included. Premium equipment and high-cost metro areas push quotes toward the upper end; competitive suburban markets and simpler roofs sit at the lower end.
+Quotes move within that band for reasons part Arizona, part universal. **Roof substrate matters more than in most states**: clay-tile roofs are common in Phoenix and Scottsdale, and tile-compatible mounting adds labor and material. **Monsoon hail** argues for impact-rated modules. **A west-facing bias and battery-ready wiring** are increasingly standard because they push production into the late-afternoon AC peak.
 
-### Total System Cost for Typical Homes
+| Area | Typical $/W (2026) | Notes |
+| :-- | :-- | :-- |
+| Phoenix metro (APS/SRP split) | $2.50 – $3.00 | Deepest competition |
+| Mesa / Chandler / Gilbert | $2.50 – $3.00 | SRP + APS overlap |
+| Tucson (Tucson Electric Power) | $2.55 – $3.10 | Own export rules |
+| Scottsdale / Paradise Valley | $2.75 – $3.25 | Tile roofs, premium labor |
+| Flagstaff / Prescott | $2.70 – $3.25 | Snow + hail design |
 
-| System Size | Gross Cost (2026) | Net for 2025 installs (after 30% ITC) | Best For |
-| :--- | :--- | :--- | :--- |
-| 6 kW | $13,200 – $15,600 | $9,240 – $10,920 | Small home |
-| 8 kW | $17,600 – $20,800 | $12,320 – $14,559 | Average home |
-| 10 kW | $22,000 – $26,000 | $15,399 – $18,200 | Family home |
-| 12 kW | $26,400 – $31,200 | $18,480 – $21,840 | Large home / EV |
+For how installers build a $/W quote, see [solar panel cost per watt explained](/pages/solar-panel-cost-per-watt.html); for the full national picture, see [solar system costs](/pages/solar-system-costs.html).
 
-*Note: cost ranges are calculated from the state cost-per-watt spread and rounded to the nearest $100.*
+## Arizona's electricity price, verified
 
-## Factors Influencing Arizona Solar Installation Prices
+The rate you offset decides payback, and Arizona's is a story about stability. Per EIA's Electric Power Monthly, Arizona's **average residential retail price was 15.18¢/kWh in June 2026**, versus 15.23¢ in June 2025 ([EIA Electric Power Monthly, Table 5.6.A](https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a), retrieved 2026-09-05). The U.S. residential average was 18.34¢, so Arizona runs **about 3¢/kWh below the national average** — cheaper power overall, but each kWh you generate displaces a relatively cheap kWh.
 
-- **Local installer competition:** Dense metro markets usually produce lower quotes.
-- **Roof type and condition:** Tile, steep pitch, or needed structural upgrades raise costs.
-- **Permitting and interconnection:** Some jurisdictions have expedited solar permits; others add inspections and fees.
-- **Incentive stacking:** State, utility, and federal programs can change the net cost significantly.
+| Metric | Arizona | U.S. Average | Source |
+| :-- | :-- | :-- | :-- |
+| Residential price, Jun 2026 | 15.18¢/kWh | 18.34¢/kWh | EIA Table 5.6.A |
+| Residential price, Jun 2025 | 15.23¢/kWh | 17.47¢/kWh | EIA Table 5.6.A |
+| Year-over-year change | −0.3% | +5.0% | Calculated |
+| All-sector avg price, 2024 | 12.74¢/kWh | — | EIA Arizona profile |
 
-## City-Level Cost Estimates
+Two cautions. EIA's [Arizona electricity profile](https://www.eia.gov/electricity/state/arizona/) (2024 data, retrieved 2026-09-05) shows a 12.74¢/kWh *all-sector* average that blends in cheap industrial load and understates a residential bill — use 15.18¢. And **your actual rate depends on utility and plan**: APS, SRP, and Tucson Electric Power tariffs differ from the state blend, and some plans add grid-access or demand charges — **verify with your utility**.
 
-| City | Typical Cost/W | 10 kW System (gross) | Notes |
-| :--- | :--- | :--- | :--- |
-| Phoenix | $2.15 – $2.55 | $21,500 – $25,500 | Largest market, intense competition |
-| Tucson | $2.20 – $2.60 | $22,000 – $26,000 | Tucson Electric Power net billing |
-| Mesa | $2.10 – $2.50 | $21,000 – $25,000 | Suburban, lower permitting friction |
-| Scottsdale | $2.30 – $2.70 | $23,000 – $27,000 | Premium market, tile roofs common |
-| Flagstaff | $2.40 – $2.80 | $24,000 – $28,000 | Smaller market, snow load design |
+## What's different in Arizona
 
-## Arizona Solar Incentives and Financial Benefits
+- **Export compensation is net billing, not retail net metering.** APS began moving new residential customers off retail-rate net metering years ago, and SRP runs its own export-credit structure; exports are credited **below retail** in most current plans, sometimes far below. As of this writing the exact rates vary by utility, plan, and enrollment date — APS sets rates through Arizona Corporation Commission proceedings, SRP through its elected board, Tucson Electric Power its own. The practical takeaway: **size the array to your daytime and evening consumption, not to "make the meter spin backward."** Some grandfathered customers hold older, more valuable terms — check what applies to your address.
+- **The sun is elite, and so is the heat and dust.** Much of the state sees 6–6.5 peak sun hours/day, among the best in the U.S. But modules lose efficiency as they heat up (roughly 0.3–0.5%/°C above 25°C), and monsoon dust accumulates between rains; desert soiling losses are among the country's highest. That's why **panel cleaning genuinely pays off here** — especially after monsoon season. See [solar panel cleaning cost](/pages/solar-panel-cleaning-cost.html).
+- **HOAs can't stop you — statute says so.** An association may not prohibit the installation or use of a solar energy device, and its placement rules may not impair function or hurt the device's cost or efficiency ([A.R.S. § 33-1816](https://www.azleg.gov/ars/33/01816.htm), Arizona Legislature, retrieved 2026-09-05). HOAs can still enforce *reasonable* placement rules — get board approval in writing — but the "no solar" playbook is illegal in Arizona.
+- **No state purchase credit — budget on gross.** Arizona's old residential solar tax credit is gone; as of this writing there is no active state income tax credit for buying a system, so don't let a quote's "estimated incentives" line include one. Property and sales tax treatment is frequently misquoted — verify with your county assessor and the Arizona Department of Revenue.
+- **Two big utilities, two sets of rules.** APS and SRP run different plans, export credits, time-of-use windows, and grid-access charges. Have your installer model your actual tariff.
 
-Arizona offers the Residential Solar Energy Credit (up to $1,000 personal tax credit), 100% property tax exemption, and sales tax exemption on solar equipment. APS and SRP customers should verify current export compensation and time-of-use rates.
+## Payback: a worked Arizona example
 
-- Arizona Residential Solar Energy Credit: up to $1,000 personal tax credit (verify current eligibility).
-- Solar equipment is exempt from sales tax and from property tax assessments.
-- APS and SRP have export-rate or demand-based compensation structures; batteries improve economics significantly.
+The arithmetic for a realistic Phoenix-area home, using the verified rate — no federal or state credit. **Assumptions:** 7 kW system, 6.3 peak sun hours/day (mid-range for metro Phoenix — verify for your roof), 0.8 performance factor covering heat derating, soiling, inverter, and wiring losses.
 
-## Payback Period and Long-Term Savings
+- **Annual production:** 7,000 W × 6.3 × 0.8 × 365 = **12,873 kWh/year**
+- **Gross value at retail:** 12,873 kWh × $0.1518/kWh ≈ **$1,954/year**
+- **Gross cost:** 7 kW × $2.50–$3.25/W = **$17,500–$22,750**
+- **Simple payback (all at retail):** $17,500 ÷ $1,954 ≈ **9.0 years**; $22,750 ÷ $1,954 ≈ **11.6 years**
 
-A 10 kW system in Arizona producing roughly **6.0+ sun-hours/day** will generate about **14,000–17,000 kWh/year** depending on orientation and shading. At **$0.14/kWh**, annual savings often exceed **$2,000–$3,000**. At 2026 pricing (no federal credit, but the $1,000 state credit applies), simple payback runs roughly **9–12 years**. Over 25 years, cumulative savings can exceed **$40,000–$60,000** before future utility rate increases.
+But "all at retail" isn't how Arizona works anymore. Under net billing, exports earn less than retail, so here's the **conservative variant with 70% self-consumption** — the realistic goal for a properly sized array (illustrative 3¢/kWh export credit; your plan's actual rate may differ, which is why you confirm it):
 
-## Is Solar Worth It in Arizona in 2026?
+- **Self-consumed:** 70% × 12,873 = 9,011 kWh × $0.1518 = **$1,368/year**
+- **Exported:** 30% × 12,873 = 3,862 kWh × $0.03 = **$116/year**
+- **Conservative total:** **$1,484/year** → payback **~11.8–15.3 years**
 
-For most homeowners with a suitable roof and reasonable shading, **yes — Arizona's sun is strong enough to carry most of the case**. Without the federal credit, the state's $1,000 tax credit, sales/property tax exemptions, and 6+ peak sun hours do the heavy lifting — but export compensation matters a lot here: APS/SRP pay well under retail for exports, so self-consumption and batteries drive the economics. Verify your utility's current structure before signing.
+| Step | Value |
+| :-- | :-- |
+| System size | 7 kW |
+| Peak sun hours (assumed) | 6.3/day (verify your roof) |
+| Production | ~12,873 kWh/yr |
+| Retail rate applied | $0.1518/kWh (EIA, Jun 2026) |
+| Gross annual value at retail | ~$1,954 |
+| 70% self-consumed @ retail | ~$1,368 |
+| 30% exported @ illustrative 3¢/kWh | ~$116 |
+| Conservative total value | ~$1,484 |
+| Simple payback, all-retail | ~9.0 – 11.6 years |
+| Simple payback, 70% self-use | ~11.8 – 15.3 years |
 
-## Related guides
+Two honest adjustments. **Rate escalation is a wild card, not an assumption** — Arizona's residential rate was flat year over year (−0.3%), unlike states where 5–7% jumps quietly shorten payback. And **time-of-use and demand charges cut either direction**: if summer peak pricing aligns with the array's late-afternoon output, self-consumed kWh can beat the 15.18¢ blend; a poorly matched demand charge can effectively raise your bill. Over 25 years at today's rate with zero escalation, cumulative value runs roughly **$49,000** all-retail, **$37,000** conservative.
 
-- <a href="solar-panel-cost-texas.html" class="text-link">Solar panel cost in Texas</a>
-- <a href="solar-panel-cost-california.html" class="text-link">Solar panel cost in California</a>
-- <a href="solar-panel-cost-nevada.html" class="text-link">Solar panel cost in Nevada</a>
-- <a href="../pages/solar-panel-cost-per-watt.html" class="text-link">Solar panel cost per watt explained</a>
-- <a href="../pages/solar-system-costs.html" class="text-link">Solar system cost breakdown</a>
-- <a href="../pages/solar-panel-tax-credit.html" class="text-link">Federal solar tax credit</a>
-- <a href="../pages/how-many-solar-panels-to-power-a-house.html" class="text-link">How many solar panels do I need?</a>
-- <a href="../pages/solar-system-sizing.html" class="text-link">Solar system sizing guide</a>
+If your roof is east-west split, shaded, or tile with structural questions, run your own numbers with our [solar payback calculator](/pages/solar-payback-calculator.html) before signing anything.
 
----
+## Is solar worth it in Arizona in 2026?
 
-**Related guides:**
-- [How Much Do Solar Panels Cost in Florida in 2026?](/guides/solar-panel-cost-florida/)
-- [How Much Do Solar Panels Cost in New York in 2026?](/guides/solar-panel-cost-new-york/)
-- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california/)
+## FAQ
+
+{{< faq "Does Arizona still have retail net metering in 2026?" >}}
+Generally, no for new customers. APS and Salt River Project have shifted new residential solar customers to net-billing/export-credit structures that pay below retail for exports, and Tucson Electric Power operates its own arrangement. Exact credits vary by utility and plan — and some grandfathered customers hold older, more valuable terms — so confirm the number for your address with your utility.
+{{< /faq >}}
+
+{{< faq "Is there a federal or Arizona state tax credit for solar in 2026?" >}}
+No federal and no active state purchase credit. The 30% federal credit expired December 31, 2025 (2025 installs claim it on that year's return); Arizona's old residential solar tax credit is gone as well. Property and sales tax treatment varies and is frequently misquoted — verify with your county assessor and the Arizona Department of Revenue.
+{{< /faq >}}
+No. Under A.R.S. § 33-1816, an association cannot prohibit the installation or use of a solar energy device, and its placement rules may not impair function or hurt the device's cost or efficiency; a homeowner who substantially prevails over a violation recovers attorney fees. HOAs may still require reasonable placement reviews, so get board approval in writing.
+{{< /faq >}}
+
+{{< faq "How much do I really save per year in Arizona?" >}}
+On the worked example — 7 kW at 6.3 sun-hours producing ~12,873 kWh/year — about $1,954/year if every kWh displaces retail power. Under current below-retail export credits, a realistic 70% self-consumption split yields roughly $1,480–$1,500/year. Your number depends on your utility's rate and actual production.
+{{< /faq >}}
+
+{{< faq "Is a battery worth it with APS or SRP in 2026?" >}}
+It depends on your tariff. Under below-retail export credits, shifting afternoon solar into the evening peak can add value — but Arizona's brutal summer heat stresses batteries and their warranties. Model the battery against your utility's actual export credit and time-of-use windows before paying the premium.
+{{< /faq >}}
+
+## Next logical reads
+
+- <a href="/pages/solar-panel-cost-per-watt.html" class="text-link">Solar panel cost per watt explained</a>
+- <a href="/pages/solar-system-costs.html" class="text-link">Solar system cost breakdown</a>
+- <a href="/pages/solar-panel-tax-credit.html" class="text-link">Federal solar tax credit: what ended</a>
+- <a href="/pages/net-metering-by-state-2026.html" class="text-link">Net metering by state (2026)</a>
+- <a href="/pages/solar-payback-calculator.html" class="text-link">Solar payback calculator</a>
+- <a href="/pages/solar-system-sizing.html" class="text-link">Solar system sizing guide</a>
+- <a href="/guides/solar-panel-cost-colorado.html" class="text-link">Solar panel cost in Colorado</a>
+- <a href="/guides/solar-panel-cost-nevada.html" class="text-link">Solar panel cost in Nevada</a>
+- <a href="/guides/" class="text-link">All state solar cost guides</a>

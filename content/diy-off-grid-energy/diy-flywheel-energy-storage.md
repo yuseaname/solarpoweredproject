@@ -271,3 +271,4 @@ A battery (even a small one) is usually simpler and safer. If you want a pure ph
 - [DIY Stirling Engine Generator: Turn Heat Into Electricity (Educational Build)](/diy-off-grid-energy/diy-stirling-engine-generator-off-grid.html)
 {{< /faq >}}
 
+<a href="/pages/battery-capacity.html" class="text-link">Battery capacity: the practical alternative</a> <a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid chemistries</a>

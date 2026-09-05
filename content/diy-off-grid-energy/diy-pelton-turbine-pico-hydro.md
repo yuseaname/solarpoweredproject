@@ -260,3 +260,4 @@ Start with <a href="micro-hydro-basics-for-off-grid-power.html" class="text-link
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
 {{< /faq >}}
 
+<a href="/pages/solar-system-sizing.html" class="text-link">System sizing calculator</a>

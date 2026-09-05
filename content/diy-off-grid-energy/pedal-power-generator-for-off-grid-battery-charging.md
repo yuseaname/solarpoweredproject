@@ -257,3 +257,5 @@ For a reliable off-grid baseline, pedal power works best as a supplement to a so
 - [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
 - [DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)](/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html)
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
+
+<a href="/pages/battery-capacity.html" class="text-link">Size the bank you are charging (calculator)</a> <a href="/pages/how-long-will-100ah-battery-run.html" class="text-link">Runtime math for 100Ah/200Ah banks</a>

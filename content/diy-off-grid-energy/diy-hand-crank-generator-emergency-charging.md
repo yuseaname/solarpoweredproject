@@ -287,3 +287,4 @@ Small wind, micro-hydro, and treadmill motors used as generators all benefit fro
 - [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
 {{< /faq >}}
 
+<a href="/pages/how-long-will-100ah-battery-run.html" class="text-link">How long a 100Ah battery actually runs things</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a>

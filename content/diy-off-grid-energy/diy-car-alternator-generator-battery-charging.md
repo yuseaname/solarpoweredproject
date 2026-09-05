@@ -224,3 +224,4 @@ Build a measurement-first rig: stable mounting, tachometer, and a controllable l
 - [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
 {{< /faq >}}
 
+<a href="/pages/how-long-will-100ah-battery-run.html" class="text-link">What a 100Ah bank can run</a> <a href="/pages/solar-fuse-and-breaker-sizing.html" class="text-link">Fuse sizing for charge lines</a>

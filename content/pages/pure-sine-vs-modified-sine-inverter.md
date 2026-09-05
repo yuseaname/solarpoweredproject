@@ -282,7 +282,7 @@ Quality varies. Cheap inverters labeled "pure sine" may deliver <3% total harmon
 
 ## Next logical reads
 
-<a href="solar-inverter-sizing.html" class="text-link">How to size an inverter for solar</a> <a href="micro-vs-string-inverters.html" class="text-link">Micro vs string inverters</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="solar-inverter-cost.html" class="text-link">Solar inverter cost guide</a>
+<a href="solar-inverter-sizing.html" class="text-link">How to size an inverter for solar</a> <a href="micro-vs-string-inverters.html" class="text-link">Micro vs string inverters</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="solar-inverter-cost.html" class="text-link">Solar inverter cost guide</a> <a href="how-to-choose-solar-inverter.html" class="text-link">Choosing an inverter by surge and waveform</a>
 
 ---
 

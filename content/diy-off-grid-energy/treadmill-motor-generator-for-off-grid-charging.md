@@ -225,3 +225,4 @@ Start with <a href="multi-source-hybrid-charge-controller.html" class="text-link
 - [DIY Car Alternator Generator for Battery Charging: What Actually Works](/diy-off-grid-energy/diy-car-alternator-generator-battery-charging.html)
 {{< /faq >}}
 
+<a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="/pages/solar-wire-size.html" class="text-link">Wire size for generator leads</a>

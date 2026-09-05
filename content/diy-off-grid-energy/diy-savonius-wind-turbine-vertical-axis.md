@@ -202,3 +202,4 @@ Build a Savonius if you want simplicity and a clear learning project. If your go
 - [DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)](/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html)
 {{< /faq >}}
 
+<a href="/pages/solar-fuse-and-breaker-sizing.html" class="text-link">Protecting wind charge lines</a>

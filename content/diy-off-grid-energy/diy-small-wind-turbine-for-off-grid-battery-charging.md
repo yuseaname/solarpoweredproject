@@ -363,3 +363,5 @@ Want the most reliable off-grid path? Use wind as a measured seasonal supplement
 {{< /faq >}}
 
 <a href="/diy-off-grid-energy/diy-savonius-wind-turbine-vertical-axis.html" class="text-link">The vertical-axis (Savonius) alternative</a> <a href="/diy-off-grid-energy/diy-dump-load-diversion-controller-wind-hydro.html" class="text-link">Dump-load diversion control for wind</a>
+
+<a href="/pages/solar-fuse-and-breaker-sizing.html" class="text-link">Fuse and breaker sizing for wind lines</a>
