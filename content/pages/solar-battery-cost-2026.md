@@ -3,6 +3,7 @@
 title = "How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide"
 slug = "solar-battery-cost-2026"
 date = 2026-05-31
+pagetype = "informational"
 draft = false
 description = "In 2026, a typical residential solar battery system costs between $10,000 and $20,000 installed, depending on capacity and brand. For a standard 10 kWh system,"
 image = "/assets/images/field-guide/social-og-fallback.jpg"
@@ -145,6 +146,8 @@ For homeowners on a tighter budget, there are alternative brands such as LG Chem
 
 *Note: Prices are estimates for installed systems and vary by region and installer.*
 
+If the model table already matched your kWh class, {{< amazon asin="B084DB36KW" text="Check price on Amazon" placement="mid-page" >}} — the incentive and ROI sections below are there if you'd rather run the full payback math first.
+
 ## Federal Tax Credits and Incentives for 2026
 
 Navigating financial incentives is complex in 2026, with specific rules affecting standalone batteries versus those paired with solar. Understanding these rules can save you thousands of dollars on your total project cost.
@@ -244,7 +247,7 @@ While the labor cost is significant, it ensures the system operates at peak effi
 
 So why do budget 12V batteries like the one below still exist despite the warranty and insurance tradeoffs above? Because they serve a different job entirely — RVs, sheds, and small off-grid builds where a $12,000 installed system is not in play, and where the 12V bank is wired to match its own voltage.
 
-{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="Best cost-per-kWh in the 2026 field" description="The battery that defines the budget tier of every 2026 battery cost comparison — built-in BMS, low-temp protection, and the cycle life that makes its $/usable-kWh number beat lead-acid." button="Check price on Amazon" >}}
+{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="Best cost-per-kWh in the 2026 field" description="The battery that defines the budget tier of every 2026 battery cost comparison — built-in BMS, low-temp protection, and the cycle life that makes its $/usable-kWh number beat lead-acid. (per manufacturer spec). Not for: loads above the BMS continuous-discharge rating — check the spec sheet for your exact unit's limit — or banks that need turnkey monitoring out of the box. The honest tradeoff: it is a building block, not a turnkey bank — you add the monitoring, the fusing, and the enclosure math." button="Check price on Amazon" >}}
 
 Not for: whole-home backup — that's the job of the installed models priced above.
 

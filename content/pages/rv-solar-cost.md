@@ -3,6 +3,7 @@
 title = "RV Solar System Cost Breakdown (Panels, Battery, Inverter)"
 slug = "rv-solar-cost"
 date = 2026-05-31
+pagetype = "informational"
 draft = false
 description = "RV solar system cost breakdown with typical price ranges for panels, batteries, charge controllers, inverters, wiring, and installation choices."
 image = "/images/rv-solar-cost/hero.webp"
@@ -175,6 +176,8 @@ Not sure where to start? Match your usage pattern to a system size:
 **Rule of thumb:** Add 1W of solar for every 1Ah of lithium battery capacity. A 200Ah battery pairs naturally with ~200–400W of panels.
 
 See the full <a href="rv-solar-sizing.html" class="text-link">RV solar sizing guide</a> for detailed calculations — and the <a href="solar-use-cases.html" class="text-link">solar use-case hub</a> to compare RV builds against cabins, sheds, and backup setups.
+
+If the quick-reference table matched your rig's size class, {{< amazon asin="B075RTSTKS" text="Check price on Amazon" placement="mid-page" >}} — the hidden-costs section below is there if you'd rather budget the whole build first.
 
 ## Hidden costs most people miss
 

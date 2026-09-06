@@ -3,6 +3,7 @@
 title = "Best solar lights for your yard"
 slug = "solar-lights-for-yard"
 date = 2026-05-31
+pagetype = "informational"
 draft = false
 description = "How to choose solar yard lights: light types, the specs that matter (lumens, IP rating, battery), integrated vs remote panels, and upkeep."
 image = "/images/solar-lights-for-yard/hero.webp"
@@ -90,6 +91,8 @@ The solar panel collects energy, but the battery stores it. The capacity is usua
 ### 4. Solar Panel Efficiency
 
 A larger solar panel does not always mean a better light, but a more efficient panel does. Monocrystalline silicon panels are generally 20–25% more efficient at converting sunlight to electricity than polycrystalline panels. This is crucial in regions with less than 4 hours of direct sunlight per day.
+
+If the spec checklist already matched your yard's sun and spacing, {{< amazon asin="B0816BTL82" text="Check price on Amazon" placement="mid-page" >}} — the integrated-vs-remote comparison below is there if you'd rather weigh the installation tradeoffs first.
 
 ## Comparison: Integrated vs. Remote Solar Panels
 

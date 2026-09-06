@@ -3,6 +3,7 @@
 title = "Battery Cable Size for Inverters: 12V/24V/48V Chart Guide"
 slug = "battery-cable-size-for-inverter"
 date = 2026-05-31
+pagetype = "informational"
 draft = false
 description = "Battery cable size for solar inverters explained with a safe, practical decision flow: estimate max amps, measure run length, manage voltage drop, and choose DC-rated protection."
 image = "/images/battery-cable-size-for-inverter/hero.webp"

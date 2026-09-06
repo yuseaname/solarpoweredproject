@@ -49,4 +49,18 @@
   if (window.matchMedia('(max-width: 620px)').matches) {
     document.querySelectorAll('details.toc-details').forEach(function (d) { d.removeAttribute('open'); });
   }
+
+  /* Engagement proxy for the affiliate measurement plan: fires once when the
+     footer becomes visible. Page-level only — no identifiers, no cookies. */
+  var footer = document.querySelector('footer');
+  if (footer && 'IntersectionObserver' in window) {
+    var seenEnd = false;
+    new IntersectionObserver(function (entries, obs) {
+      if (!seenEnd && entries[0].isIntersecting) {
+        seenEnd = true;
+        obs.disconnect();
+        if (window.rybbit && typeof window.rybbit.event === 'function') window.rybbit.event('reached_end');
+      }
+    }, { threshold: 0.5 }).observe(footer);
+  }
 })();

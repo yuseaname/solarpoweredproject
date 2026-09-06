@@ -3,6 +3,7 @@
 title = "Solar phone charger"
 slug = "solar-phone-charger"
 date = 2026-05-31
+pagetype = "informational"
 draft = false
 description = "How to pick a solar phone charger: integrated power banks vs foldable panels, the wattage and port specs that matter, and durability ratings."
 image = "/images/solar-phone-charger/hero.webp"
@@ -76,6 +77,8 @@ If you are buying an integrated power bank, the capacity is measured in milliamp
 -   **10,000mAh:** Two to three full charges.
 -   **20,000mAh:** The industry standard for heavy users; provides 4-6 charges but is significantly heavier.
 
+If the spec-sheet section already matched your charging needs, {{< amazon asin="B082HPTZ3P" text="Check price on Amazon" placement="mid-page" >}} — the standalone-vs-integrated comparison below is there if you'd rather settle the architecture question first.
+
 ## Comparison: Standalone Panels vs. Integrated Power Banks
 
 To make an informed decision, you must weigh your specific use case against these two approaches.
@@ -125,6 +128,8 @@ When budgeting for solar gear, consider the "Cost per Watt" rather than the tota
 
 **Investment Tip:** If you spend $70 on a 21W panel today, it will likely serve you for 5+ years. A $20 "cheap" charger will likely fail or become obsolete within 12 months due to battery degradation or low efficiency.
 
+{{< product-box asin="B082HPTZ3P" name="Nekteck 28W USB solar charger" label="The travel-tier workhorse" description="Four foldable monocrystalline panels, two USB-A ports at up to 4A total, IPX4 (per manufacturer spec). At 28W under good sun, charging speed should land in everyday wall-charger territory — our estimate from the rated output (makers don't publish charge times), with headroom for a second device. Hang it from a pack, not the ground. Not for: integrated power-bank duty — it has no internal battery, so nighttime or cloudy-day charging needs a separate power bank, exactly as this guide's hybrid strategy describes. The honest tradeoff: IPX4 shrugs off light rain but isn't the IP65/IP67 submersion rating this guide recommends for wet-weather hiking." button="Check price on Amazon" >}}
+
 ## Frequently Asked Questions
 
 ### Can I charge my phone while using the solar panel at night?
@@ -155,7 +160,3 @@ Yes. Dust, fingerprints, and bird droppings create "shading" on the cells. Even 
 - [Portable solar panels guide](/pages/portable-solar-panels.html)
 - [Best solar lights for your yard](/pages/solar-lights-for-yard.html)
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
-
-{{< product-box asin="B082HPTZ3P" name="Nekteck 28W USB solar charger" label="The travel-tier workhorse" description="Four foldable monocrystalline panels, two USB-A ports at up to 4A total, IPX4 (per manufacturer spec). At 28W under good sun, charging speed should land in everyday wall-charger territory — our estimate from the rated output (makers don't publish charge times), with headroom for a second device. Hang it from a pack, not the ground. Not for: integrated power-bank duty — it has no internal battery, so nighttime or cloudy-day charging needs a separate power bank, exactly as this guide's hybrid strategy describes. The honest tradeoff: IPX4 shrugs off light rain but isn't the IP65/IP67 submersion rating this guide recommends for wet-weather hiking." button="Check price on Amazon" >}}
-
-

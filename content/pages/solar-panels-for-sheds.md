@@ -3,6 +3,7 @@
 title = "Solar panels for sheds and outbuildings"
 slug = "solar-panels-for-sheds"
 date = 2026-05-31
+pagetype = "informational"
 draft = false
 description = "Powering a shed or workshop with solar: load math, system architecture choices, component selection, and installation steps for small off-grid builds."
 image = "/images/solar-panels-for-sheds/hero.webp"
@@ -114,6 +115,8 @@ The inverter converts the DC power from your batteries into AC power for your to
 
 -   **Modified Sine Wave:** Cheaper, but can damage sensitive electronics like laptops or high-end power tools.
 -   **Pure Sine Wave:** Essential for modern electronics, variable speed motor tools, and anything with a digital clock or transformer. **Recommendation:** Only use Pure Sine Wave inverters for workshop use.
+
+If the components section mapped your shed's system, {{< amazon asin="B00BFCNFRM" text="Check price on Amazon" placement="mid-page" >}} — the installation section below walks the wiring steps before you commit.
 
 ## Installation Steps and Practical Considerations
 

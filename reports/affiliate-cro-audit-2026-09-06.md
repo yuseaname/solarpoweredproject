@@ -183,3 +183,20 @@ Sequencing note: item 1 precedes item 2 deliberately — the very-late pages get
 8. **[REJECTED] Reviewer's "Issue 2" quoted sentences ("one click, one decision," "first candidate for abolished") that do not exist in this report** (grep-verified); the report's actual review row correctly states the spec table sits between the two touchpoints. No change needed — recorded here because the rejected claim's underlying fact was already right in the text the quote was attributed to.
 
 Post-fix state: all confirmed issues resolved inline; the rejected quote is documented rather than silently dropped.
+
+---
+
+## Addendum — execution log (2026-09-06, sprint executed)
+
+All 8 priority items executed or dispositioned. Regression-verified before push: build clean, 153 sitemap URLs unchanged, 16/16 mid-page events render, P1 disclosure-first holds on all 36 monetized files, anchors resolve, build-checks 7/7.
+
+1. **Measurement (item 1) — DONE:** `data-rybbit-event="affiliate_click"` + asin/placement/pagetype props on both shortcodes (sr-only new-tab spans preserved per the review guard); `reached_end` footer observer in main.js; `pagetype` front matter set on all 36 monetized files (roundup/review/comparison/informational); the 3 review early-CTAs tagged `placement="early-cta"`; the 16 new handoffs tagged `placement="mid-page"` (schema now {early-cta, mid-page, box, inline}). **USER ACTION remaining:** enable Rybbit dashboard toggle "Track clicks to external websites" (Settings, site afb6050c297b) — everything else reports without it, but outbound-URL auto-capture needs the toggle.
+2. **PF-8 mid-page handoffs (item 2) — DONE:** exactly one conditional inline link inserted at each page's decision point on all 16 very-late pages (list in §2/F1) + the mppt-vs-pwm comparison variant after "When PWM actually wins." All follow the 4-part anatomy (conditional on reader's math · uniform link text · offer-down alternative · end box untouched).
+3. **Placement fixes (item 3) — DONE:** mppt-vs-pwm box moved after the cost section, before the next-reads fork (P6 closed); solar-phone-charger box moved before FAQ (P6 closed); inverter-troubleshooting crimper box moved after the fix ladder (F2 closed — the $0 step now precedes the tool CTA); fuse-page stacked pair separated by a handoff sentence distinguishing the two decisions (P3 closed).
+4. **Bridges (item 4) — DONE:** 12v-vs-24v → roundup link after the wiring/current section; how-many-panels → best-solar-panels-for-home-2026 link in the conclusion framed as the Step-4 wattage decision (no boxes, per audit).
+5. **Disclosure (item 5) — DONE:** verbatim "As an Amazon Associate I earn from qualifying purchases." added to the disclosure page ahead of the existing paraphrase.
+6. **Review distribution + anatomy (item 6) — DONE:** standalone-review links added to mppt-not-charging (both roundup mentions), mppt-charge-controller-cost, solar-components; full anatomy (per-manufacturer-spec markers where specs were already stated + "Not for:" + "honest tradeoff", no new unverifiable claims) backfilled on 7 legacy boxes across the 5 flagged files.
+7. **Roundup compare path (item 7) — DONE (light):** jump-link to the head-to-head table added in Key takeaways rather than a duplicate compact table (F7's mitigation was already in place; duplication rejected).
+8. **OneLink (item 8) — NOT EXECUTED, user decision:** revenue-only, adds a third-party script; requires re-checking the cookieless promise first. Documented, not acted on.
+
+Sequencing honored: measurement attributes shipped in the same commit as the placement changes, so before/after comparison starts from this deploy forward once the dashboard toggle is on.

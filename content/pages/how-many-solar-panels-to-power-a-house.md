@@ -172,7 +172,7 @@ Determining how many solar panels to power your house is a journey of moving fro
 
 Remember, the math provided here is a starting point. A professional solar installer will perform a detailed "shading analysis" and a "structural roof assessment" to provide you with a precise, engineered blueprint.
 
-**Next step:** run your own numbers in the [solar system sizing guide](solar-system-sizing.html), then use them to sanity-check any installer proposal you receive.
+**Next step:** run your own numbers in the [solar system sizing guide](solar-system-sizing.html), then use them to sanity-check any installer proposal you receive. For the other half of the division — which panel wattage to divide by — the [home solar panel buyer guide](best-solar-panels-for-home-2026.html) covers what 400W-class panels cost and which roofs they fit.
 
 ## Related guides
 

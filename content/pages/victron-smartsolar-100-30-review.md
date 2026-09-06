@@ -3,6 +3,7 @@ title = "Victron SmartSolar MPPT 100/30 Review: Specs, Sizing Fit, and Honest Li
 slug = "victron-smartsolar-100-30-review"
 date = 2026-09-05
 reviewed = 2026-09-06
+pagetype = "review"
 draft = false
 description = "Spec-based review of the Victron SmartSolar 100/30: 100V input, 30A output, where it fits a 12V or 24V build, the array ceilings that disqualify it, and the warranty terms."
 image = "/images/victron-smartsolar-100-30-review/hero.webp"
@@ -25,7 +26,7 @@ The Victron SmartSolar 100/30 is a 100V-input, 30A-output MPPT charge controller
 
 **What this review is (and isn't).** This is a **spec-based review**. We did not bench-test this unit, and no manufacturer sent it to us. Every number below comes from the manufacturer's published documentation, marked "per manufacturer spec" with the retrieval date; third-party figures carry their own source and date; our judgments are labeled as such. How products earn a mention on this site: <a href="/pages/how-we-recommend.html" class="text-link">how we recommend</a>.
 
-String voltage checked and sizing math already done? {{< amazon asin="B073ZJ3L13" text="Check price on Amazon" >}} — the full sourced spec table, build math, and warranty terms are below if you want to run them yourself first.
+String voltage checked and sizing math already done? {{< amazon asin="B073ZJ3L13" text="Check price on Amazon" placement="early-cta" >}} — the full sourced spec table, build math, and warranty terms are below if you want to run them yourself first.
 
 ## Key specifications
 

@@ -4,10 +4,11 @@
 {{- $desc := .Get "description" -}}
 {{- $btn := .Get "button" | default "Check price on Amazon" -}}
 {{- $tag := .Site.Params.amazon_tag | default "slrpwp-20" -}}
+{{- $ptype := .Page.Params.pagetype | default .Page.Section | default "informational" -}}
 <div class="product-box">
   {{ with $label }}<span class="product-label">{{ . }}</span>{{ end }}
   <strong class="product-name">{{ $name }}</strong>
   {{ with $desc }}<p>{{ . }}</p>{{ end }}
-  <a class="button button-solar product-cta" href="https://www.amazon.com/dp/{{ $asin }}?tag={{ $tag }}" rel="sponsored nofollow noopener" target="_blank">{{ $btn }}<span class="sr-only"> (opens in a new tab)</span></a>
+  <a class="button button-solar product-cta" href="https://www.amazon.com/dp/{{ $asin }}?tag={{ $tag }}" rel="sponsored nofollow noopener" target="_blank" data-rybbit-event="affiliate_click" data-rybbit-prop-asin="{{ $asin }}" data-rybbit-prop-placement="box" data-rybbit-prop-pagetype="{{ $ptype }}">{{ $btn }}<span class="sr-only"> (opens in a new tab)</span></a>
   <span class="product-note">Price &amp; availability shown on Amazon.com — we may earn a commission.</span>
 </div>

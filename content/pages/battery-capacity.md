@@ -3,6 +3,7 @@
 title = "Battery Capacity Calculator for Solar Systems"
 slug = "battery-capacity"
 date = 2026-05-31
+pagetype = "informational"
 draft = false
 description = "Calculate solar battery capacity in Wh and Ah for 12V, 24V, and 48V systems. Enter daily load, days of autonomy, depth of discharge, and inverter efficiency."
 image = "/images/battery-capacity/hero.webp"

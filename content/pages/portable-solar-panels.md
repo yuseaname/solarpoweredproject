@@ -3,6 +3,7 @@
 title = "Portable solar panels guide"
 slug = "portable-solar-panels"
 date = 2026-05-31
+pagetype = "informational"
 draft = false
 description = "How to choose portable solar panels: cell technologies, the wattage formula for your devices, worked sizing examples, and price-per-watt tiers."
 image = "/images/portable-solar-panels/hero.webp"
@@ -66,6 +67,8 @@ Panels rarely produce their rated wattage: plan on **3.5–4 usable sun hours** 
 **Required watts = daily Wh ÷ (sun hours × 0.75) = 575 ÷ (4 × 0.75) ≈ 192W**
 
 In this scenario a single 100W panel will fail you — you need a 200W-class array (or two 100Ws) to keep the battery charged through slightly overcast days. Re-run the formula with your own list before buying anything.
+
+If the worked sizing math landed you in the 100-watt class, {{< amazon asin="B07GF5JY35" text="Check price on Amazon" placement="mid-page" >}} — the cost-per-watt tiers below are there if you'd rather see the whole price picture first.
 
 ## Cost per watt: the 2026 tiers
 

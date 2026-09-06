@@ -3,6 +3,7 @@
 title = "Inverter Keeps Shutting Off: Troubleshooting (Overload, Low Voltage, Heat)"
 slug = "inverter-keeps-shutting-off-troubleshooting"
 date = 2026-05-31
+pagetype = "informational"
 draft = false
 description = "Inverter keeps shutting off? Use this safe checklist to identify overload/surge, low battery voltage, voltage drop from cables, overheating, and settings issues—plus the next logical fixes."
 image = "/images/inverter-keeps-shutting-off-troubleshooting/hero.webp"
@@ -49,7 +50,7 @@ If the inverter shuts off when a device starts (fridge compressor, pump, microwa
 
 <a href="solar-inverter-sizing.html" class="text-link">Inverter sizing guide</a> <a href="pure-sine-vs-modified-sine-inverter.html" class="text-link">Pure sine vs modified sine (compatibility)</a>
 
-{{< product-box asin="B018CLOSTC" name="Klein Tools MM600 Multimeter" label="Measure before you guess" description="Every shutdown diagnosis starts with real numbers — battery voltage at the terminals, voltage at the inverter input, under load. A 1000V-rated auto-ranging meter is the tool that settles overload vs undervoltage." button="Check price on Amazon" >}}
+{{< product-box asin="B018CLOSTC" name="Klein Tools MM600 Multimeter" label="Measure before you guess" description="Every shutdown diagnosis starts with real numbers — battery voltage at the terminals, voltage at the inverter input, under load. A 1000V-rated auto-ranging meter (per manufacturer spec) is the tool that settles overload vs undervoltage. Not for: inverter current draws — use a clamp meter for those; probe jacks top out far below inverter amps. The honest tradeoff: probes and batteries are the recurring cost; the meter outlives several sets." button="Check price on Amazon" >}}
 
 ## Cause 2: low battery voltage (real) vs voltage drop (wiring)
 
@@ -79,7 +80,7 @@ If you’re pushing a lot of power through a 12V inverter, shutdowns can be a de
 
 <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">How to choose solar system voltage</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V</a>
 
-{{< product-box asin="B017S9EINA" name="iCrimp Heavy-Duty Cable Lug Crimper (9 Dies)" label="Fix the drop at the lug" description="Voltage-drop shutdowns are usually a connection problem dressed up as a battery problem. A proper hex crimper for 12–2/0 AWG turns tighten-by-hope lugs into the low-resistance joints the math assumes." button="Check price on Amazon" >}}
+
 
 ## Cause 3: overheating / poor airflow
 
@@ -154,6 +155,8 @@ So under load the inverter sees roughly 12.4V − 1.66V ≈ **10.7V** — which 
 If the alarm sounds **at rest with no load**, that's a different problem: the battery is genuinely low, a cutoff setting is mismatched (see Cause 4 above), or charging is failing.
 
 <a href="battery-cable-size-for-inverter.html" class="text-link">Battery cable size for inverters (with calculator)</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V: choosing system voltage</a> <a href="solar-battery-not-charging-troubleshooting.html" class="text-link">Solar battery not charging: troubleshooting checklist</a>
+
+{{< product-box asin="B017S9EINA" name="iCrimp Heavy-Duty Cable Lug Crimper (9 Dies)" label="Fix the drop at the lug" description="Voltage-drop shutdowns are usually a connection problem dressed up as a battery problem. A proper hex crimper for 12–2/0 AWG (per manufacturer spec) turns tighten-by-hope lugs into the low-resistance joints the math assumes. Not for: thin-wall lugs that need a calibrated press — check the lug wall thickness against the die before you commit. The honest tradeoff: hand force tops out near 2/0; a hydraulic press is better and costs ten times more." button="Check price on Amazon" >}}
 
 ## FAQ
 

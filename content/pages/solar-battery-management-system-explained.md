@@ -3,6 +3,7 @@
 title = "Solar Battery Management Systems (BMS): What They Do and When You Need One"
 slug = "solar-battery-management-system-explained"
 date = 2026-08-10
+pagetype = "informational"
 draft = false
 description = "A battery management system protects your solar battery bank from overcharge, over-discharge, and cell imbalance. Learn how BMS works, types, and when you need one."
 image = "/images/solar-battery-management-system-explained/hero.webp"
@@ -97,6 +98,8 @@ Most modern drop-in lithium batteries — especially LiFePO4 — ship with an in
 This works well for single-battery systems and parallel banks. **For series-connected lithium banks**, an internal BMS per battery is necessary but not sufficient — see the next section.
 
 Related: <a href="li-ion-vs-lead-acid.html" class="text-link">Lithium vs lead-acid deep comparison</a>
+
+If the types section told you which monitoring class your bank needs, {{< amazon asin="B075RTSTKS" text="Check price on Amazon" placement="mid-page" >}} — the section below covers the cases where built-in protection is not enough.
 
 ## When you need an external BMS
 

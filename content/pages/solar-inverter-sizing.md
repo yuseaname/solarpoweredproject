@@ -3,6 +3,7 @@
 title = "How to Size an Inverter for Solar (Watts, Surge, Battery Draw)"
 slug = "solar-inverter-sizing"
 date = 2026-05-31
+pagetype = "informational"
 draft = false
 description = "Inverter sizing for solar systems: calculate peak watts, surge watts, and how inverter choice affects battery capacity and solar panel sizing. Interactive calculator included."
 image = "/assets/images/field-guide/system-planner-architecture.jpg"
@@ -218,6 +219,8 @@ Loads running together: refrigerator (200W), LED lighting (300W), laptop + phone
 -   **Battery-side at 12V (90% efficiency):** 2,100 ÷ 10.8 ≈ **194A continuous**, 3,100 ÷ 10.8 ≈ **287A during startup** — heavy. At 24V both numbers halve; at 48V they quarter. This is why bigger inverter loads push systems toward higher bank voltage (see <a href="/pages/12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V</a>).
 
 {{< product-box asin="B081CLPDT9" name="Renogy 2000W 12V Pure Sine Inverter" label="When the math says 2000W" description="If your load list lands in the 1500–2000W continuous range, this is the honest default: pure sine for electronics and motors, remote switch, and cables in the box (per manufacturer spec) — no surge-headroom upsell. Not for: the worked example above — 2,100W running with a ~3,100W worst-case startup needs a 3,000W class unit, not 2,000W. The honest tradeoff: at 12V the battery draw reaches ~194A continuous, which pushes toward 24V/48V cabling." button="Check price on Amazon" >}}
+
+If the worked example matches your load list's shape, {{< amazon asin="B081CLPDT9" text="Check price on Amazon" placement="mid-page" >}} — the quick-range table below is there if you'd rather sanity-check your watt class first.
 
 ## Common sizing examples (quick ranges)
 

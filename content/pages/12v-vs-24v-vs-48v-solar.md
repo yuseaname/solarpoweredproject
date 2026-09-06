@@ -3,6 +3,7 @@
 title = "12V vs 24V vs 48V Solar Systems: Key Differences"
 slug = "12v-vs-24v-vs-48v-solar"
 date = 2026-05-31
+pagetype = "comparison"
 draft = false
 description = "Compare 12V vs 24V vs 48V solar systems for current, wiring, inverter sizing, efficiency, and common use cases like RVs and cabins."
 image = "/assets/images/field-guide/system-planner-architecture.jpg"
@@ -225,6 +226,8 @@ Here's what happens to current and wire requirements when you run the same 1,200
 For full wire sizing guidance including voltage drop calculations, see <a href="solar-wire-size.html" class="text-link">solar wire size guide</a> and <a href="solar-fuse-and-breaker-sizing.html" class="text-link">fuse and breaker sizing</a>.
 
 <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter for solar</a> <a href="solar-components.html" class="text-link">Solar components explained</a>
+
+Voltage chosen, the next decision is the charge controller that has to live with it — <a href="best-mppt-charge-controllers.html" class="text-link">our MPPT buyer guide</a> picks by exactly this voltage class, with the sizing math included.
 
 ## When to upgrade from 12V to 24V or 48V
 

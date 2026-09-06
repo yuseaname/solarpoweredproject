@@ -3,6 +3,7 @@
 title = "Best Solar Batteries for Home 2026: Brand Comparison Guide"
 slug = "best-solar-batteries-2026"
 date = 2026-08-09
+pagetype = "informational"
 draft = false
 description = "Compare the best home solar batteries of 2026: Tesla Powerwall 3, Enphase IQ Battery 5P, FranklinWH aPower2, BYD, and budget DIY LiFePO4 options. Specs, cost per kWh, warranty, and best use cases."
 image = "/assets/images/best-solar-batteries-2026/best-solar-batteries-2026-hero.jpg"
@@ -116,7 +117,7 @@ Five questions that separate a thoughtful quote from a price list:
 
 Worth saying plainly: you cannot order a Powerwall 3, an IQ Battery 5P, or an aPower 2 off Amazon. They ship to certified installers, require permits and interconnection agreements, and usually need a panel evaluation. What *is* orderable online is the DIY path — batteries, inverters, BMS units, and racking you wire yourself. That's exactly the split below: the turnkey rows of our table are quotes; the LiTime box is the DIY building block.
 
-{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="DIY bank building block" description="The 12V building block most DIY banks multiply by: 1.28 kWh at 12.8V nominal, built-in 100A BMS, low-temp protection, and cycle life that makes its $/usable-kWh beat lead-acid ~7× — per the math on our li-ion page. Not a substitute for an installed whole-home system." button="Check price on Amazon" >}}
+{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="DIY bank building block" description="The 12V building block most DIY banks multiply by: 1.28 kWh at 12.8V nominal, built-in 100A BMS, low-temp protection, and cycle life that makes its $/usable-kWh beat lead-acid ~7× — per the math on our li-ion page. Not a substitute for an installed whole-home system. (per manufacturer spec). Not for: loads above the BMS continuous-discharge rating — check the spec sheet for your exact unit's limit — or banks that need turnkey monitoring out of the box. The honest tradeoff: it is a building block, not a turnkey bank — you add the monitoring, the fusing, and the enclosure math." button="Check price on Amazon" >}}
 
 ## Frequently Asked Questions
 

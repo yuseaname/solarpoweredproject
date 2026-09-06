@@ -3,6 +3,7 @@
 title = "Solar Components Explained: Panels, Inverters, Batteries"
 slug = "solar-components"
 date = 2026-05-31
+pagetype = "informational"
 draft = false
 description = "Understand solar panels, inverters, charge controllers, and batteries. Clear component roles with links to comparisons and sizing guides."
 image = "/assets/images/field-guide/system-planner-architecture.jpg"
@@ -167,7 +168,7 @@ The charge controller sits between the panels and the battery and prevents overc
 
 **The one spec that matters most: max input voltage, checked against the array's cold-weather Voc.** Panels produce more voltage when cold. Worked example: three 100W panels in series, each 22V Voc, give 66V at 25°C; on a -10°C morning that's about 66 × 1.105 ≈ **73V** — fine under a 100V controller, but four panels reach ~97V and need the 150V class. Then size by current: panel watts ÷ battery volts × 1.25. A 400W array on 12V: 400 ÷ 12.8 × 1.25 ≈ **39A** — a 40A-class controller.
 
-<a href="best-mppt-charge-controllers.html" class="text-link">Best MPPT charge controllers</a> <a href="mppt-charge-controller-cost.html" class="text-link">MPPT cost guide</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V systems</a>
+<a href="best-mppt-charge-controllers.html" class="text-link">Best MPPT charge controllers</a> (deep dives: <a href="epever-tracer-4210an-review.html" class="text-link">EPEver Tracer 4210AN review</a>, <a href="victron-smartsolar-100-30-review.html" class="text-link">Victron 100/30 review</a>) <a href="mppt-charge-controller-cost.html" class="text-link">MPPT cost guide</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V systems</a>
 
 {{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="The reference controller" description="The charge controller component diagrams are drawn around — MPPT efficiency, 12/24V auto-detect, lithium presets, and Bluetooth monitoring (per manufacturer spec) as the standard feature set. Not for: 48V banks or strings whose cold-morning Voc pushes past 100V — by the worked example above, a four-panel string lands in the 150V class. The honest tradeoff: 30A caps a 12V array near the 400W mark." button="Check price on Amazon" >}}
 

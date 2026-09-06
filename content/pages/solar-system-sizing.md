@@ -3,6 +3,7 @@
 title = "How to Size a Solar System (Step-by-Step Load Planner)"
 slug = "solar-system-sizing"
 date = 2026-05-31
+pagetype = "informational"
 draft = false
 description = "Size a solar system from daily load to panels, battery, inverter, and charge controller. Use the interactive load planner, formulas, and next-step links."
 image = "/assets/images/field-guide/system-sizing-concept.jpg"

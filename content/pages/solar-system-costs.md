@@ -3,6 +3,7 @@
 title = "Solar System Cost Breakdown (Panels, Batteries, Inverter)"
 slug = "solar-system-costs"
 date = 2026-05-31
+pagetype = "informational"
 draft = false
 description = "Solar system cost breakdown with typical price ranges for panels, batteries, inverters, and balance-of-system hardware."
 image = "/assets/images/field-guide/social-og-fallback.jpg"
@@ -99,7 +100,7 @@ Three tiers, worked out in full below:
 </tbody>
 </table>
 
-{{< product-box asin="B07GF5JY35" name="Renogy 100W 12V Monocrystalline Panel" label="The commodity-hardware reality check" description="When a quote says $2.50+/Watt installed, hardware like this shows what the other $1.50 buys — labor, rails, permitting, and the installer's margin on the same watts." button="Check price on Amazon" >}}
+{{< product-box asin="B07GF5JY35" name="Renogy 100W 12V Monocrystalline Panel" label="The commodity-hardware reality check" description="When a quote says $2.50+/Watt installed, hardware like this shows what the other $1.50 buys — labor, rails, permitting, and the installer's margin on the same watts. (per manufacturer spec: a 100W-class 12V monocrystalline panel.) Not for: whole-house power — at ~100W it is a battery-keeper, not a plant. The honest tradeoff: you are buying watts, not service — commodity hardware ships fast and warranties slow." button="Check price on Amazon" >}}
 
 ## Budget 1: ~2kW DIY cabin system
 
@@ -164,7 +165,7 @@ A weekend-cabin off-grid build: 2,000W of panel, ~5kWh of LiFePO4 storage, a 2kW
 
 The battery is the swing item. Four budget 12V 100Ah LiFePO4 units (about 5.1kWh) can sit near the bottom of that range; a higher-cycle server-rack battery pushes toward the top. If you cut anything, do not cut the wiring and protection line — that is the one that keeps the cabin from burning down.
 
-{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="The storage cost anchor" description="Turnkey battery quotes can hit five figures; the DIY alternative is priced per kWh — and this is the battery that defines the benchmark for what storage should cost." button="Check price on Amazon" >}}
+{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="The storage cost anchor" description="Turnkey battery quotes can hit five figures; the DIY alternative is priced per kWh — and this is the battery that defines the benchmark for what storage should cost. (per manufacturer spec). Not for: loads above the BMS continuous-discharge rating — check the spec sheet for your exact unit's limit — or banks that need turnkey monitoring out of the box. The honest tradeoff: it is a building block, not a turnkey bank — you add the monitoring, the fusing, and the enclosure math." button="Check price on Amazon" >}}
 
 ## Budget 2: ~6kW grid-tied home system
 

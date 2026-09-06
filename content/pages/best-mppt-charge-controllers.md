@@ -3,6 +3,7 @@ title = "Best MPPT Charge Controllers for Solar (2026 Buyer Guide)"
 slug = "best-mppt-charge-controllers"
 date = 2026-08-18
 reviewed = 2026-09-06
+pagetype = "roundup"
 draft = false
 description = "Best MPPT charge controllers compared: Victron, Renogy Rover, and EPEver Tracer picked by voltage class and budget. Includes the decision flow so you can size one yourself instead of picking a brand first."
 image = "/images/mppt-charge-controller-cost/hero.webp"
@@ -18,7 +19,7 @@ image_height = 1024
 
 ## Key takeaways
 
-**How to read this page:** this is a spec-based comparison — we have not bench-tested these controllers. Specs come from the manufacturers' published documentation (marked "per manufacturer spec" where cited), warranty terms from each manufacturer's warranty page (retrieved 2026-09-05), and every pick is a scenario match by voltage class and budget, not a ranking. The criteria behind how products earn a mention on this site are on our <a href="/pages/how-we-recommend.html" class="text-link">how we recommend</a> page. Before you buy, skim the <a href="#common-buying-mistakes" class="text-link">common buying mistakes</a> below — two of them change which pick is right.
+**How to read this page:** this is a spec-based comparison — we have not bench-tested these controllers. Specs come from the manufacturers' published documentation (marked "per manufacturer spec" where cited), warranty terms from each manufacturer's warranty page (retrieved 2026-09-05), and every pick is a scenario match by voltage class and budget, not a ranking. The criteria behind how products earn a mention on this site are on our <a href="/pages/how-we-recommend.html" class="text-link">how we recommend</a> page. Before you buy, skim the <a href="#common-buying-mistakes" class="text-link">common buying mistakes</a> below — two of them change which pick is right. Comparing all four side by side first? Jump to the <a href="#head-to-head-comparison" class="text-link">head-to-head table</a>.
 
 -   Size the controller from your **array voltage** and **battery charging current** first; brand comes second.
 -   The 100 V input class covers most single-string builds up to ~400 W on 12 V or ~800 W on 24 V at 30 A; bigger arrays need higher-voltage controllers or parallel units.

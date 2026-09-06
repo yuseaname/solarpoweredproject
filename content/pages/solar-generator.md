@@ -3,6 +3,7 @@
 title = "Solar generator guide"
 slug = "solar-generator"
 date = 2026-05-31
+pagetype = "informational"
 draft = false
 description = "What a solar generator really is, what each capacity tier runs, the surge trap, and who should not buy one — power station math without the marketing."
 image = "/images/solar-generator/hero.webp"

@@ -3,6 +3,7 @@
 title = "Li-ion vs Lead-acid Batteries (Solar Comparison)"
 slug = "li-ion-vs-lead-acid"
 date = 2026-05-31
+pagetype = "comparison"
 draft = false
 description = "Compare lithium-ion vs lead-acid solar batteries for cost, lifespan, depth of discharge, and best use cases."
 image = "/images/li-ion-vs-lead-acid/hero.webp"
@@ -116,6 +117,8 @@ Upfront price is where lead-acid looks best and where the comparison is most mis
 That's roughly 7 times cheaper per kilowatt-hour actually delivered, before counting the other lead-acid costs: watering time, a replacement you'll forget to buy, and the 80–85% round-trip efficiency (versus ~95% for lithium) that quietly wastes 10–15% of every solar harvest you push through an AGM.
 
 One caveat so the numbers stay honest: $200 and $300 are street prices for small 12V drop-in batteries, which land below the $200–$450 (lead-acid) and $400–$900 (lithium) per-kWh ranges on our <a href="/pages/solar-battery-cost-per-kwh.html" class="text-link">solar battery cost per kWh</a> page — those ranges cover larger banks and systems with integrated electronics. The method is identical either way: always divide by usable kWh and multiply out cycle life, never compare nameplate price tags.
+
+If the lifetime cost-per-kWh math has already settled the chemistry question for your use case, {{< amazon asin="B084DB36KW" text="Check price on Amazon" placement="mid-page" >}} — the temperature and charging sections below cover the cases where lead-acid still wins.
 
 ## Temperature and environment
 

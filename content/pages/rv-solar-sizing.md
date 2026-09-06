@@ -3,6 +3,7 @@
 title = "How to Size an RV Solar System (Panels, Battery, Inverter)"
 slug = "rv-solar-sizing"
 date = 2026-05-31
+pagetype = "informational"
 draft = false
 description = "Step-by-step RV solar sizing: estimate daily watt-hours, choose panel watts, size battery capacity, and pick an inverter for your RV loads."
 image = "/images/rv-solar-sizing/hero.webp"

@@ -4,6 +4,7 @@ title = "MPPT vs PWM Charge Controllers (Comparison)"
 slug = "mppt-vs-pwm"
 date = 2026-05-31
 reviewed = 2026-09-06
+pagetype = "comparison"
 draft = false
 description = "Compare MPPT vs PWM solar charge controllers for efficiency, cost, panel voltage, and best off-grid use cases."
 image = "/images/mppt-vs-pwm/hero.webp"
@@ -70,6 +71,8 @@ PWM isn't the "wrong" choice — it's the right choice for a specific, common bu
 
 On the edge? Our <a href="best-mppt-charge-controllers.html" class="text-link">best MPPT charge controllers guide</a> draws the same line: below ~200W of array, PWM deserves a genuine look.
 
+If the scenarios above already put you in the MPPT column, {{< amazon asin="B073ZJ3L13" text="Check price on Amazon" placement="mid-page" >}} — the harvest math and sizing window below show why the column, not the label, decides.
+
 ## How much harvest MPPT actually gains, by scenario
 
 Marketing says "up to 30%." Reality is a range that swings with temperature and battery state:
@@ -113,6 +116,9 @@ The Tracer is the budget reference; the Rover counters with a clean Bluetooth ap
 
 Our <a href="mppt-charge-controller-cost.html" class="text-link">cost guide</a> bands MPPT at roughly $95–$250 for the small class, $250–$600 for mid-range, and $600–$1,200+ for higher-voltage units. All four models above sit in the small band (street ranges checked Sep 2026 across official price lists, authorized distributors, and multiple US retailers; the Victron 100/20 is usually the cheapest Bluetooth MPPT on the shelf). Per amp, the Tracer and Rover cost less; per feature and firmware maturity, the Victrons punch above their price. Against a ~$25 PWM unit, pay the premium when it's cold, the array is large, or your bank voltage demands it.
 
+{{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="Our MPPT pick" description="The 100V/30A SmartSolar most DIY builds standardize on (per manufacturer spec) — Bluetooth monitoring, lithium presets, and the build quality that made Victron the off-grid default. Not for: arrays whose cold-weather Voc exceeds 100V, or 48V banks without checking the model's voltage range first — the sizing checks in this guide decide that, not the label. The honest tradeoff: it costs more than the EPEver or Renogy budget units, and that premium buys monitoring and build quality you may not need on a small 12V build." button="Check price on Amazon" >}}
+
+
 ## Next logical reads
 
 <a href="solar-components.html" class="text-link">Components overview</a> <a href="solar-system-sizing.html" class="text-link">Sizing guide</a> <a href="mppt-charge-controller-not-charging.html" class="text-link">MPPT controller not charging</a> <a href="solar-panels-series-vs-parallel.html" class="text-link">Series vs parallel panels</a> <a href="solar-output-troubleshooting.html" class="text-link">Low solar output troubleshooting</a> <a href="solar-system-costs.html" class="text-link">Cost breakdown</a>
@@ -144,5 +150,3 @@ Usually yes, if two checks pass: your panel Vmp must sit at least ~5V above your
 {{< faq "Can I use MPPT with lithium batteries?" >}}
 Yes, if the controller has a lithium charging profile — all the models above include LiFePO4 presets. Set charge voltage to your battery maker's spec (commonly 14.2–14.6V for 12V LiFePO4) and confirm a low-temperature charge cutoff — lithium must not be charged below freezing.
 {{< /faq >}}
-
-{{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="Our MPPT pick" description="The 100V/30A SmartSolar most DIY builds standardize on (per manufacturer spec) — Bluetooth monitoring, lithium presets, and the build quality that made Victron the off-grid default. Not for: arrays whose cold-weather Voc exceeds 100V, or 48V banks without checking the model's voltage range first — the sizing checks in this guide decide that, not the label. The honest tradeoff: it costs more than the EPEver or Renogy budget units, and that premium buys monitoring and build quality you may not need on a small 12V build." button="Check price on Amazon" >}}

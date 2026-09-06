@@ -2,6 +2,7 @@
 title = "What Size Solar Generator to Run a Refrigerator?"
 slug = "what-size-solar-generator-run-refrigerator"
 date = 2026-08-19
+pagetype = "informational"
 draft = false
 description = "Measure your fridge's real running watts, surge, and daily Wh, then size a solar generator with honest math — not brand marketing claims."
 image = "/images/what-size-solar-generator-run-refrigerator/img-1.webp"
@@ -130,6 +131,8 @@ Let's run the math for three realistic fridges and turn each into a minimum gene
 </tr>
 </tbody>
 </table>
+
+If the worked examples put your fridge in the ~1,000Wh class, {{< amazon asin="B0D7PPG25F" text="Check price on Amazon" placement="mid-page" >}} — the surge and runtime math below is there if you'd rather verify the starting watts first.
 
 ## Surge: the spec that kills cheap generators
 

@@ -1,4 +1,6 @@
 {{- $asin := .Get "asin" -}}
 {{- $text := .Get "text" | default "Check current price on Amazon" -}}
+{{- $placement := .Get "placement" | default "inline" -}}
 {{- $tag := .Site.Params.amazon_tag | default "slrpwp-20" -}}
-<a href="https://www.amazon.com/dp/{{ $asin }}?tag={{ $tag }}" rel="sponsored nofollow noopener" target="_blank" class="amazon-link">{{ $text }}<span class="sr-only"> (opens in a new tab)</span></a>
+{{- $ptype := .Page.Params.pagetype | default .Page.Section | default "informational" -}}
+<a href="https://www.amazon.com/dp/{{ $asin }}?tag={{ $tag }}" rel="sponsored nofollow noopener" target="_blank" class="amazon-link" data-rybbit-event="affiliate_click" data-rybbit-prop-asin="{{ $asin }}" data-rybbit-prop-placement="{{ $placement }}" data-rybbit-prop-pagetype="{{ $ptype }}">{{ $text }}<span class="sr-only"> (opens in a new tab)</span></a>

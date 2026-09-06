@@ -3,6 +3,7 @@
 title = "Solar Fuse and Breaker Sizing: A Simple Planning Guide (By Circuit)"
 slug = "solar-fuse-and-breaker-sizing"
 date = 2026-05-31
+pagetype = "informational"
 draft = false
 description = "Solar fuse sizing and breaker sizing explained with a circuit-by-circuit planning flow: PV array, controller-to-battery, battery-to-inverter, and service disconnects using DC-rated hardware."
 image = "/assets/images/field-guide/wiring-protection-diagram.jpg"
@@ -215,6 +216,8 @@ This is usually the highest current circuit. It’s also the circuit where place
 
 Even when a disconnect isn’t strictly “required” for a tiny setup, it can be a big quality-of-life improvement for troubleshooting and safe maintenance.
 
+If the circuit table matched the run you're protecting, {{< amazon asin="B08L56RDNP" text="Check price on Amazon" placement="mid-page" >}} — the placement rules and DC-rated checklist below are there if you'd rather verify the whole protection plan first.
+
 ## Sizing using labels (avoid guesswork)
 
 Use equipment specs first. You’re looking for the maximum current the device can output or draw on that circuit.
@@ -293,6 +296,9 @@ If your system lacks clear DC-rated disconnects and correctly placed protection,
 {{< /faq >}}
 
 {{< product-box asin="B08L56RDNP" name="BougeRV 15A MC4 Inline Fuse Kit (5-pk)" label="String-level protection" description="Waterproof IP68 in-line fuse holders for panel strings (per manufacturer spec) — the cheapest insurance a DIY array can buy. Match the fuse rating to your string current. Not for: strings whose Isc × 1.56 exceeds 15A (roughly Isc above ~9.6A), or controller/battery circuits — this page's table sizes those at 20–30A and up. The honest tradeoff: a fixed 15A rating, so verify your exact Isc before buying." button="Check price on Amazon" >}}
+
+Different decision, different aisle: the fuse kit above protects each string; the busbar below is where the protected strings land. If your planning table already has you combining three or more strings, size the busbar with the same math.
+
 {{< product-box asin="B094QWG3VV" name="Blue Sea Systems 2315 100A Mini BusBar (4 Studs)" label="Clean distribution point" description="Four-stud tinned-copper busbar with cover (per manufacturer spec) — the tidy, inspectable alternative to stacked ring terminals that protection devices can actually guard. Not for: the 200–250A battery-to-inverter circuits in the table above (2,000W at 12V) — those need a Class T fuse or MRBF on a larger bus. The honest tradeoff: 100A capacity, so high-current runs outgrow it fast." button="Check price on Amazon" >}}}}
 
 ## Next logical reads

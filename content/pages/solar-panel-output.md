@@ -3,6 +3,7 @@
 title = "Solar Panel Output Calculator (Watts to Watt-hours)"
 slug = "solar-panel-output"
 date = 2026-05-31
+pagetype = "informational"
 draft = false
 description = "Estimate daily solar panel output in watt-hours and kWh. Enter panel watts, peak sun hours, and system efficiency to size batteries and loads."
 image = "/assets/images/field-guide/system-sizing-concept.jpg"
@@ -138,6 +139,8 @@ Use **peak sun hours** for your location, not total daylight. Most US locations 
 Example: 400 W × 4.5 hours × 0.80 = **1,440 Wh/day** (about 43 kWh/month).
 
 System efficiency accounts for real-world losses: heat, wiring voltage drop, inverter conversion, dust, shading, and mismatch. Use 0.75–0.85 for planning; drop to 0.70 for conservative off-grid estimates.
+
+If you would rather measure your panel's real output than estimate it, {{< amazon asin="B018CLOSTC" text="See specs on Amazon" placement="mid-page" >}} — the efficiency-factor guidance below explains what the estimate already accounts for.
 
 ## Choose an efficiency factor
 

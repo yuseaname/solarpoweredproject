@@ -3,6 +3,7 @@
 title = "How Much Do Solar Batteries Cost? A Comprehensive Guide to TCO and ROI"
 slug = "how-much-do-solar-batteries-cost"
 date = 2026-05-31
+pagetype = "informational"
 draft = false
 description = "Discover how much solar batteries cost with our detailed guide on total cost of ownership (TCO), battery types, hidden expenses, incentives, and real-world ROI timelines."
 image = "/images/how-much-do-solar-batteries-cost/hero.webp"
@@ -43,6 +44,8 @@ To help you budget, here is a breakdown of capacity-based pricing:
 
 While hardware prices are significant, the total project cost often includes several other essential line items.
 
+If the capacity tables above already told you which kWh class you need, {{< amazon asin="B084DB36KW" text="Check price on Amazon" placement="mid-page" >}} — the hidden costs and ROI math below are there if you'd rather see the full budget picture first.
+
 ## Hidden Costs & Installation Expenses
 
 Beyond the initial purchase price of the battery hardware, several "hidden" expenses can impact your budget. Permitting fees, necessary electrical upgrades, and ensuring compliance with local regulations can add thousands of dollars to your project. These administrative and infrastructure costs vary significantly by region but are vital components of the total investment.
@@ -81,7 +84,7 @@ Ultimately, choosing a battery system requires balancing your energy needs with 
 
 By weighing these factors, you can transform a complex technical decision into a clear financial strategy.
 
-{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="The budget-tier anchor" description="When sticker shock from turnkey batteries ($15k+) hits, this is the DIY alternative the math points to — the value benchmark for what a kWh of storage should cost." button="Check price on Amazon" >}}
+{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="The budget-tier anchor" description="When sticker shock from turnkey batteries ($15k+) hits, this is the DIY alternative the math points to — the value benchmark for what a kWh of storage should cost. (per manufacturer spec). Not for: loads above the BMS continuous-discharge rating — check the spec sheet for your exact unit's limit — or banks that need turnkey monitoring out of the box. The honest tradeoff: it is a building block, not a turnkey bank — you add the monitoring, the fusing, and the enclosure math." button="Check price on Amazon" >}}
 
 ## Related guides
 

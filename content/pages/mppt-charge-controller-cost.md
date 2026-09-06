@@ -4,6 +4,7 @@ title = "MPPT Charge Controller Cost: Typical Prices + How to Budget"
 slug = "mppt-charge-controller-cost"
 date = 2026-05-31
 reviewed = 2026-09-06
+pagetype = "informational"
 draft = false
 description = "MPPT solar charge controller cost explained: typical price ranges, MPPT vs PWM pricing, and sizing checks to avoid buying the wrong unit."
 image = "/images/mppt-charge-controller-cost/hero.webp"
@@ -144,7 +145,7 @@ It can, depending on charging profiles and monitoring needs. Always confirm comp
 
 <a href="solar-panel-cost-per-watt.html" class="text-link">Solar panel cost per watt</a> <a href="solar-inverter-cost.html" class="text-link">Solar inverter cost</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="solar-components.html" class="text-link">Solar components explained</a>
 
-<a href="best-mppt-charge-controllers.html" class="text-link">Best MPPT charge controllers (2026 buyer guide)</a>
+<a href="best-mppt-charge-controllers.html" class="text-link">Best MPPT charge controllers (2026 buyer guide)</a> <a href="epever-tracer-4210an-review.html" class="text-link">EPEver Tracer 4210AN review</a> <a href="victron-smartsolar-100-30-review.html" class="text-link">Victron 100/30 review</a> <a href="victron-smartsolar-100-20-review.html" class="text-link">Victron 100/20 review</a>
 
 ---
 

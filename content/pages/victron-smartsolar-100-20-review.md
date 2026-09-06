@@ -3,6 +3,7 @@ title = "Victron SmartSolar MPPT 100/20 Review: Specs, Sizing Fit, and Honest Li
 slug = "victron-smartsolar-100-20-review"
 date = 2026-09-05
 reviewed = 2026-09-06
+pagetype = "review"
 draft = false
 description = "Spec-based review of the Victron SmartSolar 100/20: 100V input, 20A output, which first arrays it honestly fits, and when the 100/30 earns its extra cost."
 image = "/images/victron-smartsolar-100-20-review/hero.webp"
@@ -25,7 +26,7 @@ The Victron SmartSolar 100/20 is a 100V-input, 20A-output MPPT charge controller
 
 **What this review is (and isn't).** This is a **spec-based review**. We did not bench-test this unit, and no manufacturer sent it to us. Every number below comes from the manufacturer's published documentation, marked "per manufacturer spec" with the retrieval date; warranty terms come from the manufacturer's warranty page. How products earn a mention on this site: <a href="/pages/how-we-recommend.html" class="text-link">how we recommend</a>.
 
-Already know your array lands under the 20A gate? {{< amazon asin="B075NPQHQK" text="Check price on Amazon" >}} — the full spec table, gate math, and warranty terms are below if you want to run the numbers first.
+Already know your array lands under the 20A gate? {{< amazon asin="B075NPQHQK" text="Check price on Amazon" placement="early-cta" >}} — the full spec table, gate math, and warranty terms are below if you want to run the numbers first.
 
 ## Key specifications
 

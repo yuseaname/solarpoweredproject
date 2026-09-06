@@ -3,6 +3,7 @@
 title = "Pure Sine Wave vs Modified Sine Wave Inverter (Which to Choose?)"
 slug = "pure-sine-vs-modified-sine-inverter"
 date = 2026-05-31
+pagetype = "comparison"
 draft = false
 description = "Compare pure sine wave vs modified sine wave inverters for solar and RV use: device compatibility, efficiency, noise, and when each makes sense."
 image = "/images/pure-sine-vs-modified-sine-inverter/hero.webp"
@@ -238,6 +239,8 @@ The price gap between pure sine and modified sine has narrowed dramatically. Her
 - You're using it temporarily (job site, camping weekend) rather than daily
 
 **The practical reality:** Most people end up buying pure sine eventually. Modified sine buyers often upgrade after their first laptop charger melts or their fridge compressor dies. If you can afford the $40–$60 premium at the 1000W size (2026 bands, see our <a href="/pages/solar-inverter-cost.html" class="text-link">solar inverter cost guide</a>), skip the experiment.
+
+If the decision guide put you in the pure-sine column, {{< amazon asin="B081CLPDT9" text="Check price on Amazon" placement="mid-page" >}} — the sizing and common-mistakes sections below are there if you want to double-check before you buy.
 
 ## Does waveform affect inverter sizing?
 

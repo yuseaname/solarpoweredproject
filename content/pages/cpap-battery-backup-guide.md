@@ -2,6 +2,7 @@
 title = "CPAP Battery Backup: Sizing and Run Times"
 slug = "cpap-battery-backup-guide"
 date = 2026-08-19
+pagetype = "informational"
 draft = false
 description = "How many nights will a battery run your CPAP? Learn the one formula, read your machine's label, and size a backup for outages and travel — with honest math and zero medical claims."
 image = "/images/cpap-battery-backup-guide/img-1.webp"

@@ -3,6 +3,7 @@
 title = "MPPT Charge Controller Not Charging: Troubleshooting Checklist (PV Voltage, Settings)"
 slug = "mppt-charge-controller-not-charging"
 date = 2026-05-31
+pagetype = "informational"
 draft = false
 description = "MPPT charge controller not charging? Use this safe checklist to diagnose PV voltage issues, wiring configuration, controller limits, charging stages, settings, and battery protections."
 image = "/images/mppt-charge-controller-not-charging/hero.webp"
@@ -74,6 +75,8 @@ Start with the obvious because it's usually correct. If you have a monitoring ap
 **What to check:** Look at the controller's PV watts display. On a clear day, a 400W array should show 250–380W at midday. If you're seeing under 50W in full sun, the problem is input-side, not the controller.
 
 <a href="solar-output-troubleshooting.html" class="text-link">Low solar output troubleshooting</a> <a href="solar-panel-cleaning-cost.html" class="text-link">Solar panel cleaning cost</a>
+
+If Step 1 is as far as you can get without real numbers, {{< amazon asin="B018CLOSTC" text="Check price on Amazon" placement="mid-page" >}} — the remaining steps below walk the full diagnosis with and without a meter.
 
 ## Step 2: Confirm PV voltage is high enough {#step2}
 
@@ -172,7 +175,7 @@ Before buying a replacement, confirm the controller is actually the problem. **M
 
 See <a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM</a> to confirm you're buying the right controller type for your setup.
 
-For specific replacement models matched to array watts and battery voltage, see the <a href="best-mppt-charge-controllers.html" class="text-link">best MPPT charge controllers</a> guide.
+For specific replacement models matched to array watts and battery voltage, see the <a href="best-mppt-charge-controllers.html" class="text-link">best MPPT charge controllers</a> guide. Three of the picks — the <a href="epever-tracer-4210an-review.html" class="text-link">EPEver Tracer 4210AN review</a>, the <a href="victron-smartsolar-100-30-review.html" class="text-link">Victron 100/30 review</a>, and the <a href="victron-smartsolar-100-20-review.html" class="text-link">Victron 100/20 review</a> — have standalone reviews with the worked sizing math.
 
 ## Common mistakes
 
