@@ -33,7 +33,7 @@ Across the five brands we checked: **nearly every 12V 100Ah LiFePO4 claims ~1,28
 
 ## The spec table: five brands, published numbers only
 
-The models are the standard "100Ah deep-cycle" offering from each brand: Renogy Core Mini 12.8V 100Ah, LiTime 12V 100Ah Group 24, Redodo 12V 100Ah Group 31 Basic, ECO-WORTHY 12V 100Ah (SOC display), ExpertPower EP12100. Numbers come from the brands' own product pages unless marked **verify before buying**. Cycle life is always labeled **claimed** — it's a manufacturer test claim, not our measurement.
+The models are the standard "100Ah deep-cycle" offering from each brand: Renogy Core Mini 12.8V 100Ah, LiTime 12V 100Ah Group 24, Redodo 12V 100Ah Group 31 Basic, ECO-WORTHY 12V 100Ah (SOC display), ExpertPower EP12100. Numbers come from the brands' own product pages (retrieved 2026-09-05; re-verify against the current datasheet before purchase — specs drift) unless marked **verify before buying**. Cycle life is always labeled **claimed** — it's a manufacturer test claim, not our measurement.
 
 | Brand / model | Capacity | BMS continuous discharge | Claimed cycles | Weight | Warranty | Cold protection |
 |---|---|---|---|---|---|---|

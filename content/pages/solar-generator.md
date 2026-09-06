@@ -104,7 +104,7 @@ For medical loads (CPAP, concentrators, insulin refrigeration), add a small gas 
 
 Cold changes the rules on both sides of the system. First, the battery: **most LiFePO4 packs refuse or strictly limit charging below 0°C / 32°F** — the BMS uses a low-temperature cutoff to prevent lithium plating, which permanently damages cells. Discharging is usually fine down to about **-20°C**, though capacity and current sag. So keep the battery above freezing: bring the station indoors, or insulate it (an insulated cooler with a sealed heat pack works; never block the vents), and don't connect panels until the unit reports its charging temperature is in range. Some stations have self-heating cells; plan as if yours does not.
 
-Panels are the pleasant surprise: crystalline cells actually run *more* efficiently in cold, so voltage and per-sun-hour output rise slightly in frost. The winter hit is the calendar, not the thermometer — northern states get **2–3 peak sun hours in winter versus 5–6 in summer**:
+Panels are the pleasant surprise: crystalline cells actually run *more* efficiently in cold, so voltage and per-sun-hour output rise slightly in frost. The winter hit is the calendar, not the thermometer — northern states get **2–3 peak sun hours in winter versus 5–6 in summer** (the full regional table and calculator: <a href="/pages/peak-sun-hours-by-state.html" class="text-link">peak sun hours by state</a>):
 
 | Season (northern states) | Peak sun hours | 200W panel daily yield (×0.8 derating) |
 | :--- | :--- | :--- |

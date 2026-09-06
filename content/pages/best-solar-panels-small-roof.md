@@ -36,7 +36,7 @@ related = [
 | **Q CELLS Q.TRON BLK M-G2+** | Value-tier leader (N-type TOPCon) | 415–440 W | ~22.1% at 425 W | −0.30 %/°C | 25 yr / 25 yr | The widely-stocked US default: most of the premium specs at value pricing |
 | **Any listed 21–22% module** | Generic value tier | 390–420 W | 21–22% | −0.34 to −0.30 %/°C | 12–25 yr / 25 yr | Whatever your local installer stocks and warranties — brand matters less than the spec sheet |
 
-*All specs per manufacturer spec sheets and product pages (retrieved September 2026); trims vary by market. Warranties are the manufacturers' published terms — read the actual warranty document before signing, because labor coverage and degradation floors differ.*
+*All specs per manufacturer spec sheets and product pages (retrieved 2026-09-05; re-verify against the current datasheet — panel lineups change often); trims vary by market. Warranties are the manufacturers' published terms — read the actual warranty document before signing, because labor coverage and degradation floors differ.*
 
 **One availability caveat, honestly:** Maxeon's residential panels are primarily distributed internationally in 2026, and US availability tightened after the company's restructuring — if a Maxeon quote appears, verify current warranty support with the installer. REC and Q CELLS have broad US installer channels.
 

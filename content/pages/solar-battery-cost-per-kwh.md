@@ -72,6 +72,8 @@ If you want to compare long-term value, estimate total lifetime energy delivered
 
 Then compare price to lifetime usable kWh. This doesn’t need to be perfect to be useful; it prevents obvious mismatches where a cheaper battery has much lower usable capacity or a far shorter lifespan.
 
+**Worked example — per-cycle and per-kWh, the site's standard pair.** A 12V 100Ah LiFePO4 (1.28 kWh nameplate ≈ 1.0 usable at 80% DoD) at the DIY equipment band of roughly $150–300, cycled 4,000 times, delivers ~4,000 usable kWh over its life ≈ **$0.04–0.08 per usable kWh** — call it a few cents per full cycle. The lead-acid counterpoint: a ~$200-class 100Ah AGM holds ~0.6 kWh usable and survives ~600 cycles ≈ 360 lifetime kWh ≈ **~$0.56 per usable kWh**. Same math, roughly a 7× gap in delivered energy per dollar — the full derivation is on our <a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid comparison</a>.
+
 ## What drives battery price the most
 
 ### 1) Chemistry
