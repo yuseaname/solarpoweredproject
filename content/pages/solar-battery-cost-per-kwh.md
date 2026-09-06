@@ -122,7 +122,7 @@ The decision rule that falls out: **if the budget unit's warranty and BMS specs 
 
 ## When you should not buy battery capacity at all
 
-Three honest cases where the answer is "no battery now": (1) **grid-tied economics** — if the goal is bill savings in a state with full retail net metering, a battery's payback is usually longer than its warranty (the [net metering explainer](/pages/solar-net-metering-explained.md) shows the credit math that decides this); (2) **occasional-outage homes** — a $400 inverter-generator bridges 10 outages for a tenth of a battery bank's cost (the [battery vs generator](/pages/solar-battery-backup-vs-generator.html) table works the break-even); (3) **loads you haven't measured** — a battery bought before a [load calculation](/pages/how-to-calculate-solar-load.html) is a guess wearing a price tag.
+Three honest cases where the answer is "no battery now": (1) **grid-tied economics** — if the goal is bill savings in a state with full retail net metering, a battery's payback is usually longer than its warranty (the [net metering explainer](/pages/solar-net-metering-explained.html) shows the credit math that decides this); (2) **occasional-outage homes** — a $400 inverter-generator bridges 10 outages for a tenth of a battery bank's cost (the [battery vs generator](/pages/solar-battery-backup-vs-generator.html) table works the break-even); (3) **loads you haven't measured** — a battery bought before a [load calculation](/pages/how-to-calculate-solar-load.html) is a guess wearing a price tag.
 
 ## FAQ
 
