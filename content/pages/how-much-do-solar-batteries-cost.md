@@ -53,7 +53,7 @@ Fortunately, there are several ways to offset these high upfront expenses.
 
 ## Government Incentives & Tax Credits That Lower Costs
 
-One of the most effective ways to reduce the cost of solar batteries is to leverage government incentives and tax credits. For example, the Federal Investment Tax Credit (ITC) allows homeowners to deduct a significant portion of their solar battery system costs from their federal taxes, effectively lowering the net price of the installation.
+Note first: the 30% federal Investment Tax Credit (ITC) expired December 31, 2025, so a battery installed in 2026 gets no federal credit — budget accordingly. Batteries installed in 2025 (solar-paired or standalone) keep the 30% credit on that year's tax return. What still moves the net price today are state credits, rebates, and utility programs.
 
 Beyond federal help, many states offer specific rebates and utility programs to decrease installation expenses. Some regions also implement net metering adjustments, which allow you to sell excess stored energy back to the grid at favorable rates. These local programs can substantially accelerate your ROI timelines.
 

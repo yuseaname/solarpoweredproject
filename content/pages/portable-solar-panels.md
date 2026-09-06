@@ -85,11 +85,11 @@ Furthermore, you must account for a 20-30% loss in the charging process (convers
 
 **The Formula:**
 
-$$\text{Required Panel Wattage} = \frac{\text{Daily Wh Requirement}}{\text{Sun Hours} \times \text{Efficiency Factor (0.75)}}$$
+**Required Panel Wattage = Daily Wh Requirement ÷ (Sun Hours × 0.75)**
 
 **Using our 575Wh example:**
 
-$$\frac{575}{4 \times 0.75} = \frac{575}{3} = 191.6\text{ Watts}$$
+**575 ÷ (4 × 0.75) = 575 ÷ 3 ≈ 192 Watts**
 
 In this scenario, a 100W panel will fail you. You would need at least a 200W solar array to ensure your battery stays charged even on slightly overcast days.
 
@@ -98,7 +98,7 @@ In this scenario, a 100W panel will fail you. You would need at least a 200W sol
 Portable solar pricing is generally measured in "Price per Watt."
 
 -   **Budget Tier ($3 - $5 per watt):** Often found in generic brands on large marketplaces. These may use lower-grade cells and have less durable waterproofing.
--   **Mid-Range Tier ($6 - $10 per watt):** Brands like Renogy or Bougevert. These offer reliable monocrystalline cells and better weather resistance (IP67 ratings).
+-   **Mid-Range Tier ($6 - $10 per watt):** Brands like Renogy or BougeRV. These offer reliable monocrystalline cells and better weather resistance (IP67 ratings).
 -   **Premium Tier ($12+ per watt):** Brands like Goal Zero or Jackery. You are paying for integrated battery ecosystems, highly efficient ETFE coatings, and superior customer support.
 
 {{< product-box asin="B07GF5JY35" name="Renogy 100W 12V Monocrystalline Panel" label="Solid mid-range pick" description="The reliable mid-tier standard — monocrystalline cells, IP67 weather rating, and the compatibility footprint (brackets, branch connectors) every RV build already assumes." button="Check price on Amazon" >}}
