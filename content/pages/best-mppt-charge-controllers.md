@@ -66,6 +66,8 @@ The Rover 40 sits at the top of the 100 V input class. If your array runs at hig
 
 **Where it stings:** 100 V input means you will run out of headroom faster than with a 150 V controller as arrays grow. Firmware updates are slower to arrive.
 
+**Full review:** <a href="renogy-rover-40a-review.html" class="text-link">Renogy Rover 40A review</a> (the 40 A gate math, cold-weather check, warranty terms).
+
 ## The Victron step-up
 
 This is the class where most DIY off-grid systems actually land — enough features that you do not need a separate monitor, enough current rating for a real cabin or RV build.
