@@ -100,7 +100,7 @@ Panel efficiency is the percentage of incoming sunlight converted to DC power at
 
 ### Equalization
 
-A deliberate, controlled overcharge of a flooded lead-acid battery that rebalances cells and breaks up sulfate crystals — typically 15.0-15.5V with loads removed and the enclosure ventilated. It is essential for flooded batteries (every 1-3 months in solar service) but forbidden on sealed batteries and on lithium: overvoltage vents the case or damages cells. The [battery maintenance guide](/pages/solar-battery-maintenance-guide.html) has the full procedure.
+A deliberate, controlled overcharge of a flooded lead-acid battery that rebalances cells and breaks up sulfate crystals — typically 15.0-15.5V with loads removed and the enclosure ventilated. Flooded batteries need it every 1-3 months in solar service but forbidden on sealed batteries and on lithium: overvoltage vents the case or damages cells. The [battery maintenance guide](/pages/solar-battery-maintenance-guide.html) has the full procedure.
 
 ### Grid-tied vs off-grid vs hybrid
 

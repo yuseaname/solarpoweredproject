@@ -22,7 +22,7 @@ Understanding how much energy you can generate based on the physical footprint o
 
 ## Understanding the Fundamentals: Watts vs. Watt-Hours
 
-Before calculating square footage, it is vital to distinguish between power capacity (Watts) and energy production (Watt-hours).
+Before calculating square footage, keep power capacity (Watts) and energy production (Watt-hours) separate.
 
 ### Power Capacity (Watts)
 

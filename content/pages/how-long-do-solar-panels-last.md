@@ -126,7 +126,7 @@ Most residential solar panels are tested to withstand significant impacts, inclu
 
 ### Does the warranty cover everything?
 
-No. Most warranties are split into two types: a **Product Warranty** (covering manufacturing defects like broken glass or cell flaws) and a **Performance Warranty** (guaranteeing the panels will produce a certain percentage of their original power for a set number of years). It is vital to read both.
+No. Most warranties are split into two types: a **Product Warranty** (covering manufacturing defects like broken glass or cell flaws) and a **Performance Warranty** (guaranteeing the panels will produce a certain percentage of their original power for a set number of years). Read both.
 
 ## Related guides
 

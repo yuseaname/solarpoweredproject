@@ -116,6 +116,25 @@ The most expensive mistakes happen when parts are chosen before you know your da
 
 <a href="cabin-solar-sizing.html" class="text-link">How to size a solar system for a cabin</a> <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a>
 
+
+## A worked cabin: 2 kWh/day weekend place, priced end-to-end
+
+The tiers above make more sense with arithmetic attached. Take the classic weekend cabin — fridge, lights, water pump, laptop, phone, a fan — measured honestly at **~2,000Wh/day** (the [load worksheet](/pages/how-to-calculate-solar-load.html) takes 20 minutes):
+
+| Component | Sizing decision | Cost (this page's bands, Sep 2026) |
+| :-- | :-- | :-- |
+| Battery | 2 kWh usable → 2 × 100Ah LiFePO4 (2.56 kWh nameplate) | $400–$600 |
+| Panels | 2 kWh ÷ 4 sun-h ÷ 0.8 ≈ 625W → 6–7 × 100W or 2 × 350W | $450–$750 |
+| Controller | 625W ÷ 12.8 × 1.25 ≈ 61A → 60A class | $200–$350 |
+| Inverter | biggest load + surge (1,000W class) | $150–$300 |
+| Wiring + protection | per the [wiring cost page](/pages/solar-wiring-and-protection-cost.html) | $230–$490 |
+| Mounting + misc | roof rack or ground rails, MC4, breakers | $100–$250 |
+| **Total** | | **$1,530–$2,740** |
+
+That lands exactly on this page's "essential weekend cabin" tier — which is the point: **the tier is not a price tag, it's the output of six sizing decisions.** Change the inputs and watch the money move: add a 1,500W microwave habit and the inverter doubles; winter usage at 2.5 sun-hours pushes panels to 1,000W+; a 3-day-autonomy battery adds ~$400. (Component arithmetic uses each [cost page's](/pages/solar-system-costs.html) published bands; totals are editorial estimates.)
+
+**The two money levers that actually matter:** depth-of-discharge discipline (a [monitor](/pages/solar-battery-monitoring-guide.html) costs $100 and protects a $500 bank), and buying panels *last* — after the load list is final — so you buy the array once.
+
 ## Where cabin solar systems typically overspend
 
 ### 1) Oversized inverter

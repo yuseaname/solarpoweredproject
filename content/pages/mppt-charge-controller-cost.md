@@ -115,6 +115,28 @@ Estimate your array watts and divide by battery voltage to estimate charge curre
 
 <a href="solar-panel-output.html" class="text-link">Solar panel output calculator</a> <a href="solar-system-sizing.html" class="text-link">System sizing overview</a>
 
+
+## A worked example: what one 400W upgrade actually costs
+
+Take the most common DIY build — 400W of panels on a 12V bank — and price the controller honestly across the page's bands:
+
+- **Array math first:** 400W ÷ 12.8V × 1.25 ≈ **39A** of charge current to cover (the 1.25 headroom rule from our [controller sizing page](/pages/charge-controller-sizing.html)). That rules out the 30A class immediately — not because 30A won't *run* 400W, but because you'd be at the ceiling every sunny hour.
+- **The honest match is a 40A-class unit:** the budget tier ($95–$250 band) covers the EPEver Tracer 4210AN and Renogy Rover 40A (both reviewed on this site), and the mid tier ($250–$600) covers the Victron 100/30's bigger siblings if you want the ecosystem.
+- **Add the accessories people forget:** a $15–$40 breaker or fuse pair on the PV and battery sides (required, not optional — the [fuse sizing page](/pages/solar-fuse-and-breaker-sizing.html) works the amps), and $10–$30 of appropriately-gauged wire. A "$160 controller" is realistically a **$200–$260 job**.
+
+| Your array (12V bank) | Charge current (×1.25 rule) | Controller class | Realistic spend incl. fusing |
+| :-- | :-- | :-- | :-- |
+| 200W | ~20A | 20A ($95–$160) | $120–$200 |
+| 400W | ~39A | 40A ($120–$260) | $200–$300 |
+| 800W | ~78A | 60A+ or two units ($250–$600+) | $320–$700 |
+| 48V bank | — | 150V class ($600–$1,200+) | $700–$1,400 |
+
+*Controller prices from this page's bands; accessory figures are editorial estimates from typical US retail, checked September 2026 — Amazon shows current pricing on the linked units.*
+
+## When you can skip the expensive controller
+
+Under ~200W of array on a 12V battery used seasonally (a shed light system, a trickle-topper), a **$20–$30 PWM controller is the honest buy** — the harvest difference at that scale is a few watt-hours a day, and MPPT's price premium never pays back. The threshold math is in [MPPT vs PWM](/pages/mppt-vs-pwm.html). And if you're buying a **power station** rather than building, the controller is already inside it — don't buy a second one.
+
 ## Common mistakes that raise total controller cost
 
 -   **Buying based on “amps only”:** input voltage limits matter as much as current rating.

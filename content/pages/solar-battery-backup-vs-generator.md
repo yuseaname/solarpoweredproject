@@ -18,7 +18,7 @@ related = [
 
 {{< affiliate-disclosure >}}
 
-**Short answer:** pick a **battery** if your outages are short or frequent, noise and exhaust matter (HOA, close neighbors, indoor equipment like a CPAP), or you already have solar — a battery makes the panels useful during an outage and silent backup automatic. Pick a **generator** if your outages run multi-day, your loads include a well pump, electric heat, or central AC, or the budget per protected watt is the constraint. Homes with both risks often land on the hybrid: a small battery for seamless essentials plus a generator for the long tail. The math and the decision checklist are below.
+**Short answer:** pick a **battery** if your outages are short or frequent, noise and exhaust matter (HOA, close neighbors, indoor equipment like a CPAP), or you already have solar — a battery makes the panels useful during an outage and silent backup automatic. Pick a **generator** if your outages run multi-day, your loads include a well pump, electric heat, or central AC, or the budget per protected watt is the constraint. Homes with both risks often land on the hybrid: a small battery for essentials plus a generator for the long tail. The math and the decision checklist are below.
 
 ## Key takeaways
 
@@ -52,7 +52,7 @@ related = [
 
 **Generator direction — what does fuel actually cost per outage day?** A portable generator's spec sheet lists runtime at 25% and 50% load; a mid-size portable at light load is on the order of a **few gallons of gasoline per day** (planning estimate — check the specific unit's runtime chart, fuel curves differ widely). A standby unit on propane or natural gas burns by the hour per its spec sheet, and the honest planning question is not the gallon price but whether the **fuel supply survives the event**: gas stations lose power too, roads close, and propane deliveries pause. That is the failure mode a battery never has — and the one a generator answers with "as long as the tank lasts."
 
-**Cost per protected day, honestly.** Amortizing either purchase over outage days only produces decades-long payback numbers — both are resiliency purchases. The fair comparison is per *scenario*: for a home with several short outages a year and a solar array already on the roof, the battery's marginal cost buys seamless, silent, automatic coverage plus daily time-of-use value; for a home that loses power for a week at a time, the generator's band buys days of *real* whole-house power that a 10–15 kWh battery physically cannot supply. Different products for different failure modes.
+**Cost per protected day, honestly.** Amortizing either purchase over outage days only produces decades-long payback numbers — both are resiliency purchases. The fair comparison is per *scenario*: for a home with several short outages a year and a solar array already on the roof, the battery's marginal cost buys silent, automatic coverage plus daily time-of-use value; for a home that loses power for a week at a time, the generator's band buys days of *real* whole-house power that a 10–15 kWh battery physically cannot supply. Different products for different failure modes.
 
 ## The honest caveats
 
@@ -78,7 +78,7 @@ Every year, portable generators kill people through carbon monoxide — an odorl
 
 ## The hybrid: battery for the blink, generator for the long tail
 
-The strongest resilience design pairs them: a modest battery carries the seamless essentials (router, fridge, CPAP, lights) through the routine outages silently and automatically, while a generator sits in reserve for the multi-day event, charging the battery and carrying the heavy loads. The battery spares the generator most of its run-hours (and the neighborhood most of its noise); the generator removes the battery's runtime ceiling. The costs are roughly additive and the wiring needs a transfer strategy that supports both — which makes the hybrid an installer conversation, not a bolt-on. Ask any hybrid quote the five questions in our <a href="/pages/best-solar-batteries-2026.html" class="text-link">home battery guide</a>.
+The strongest resilience design pairs them: a modest battery carries the essentials (router, fridge, CPAP, lights) through the routine outages silently and automatically, while a generator sits in reserve for the multi-day event, charging the battery and carrying the heavy loads. The battery spares the generator most of its run-hours (and the neighborhood most of its noise); the generator removes the battery's runtime ceiling. The costs are roughly additive and the wiring needs a transfer strategy that supports both — which makes the hybrid an installer conversation, not a bolt-on. Ask any hybrid quote the five questions in our <a href="/pages/best-solar-batteries-2026.html" class="text-link">home battery guide</a>.
 
 ## Decision guide: a checklist
 
@@ -109,7 +109,7 @@ Yes — fatally, from carbon monoxide. CPSC guidance: outdoors only, at least 20
 {{< /faq >}}
 
 {{< faq "Which is cheaper in the long run?" >}}
-Per protected watt of heavy, multi-day backup: the generator. For seamless daily convenience with solar synergy: the battery. Neither earns its cost back on outage savings alone — treat both as insurance, and let your outage profile pick the product.
+Per protected watt of heavy, multi-day backup: the generator. For daily convenience with solar synergy: the battery. Neither earns its cost back on outage savings alone — treat both as insurance, and let your outage profile pick the product.
 {{< /faq >}}
 
 {{< faq "Can I add a battery to a generator setup (or vice versa)?" >}}

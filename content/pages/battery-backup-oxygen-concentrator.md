@@ -19,7 +19,7 @@ related = [
 
 ## Quick answer
 
-A home oxygen concentrator is a **continuous 300–600W load** (read the label on YOUR unit — the class, not the brand, decides everything). That makes battery backup honest arithmetic: a 1,000Wh-class power station runs a 300W concentrator about **3 hours**; a 2–3kWh class runs it **6–10 hours**. No battery alone covers a multi-day outage — the honest plan is **layered**: battery for seamless short outages, oxygen tanks as the non-electrical fallback, and a generator for the long tail. **This page is electrical math, not medical advice — plan backup with your oxygen supplier, who is also the right source for tank quantities and delivery.**
+A home oxygen concentrator is a **continuous 300–600W load** (read the label on YOUR unit — the class, not the brand, decides everything). That makes battery backup honest arithmetic: a 1,000Wh-class power station runs a 300W concentrator about **3 hours**; a 2–3kWh class runs it **about 5.5–8.5 hours** (per the table below). No battery alone covers a multi-day outage — the honest plan is **layered**: battery for short outages, oxygen tanks as the non-electrical fallback, and a generator for the long tail. **This page is electrical math, not medical advice — plan backup with your oxygen supplier, who is also the right source for tank quantities and delivery.**
 
 **How to read this page:** we test nothing and sell nothing on this page. Draw figures are typical classes from machine labels and user communities (sources noted where cited); your unit's nameplate wattage overrides every number here. For medical questions — required flow rates, backup duration your provider recommends, tank handling — your oxygen supplier and prescriber are the authorities; do not let an electrical guide override them.
 
@@ -43,7 +43,7 @@ Two catches the table hides: **surge** — a concentrator's compressor start can
 
 ## The layered plan (what actually covers a multi-day outage)
 
-1.  **Battery/power station — the seamless layer.** Sized for the *common* outage: enough hours to bridge short cuts without anyone touching anything. For a 450W machine wanting 4 seamless hours: ~2kWh usable.
+1.  **Battery/power station — the short-outage layer.** Sized for the *common* outage: enough hours to bridge short cuts without anyone touching anything. For a 450W machine wanting 4 hours: ~2kWh usable.
 2.  **Oxygen tanks — the non-electrical layer.** Tanks work with no power at all and are the standard emergency backup. Quantity and delivery scheduling come from your oxygen supplier — this is the layer that covers the battery's runtime ceiling, and only your provider can say how much backup you should keep on hand.
 3.  **Generator — the long-tail layer.** For multi-day regional outages (hurricane and ice belts), a generator recharges the battery and carries the house; the honest tradeoffs (fuel, CO safety, noise) are in <a href="/pages/solar-battery-backup-vs-generator.html" class="text-link">battery backup vs generator</a>.
 4.  **POC owners:** your math is charging, not running — size a station to refill the POC's own batteries several times over (a 300–500Wh station recharges a typical POC battery many times).
@@ -55,7 +55,7 @@ If you're backing up a CPAP rather than a concentrator, the math is far friendli
 ## Frequently Asked Questions
 
 {{< faq "How long will a Jackery/BLUETTI-class 1,000Wh station run my concentrator?" >}}
-About 3 hours at a 300W draw, less at higher flow rates (usable ≈ 850Wh ÷ your label's watts). Check the station's surge rating against the compressor start too. If you need seamless overnight coverage at 450W, you're in the 4kWh class — which is installed-battery or generator conversation.
+About 3 hours at a 300W draw, less at higher flow rates (usable ≈ 850Wh ÷ your label's watts). Check the station's surge rating against the compressor start too. If you need overnight coverage at 450W, you're in the 4kWh class — which is installed-battery or generator conversation.
 {{< /faq >}}
 
 {{< faq "Can solar panels run a concentrator directly?" >}}

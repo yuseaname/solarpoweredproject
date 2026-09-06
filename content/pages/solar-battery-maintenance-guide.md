@@ -98,7 +98,7 @@ The main "maintenance" for sealed lead-acid is monitoring. Keep terminals clean 
 
 ## Lithium (LiFePO4) maintenance
 
-Lithium iron phosphate batteries have transformed off-grid solar. They offer 85% to 100% depth of discharge (versus 50% max for lead-acid), round-trip efficiency of 95% (versus 80–85% for lead-acid), and lifespans of 10 to 15 years or 4,000 to 6,000 cycles. They're also nearly maintenance-free — no watering, no equalization, no terminal corrosion from vented gas.
+Lithium iron phosphate batteries changed the economics of off-grid solar. They offer 85% to 100% depth of discharge (versus 50% max for lead-acid), round-trip efficiency of 95% (versus 80–85% for lead-acid), and lifespans of 10 to 15 years or 4,000 to 6,000 cycles. They're also nearly maintenance-free — no watering, no equalization, no terminal corrosion from vented gas.
 
 But lithium has one hard rule that catches people off guard: **never charge a LiFePO4 battery below 0°C / 32°F.** Charging below freezing causes lithium plating on the anode, which permanently destroys capacity and can create an internal short — a fire risk. If your battery bank lives in an unheated shed in a cold climate, you need either:
 
@@ -125,7 +125,7 @@ How deeply you discharge your batteries before recharging — depth of discharge
 
 For lead-acid, discharging below 50% regularly will cut lifespan in half or worse. A bank that should run 8 years might die in 3. If you need to regularly discharge deeper than 50%, you either need a larger bank or you should switch to lithium. Use our <a href="battery-capacity.html" class="text-link">battery capacity calculator</a> to size correctly.
 
-Lithium is far more forgiving — you can discharge to 80% or even 100% daily with minimal lifespan penalty. This is why a 100Ah lithium battery effectively delivers more usable energy than a 200Ah lead-acid bank: the lead-acid unit only gives you 100Ah of safe discharge, while the lithium gives you 80–100Ah.
+Lithium is far more forgiving — you can discharge to 80% or even 100% daily with minimal lifespan penalty. This is why a 100Ah lithium battery effectively matches a 200Ah lead-acid bank: the lead-acid unit only gives you 100Ah of safe discharge, and the lithium gives you 80–100Ah — at half the weight, and it holds that output better as it discharges.
 
 ## Winter care
 

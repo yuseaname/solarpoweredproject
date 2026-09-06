@@ -101,6 +101,29 @@ In grid-tied systems without backup, batteries may be optional. In off-grid or w
 
 {{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="The $/kWh reference point" description="The battery we benchmark cost-per-kWh math against: 1.28 kWh nominal (100Ah at 12.8V, per manufacturer spec), thousands of cycles, and a built-in BMS — the datasheet numbers behind realistic DIY cost models. Not for: whole-home grid-tied backup or 24V/48V banks without matching series/parallel wiring decisions — this is a 12V building block, and this page's usable-kWh and lifetime-kWh math is exactly how you check whether one of these (or several) fits. The honest tradeoff: DIY pricing beats turnkey quotes, but you take on the sizing, wiring, and battery-management work yourself." button="Check price on Amazon" >}}
 
+
+## A worked comparison: two batteries, one number that matters
+
+Run the page's own method on the two purchases DIYers actually weigh — using list-price-class figures from our [100Ah brand comparison](/pages/lifepo4-100ah-brand-comparison.html) (retrieved 2026-09-06; Amazon shows current prices):
+
+**Budget 100Ah LiFePO4 (~$170 class):** 1.28 kWh nameplate × 100% usable × 4,000 claimed cycles = **5,120 lifetime usable kWh** → roughly **$0.033 per lifetime usable kWh** (before any discounting of the cycle claim).
+**Premium 100Ah LiFePO4 (~$300 class):** same 1.28 kWh × 4,000+ claimed cycles = 5,120+ kWh → **~$0.059 per lifetime usable kWh**, buying a longer warranty, a known BMS pedigree, and (in some models) low-temp protection.
+
+The decision rule that falls out: **if the budget unit's warranty and BMS specs check out on paper, the premium unit has to justify ~2× the per-kWh cost with something you can name** — warranty years, cold protection, serviceability. If you can't name it, buy the cheaper one and add a [shunt monitor](/pages/solar-battery-monitoring-guide.html) to watch it.
+
+| Purchase | Nameplate $/kWh | Lifetime-usable $/kWh (claimed cycles) | What you're really choosing |
+| :-- | :-- | :-- | :-- |
+| Budget LiFePO4 100Ah | ~$133/kWh | ~$0.03 | value, if specs verify |
+| Premium LiFePO4 100Ah | ~$234/kWh | ~$0.06 | warranty + features |
+| Installed home battery | ~$800–$1,400/kWh | n/a (warrantied years, not cycles) | hands-off, permit-included |
+| Lead-acid AGM 100Ah | ~$60–$90/kWh nameplate | ~$0.35–$0.50 (shallow cycles) | only for float/standby duty |
+
+*First row arithmetic shown above; installed-band from this page's ranges; AGM lifetime math per the [li-ion vs lead-acid](/pages/li-ion-vs-lead-acid.html) method — editorial estimates throughout, verify current prices before buying.*
+
+## When you should not buy battery capacity at all
+
+Three honest cases where the answer is "no battery now": (1) **grid-tied economics** — if the goal is bill savings in a state with full retail net metering, a battery's payback is usually longer than its warranty (the [net metering explainer](/pages/solar-net-metering-explained.md) shows the credit math that decides this); (2) **occasional-outage homes** — a $400 inverter-generator bridges 10 outages for a tenth of a battery bank's cost (the [battery vs generator](/pages/solar-battery-backup-vs-generator.html) table works the break-even); (3) **loads you haven't measured** — a battery bought before a [load calculation](/pages/how-to-calculate-solar-load.html) is a guess wearing a price tag.
+
 ## FAQ
 
 {{< faq "Why is lithium more expensive per kWh?" >}}

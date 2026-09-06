@@ -90,6 +90,21 @@ Generator power is only as reliable as your fuel supply and upkeep. If you prefe
 -   **Ignoring ongoing generator costs:** fuel and maintenance add up and affect convenience.
 -   **No backup plan:** even solar-first cabins often benefit from a fallback option for long storms.
 
+
+## The break-even math, worked
+
+"Solar is expensive, generators are cheap" is only true on day one. Run the honest lifecycle on the same 2 kWh/day cabin (bands from this page and our cost guides; fuel and figures are editorial estimates, Sep 2026):
+
+| Cost line | Solar system ($1,500–$2,700 up front) | 2kW inverter generator ($500–$900) |
+| :-- | :-- | :-- |
+| Day-one cash | $1,500–$2,700 | $500–$900 |
+| Fuel (2 kWh/day via ~30% efficient gen ≈ 0.6–0.7 gal/day) | $0 | ~$650/yr at ~$3/gal |
+| Maintenance (oil, plugs, stabilizer) | ~$0 | ~$80–$150/yr |
+| Battery replacement (year 8–10 at 4,000 cycles) | ~$400–$600 once | — |
+| **5-year cost** | **~$1,700–$3,000** | **~$4,000–$6,000** (if used daily) |
+
+Flip the usage and the winner flips: a cabin used **20 weekends a year** (~8 kWh/weekend) burns roughly $170–210/yr in fuel plus $80–150/yr of maintenance — solar's up-front premium pays back in roughly 4–7 years even at low usage, and never for the noise, fumes, and "did I winterize it" anxiety. A cabin used **twice a year**? Buy the generator, skip the array, spend the difference on batteries later if the pattern changes. **The usage frequency is the entire decision** — everything else is detail.
+
 ## FAQ
 
 {{< faq "Is solar worth it for an off-grid cabin?" >}}

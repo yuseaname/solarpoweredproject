@@ -95,6 +95,28 @@ More panel strings can require a combiner box and additional fusing or breakers.
 
 If you’re building off-grid, you’ll also benefit from sizing-first planning: <a href="solar-system-sizing.html" class="text-link">how to size a solar system</a>.
 
+
+## A worked example: the 12V cabin run, priced honestly
+
+The wiring bill is easiest to see on a real layout. A small cabin: panels on the roof 30 feet (one-way) from the charge controller, controller 3 feet from the battery, battery 6 feet from a 2,000W inverter. Using this page's bands:
+
+| Segment | What decides the cost | Realistic spend (editorial, Sep 2026) |
+| :-- | :-- | :-- |
+| Panel run, 10 AWG PV wire, 60 ft round-trip | length × gauge | $50–$90 |
+| MC4 pairs + branch connectors | 2–4 pairs | $15–$35 |
+| Controller-battery, 8 AWG, 6 ft | short run, 30A class | $12–$25 |
+| Battery-inverter, 2/0 AWG, 12 ft round-trip | ampacity for ~180A | $60–$120 |
+| Class T or ANL fuse + holder (inverter line) | AIC rating, not just amps | $40–$90 |
+| Breaker/fuse on PV and controller lines ×2 | DC-rated | $30–$70 |
+| Busbar + lugs + heat-shrink | tidy, inspectable joints | $25–$60 |
+| **Total** | | **$230–$490** |
+
+Notice the shape: on a 12V system the **short, fat, expensive cable is the inverter run** — 6 feet of 2/0 costs more than 60 feet of PV wire, because amps, not distance alone, set the price. That's the same physics our [battery cable sizing](/pages/battery-cable-size-for-inverter.html) page teaches; here it shows up on the invoice.
+
+## What you can safely economize on (and what you can't)
+
+**Can:** buying wire by the spool instead of cut lengths; standardizing on one MC4 brand; a busbar instead of stacked ring terminals; planning runs *before* buying so you buy each gauge once. **Can't:** the DC-rated protection devices (the AC breaker from the hardware store is not a substitute — check the [fuses vs breakers](/pages/solar-fuses-vs-breakers.html) page for why the voltage rating is the trap); the fuse on the battery-to-inverter line (it's the one protecting against a fire, sized per the [fuse chart](/pages/solar-fuse-and-breaker-sizing.html)); and gauge itself — undersized wire is a re-buy at best and a hazard at worst. The honest summary: **economize on length and layout, never on protection or ampacity.**
+
 ## FAQ
 
 {{< faq "Why is solar wiring so expensive?" >}}

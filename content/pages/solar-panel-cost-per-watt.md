@@ -73,6 +73,24 @@ Example: If you expect **$0.65/W** and you need **2,000W** of panels, panel cost
 
 Helpful next step: <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="solar-panel-output.html" class="text-link">Solar panel output calculator</a>
 
+
+## What the $/W number hides (and when it lies)
+
+The dollars-per-watt figure is a comparison tool, not a budgeting tool — three things it silently assumes:
+
+1. **It excludes everything that makes panels work.** Racking, wire, the controller, the permit — a $0.70/W panel is typically 25–40% of a finished DIY system's cost, and under 20% of an installed one. Budget from the [full system breakdown](/pages/solar-system-costs.html), not the panel line.
+2. **It flattens panel class.** A $0.50/W 100W commodity panel and a $1.10/W premium 400W panel both quote "$/W," but the premium unit buys efficiency per square foot, a better degradation curve, and often a 25-year product warranty versus 12–15. If roof space is tight, the higher $/W is the *cheaper* system.
+3. **Small orders pay the same shipping as big ones.** Four panels shipped individually can carry $60–$120 of freight that a pallet-lot spreads out — at 4 × 400W that is effectively +$0.04–$0.08/W. (Editorial estimates, checked Sep 2026.)
+
+| Situation | Honest $/W expectation | Why |
+| :-- | :-- | :-- |
+| 8+ panels, pallet-direct | $0.40–$0.60/W | volume tier of this page's band |
+| 2–6 panels, retail/DIY | $0.70–$1.00/W | the common case; freight included |
+| 1 panel + station | $1.00–$1.20/W | convenience pricing, sometimes worth it |
+| Premium compact (small roof) | up to $1.20+/W | buying area efficiency, not watts |
+
+**When panels are the wrong purchase entirely:** if the goal is "power during outages" rather than daily energy, a battery or station alone delivers more outage-hours per dollar — panels only pay when the sun repeats. The [solar generator guide](/pages/solar-generator.html) splits that decision honestly.
+
 ## What changes solar panel $/W the most
 
 ### 1) Total wattage purchased

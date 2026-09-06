@@ -141,6 +141,19 @@ Example: 2,000 Wh × 2 days ÷ 0.90 ÷ 0.80 = **5,556 Wh total battery bank**.
 
 {{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="1.28 kWh, exactly" description="The formula's most common real-world answer: at 12.8V nominal, 100Ah is 1.28 kWh (per manufacturer spec) — the unit that makes bank-sizing multiplication concrete. Not for: the whole-house example above — a 5,556Wh bank at 48V needs a 48V configuration, and a single 12V unit caps at 1.28kWh usable. The honest tradeoff: 1.28kWh per unit means big banks stack many batteries and add wiring." button="Check price on Amazon" >}}
 
+
+## The full chain: Ah → Wh → usable Wh → runtime (worked three ways)
+
+The calculator above compresses four steps into one click; here is the chain it is running, so you can catch your own mistakes:
+
+**Wh = Ah × V. Usable Wh = Wh × usable-fraction. Runtime = Usable Wh ÷ load watts.**
+
+1. **A 100Ah battery at 12V is 1,200Wh** (100 × 12). At the nominal 12.8V of LiFePO4 it's 1,280Wh — the voltage you multiply by matters, and manufacturers quote the flattering one.
+2. **Usable fraction is a chemistry rule, not a preference:** lead-acid gives ~50%, LiFePO4 gives 80–100%. So that 100Ah lead-acid battery stores 1,200Wh but *delivers* ~600Wh; the 100Ah lithium delivers ~1,020–1,280Wh. Two batteries with the same Ah sticker are not the same battery — this is the entire argument of the [li-ion vs lead-acid comparison](/pages/li-ion-vs-lead-acid.html).
+3. **Runtime divides, it doesn't subtract:** 1,020 usable Wh ÷ a 60W CPAP ≈ 17 hours; the same battery behind an 85%-efficient inverter feeding a 100W AC load delivers 1,020 × 0.85 ÷ 100 ≈ **8.7 hours** — the inverter's cut is real and people forget it.
+
+**Self-test (answers in parentheses):** (a) 200Ah at 12V lead-acid, 50% usable, running a 400W load? (200 × 12 × 0.5 = 1,200Wh ÷ 400 = 3 hours.) (b) 100Ah LiFePO4 at 12.8V, 80% DOD, through a 90%-efficient inverter running 150W? (1,280 × 0.8 × 0.9 ÷ 150 ≈ 6.1 hours.) (c) How many 100Ah LiFePO4 batteries for 2 days of autonomy at 1.5kWh/day, 90% usable? (3,000 ÷ (1,280 × 0.9) ≈ 2.6 → **3 batteries**.) If you got all three, the sizing pages on this site will read like arithmetic, which is all they are.
+
 ## Tips
 
 - **Li-ion/LiFePO4** often supports 80–90% DoD with 4,000–6,000 cycles. Lead-acid is usually limited to 50% DoD for longevity — the [li-ion vs lead-acid](/pages/li-ion-vs-lead-acid.html) comparison works through that usable-capacity math.

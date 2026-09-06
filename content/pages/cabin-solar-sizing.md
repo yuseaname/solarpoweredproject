@@ -88,6 +88,19 @@ Voltage choice affects current, cable thickness, and how easy it is to scale. If
 -   **Skipping autonomy planning:** batteries are expensive; decide the reserve you actually need.
 -   **Forgetting losses:** controller and inverter losses reduce usable energy.
 
+
+## One cabin through all five steps (check your math against this)
+
+The steps above, run on a real load list so you can verify your own numbers against a worked one:
+
+- **Step 1 — energy:** 12V fridge 45W avg × 24h = 1,080Wh; 6 LED lights 40W × 5h = 200Wh; water pump 80W × 0.5h = 40Wh; laptop 65W × 4h = 260Wh; fan 25W × 8h = 200Wh; phone + misc = 50Wh → **~1,830Wh/day**, call it 1.8 kWh.
+- **Step 2 — battery (1 day autonomy, 90% LiFePO4 usable):** 1,830 ÷ 0.9 ≈ 2,030Wh → at 12.8V ≈ 160Ah → **2 × 100Ah** (256Ah, comfortable margin for a cloudy morning).
+- **Step 3 — array (4 peak sun hours, 0.8 system efficiency):** 1,830 ÷ 4 ÷ 0.8 ≈ **575W → 600W** of panel (6 × 100W or 2 × 300W+).
+- **Step 4 — inverter:** biggest simultaneous load = microwave? If yes, 1,000W running × 2–3 surge ≈ **1,500–2,000W-class inverter** (see [inverter sizing](/pages/solar-inverter-sizing.html)); if the microwave stays home, an 800–1,000W unit is honest.
+- **Step 5 — voltage:** total draw under ~2,000W continuous on short runs → **12V is the right answer**; revisit only if the inverter run forces fat, expensive cable ([the 12/24/48V math](/pages/12v-vs-24v-vs-48v-solar.html)).
+
+Every number above is the same formula from its own step — no rules of thumb inserted. When your worksheet disagrees with a sizing table somewhere on the internet, trust the arithmetic you can audit. And when the result feels expensive: the [cost page](/pages/cabin-solar-cost.html) works what this system costs, and trimming the load list is always cheaper than growing the system.
+
 ## FAQ
 
 {{< faq "How many solar panels do I need for a cabin?" >}}
