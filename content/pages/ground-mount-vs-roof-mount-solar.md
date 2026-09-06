@@ -13,8 +13,6 @@ image_height = 864
 
 {{< affiliate-disclosure >}}
 
-\# Ground Mount vs. Roof Mount Solar: Which Is Right for Your Home?
-
 Deciding to transition to renewable energy is a massive step toward energy independence and long-term savings. However, once you decide to go solar, you are immediately faced with a pivotal technical dilemma: **ground mount vs roof mount solar**. This choice isn't just about where the panels sit; it influences your total installation cost, the amount of energy you generate, your property's aesthetics, and even your long-term maintenance requirements.
 
 For most US homeowners, the decision is often made for them by the size of their property. But if you have the luxury of space, or if your roof is plagued by shade, the "standard" choice might not be the "best" choice. In this comprehensive guide, we will break down the mechanics, costs, and benefits of both mounting options to help you make an informed investment for your home.
