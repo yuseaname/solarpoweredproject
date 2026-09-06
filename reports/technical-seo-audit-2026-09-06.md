@@ -236,3 +236,14 @@ All repo-side fixes executed and build-verified; commits `18285da` (content), `0
 **Post-fix QA (build):** 0 `.hml`/`assts`/`califormia`; 0 broken internal targets; 0 dead anchors; 0 image refs 404ing; **Amazon links 69/69 compliant**; sitemap 153/153 resolve; 0 FAQ corruption; publisher logo present; 0 heading anomalies; no external font refs; hashed main.js referenced. (An initial "69/138" Amazon compliance readout was a bad regex in the checker, not a real regression — re-verified 69/69 with correct extraction.)
 
 **Deferred (with rationale):** TS-18 title shortening — needs traffic data to prioritize (127 pages; blind rewriting = churn risk). Hero-in-body render decision (95 meta-only images) — design/content-calendar item. TS-28 Wikimedia hotlinks — needs per-image license verification before self-hosting. GSC verification + sitemap submission, Rybbit outbound toggle — user-owned. Remaining ADMIN-side: confirm the hPanel doesn't override the .htaccess caching/headers (live-verified below), and HSTS `includeSubDomains` is safe (no subdomains in use).
+
+**Live verification (post-deploy, 2026-09-06 ~16:40 PT):**
+- `/` serves with **all new headers**: HSTS `max-age=31536000; includeSubDomains`, XCTO, Referrer-Policy, XFO, full CSP, and `cache-control: public, max-age=300, must-revalidate` (no-store gone). `x-hcdn-cache-status` remains DYNAMIC — edge-caching HTML may still need the hPanel LiteSpeed toggle (optional ADMIN item; origin RTT 0.26 s is fine meanwhile).
+- **www → 301 → apex** confirmed (with CSP header present on the redirect response too).
+- **404: real 404 status + branded "Lost in the wiring?" page** — required adding `ErrorDocument 404 /404.html` to `.htaccess` in a follow-up commit (`e79dd69`); the rewrite alone left Hostinger's default error document serving.
+- New static files live: `/fonts/*.woff2` → 200 `font/woff2`; fixed Florida hero → 200.
+- Live sitemap: **153 URLs, search.html excluded, lastmods = today's fix commits** — new build confirmed deployed.
+- Real page content confirmed serving via a second egress (WebFetch retrieved readable content incl. FAQ headings).
+- *Verification limit:* the audit IP became persistently flagged by Hostinger's anti-bot layer after the day's request volume, so raw-HTML spot checks (FAQ decode / hashed-JS tag in served HTML) could not be re-run from this IP post-deploy; they are verified on the byte-equivalent local build (CI runs the identical hugo 0.141.0 `--minify --gc` and the deploy run is green). Googlebot itself was verified passing earlier in the session, before the IP flagging.
+
+**Residual user-owned items:** (1) GSC property verification + sitemap submission; (2) Rybbit outbound-click toggle (R-002); (3) optional hPanel LiteSpeed HTML edge-cache toggle; (4) confirm HSTS `includeSubDomains` stays appropriate if subdomains are ever added.
