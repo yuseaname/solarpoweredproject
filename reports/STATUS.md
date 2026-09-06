@@ -8,7 +8,7 @@
 
 ## Next actions
 **User-owned (top levers, in order):**
-1. **Googlebot 403 fix** (Hostinger firewall) — gates ALL Google-side returns. Test: `curl -s -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" https://solarpoweredproject.com/` → must return 200. [R-001]
+1. ~~Googlebot 403 fix~~ — **RESOLVED 2026-09-06**: Googlebot + Bingbot UAs now receive real content (Boss-verified body fetches). Note: Hostinger anti-bot layer still JS-challenges generic/AI crawlers (GPTBot 429) — see tech-SEO audit. [R-001 closed]
 2. **Rybbit outbound toggle** (dashboard → Settings → "Track clicks to external websites") — starts the CTR data that drives AC-005. [R-002]
 
 **In-repo queue (revenue-first order):**
@@ -22,15 +22,16 @@
 Byline Option A (real name in authors.html + meta row) · OneLink (revenue-only; re-check cookieless first) · reply-window line on contact (only if truthful) · dedicated hero art for 5 pages currently reusing themed assets.
 
 ## Top risks
-- **R-001 Googlebot 403** — Certain-until-fixed · Critical · owner: user. Every month unfixed ≈ month added to AC-001.
+- ~~**R-001 Googlebot 403**~~ — **CLOSED 2026-09-06** (user fixed Hostinger firewall; Googlebot/Bingbot verified receiving real content).
 - **R-002 measurement dark** — High likelihood until toggle · High · owner: user (2 min).
 - **R-003 freshness drift** — Medium · Medium · quarterly cycle (AC-007): price bands, OA re-verify, tag grep, glossary +20.
 - **R-004 bus factor** — Medium · Medium · mitigated by reports/ layer; no ops runbook yet.
 
 ## Authoritative docs (do not duplicate)
-Roadmap/calendar + 36-row backlog: `buyer-intent-content-plan-2026-09-05.md` (+ addenda) · Public changelog: `/corrections.html` (content/corrections.md) · Standards: `review-templates/` (templates, CTA library, table fields) · Audits: content-quality, SEO, review-template, UX/trust, affiliate-CRO (each with execution addenda) · Contract: `COMPLETION_CONTRACT.md`.
+Roadmap/calendar + 36-row backlog: `buyer-intent-content-plan-2026-09-05.md` (+ addenda) · Public changelog: `/corrections.html` (content/corrections.md) · Standards: `review-templates/` (templates, CTA library, table fields) · Audits: content-quality, SEO, review-template, UX/trust, affiliate-CRO, **technical-SEO** (each with execution addenda) · Contract: `COMPLETION_CONTRACT.md`.
 
 ## Milestone log
+- 2026-09-06: **Technical SEO/performance/CWV/a11y audit shipped** (`reports/technical-seo-audit-2026-09-06.md`, 30-issue register TS-01..30 + 7 deliverables). Headline: no CRITICAL indexation threat (Googlebot verified fixed); FAQ schema double-encoded on 113 pages (template fix queued); 31 broken links + 116 dead anchors; designed 404 never built (layout in wrong path); www 200-mirror + no-store HTML need hosting-panel actions. Execution pending user "proceed".
 - 2026-09-06: Contract v1.0 accepted (revenue outcome). PM layer = thin integration (D-002).
 - 2026-09-06: T-001 Renogy Rover 40A review shipped; roundup review-link set complete (4/4).
 - *(prior work recorded in git history + reports addenda; log forward from here)*
