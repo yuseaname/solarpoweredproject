@@ -12,6 +12,8 @@ image_height = 1024
 +++
 
 {{< affiliate-disclosure >}}
+
+<a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#what-a-battery-management-system-actually-does" class="text-link">What a battery management system actually does</a> <a href="#how-a-bms-works" class="text-link">How a BMS works</a> <a href="#types-of-bms" class="text-link">Types of BMS</a> <a href="#when-you-need-an-external-bms" class="text-link">When you need an external BMS</a>
 ## Key takeaways
 
 -   A BMS monitors the voltage of each battery or cell and disconnects the bank if any one exceeds safe limits.

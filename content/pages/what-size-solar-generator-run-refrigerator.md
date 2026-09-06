@@ -12,6 +12,8 @@ image_height = 1024
 
 {{< affiliate-disclosure >}}
 
+<a href="#quick-answer" class="text-link">Quick answer</a> <a href="#the-only-three-numbers-that-matter" class="text-link">The only three numbers that matter</a> <a href="#measure-your-actual-fridge-10-minutes-no-gear-or-a-20-meter" class="text-link">Measure your actual fridge (10 minutes, no gear or a $20 meter)</a> <a href="#worked-examples-three-fridge-classes" class="text-link">Worked examples: three fridge classes</a> <a href="#surge-the-spec-that-kills-cheap-generators" class="text-link">Surge: the spec that kills cheap generators</a> <a href="#runtime-math-you-can-reuse" class="text-link">Runtime math you can reuse</a> <a href="#keeping-it-charged-solar-input-reality-check" class="text-link">Keeping it charged: solar input reality check</a>
+
 ## Quick answer
 
 Most full-size refrigerators need a solar generator rated for **at least the fridge's running watts — typically 100–250W for modern efficient models, up to 400W for older or larger units** — with **surge capacity 2–4× that** for the compressor start, and roughly **1–2.4kWh of battery per 24 hours of runtime**. But do not size from averages. Measure *your* fridge in 10 minutes using the method below, then buy for your worst day, not the label.

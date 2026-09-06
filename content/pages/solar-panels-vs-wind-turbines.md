@@ -60,9 +60,9 @@ When evaluating the financial viability of renewable energy, we must look at bot
 
 ### Solar Panel Costs
 
-The cost of solar technology has plummeted over the last decade. As of current market averages, residential solar installations cost between $2.50 and $3.50 per watt installed.
+The cost of solar technology has plummeted over the last decade. Using 2026 planning bands, residential solar installations run between $2.50 and $3.50 per watt installed.
 
-For a standard 7 kW residential system, the gross cost might range from $17,500 to $24,500. Note: the 30% federal ITC expired December 31, 2025 — 2026 buyers pay full price (2025 installs keep the credit), which makes high self-consumption and good export rates matter more in the solar-vs-wind comparison.
+For a standard 7 kW residential system, the gross cost typically ranges from $17,500 to $24,500 (planning band, not a quote). Note: the 30% federal ITC expired December 31, 2025 — 2026 buyers pay full price (2025 installs keep the credit), which makes high self-consumption and good export rates matter more in the solar-vs-wind comparison.
 
 **Typical Solar Financial Metrics:**
 
@@ -72,7 +72,7 @@ For a standard 7 kW residential system, the gross cost might range from $17,500 
 
 ### Wind Turbine Costs
 
-Wind turbines are more complex mechanical systems. Small-scale wind turbines (under 10 kW) often have a higher cost per watt than solar. A 5 kW wind turbine installation, including the necessary tower, wiring, and foundation, can cost anywhere from $30,000 to $50,000.
+Wind turbines are more complex mechanical systems. Small-scale wind turbines (under 10 kW) often have a higher cost per watt than solar. A 5 kW wind turbine installation, including the necessary tower, wiring, and foundation, typically lands between $30,000 and $50,000 (planning band — tower height and siting move it most).
 
 The complexity of the tower—which must be high enough to reach "clean" (unobstructed) air—adds significant civil engineering costs. Unlike solar, wind turbines have moving parts (bearings, blades, braking systems) that are subject to mechanical wear and tear.
 

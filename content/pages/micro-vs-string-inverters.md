@@ -241,6 +241,10 @@ Usually no. With uniform sun and a single orientation, a string inverter harvest
 Yes, and it's the architecture's quiet advantage. Each panel is independent, so you add capacity panel by panel without recomputing string voltage or replacing the inverter. Expanding a string system means the new panels must match the existing string's voltage window — or you add a second string or a second inverter, which gets complicated fast.
 {{< /faq >}}
 
+## A note on buying: these are installer-channel products
+
+Both sides of this comparison — string inverters and microinverters for a grid-tied roof — ship through installers: rapid-shutdown code rules, interconnection paperwork, and warranty registration all attach at installation. The practical buying move is two or three competing quotes, with the architecture decision from this page in hand so the quotes compare like for like. If your real question is off-grid power or battery backup rather than grid-tied architecture, start with the <a href="/pages/how-to-choose-solar-inverter.html" class="text-link">inverter types guide</a> or the <a href="/pages/best-solar-batteries-2026.html" class="text-link">home battery comparison</a> instead.
+
 ---
 
 **Related guides:**

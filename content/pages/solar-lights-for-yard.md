@@ -13,6 +13,8 @@ image_height = 1024
 
 {{< affiliate-disclosure >}}
 
+<a href="#key-takeaways" class="text-link">Key Takeaways</a> <a href="#understanding-solar-light-types-and-applications" class="text-link">Understanding Solar Light Types and Applications</a> <a href="#technical-specifications-what-to-look-for-before-buying" class="text-link">Technical Specifications: What to Look for Before Buying</a> <a href="#comparison-integrated-vs-remote-solar-panels" class="text-link">Comparison: Integrated vs. Remote Solar Panels</a> <a href="#maintenance-and-longevity-strategies" class="text-link">Maintenance and Longevity Strategies</a> <a href="#frequently-asked-questions" class="text-link">Frequently Asked Questions</a> <a href="#related-guides" class="text-link">Related guides</a>
+
 Enhancing your outdoor space with solar lighting is one of the most cost-effective ways to improve home security, aesthetics, and usability without increasing your monthly electricity bill. Unlike traditional wired lighting, solar-powered yard lights require no trenching, no electrical permits, and zero ongoing energy costs. However, the market is flooded with options ranging from $5 decorative stakes to $500 high-intensity floodlights. To make an informed decision, you must understand the relationship between lumen output, battery capacity, and solar cell efficiency.
 
 ## Key Takeaways

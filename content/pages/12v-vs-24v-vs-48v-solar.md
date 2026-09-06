@@ -19,6 +19,8 @@ related = [
 
 {{< affiliate-disclosure >}}
 
+<a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#quick-decision-guide" class="text-link">Quick decision guide</a> <a href="#pick-your-voltage-calculator" class="text-link">Pick-your-voltage calculator</a> <a href="#quick-comparison-table" class="text-link">Quick comparison table</a> <a href="#why-voltage-matters-current-and-wiring" class="text-link">Why voltage matters: current and wiring</a> <a href="#when-to-upgrade-from-12v-to-24v-or-48v" class="text-link">When to upgrade from 12V to 24V or 48V</a> <a href="#use-case-recommendations" class="text-link">Use-case recommendations</a>
+
 ## Key takeaways
 
 -   **Higher voltage = lower current = thinner, cheaper wire.** Going from 12V to 48V cuts your current by 75%, dramatically reducing copper costs.
@@ -218,7 +220,7 @@ Here's what happens to current and wire requirements when you run the same 1,200
 | **24V** | 50A | 6 AWG copper | ~$1.50–$2.50/ft | 60–80A |
 | **48V** | 25A | 10 AWG copper | ~$0.50–$0.80/ft | 30–40A |
 
-**The cost difference is stark.** A 20-foot round-trip cable run at 12V needs $100–$140 of 2 AWG wire. At 48V, the same run needs $10–$16 of 10 AWG. For longer runs (battery bank to inverter), the savings compound — that's why off-grid homes are almost always 48V.
+**The cost difference is stark.** A 20-foot round-trip cable run at 12V needs $100–$140 of 2 AWG wire. At 48V, the same run needs roughly $10–$16 of 10 AWG (typical wire pricing band). For longer runs (battery bank to inverter), the savings compound — that's why off-grid homes are almost always 48V.
 
 For full wire sizing guidance including voltage drop calculations, see <a href="solar-wire-size.html" class="text-link">solar wire size guide</a> and <a href="solar-fuse-and-breaker-sizing.html" class="text-link">fuse and breaker sizing</a>.
 
@@ -271,7 +273,7 @@ If your loads are under 1,500W and your cable runs are short, 12V is simpler and
 ## Common mistakes
 
 - **Choosing 12V "because it's what I know," then needing 4/0 cable for a 2,000W inverter.** The cable alone can cost more than upgrading to a 24V system.
-- **Forgetting that DC devices need voltage matching.** If you build a 48V system, your 12V RV fridge needs a DC-DC step-down converter ($30–$60 each). Plan for these.
+- **Forgetting that DC devices need voltage matching.** If you build a 48V system, your 12V RV fridge needs a DC-DC step-down converter (typically $30–$60 each). Plan for these.
 - **Mixing battery voltages incorrectly.** Two 12V batteries in series = 24V. In parallel = still 12V. Get this wrong and you'll damage equipment or create a fire hazard. See <a href="solar-panels-series-vs-parallel.html" class="text-link">series vs parallel wiring</a>.
 - **Ignoring charge controller voltage limits.** Most MPPT controllers support 12V and 24V auto-detection, but 48V requires a controller rated for it. Check specs before buying.
 - **Undersizing wire "because it's only 12V."** Low voltage means HIGH current. A 1,200W load at 12V pulls 100 amps — that's welding-cable territory. Undersized wire at these currents is a serious fire risk.

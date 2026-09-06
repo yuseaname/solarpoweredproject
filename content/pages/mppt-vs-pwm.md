@@ -13,6 +13,8 @@ image_height = 1024
 
 {{< affiliate-disclosure >}}
 
+<a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#comparison-table" class="text-link">Comparison table</a> <a href="#the-core-physics-where-the-missing-watts-go" class="text-link">The core physics: where the missing watts go</a> <a href="#when-pwm-actually-wins" class="text-link">When PWM actually wins</a> <a href="#how-much-harvest-mppt-actually-gains-by-scenario" class="text-link">How much harvest MPPT actually gains, by scenario</a> <a href="#sizing-an-mppt-the-voltage-window" class="text-link">Sizing an MPPT: the voltage window</a> <a href="#what-the-real-controllers-cost" class="text-link">What the real controllers cost</a>
+
 **Short answer:** pick MPPT when your panel voltage runs meaningfully above battery voltage, your array is bigger than about 200W, or your bank is 24V or 48V. Pick PWM when you're building a small 12V system with "12V" panels in a warm climate and the price gap matters more than the last slice of harvest. The arithmetic is below.
 
 ## Key takeaways
@@ -123,7 +125,7 @@ PWM connects the panel directly to the battery, forcing the panel down to batter
 {{< /faq >}}
 
 {{< faq "When is PWM good enough?" >}}
-For small 12V systems (under ~200W) with panel Vmp close to battery voltage, in warm climates, or for maintenance topping where the battery is usually near full. PWM costs a fraction of MPPT — around $25 for a basic 10A unit — and on a hot roof its harvest penalty can shrink to 10% or less.
+For small 12V systems (under ~200W) with panel Vmp close to battery voltage, in warm climates, or for maintenance topping where the battery is usually near full. PWM costs a fraction of MPPT — around $25 for a basic 10A unit (typical band; full ranges in our cost guide) — and on a hot roof its harvest penalty can shrink to 10% or less.
 {{< /faq >}}
 
 {{< faq "How much more power does MPPT really deliver?" >}}

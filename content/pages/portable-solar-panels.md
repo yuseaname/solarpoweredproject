@@ -16,6 +16,8 @@ In an era of increasing outdoor adventure and a growing need for energy independ
 
 ## Key Takeaways
 
+**Short answer:** size the array to your daily watt-hours before looking at brands — required watts ≈ daily Wh ÷ (4 sun hours × 0.75); the worked example below lands at ~192W for a 575Wh/day load. Under ~100W of daily need, one foldable panel plus a power bank covers it; above that, plan on a 200W+ folding array or rigid panels. And no portable panel does useful work alone — it needs a charge controller or power station to catch the energy.
+
 -   **Identify your load requirements:** Always calculate the total wattage of the devices you need to power before purchasing a panel.
 -   **Efficiency matters:** Monocrystalline panels offer higher efficiency (20-23%) compared to polycrystalline alternatives, making them better for limited space.
 -   **Budgeting for portability:** Expect to pay between $150 for small 50W units to over $1,000 for high-output 400W+ folding arrays.
@@ -95,7 +97,7 @@ In this scenario, a 100W panel will fail you. You would need at least a 200W sol
 
 ### Step 3: Estimating Costs
 
-Portable solar pricing is generally measured in "Price per Watt."
+Portable solar pricing is generally measured in "Price per Watt" (2026 planning bands — the full worked examples live in our <a href="solar-panel-cost-per-watt.html" class="text-link">cost per watt guide</a>):
 
 -   **Budget Tier ($3 - $5 per watt):** Often found in generic brands on large marketplaces. These may use lower-grade cells and have less durable waterproofing.
 -   **Mid-Range Tier ($6 - $10 per watt):** Brands like Renogy or BougeRV. These offer reliable monocrystalline cells and better weather resistance (IP67 ratings).

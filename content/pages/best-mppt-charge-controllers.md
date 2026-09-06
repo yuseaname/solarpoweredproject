@@ -17,6 +17,8 @@ image_height = 1024
 
 ## Key takeaways
 
+**How to read this page:** this is a spec-based comparison — we have not bench-tested these controllers. Specs come from the manufacturers' published documentation (marked "per manufacturer spec" where cited), warranty terms from each manufacturer's warranty page (retrieved 2026-09-05), and every pick is a scenario match by voltage class and budget, not a ranking. The criteria behind how products earn a mention on this site are on our <a href="/pages/how-we-recommend.html" class="text-link">how we recommend</a> page.
+
 -   Size the controller from your **array voltage** and **battery charging current** first; brand comes second.
 -   The 100 V input class covers most single-string builds up to ~400 W on 12 V or ~800 W on 24 V at 30 A; bigger arrays need higher-voltage controllers or parallel units.
 -   Bluetooth monitoring is no longer premium-only — it’s the baseline feature that separates good controllers from ones you will regret buying a separate monitor for later.
@@ -93,7 +95,10 @@ The same platform with more current — the model most small-system builds conve
 | Bluetooth | Optional (BT-1) | Built-in | Built-in |
 | Lithium presets | Yes | Yes | Yes |
 | Remote temp input | Yes | No | Yes |
+| Warranty (per manufacturer) | 2 years | 3 years, material & workmanship | 5 years standard (paid 10-year extension offered) |
 | Typical price class | Budget | Budget | Mid-range |
+
+Warranty terms per the manufacturers’ published warranty pages (epever.com, renogy.com, victronenergy.com; retrieved 2026-09-05) — terms change and resellers sometimes differ, so verify before purchase. Why the temp-sensor row matters: if your batteries live somewhere the controller doesn’t, the remote sensor is what makes charging honest — lithium must not charge below freezing and lead-acid should be temperature-compensated.
 
 Between the two budget picks, the Rover’s built-in Bluetooth app is the daily-use difference; the Tracer counters with the physical display. The Victron’s advantage is not in spec sheets — it shows up in firmware maturity and ecosystem depth.
 

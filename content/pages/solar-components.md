@@ -14,6 +14,8 @@ image_height = 576
 
 {{< affiliate-disclosure >}}
 
+<a href="#quick-answer" class="text-link">Quick answer</a> <a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#the-8-core-components-at-a-glance" class="text-link">The 8 core components at a glance</a> <a href="#the-one-spec-that-matters-most-per-component" class="text-link">The one spec that matters most, per component</a> <a href="#panels" class="text-link">Panels</a> <a href="#charge-controller" class="text-link">Charge controller</a> <a href="#battery-bank" class="text-link">Battery bank</a>
+
 ## Quick answer
 
 A solar-electric system is **eight jobs, not eight brand decisions**: solar panels, a charge controller, a battery bank, an inverter, wire with fuses and breakers, disconnects, monitoring, and mounting. Each part has one spec that matters more than the rest — see the tables below.

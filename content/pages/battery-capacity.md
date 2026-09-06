@@ -14,6 +14,8 @@ image_height = 1024
 +++
 
 {{< affiliate-disclosure >}}
+
+<a href="#quick-estimate" class="text-link">Quick estimate</a> <a href="#battery-capacity-calculator" class="text-link">Battery capacity calculator</a> <a href="#the-formula" class="text-link">The formula</a> <a href="#tips" class="text-link">Tips</a> <a href="#next-logical-reads" class="text-link">Next logical reads</a> <a href="#faq" class="text-link">FAQ</a>
 ## Quick estimate
 
 Use this calculator to find the minimum battery bank size for a given daily load. It converts required watt-hours into amp-hours at your chosen system voltage.

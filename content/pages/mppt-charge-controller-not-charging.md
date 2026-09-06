@@ -17,6 +17,8 @@ related = [
 +++
 
 {{< affiliate-disclosure >}}
+
+<a href="#quick-diagnostic-flowchart-zero-charge-current-start-here" class="text-link">Quick diagnostic flowchart: zero charge current? Start here</a> <a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#how-mppt-finds-power-one-concept" class="text-link">How MPPT “finds” power (one concept)</a> <a href="#step1" class="text-link">Step 1: Confirm PV input exists (sun/shade/soiling) {#step1}</a> <a href="#step2" class="text-link">Step 2: Confirm PV voltage is high enough {#step2}</a> <a href="#step3" class="text-link">Step 3: Validate array wiring and controller limits {#step3}</a> <a href="#step4" class="text-link">Step 4: Check charging stage and settings {#step4}</a>
 ## Quick diagnostic flowchart: zero charge current? Start here
 
 Work through these in order. Most "not charging" problems are found in the first three steps:

@@ -20,6 +20,8 @@ related = [
 +++
 
 {{< affiliate-disclosure >}}
+
+<a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#step-1-list-every-load" class="text-link">Step 1: List every load</a> <a href="#interactive-solar-load-planner" class="text-link">Interactive solar load planner</a> <a href="#step-2-size-solar-panels" class="text-link">Step 2: Size solar panels</a> <a href="#step-3-size-batteries" class="text-link">Step 3: Size batteries</a> <a href="#step-4-size-the-inverter" class="text-link">Step 4: Size the inverter</a> <a href="#step-5-size-the-charge-controller" class="text-link">Step 5: Size the charge controller</a>
 ## Key takeaways
 
 - Start with **daily watt-hours used** — everything else flows from that number.

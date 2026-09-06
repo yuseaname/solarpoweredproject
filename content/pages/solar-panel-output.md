@@ -22,6 +22,8 @@ related = [
 
 
 {{< affiliate-disclosure >}}
+
+<a href="#quick-estimate" class="text-link">Quick estimate</a> <a href="#solar-panel-output-calculator" class="text-link">Solar panel output calculator</a> <a href="#the-formula" class="text-link">The formula</a> <a href="#choose-an-efficiency-factor" class="text-link">Choose an efficiency factor</a> <a href="#quick-reference-output-table" class="text-link">Quick-reference output table</a> <a href="#what-can-this-actually-power" class="text-link">What can this actually power?</a> <a href="#seasonal-variation-expect-3050-less-in-winter" class="text-link">Seasonal variation: expect 30–50% less in winter</a>
 ## Quick estimate
 
 A single **400W solar panel** in a typical US location produces about **1,100–1,600 watt-hours (Wh) per day** — roughly 33–48 kWh per month. That's enough to run a small chest freezer, recharge phones and laptops several times over, or run LED lights for hours. Actual output depends on your peak sun hours and system efficiency; use the calculator below for your exact setup.
@@ -254,7 +256,7 @@ Solar output swings dramatically between summer and winter. Plan for your **wors
 - **Load planning:** knowing daily production lets you match appliances to available energy. Start with [system sizing](solar-system-sizing.html).
 - **Troubleshooting:** if real output is much lower than this estimate, check shading, tilt, soiling, or controller issues in [low output troubleshooting](solar-output-troubleshooting.html) and [panel cleaning basics](solar-panel-cleaning-cost.html).
 
-{{< product-box asin="B018CLOSTC" name="Klein Tools MM600 Multimeter" label="Verify real output" description="Estimated output is theory; a meter is truth. A 1000V-rated auto-ranging multimeter lets you confirm panel Voc and string voltage against spec-sheet numbers (per manufacturer spec). Not for: probing inside a live breaker panel or any energized AC service — that stays with a licensed electrician. The honest tradeoff: a basic meter will read panel voltage fine, so the extra spend is for CAT-rated safety and auto-ranging on the jobs where you need it." button="Check price on Amazon" >}}
+{{< product-box asin="B018CLOSTC" name="Klein Tools MM600 Multimeter" label="Verify real output" description="Estimated output is theory; a meter is truth. A 1000V-rated auto-ranging multimeter lets you confirm panel Voc and string voltage against spec-sheet numbers (per manufacturer spec). Not for: probing inside a live breaker panel or any energized AC service — that stays with a licensed electrician. The honest tradeoff: a basic meter will read panel voltage fine, so the extra spend is for CAT-rated safety and auto-ranging on the jobs where you need it." button="See specs on Amazon" >}}
 
 
 ## Next logical reads

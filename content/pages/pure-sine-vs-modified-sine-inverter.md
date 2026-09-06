@@ -14,9 +14,13 @@ keywords = ["pure sine wave vs modified sine", "inverter waveform comparison", "
 
 {{< affiliate-disclosure >}}
 
-**Short answer:** Get a **pure sine wave inverter** if you run laptops, TVs, CPAP machines, refrigerators, microwaves, or any device with a motor or AC adapter. Modified sine works for simple resistive loads (basic heaters, incandescent lights, some phone chargers) and costs about half as much — but the compatibility list is short and getting shorter as modern electronics get pickier.
+<a href="#quick-comparison" class="text-link">Quick comparison</a> <a href="#device-by-device-compatibility-guide" class="text-link">Device-by-device compatibility guide</a> <a href="#what-actually-happens-to-devices-on-modified-sine" class="text-link">What actually happens to devices on modified sine</a> <a href="#real-cost-comparison" class="text-link">Real cost comparison</a> <a href="#decision-guide-which-do-you-need" class="text-link">Decision guide: Which do you need?</a> <a href="#does-waveform-affect-inverter-sizing" class="text-link">Does waveform affect inverter sizing?</a> <a href="#common-mistakes" class="text-link">Common mistakes</a>
 
-The price gap has narrowed significantly. A 1000W pure sine inverter now costs **$80–$150**; a modified sine of the same size runs **$40–$90**. For most people, the extra $40–$60 is cheaper than replacing a damaged laptop charger or a buzzing CPAP machine.
+**Short answer:** Get a **pure sine wave inverter** if you run laptops, TVs, CPAP machines, refrigerators, microwaves, or any device with a motor or AC adapter. Modified sine works for simple resistive loads (basic heaters, incandescent lights, some phone chargers) and typically costs less — as little as half at the 1000W size, per the planning bands below — but the compatibility list is short and getting shorter as modern electronics get pickier.
+
+The price gap has narrowed significantly. For 2026 planning, a 1000W pure sine inverter typically runs **$80–$150** and a modified sine of the same size **$40–$90** (editorial planning bands from our <a href="/pages/solar-inverter-cost.html" class="text-link">solar inverter cost guide</a>, not live prices). For most people, the extra $40–$60 band difference is cheaper than replacing a damaged laptop charger or a buzzing CPAP machine.
+
+**How to read this page:** this is a research-based comparison — we have not lab-tested any inverter. Device-compatibility and temperature guidance below is our engineering-estimate tier, labeled as such, not a measured statistic; cost figures are editorial planning bands for 2026, not live prices. The full criteria behind how products earn a mention on this site are on our <a href="/pages/how-we-recommend.html" class="text-link">how we recommend</a> page.
 
 ## Quick comparison
 
@@ -36,8 +40,8 @@ The price gap has narrowed significantly. A 1000W pure sine inverter now costs *
 </tr>
 <tr class="even">
 <td><strong>Device compatibility</strong></td>
-<td>~99% of devices work fine</td>
-<td>~60–70% of devices work; many run poorly</td>
+<td>Runs standard household electronics normally (grid-matching waveform)</td>
+<td>Resistive loads fine; AC motors/compressors run hotter with reduced life; switch-mode supplies usually tolerate it; audio, medical, and CPAP-grade gear should stay on pure sine (engineering estimate, not a tested statistic)</td>
 </tr>
 <tr class="odd">
 <td><strong>Cost (1000W unit)</strong></td>
@@ -166,13 +170,13 @@ This is the table most people actually need. Here's what happens to specific dev
 
 Modified sine produces power in **stepped blocks** rather than a smooth curve. This causes three problems:
 
-1. **Harmonic distortion creates heat.** Devices with transformers and motors can't shed the extra heat efficiently. A laptop charger that normally runs warm may run **15–25°F hotter** and fail in months instead of years.
+1. **Harmonic distortion creates heat.** Devices with transformers and motors can't shed the extra heat efficiently. A laptop charger that normally runs warm may run **15–25°F hotter** — a commonly cited engineering estimate, not a tested figure — and repeated heat stress can shorten its life.
 2. **Motors lose torque and run inefficiently.** AC induction motors and compressor motors run slower and hotter, pulling more current to do the same work. Engineering estimates commonly cited for motorized devices running on modified sine put efficiency losses around **10–20%**.
 3. **Sensitive electronics see noise.** Anything with a switching power supply (most modern chargers, TVs, computers) may interpret the stepped waveform as dirty power — resulting in buzzing, screen artifacts, or outright failure to charge.
 
 ## Real cost comparison
 
-The price gap between pure sine and modified sine has narrowed dramatically. Here's what you'll actually pay in 2026:
+The price gap between pure sine and modified sine has narrowed dramatically. Here's what you'll typically budget in 2026 — editorial planning bands from our <a href="/pages/solar-inverter-cost.html" class="text-link">solar inverter cost guide</a>, not live prices:
 
 <table>
 <thead>
@@ -211,7 +215,7 @@ The price gap between pure sine and modified sine has narrowed dramatically. Her
 </tbody>
 </table>
 
-**The math:** If you're only running a heater and some incandescent work lights in a shed, modified sine saves real money. If there's any chance you'll plug in a laptop, a fan, or a fridge, the $40–$60 difference at 1000W is **cheaper than replacing one damaged device.**
+**The math:** If you're only running a heater and some incandescent work lights in a shed, modified sine saves real money. If there's any chance you'll plug in a laptop, a fan, or a fridge, the $40–$60 band difference at 1000W is **cheaper than replacing one damaged device.**
 
 ## Decision guide: Which do you need?
 
@@ -233,7 +237,7 @@ The price gap between pure sine and modified sine has narrowed dramatically. Her
 - Budget is the absolute top constraint
 - You're using it temporarily (job site, camping weekend) rather than daily
 
-**The practical reality:** Most people end up buying pure sine eventually. Modified sine buyers often upgrade after their first laptop charger melts or their fridge compressor dies. If you can afford the $40–$60 premium, skip the experiment.
+**The practical reality:** Most people end up buying pure sine eventually. Modified sine buyers often upgrade after their first laptop charger melts or their fridge compressor dies. If you can afford the $40–$60 premium at the 1000W size (2026 bands, see our <a href="/pages/solar-inverter-cost.html" class="text-link">solar inverter cost guide</a>), skip the experiment.
 
 ## Does waveform affect inverter sizing?
 
@@ -243,7 +247,7 @@ See <a href="solar-inverter-sizing.html" class="text-link">how to size an invert
 
 ## Common mistakes
 
-- **Buying modified sine to save $50, then running a laptop.** The charger runs hot and fails in months. You've now paid for both the cheap inverter and a replacement charger.
+- **Buying modified sine to save ~$50 (2026 band), then running a laptop.** The charger runs hot, and heat stress shortens its life. You've now paid for both the cheap inverter and a replacement charger.
 - **Assuming "if it turns on, it's fine."** A refrigerator may start on modified sine but run hot and die in a year instead of ten. Damage is cumulative, not instant.
 - **Ignoring the CPAP requirement.** ResMed, Philips, and most CPAP manufacturers explicitly require pure sine wave. Using modified sine can void the warranty and damage the machine.
 - **Trusting old forum advice.** Posts from 2010 sometimes say "modified sine is fine for everything." Modern switching power supplies are more efficient but also more sensitive to waveform quality.

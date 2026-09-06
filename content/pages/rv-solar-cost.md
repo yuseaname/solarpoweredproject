@@ -17,6 +17,8 @@ related = [
 +++
 
 {{< affiliate-disclosure >}}
+
+<a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#real-world-rv-solar-builds-with-actual-costs" class="text-link">Real-world RV solar builds with actual costs</a> <a href="#diy-vs-professional-installation-cost" class="text-link">DIY vs professional installation cost</a> <a href="#cost-breakdown-by-category" class="text-link">Cost breakdown by category</a> <a href="#how-sizing-impacts-cost-and-prevents-overspending" class="text-link">How sizing impacts cost (and prevents overspending)</a> <a href="#where-rv-builds-typically-overspend" class="text-link">Where RV builds typically overspend</a> <a href="#what-size-rv-solar-do-i-need-quick-reference" class="text-link">What size RV solar do I need? (quick reference)</a>
 ## Key takeaways
 
 -   A realistic RV solar setup costs **$1,500–$4,000** for a system that handles daily off-grid use. Budget systems start around $700; high-capacity builds can exceed $10,000.

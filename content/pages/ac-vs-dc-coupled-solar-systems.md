@@ -33,7 +33,7 @@ The power flow is simple: **solar panels → charge controller → battery → i
 
 Every photon the panel captures reaches the battery through a single charge controller, with no conversion losses beyond what the controller itself introduces. That's why DC-coupled systems charge batteries with the highest efficiency — up to 99% when paired with a good MPPT controller.
 
-For small builds, this is hard to beat. A basic PWM controller can cost as little as $25 for a 10A unit, keeping total system cost low. Step up to larger arrays and an MPPT controller (up to 100A, handling 150V strings, with some models reaching 600V) gives you the headroom to harvest meaningfully more energy. For more on the controller tradeoff, see <a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM charge controllers</a>.
+For small builds, this is hard to beat. A basic PWM controller can cost as little as roughly $25 for a 10A unit (typical band — see our MPPT cost guide), keeping total system cost low. Step up to larger arrays and an MPPT controller (up to 100A, handling 150V strings, with some models reaching 600V) gives you the headroom to harvest meaningfully more energy. For more on the controller tradeoff, see <a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM charge controllers</a>.
 
 Where DC-coupled starts to strain is above roughly 6 kW. At that scale you're juggling multiple panel strings, parallel string fusing, and increasingly complex wiring. What started as a simple, low-cost layout becomes complicated fast.
 
@@ -127,7 +127,7 @@ Yes. Some advanced off-grid systems use both: a DC-coupled charge controller for
 {{< /faq >}}
 
 {{< faq "Which is cheaper for a small system?" >}}
-DC-coupled is almost always cheaper for small systems. A basic PWM controller can run around $25 for a 10A unit, and the wiring is straightforward. AC-coupled systems require a grid-tied inverter and a separate battery inverter/charger, which adds meaningful cost that only makes sense at larger scales.
+DC-coupled is almost always cheaper for small systems. A basic PWM controller can run around $25 for a 10A unit (typical band), and the wiring is straightforward. AC-coupled systems require a grid-tied inverter and a separate battery inverter/charger, which adds meaningful cost that only makes sense at larger scales.
 {{< /faq >}}
 
 {{< faq "Do I need AC-coupled for a whole-home off-grid system?" >}}

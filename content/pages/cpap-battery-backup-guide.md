@@ -12,6 +12,8 @@ image_height = 1024
 
 {{< affiliate-disclosure >}}
 
+<a href="#quick-answer" class="text-link">Quick answer</a> <a href="#find-your-machines-real-draw" class="text-link">Find YOUR machine's real draw</a> <a href="#the-one-night-math" class="text-link">The one-night math</a> <a href="#run-time-table-nights-per-battery" class="text-link">Run-time table: nights per battery</a> <a href="#outage-playbook" class="text-link">Outage playbook</a> <a href="#camping-and-travel-sizing" class="text-link">Camping and travel sizing</a> <a href="#integration-with-a-solar-setup" class="text-link">Integration with a solar setup</a>
+
 ## Quick answer
 
 A CPAP typically draws **30–60W while running**, and a heated humidifier can roughly double that. So one night (8 hours) is about **240–700Wh** — roughly **360Wh at 45W without the humidifier**, **720Wh at 90W with it**. A **100Ah 12V lithium battery** (about 960Wh usable) usually covers **1–3 nights without the humidifier**, fewer with it. The steps: (1) read your machine's label for volts and amps, (2) decide whether you'll use the humidifier each night, (3) apply the runtime formula below. This is purely electrical sizing — we are not giving medical advice, and any therapy questions belong with your prescriber. The goal here is calm, concrete numbers so an outage is a plan, not a panic.

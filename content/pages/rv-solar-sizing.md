@@ -12,6 +12,8 @@ image_height = 1024
 +++
 
 {{< affiliate-disclosure >}}
+
+<a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#step-1-estimate-your-rv-daily-energy-use-whday" class="text-link">Step 1: Estimate your RV daily energy use (Wh/day)</a> <a href="#step-2-size-your-rv-battery-capacity" class="text-link">Step 2: Size your RV battery capacity</a> <a href="#step-3-size-solar-panels-for-daily-refill" class="text-link">Step 3: Size solar panels for daily refill</a> <a href="#step-4-choose-an-inverter-if-you-need-ac-power" class="text-link">Step 4: Choose an inverter (if you need AC power)</a> <a href="#common-rv-sizing-scenarios-quick-ranges" class="text-link">Common RV sizing scenarios (quick ranges)</a> <a href="#starter-kit-reference" class="text-link">Starter kit reference</a>
 ## Key takeaways
 
 -   Start with a realistic daily energy estimate (Wh/day) for your RV loads.
@@ -91,6 +93,12 @@ A quick 12V current reality check before you size: a 2000W inverter at 12V pulls
 
 These ranges are broad by design. Your actual loads, sun conditions, and roof space determine the final numbers.
 
+## Starter kit reference
+
+If you are starting from zero and want a single-kit solution that covers panels + controller in one box, the Renogy 200W starter kit is a common baseline to compare against when sizing your own build:
+
+{{< product-box asin="B00BCRG22A" name="Renogy 200W 12V Mono Starter Kit (2×100W Panels + 30A PWM Controller)" label="Single-kit baseline" description="Two 100W monocrystalline panels with a mounted 30A PWM Wanderer controller (per manufacturer spec) — the simplest way to get a working RV or cabin array before upgrading to an MPPT setup. Not for: the heavy-load band of this guide's table — moderate to heavy inverter use (3,000–6,000+ Wh/day) outgrows 200W of panels and a PWM controller quickly. The honest tradeoff: the kit's 30A PWM keeps cost down, but it harvests less than an MPPT on the same panels, and you'll likely upgrade the controller rather than the panels." button="Check price on Amazon" >}}
+
 ## FAQ
 
 {{< faq "How many watts of solar do I need for an RV?" >}}
@@ -108,12 +116,6 @@ MPPT is often worth it if your panel voltage is higher than battery voltage or y
 {{< faq "Can RV solar run an air conditioner?" >}}
 It can, but it typically requires a large battery bank, substantial panel wattage, and a properly sized inverter.
 {{< /faq >}}
-
-## Starter kit reference
-
-If you are starting from zero and want a proven single-kit solution that covers panels + controller in one box, the Renogy 200W starter kit is a common baseline to compare against when sizing your own build:
-
-{{< product-box asin="B00BCRG22A" name="Renogy 200W 12V Mono Starter Kit (2×100W Panels + 30A PWM Controller)" label="Single-kit baseline" description="Two 100W monocrystalline panels with a mounted 30A PWM Wanderer controller (per manufacturer spec) — the simplest way to get a working RV or cabin array before upgrading to an MPPT setup. Not for: the heavy-load band of this guide's table — moderate to heavy inverter use (3,000–6,000+ Wh/day) outgrows 200W of panels and a PWM controller quickly. The honest tradeoff: the kit's 30A PWM keeps cost down, but it harvests less than an MPPT on the same panels, and you'll likely upgrade the controller rather than the panels." button="Check price on Amazon" >}}
 
 ## Next logical reads
 

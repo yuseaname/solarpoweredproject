@@ -14,6 +14,8 @@ updated = 2026-08-15
 +++
 
 {{< affiliate-disclosure >}}
+
+<a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#the-quick-answer" class="text-link">The quick answer</a> <a href="#inverter-sizing-calculator" class="text-link">Inverter sizing calculator</a> <a href="#step-1-list-your-ac-loads-and-peak-watts" class="text-link">Step 1: List your AC loads and peak watts</a> <a href="#step-2-account-for-surge-starting-power" class="text-link">Step 2: Account for surge (starting) power</a> <a href="#step-3-check-battery-side-current-draw" class="text-link">Step 3: Check battery-side current draw</a> <a href="#step-4-choose-inverter-type-and-waveform" class="text-link">Step 4: Choose inverter type and waveform</a>
 ## Key takeaways
 
 -   Size for **continuous watts** and **surge watts**.

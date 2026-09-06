@@ -14,6 +14,8 @@ image_height = 576
 
 {{< affiliate-disclosure >}}
 
+<a href="#quick-answer-what-a-solar-system-costs-in-2026" class="text-link">Quick answer: what a solar system costs in 2026</a> <a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#typical-cost-ranges-by-component" class="text-link">Typical cost ranges by component</a> <a href="#budget-1-2kw-diy-cabin-system" class="text-link">Budget 1: ~2kW DIY cabin system</a> <a href="#budget-2-6kw-grid-tied-home-system" class="text-link">Budget 2: ~6kW grid-tied home system</a> <a href="#budget-3-10kw-home-system--10kwh-battery" class="text-link">Budget 3: ~10kW home system + 10kWh battery</a> <a href="#what-share-of-the-budget-does-each-layer-take" class="text-link">What share of the budget does each layer take?</a>
+
 ## Quick answer: what a solar system costs in 2026
 
 A grid-tied home system runs **$2.50–$3.50 per watt installed** — about **$15,000–$21,000 for a 6kW system** before any incentives. Buying the components and doing the work yourself typically lands **40–60% lower** in parts alone. And the number that shaped solar budgets for a decade is gone: the 30% federal ITC expired December 31, 2025, so 2026 buyers pay the full hardware price unless a state or utility incentive applies.

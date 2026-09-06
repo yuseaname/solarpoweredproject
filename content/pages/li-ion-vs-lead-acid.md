@@ -13,6 +13,8 @@ image_height = 1024
 
 {{< affiliate-disclosure >}}
 
+<a href="#quick-answer" class="text-link">Quick answer</a> <a href="#comparison-table" class="text-link">Comparison table</a> <a href="#the-capacity-math-that-changes-the-decision" class="text-link">The capacity math that changes the decision</a> <a href="#lifetime-cost-per-usable-kwh" class="text-link">Lifetime cost per usable kWh</a> <a href="#temperature-and-environment" class="text-link">Temperature and environment</a> <a href="#charging-behavior" class="text-link">Charging behavior</a> <a href="#when-lead-acid-still-wins" class="text-link">When lead-acid still wins</a>
+
 ## Quick answer
 
 If your battery bank will cycle most days — an off-grid cabin, a full-time RV, a daily backup routine — buy LiFePO4 and be done with it. Per usable kilowatt-hour actually delivered over its life, lithium beats lead-acid by roughly 5 to 7 times, and the arithmetic below shows exactly where that number comes from. If the battery will sit near full as occasional backup, if your real budget is $150 rather than $300, or if you can source a good used or free lead-acid bank, lead-acid is still the rational choice. Lithium's one hard limitation is cold: a LiFePO4 battery cannot be charged below 0°C (32°F) without a built-in heater or a low-temperature cutoff, which matters in unheated sheds, cabins, and winter RV trips. Lead-acid charges happily in the cold but gives up 20–30% of its capacity there. Everything else in this comparison is detail; those last two sentences are the decision.
@@ -173,6 +175,8 @@ Almost certainly, if the controller offers a lithium or user-set profile in the 
 {{< faq "Does the federal tax credit apply to batteries?" >}}
 Not anymore. The 30% federal residential clean energy credit expired December 31, 2025 under P.L. 119-21, so battery and solar installations in 2026 get no federal credit. Any payback math you do this year should assume you're paying full price — which makes the lifetime cost-per-usable-kWh comparison above the one that matters.
 {{< /faq >}}
+
+{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="The chemistry winner, in drop-in form" description="This page's math in a product: 100Ah at 12.8V — 1,280Wh nameplate with a built-in 100A BMS and low-temp charge cutoff (per manufacturer spec) — the LiFePO4 class whose usable Wh × cycle life delivers roughly 5–7× more energy over its life than a same-size lead-acid bank. Not for: whole-home backup or high-surge loads — it is a 12V building block, not a system. The honest tradeoff: the up-front cost runs above a lead-acid bank of the same nameplate; the lifetime cost-per-usable-kWh math above is where it wins." button="Check price on Amazon" >}}
 
 ## Next logical reads
 

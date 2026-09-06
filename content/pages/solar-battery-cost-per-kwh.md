@@ -18,6 +18,8 @@ related = [
 
 
 {{< affiliate-disclosure >}}
+
+<a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#typical-solar-battery-cost-per-kwh" class="text-link">Typical solar battery cost per kWh</a> <a href="#use-cost-per-usable-kwh-not-nameplate-kwh" class="text-link">Use “cost per usable kWh” (not nameplate kWh)</a> <a href="#a-practical-comparison-cost-per-lifetime-usable-kwh" class="text-link">A practical comparison: cost per lifetime usable kWh</a> <a href="#what-drives-battery-price-the-most" class="text-link">What drives battery price the most</a> <a href="#batteries-in-the-full-system-budget" class="text-link">Batteries in the full system budget</a> <a href="#faq" class="text-link">FAQ</a>
 ## Key takeaways
 
 -   Typical battery pricing is often quoted as dollars per kWh of capacity.

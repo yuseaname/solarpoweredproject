@@ -13,6 +13,8 @@ image_height = 1024
 
 {{< affiliate-disclosure >}}
 
+<a href="#quick-answer" class="text-link">Quick answer</a> <a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#what-a-solar-generator-actually-is" class="text-link">What a solar generator actually is</a> <a href="#capacity-tiers-what-each-class-actually-runs" class="text-link">Capacity tiers: what each class actually runs</a> <a href="#the-surge-trap-sizing-the-inverter-not-just-the-battery" class="text-link">The surge trap: sizing the inverter, not just the battery</a> <a href="#recharging-reality-the-panel-math-everyone-skips" class="text-link">Recharging reality: the panel math everyone skips</a> <a href="#power-station-vs-building-your-own" class="text-link">Power station vs building your own</a>
+
 ## Quick answer
 
 A "solar generator" is a battery power station (LiFePO4 cells + inverter + charge controller in one box) paired with portable solar panels. It is silent, fumeless, safe to run indoors, and needs zero maintenance — but it is a *finite* energy store, not a fuel machine. Sizing is everything: match the battery's watt-hours to what you actually need to run (and for how long), and match the inverter's surge rating to your worst compressor start. If your goal is whole-house backup through multi-day outages, a power station is usually the wrong tool — see [battery backup vs generator](solar-battery-backup-vs-generator.html).

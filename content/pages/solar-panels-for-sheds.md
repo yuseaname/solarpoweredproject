@@ -18,6 +18,8 @@ related = [
 
 {{< affiliate-disclosure >}}
 
+<a href="#key-takeaways" class="text-link">Key Takeaways</a> <a href="#assessing-your-energy-needs-and-load-requirements" class="text-link">Assessing Your Energy Needs and Load Requirements</a> <a href="#system-architectures-grid-tied-vs-off-grid-vs-hybrid" class="text-link">System Architectures: Grid-Tied vs. Off-Grid vs. Hybrid</a> <a href="#essential-components-and-hardware-selection" class="text-link">Essential Components and Hardware Selection</a> <a href="#installation-steps-and-practical-considerations" class="text-link">Installation Steps and Practical Considerations</a> <a href="#frequently-asked-questions" class="text-link">Frequently Asked Questions</a> <a href="#related-guides" class="text-link">Related guides</a>
+
 Transforming a shed, garage, or workshop into a self-sustaining power hub is one of the most efficient ways to begin your solar journey. Unlike large-scale residential arrays that require complex grid integration and significant permitting, solar for outbuildings often functions as an "off-grid" or "semi-detached" system, providing dedicated power for tools, lighting, security cameras, or even small workshops without increasing your main home's electricity bill. It's the scale where the [solar use-case hub](/pages/solar-use-cases.html) says most first-time builders should start.
 
 ## Key Takeaways

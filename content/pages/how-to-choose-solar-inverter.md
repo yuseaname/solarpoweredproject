@@ -79,7 +79,7 @@ String inverters have a critical limitation: the entire string performs at the l
 -   Simple rectangular array with no obstructions
 -   You want the lowest system cost
 
-**Top brands:** SolarEdge (with power optimizers), SMA, Fronius, Growatt, Huawei/iStore.
+**Scenario picks:** SMA and Fronius for straightforward string installs with long service track records; SolarEdge when you want panel-level optimization with a central inverter; Growatt and Huawei/iStore at the value end. The quote and warranty terms, not the badge, should decide.
 
 ## Microinverters
 
@@ -100,7 +100,7 @@ A microinverter is a small inverter mounted on each individual panel. Each panel
 
 **When to use microinverters:** Complex roofs with multiple orientations, shading from trees or dormers, east-west arrays, or when panel-level monitoring is important.
 
-**Top brand:** Enphase dominates the US microinverter market with its IQ series. Also consider APsystems for cost-competitive options.
+**Scenario picks:** Enphase and its IQ series is the established US microinverter platform; APsystems is the cost-competitive alternative on the same panel-level model.
 
 ## Off-grid inverter/chargers
 
@@ -119,9 +119,9 @@ Off-grid inverter/chargers are sized differently from grid-tied inverters. The k
 
 ### Off-grid inverter sizing example
 
-For a cabin with 2,000W of average loads, a 3kW well pump (surge to 6kW), and a 48V battery bank: you need a 48V inverter/charger rated for 3,000W continuous and 6,000W+ surge. An Outback FXR3048A or Victron MultiPlus-II 48/3000 would both work.
+For a cabin with 2,000W of average loads, a 3kW well pump (surge to 6kW), and a 48V battery bank: you need a 48V inverter/charger rated for 3,000W continuous and 6,000W+ surge. Units in this class include the Outback FXR3048A and the Victron MultiPlus-II 48/3000 — both 3,000W-class 48V inverter/chargers (per manufacturer spec) — but size from your own load list first, then confirm the exact model's surge rating and charger input against your generator.
 
-**Top brands:** Victron Energy (highest quality), Outback Power, SMA Sunny Island, Renogy (budget).
+**Scenario picks:** Victron Energy and Outback Power for full off-grid ecosystems (monitoring, stacking, generator integration); SMA Sunny Island for AC-coupled retrofits; Renogy for budget 12V builds.
 
 ## Hybrid inverters for battery backup
 
@@ -136,7 +136,7 @@ A hybrid inverter:
 
 This is the fastest-growing inverter category in 2026 as home battery storage becomes mainstream.
 
-**Top brands:** SolarEdge (with Backup Interface), Enphase IQ8 (microinverter-based), Generac PWRcell, Outback Radian, Victron Quattro.
+**Scenario picks:** SolarEdge (with Backup Interface) and Enphase (IQ8-based systems) for grid-tied-plus-storage ecosystems; Generac PWRcell for packaged whole-home systems; Victron Quattro and Outback Radian when the system is primarily off-grid with grid backup rather than the reverse.
 
 ## How to size your inverter
 
