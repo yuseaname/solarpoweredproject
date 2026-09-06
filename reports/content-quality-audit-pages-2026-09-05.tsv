@@ -1,0 +1,141 @@
+url	cluster	words	pv	verdict_source	action	priority	notes
+/diy-off-grid-energy/multi-source-hybrid-charge-controller.html	project-lab	4390	4	signals	keep	P3	see Project Lab positioning pass
+/diy-off-grid-energy/diy-stirling-engine-generator-off-grid.html	project-lab	4191	28	signals	keep	P3	see Project Lab positioning pass
+/diy-off-grid-energy/gravity-battery-diy-energy-storage.html	project-lab	4152	24	signals	keep	P3	see Project Lab positioning pass
+/diy-off-grid-energy/diy-thermoelectric-generator-teg-battery-charging.html	project-lab	3876	39	signals	keep	P3	see Project Lab positioning pass
+/guides/solar-battery-cost-2026/	guides	3674	0	deep	update	P1	CNTEpower vendor sourcing; box under 'always hire a pro'; no payback number; dup chart; 1 internal link; twin sync
+/pages/solar-battery-cost-2026.html	buyer	3666	1	deep	update	P1	CNTEpower vendor sourcing; box under 'always hire a pro'; no payback number; dup chart; 1 internal link; twin sync
+/pages/solar-installation-safety-guide.html	informational	3597	0	signals	keep	P4	no defect signals; pattern-level pass only
+/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html	project-lab	3544	12	signals	keep	P3	see Project Lab positioning pass
+/pages/solar-output-troubleshooting.html	troubleshooting	3511	12	signals	keep	P4	no defect signals; pattern-level pass only
+/guides/solar-panel-cost-california/	state-guides	3301	0	signals	update	P3	EIA-cited; set updated param; thin bundles (NV/MA/IL) deepen later
+/pages/solar-panel-cost-california.html	costs-policy	3285	1	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/mppt-charge-controller-not-charging.html	buyer	3031	60	signals	update	P3	add T2 attribution + NOT-for to boxes
+/pages/solar-battery-enclosure-guide.html	batteries	3027	7	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/how-to-calculate-solar-load.html	informational	2952	1	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/solar-power-mobile-homes.html	informational	2856	0	signals	keep	P4	no defect signals; pattern-level pass only
+/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html	project-lab	2835	19	signals	keep	P3	see Project Lab positioning pass
+/pages/solar-battery-maintenance-guide.html	batteries	2822	0	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/solar-maintenance.html	informational	2681	6	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/solar-panel-shading-effects.html	informational	2675	1	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/off-grid-solar-system-setup-guide.html	informational	2652	0	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/solar-panel-tilt-and-orientation.html	informational	2644	0	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/charge-controller-sizing.html	controllers-inverters	2637	0	deep	update	P2	Add NEC 690.8 citation (doubles as authors.md promise fix)
+/pages/cpap-battery-backup-guide.html	buyer	2464	10	deep	keep	P3	Best-in-set: TSA sourced+dated, medical boundary; Image Prompts removed (fixed)
+/pages/li-ion-vs-lead-acid.html	informational	2445	6	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/solar-panel-efficiency.html	informational	2444	3	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/best-solar-batteries-2026.html	buyer	2427	8	deep	keep	P4	Methodology gold standard; reconcile 12V LiTime box vs 48V DIY section; annual SKU re-verify
+/pages/solar-use-cases.html	informational	2400	3	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/solar-components.html	buyer	2397	30	deep	keep	P4	Best tier hygiene; reconcile 25-40 vs 25-45% panel-share
+/diy-off-grid-energy/diy-flywheel-energy-storage.html	project-lab	2372	65	signals	keep	P3	see Project Lab positioning pass
+/pages/diy-vs-installer.html	informational	2371	11	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/battery-cable-size-for-inverter.html	buyer	2343	104	deep	keep	P3	#2 traffic (104pv); calculator present; 6 inlinks strong
+/diy-off-grid-energy/pedal-power-generator-for-off-grid-battery-charging.html	project-lab	2273	26	signals	keep	P3	see Project Lab positioning pass
+/diy-off-grid-energy/diy-hand-crank-generator-emergency-charging.html	project-lab	2270	78	signals	keep	P3	see Project Lab positioning pass
+/pages/micro-vs-string-inverters.html	controllers-inverters	2270	4	signals	keep	P4	no defect signals; pattern-level pass only
+/guides/solar-panel-cost-new-york/	state-guides	2267	0	signals	update	P3	EIA-cited; set updated param; thin bundles (NV/MA/IL) deepen later
+/pages/lifepo4-100ah-brand-comparison.html	batteries	2250	0	deep	update	P3	Good 'Claimed' attribution; set updated param
+/pages/what-size-battery-run-chest-freezer.html	batteries	2238	0	deep	keep	P4	Convention exemplar (12.8V stated)
+/pages/solar-basics.html	informational	2200	13	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/common-solar-installation-mistakes.html	informational	2196	0	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/solar-fuse-and-breaker-sizing.html	buyer	2190	58	deep	update	P2	58pv/90.9%; calculator added prior wave; FAQ-schema pollution + string-fuse box contradiction per B
+/pages/how-long-will-100ah-battery-run.html	batteries	2163	0	deep	keep	P3	Wh-convention labels fixed (audit); 9 inlinks
+/guides/solar-panel-cost-texas/	state-guides	2152	0	signals	update	P3	EIA-cited; set updated param; thin bundles (NV/MA/IL) deepen later
+/diy-off-grid-energy/diy-car-alternator-generator-battery-charging.html	project-lab	2130	33	signals	keep	P3	see Project Lab positioning pass
+/guides/solar-panel-cost-florida/	state-guides	2125	0	signals	update	P3	EIA-cited; set updated param; thin bundles (NV/MA/IL) deepen later
+/guides/solar-panel-cost-new-jersey/	state-guides	2111	0	signals	update	P3	EIA-cited; set updated param; thin bundles (NV/MA/IL) deepen later
+/pages/solar-panel-angle-calculator.html	calculators	2104	10	signals	keep	P4	no defect signals; pattern-level pass only
+/diy-off-grid-energy/diy-pelton-turbine-pico-hydro.html	project-lab	2077	37	signals	keep	P3	see Project Lab positioning pass
+/pages/solar-generator.html	buyer	2028	6	deep	keep	P3	Best box treatment; strip internal work-order comment; add updated param
+/pages/solar-inverter-sizing.html	buyer	2015	27	deep	keep	P4	Model page; conditional-box pattern to copy site-wide
+/pages/solar-battery-not-charging-troubleshooting.html	troubleshooting	1999	45	deep	keep	P4	Ordered tests; fine
+/guides/solar-panel-cost-arizona/	state-guides	1993	0	signals	update	P3	EIA-cited; set updated param; thin bundles (NV/MA/IL) deepen later
+/pages/battery-drains-overnight-off-grid.html	troubleshooting	1993	0	deep	keep	P3	12.8V label fixed (audit); multimeter isolation solid
+/pages/mppt-vs-pwm.html	buyer	1992	7	deep	keep	P3	5/5; argues for option it doesn't sell; datasheet hedge on 0.3%/C coefficient
+/pages/12v-vs-24v-vs-48v-solar.html	buyer	1983	70	deep	update	P3	5/5 structure; boxes nested in FAQ answers — reposition
+/pages/solar-system-costs.html	buyer	1982	47	deep	keep	P3	47pv/37.7% bounce; per B: solid cost anatomy
+/pages/what-size-solar-generator-run-refrigerator.html	buyer	1945	3	deep	keep	P3	Best answer-first; Image Prompts leak removed (fixed); add NOT-for to box
+/pages/ground-mount-vs-roof-mount-solar.html	informational	1898	6	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/read-solar-panel-specs-sheet.html	informational	1868	4	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/best-solar-panels-small-roof.html	buyer	1860	1	deep	expand	P1	Canonical survivor names ZERO panels; add real comparison w/ T2 specs; ITC fixed in audit
+/pages/solar-battery-backup-vs-generator.html	batteries	1857	5	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/solar-lease-vs-buy-2026.html	costs-policy	1818	8	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/solar-wire-size.html	wiring	1806	18	deep	update	P2	NEC ampacity citation; strip injected trailer
+/pages/mini-split-watts-off-grid.html	informational	1796	0	signals	keep	P4	no defect signals; pattern-level pass only
+/diy-off-grid-energy/diy-generator-test-bench-measure-watts-watt-hours.html	project-lab	1793	14	signals	keep	P3	see Project Lab positioning pass
+/pages/inverter-keeps-shutting-off-troubleshooting.html	buyer	1786	41	deep	keep	P3	Best tier hygiene; boxes at need-moments
+/diy-off-grid-energy/diy-savonius-wind-turbine-vertical-axis.html	project-lab	1749	24	signals	keep	P3	see Project Lab positioning pass
+/pages/install-solar-panels-yourself.html	informational	1749	2	signals	keep	P4	no defect signals; pattern-level pass only
+/diy-off-grid-energy/diy-compressed-air-energy-storage.html	project-lab	1744	21	signals	keep	P3	see Project Lab positioning pass
+/pages/will-100-watt-solar-panel-run-refrigerator.html	sizing-runtime	1738	0	deep	keep	P4	Honest 'probably not alone'; fine
+/pages/pure-sine-vs-modified-sine-inverter.html	buyer	1725	42	deep	update	P2	T1-impersonating 'real-world measurements' reworded (fixed); move box out of FAQ; T5 device percentages
+/guides/solar-panel-cost-colorado/	state-guides	1722	0	signals	update	P3	EIA-cited; set updated param; thin bundles (NV/MA/IL) deepen later
+/pages/solar-panel-degradation-rate.html	informational	1712	1	signals	keep	P4	no defect signals; pattern-level pass only
+/diy-off-grid-energy/treadmill-motor-generator-for-off-grid-charging.html	project-lab	1705	16	signals	keep	P3	see Project Lab positioning pass
+/diy-off-grid-energy/diy-supercapacitor-bank-solar-buffer.html	project-lab	1698	15	signals	keep	P3	see Project Lab positioning pass
+/diy-off-grid-energy/diy-buck-boost-regulation-variable-generator-battery-charging.html	project-lab	1693	17	signals	keep	P3	see Project Lab positioning pass
+/diy-off-grid-energy/diy-water-wheel-generator-low-head.html	project-lab	1679	12	signals	keep	P3	see Project Lab positioning pass
+/pages/how-many-solar-panels-to-power-a-house.html	informational	1676	0	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/ground-mount-solar-panels.html	informational	1671	0	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/how-do-solar-panels-work.html	informational	1662	0	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/solar-net-metering-explained.html	costs-policy	1662	1	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/48v-off-grid-wiring-guide.html	wiring	1648	0	deep	update	P2	NEC citation; verify fuse values vs cited table
+/diy-off-grid-energy/diy-dump-load-diversion-controller-wind-hydro.html	project-lab	1647	24	signals	keep	P3	see Project Lab positioning pass
+/pages/solar-panel-output.html	buyer	1610	60	deep	keep	P4	Best box-fit on site (multimeter); updated set
+/pages/solar-panel-cleaning-cost.html	costs-policy	1595	3	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/net-metering-by-state-2026.html	costs-policy	1590	5	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/solar-permits-and-building-codes.html	informational	1573	0	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/how-to-choose-solar-inverter.html	buyer	1565	1	deep	update	P2	Efficiency-$ math contradiction (fixed in audit); Huawei/iStore brand oddity; FAQ w/o schema
+/pages/solar-panels-for-sheds.html	buyer	1543	1	deep	update	P3	Gen-2; who-should-not-DIY note; PWM expansion caveat
+/pages/solar-payback-calculator.html	costs-policy	1535	0	signals	keep	P4	no defect signals; pattern-level pass only
+/guides/solar-panel-cost-illinois/	state-guides	1523	0	signals	update	P3	EIA-cited; set updated param; thin bundles (NV/MA/IL) deepen later
+/pages/solar-battery-management-system-explained.html	buyer	1519	0	deep	keep	P4	Gen-2; add NOT-for to box
+/pages/how-much-do-solar-panels-cost.html	buyer	1492	3	deep	update	P3	ITC FAQ contradiction fixed (audit); payback inconsistency; typo cluster
+/pages/best-mppt-charge-controllers.html	buyer	1487	8	deep	update	P3	No 48V pick vs own 48V warning; add 'per manufacturer spec'; counterfeit + sub-freezing-Li warnings
+/pages/solar-panel-output-per-square-foot.html	sizing-runtime	1479	15	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/solar-water-heater.html	informational	1468	13	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/solar-phone-charger.html	buyer	1464	5	deep	update	P3	Add worked charge-time math; faq shortcode
+/pages/solar-lights-for-yard.html	buyer	1441	0	deep	update	P3	FAQ H3s w/o schema; date cost band
+/pages/solar-panels-vs-wind-turbines.html	informational	1407	11	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/how-long-do-solar-panels-last.html	sizing-runtime	1378	5	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/solar-system-sizing.html	buyer	1362	73	deep	keep	P3	Stickiest page (19.8%); align calculator 2x rule vs prose 25%; $1/W box phrase
+/pages/inverter-cable-size-chart.html	wiring	1308	0	deep	update	P2	NEC citation; chart values T5-as-sourced
+/pages/rv-solar-cost.html	buyer	1303	33	deep	keep	P3	Explicit retail sourcing; 3 costed builds; 58.6% bounce
+/pages/ac-vs-dc-coupled-solar-systems.html	informational	1274	2	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/solar-financing-options.html	costs-policy	1233	3	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/how-much-do-solar-batteries-cost.html	buyer	1113	1	deep	update	P2	Present-tense ITC fixed (audit); AI voice; leaked artifacts per B
+/pages/best-solar-panels-for-home-2026.html	buyer	1106	0	deep	merge-stub	P1	Canonicalized dupe still live w/ fake 'Maxeon LX' (removed in audit) + AI prose; stub to small-roof
+/pages/best-solar-panels-for-small-homes.html	buyer	1052	0	deep	merge-stub	P1	26% ITC + 17-panel math errors (fixed in audit); stub to small-roof
+/pages/solar-panel-tax-credit.html	costs-policy	1041	0	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/solar-fuses-vs-breakers.html	wiring	938	20	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/portable-solar-panels.html	buyer	926	3	deep	update	P2	Raw LaTeX + BougeRV typo fixed (audit); 0 internal links; structurally a sale host per B
+/pages/solar-combiner-box-and-disconnect-guide.html	wiring	918	3	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/battery-capacity.html	buyer	909	26	deep	keep	P4	7.5% bounce calculator; updated param set
+/guides/solar-panel-cost-nevada/	state-guides	903	0	signals	update	P3	EIA-cited; set updated param; thin bundles (NV/MA/IL) deepen later
+/guides/solar-panel-cost-massachusetts/	state-guides	901	0	signals	update	P3	EIA-cited; set updated param; thin bundles (NV/MA/IL) deepen later
+/pages/solar-panels-series-vs-parallel.html	informational	874	6	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/cabin-solar-sizing.html	sizing-runtime	829	7	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/solar-inverter-cost.html	buyer	828	9	deep	expand	P3	Thin 828w; date the bands
+/pages/mppt-charge-controller-cost.html	buyer	718	4	deep	expand	P3	Thin (718w); worked example + updated
+/pages/cabin-solar-cost.html	buyer	710	25	deep	update	P3	Per B: strong; minor box-fit
+/pages/rv-solar-sizing.html	buyer	686	20	deep	expand	P2	Thin 686w; zero-caveat anomaly; matrix row 33 expansion
+/pages/solar-wiring-and-protection-cost.html	costs-policy	666	7	deep	keep	P4	Borderline fine; set updated
+/pages/solar-battery-cost-per-kwh.html	buyer	607	10	deep	expand	P3	Thin 607w; good method; add worked example + dated band
+/pages/cabin-solar-vs-generator.html	informational	595	7	deep	keep	P4	Fine as short answer
+/pages/solar-panel-cost-per-watt.html	costs-policy	584	20	deep	expand	P2	Thin for money page; worked example + updated
+/pages/how-we-recommend.html	trust	570	0	deep	keep	P4	Best-in-class
+/pages/how-to-choose-solar-system-voltage.html	informational	467	15	deep	keep-canonical	P3	Canonicalized; fine as short answer
+/authors.html	trust	401	0	deep	keep	P3	Strong; NEC promise needs delivery
+/pages/wiring-decisions.html	wiring	346	3	deep	expand	P2	346w hub stub on most safety-critical topic; worked example or fold
+/pages/editorial-policy.html	trust	272	0	deep	keep	P3	Sponsored-marking promise verified true in code
+/pages/affiliate-disclosure.html	trust	265	1	deep	update	P1	3 overclaims fixed in audit; convert YAML->TOML front matter
+/pages/about.html	trust	246	2	deep	keep	P4	Good; accurate hedging
+/corrections.html	trust	217	0	deep	keep	P4	Real log; young
+/pages/privacy-policy.html	trust	203	0	deep	update	P2	Strip injected trailer + twin links
+/methodology.html	trust	174	0	deep	update	P2	Review-date promise vs 6/140 rendering; Wh-convention note
+/system-planner.html	trust	101	5	signals	keep	P4	no defect signals; pattern-level pass only
+/pages/terms.html	trust	99	0	deep	keep	P4	Adequate
+/pages/contact.html	trust	88	0	deep	keep	P4	Structured reporting checklist
+/pages/_index.html	hub	65	0	signals	keep	P4	no defect signals; pattern-level pass only
+/diy-off-grid-energy/_index.html	project-lab	37	0	signals	expand	P3	thin (<700w): worked example + updated param
+/search.html	trust	0	0	signals	keep	P4	no defect signals; pattern-level pass only
