@@ -119,3 +119,7 @@ What lead-acid banks **do** benefit from is monitoring — a shunt-based battery
 
 {{< product-box asin="B075RTSTKS" name="Victron BMV-712 Battery Monitor" label="Recommended monitor" description="Shunt-based monitoring with Bluetooth and detailed in-app history — the unit our own wiring diagrams assume (per manufacturer spec). If you run lead-acid, this is the monitor that saves a $1,000 bank — the honest tradeoff: it's a monitor, not a protective BMS, so pair it with a charge controller or inverter LVD for automatic disconnect. Not for: series-connected lithium banks above 12V, which need an external protective BMS that can disconnect the whole string — see the section above before relying on monitoring alone." button="Check price on Amazon" >}}
 
+
+## Next logical reads
+
+<a href="/pages/solar-battery-monitoring-guide.html" class="text-link">Battery monitoring: state of charge without guesswork</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity explained</a> <a href="/pages/lifepo4-100ah-brand-comparison.html" class="text-link">LiFePO4 100Ah brand comparison</a> <a href="/pages/solar-battery-maintenance-guide.html" class="text-link">Battery maintenance guide</a>
