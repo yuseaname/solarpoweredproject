@@ -14,7 +14,7 @@ image_height = 1024
 +++
 
 {{< affiliate-disclosure >}}
-<a href="#quick" class="text-link">Quick answer</a> <a href="#mppt-vs-pwm" class="text-link">MPPT vs PWM cost comparison</a> <a href="#drivers" class="text-link">What drives controller cost</a> <a href="#avoid-wrong-size" class="text-link">How to avoid buying the wrong size</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
+<a href="#quick-answer-typical-mppt-controller-price-ranges" class="text-link">Quick answer</a> <a href="#mppt-vs-pwm-cost-comparison" class="text-link">MPPT vs PWM cost comparison</a> <a href="#what-drives-mppt-controller-cost-the-most" class="text-link">What drives controller cost</a> <a href="#how-to-avoid-buying-the-wrong-controller-simple-checks" class="text-link">How to avoid buying the wrong size</a> <a href="#common-mistakes-that-raise-total-controller-cost" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
 
 ## Quick answer: typical MPPT controller price ranges
 

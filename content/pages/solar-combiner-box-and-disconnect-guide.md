@@ -12,7 +12,7 @@ image_width = 1024
 image_height = 768
 +++
 
-<a href="#takeaways" class="text-link">Key takeaways</a> <a href="#plain-english" class="text-link">What a combiner box does (plain English)</a> <a href="#need-one" class="text-link">When you typically need one</a> <a href="#inside" class="text-link">What’s inside a combiner box</a> <a href="#placement" class="text-link">Where it goes (near array vs near controller)</a> <a href="#disconnect" class="text-link">DC disconnects: what they’re for</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next" class="text-link">Next logical reads</a>
+<a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#what-a-combiner-box-does-plain-english" class="text-link">What a combiner box does (plain English)</a> <a href="#you-may-not-need-one-if" class="text-link">When you typically need one</a> <a href="#whats-inside-a-combiner-box-high-level" class="text-link">What’s inside a combiner box</a> <a href="#where-it-goes-near-the-array-vs-near-the-controller" class="text-link">Where it goes (near array vs near controller)</a> <a href="#dc-disconnects-what-theyre-for-serviceability--safer-troubleshooting" class="text-link">DC disconnects: what they’re for</a> <a href="#common-mistakes-and-what-to-do-instead" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next-logical-reads" class="text-link">Next logical reads</a>
 
 ## Key takeaways
 

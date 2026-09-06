@@ -11,7 +11,7 @@ image_width = 1536
 image_height = 1024
 +++
 
-<a href="#quick" class="text-link">Quick answer</a> <a href="#included" class="text-link">What counts as wiring &amp; protection</a> <a href="#ranges" class="text-link">Typical cost ranges</a> <a href="#drivers" class="text-link">What drives the cost</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
+<a href="#quick-answer-why-this-category-changes-the-budget" class="text-link">Quick answer</a> <a href="#what-counts-as-wiring-and-protection-plain-language" class="text-link">What counts as wiring &amp; protection</a> <a href="#typical-cost-ranges-by-category" class="text-link">Typical cost ranges</a> <a href="#what-drives-solar-wiring-cost-the-most" class="text-link">What drives the cost</a> <a href="#common-wiring-mistakes-that-increase-cost-later" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
 
 ## Quick answer: why this category changes the budget
 

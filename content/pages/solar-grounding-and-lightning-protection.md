@@ -12,7 +12,7 @@ related = [
 ]
 +++
 
-<a href="#jobs" class="text-link">The three jobs</a> <a href="#equipment" class="text-link">Equipment grounding</a> <a href="#bonding" class="text-link">System bonding</a> <a href="#electrode" class="text-link">Grounding electrode</a> <a href="#lightning" class="text-link">Lightning and surge protection</a> <a href="#mobile" class="text-link">RVs and boats</a> <a href="#call" class="text-link">When to call an electrician</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next" class="text-link">Next logical reads</a>
+<a href="#jobs" class="text-link">The three jobs</a> <a href="#equipment" class="text-link">Equipment grounding</a> <a href="#bonding" class="text-link">System bonding</a> <a href="#electrode" class="text-link">Grounding electrode</a> <a href="#lightning" class="text-link">Lightning and surge protection</a> <a href="#mobile" class="text-link">RVs and boats</a> <a href="#call" class="text-link">When to call an electrician</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next-logical-reads" class="text-link">Next logical reads</a>
 
 ## Key takeaways
 

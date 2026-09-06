@@ -13,7 +13,7 @@ image_height = 1024
 +++
 
 {{< affiliate-disclosure >}}
-<a href="#takeaways" class="text-link">Key takeaways</a> <a href="#first" class="text-link">First: capture the shutdown clue</a> <a href="#overload" class="text-link">Cause 1: overload or surge start</a> <a href="#lowvoltage" class="text-link">Cause 2: low battery voltage (real) vs voltage drop (wiring)</a> <a href="#heat" class="text-link">Cause 3: overheating / poor airflow</a> <a href="#settings" class="text-link">Cause 4: settings, modes, and cutoffs</a> <a href="#alarm-keeps-beeping-low-voltage-alarm-before-shutdown" class="text-link">Alarm keeps beeping: low-voltage alarm</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next" class="text-link">Next logical reads</a>
+<a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#first-capture-the-shutdown-clue" class="text-link">First: capture the shutdown clue</a> <a href="#cause-1-overload-or-surge-start" class="text-link">Cause 1: overload or surge start</a> <a href="#alarm-keeps-beeping-low-voltage-alarm-before-shutdown" class="text-link">Cause 2: low battery voltage (real) vs voltage drop (wiring)</a> <a href="#cause-3-overheating--poor-airflow" class="text-link">Cause 3: overheating / poor airflow</a> <a href="#cause-4-settings-modes-and-cutoffs" class="text-link">Cause 4: settings, modes, and cutoffs</a> <a href="#alarm-keeps-beeping-low-voltage-alarm-before-shutdown" class="text-link">Alarm keeps beeping: low-voltage alarm</a> <a href="#common-mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next-logical-reads" class="text-link">Next logical reads</a>
 
 ## Key takeaways
 

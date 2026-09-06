@@ -18,7 +18,7 @@ related = [
 +++
 
 {{< affiliate-disclosure >}}
-<a href="#types" class="text-link">Inverter types compared</a> <a href="#grid-tied" class="text-link">String inverters for grid-tied</a> <a href="#microinverters" class="text-link">Microinverters</a> <a href="#off-grid" class="text-link">Off-grid inverter/chargers</a> <a href="#hybrid" class="text-link">Hybrid (battery backup) inverters</a> <a href="#sizing" class="text-link">How to size your inverter</a> <a href="#efficiency" class="text-link">Efficiency and features</a> <a href="#faq" class="text-link">FAQ</a>
+<a href="#inverter-types-which-one-do-you-need" class="text-link">Inverter types compared</a> <a href="#grid-tied-systems" class="text-link">String inverters for grid-tied</a> <a href="#microinverters" class="text-link">Microinverters</a> <a href="#off-grid-systems" class="text-link">Off-grid inverter/chargers</a> <a href="#hybrid-inverters-for-battery-backup" class="text-link">Hybrid (battery backup) inverters</a> <a href="#off-grid-inverter-sizing-example" class="text-link">How to size your inverter</a> <a href="#inverter-efficiency" class="text-link">Efficiency and features</a> <a href="#frequently-asked-questions" class="text-link">FAQ</a>
 
 ## Inverter types: which one do you need?
 

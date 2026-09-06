@@ -13,7 +13,7 @@ image_height = 1024
 
 {{< affiliate-disclosure >}}
 
-<a href="#takeaways" class="text-link">Key takeaways</a> <a href="#quick" class="text-link">Quick answer</a> <a href="#strengths" class="text-link">What each device is good at</a> <a href="#placement" class="text-link">The five places people get protection wrong</a> <a href="#checklist" class="text-link">A shopping checklist (ratings to verify)</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
+<a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#quick-answer-for-most-small-systems" class="text-link">Quick answer</a> <a href="#what-each-device-is-good-at" class="text-link">What each device is good at</a> <a href="#the-five-places-people-get-protection-wrong" class="text-link">The five places people get protection wrong</a> <a href="#a-shopping-checklist-that-prevents-unsafe-mismatches" class="text-link">A shopping checklist (ratings to verify)</a> <a href="#common-mistakes-risk--symptom--fix-direction" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
 
 ## Key takeaways
 

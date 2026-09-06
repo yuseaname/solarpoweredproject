@@ -11,7 +11,7 @@ image_width = 1536
 image_height = 1024
 +++
 
-<a href="#what-you-are-sizing" class="text-link">What you’re sizing</a> <a href="#step-1-load" class="text-link">Step 1: Daily energy use</a> <a href="#step-2-battery" class="text-link">Step 2: Battery capacity</a> <a href="#step-3-panels" class="text-link">Step 3: Panel watts</a> <a href="#step-4-inverter" class="text-link">Step 4: Inverter sizing</a> <a href="#step-5-voltage" class="text-link">Step 5: System voltage</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
+<a href="#what-youre-sizing-and-why-cabins-are-different" class="text-link">What you’re sizing</a> <a href="#step-1-estimate-your-cabins-daily-energy-use-whday" class="text-link">Step 1: Daily energy use</a> <a href="#step-2-choose-autonomy-and-size-battery-capacity" class="text-link">Step 2: Battery capacity</a> <a href="#step-3-size-solar-panels-to-refill-the-battery-each-day" class="text-link">Step 3: Panel watts</a> <a href="#step-4-size-the-inverter-continuous--surge" class="text-link">Step 4: Inverter sizing</a> <a href="#step-5-pick-a-system-voltage-that-fits-your-power-level" class="text-link">Step 5: System voltage</a> <a href="#common-cabin-sizing-mistakes-and-how-to-avoid-them" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
 
 ## What you’re sizing (and why cabins are different)
 

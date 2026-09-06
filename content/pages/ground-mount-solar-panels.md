@@ -11,7 +11,7 @@ image_width = 1536
 image_height = 1024
 +++
 
-<a href="#ground-vs-roof" class="text-link">Ground vs roof: which is better?</a> <a href="#types" class="text-link">Types of ground mounts</a> <a href="#sizing" class="text-link">Sizing a ground-mount system</a> <a href="#costs" class="text-link">Cost breakdown</a> <a href="#diy-vs-installer" class="text-link">DIY vs installer</a> <a href="#permitting" class="text-link">Permitting and setbacks</a> <a href="#faq" class="text-link">FAQ</a>
+<a href="#ground-vs-roof-when-ground-mount-wins" class="text-link">Ground vs roof: which is better?</a> <a href="#types-of-ground-mount-structures" class="text-link">Types of ground mounts</a> <a href="#sizing-a-ground-mount-system" class="text-link">Sizing a ground-mount system</a> <a href="#ground-mount-cost-breakdown" class="text-link">Cost breakdown</a> <a href="#diy-vs-professional-installation" class="text-link">DIY vs installer</a> <a href="#permitting-and-setbacks" class="text-link">Permitting and setbacks</a> <a href="#frequently-asked-questions" class="text-link">FAQ</a>
 
 ## Ground vs roof: when ground mount wins
 

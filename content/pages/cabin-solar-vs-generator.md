@@ -13,7 +13,7 @@ image_height = 1024
 
 {{< affiliate-disclosure >}}
 
-<a href="#quick-answer" class="text-link">Quick answer</a> <a href="#table" class="text-link">Comparison table</a> <a href="#framework" class="text-link">Decision framework</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
+<a href="#quick-answer-when-each-option-tends-to-win" class="text-link">Quick answer</a> <a href="#solar-vs-generator-comparison-table" class="text-link">Comparison table</a> <a href="#a-practical-decision-framework-no-guesswork" class="text-link">Decision framework</a> <a href="#common-mistakes-to-avoid" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
 
 ## Quick answer: when each option tends to win
 

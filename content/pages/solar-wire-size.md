@@ -11,7 +11,7 @@ image_width = 1536
 image_height = 1024
 +++
 
-<a href="#takeaways" class="text-link">Key takeaways</a> <a href="#goal" class="text-link">The real goal</a> <a href="#two-rules" class="text-link">Two rules that prevent most mistakes</a> <a href="#flow" class="text-link">A simple 4-step decision flow</a> <a href="#voltage" class="text-link">Why higher voltage simplifies wiring</a> <a href="#dc-rated" class="text-link">A quick “DC-rated” checklist</a> <a href="#mistakes" class="text-link">Common wire-sizing mistakes</a> <a href="#faq" class="text-link">FAQ</a>
+<a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#the-real-goal-safety--performance" class="text-link">The real goal</a> <a href="#two-rules-that-prevent-most-mistakes" class="text-link">Two rules that prevent most mistakes</a> <a href="#a-simple-4-step-decision-flow-what-to-measure-first" class="text-link">A simple 4-step decision flow</a> <a href="#rule-2-distance-drives-voltage-drop" class="text-link">Why higher voltage simplifies wiring</a> <a href="#what-dc-rated-means-a-quick-checklist" class="text-link">A quick “DC-rated” checklist</a> <a href="#two-rules-that-prevent-most-mistakes" class="text-link">Common wire-sizing mistakes</a> <a href="#faq" class="text-link">FAQ</a>
 
 ## Key takeaways
 
@@ -274,4 +274,4 @@ The ampacity ladder above is **planning guidance, not a code table**. For code w
 
 - [Battery Cable Size for Solar Inverters](/pages/battery-cable-size-for-inverter.html) — the high-current side of the same decision, with its calculator
 - [Solar Fuse and Breaker Sizing](/pages/solar-fuse-and-breaker-sizing.html) — every wire you size here needs its fuse sized next
-- [Solar Wire Size Calculator](/pages/solar-wire-size.html#calculator) and the [worked 100W example](#worked-example-what-size-wire-for-a-100w-solar-panel) on this page
+- [Solar Wire Size Calculator](/pages/solar-wire-size.html#wire-size-calculator-amps-volts-distance) and the [worked 100W example](#worked-example-what-size-wire-for-a-100w-solar-panel) on this page

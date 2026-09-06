@@ -19,7 +19,7 @@ related = [
 +++
 
 {{< affiliate-disclosure >}}
-<a href="#takeaways" class="text-link">Key takeaways</a> <a href="#protecting" class="text-link">What fuses/breakers protect (and what they don’t)</a> <a href="#circuits" class="text-link">The 4 common solar circuits</a> <a href="#labels" class="text-link">Sizing using labels (avoid guesswork)</a> <a href="#placement" class="text-link">Placement rules-of-thumb</a> <a href="#dc-rated" class="text-link">DC-rated checklist</a> <a href="#mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next" class="text-link">Next logical reads</a>
+<a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#what-fuses-and-breakers-protect-and-what-they-dont" class="text-link">What fuses/breakers protect (and what they don’t)</a> <a href="#the-4-common-solar-circuits-pick-the-one-youre-sizing" class="text-link">The 4 common solar circuits</a> <a href="#sizing-using-labels-avoid-guesswork" class="text-link">Sizing using labels (avoid guesswork)</a> <a href="#placement-rules-of-thumb-planning-level" class="text-link">Placement rules-of-thumb</a> <a href="#dc-rated-checklist-quick-sanity-check-before-you-buy" class="text-link">DC-rated checklist</a> <a href="#common-mistakes-and-how-to-avoid-them" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next-logical-reads" class="text-link">Next logical reads</a>
 
 ## Key takeaways
 
