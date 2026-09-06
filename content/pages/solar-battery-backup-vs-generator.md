@@ -101,7 +101,7 @@ A solar battery backup is not just a backup tool; it is an integral part of a mo
 1.  **You already have (or are getting) solar panels:** A battery completes the ecosystem. It allows you to achieve true energy independence.
 2.  **You have sensitive electronics:** If you work from home, use high-end desktop computers, or rely on CPAP machines and medical equipment, the seamless, "no-flicker" transition of a battery is life-changing.
 3.  **You prioritize peace and quiet:** If you live in a dense neighborhood or an HOA with strict noise ordinances, a battery is the only way to go.
-4.  **You want to combat rising utility rates:** If your goal is to "beat the utility company" by using your own stored power during peak evening hours, the battery pays for itself through monthly savings, not just outage protection.
+4.  **You can bill-shift on time-of-use rates:** If your utility bills time-of-use rates, storing your own solar and using it during peak evening hours trims the bill every month. Treat that as a bonus on top of outage protection — on backup duty alone, a battery is a resiliency purchase, not a payback play (see our battery cost guide for the honest payback math).
 
 **Practical Tip:** If you live in an area with frequent but short-duration outages (like summer thunderstorms in the Midwest), a battery is often the superior choice.
 
@@ -128,7 +128,7 @@ Why choose one when you can have both?
 
 In a hybrid setup, your solar panels and battery backup handle the "daily" heavy lifting. They manage your energy usage, provide silent power during short outages, and keep your sensitive electronics running without a blink. Meanwhile, a standby generator sits in the background as a "secondary responder." If a massive storm hits and clouds block the sun for three consecutive days, the generator kicks in to supplement the battery, ensuring your well pump, heating, and refrigeration never fail.
 
-While this requires a higher initial investment and a more complex electrical setup (including a specialized transfer switch), it offers the highest level of-energy security possible.
+While this requires a higher initial investment and a more complex electrical setup (including a specialized transfer switch), it is the strongest of the three options for riding out long outages without giving up daily battery benefits.
 
 ---
 
@@ -173,7 +173,7 @@ As you plan your home's energy future, remember that the best time to prepare fo
 
 **Ready to take the next step toward energy independence?**
 
-*Contact a local solar expert today to conduct a professional load analysis and see how much a battery backup could save you on your monthly utility bill!*
+*If you're leaning toward a battery or hybrid system, get quotes from two or three local installers and ask each for a written load analysis and a line-item quote — the same questions we list in our home battery guide.*
 
 ## Related guides
 
