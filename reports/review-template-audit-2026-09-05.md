@@ -3,7 +3,7 @@
 **Date:** 2026-09-05 · **Method:** agency multi-seat audit (Boss + 5 seats) · **Repo state at start:** `1c86404`
 **Companion files (this directory):** `TEMPLATE-INDIVIDUAL-REVIEW.md` · `TEMPLATE-ROUNDUP.md` · `TEMPLATE-VS.md` · `TABLE-FIELDS.md` · `CTA-COPY-LIBRARY.md`
 
-**The site's review surface, inventoried:** 3 live roundups ("best X"), 14 "vs" comparison pages, ~16 buyer guides with embedded product boxes (33 pages carry 48 boxes total), and **zero standalone individual-review pages** — the individual-review template below defines a new page type. Two canonicalized stubs (best-solar-panels-for-home-2026, -for-small-homes) were excluded; URLs are frozen per standing constraint.
+**The site's review surface, inventoried:** 3 live roundups ("best X"), 14 "vs" comparison pages, ~16 buyer guides with embedded product boxes (**32 pages carry 44 boxes at HEAD** — 33 pages / 45 boxes at audit start; the mismatched panels-cost box was removed during this audit), and **zero standalone individual-review pages** — the individual-review template below defines a new page type. Two canonicalized stubs (best-solar-panels-for-home-2026, -for-small-homes) were excluded; URLs are frozen per standing constraint.
 
 **Attribution & honesty:** vs-page audits (8 pages) by seat dsv4-wing-1 and box-integration audits (10 pages) by seat dsv4-wing-2 delivered complete and were Boss-verified against the files. The roundup/choose-guide audits (6 pages) are **Boss-authored** after four provider-failure dispatches (2× glm-xo-1, 2× dsv4-wing-3, all "empty replies"); every load-bearing quote below was read in the source file by the Boss. The UX seat (glm-xo-2) completed a live above-the-fold check of 6 pages before its own truncation; its Parts B–D are Boss-rebuilt from its evidence plus the structural scan. The template seat (glm-xo-3) delivered the individual-review template in full (extracted verbatim); the other three template files are Boss-authored from the seat syntheses.
 
@@ -18,7 +18,7 @@
 | `best-solar-batteries-2026` | **19** | "Quick answer… there are best *matches*" — exemplary | **The site's gold standard** ("we have not lab-tested these… every pick is a 'best for' scenario match") | Spec table + source notes + retrieval dates; single late box (79%) | Residual: no inline jump links (TOC rail only); Powerwall chemistry row necessarily hedged |
 | `solar-generator` | **18** | "Quick answer" defines the product, kills the big myth ("finite energy store, not a fuel machine"), routes whole-home buyers away | Implicit, not stated (no "how to read this page") | Honest capacity-tier table w/ runtimes; "Who should NOT buy" section; 2 contextualized boxes (26%/43%) | Cost claims ("3,000–6,000 cycles") undated; no jump links |
 | `best-mppt-charge-controllers` | **17** | Jump-link row + Key takeaways; dek sells the decision flow | **Absent** — the gap vs the batteries benchmark | Head-to-head table lacks warranty row; "Typical price class" vague; 4 boxes each with wins/stings | No methodology/as-of line; table thin ("Remote temp input: Yes/No/Yes" with no why-it-matters) |
-| `best-solar-panels-small-roof` (2026-09-05 rebuild) | **17** | "How to read this page" methodology block present | Present, mirrors benchmark | 4-row comparison table w/ per-manufacturer footnotes; W/ft² worked math | Final Renogy 100W 12V box is a *shed-class* product on a roof-install page — label "Small-roof friendly footprint" overstates the fit; dead-brand FAQ good |
+| `best-solar-panels-small-roof` (2026-09-05 rebuild) | **17** | "How to read this page" methodology block present | Present, mirrors benchmark | 4-row comparison table w/ per-manufacturer footnotes; W/ft² worked math | No inline jump links (TOC rail only); table footnote lacks retrieval dates; no Amazon-buyable pick (correct for the installer-channel category — the DIY pointer routes to the sheds page) |
 | `portable-solar-panels` | **15** | Dek was essay-style & truncated (now fixed); Key takeaways but no quick-answer block | Absent | Sizing formula + worked 575Wh→192W example is excellent; box honest ("a single 100W panel underperforms… you'd want two") | No jump links; cost tiers ("$3–$5/W… $12+/W") undated; intro "In an era of…" throat-clearing |
 | `how-to-choose-solar-inverter` | **13** | Jump links + type table (Type/Best-for/Cost) up front — good; but no quick-answer block | Absent | Tables good; single box late (77%) | "Top brands: **Victron Energy (highest quality)**" — unsupported superlative; "Top brands: SolarEdge, SMA, Fronius…" lists without scenario-matching; named models (FXR3048A, MultiPlus-II 48/3000) asserted without sourcing |
 
@@ -53,7 +53,7 @@
 ### 1.4 UX layer (seat rt-ux live checks, 6 pages, + Boss structural scan)
 
 - **Template render order confirmed live:** kicker → H1 → dek → byline/dates → "System brief" → TOC rail → "In brief" (dek) → disclosure banner → first body block. **No CTA above the fold on any checked page; disclosure always precedes the first box.** CTA-after-value holds sitewide.
-- **Decision-block coverage:** 24/33 box pages open with Quick-answer/Short-answer/Key-takeaways; **9/33 have inline jump links** (the best pages do: mppt-controllers, inverter-chooser, fuse-sizing, cable-sizing…). mppt-vs-pwm and how-to-choose pass the "decide without scrolling" test; **portable-solar-panels and solar-phone-charger fail it** (spec takeaways but no pick/verdict until ~90%).
+- **Decision-block coverage:** 21 of 33 box pages open with Quick-answer/Short-answer/Key-takeaways; **8 of 33 have inline jump links** (the best pages do: mppt-controllers, inverter-chooser, fuse-sizing, cable-sizing…). mppt-vs-pwm and how-to-choose pass the "decide without scrolling" test; **portable-solar-panels and solar-phone-charger fail it** (spec takeaways but no pick/verdict until ~90%).
 - **New defect found & fixed during audit:** 10 pages shipped **machine-truncated meta descriptions** (cut at exactly 158 chars: "…provides a …", "…from nic…") rendering as the on-page "In brief" dek and SERP snippet. All 10 rewritten (see §7).
 
 ### 1.5 Compliance sweep (Boss, then seat-verified — cleaned same day)
@@ -105,7 +105,7 @@ Keep the uniform "Check price on Amazon" (consistency = trust; never goes stale)
 | 4 | Jump-link nav rows on box pages lacking them (24 of 33); standard: ≥1,500 words or ≥5 H2s | Med | Med-High | Low |
 | 5 | Comparison tables + worked numbers for series-parallel and fuses-vs-breakers | Med | Med | Medium |
 | 6 | best-mppt-charge-controllers: methodology block; add warranty row + as-of line to head-to-head table | Med | Med | Low |
-| 7 | Small-roof: reframe or remove the Renogy 100W box (shed-class product on a roof-install page) | Med | Med | Low |
+| 7 | ~~Small-roof: reframe or remove the Renogy 100W box~~ **Resolved before this audit** — the pre-rebuild box was already removed in the 2026-09-05 rebuild (page now has 0 boxes, correct for the installer-channel category); ~~strikethrough~~ retained for the record | — | — | — |
 | 8 | how-to-choose-solar-inverter: replace "Top brands" lists (incl. "Victron (highest quality)") with scenario-matched, sourced picks | Med | Med | Medium |
 | 9 | portable-solar-panels + solar-phone-charger: add quick-answer/pick blocks (currently fail the decide-without-scrolling test); date the cost tiers | Med | Med | Low |
 | 10 | rv-solar-sizing: drop "proven" from the kit lead-in; move box before FAQ | Low | Low | Trivial |
@@ -123,3 +123,17 @@ Keep the uniform "Check price on Amazon" (consistency = trust; never goes stale)
 - rt-ux's Parts B–D were reconstructed by the Boss from the seat's Part A evidence and the structural scan; the CTA library is Boss editorial judgment, not seat-validated copy testing.
 - The template files are documents, not yet exercised on a live page; item #12 (pilot) is the validation step.
 - Traffic/Rybbit data was not re-pulled; page-value judgments use the 2026-09-05 snapshot in the prior audit's TSV.
+
+---
+
+## Independent review (glm-or-1, 2026-09-05)
+
+**VERDICT: PASS — 91/100** (Correctness/Completeness/Evidence/Fit/Risk all PASS; 12 spot-checks, all hotfix and score claims verified against the repo and seat files).
+
+Four precision fixes applied after review:
+1. §1.1 small-roof row quoted a **stale pre-rebuild snapshot** (the Renogy box existed only before commit `2538962`); row re-attributed to the current file, §8 #7 marked resolved.
+2. Box counts reconciled to verified tallies: 32 pages / 44 boxes at HEAD (33/45 at audit start).
+3. Decision-block stats restated from the structural scan: 21/33 quick-answer blocks, 8/33 jump-link rows (the report previously said 24 and 9).
+4. TABLE-FIELDS NEC citation corrected to 310.15(C)(1) for derating (310.16 is the base ampacity table).
+
+**Job log:** 10 dispatches, 4 provider failures (2× glm-xo-1, 2× dsv4-wing-3 empty replies — rt-roundup Boss-authored after doctrine exhaustion; glm-xo-2/glm-xo-3 long responses truncated mid-file — missing parts Boss-rebuilt), qwen-judge 429 ×2 → review reassigned to glm-or-1 (completed). Seat deliverables preserved under `.agency/review-templates/evidence/`. Learning notes recorded: provider-burst routing (prefer dsv4-wing-1/2 for long single-message deliverables), work-order schema (acceptance_criteria must be an array), Boss sweep-triage false-negative lesson.

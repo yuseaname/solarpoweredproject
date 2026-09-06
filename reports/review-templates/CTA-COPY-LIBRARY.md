@@ -4,7 +4,7 @@
 
 ## Current state (verified live, 2026-09-05)
 
-- One uniform button string sitewide: **"Check price on Amazon"** — 45 pages, 48 boxes.
+- One uniform button string sitewide: **"Check price on Amazon"** — 32 pages, 44 boxes at audit close (33/45 at start; one mismatched box removed during the audit).
 - Every box renders its own disclosure ("Price & availability shown on Amazon.com — we may earn a commission.") and `rel="sponsored nofollow noopener"`.
 - CTA-after-value holds across the reviewed surface: almost all boxes sit 60–95% into the body; zero CTAs above the fold on the six live pages checked.
 

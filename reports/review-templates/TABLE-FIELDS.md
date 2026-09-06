@@ -94,7 +94,7 @@ DERIVED fields that earn their columns: charge current ≈ watts ÷ battery V ×
 | Field | Tier | Note |
 |---|---|---|
 | Conductor ampacity by gauge | T3 | NEC 310.16 (cite table; note 60°C vs 75°C column) |
-| Derating conditions | T3 | NEC 310.15 |
+| Derating conditions | T3 | NEC 310.15(C)(1) (ampacity correction factors; base ampacity is the 310.16 table above) |
 | PV max current = Isc × 1.25 | T3 | NEC 690.8(A) |
 | Conductor sizing ≥125% | T3 | NEC 690.8(B) |
 | OCPD sizing (string fuse ≈ Isc × 1.56) | T3 | NEC 690.9(B) |
