@@ -1,5 +1,6 @@
 +++
 title = "How We Build a Useful Answer"
+date = 2026-08-10
 description = "Our approach to calculations, cost guides, comparisons, updates, sources, and practical limitations."
 no_ads = true
 +++

@@ -1,5 +1,6 @@
 +++
 title = "Corrections & Updates"
+date = 2026-08-10
 description = "How to report a factual error, missing context, outdated guidance, or a broken link on Solar Powered Project."
 no_ads = true
 +++

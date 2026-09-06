@@ -146,11 +146,11 @@ To make this more practical, let’s look at how different lifestyles change the
 
 ## Practical Tips for Maximizing Your Solar Investment
 
-Determarily how many panels you need is only half the battle. Once you have your estimate, use these strategies to get the most "bang for your buck."
+Determining how many panels you need is only half the battle. Once you have your estimate, use these strategies to get the most "bang for your buck."
 
 ### 1. Perform an Energy Audit First
 
-Before spending thousands on solar, reduce your baseline consumption. Replacing old incandescent bulbs with LEDs, sealing window drafts, and upgrading to an Energy Star-rated refrigerator can reduce your required solar array size. A smaller array is cheaper to install and provides a much faster Return on On Investment (ROI).
+Before spending thousands on solar, reduce your baseline consumption. Replacing old incandescent bulbs with LEDs, sealing window drafts, and upgrading to an Energy Star-rated refrigerator can reduce your required solar array size. A smaller array is cheaper to install and provides a much faster return on investment (ROI).
 
 ### 2. Consider Battery Storage (The "Buffer" Effect)
 
@@ -172,11 +172,7 @@ Determining how many solar panels to power your house is a journey of moving fro
 
 Remember, the math provided here is a starting point. A professional solar installer will perform a detailed "shading analysis" and a "structural roof assessment" to provide you with a precise, engineered blueprint.
 
-**Ready to see exactly how many panels your roof can hold?**
-
-Don't rely on guesswork when making one of the most significant investments in your home's future. **Contact our team today for a free, customized solar assessment.** We will analyze your utility bills, map your roof, and provide a detailed proposal that shows you exactly how much you can save.
-
-\[**Get Your Free Solar Quote Now**\]
+**Next step:** run your own numbers in the [solar system sizing guide](solar-system-sizing.html), then use them to sanity-check any installer proposal you receive.
 
 ## Related guides
 
