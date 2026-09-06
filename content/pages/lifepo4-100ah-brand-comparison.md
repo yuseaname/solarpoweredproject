@@ -33,17 +33,17 @@ Across the five brands we checked: **nearly every 12V 100Ah LiFePO4 claims ~1,28
 
 ## The spec table: five brands, published numbers only
 
-The models are the standard "100Ah deep-cycle" offering from each brand: Renogy Core Mini 12.8V 100Ah, LiTime 12V 100Ah Group 24, Redodo 12V 100Ah Group 31 Basic, ECO-WORTHY 12V 100Ah (SOC display), ExpertPower EP12100. Numbers come from the brands' own product pages (retrieved 2026-09-05; re-verify against the current datasheet before purchase — specs drift) unless marked **verify before buying**. Cycle life is always labeled **claimed** — it's a manufacturer test claim, not our measurement.
+The models are the standard "100Ah deep-cycle" offering from each brand: Renogy Core Mini 12.8V 100Ah, LiTime 12V 100Ah (Group 31 footprint), Redodo 12V 100Ah Group 31 Basic, ECO-WORTHY 12V 100Ah (SOC display), ExpertPower EP12100. Numbers come from the brands' own product pages (retrieved 2026-09-05; re-verify against the current datasheet before purchase — specs drift) unless marked **verify before buying**. Cycle life is always labeled **claimed** — it's a manufacturer test claim, not our measurement. The LiTime row now has its own page: our [LiTime 100Ah spec-based review](/pages/litime-100ah-review.html) works the ceiling, charging, and cold-weather math in full.
 
 | Brand / model | Capacity | BMS continuous discharge | Claimed cycles | Weight | Warranty | Cold protection |
 |---|---|---|---|---|---|---|
 | Renogy Core Mini 12.8V 100Ah | 100Ah (0.5C, 25°C) | 100A; peak 300A @ 5s | Claimed 5,000 cycles (80% DOD, 80% EOL, 0.5C, 25°C) | 21.8 lbs / 9.9 kg | 5-year prorated | Low-temp charge cutoff (built-in; won't charge below 32°F/0°C) |
-| LiTime 12V 100Ah Group 24 | 100Ah | 100A; 280A @ 5s, 400A @ 1s | Claimed 4,000 cycles @ 100% DOD (also 6,000 @ 80% DOD, 15,000 @ 60% DOD) | 21 lbs | 5 years | None (charge temp 32°F–122°F; FAQ: charge above 32°F/0°C only); heated versions sold separately |
+| LiTime 12V 100Ah (Group 31 footprint) | 100Ah | 100A; 400A @ 1s | Claimed 4,000 cycles @ 100% DOD (also 6,000 @ 80% DOD, 15,000 @ 60% DOD) | ~24.25 lbs | 5 years | None (charge temp 32°F–122°F; FAQ: charge above 32°F/0°C only); heated versions sold separately |
 | Redodo 12V 100Ah Group 31 Basic | 100Ah | 100A; surge 300A @ 1s | Claimed 4,000+ cycles @ 100% DOD (25°C, 0.2C) | 22.05 lbs | 5 years | None (no low-temp protection on this model); low-temp/heated versions sold separately |
 | ECO-WORTHY 12V 100Ah (SOC display) | 100Ah | 100A (charge/discharge) | Claimed: "lasts 8 times longer than sealed lead-acid"; specific cycle number not stated on page — **verify before buying** | 23.37 lbs (spec table); 25.1 lbs (box description) | Up to 10 years on key battery models — page mixes models; **verify before buying** for this specific unit | Low-temperature protection listed on page (BMS) |
 | ExpertPower EP12100 | ≥100Ah (25°C, 0.2C) | 100A continuous; 200A 2-sec | Claimed 2,500 @ 100% DOD / 3,600 @ 80% DOD / 7,000 @ 50% DOD | 27 lbs | 2 years | None listed; charge temp 32°F–140°F, discharge −4°F–140°F — low-temp cutoff **verify before buying** |
 
-**Peak discharge** differs meaningfully: Renogy claims 300A for 5s, LiTime 280A for 5s and 400A for 1s, Redodo 300A for 1s, ExpertPower 200A for 2s. ECO-WORTHY does not publish a peak number (**verify before buying**). Peaks fund short surge loads (inverter start), not continuous loads.
+**Peak discharge** differs meaningfully: Renogy claims 300A for 5s, LiTime 400A for 1s (re-verified 2026-09-06), Redodo 300A for 1s, ExpertPower 200A for 2s. ECO-WORTHY does not publish a peak number (**verify before buying**). Peaks fund short surge loads (inverter start), not continuous loads.
 
 **How to read "claimed cycles":** Renogy's 5,000 is at 0.5C discharge and 80% DOD; Redodo's 4,000+ at 0.2C and 100% DOD; LiTime states 4,000 at 100% DOD and higher numbers at gentler DOD. None is a promise of what *your* battery will do — they're lab claims under stated conditions, which is why we always write "claimed."
 
