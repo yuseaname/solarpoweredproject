@@ -4,11 +4,11 @@ slug = "lifepo4-charging-below-freezing"
 date = 2026-09-06
 draft = false
 description = "Charging LiFePO4 below 32°F causes permanent lithium-plating damage. What actually happens, and the three honest fixes: heated batteries, warming pads, charge windows."
-image = "/images/lifepo4-charging-below-freezing/hero.webp"
-image_alt = "Two deep-cycle batteries with cables installed inside a wooden shed — where winter battery temperatures actually matter"
+image = "/images/lifepo4-charging-below-freezing/freeze-hero.webp"
+image_alt = "Illustration of lithium intercalation above freezing versus lithium plating below freezing in a charging cell"
 author = "Solar Powered Project"
 image_width = 1536
-image_height = 864
+image_height = 842
 related = [
   "/pages/litime-100ah-review.html",
   "/pages/lifepo4-100ah-brand-comparison.html",
@@ -73,6 +73,10 @@ A self-heating battery diverts incoming charge power to heating pads until the c
 **The heater math you should run before buying.** The heater draws from your charge source, and it's not free:
 
 - **Energy cost per cold start:** 100W × 70–90 min ≈ **120–150Wh** to warm from 14°F before charging begins — roughly **10% of a 1,280Wh battery** spent on heat, plus the same again on very cold (−4°F) mornings at 100–150 min. Budget winter harvest accordingly.
+
+<figure class="article-image">
+  <img src="/images/lifepo4-charging-below-freezing/freeze-selfheat.webp" alt="Diagram of a self-heating battery diverting incoming charge power to warming pads before charging resumes" width="1536" height="1024" loading="lazy">
+</figure>
 - **The small-panel trap:** heating needs **10–15A of charge current just to trigger**. A single 100W panel makes ~6A in good sun — on a short winter day it cannot run the heater, let alone charge after it. Practical floor: ~200W of panel in decent winter sun, or shore/alternator charging, or LiTime's energy-efficient mode, which can supplement the heater from the battery itself above 20% SOC (per manufacturer documentation — note that's spending stored energy to enable charging).
 - **Placement still matters:** a self-heating battery in an insulated box warms faster and wastes less; the same battery bare to the wind spends more of your winter harvest on heat.
 
@@ -112,6 +116,10 @@ No — discharging is rated to about −4°F (−20°C) on typical LiFePO4 cells
 
 {{< faq "How much of my solar power does a self-heating battery waste?" >}}
 Budget 120–150Wh per cold start from 14°F, roughly 10% of a 100Ah battery's capacity — more on sub-zero mornings (100–150 minutes of 100W heating, per manufacturer documentation retrieved 2026-09-06). Insulated placement reduces the number and length of heating cycles.
+
+<figure class="article-image">
+  <img src="/images/lifepo4-charging-below-freezing/freeze-budget.webp" alt="Chart comparing a 1,280Wh battery to the 120–150Wh cost of one cold-start heating cycle" width="1536" height="1024" loading="lazy">
+</figure>
 {{< /faq >}}
 
 {{< faq "Will my 100W panel run a self-heating battery in winter?" >}}

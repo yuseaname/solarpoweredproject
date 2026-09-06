@@ -4,8 +4,8 @@ slug = "solar-generator-well-pump-sizing"
 date = 2026-09-06
 draft = false
 description = "Most well pumps are 240V submersibles most power stations can't run. The honest sizing math: surge, runtime per gallon, and which stations actually output 240V."
-image = "/images/solar-generator-well-pump-sizing/hero.webp"
-image_alt = "Wall-mounted home battery unit installed in a utility room beside a water heater — the water-system backup problem in one picture"
+image = "/images/solar-generator-well-pump-sizing/pump-hero.webp"
+image_alt = "Illustration of the 120V-versus-240V divide that disqualifies most power stations for submersible well pumps"
 author = "Solar Powered Project"
 image_width = 1536
 image_height = 1024
@@ -34,6 +34,10 @@ This page is sizing arithmetic and manufacturer-published specs — nothing here
 
 *Surge multiplier per pump-industry sizing practice (motor inrush 2–3×); running watts per manufacturer sizing guides and the standard V×A nameplate math. Your pump's nameplate is the authority.*
 
+<figure class="article-image">
+  <img src="/images/solar-generator-well-pump-sizing/pump-surge.webp" alt="Chart of well-pump starting surge at two to three times running watts" width="1536" height="1024" loading="lazy">
+</figure>
+
 The label on the pressure tank or the well cap, the breaker size in your panel (a 2-pole breaker = 240V), or the control box tells you which row you're in. If it says 230V or 240V and two hots — you're in row one, and the popular stations are out.
 
 ## Why the voltage wall is absolute
@@ -57,6 +61,10 @@ BLUETTI's route is different: the AC500 needs **two units bonded** for 240V spli
 **The sizing math for a ½ HP submersible:** running ~1,000W, starting ~3,000W at 240V → either unit clears the surge (per the manufacturers' own compatibility guides) and runs the pump with the whole rest of its capacity available for fridge/freezer/internet — which is why these are "home backup" class rather than "gadget" class products.
 
 **Runtime per day — the honest good news.** Pumping water is energetically cheap. Lifting 250 gallons (≈946 kg) up a 200-ft (61 m) well is m·g·h ≈ 946 × 9.81 × 61 ≈ **157Wh of hydraulic work**; at a realistic 45–55% wire-to-water efficiency for a small submersible, that's roughly **290–350Wh of electricity per day** for a typical household's water. A 4kWh-class station pumps your household water for the better part of a week. The surge is the hard part, not the energy.
+
+<figure class="article-image">
+  <img src="/images/solar-generator-well-pump-sizing/pump-energy.webp" alt="Diagram of the roughly 300 watt-hours per day needed to pump 250 gallons from a 200-foot well" width="1536" height="1024" loading="lazy">
+</figure>
 
 ## Option 2: a 240V generator (the budget answer)
 

@@ -5,8 +5,8 @@ date = 2026-09-06
 pagetype = "review"
 draft = false
 description = "Spec-based review of the LiTime 12V 100Ah LiFePO4 (Group 31): 100A BMS, 1,280Wh, 5-year warranty, no low-temp charge protection — the sizing math that decides."
-image = "/images/litime-100ah-review/hero.webp"
-image_alt = "Illustrative generic 12.8V 100Ah LiFePO4 deep-cycle battery with a runtime-math graphic — not the specific reviewed unit"
+image = "/images/litime-100ah-review/litime-hero.webp"
+image_alt = "Illustration of an unbranded lithium battery with a load-draw gauge marking the 100-amp BMS ceiling and trip zone"
 author = "Solar Powered Project"
 image_width = 1536
 image_height = 1024
@@ -54,6 +54,10 @@ Specs verified as of 2026-09-06 against the manufacturer's published documentati
 
 **The 100A ceiling — the one calculation that decides everything.** A battery's BMS continuous rating caps the draw you can place on it. At 12.8V, 100A is a 1,280W ceiling (per manufacturer spec). Inverters are ~85–90% efficient, so a 1,000W continuous load pulls roughly 1,000 ÷ 12.8 ÷ 0.87 ≈ **90A** from the battery — inside the ceiling with a little margin. A 2,000W inverter at full load pulls ≈ **180A** — past it, and the BMS will disconnect. That's not a flaw in this battery; it's the arithmetic of every single 100Ah/100A unit in this class. The fix is parallel batteries (two of these = 200A ceiling), not a bigger single battery.
 
+<figure class="article-image">
+  <img src="/images/litime-100ah-review/litime-ceiling.webp" alt="Diagram of the 100A-ceiling math — a 1000W inverter draws about 90A (inside the limit); a 2000W inverter about 180A (past it, crossed out)" width="1536" height="842" loading="lazy">
+</figure>
+
 **The surge story.** The 400A-for-1-second rating is what lets an inverter start a fridge or a well pump: compressor startup can draw 3–6× running current for a fraction of a second. A 1,000W inverter starting a 600W fridge might briefly ask for ~1,800W ≈ 160A — well within 400A for one second. Surge is for starting, never for running.
 
 **Runtime math.** Usable energy = Ah × V × depth of discharge. At a conservative 80% DOD: 100 × 12.8 × 0.8 ≈ **1,024Wh usable**. That runs a 60W CPAP setup for ~17 hours, a 150W fridge cycling at ~40W average for about a day, or a 500W workshop load for two hours. The full worked examples live in <a href="/pages/how-long-will-100ah-battery-run.html" class="text-link">how long will a 100Ah battery run</a>.
@@ -62,7 +66,15 @@ Specs verified as of 2026-09-06 against the manufacturer's published documentati
 
 **Scaling the bank.** Up to 4 parallel × 4 series (16 batteries, 20.48kWh — per manufacturer spec), with the usual strings attached: identical models, similar age, and packs matched within 0.1V before connecting. For most cabin builds the realistic path is 2–4 in parallel on a busbar — see <a href="/pages/solar-battery-management-system-explained.html" class="text-link">our BMS and bank-building guide</a>.
 
+<figure class="article-image">
+  <img src="/images/litime-100ah-review/litime-4p4s.webp" alt="Diagram of a 4-parallel-by-4-series lithium bank built from identical 100Ah batteries" width="1536" height="1024" loading="lazy">
+</figure>
+
 **The cold-weather line.** This base model charges only between 32°F and 122°F, and LiFePO4 charged below freezing is damaged by lithium plating — the manual's own instruction is to bring it somewhere warm to charge in winter. If your battery lives outdoors in a cold climate, that's not a footnote, it's the deciding spec: you want the heated version or a different model with a built-in low-temp cutoff — the full options math is in <a href="/pages/lifepo4-charging-below-freezing.html" class="text-link">our LiFePO4 cold-charging guide</a>, and the side-by-side specs are in <a href="/pages/lifepo4-100ah-brand-comparison.html" class="text-link">the brand comparison</a>.
+
+<figure class="article-image">
+  <img src="/images/litime-100ah-review/litime-coldwindow.webp" alt="Diagram of the 32F-to-122F charge-temperature window with charging blocked below freezing" width="1536" height="842" loading="lazy">
+</figure>
 
 ## Who it's for / Not for / Alternatives
 

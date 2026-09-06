@@ -4,8 +4,8 @@ slug = "van-conversion-solar"
 date = 2026-09-06
 draft = false
 description = "Van conversion solar sizing: the honest load list (incl. real Starlink draw), roof-watts reality, battery choice with winter in mind, alternator charging, and the build order."
-image = "/images/van-conversion-solar/hero.webp"
-image_alt = "White cargo van with a roof rack parked at a campsite — the roof real estate a van solar build has to work with"
+image = "/images/van-conversion-solar/van-hero.webp"
+image_alt = "Illustration of a van-conversion electrical system with roof panels, charge controller, batteries, and alternator charging"
 author = "Solar Powered Project"
 image_width = 1536
 image_height = 1024
@@ -41,6 +41,10 @@ Internet is the load that quietly sizes modern van builds, so use real numbers (
 *Cooking on electricity changes everything: add ~400–600Wh/day and force an inverter into the build. Most considered builds keep a propane/ diesel route for heat and cooking — the [load calculation guide](/pages/how-to-calculate-solar-load.html) has the full worksheet.
 
 **The Starlink decision alone is worth ~300–450Wh/day** (Mini vs Standard, per official specs and owner-measured reports — real-world Mini runs ~20–25W after connection). That's the difference between one 100Ah battery being enough and needing two.
+
+<figure class="article-image">
+  <img src="/images/van-conversion-solar/van-loads.webp" alt="Chart of typical van-build daily loads including Starlink Mini versus Standard draw" width="1536" height="842" loading="lazy">
+</figure>
 
 ## Step 2: what the roof can actually make
 
@@ -80,6 +84,10 @@ Driving is your most reliable winter charger. A **DC-DC charger** (not a plain i
 ## The worked build (one honest example)
 
 Load list lands at **1,400Wh/day** (fridge + fan + lights + laptop + Starlink Mini at 6h). Roof takes **300W flat**. Solar delivers ~1,000–1,100Wh/day in decent weather — the gap closes with **one 2-hour drive per few days** through a 50A DC-DC charger. Bank: **2 × 100Ah LiFePO4** (self-heating if winter-bound). Controller: **40A MPPT**. Total: a system that runs indefinitely with movement, indefinitely in summer sun, and honestly needs a shore/generator top-up in a parked winter week. That's the real answer no component catalog gives you — the arithmetic does.
+
+<figure class="article-image">
+  <img src="/images/van-conversion-solar/van-balance.webp" alt="Diagram balancing roof solar against alternator charging to cover a 1,400Wh-per-day van load" width="1536" height="1024" loading="lazy">
+</figure>
 
 ## Build order (so you don't buy twice)
 

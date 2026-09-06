@@ -4,11 +4,11 @@ slug = "solar-panel-shading-effects"
 date = 2026-08-10
 draft = false
 description = "Partial shading can slash solar output by 30-50%. Learn how bypass diodes work, why series strings are vulnerable, and when microinverters or optimizers solve the problem."
-image = "/images/solar-panel-shading-effects/hero.webp"
-image_alt = "Rooftop solar array on a shingled roof — the setting where partial shading losses get decided (illustrative)"
+image = "/images/solar-panel-shading-effects/dedupe-shading.webp"
+image_alt = "Diagram of bypass diodes routing current around shaded cells in a panel"
 author = "Solar Powered Project"
 image_width = 1536
-image_height = 864
+image_height = 1024
 +++
 
 ## Key takeaways

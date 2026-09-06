@@ -4,11 +4,11 @@ slug = "solar-battery-monitoring-guide"
 date = 2026-09-06
 draft = false
 description = "Voltage lies about lithium state of charge. How shunt-based monitors count amp-hours, the BMV-712 vs SmartShunt vs budget class compared, and the one install rule that makes them accurate."
-image = "/images/solar-battery-monitoring-guide/hero.webp"
-image_alt = "Two deep-cycle batteries with cables installed inside a wooden shed — the bank a shunt-based monitor watches"
+image = "/images/solar-battery-monitoring-guide/monitor-hero.webp"
+image_alt = "Diagram of correct shunt placement — the only connection to battery negative"
 author = "Solar Powered Project"
 image_width = 1536
-image_height = 864
+image_height = 768
 related = [
   "/pages/solar-battery-management-system-explained.html",
   "/pages/battery-capacity.html",
@@ -34,9 +34,17 @@ Reading state of charge from a battery's voltage requires a *resting* battery �
 
 Lead-acid banks have the same problem with a steeper curve. The universal fix is the same: stop inferring, start counting.
 
+<figure class="article-image">
+  <img src="/images/solar-battery-monitoring-guide/monitor-flatcurve.webp" alt="Chart showing why lithium's flat voltage curve hides state of charge between 40 and 80 percent" width="1536" height="1024" loading="lazy">
+</figure>
+
 ## How a shunt counts (and why it needs one honest sync)
 
 A shunt is a resistor of precisely known value (the standard is **50mV drop at rated current** — e.g., 500A/50mV). The monitor measures the tiny voltage across it, converts to amps via Ohm's law, and integrates amps over time — coulomb counting. Three consequences worth knowing:
+
+<figure class="article-image">
+  <img src="/images/solar-battery-monitoring-guide/monitor-ledger.webp" alt="Illustration of coulomb counting — the amp-hour ledger a shunt monitor keeps" width="1536" height="1024" loading="lazy">
+</figure>
 
 1. **It counts everything that crosses it.** Loads, solar charge, alternator charge, the inverter — all of it becomes one honest ledger.
 2. **It drifts without a reference.** Counting has small errors (measurement noise, charge-efficiency assumptions), so the monitor resynchronizes its "full" zero-point whenever the bank reaches a confirmed full charge (charge current tapering to a threshold at absorption voltage — the standard sync condition). A system that never reaches full keeps drifting; that's a usage fact to know, not a flaw.

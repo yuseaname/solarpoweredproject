@@ -4,11 +4,11 @@ slug = "winterizing-off-grid-system"
 date = 2026-09-06
 draft = false
 description = "A checklist for winterizing an off-grid solar system: battery cold-charging rules, panel snow management, derated harvest math, wiring, and load triage before the first freeze."
-image = "/images/winterizing-off-grid-system/hero.webp"
-image_alt = "Deep-cycle battery bank with cables inside a wooden shed — the part of an off-grid system winter hits first"
+image = "/images/winterizing-off-grid-system/winter-hero.webp"
+image_alt = "Illustration of the five winterizing jobs — battery, harvest math, snow management, wiring, load triage — around a winter cabin"
 author = "Solar Powered Project"
 image_width = 1536
-image_height = 864
+image_height = 1024
 related = [
   "/pages/lifepo4-charging-below-freezing.html",
   "/pages/solar-battery-enclosure-guide.html",
@@ -29,6 +29,10 @@ Winterizing an off-grid system is five jobs, in this order: **protect the batter
 Your three options, worked in full in our [LiFePO4 cold-charging guide](/pages/lifepo4-charging-below-freezing.html): a self-heating lithium battery (100W pads warm cells before charging — LiTime's Group 24 self-heating needs ≥10A charge current and spends ~120–150Wh per cold start, per manufacturer documentation retrieved 2026-09-06), thermostat heater pads and insulation for an existing bank, or strict charge-window discipline. If your battery has a low-temp cutoff, test that it works before you need it: a cutoff-equipped bank simply won't charge on a freezing morning, and that's the protection doing its job.
 
 **Winter battery box:** insulation holds yesterday's warmth into the night; a small thermostat pad covers the gap. Don't smother — see the [enclosure guide](/pages/solar-battery-enclosure-guide.html) for venting rules by chemistry.
+
+<figure class="article-image">
+  <img src="/images/winterizing-off-grid-system/winter-box.webp" alt="Diagram of an insulated winter battery box with thermostat-controlled pad and ventilation" width="1536" height="1024" loading="lazy">
+</figure>
 
 ## 2. Reset your harvest math for winter sun
 
@@ -95,6 +99,10 @@ If they're small and portable, that's the free and honest fix — charge them wh
 
 {{< faq "How much does winter reduce my solar harvest?" >}}
 Plan on roughly 40–60% of summer peak sun hours for much of the continental US in December, minus snow-cover days. Run your own numbers from our peak sun hours tables before the season, not during it.
+
+<figure class="article-image">
+  <img src="/images/winterizing-off-grid-system/winter-harvest.webp" alt="Chart showing winter solar harvest at roughly 40–60 percent of summer" width="1536" height="1024" loading="lazy">
+</figure>
 {{< /faq >}}
 
 {{< faq "Is it safe to put a heater pad in my battery box?" >}}

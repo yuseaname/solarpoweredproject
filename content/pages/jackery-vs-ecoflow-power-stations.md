@@ -4,8 +4,8 @@ slug = "jackery-vs-ecoflow-power-stations"
 date = 2026-09-06
 draft = false
 description = "Jackery 1000 v2 vs EcoFlow DELTA 2 compared by spec math: 1,070 vs 1,024Wh, 1,500 vs 1,800W, solar input, cycle-life conditions — and which loads actually decide it."
-image = "/images/jackery-vs-ecoflow-power-stations/hero.webp"
-image_alt = "Portable generator being unloaded from a pickup truck outside a wooden cabin — the backup-power decision setting"
+image = "/images/jackery-vs-ecoflow-power-stations/versus-hero.webp"
+image_alt = "Illustration of the 1,500-watt versus 1,800-watt continuous-output gate between two same-class stations"
 author = "Solar Powered Project"
 image_width = 1536
 image_height = 1024
@@ -51,6 +51,10 @@ This single calculation picks the winner more often than every other spec combin
 
 Worked runtime math at the class level (usable ≈ 90% of nameplate on LiFePO4): 1,070 × 0.9 ≈ **963Wh** vs 1,024 × 0.9 ≈ **922Wh** — about 21 vs 20 hours of a 45W CPAP+humidifier setup, or roughly one day of a modern fridge's cycling (~0.9–1.2kWh/day; measure yours with the method in [our refrigerator sizing page](/pages/what-size-solar-generator-run-refrigerator.html)). A 4% capacity difference disappears into measurement noise.
 
+<figure class="article-image">
+  <img src="/images/jackery-vs-ecoflow-power-stations/versus-noise.webp" alt="Chart contrasting the meaningless 4.5 percent capacity difference with the decisive output gate" width="1536" height="842" loading="lazy">
+</figure>
+
 ## Solar recharge: where they actually differ
 
 With their max solar inputs (400W vs 500W, per manufacturer specs) and ~85% charge efficiency:
@@ -60,6 +64,10 @@ With their max solar inputs (400W vs 500W, per manufacturer specs) and ~85% char
 - **Both need the panels bought or bundled separately** — check whether the listing you're buying includes them (the EcoFlow 220W bundle is a common configuration).
 
 In winter or shade, both numbers stretch badly (see [peak sun hours](/pages/peak-sun-hours-by-state.html)); if solar recharge is your primary plan, the 25% input difference matters more than any capacity difference. If you're mostly wall-charging between uses, ignore this row entirely.
+
+<figure class="article-image">
+  <img src="/images/jackery-vs-ecoflow-power-stations/versus-recharge.webp" alt="Chart comparing solar recharge speed at 500-watt versus 400-watt input" width="1536" height="842" loading="lazy">
+</figure>
 
 ## The tiebreakers that remain
 

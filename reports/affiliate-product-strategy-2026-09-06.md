@@ -251,3 +251,13 @@ No GSC/keyword-tool data exists — all demand/competition figures are labeled e
 ## Independent review outcome
 
 **qwen-judge, 2026-09-06 (reassigned after the original review seat truncated twice): VERDICT PASS, 92/100.** Ten checks: all 10 required sections present and substantive ✓ · ASIN/placement/category counts consistent ✓ · commission math correct ($2,000 ÷ 3–4% = $50k–67k) ✓ · zero invented volumes/KD ✓ · zero testing-implying phrasing ✓ · 5/5 spot-checked content paths exist ✓ · roadmap phases map cleanly to first-10 order ✓ · buyer-intent-plan re-prioritizations all carry reasons ✓. Findings acted on before delivery: **MAJOR** — rate-card [V] label needed its access path documented (legacy URLs 302 to sign-in; the public help node `GRXPHT8U84RAYDXZ` still serves the table; §1 now states this, and the logged-in Commission Income Statement stays flagged as the authoritative per-account view) — **fixed**. **MINOR** — 36→37 monetized-file discrepancy now acknowledged in §4 — **fixed**. **MINOR** — scorecard row 17 traffic-vs-competition tension clarified (traffic = demand size, not entry feasibility) — **fixed**. Full review verbatim: `.agency/affiliate-strategy/review.md`.
+
+---
+
+## Addendum — media layer (2026-09-06, evening)
+
+**Directive:** user authorized dedicated AI-generated article imagery — "3–7 images per article from magica media skill gpt image 2." **Standard:** `reports/media-standard-2026-09-06.md` (binding honesty rules: generated images are illustrations, never product photography — no branded/SKU-accurate renders, no logos, no fake-testing scenes; every alt labels the image as illustration/diagram; diagram labels trace to the article's own numbers). **Engine:** Magica `gpt-image-2-text`, quality `medium`, house style = flat technical illustration on warm paper with orange/charcoal accents (matches the design system and existing field-guide diagrams).
+
+**v1 rollout (this session):** 28 images across 13 pages — 7 heroes + 15 concept figures for the seven pages published today (each article now carries hero + 2–3 decision-math figures), plus 6 dedicated heroes replacing the duplicated themed assets from the morning og-image fix. Per-image Boss vision-verification against §1 before integration; rejects regenerated. ~1.2 credits of the 34.30 balance.
+
+**Standing rule going forward:** every new article ships with hero + inline figures per the standard (3–7), budgeted at ~0.04–0.05 credits/image at medium quality; `high`-tier only for named showcase pieces. The "dedicated hero art" open decision in STATUS is now **resolved** by this standard.

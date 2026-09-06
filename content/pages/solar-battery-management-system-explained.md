@@ -6,11 +6,11 @@ date = 2026-08-10
 pagetype = "informational"
 draft = false
 description = "A battery management system protects your solar battery bank from overcharge, over-discharge, and cell imbalance. Learn how BMS works, types, and when you need one."
-image = "/images/solar-battery-management-system-explained/hero.webp"
-image_alt = "Deep-cycle battery bank with cables in a wooden shed — where a battery management system does its work"
+image = "/images/solar-battery-management-system-explained/dedupe-bms.webp"
+image_alt = "Illustration of a battery management system gating charge, discharge, current, and temperature protections"
 author = "Solar Powered Project"
 image_width = 1536
-image_height = 864
+image_height = 1024
 +++
 
 {{< affiliate-disclosure >}}
