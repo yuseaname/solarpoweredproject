@@ -168,12 +168,12 @@ So a 100Ah lithium battery can realistically run a modern fridge for about **16 
 
 The most common real-world version of this question is "how long will a 200Ah battery run my fridge?" — so here is the full arithmetic at 200Ah, using the same duty-cycle logic from the section above.
 
-**Nameplate energy:** 200Ah x 12V = **2,560Wh**. What you can actually use depends on chemistry:
+**Nameplate energy:** 200Ah × 12.8V (LiFePO4 nominal) = **2,560Wh**. A generic 12V-nominal rating of the same amp-hours holds 2,400Wh — that is the convention the scaling table further down uses. What you can actually use depends on chemistry:
 
 | Chemistry | Usable fraction | Usable Wh | Est. fridge-days |
 | :-- | :-- | :-- | :-- |
 | LiFePO4 (lithium) | 80-90% | ~2,050-2,300Wh | **~1-2 days** |
-| Lead-acid (AGM/gel) | 50% | 1,280Wh | **~0.75-1 day** |
+| Lead-acid (AGM/gel, 12V nominal) | 50% | ~1,200Wh | **~0.75-1 day** |
 
 **The demand side:** an efficient modern full-size fridge averages 1-1.5kWh/day; older or larger units can hit 2kWh+. Add roughly 10% for inverter conversion losses when the fridge runs on AC. A modest 60W average draw (the 150W-at-40%-duty example from above) works out to ~1.44kWh/day.
 

@@ -84,7 +84,7 @@ The inverter row dwarfs everything else: even the bottom of its range (0.5A) is 
 
 ## Step 4: Worked example — a 0.9A mystery draw
 
-**The system:** a 200Ah 12V LiFePO4 bank. Nominal capacity = 200Ah × 12V = **2,560Wh**. **The symptom:** dusk 2,560Wh, dawn ~2,430Wh.
+**The system:** a 200Ah 12V-class LiFePO4 bank. Nominal capacity = 200Ah × 12.8V (LiFePO4 nominal) = **2,560Wh**. **The symptom:** dusk 2,560Wh, dawn ~2,430Wh.
 
 **Step A — quantify:** overnight loss = 2,560 − 2,430 = **130Wh**; average draw = 130 ÷ 12h = **10.8W ≈ 0.9A at 12V**.
 
