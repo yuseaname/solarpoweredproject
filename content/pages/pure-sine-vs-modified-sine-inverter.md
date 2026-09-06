@@ -167,7 +167,7 @@ This is the table most people actually need. Here's what happens to specific dev
 Modified sine produces power in **stepped blocks** rather than a smooth curve. This causes three problems:
 
 1. **Harmonic distortion creates heat.** Devices with transformers and motors can't shed the extra heat efficiently. A laptop charger that normally runs warm may run **15–25°F hotter** and fail in months instead of years.
-2. **Motors lose torque and run inefficiently.** AC induction motors and compressor motors run slower and hotter, pulling more current to do the same work. Real-world measurements show **10–20% efficiency loss** in motorized devices on modified sine.
+2. **Motors lose torque and run inefficiently.** AC induction motors and compressor motors run slower and hotter, pulling more current to do the same work. Engineering estimates commonly cited for motorized devices running on modified sine put efficiency losses around **10–20%**.
 3. **Sensitive electronics see noise.** Anything with a switching power supply (most modern chargers, TVs, computers) may interpret the stepped waveform as dirty power — resulting in buzzing, screen artifacts, or outright failure to charge.
 
 ## Real cost comparison

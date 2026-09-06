@@ -26,8 +26,8 @@ The projected efficiency gains for 2026 panels are impressive. Some manufacturer
 
 With a growing array of high-tech options, identifying the most reliable residential models is crucial. While the market continues to expand, the following models stand out due to their superior performance and long-term reliability:
 
-1.  **SunPower Maxeon LX**: Renowned for exceptional efficiency and rugged durability, this model utilizes advanced TOPCon technology and features an impressive temperature coefficient, making it ideal for varying climates.
-2.  **LG NeON R**: This panel integrates heterojunction cell architecture with advanced design elements to maximize energy yield, even in challenging, real-world lighting conditions.
+1.  **Maxeon (IBC panels)**: Maxeon's interdigitated-back-contact modules sit at the top of residential efficiency charts and carry the category's longest warranty terms (up to 40 years) — per Maxeon's published specifications.
+2.  **Q CELLS Q.PEAK line**: Widely installed Tier-1 modules with a strong all-weather yield reputation and widely available installer support.
 3.  **REC Alpha Pure Series**: REC’s flagship offering provides high power output paired with excellent performance in low-light environments, ensuring consistent energy production throughout the day.
 
 ## Understanding Solar Panel Efficiency & Technology

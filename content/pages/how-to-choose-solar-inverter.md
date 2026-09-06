@@ -197,7 +197,7 @@ If you run the well pump + refrigerator + one AC window unit simultaneously, tha
 
 Inverter efficiency is the percentage of DC input converted to AC output (the rest is lost as heat). Top string and microinverters achieve 96–98% efficiency. Budget units may be 92–94%.
 
-Over 20 years, a 1% efficiency difference on a 6kW system at $0.15/kWh = approximately $1,600 in production value. Efficiency matters, but don't pay a premium for 97% vs 96.5% — the marginal difference isn't worth it.
+Over 20 years, a 1% efficiency difference on a 6kW system producing ~9,000 kWh/year at $0.15/kWh is worth roughly $270. Efficiency matters, but don't pay a premium for 97% vs 96.5% — the marginal difference isn't worth it.
 
 ### Other features to check
 
@@ -224,7 +224,7 @@ String inverters typically last 10–15 years with a 10–12 year warranty. Micr
 
 ### Is a higher efficiency inverter always worth the extra cost?
 
-Not usually. Going from 94% to 97% efficiency saves approximately 3% of your production — on a 6kW system in a 1,700kWh/year production environment, that's about 51 kWh/year, worth roughly $7.65/year at $0.15/kWh. A premium inverter charging $300 more for that 3% efficiency gain has a 40-year payback. Focus on reliability and warranty over marginal efficiency improvements.
+Not usually. Going from 94% to 97% efficiency saves roughly 3% of your production — on a 6kW system producing about 9,000 kWh/year, that's around 270 kWh/year, worth roughly $40/year at $0.15/kWh. A premium inverter charging $300 more for that 3-point gain has a 7–8 year payback — real, but small compared with the value of reliability and warranty. Focus on those over marginal efficiency points.
 
 ---
 

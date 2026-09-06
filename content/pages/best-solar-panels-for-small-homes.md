@@ -24,7 +24,7 @@ Before you invest in solar technology, you must first understand your energy foo
 
 Start by evaluating the average wattage of your essential appliances and multiplying that number by their daily hours of use. This simple calculation provides a reliable estimate of your daily kilowatt-hour (kWh) consumption. Once you have your energy target, assess your physical constraints. Evaluate your available roof square footage, identify potential shading issues from nearby trees, and determine the optimal orientation for your panels. In the Northern Hemisphere, south-facing roofs generally capture the most sunlight, while north-facing roofs are most effective in the Southern Hemisphere.
 
-Finally, use your kWh needs to determine your required system size. For example, if your daily energy consumption is 5 kWh and you use panels averaging 300 watts each, you would need approximately 17 panels (assuming 8 hours of peak sunlight per day). Because small homes often lack the space for large arrays, selecting high-efficiency panels is not just a luxury—it is a necessity.
+Finally, use your kWh needs to determine your required system size. For example, if your daily energy consumption is 5 kWh and you use panels averaging 300 watts each, each panel produces roughly 1.0–1.2 kWh per day in most US locations (300 W × 4–5 peak sun hours × ~0.8 system efficiency), so you need about 5–6 panels — sized up a little for winter. Because small homes often lack the space for large arrays, selecting high-efficiency panels is not just a luxury—it is a necessity.
 
 ## Key Factors: Efficiency and Power Density for Compact Roofs
 
@@ -51,7 +51,7 @@ Finally, do not overlook specialized solutions. **Flexible and lightweight solar
 
 While the upfront cost of solar is an investment, the financial landscape for small-scale systems is surprisingly favorable. On average, the cost per watt for small-scale solar systems ranges from $2.50 to $3.50. For a 3 kW system, you can expect an initial investment of roughly $7,500 to $10,500 before incentives.
 
-To offset these costs, take advantage of available government programs. The **Federal Investment Tax Credit (ITC)** allows you to deduct 26% of your solar installation costs directly from your federal taxes. Furthermore, many states offer additional rebates and financial incentives specifically designed for residential and off-grid setups.
+To plan costs honestly, note that the 30% **Federal Investment Tax Credit (ITC)** expired December 31, 2025 (P.L. 119-21) — a 2026 installation gets no federal tax credit, so budget the full price. Some states still offer their own credits, rebates, or sales/property-tax exemptions for residential and off-grid setups, so check your state's programs before assuming zero incentives.
 
 When calculating your Return on Investment (ROI), most small systems see a payback period of 5 to 10 years, depending on your local electricity rates and available incentives. Over the long term, these systems can lead to substantial, permanent savings on your monthly electricity bills.
 

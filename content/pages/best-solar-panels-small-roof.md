@@ -136,7 +136,7 @@ Compare this number to your annual usage from Step 1. This will give you a reali
 
 ### Step 4: Identify Incentives
 
-Check for the **Federal Solar Tax Credit (ITC)**. Currently, this allows US homeowners to deduct a significant percentage of their solar installation costs from their federal income taxes. This credit applies regardless of whether you have a large or small system, making even a small-scale installation much more financially viable.
+Know the **federal tax credit status**: the 30% ITC expired December 31, 2025, so 2026 installs carry no federal credit — factor that into payback math. Some states still offer credits or exemptions regardless of system size, so check your state's current programs.
 
 ---
 
