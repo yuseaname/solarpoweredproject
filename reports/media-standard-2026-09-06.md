@@ -1,6 +1,6 @@
 # House Media Standard — AI-generated article imagery (v1.0, 2026-09-06)
 
-**Authorization:** user directive 2026-09-06 — "generate product images and other media to make my articles outstanding, 3–7 images per article from magica media skill gpt image 2." Engine: Magica `gpt-image-2-text`, `quality: "medium"` ( Heroes `2048x1152`, inline figures `1536x1024` / `1024x1024`), converted to `.webp` (~q72) on integration, matching the existing asset pipeline.
+**Authorization:** user directive 2026-09-06 — "generate product images and other media to make my articles outstanding, 3–7 images per article from magica media skill gpt image 2." Engine: Magica `gpt-image-2-text`, `quality: "medium"` (heroes requested at `2048x1152`, inline at `1536x1024`; **practice note:** the engine returns 3:2-family sizes (1536×1024 and 1536×842) regardless — final assets are resized to ≤1536 wide), converted to `.webp` (~q72) on integration, front-matter dims always set from the actual file, matching the existing asset pipeline.
 
 ## 1. Honesty rules (binding — same weight as the no-fabricated-testing rule)
 
@@ -20,7 +20,7 @@ Prompt template: `Flat technical illustration, [SUBJECT], warm paper background,
 
 ## 3. Per-article scope (v1 rollout set, 2026-09-06)
 
-3–5 images per article (hero + 2–4 inline concept figures), up to 7 where the article's concepts justify. v1 set = the 7 pages published today (which currently reuse themed assets) + dedicated heroes for the 6 pages whose og-fix copied another page's asset (dedupe). ~31 images ≈ 1.3 credits.
+3–5 images per article (hero + 2–4 inline concept figures — 2 inline is compliant, 3–4 for concept-heavy pages), up to 7 where the article's concepts justify. **Count = total including hero**; the article floor is 3. v1 set = the 7 pages published today (which currently reuse themed assets) + dedicated heroes for the 6 pages whose og-fix copied another page's asset (dedupe). ~31 images ≈ 1.3 credits.
 
 | Page | Gets |
 |---|---|
