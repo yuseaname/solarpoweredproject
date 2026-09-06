@@ -62,7 +62,7 @@ Specs verified as of 2026-09-06 against the manufacturer's published documentati
 
 **Scaling the bank.** Up to 4 parallel × 4 series (16 batteries, 20.48kWh — per manufacturer spec), with the usual strings attached: identical models, similar age, and packs matched within 0.1V before connecting. For most cabin builds the realistic path is 2–4 in parallel on a busbar — see <a href="/pages/solar-battery-management-system-explained.html" class="text-link">our BMS and bank-building guide</a>.
 
-**The cold-weather line.** This base model charges only between 32°F and 122°F, and LiFePO4 charged below freezing is damaged by lithium plating — the manual's own instruction is to bring it somewhere warm to charge in winter. If your battery lives outdoors in a cold climate, that's not a footnote, it's the deciding spec: you want the heated version or a different model with a built-in low-temp cutoff (more in <a href="/pages/lifepo4-100ah-brand-comparison.html" class="text-link">the brand comparison</a>).
+**The cold-weather line.** This base model charges only between 32°F and 122°F, and LiFePO4 charged below freezing is damaged by lithium plating — the manual's own instruction is to bring it somewhere warm to charge in winter. If your battery lives outdoors in a cold climate, that's not a footnote, it's the deciding spec: you want the heated version or a different model with a built-in low-temp cutoff — the full options math is in <a href="/pages/lifepo4-charging-below-freezing.html" class="text-link">our LiFePO4 cold-charging guide</a>, and the side-by-side specs are in <a href="/pages/lifepo4-100ah-brand-comparison.html" class="text-link">the brand comparison</a>.
 
 ## Who it's for / Not for / Alternatives
 

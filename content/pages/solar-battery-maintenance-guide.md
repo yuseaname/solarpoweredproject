@@ -143,6 +143,8 @@ Lithium batteries lose very little capacity in the cold (roughly 5–10% at 32°
 2. **Low-temperature cutoff** — a temperature sensor on the battery tells the charge controller to stop charging below 0°C. The battery sits discharged until it warms, which is safe but means you lose solar input during cold snaps.
 3. **Heated enclosure** — insulate the battery box and add a small thermostat-controlled heater (see enclosure guide). This works for any chemistry.
 
+The full seasonal list — panels, tilt, wiring, load triage — is in our [winterizing checklist](/pages/winterizing-off-grid-system.html), and the cold-charging chemistry and heater math are in the [LiFePO4 below-freezing guide](/pages/lifepo4-charging-below-freezing.html).
+
 ## When to replace your battery bank
 
 Batteries don't die on a schedule — they degrade gradually, then sometimes fail abruptly. Watch for these signs:

@@ -103,7 +103,7 @@ Treat any cycle number as **"claimed, under stated lab conditions"** and compare
 This is the spec most people miss. Two different designs:
 
 - **BMS charge cutoff** — the battery refuses to charge below ~32°F (0°C), protecting cells but leaving you with no charging on a freezing morning. Renogy's Core Mini has this built-in ("built-in low-temperature charging cut-off … below 32°F / 0°C"). LiTime's base Group 24 has no low-temp protection; its own FAQ says to charge only above 32°F (0°C) and bring it indoors to charge in freezing weather. ExpertPower lists charge temperature 32°F–140°F with no low-temp protection feature (**verify before buying**).
-- **Heated / self-heating version** — a built-in heater warms the pack so you can keep charging in cold (e.g., LiTime's "Cold Weather" models, Redodo's "Heating" 100Ah, Renogy's Pro self-heating series). Heated versions cost more but matter for winter off-grid, RVs, and cabins where the battery lives outdoors.
+- **Heated / self-heating version** — a built-in heater warms the pack so you can keep charging in cold (e.g., LiTime's "Cold Weather" models, Redodo's "Heating" 100Ah, Renogy's Pro self-heating series). Heated versions cost more but matter for winter off-grid, RVs, and cabins where the battery lives outdoors — the heater math and warm-up times are worked out in our [LiFePO4 cold-charging guide](/pages/lifepo4-charging-below-freezing.html), and the rest of the seasonal checklist lives in [winterizing your off-grid system](/pages/winterizing-off-grid-system.html).
 
 ECO-WORTHY's page lists "low-temperature protection" on the 100Ah SOC-display model but doesn't publish the exact cutoff temperature — **verify before buying** if you'll charge in cold.
 
