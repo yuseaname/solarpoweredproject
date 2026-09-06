@@ -259,3 +259,30 @@ Three MINOR issues raised, all applied:
 1. Trust-pages scorecard row: T 9→8 with explicit "U-4/U-6 — see Week 1" pointer (truth defects live on those pages; a skimming owner could otherwise skip Week 1).
 2. §1a typo location corrected to "Practical Tips" section (not the Conclusion).
 3. §3 U-5 row restructured so the "FIXED during audit" status renders reliably in both table renderers.
+
+---
+
+## Addendum — execution log (2026-09-06, sprint executed)
+
+All 16 sprint items resolved or explicitly dispositioned. Regression-verified before push: build clean, 153 sitemap URLs unchanged (no URL changes), all new internal links resolve, anchors verified, 10-point rendered-HTML check passed.
+
+**Owner-gate decisions (per standing directive, both reversible):**
+- **U-4 GA: REMOVED** from `hugo.toml` (the audit's preferred option). Privacy policy now matches reality (Rybbit only, cookieless). *Revert:* re-add `google_analytics = '…'` under `[params]` — but if re-added, disclose it on the privacy page first (logged in the corrections entry).
+- **U-12 byline: Option B** (process proof, no invented people). New `reviewed` front-matter param renders "Reviewed Sep 6, 2026" in the meta row; set on the 6 pages whose facts were verified that day (roundup, 3 reviews, vs page, cost guide). Option A (owner's real name/bio in `authors.html` + meta row) remains available at any time.
+
+**Week 1 — truth & legibility:** GA removed · affiliate-disclosure AdSense claim corrected to "we do not currently run display advertising" · privacy policy rewritten (Rybbit-only, Amazon-third-party-cookie honesty) · `--muted` → `#6b6a62` (4.83:1) · `.button-solar` → `--orange-deep` bg (6.02:1), hover deepened · font floor: all .62–.72rem utility text → ≥.75rem with line-heights (breadcrumbs, meta row, product-note, footer-meta, system-strip, kickers, TOC) · target padding on breadcrumbs/TOC/footer links.
+
+**Week 2 — buyer loop:** roundup now links all three existing standalone reviews ("Full review:" lines) · verified editorial price bands added to roundup, vs-page, and all three review spec tables (as-of Sep 2026, volatility-labeled) · early compact Amazon CTA after each review's honesty block · "common buying mistakes" pointer added to Key takeaways · `answer` param supported in template (In-brief can now differ from dek; no pages set it yet).
+
+**Week 3 — operability (JS enhancements in main.js, no-JS = prior baseline):** calculator results `role=status aria-live=polite` (div/p `[id$=result]`) · `inputmode=decimal` on numeric inputs · `th scope=col` on all rendered tables · `tabindex=0` + scroll hint aria-label on tables (keyboard panning) · "(opens in a new tab)" SR text on every Amazon CTA · related-posts "Read guide" links get page-specific aria-labels.
+
+**Week 4 — trust depth:** `reviewed` dates (above) · mobile TOC now a `<details>` collapsed ≤620px via JS (desktop unchanged) · search index enriched with body text + keywords.
+
+**BONUS defects found and fixed during execution:**
+1. **The site search was entirely dead** — `/search.html` rendered an empty article since launch (the search template in `layouts/search/` was never wired: `content/search.md` lacked `type = "search"`). The nav "Search" item led to a blank page. Fixed with one front-matter line; the search UI and enriched index now render. Arguably the largest functional defect on the site, missed by the audit (which only flagged the zero-date and index breadth).
+2. **Wrong price class on both Victron reviews** ("bottom of the $250–$600 mid-range band") — Sep 2026 street checks (official EUR price list, authorized distributor, 5 US retailers) put the 100/20 at ~$95–125 and 100/30 at ~$110–140: small class. Cost-guide small-class floor corrected $120 → $95. Logged in corrections.
+3. Five root pages' zero dates and the fake installer pitch (audit hotfixes, committed `402d540`).
+
+**Deferred (with reasons):** U-13 search body-index — done (keyword+body); the *render-hook* variant of th-scope (M4) deferred in favor of the JS enhancement (zero regression risk across 153 pages) · U-17 system-strip param-fill deferred (needs per-page editorial params; label sizing fixed) · U-20 next-steps/related dedupe deferred (template coupling outweighs Low-severity polish) · U-24 contact reply-window not added (no truthful value exists to state) · U-16 table panning mitigated by keyboard access + contrast/size fixes; column reduction would need per-table editorial decisions.
+
+**Price-band provenance:** seat research (family floors, honestly withheld at model level due to retailer blocking) + Boss corroboration searches (≥2 model-specific sources each); snapshot archived at `.agency/ux-exec/prices.md`.

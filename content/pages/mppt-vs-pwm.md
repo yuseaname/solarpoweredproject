@@ -3,6 +3,7 @@
 title = "MPPT vs PWM Charge Controllers (Comparison)"
 slug = "mppt-vs-pwm"
 date = 2026-05-31
+reviewed = 2026-09-06
 draft = false
 description = "Compare MPPT vs PWM solar charge controllers for efficiency, cost, panel voltage, and best off-grid use cases."
 image = "/images/mppt-vs-pwm/hero.webp"
@@ -101,16 +102,16 @@ Now try four panels: 88V at STC becomes 88 × 1.105 ≈ **97V** — under 100V w
 
 The models worth naming, all covered in our <a href="best-mppt-charge-controllers.html" class="text-link">2026 buyer guide</a>:
 
-| Model | Max input voltage | Max charge current | Bluetooth | Price class |
+| Model | Max input voltage | Max charge current | Bluetooth | Typical street price (Sep 2026) |
 | :-- | :-- | :-- | :-- | :-- |
-| EPEver Tracer 4210AN | 100V | 40A | Optional (BT-1 adapter) | Budget |
-| Renogy Rover 40A | 100V | 40A | Built-in | Budget |
-| Victron SmartSolar 100/20 | 100V | 20A | Built-in | Mid-range |
-| Victron SmartSolar 100/30 | 100V | 30A | Built-in | Mid-range |
+| EPEver Tracer 4210AN | 100V | 40A | Optional (BT-1 adapter) | ~$125–$180 |
+| Renogy Rover 40A | 100V | 40A | Built-in | ~$180–$230 |
+| Victron SmartSolar 100/20 | 100V | 20A | Built-in | ~$95–$125 |
+| Victron SmartSolar 100/30 | 100V | 30A | Built-in | ~$110–$140 |
 
 The Tracer is the budget reference; the Rover counters with a clean Bluetooth app; the Victron 100/30 is what most small builds converge on — the one in the box below.
 
-Our <a href="mppt-charge-controller-cost.html" class="text-link">cost guide</a> bands MPPT at roughly $120–$250 for the small class, $250–$600 for mid-range, and $600–$1,200+ for higher-voltage units — the Tracer and Rover in the small band, the Victrons at the bottom of mid-range. Against a ~$25 PWM unit, pay the premium when it's cold, the array is large, or your bank voltage demands it.
+Our <a href="mppt-charge-controller-cost.html" class="text-link">cost guide</a> bands MPPT at roughly $95–$250 for the small class, $250–$600 for mid-range, and $600–$1,200+ for higher-voltage units. All four models above sit in the small band (street ranges checked Sep 2026 across official price lists, authorized distributors, and multiple US retailers; the Victron 100/20 is usually the cheapest Bluetooth MPPT on the shelf). Per amp, the Tracer and Rover cost less; per feature and firmware maturity, the Victrons punch above their price. Against a ~$25 PWM unit, pay the premium when it's cold, the array is large, or your bank voltage demands it.
 
 ## Next logical reads
 

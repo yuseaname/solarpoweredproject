@@ -2,6 +2,7 @@
 title = "EPEver Tracer 4210AN Review: The Budget 40A Benchmark, Honestly Assessed"
 slug = "epever-tracer-4210an-review"
 date = 2026-09-05
+reviewed = 2026-09-06
 draft = false
 description = "Spec-based review of the EPEver Tracer 4210AN: 40A on a 100V rail, onboard display, what the 2-year warranty means, and when the Victron premium is worth it."
 image = "/images/epever-tracer-4210an-review/hero.webp"
@@ -24,6 +25,8 @@ The EPEver Tracer 4210AN is a **40A, 100V-input MPPT charge controller with an o
 
 **What this review is (and isn't).** This is a **spec-based review**. We did not bench-test this unit, and no manufacturer sent it to us. Every number below comes from the manufacturer's published documentation, marked "per manufacturer spec" with the retrieval date; the warranty figure comes from EPEver's published warranty policy (retrieved 2026-09-05). How products earn a mention on this site: <a href="/pages/how-we-recommend.html" class="text-link">how we recommend</a>.
 
+Charge-current math already landed you between 30A and 40A? {{< amazon asin="B01GMUPGZA" text="Check price on Amazon" >}} — the full spec table, the 40A reality check, and warranty terms are below if you want to verify first.
+
 ## Key specifications
 
 | Spec | Value | Source |
@@ -37,7 +40,7 @@ The EPEver Tracer 4210AN is a **40A, 100V-input MPPT charge controller with an o
 | Remote battery-temp sensor input | Yes | per manufacturer spec, retrieved 2026-09-05 |
 | Lithium charging profiles | Yes, user-settable | per manufacturer spec, retrieved 2026-09-05 |
 | Warranty | 2 years | per manufacturer warranty policy (epever.com), retrieved 2026-09-05; resellers sometimes differ |
-| Typical price class | Budget (lowest cost per amp in its class) | editorial band — see our <a href="/pages/mppt-charge-controller-cost.html" class="text-link">MPPT cost guide</a> |
+| Typical price class | Budget (lowest cost per amp in its class) — typically ~$125–$180 street (checked Sep 2026 across marketplace and retailer listings) | editorial band — see our <a href="/pages/mppt-charge-controller-cost.html" class="text-link">MPPT cost guide</a> |
 
 Specs verified as of 2026-09-05 — verify against the live datasheet before buying; specs drift, and warranty coverage can vary by seller and region (community reports note some resellers honor only 12 months).
 

@@ -14,7 +14,7 @@ Solar Powered Project is reader-supported. When you buy through links on our sit
 
 **Affiliate commissions.** Some links on this site are affiliate links, primarily to retailers like Amazon. If you click one of those links and make a purchase, we may receive a small commission from the retailer. The price you pay is exactly the same either way.
 
-**Display advertising.** We also run display advertising (Google AdSense). Ads are clearly labeled and never disguised as content.
+**Display advertising.** We do not currently run display advertising — the site is supported by affiliate commissions alone. If that ever changes, this page will say so and ads will be clearly labeled, never disguised as content.
 
 ## What this means for our recommendations
 

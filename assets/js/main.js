@@ -27,10 +27,26 @@
       var query = input.value.trim().toLowerCase();
       if (!query) { output.innerHTML = ''; count.textContent = ''; return; }
       var terms = query.split(/\s+/);
-      var matches = window.SPP_SEARCH_INDEX.filter(function (item) { var hay = (item.title + ' ' + item.description + ' ' + item.section).toLowerCase(); return terms.every(function (term) { return hay.indexOf(term) !== -1; }); }).slice(0, 12);
+      var matches = window.SPP_SEARCH_INDEX.filter(function (item) { var hay = (item.title + ' ' + item.description + ' ' + item.section + ' ' + (item.body || '') + ' ' + (item.keywords || '')).toLowerCase(); return terms.every(function (term) { return hay.indexOf(term) !== -1; }); }).slice(0, 12);
       count.textContent = matches.length ? matches.length + (matches.length === 1 ? ' guide found' : ' guides found') : 'No exact matches. Try a component, system type, or simpler phrase.';
       output.innerHTML = matches.map(function (item) { return '<article><p class="eyebrow">' + esc(item.section === 'diy-off-grid-energy' ? 'Project Lab' : 'Field guide') + '</p><h2><a href="' + esc(item.url) + '">' + esc(item.title) + '</a></h2><p>' + esc(item.description) + '</p></article>'; }).join('');
     }
     input.addEventListener('input', render);
+  }
+
+  /* Accessibility enhancements: calculator result announcements, numeric mobile
+     keypads, table header scope + keyboard scrollability, mobile TOC collapse. */
+  document.querySelectorAll('.prose div[id$="results"], .prose div[id$="result"], .prose p[id$="results"], .prose p[id$="result"]').forEach(function (el) {
+    el.setAttribute('role', 'status');
+    el.setAttribute('aria-live', 'polite');
+  });
+  document.querySelectorAll('.prose input[type="number"]').forEach(function (el) { el.setAttribute('inputmode', 'decimal'); });
+  document.querySelectorAll('.prose table').forEach(function (table) {
+    table.querySelectorAll('thead th').forEach(function (th) { th.setAttribute('scope', 'col'); });
+    table.tabIndex = 0;
+    table.setAttribute('aria-label', 'Data table — use arrow keys to scroll if it is wider than the screen.');
+  });
+  if (window.matchMedia('(max-width: 620px)').matches) {
+    document.querySelectorAll('details.toc-details').forEach(function (d) { d.removeAttribute('open'); });
   }
 })();

@@ -11,17 +11,15 @@ no_ads = true
 
 ## Analytics
 
-We use privacy-focused analytics, currently Rybbit, to understand broad traffic patterns and improve the publication. Analytics providers may process information such as pages viewed, browser and device information, approximate location, IP-related information, and event data needed for measurement, security, or fraud prevention.
+We use privacy-friendly, cookieless analytics (Rybbit) to understand broad traffic patterns and improve the publication. It does not set tracking cookies. Analytics providers may process information such as pages viewed, browser and device information, approximate location, IP-related information, and event data needed for measurement, security, or fraud prevention.
 
 ## Advertising and cookies
 
-Solar Powered Project may use Google AdSense and other advertising partners. These vendors may use cookies or similar technologies to serve and measure advertisements, limit repeated ads, and, where allowed, personalize advertising based on visits to this and other sites.
-
-Learn more about how Google uses information on partner sites at [policies.google.com/technologies/partner-sites](https://policies.google.com/technologies/partner-sites). You can manage Google ad personalization through [Google Ads Settings](https://adssettings.google.com/).
+We do not run display advertising and do not use Google Analytics or other cross-site tracking on this site. Our only advertising revenue is the affiliate program described on the [affiliate disclosure page](affiliate-disclosure.html). Retailers you visit through those links (such as Amazon) may set their own cookies once you arrive — their privacy policies, not ours, govern that.
 
 ## Your choices
 
-You can manage or delete cookies through browser settings. Blocking some cookies may change how advertising is served and how site activity is measured. Consent requirements can differ by location; where required, applicable consent choices should be presented before non-essential technologies are used.
+You can manage or delete cookies through your browser settings, and you can decline affiliate cookies by not following product links. If our analytics or advertising practices ever change, this page will be updated first.
 
 ## Contact
 

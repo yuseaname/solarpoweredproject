@@ -2,6 +2,7 @@
 title = "Best MPPT Charge Controllers for Solar (2026 Buyer Guide)"
 slug = "best-mppt-charge-controllers"
 date = 2026-08-18
+reviewed = 2026-09-06
 draft = false
 description = "Best MPPT charge controllers compared: Victron, Renogy Rover, and EPEver Tracer picked by voltage class and budget. Includes the decision flow so you can size one yourself instead of picking a brand first."
 image = "/images/mppt-charge-controller-cost/hero.webp"
@@ -17,7 +18,7 @@ image_height = 1024
 
 ## Key takeaways
 
-**How to read this page:** this is a spec-based comparison — we have not bench-tested these controllers. Specs come from the manufacturers' published documentation (marked "per manufacturer spec" where cited), warranty terms from each manufacturer's warranty page (retrieved 2026-09-05), and every pick is a scenario match by voltage class and budget, not a ranking. The criteria behind how products earn a mention on this site are on our <a href="/pages/how-we-recommend.html" class="text-link">how we recommend</a> page.
+**How to read this page:** this is a spec-based comparison — we have not bench-tested these controllers. Specs come from the manufacturers' published documentation (marked "per manufacturer spec" where cited), warranty terms from each manufacturer's warranty page (retrieved 2026-09-05), and every pick is a scenario match by voltage class and budget, not a ranking. The criteria behind how products earn a mention on this site are on our <a href="/pages/how-we-recommend.html" class="text-link">how we recommend</a> page. Before you buy, skim the <a href="#common-buying-mistakes" class="text-link">common buying mistakes</a> below — two of them change which pick is right.
 
 -   Size the controller from your **array voltage** and **battery charging current** first; brand comes second.
 -   The 100 V input class covers most single-string builds up to ~400 W on 12 V or ~800 W on 24 V at 30 A; bigger arrays need higher-voltage controllers or parallel units.
@@ -52,6 +53,8 @@ The Tracer line has been the budget reference for years. The 4210AN pairs a 40 A
 
 **Where it stings:** firmware quirks if you push multiple charging profiles; wireless monitoring costs extra (BT-1 module).
 
+**Full review:** <a href="epever-tracer-4210an-review.html" class="text-link">EPEver Tracer 4210AN — the 40 A reality check</a> (specs, worked sizing math, warranty terms).
+
 ### Renogy Rover 40 A – 100 V input, Bluetooth
 
 The Rover 40 sits at the top of the 100 V input class. If your array runs at higher voltage than battery (typical for single-string 12/24 V builds), this is the natural budget pick.
@@ -76,6 +79,8 @@ The most copied controller family in the DIY community. Not because it is the ch
 
 **Where it stings:** price per amp sits above the budget class; 20 A caps a 12 V array at roughly 260 W.
 
+**Full review:** <a href="victron-smartsolar-100-20-review.html" class="text-link">Victron SmartSolar 100/20 review</a> (specs, the 20 A gate math, warranty terms).
+
 ### Victron Energy SmartSolar MPPT 100/30 – 30 A, 100 V input, Bluetooth
 
 The same platform with more current — the model most small-system builds converge on. If your sizing math landed at 20–30 A on a 100 V rail (400 W on 12 V, 800 W on 24 V), this is the right step rather than jumping to a different brand.
@@ -85,6 +90,8 @@ The same platform with more current — the model most small-system builds conve
 **Where it wins:** same maturity as the 100/20 but with headroom for future panel growth.
 
 **Where it stings:** still capped at 100 V input; once you need higher array voltage, you move to the Victron 150 V line or a different brand entirely.
+
+**Full review:** <a href="victron-smartsolar-100-30-review.html" class="text-link">Victron SmartSolar 100/30 review</a> (sourced spec table, build math, warranty terms).
 
 ## Head-to-head comparison
 
@@ -96,9 +103,11 @@ The same platform with more current — the model most small-system builds conve
 | Lithium presets | Yes | Yes | Yes |
 | Remote temp input | Yes | No | Yes |
 | Warranty (per manufacturer) | 2 years | 3 years, material & workmanship | 5 years standard (paid 10-year extension offered) |
-| Typical price class | Budget | Budget | Mid-range |
+| Typical street price (editorial, Sep 2026) | ~$125–$180 | ~$180–$230 | ~$110–$140 |
 
 Warranty terms per the manufacturers’ published warranty pages (epever.com, renogy.com, victronenergy.com; retrieved 2026-09-05) — terms change and resellers sometimes differ, so verify before purchase. Why the temp-sensor row matters: if your batteries live somewhere the controller doesn’t, the remote sensor is what makes charging honest — lithium must not charge below freezing and lead-acid should be temperature-compensated.
+
+Price bands are editorial estimates checked September 2026 against official price lists, an authorized Victron distributor, and multiple US retailers; marketplace prices move daily, so treat them as orientation, not quotes — the current price is always the one Amazon shows. Note what the band row quietly says: the Rover 40A typically outcosts the Victron 100/30 — the Rover's case is 40 A of current, not a lower price, and the budget label on both 40 A picks is about cost *per amp*.
 
 Between the two budget picks, the Rover’s built-in Bluetooth app is the daily-use difference; the Tracer counters with the physical display. The Victron’s advantage is not in spec sheets — it shows up in firmware maturity and ecosystem depth.
 

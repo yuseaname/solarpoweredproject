@@ -16,7 +16,6 @@ enableGitInfo = true
   favicon = '/assets/images/solarpoweredproject-logo.png'
   og_image = '/assets/images/field-guide/social-og-fallback.jpg'
   google_site_verification = ''
-  google_analytics = 'G-GLZVS6799J'
 
   # Central affiliate swap-point — change here, every Amazon link updates sitewide.
   amazon_tag = 'slrpwp-20'

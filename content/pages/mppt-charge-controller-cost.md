@@ -3,6 +3,7 @@
 title = "MPPT Charge Controller Cost: Typical Prices + How to Budget"
 slug = "mppt-charge-controller-cost"
 date = 2026-05-31
+reviewed = 2026-09-06
 draft = false
 description = "MPPT solar charge controller cost explained: typical price ranges, MPPT vs PWM pricing, and sizing checks to avoid buying the wrong unit."
 image = "/images/mppt-charge-controller-cost/hero.webp"
@@ -29,7 +30,7 @@ MPPT controllers often land in a broad band depending on voltage class, current 
 <tbody>
 <tr class="odd">
 <td>Small (low amps, basic)</td>
-<td>$120–$250</td>
+<td>$95–$250</td>
 <td>Small RV/cabin starter systems</td>
 </tr>
 <tr class="even">

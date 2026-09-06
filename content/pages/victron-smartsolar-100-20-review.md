@@ -2,6 +2,7 @@
 title = "Victron SmartSolar MPPT 100/20 Review: Specs, Sizing Fit, and Honest Limits"
 slug = "victron-smartsolar-100-20-review"
 date = 2026-09-05
+reviewed = 2026-09-06
 draft = false
 description = "Spec-based review of the Victron SmartSolar 100/20: 100V input, 20A output, which first arrays it honestly fits, and when the 100/30 earns its extra cost."
 image = "/images/victron-smartsolar-100-20-review/hero.webp"
@@ -24,6 +25,8 @@ The Victron SmartSolar 100/20 is a 100V-input, 20A-output MPPT charge controller
 
 **What this review is (and isn't).** This is a **spec-based review**. We did not bench-test this unit, and no manufacturer sent it to us. Every number below comes from the manufacturer's published documentation, marked "per manufacturer spec" with the retrieval date; warranty terms come from the manufacturer's warranty page. How products earn a mention on this site: <a href="/pages/how-we-recommend.html" class="text-link">how we recommend</a>.
 
+Already know your array lands under the 20A gate? {{< amazon asin="B075NPQHQK" text="Check price on Amazon" >}} — the full spec table, gate math, and warranty terms are below if you want to run the numbers first.
+
 ## Key specifications
 
 | Spec | Value | Source |
@@ -35,7 +38,7 @@ The Victron SmartSolar 100/20 is a 100V-input, 20A-output MPPT charge controller
 | Monitoring | Bluetooth built-in (VictronConnect app) | per manufacturer spec, retrieved 2026-09-05 |
 | Lithium charging profiles | Yes, presets including LiFePO4 | per manufacturer spec, retrieved 2026-09-05 |
 | Warranty | 5 years standard; paid 10-year extension offered | per manufacturer warranty page (victronenergy.com), retrieved 2026-09-05 |
-| Typical price class | Mid-range (below the 100/30 in the $250–$600 MPPT band) | editorial band — see our <a href="/pages/mppt-charge-controller-cost.html" class="text-link">MPPT cost guide</a> |
+| Typical price class | Small class, entry level — typically ~$95–$125 street; usually the cheapest Bluetooth MPPT on the shelf (checked Sep 2026 against five US retailers and the official EUR price list) | editorial band — see our <a href="/pages/mppt-charge-controller-cost.html" class="text-link">MPPT cost guide</a> |
 
 Specs verified as of 2026-09-05 against the manufacturer's published documentation — verify against the live datasheet before buying; specs drift, and warranty terms can differ by seller and region.
 
