@@ -137,3 +137,25 @@ Four precision fixes applied after review:
 4. TABLE-FIELDS NEC citation corrected to 310.15(C)(1) for derating (310.16 is the base ampacity table).
 
 **Job log:** 10 dispatches, 4 provider failures (2× glm-xo-1, 2× dsv4-wing-3 empty replies — rt-roundup Boss-authored after doctrine exhaustion; glm-xo-2/glm-xo-3 long responses truncated mid-file — missing parts Boss-rebuilt), qwen-judge 429 ×2 → review reassigned to glm-or-1 (completed). Seat deliverables preserved under `.agency/review-templates/evidence/`. Learning notes recorded: provider-burst routing (prefer dsv4-wing-1/2 for long single-message deliverables), work-order schema (acceptance_criteria must be an array), Boss sweep-triage false-negative lesson.
+
+---
+
+## Addendum — implementation log (2026-09-05, commits `42d1a39`)
+
+All 12 active items from §8 executed same day (item 7 was already resolved pre-audit):
+
+1. **`solar-battery-backup-vs-generator.md` — full rewrite to TEMPLATE-VS** (Boss): Short answer first, 11-factor comparison table, worked math both directions (12 kWh usable vs 2 kWh/day essentials; fuel-band reality), honest caveats for both products, both "when X wins" sections, CPSC-anchored carbon-monoxide rules, hybrid, 7-question checklist, 5-FAQ + schema. The narrative opening, asserted costs, ROI claim, and superlative are gone.
+2. **Methodology + source-tiering** on pure-sine (seat dsv4-wing-1: "~60–70% of devices" stat replaced with labeled device-class guidance; "15–25°F hotter" labeled commonly-cited estimate; bands linked to the inverter cost guide), series-parallel and fuses-vs-breakers (below).
+3. **Monetization gap closed**: li-ion-vs-lead-acid gained a late LiTime box with full house anatomy (5–7× lifetime-energy framing from the page's own math); micro-vs-string gained an "installer-channel products" note instead of a box (Boss deviation from the seat's box recommendation — grid-tied micro/string hardware is installer-channel, so a box would violate embedding standard rule 1; documented here deliberately).
+4. **Jump-link nav rows on 24 box pages** (scripted; threshold ≥1,500 words or ≥5 H2s): 165 anchors generated, then verified against rendered HTML after the minify quote-stripping gotcha — 9 special-character mismatches fixed from live ids (em-dash/slash double-hyphen cases; 4 manual `{#stepN}` anchors on the not-charging page). Final: 165/165 resolve.
+5. **Tables + worked math added** to series-parallel (seat dsv4-wing-2 after one empty-reply retry: 7-factor table, 3×-100W worked math both directions incl. the I²R 9× wire-loss example and the Isc×1.56 fuse chain) and fuses-vs-breakers (seat dsv4-wing-3: 6-factor table, 6A-Isc sizing chain with NEC 690.8/690.9 anchors, battery-main vs terminal-fuse split with ABYC 150 mm rule).
+6. **MPPT roundup**: "How to read this page" methodology block + **warranty row added with web-verified figures** (Victron 5-yr standard extendable to 10 paid — victronenergy.com; EPEver 2-yr — epever.com; Renogy Rover 3-yr material & workmanship — renogy.com; all retrieved 2026-09-05) + retrieval-dated footnote + why-the-temp-sensor-matters sentence.
+7. *(resolved pre-audit)*
+8. **Inverter chooser**: all four "Top brands" lists replaced with scenario-matched picks; "Victron Energy (highest quality)" superlative removed; the FXR3048A/MultiPlus-II example now attributed "(per manufacturer spec)" with a size-from-your-own-list caveat.
+9. **Quick-answer blocks added** to portable-solar-panels and solar-phone-charger (both previously failed the decide-without-scrolling test); portable cost tiers stamped 2026 bands + cost-per-watt-guide link.
+10. **rv-solar-sizing**: "proven" removed; Starter-kit section moved before the FAQ (was appendix-after-fork).
+11. **Bare cost figures stamped** (8 edits): solar-panels-vs-wind-turbines ("current market averages" → 2026 planning bands ×3), ac-vs-dc-coupled (×2), 12v-vs-24v-vs-48v (×2), mppt-vs-pwm (×1).
+12. **Pilot individual-review page published**: `/pages/victron-smartsolar-100-30-review.html` — the site's first standalone review, built from TEMPLATE-INDIVIDUAL-REVIEW with the warranty figure now verified rather than illustrative (5-yr standard per victronenergy.com, retrieved 2026-09-05), full sourced spec table, who-for/not-for/alternatives (EPEver/Renogy with their verified warranties), "Did you test this?" honesty FAQ, schema, one box with full anatomy. Hero reuses the controller hero image until a dedicated asset exists.
+13. **CTA variant**: the solar-panel-output multimeter box now uses the library's approved diagnostic string "See specs on Amazon" (1 box sitewide; 45 remain uniform).
+
+**Verification (all pass):** Hugo build 161 pages / 146 sitemap URLs; 165/165 jump anchors resolve against rendered HTML; button census 45× uniform + 1 approved variant; both new boxes carry full anatomy; 0 missing internal links across edited pages; live HTTP 200 on the pilot and all rewritten pages, with jump links and the new Short-answer blocks confirmed rendering. Box census after this wave: 33 pages / 45 boxes (li-ion +1, panels-cost −1 earlier, pilot +1).
