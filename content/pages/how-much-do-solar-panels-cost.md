@@ -123,9 +123,9 @@ In a Lease or PPA, a third-party company installs and maintains the panels on yo
 
 The "payback period" typically ranges from 6 to 10 years. This depends on your local electricity rates, the amount of sunlight your roof receives, and the amount of available state incentives.
 
-### Does the 30% Federal Tax Credit apply to the whole cost?
+### Did the 30% Federal Tax Credit apply to the whole cost?
 
-Yes, the Federal Investment Tax Credit (ITC) applies to the total cost of the solar system, including labor, equipment, and even battery storage (if part of the solar installation). It is a credit against your federal income tax liability, not a direct check from the government.
+For systems installed in 2025 or earlier, yes — the Federal Investment Tax Credit (ITC) applied to the total system cost, including labor, equipment, and battery storage (if part of the solar installation), as a credit against federal income tax liability. The credit expired December 31, 2025, so 2026 installations get no federal credit; check whether your state offers its own credit or exemption.
 
 ### Will solar panels increase my home's value?
 
