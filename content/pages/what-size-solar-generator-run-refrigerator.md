@@ -205,3 +205,9 @@ Rarely. 100W × 4 sun hours × 0.8 = 320 Wh/day — about 22% of a modern fridge
 {{< faq "Are soft-start kits safe?" >}}
 Yes, when installed per the manufacturer's instructions. They reduce compressor start surge by roughly 50–70%, which can let a smaller generator start a larger fridge. They are common in RVs and off-grid systems.
 {{< /faq >}}
+
+## Next logical reads
+
+<a href="/pages/solar-generator-well-pump-sizing.html" class="text-link">What size station runs a well pump (the 240V problem)</a> <a href="/pages/solar-generator.html" class="text-link">Solar generators: the honest guide</a> <a href="/pages/cpap-battery-backup-guide.html" class="text-link">CPAP battery backup sizing</a> <a href="/pages/winterizing-off-grid-system.html" class="text-link">Winterizing your system</a>
+
+{{< faq-schema >}}

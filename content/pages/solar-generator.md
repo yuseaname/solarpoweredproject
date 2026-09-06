@@ -53,6 +53,8 @@ CPAP numbers assume running from DC (12V) — the humidifier and heated tube rou
 
 ## The surge trap: sizing the inverter, not just the battery
 
+One load breaks this whole page's assumptions: a deep-well submersible pump, which needs 240V that most stations do not output — that decision has its own page in [well-pump station sizing](/pages/solar-generator-well-pump-sizing.html).
+
 Motor loads don't start at their running watts. A fridge drawing 150W running may need 600–1,200W for the split second the compressor starts. If your inverter's surge rating is below that spike, the station trips offline — everything shuts off, not just the fridge.
 
 Rule of thumb: **inverter continuous ≥ your largest running load + 30%; surge rating ≥ 3–4× any compressor's running watts.** Worked example in the [fridge sizing guide](what-size-solar-generator-run-refrigerator.html); inverter math in [how to size an inverter](solar-inverter-sizing.html).

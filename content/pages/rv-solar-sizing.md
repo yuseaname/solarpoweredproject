@@ -120,4 +120,4 @@ It can, but it typically requires a large battery bank, substantial panel wattag
 
 ## Next logical reads
 
-<a href="rv-solar-cost.html" class="text-link">RV solar system cost breakdown</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown (general)</a> <a href="solar-use-cases.html" class="text-link">More solar use cases</a> <a href="rv-solar-cost.html" class="text-link">RV solar cost breakdown</a>
+<a href="/pages/van-conversion-solar.html" class="text-link">Van conversion solar sizing (the build-from-scratch path)</a> <a href="rv-solar-cost.html" class="text-link">RV solar system cost breakdown</a> <a href="/pages/battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown (general)</a> <a href="solar-use-cases.html" class="text-link">More solar use cases</a> <a href="rv-solar-cost.html" class="text-link">RV solar cost breakdown</a>
