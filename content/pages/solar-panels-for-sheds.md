@@ -4,7 +4,7 @@ title = "Solar panels for sheds and outbuildings"
 slug = "solar-panels-for-sheds"
 date = 2026-05-31
 draft = false
-description = "Transforming a shed, garage, or workshop into a self-sustaining power hub is one of the most efficient ways to begin your solar journey. Unlike large-scale..."
+description = "Powering a shed or workshop with solar: load math, system architecture choices, component selection, and installation steps for small off-grid builds."
 image = "/images/solar-panels-for-sheds/hero.webp"
 author = "Solar Powered Project"
 image_width = 1536
@@ -154,6 +154,10 @@ If the system is completely off-grid and not connected to your home's electrical
 
 Maintenance is minimal. The primary task is cleaning the panels with water and a soft cloth every 6 months to remove pollen, dust, or bird droppings, which can reduce efficiency by 10-25%.
 
+If your load math landed in the lights-and-tool-charging band rather than the workshop scenarios, this is the baseline kit that fits:
+
+{{< product-box asin="B00BFCNFRM" name="Renogy 100W 12V mono starter kit" label="The 100W shed baseline" description="Panel, 30A PWM controller, Z-brackets, and cables in one box (per manufacturer spec) — the exact class this guide sizes from. Fine for lights + tool charging; if your math says 200W+, buy two panels and a bigger MPPT (see our controller guide) instead of two kits. Not for: the workshop scenarios this guide works through — both land around 530–560Wh/day, which needs a 200W+ array, and the 30A PWM controller is a bottleneck once power tools are involved. The honest tradeoff: the kit's 30A PWM controller and single-kit wiring are a closed loop — once your loads grow past lights and tool charging, the controller is the first part you'll replace." button="Check price on Amazon" >}}
+
 ## Related guides
 
 -   <a href="solar-basics.html" class="text-link">Solar power basics</a>
@@ -166,7 +170,5 @@ Maintenance is minimal. The primary task is cleaning the panels with water and a
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
 - [DIY Thermoelectric Generator (TEG): Turn Waste Heat Into Battery Power](/diy-off-grid-energy/diy-thermoelectric-generator-teg-battery-charging.html)
 - [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
-
-{{< product-box asin="B00BFCNFRM" name="Renogy 100W 12V mono starter kit" label="The 100W shed baseline" description="Panel, 30A PWM controller, Z-brackets, and cables in one box (per manufacturer spec) — the exact class this guide sizes from. Fine for lights + tool charging; if your math says 200W+, buy two panels and a bigger MPPT (see our controller guide) instead of two kits. Not for: the workshop scenarios this guide works through — both land around 530–560Wh/day, which needs a 200W+ array, and the 30A PWM controller is a bottleneck once power tools are involved. The honest tradeoff: at ~$150 per kit the price is low, but you give up the harvest and headroom an MPPT controller would add." button="Check price on Amazon" >}}
 
 

@@ -168,7 +168,7 @@ Divide daily Wh by average peak sun hours to estimate needed panel watts.
 
 <a href="solar-panel-output.html" class="text-link">Use the solar panel output calculator →</a>
 
-{{< product-box asin="B07GF5JY35" name="Renogy 100W 12V Monocrystalline Panel" label="The sizing math, made real" description="Once your watt-hour math says how many watts of panel you need, this is the module to check the number against (per manufacturer spec) — the $1/Watt benchmark that turns a sizing worksheet into a shopping list. Not for: whole-home or grid-tied arrays — by the Step 2 math, a 2,000Wh/day cabin needs ~625W, and whole-home loads run well past that in multiples of 100W modules. The honest tradeoff: 100W per module means you buy and mount many units for bigger arrays." button="Check price on Amazon" >}}
+{{< product-box asin="B07GF5JY35" name="Renogy 100W 12V Monocrystalline Panel" label="The sizing math, made real" description="Once your watt-hour math says how many watts of panel you need, this is the module to check the number against (per manufacturer spec) — the $1/Watt-class benchmark that turns a sizing worksheet into a shopping list. Not for: whole-home or grid-tied arrays — by the Step 2 math, a 2,000Wh/day cabin needs ~625W, and whole-home loads run well past that in multiples of 100W modules. The honest tradeoff: 100W per module means you buy and mount many units for bigger arrays." button="Check price on Amazon" >}}
 
 ## Step 3: Size batteries
 

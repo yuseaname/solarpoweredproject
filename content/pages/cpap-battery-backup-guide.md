@@ -111,7 +111,7 @@ This is electrical, not medical — but a few practical notes:
 - **Don't touch pressure settings or firmware.** Those are therapy settings. Any question about your treatment goes to your prescriber, not a battery guide.
 - **Read your machine's manual** for its actual input requirements before buying anything.
 
-{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="The deep-cycle CPAP bank" description="1,280Wh of usable-capacity chemistry (100Ah at 12.8V, 80-100% DoD, per manufacturer spec) — at 40-60Wh per CPAP night that is over a week of runtime, and it doubles as the cabin/RV bank the rest of the year. Not for: packed travel — at over 100Wh it can't go in an airline carry-on without approval, per the rules above. The honest tradeoff: pair with a 12V DC cable for your machine to skip inverter losses; on AC the inverter eats 10-15%." button="Check price on Amazon" >}}
+{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="The deep-cycle CPAP bank" description="100Ah at 12.8V — 1,280Wh nameplate (per manufacturer spec), the 100Ah-lithium class the runtime table above sizes at about 2.7 nights without the humidifier and 1.3 with it. It doubles as the cabin/RV bank the rest of the year. Not for: packed travel — at over 100Wh it can't go in an airline carry-on without approval, per the rules above. The honest tradeoff: pair with a 12V DC cable for your machine to skip inverter losses; on AC the inverter eats 10-15%." button="Check price on Amazon" >}}
 
 
 

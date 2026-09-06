@@ -4,7 +4,7 @@ title = "How much do solar panels cost"
 slug = "how-much-do-solar-panels-cost"
 date = 2026-05-31
 draft = false
-description = "Understanding the cost of solar energy is the most critical step in determining whether a transition to renewable energy is financially viable for your hou..."
+description = "What solar panels cost in 2026: installed $/Watt bands, what is inside a quote (hardware, labor, soft costs), financing models compared, and reading a quote."
 image = "/images/how-much-do-solar-panels-cost/hero.webp"
 author = "Solar Powered Project"
 image_width = 1536
@@ -114,8 +114,6 @@ Solar loans are the most popular option. Many-specialized solar loans offer low 
 ### Solar Leases and Power Purchase Agreements (PPA)
 
 In a Lease or PPA, a third-party company installs and maintains the panels on your roof. You simply pay a monthly fee for the power produced. While this requires $0 upfront, you never received the federal tax credit under this structure, you miss equity gains, and post-2025 TPO pricing already absorbed the credit's expiry — compare contract $/kWh against your utility rate.
-
-{{< product-box asin="B07GF5JY35" name="Renogy 100W 12V Monocrystalline Panel" label="The DIY price benchmark" description="The panel most cost tables are built around. When installer quotes cite $2.50+/Watt installed, a $1/Watt panel like this shows exactly what the labor and overhead line items cost you." button="Check price on Amazon" >}}
 
 ## Frequently Asked Questions
 

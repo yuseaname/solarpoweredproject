@@ -206,8 +206,6 @@ For many off-grid and RV use cases, waveform matters for compatibility.
 
 <a href="pure-sine-vs-modified-sine-inverter.html" class="text-link">Pure sine vs modified sine wave</a> <a href="micro-vs-string-inverters.html" class="text-link">Micro vs string inverters (grid-tied)</a>
 
-{{< product-box asin="B081CLPDT9" name="Renogy 2000W 12V Pure Sine Inverter" label="When the math says 2000W" description="If your load list lands in the 1500–2000W continuous range, this is the honest default: pure sine for electronics and motors, remote switch, and cables in the box (per manufacturer spec) — no surge-headroom upsell. Not for: the worked example below — 2,100W running with a ~3,100W worst-case startup needs a 3,000W class unit, not 2,000W. The honest tradeoff: at 12V the battery draw reaches ~194A continuous, which pushes toward 24V/48V cabling." button="Check price on Amazon" >}}
-
 ## Worked example: small off-grid cabin
 
 Loads running together: refrigerator (200W), LED lighting (300W), laptop + phone charging (100W), microwave (1,500W input — a "1,000W output" microwave draws ~1,400–1,600W from the bank).
@@ -216,6 +214,8 @@ Loads running together: refrigerator (200W), LED lighting (300W), laptop + phone
 -   **With 25% headroom:** 2,100 × 1.25 = 2,625W → pick a **3,000W** inverter (next common size)
 -   **Worst-case startup:** microwave starting while the rest runs = 600 + 1,500 = 2,100W; refrigerator starting while the rest runs = 1,900 + 1,200 = **3,100W** ← the binding case. A 3,000W inverter with a typical 2× surge rating (6,000W) covers it.
 -   **Battery-side at 12V (90% efficiency):** 2,100 ÷ 10.8 ≈ **194A continuous**, 3,100 ÷ 10.8 ≈ **287A during startup** — heavy. At 24V both numbers halve; at 48V they quarter. This is why bigger inverter loads push systems toward higher bank voltage (see <a href="/pages/12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V</a>).
+
+{{< product-box asin="B081CLPDT9" name="Renogy 2000W 12V Pure Sine Inverter" label="When the math says 2000W" description="If your load list lands in the 1500–2000W continuous range, this is the honest default: pure sine for electronics and motors, remote switch, and cables in the box (per manufacturer spec) — no surge-headroom upsell. Not for: the worked example above — 2,100W running with a ~3,100W worst-case startup needs a 3,000W class unit, not 2,000W. The honest tradeoff: at 12V the battery draw reaches ~194A continuous, which pushes toward 24V/48V cabling." button="Check price on Amazon" >}}
 
 ## Common sizing examples (quick ranges)
 

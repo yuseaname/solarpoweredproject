@@ -4,7 +4,7 @@ title = "Solar phone charger"
 slug = "solar-phone-charger"
 date = 2026-05-31
 draft = false
-description = "Whether you are trekking through a remote national park, camping in a desert, or preparing for an emergency power outage, a solar phone charger provides a ..."
+description = "How to pick a solar phone charger: integrated power banks vs foldable panels, the wattage and port specs that matter, and durability ratings."
 image = "/images/solar-phone-charger/hero.webp"
 author = "Solar Powered Project"
 image_width = 1536
@@ -152,6 +152,6 @@ Yes. Dust, fingerprints, and bird droppings create "shading" on the cells. Even 
 - [Best solar lights for your yard](/pages/solar-lights-for-yard.html)
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
 
-{{< product-box asin="B082HPTZ3P" name="Nekteck 28W USB solar charger" label="The travel-tier workhorse" description="Four foldable monocrystalline panels, two USB-A ports at up to 4A total, IPX4 (per manufacturer spec). At 28W under good sun it charges a phone in roughly the same time as a wall charger, with headroom for a second device. Hang it from a pack, not the ground. Not for: integrated power-bank duty — it has no internal battery, so nighttime or cloudy-day charging needs a separate power bank, exactly as this guide's hybrid strategy describes. The honest tradeoff: IPX4 shrugs off light rain but isn't the IP65/IP67 submersion rating this guide recommends for wet-weather hiking." button="Check price on Amazon" >}}
+{{< product-box asin="B082HPTZ3P" name="Nekteck 28W USB solar charger" label="The travel-tier workhorse" description="Four foldable monocrystalline panels, two USB-A ports at up to 4A total, IPX4 (per manufacturer spec). At 28W under good sun, charging speed should land in everyday wall-charger territory — our estimate from the rated output (makers don't publish charge times), with headroom for a second device. Hang it from a pack, not the ground. Not for: integrated power-bank duty — it has no internal battery, so nighttime or cloudy-day charging needs a separate power bank, exactly as this guide's hybrid strategy describes. The honest tradeoff: IPX4 shrugs off light rain but isn't the IP65/IP67 submersion rating this guide recommends for wet-weather hiking." button="Check price on Amazon" >}}
 
 

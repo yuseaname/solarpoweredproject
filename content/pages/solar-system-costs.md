@@ -97,7 +97,7 @@ Three tiers, worked out in full below:
 </tbody>
 </table>
 
-{{< product-box asin="B07GF5JY35" name="Renogy 100W 12V Monocrystalline Panel" label="The $1/Watt reality check" description="When a quote says $2.50+/Watt installed, hardware like this shows what the other $1.50 buys — labor, rails, permitting, and the installer's margin on the same watts." button="Check price on Amazon" >}}
+{{< product-box asin="B07GF5JY35" name="Renogy 100W 12V Monocrystalline Panel" label="The commodity-hardware reality check" description="When a quote says $2.50+/Watt installed, hardware like this shows what the other $1.50 buys — labor, rails, permitting, and the installer's margin on the same watts." button="Check price on Amazon" >}}
 
 ## Budget 1: ~2kW DIY cabin system
 
