@@ -1,6 +1,7 @@
 {{- /* toolscript.html — Inline interactive calculator script wrapper */ -}}
 {{- /* Usage: {{< toolscript id="unique-id" >}} ...JS... {{< /toolscript >}} */ -}}
 {{- $id := .Get "id" | default "tool" -}}
+<noscript><p class="product-note" style="border:1px solid var(--line);padding:10px 14px;">This calculator needs JavaScript to run — the tables and worked examples on this page cover the same math by hand.</p></noscript>
 <script>
 (function(){
   "use strict";

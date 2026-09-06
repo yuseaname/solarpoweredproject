@@ -1,5 +1,5 @@
 baseURL = 'https://solarpoweredproject.com/'
-languageCode = 'en-us'
+languageCode = 'en'
 title = 'Solar Powered Project'
 theme = 'adsense-base'
 disableHugoGeneratorInject = true
@@ -15,6 +15,7 @@ enableGitInfo = true
   author = 'Solar Powered Project'
   favicon = '/assets/images/solarpoweredproject-logo.png'
   og_image = '/assets/images/field-guide/social-og-fallback.jpg'
+  logo = '/assets/images/solarpoweredproject-logo.png'
   google_site_verification = ''
 
   # Central affiliate swap-point — change here, every Amazon link updates sitewide.

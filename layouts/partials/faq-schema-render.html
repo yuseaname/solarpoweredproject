@@ -10,10 +10,10 @@
     {{- range $i, $faq := $faqs -}}
     {
       "@type": "Question",
-      "name": {{ $faq.q | jsonify }},
+      "name": {{ $faq.q | jsonify | safeJS }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": {{ $faq.a | jsonify }}
+        "text": {{ $faq.a | jsonify | safeJS }}
       }
     }{{- if lt $i $last }},{{ end -}}
     {{- end -}}
