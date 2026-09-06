@@ -12,8 +12,6 @@ image_width = 1200
 image_height = 630
 +++
 
-# How Much Do Solar Panels Cost in New York in 2026?
-
 ## Quick answer
 
 As of mid-2026, solar panels in New York cost **$2.80–$3.25 per watt installed**, with NYC metro quotes running above the upstate average. A typical **7–8 kW** system runs roughly **$19,600–$26,000** before incentives. The 30% federal tax credit expired December 31, 2025 — a 2026 install gets **no federal credit** — so payback rests on state fundamentals: a **29.49¢/kWh** residential rate (EIA, June 2026), NY-Sun upfront payments while blocks remain, a real **25% state tax credit up to $5,000**, and modest **3.5–4.2 peak sun hours**. Worked honestly, simple payback lands around **8.5–10 years** — the strongest of the four state guides in this series, because high rates beat weak sun.
@@ -147,4 +145,4 @@ Yes, with honest expectations. Lake-effect snow cuts December–February product
 - <a href="/guides/solar-panel-cost-massachusetts.html" class="text-link">Solar panel cost in Massachusetts — the other high-rate Northeast market</a>
 - <a href="/guides/solar-panel-cost-new-jersey.html" class="text-link">Solar panel cost in New Jersey</a>
 - <a href="/guides/solar-panel-cost-illinois.html" class="text-link">Solar panel cost in Illinois</a>
-- <a href="/guides/" class="text-link">All state solar cost guides</a>
+- <a href="/guides.html" class="text-link">All state solar cost guides</a>

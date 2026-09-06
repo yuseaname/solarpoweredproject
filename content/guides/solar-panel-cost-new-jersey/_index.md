@@ -9,8 +9,6 @@ author = "Solar Powered Project"
 description = "New Jersey solar panel cost guide for 2026: price per watt, SREC-II (SuSI) income, net metering, and payback timeline without the federal credit."
 +++
 
-# How Much Do Solar Panels Cost in New Jersey in 2026?
-
 ## Quick answer
 
 In mid-2026, an installed residential system in New Jersey runs **$2.80 – $3.20 per watt** — so a typical **8–9 kW** system costs **$22,400 – $28,800** before any incentive. The 30% federal tax credit expired December 31, 2025 (P.L. 119-21), so 2026 buyers pay the full gross price and should treat that as the working number. What keeps New Jersey on the short list anyway is the state's own stack: full-retail net metering, SREC-II (SuSI) certificate income paid per MWh for 15 years, a sales tax exemption, and a property tax carve-out.

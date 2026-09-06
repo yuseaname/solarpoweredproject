@@ -142,6 +142,6 @@ Buying (via cash or loan) is almost always cheaper in the long run. While leasin
 ---
 
 **Related guides:**
-- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california/)
+- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california.html)
 - [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california.html)
 - [How Much Does a Solar Battery Cost in 2026?](/pages/solar-battery-cost-2026.html)

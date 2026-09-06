@@ -27,11 +27,6 @@ A proper battery enclosure solves three problems at once: it protects the batter
 
 This guide covers everything you need to know: placement, ventilation, temperature control, fire safety, and code requirements for both lead-acid and lithium banks. For background on battery chemistry differences, see our <a href="li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid comparison</a> and <a href="battery-capacity.html" class="text-link">battery capacity guide</a>.
 
-<figure>
-<img src="/images/solar-battery-enclosure-guide/inline-1.webp" loading="lazy" width="640" height="427" alt="Insulated battery shed with vented lead-acid bank and proper cable management" />
-<figcaption>Photo: Solar Powered Project</figcaption>
-</figure>
-
 ## Placement: where to put the enclosure
 
 The ideal battery enclosure sits between the solar panels and the point of use (inverter and loads), and as close to the inverter as practical. Two factors drive placement: electrical efficiency and accessibility.
@@ -87,11 +82,6 @@ For large banks (more than 4 to 6 large flooded cells), consider a small explosi
 Sealed lead-acid (AGM and gel) batteries vent far less hydrogen under normal operation — the valves only release under overcharge pressure. Minimal ventilation (a small passive vent) is usually sufficient. However, if a sealed battery fails or is severely overcharged, it can vent gas just like a flooded battery, so some ventilation is still prudent.
 
 Lithium (LiFePO4) batteries produce no hydrogen gas during normal operation. They don't require ventilation for gas removal. However, they do benefit from some airflow for thermal management — lithium cells degrade faster at sustained high temperatures (above 45°C / 113°F), and a sealed box in direct sun can easily exceed that. Passive vents or a small thermostatically controlled fan help keep lithium banks in their comfort zone.
-
-<figure>
-<img src="/images/solar-battery-enclosure-guide/inline-2.webp" loading="lazy" width="640" height="427" alt="Lithium battery bank in insulated enclosure with heating pad and low-temperature sensor" />
-<figcaption>Photo: Solar Powered Project</figcaption>
-</figure>
 
 ## Temperature control
 

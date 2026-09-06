@@ -21,8 +21,6 @@ related = [
 
 <a href="#quick-answer" class="text-link">Quick answer</a> <a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#installed-home-batteries-compared-per-manufacturer-spec" class="text-link">Installed home batteries compared (per manufacturer spec)</a> <a href="#best-for-four-scenarios-not-one-winner" class="text-link">Best for: four scenarios, not one winner</a> <a href="#why-the-diy-usable-wh-math-wins--and-how-to-do-it" class="text-link">Why the DIY $/usable-Wh math wins — and how to do it</a> <a href="#questions-to-ask-an-installer-about-any-battery" class="text-link">Questions to ask an installer about any battery</a> <a href="#installed-batteries-are-not-amazon-items" class="text-link">Installed batteries are not Amazon items</a>
 
-# Best Solar Batteries for Home 2026
-
 <figure class="article-image article-image--hero">
 <img src="/assets/images/best-solar-batteries-2026/best-solar-batteries-2026-hero.jpg" loading="eager" decoding="async" width="1200" height="630" alt="Home solar batteries compared on capacity, power, and warranty in 2026">
 </figure>

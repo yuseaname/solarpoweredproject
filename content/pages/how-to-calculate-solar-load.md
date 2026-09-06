@@ -60,11 +60,6 @@ There are three ways to get the wattage, in order of accuracy:
 
 For devices that cycle on and off (fridge, freezer, furnace, well pump), you want the **average** wattage over the day, not the momentary running watts. A 150W fridge doesn't run 24 hours — the compressor runs maybe 30–40% of the time, so average consumption is closer to 1,000–1,400 Wh/day for a full-size unit. A Kill-A-Watt over 24 hours captures this automatically.
 
-<figure>
-<img src="/images/how-to-calculate-solar-load/inline-1.webp" loading="lazy" width="640" height="427" alt="A Kill-A-Watt meter plugged into a wall outlet measuring refrigerator power consumption" />
-<figcaption>Photo: Solar Powered Project</figcaption>
-</figure>
-
 ### Step 3: Estimate daily running hours
 
 This is where most people lie to themselves. Be realistic, not aspirational. The laptop runs 6 hours, not "a couple." The lights are on 4 hours in the evening, not "barely at all."
@@ -162,11 +157,6 @@ Common surge ratios:
 | Coffee maker | 1,000–1,500 W | 1,000–1,500 W (resistive, no surge) |
 
 The microwave is a good reminder: **watts in (from the wall) ≠ watts out (cooking power)**. A "1,000 W" microwave typically draws 1,400–1,600 W from the outlet. Check the label.
-
-<figure>
-<img src="/images/how-to-calculate-solar-load/inline-2.webp" loading="lazy" width="640" height="427" alt="Worksheet showing solar load calculation with wattage and hours columns" />
-<figcaption>Photo: Solar Powered Project</figcaption>
-</figure>
 
 ## The most common sizing mistakes
 

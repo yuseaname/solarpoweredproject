@@ -27,11 +27,6 @@ This isn't a defect in solar panel design — it's a direct consequence of how e
 
 If you're still deciding how to wire your array, see our <a href="solar-panels-series-vs-parallel.html" class="text-link">solar panels series vs parallel</a> guide first — wiring choice is the single biggest factor in how badly shading hurts you.
 
-<figure>
-<img src="/images/solar-panel-shading-effects/inline-1.webp" loading="lazy" width="640" height="427" alt="Solar array with one panel shaded by tree foliage showing uneven production" />
-<figcaption>Photo: Solar Powered Project</figcaption>
-</figure>
-
 ## Why one shaded cell kills the whole string
 
 Solar panels are built from individual photovoltaic cells — typically 60, 72, or 96 of them — wired together in series inside the module. In a series circuit, the same current flows through every component. The total voltage is the sum of all individual cell voltages, but current is limited by the weakest link.
@@ -70,11 +65,6 @@ Without bypass diodes, that same single shaded cell would cut the entire module 
 Bypass diodes live in the junction box on the back of the panel — that black plastic box where the output cables connect. Most residential panels have 3 diodes (for 60-cell modules) or 3 to 4 (for 72-cell or larger modules). They're built in at the factory and require no maintenance. If a diode fails (rare, but it happens after a lightning strike or severe sustained overvoltage), the junction box usually needs to be replaced or the panel retired.
 
 **Important distinction**: Bypass diodes are not the same as blocking diodes. Bypass diodes route current around shaded cells within a panel or string. Blocking diodes prevent reverse current flow at night (from the battery back through the panels). Most modern systems use the charge controller for blocking instead, but bypass diodes are always built into the panels themselves.
-
-<figure>
-<img src="/images/solar-panel-shading-effects/inline-2.webp" loading="lazy" width="640" height="427" alt="Junction box on back of solar panel showing three bypass diodes" />
-<figcaption>Photo: Solar Powered Project</figcaption>
-</figure>
 
 ## Why series strings suffer most
 

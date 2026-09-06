@@ -176,4 +176,4 @@ If you already have a large Solar PV array, it is often more cost-effective to s
 **Related guides:**
 - [How Much Does a Solar Battery Cost in 2026?](/pages/solar-battery-cost-2026.html)
 - [How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide](/pages/solar-battery-cost-2026.html)
-- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california/)
+- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california.html)

@@ -6,8 +6,6 @@ lastmod: 2026-08-15
 slug: "affiliate-disclosure"
 ---
 
-# Affiliate Disclosure
-
 Solar Powered Project is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. This never influences which products we recommend or how we evaluate them.
 
 ## How we make money

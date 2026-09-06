@@ -139,4 +139,4 @@ It depends on your tariff. Under below-retail export credits, shifting afternoon
 - <a href="/pages/solar-system-sizing.html" class="text-link">Solar system sizing guide</a>
 - <a href="/guides/solar-panel-cost-colorado.html" class="text-link">Solar panel cost in Colorado</a>
 - <a href="/guides/solar-panel-cost-nevada.html" class="text-link">Solar panel cost in Nevada</a>
-- <a href="/guides/" class="text-link">All state solar cost guides</a>
+- <a href="/guides.html" class="text-link">All state solar cost guides</a>

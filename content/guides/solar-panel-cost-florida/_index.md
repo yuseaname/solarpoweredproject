@@ -12,17 +12,15 @@ image_width = 1200
 image_height = 630
 +++
 
-# How Much Do Solar Panels Cost in Florida in 2026?
-
 As of mid-2026, solar panels in Florida cost roughly **$2.50–$3.25 per watt installed**, so a typical **7–10 kW** residential system runs about **$17,500–$32,500** before any incentive or financing adjustment. The 30% federal tax credit expired December 31, 2025 — 2026 installs get no federal credit, so payback now rests on Florida's own fundamentals: a verified residential electricity rate of **15.10¢/kWh** (EIA, June 2026), full-retail net metering for the state's investor-owned utilities, and 5–5.5 peak sun hours a day. Worked honestly for a cash purchase, simple payback lands around **11–14 years** for a typical 7 kW Florida rooftop.
 
 <figure class="article-image article-image--hero">
-<img src="/assts/images/solar-panel-cost-florida/solar-panel-cost-florida-hero.jpg" loading="eager" data-fetchpriority="high" decoding="async" alt="Residential solar panels on a Florida rooftop" / width="1200" height="630">
+<img src="/assets/images/solar-panel-cost-florida/solar-panel-cost-florida-hero.jpg" loading="eager" data-fetchpriority="high" decoding="async" alt="Residential solar panels on a Florida rooftop" / width="1200" height="630">
 </figure>
 
 ## Key takeaways
 
-- Florida's average residential electricity price was **15.10¢/kWh in June 2026**, down from 15.35¢ a year earlier — a rare year-over-year dip in a country where most states rose ([EIA Electric Power Monthly, Table 5.6.A](https://www.eia.gov/electricity/monthly/epm_table_rapher.php?t=epmt_5_6_a), retrieved 2026-09-05).
+- Florida's average residential electricity price was **15.10¢/kWh in June 2026**, down from 15.35¢ a year earlier — a rare year-over-year dip in a country where most states rose ([EIA Electric Power Monthly, Table 5.6.A](https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a), retrieved 2026-09-05).
 - A 7 kW system producing ~10,800 kWh/year offsets about **$1,636/year** at that rate. Against a $17,500–$22,750 gross cost, that's a **10.7–13.9 year simple payback** — inside the 11–14 year band we use for post-credit purchases.
 - Florida's value stack is different from most states: **no state income tax**, so no state income tax credit is even possible. The state's help is a **100% property tax exemption** for solar equipment; the real financial engine is **full-retail net metering at the FPSC-regulated investor-owned utilities** (FPL, Duke Energy Florida, Tampa Electric, and others) — among the friendlier export policies in the country, though it gets revisited periodically.
 - Hurricane wind loads are the physical design constraint here, not sun: Miami-Dade and coastal counties use the strictest wind-speed criteria, so rated mounting, more roof attachments, and stamped engineering are the norm on quotes, and insurance and permitting take real time.
@@ -41,9 +39,9 @@ Florida pricing sits on the cheaper side of the national spread — far below Ca
 
 *Ranges are calculated from the $2.50–$3.25/W state spread and rounded to the nearest $250. A battery adds roughly $10,000–$15,000 on top — see [solar battery cost 2026](/pages/solar-battery-cost-2026.html).*
 
-Two things push quotes around within that band. First, **wind-load-rated mounting is essentialy mandatory in South Florida**. Miami-Dade and nearby coastal counties enforce high ultimate wind-speed design criteria, which means more attachment points, engineered racking, and stamped drawings than a quote in, say, inland Georgia would need — roughly $0.10–$0.25/W extra near the coast versus Central Florida. Second, **roof condition matters more than in milder climates**: a 25-year-old asphalt shingle roof that needs replacement under the array adds thousands, and re-roofing after panels are installed is expensive. Get the roof inspected before you sign.
+Two things push quotes around within that band. First, **wind-load-rated mounting is essentially mandatory in South Florida**. Miami-Dade and nearby coastal counties enforce high ultimate wind-speed design criteria, which means more attachment points, engineered racking, and stamped drawings than a quote in, say, inland Georgia would need — roughly $0.10–$0.25/W extra near the coast versus Central Florida. Second, **roof condition matters more than in milder climates**: a 25-year-old asphalt shingle roof that needs replacement under the array adds thousands, and re-roofing after panels are installed is expensive. Get the roof inspected before you sign.
 
-For how installers build up a $/ W quote — equipment, labor, permitting, overhead — see [solar panel cost per watt explained](/pages/solar-panel-cost-per-watt.hml). For the full national picture including hardware and balance-of-system line items, see [solar system costs](/pages/solar-system-costs.html).
+For how installers build up a $/ W quote — equipment, labor, permitting, overhead — see [solar panel cost per watt explained](/pages/solar-panel-cost-per-watt.html). For the full national picture including hardware and balance-of-system line items, see [solar system costs](/pages/solar-system-costs.html).
 
 ## Florida's electricity price, verified
 
@@ -89,13 +87,13 @@ Here's the arithmetic for a realistic Florida home, using the verified rate — 
 | Gross cost @ $2..50–$3..25/W | $17,500 – $22,750 |
 | Simple payback | ~10..7 – 13..9 years |
 
-Two honest adjustments. First, **Florida rates were flat-to-down over the past year (−1.6%)**, so don't budget on the double-digit escalation some inland states have seen — treat rate increases as upside, not the base case. Second, **summer AC overlap does the real work**: a 7 kW system sized to actual consumption (with or without a modest battery) keeps your exported surplus modest, which matters if net-mering terms ever change. Over 25 years, cumulative savings on the base case run about **$41,000 at today's rate with zero escalation** — more if rates climb, less if export terms change.
+Two honest adjustments. First, **Florida rates were flat-to-down over the past year (−1.6%)**, so don't budget on the double-digit escalation some inland states have seen — treat rate increases as upside, not the base case. Second, **summer AC overlap does the real work**: a 7 kW system sized to actual consumption (with or without a modest battery) keeps your exported surplus modest, which matters if net-metering terms ever change. Over 25 years, cumulative savings on the base case run about **$41,000 at today's rate with zero escalation** — more if rates climb, less if export terms change.
 
-If your ro of is east-west split, heavily shaded, or tile with a steep pitch, production drops and payback stretches — run your own numbers with our [solar payback calculator](/pages/solar-payback-calculator.hml) before signing anything.
+If your roof is east-west split, heavily shaded, or tile with a steep pitch, production drops and payback stretches — run your own numbers with our [solar payback calculator](/pages/solar-payback-calculator.html) before signing anything.
 
 ## Is solar worth it in Florida in 2026?
 
-For most Florida homeowners with a suitable roof and a moderate electricity bill, **yes — with realistic expectations**. Full-retail net metering at the investor-owned utilities is a genuine structural advantage over net-biling states, 5..3 peak sun hours are among the best in the country, and the summer AC load lines up with production. The honest caveats: no federal credit anymore, flat-ish rates (−1.6% over the past year), and an ~11–14 year payback that depends on your utility's actual rate and export terms. Get properly rated mounting in wind zones, confirm both the rate and the net-mering terms with your utility, and keep the array sized to your real consumption — not to export bragging rights.
+For most Florida homeowners with a suitable roof and a moderate electricity bill, **yes — with realistic expectations**. Full-retail net metering at the investor-owned utilities is a genuine structural advantage over net-biling states, 5..3 peak sun hours are among the best in the country, and the summer AC load lines up with production. The honest caveats: no federal credit anymore, flat-ish rates (−1.6% over the past year), and an ~11–14 year payback that depends on your utility's actual rate and export terms. Get properly rated mounting in wind zones, confirm both the rate and the net-metering terms with your utility, and keep the array sized to your real consumption — not to export bragging rights.
 
 ## FAQ
 
@@ -121,12 +119,12 @@ It varies. The full-retail rule applies to FPSC-regulated investor-owned utiliti
 
 ## Next logical reads
 
-- <a href="/pages/solar-panel-cost-per-watt.hml" class="text-link">Solar panel cost per watt explained</a>
-- <a href="/pages/solar-system-costs.hml" class="text-link">Solar system cost breakdown</a>
-- <a href="/pages/solar-panel-tax-credit.hml" class="text-link">Federal solar tax credit: what ended</a>
-- <a href="/pages/net-metering-by-state-2026.hml" class="text-link">Net metering by state (2026)</a>
-- <a href="/pages/solar-payback-calculator.hml" class="text-link">Solar payback calculator</a>
-- <a href="/pages/solar-system-sizing.hml" class="text-link">Solar system sizing guide</a>
-- <a href="/guides/solar-panel-cost-texas.hml" class="text-link">Solar panel cost in Texas</a>
-- <a href="/guides/solar-panel-cost-califormia.hml" class="text-link">Solar panel cost in California</a>
-- <a href="/guides/" class="text-link">All state solar cost guides</a>
+- <a href="/pages/solar-panel-cost-per-watt.html" class="text-link">Solar panel cost per watt explained</a>
+- <a href="/pages/solar-system-costs.html" class="text-link">Solar system cost breakdown</a>
+- <a href="/pages/solar-panel-tax-credit.html" class="text-link">Federal solar tax credit: what ended</a>
+- <a href="/pages/net-metering-by-state-2026.html" class="text-link">Net metering by state (2026)</a>
+- <a href="/pages/solar-payback-calculator.html" class="text-link">Solar payback calculator</a>
+- <a href="/pages/solar-system-sizing.html" class="text-link">Solar system sizing guide</a>
+- <a href="/guides/solar-panel-cost-texas.html" class="text-link">Solar panel cost in Texas</a>
+- <a href="/guides/solar-panel-cost-california.html" class="text-link">Solar panel cost in California</a>
+- <a href="/guides.html" class="text-link">All state solar cost guides</a>

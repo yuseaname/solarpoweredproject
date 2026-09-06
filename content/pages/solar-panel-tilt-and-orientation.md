@@ -27,11 +27,6 @@ Getting them right costs nothing on a new ground-mount installation, and even on
 
 For site-specific numbers, use our <a href="solar-panel-angle-calculator.html" class="text-link">solar panel angle calculator</a> after reading this guide. And for a deeper look at how tilt affects rated output, see <a href="solar-panel-efficiency.html" class="text-link">solar panel efficiency explained</a>.
 
-<figure>
-<img src="/images/solar-panel-tilt-and-orientation/inline-1.webp" loading="lazy" width="640" height="427" alt="Ground mount solar array tilted at latitude angle facing true south" />
-<figcaption>Photo: Solar Powered Project</figcaption>
-</figure>
-
 ## Understanding tilt angle
 
 Tilt angle is the vertical elevation of the panel measured from horizontal. A panel lying flat on the ground is at 0°. A panel bolted vertically to a wall is at 90°. Most residential systems fall somewhere between 15° and 45°.
@@ -94,11 +89,6 @@ For a home on TOU rates with net metering, west-facing panels can actually save 
 | 0° | North | ~65–75% |
 
 These are approximate and vary with latitude and tilt. At lower latitudes (closer to the equator), the sun passes more directly overhead, so orientation matters less. At higher latitudes, the difference between south and north widens.
-
-<figure>
-<img src="/images/solar-panel-tilt-and-orientation/inline-2.webp" loading="lazy" width="640" height="427" alt="Solar panels mounted on a pitched roof showing tilt matching roof pitch" />
-<figcaption>Photo: Solar Powered Project</figcaption>
-</figure>
 
 ## Roof mount vs ground mount
 

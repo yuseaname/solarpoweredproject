@@ -9,8 +9,6 @@ author = "Solar Powered Project"
 description = "Massachusetts solar panel cost guide for 2026: price per watt, system size, SMART incentives, net metering, and payback timeline without the federal credit."
 +++
 
-# How Much Do Solar Panels Cost in Massachusetts in 2026?
-
 As of mid-2026, the average solar panel cost in Massachusetts is **$2.90 – $3.40 per watt installed** — among the higher-cost states. A typical **8–9 kW** residential system costs roughly **$23,200 – $30,600**. The 30% federal ITC expired December 31, 2025, but Massachusetts softens the blow better than most states: the SMART production program pays for every kWh your system generates, the state adds a 15% tax credit (capped at $1,000), and net metering is available for most residential systems.
 
 Massachusetts homeowners pay some of the highest electricity rates in the country — at **29.61¢/kWh** ([EIA Electric Power Monthly, Table 5.6.A, June 2026](https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a), retrieved 2026-09-05) — with **3.5–4.5 peak sun hours per day**. High rates offset modest sun; with SMART income included, simple payback typically runs **9–13 years**.

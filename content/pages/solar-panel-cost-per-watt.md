@@ -123,6 +123,6 @@ Not reliably. In some systems, batteries or labor dominate. Use a full breakdown
 ---
 
 **Related guides:**
-- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california/)
+- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california.html)
 - [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california.html)
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)

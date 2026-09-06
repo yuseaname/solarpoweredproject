@@ -13,7 +13,7 @@ image_height = 1024
 
 Understanding how solar panels convert sunlight into usable electricity is the first step toward evaluating whether solar energy is a viable investment for your home or business. While the process involves complex physics, the fundamental mechanism—the photovoltaic effect—is a predictable and reliable way to generate clean energy.
 
-### Key Takeaways
+## Key Takeaways
 
 -   **The Photovoltaic Effect:** Solar panels work by using semiconductor materials (usually silicon) to create an electric field when hit by photons from sunlight.
 -   **DC to AC Conversion:** Solar panels produce Direct Current (DC), but most homes run on Alternating Current (AC), requiring an inverter to bridge the gap.
@@ -179,6 +179,6 @@ Direct sunlight produces the most power, but panels also work in indirect and di
 ---
 
 **Related guides:**
-- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california/)
+- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california.html)
 - [How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide](/pages/solar-battery-cost-2026.html)
 - [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california.html)

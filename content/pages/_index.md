@@ -13,4 +13,4 @@ Practical guides for planning, wiring, and troubleshooting independent power. Ev
 - [Solar system costs](/pages/solar-system-costs.html) — what a system actually costs and why
 - [How to choose a solar inverter](/pages/how-to-choose-solar-inverter.html) — type first, brand second
 
-**Or browse by job:** the [calculators](/pages/battery-capacity.html) (capacity, wire size, fusing, output, payback), the [wiring and protection](/pages/wiring-decisions.html) cluster, [battery guides](/pages/li-ion-vs-lead-acid.html), [state cost guides](/guides/), and [Project Lab](/diy-off-grid-energy.html) experiments.
+**Or browse by job:** the [calculators](/pages/battery-capacity.html) (capacity, wire size, fusing, output, payback), the [wiring and protection](/pages/wiring-decisions.html) cluster, [battery guides](/pages/li-ion-vs-lead-acid.html), [state cost guides](/guides.html), and [Project Lab](/diy-off-grid-energy.html) experiments.

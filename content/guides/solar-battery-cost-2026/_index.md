@@ -8,11 +8,10 @@ layout = "single"
 canonical = "https://solarpoweredproject.com/pages/solar-battery-cost-2026.html"
 author = "Solar Powered Project"
 description = "Solar battery cost guide for 2026: average prices per kWh, installed system costs, top brands, incentives, and payback timeline."
-image = "/assets/images/solar-battery-cost-2026/solar-battery-cost-chart-2026.jpg"
-image_width = 3537
-image_height = 2157
+image = "/images/solar-battery-cost-2026/hero.webp"
+image_width = 1536
+image_height = 1024
 +++
-lastmod = 2026-09-05
 
 {{< affiliate-disclosure >}}
 

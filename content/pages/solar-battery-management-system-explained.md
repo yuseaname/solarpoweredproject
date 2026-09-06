@@ -68,11 +68,6 @@ A BMS corrects this through **balancing** — siphoning a small amount of energy
 
 Balancing only happens near the top of charge, which is one reason lithium banks should be charged to full (or very near full) periodically — it gives the BMS a chance to do its work.
 
-<figure>
-<img src="/images/solar-battery-management-system-explained/inline-1.webp" loading="lazy" width="640" height="427" alt="A lithium battery bank with BMS wiring and sense leads visible" />
-<figcaption>Photo: Solar Powered Project</figcaption>
-</figure>
-
 ## Types of BMS
 
 Not all BMS units do the same job. There's a spectrum from simple monitors to full protective systems.

@@ -156,4 +156,4 @@ While high-efficiency panels may increase your initial installation cost by 10%â
 **Related guides:**
 - [Solar panel efficiency explained](/pages/solar-panel-efficiency.html)
 - [Best Solar Panels for a Small Roof: Maximizing Energy Output](/pages/best-solar-panels-small-roof.html)
-- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california/)
+- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california.html)

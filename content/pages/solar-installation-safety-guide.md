@@ -54,11 +54,6 @@ PPE degrades. Gloves get pinholes. Safety glasses get scratched. Boots lose thei
 
 Rings, watches, metal bracelets, necklaces — all come off before DC work. A wedding ring across a 12V battery terminal won't kill you, but it will melt into your finger in milliseconds and leave a permanent scar. At 48V across the chest (hand-to-hand contact), jewelry is potentially lethal. Put it in your pocket, not on your wrist.
 
-<figure>
-<img src="/images/solar-installation-safety-guide/inline-1.webp" loading="lazy" width="640" height="427" alt="Solar installer wearing hard hat, safety glasses, and insulated gloves working on a panel array" />
-<figcaption>Photo: Solar Powered Project</figcaption>
-</figure>
-
 ## DC electrical safety
 
 This is where solar diverges from standard household electrical work, and it's the area most DIYers underestimate. The danger isn't the voltage — household 120V AC kills plenty of people. The danger is **the combination of high voltage and effectively unlimited current** from a battery bank.
@@ -131,11 +126,6 @@ Use proper lifting technique: bend at the knees, keep the panel close to your bo
 -   **Wet roofs are slippery**, especially composition shingle and metal. Reschedule if it's raining or the roof is dewy.
 -   **Power lines** near the roof are lethal. Keep all parts of your body, tools, and panels at least 10 feet from any overhead line.
 -   **Asphalt in summer** can reach 160°F and cause burns through clothing. Schedule roof work for morning or cool days.
-
-<figure>
-<img src="/images/solar-installation-safety-guide/inline-2.webp" loading="lazy" width="640" height="427" alt="Two installers carrying a solar panel on a roof with fall protection harnesses" />
-<figcaption>Photo: Solar Powered Project</figcaption>
-</figure>
 
 ## Battery handling safety
 

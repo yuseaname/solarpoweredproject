@@ -9,8 +9,6 @@ author = "Solar Powered Project"
 description = "Nevada solar panel cost guide for 2026: price per watt, NV Energy net metering tiers, incentives, and payback timeline without the federal credit."
 +++
 
-# How Much Do Solar Panels Cost in Nevada in 2026?
-
 As of mid-2026, the average solar panel cost in Nevada is **$2.50 – $2.90 per watt installed**. A typical **8–10 kW** residential system costs roughly **$20,000 – $29,000**. The 30% federal ITC expired December 31, 2025 — but Nevada counters with the best sun in the country and AB 405 net metering credits at roughly 75% of retail, locked for 20 years at interconnection.
 
 Nevada homeowners pay an average residential electricity rate near **13.11¢/kWh** — the lowest residential rate in the nation ([EIA Electric Power Monthly, Table 5.6.A, June 2026](https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a), retrieved 2026-09-05) and enjoy **6.5–7.0 peak sun hours per day** — the strongest solar resource of any state. Simple payback typically runs **10–13 years** for 2026 purchases.

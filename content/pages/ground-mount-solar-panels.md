@@ -251,5 +251,5 @@ Utility-scale installations are always fenced. For residential, it depends on yo
 
 **Related guides:**
 - [Solar Panel Tilt Angle and Orientation: Maximize Output Year-Round](/pages/solar-panel-tilt-and-orientation.html)
-- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california/)
+- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california.html)
 - [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)

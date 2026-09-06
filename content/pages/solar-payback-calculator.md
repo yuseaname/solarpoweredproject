@@ -17,12 +17,10 @@ related = [
 ]
 +++
 
-# Solar Payback Calculator
-
 Use this calculator to estimate how long it takes a solar system to pay for itself, and how much it can save over its lifetime. It factors in system cost, tax credits, electricity rates, utility escalation, and estimated degradation. **Default federal credit is 0%** — the 30% residential credit expired Dec 31, 2025 (set it above zero only for a 2025 install you're still claiming).
 
 <figure class="article-image article-image--hero">
-<img src="/assets/images/solar-payback-calculator/solar-payback-calculator-hero.jpg" loading="eager" data-fetchpriority="high" decoding="async" alt="Solar payback timeline showing cumulative savings over 25 years" / width="1200" height="630">
+<img src="/assets/images/solar-payback-calculator/solar-payback-calculator-hero.jpg" loading="eager" data-fetchpriority="high" decoding="async" alt="Calculator, notes, and solar components arranged on a workbench" width="1200" height="630">
 </figure>
 
 ## Payback calculator
@@ -271,4 +269,4 @@ Yes. Net present value accounts for the time value of money by discounting futur
 **Related guides:**
 - [How to Size a Solar System (Step-by-Step Load Planner)](/pages/solar-system-sizing.html)
 - [Solar Panel Output Calculator (Watts to Watt-hours)](/pages/solar-panel-output.html)
-- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california/)
+- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california.html)

@@ -183,7 +183,7 @@ Two realities to accept before you start: a single 100W panel cannot run a fridg
 
 -   **Sizing and load math:** calculators for <a href="solar-panel-output.html" class="text-link">panel output</a>, <a href="battery-capacity.html" class="text-link">battery capacity</a>, <a href="solar-inverter-sizing.html" class="text-link">inverter sizing</a>, and <a href="how-to-calculate-solar-load.html" class="text-link">load planning</a>, with the arithmetic shown, not hidden.
 -   **Component decisions:** panels (mono vs poly), inverters (micro vs string, <a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM</a> controllers), batteries (<a href="li-ion-vs-lead-acid.html" class="text-link">LiFePO4 vs lead-acid</a>), and system voltage — each with comparison tables and honest trade-offs.
--   **Costs, incentives, and wiring:** the <a href="/guides/" class="text-link">cost guides hub</a> with regional pricing, the <a href="solar-system-costs.html" class="text-link">installed vs DIY breakdown</a>, the 2026 incentive reality (no federal ITC), and a full <a href="wiring-decisions.html" class="text-link">wiring and protection</a> cluster for the safety-critical part.
+-   **Costs, incentives, and wiring:** the <a href="/guides.html" class="text-link">cost guides hub</a> with regional pricing, the <a href="solar-system-costs.html" class="text-link">installed vs DIY breakdown</a>, the 2026 incentive reality (no federal ITC), and a full <a href="wiring-decisions.html" class="text-link">wiring and protection</a> cluster for the safety-critical part.
 
 What this site is not: a place that claims "we tested" gear or quotes brand-marketing numbers. Every figure here is a conservative, verifiable range — check the sibling pages, they show their work.
 
@@ -230,7 +230,7 @@ It depends on your electricity rate, net metering terms, and whether you need ou
 <a href="/pages/solar-system-sizing.html" class="text-link">How to size a solar system</a> — the full step-by-step with the interactive planner
 <a href="/pages/wiring-decisions.html" class="text-link">Solar wiring decisions</a> — wire size, fuses vs breakers, series vs parallel
 <a href="/pages/solar-system-costs.html" class="text-link">Solar system cost breakdown</a> — installed vs DIY tiers, line by line
-<a href="/guides/" class="text-link">Cost guides hub</a> — regional panel and battery pricing guides
+<a href="/guides.html" class="text-link">Cost guides hub</a> — regional panel and battery pricing guides
 
 ---
 

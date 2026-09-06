@@ -9,8 +9,6 @@ author = "Solar Powered Project"
 description = "Illinois solar panel cost guide for 2026: price per watt, Illinois Shines REC incentives, net metering, and payback timeline without the federal credit."
 +++
 
-# How Much Do Solar Panels Cost in Illinois in 2026?
-
 As of mid-2026, the average solar panel cost in Illinois is **$2.70 – $3.10 per watt installed**. A typical **8–10 kW** residential system runs roughly **$21,600 – $31,000** before incentives. The 30% federal ITC expired December 31, 2025 — there is no federal credit on a 2026 install — but Illinois Shines, the state's renewable energy credit (REC) purchase program, still pays real value for your system's environmental attributes upfront through an approved installer.
 
 Illinois homeowners pay an average residential electricity rate of **19.89¢/kWh** (EIA, June 2026) — above the 18.34¢ U.S. average — and see **4.0 – 4.5 peak sun hours per day**. Depending on how much REC value your quote carries, simple payback typically lands **9–13 years** for a 2026 cash purchase.

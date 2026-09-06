@@ -136,4 +136,4 @@ Often. If your buyback plan pays little for exports or uses time-of-use rates, s
 - <a href="/guides/solar-panel-cost-california.html" class="text-link">Solar panel cost in California</a>
 - <a href="/guides/solar-panel-cost-colorado.html" class="text-link">Solar panel cost in Colorado</a>
 - <a href="/guides/solar-panel-cost-nevada.html" class="text-link">Solar panel cost in Nevada</a>
-- <a href="/guides/" class="text-link">All state solar cost guides</a>
+- <a href="/guides.html" class="text-link">All state solar cost guides</a>
