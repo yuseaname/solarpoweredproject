@@ -38,6 +38,8 @@ Three components in one enclosure:
 
 ## Capacity tiers: what each class actually runs
 
+Inside the ~1kWh class, the [Jackery vs EcoFlow capacity-class comparison](/pages/jackery-vs-ecoflow-power-stations.html) works the gate math between 1,500W and 1,800W continuities.
+
 Runtime math uses duty cycles for compressor appliances — a modern fridge draws 100–250W while running but only runs 30–50% of the time (full method: [what size solar generator runs a refrigerator](what-size-solar-generator-run-refrigerator.html)).
 
 | Tier | Usable capacity | Honest runtime examples | Best fit |
