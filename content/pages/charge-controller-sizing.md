@@ -227,6 +227,12 @@ Two hard conditions: **(1)** the controller must current-limit safely — verify
 - **Forgetting the expansion plan.** If panels may be added next year, buy for the future array now (hence the 60A option at 400W/12V).
 - **Treating the rating as a watt rating.** "30A" is 30 amps at whatever battery voltage you run — 360W at 12V, 1,440W at 48V.
 
+
+
+### Where the 1.25 factor comes from
+
+The ×1.25 sizing factor mirrors **NEC 690.8(A)(1)**, which sets a PV circuit's maximum current at 125% of rated short-circuit current so that cloud-edge and cold, bright conditions can't push more current through the controller than it was sized for. The cold-voltage check above (Voc × 1.10) is the companion caution: Voc rises as temperature drops, and exceeding a controller's voltage ceiling kills it instantly. Code or no code, the datasheet's absolute maximums are the hard limits.
+
 ## FAQ
 
 {{< faq "What size charge controller do I need for a 400W solar array?" >}}

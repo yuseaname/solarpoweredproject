@@ -258,13 +258,20 @@ Often yes, and it’s a common way to reduce voltage drop and improve reliabilit
 Use the maximum current that the circuit can realistically see. For inverters, surge can be relevant depending on your loads and design.
 {{< /faq >}}
 
+
+
+### The code basis (and why our ladder is conservative)
+
+The ampacity ladder above is **planning guidance, not a code table**. For code work, size conductors from **NEC 310.16** using the temperature column your insulation actually carries (THWN-2/USE-2 PV wire is 90°C-rated, but terminals often limit you to the 75°C column), apply the **NEC 310.15** derating factors for bundling and ambient heat, and meet **NEC 690.8(B)**, which requires PV-circuit conductors sized to at least 125% of the circuit's maximum current. Our values sit at or below the 60°C column on the small gauges and slightly below the 75°C column on the large ones — a deliberate planning margin. When your inspector is involved, the NEC table plus your AHJ's amendments win.
+
 ## Next logical reads
 
 <a href="solar-wiring-and-protection-cost.html" class="text-link">Solar wiring and protection cost</a> <a href="solar-fuses-vs-breakers.html" class="text-link">Solar fuses vs breakers</a> <a href="solar-panels-series-vs-parallel.html" class="text-link">Series vs parallel solar panels</a> <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">How to choose system voltage</a>
 
 ---
 
-**Related guides:**
-- [Battery Cable Size for Solar Inverters (12V/24V/48V): How to Choose Safely](/pages/battery-cable-size-for-inverter.html)
-- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
-- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
+## Next logical reads
+
+- [Battery Cable Size for Solar Inverters](/pages/battery-cable-size-for-inverter.html) — the high-current side of the same decision, with its calculator
+- [Solar Fuse and Breaker Sizing](/pages/solar-fuse-and-breaker-sizing.html) — every wire you size here needs its fuse sized next
+- [Solar Wire Size Calculator](/pages/solar-wire-size.html#calculator) and the [worked 100W example](#worked-example-what-size-wire-for-a-100w-solar-panel) on this page

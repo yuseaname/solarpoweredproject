@@ -277,8 +277,9 @@ Older brushed-motor tools (basic drills, circular saws) usually run, though with
 {{< faq "Is a \"pure sine wave\" inverter really pure?" >}}
 Quality varies. Cheap inverters labeled "pure sine" may deliver <3% total harmonic distortion (THD) — good enough for almost everything. Ultra-cheap units may claim pure sine but measure 5–8% THD, which is better than modified but not truly clean. Stick with reputable brands (Victron, Renogy, AIMS, Samlex, Xantrex) if waveform quality matters for sensitive gear.
 
-{{< product-box asin="B081CLPDT9" name="Renogy 2000W 12V Pure Sine Inverter" label="Our pure sine pick" description="2000W continuous pure sine with remote switch and cables included — sized for the mid-size off-grid loads where waveform quality actually matters." button="Check price on Amazon" >}}
 {{< /faq >}}
+
+{{< product-box asin="B081CLPDT9" name="Renogy 2000W 12V Pure Sine Inverter" label="Our pure sine pick" description="2000W continuous pure sine with remote switch and cables included — sized for the mid-size off-grid loads where waveform quality actually matters." button="Check price on Amazon" >}}
 
 ## Next logical reads
 

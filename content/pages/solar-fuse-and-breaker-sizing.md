@@ -262,6 +262,12 @@ This is one of the most common solar troubleshooting questions. Before replacing
 
 <a href="solar-fuses-vs-breakers.html" class="text-link">Solar fuses vs breakers (what to use where)</a> <a href="solar-output-troubleshooting.html" class="text-link">Low solar output troubleshooting</a>
 
+
+
+### The code basis (and why our numbers are conservative)
+
+The ×1.25 multipliers above trace to the National Electrical Code's PV rules: **NEC 690.8(A)** defines a PV circuit's maximum current as short-circuit current × 125%, and **NEC 690.9(B)** requires overcurrent protection rated at no less than 125% of that maximum current — which is why PV string fusing lands at roughly **Isc × 1.56**. Battery-side and inverter circuits follow the general **NEC 240** overcurrent rules with equipment datasheets setting the floor. Treat this page's outputs as planning values; the datasheet max fuse rating printed on your controller or inverter is a hard limit, and your AHJ has the final word.
+
 ## FAQ
 
 {{< faq "Do I need fuses on solar panels wired in parallel?" >}}
@@ -283,10 +289,11 @@ A fuse can blow due to true overloads, surges, heat from a loose connection, or 
 {{< faq "What’s the safest “first upgrade” for a DIY system?" >}}
 If your system lacks clear DC-rated disconnects and correctly placed protection, improving isolation and protection can make maintenance and troubleshooting safer.
 
-{{< product-box asin="B08L56RDNP" name="BougeRV 15A MC4 Inline Fuse Kit (5-pk)" label="String-level protection" description="Waterproof IP68 in-line fuse holders for panel strings — the cheapest insurance a DIY array can buy. Match the fuse rating to your string current." button="Check price on Amazon" >}}
 
-{{< product-box asin="B094QWG3VV" name="Blue Sea Systems 2315 100A Mini BusBar (4 Studs)" label="Clean distribution point" description="Four-stud tinned-copper busbar with cover — the tidy, inspectable alternative to stacked ring terminals that protection devices can actually guard." button="Check price on Amazon" >}}}}
 {{< /faq >}}
+
+{{< product-box asin="B08L56RDNP" name="BougeRV 15A MC4 Inline Fuse Kit (5-pk)" label="String-level protection" description="Waterproof IP68 in-line fuse holders for panel strings — the cheapest insurance a DIY array can buy. Match the fuse rating to your string current." button="Check price on Amazon" >}}
+{{< product-box asin="B094QWG3VV" name="Blue Sea Systems 2315 100A Mini BusBar (4 Studs)" label="Clean distribution point" description="Four-stud tinned-copper busbar with cover — the tidy, inspectable alternative to stacked ring terminals that protection devices can actually guard." button="Check price on Amazon" >}}}}
 
 ## Next logical reads
 

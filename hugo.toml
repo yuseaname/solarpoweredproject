@@ -6,6 +6,7 @@ disableHugoGeneratorInject = true
 uglyURLs = true
 
 disableKinds = ['taxonomy', 'term']
+enableGitInfo = true
 
 [params]
   site_name = 'Solar Powered Project'

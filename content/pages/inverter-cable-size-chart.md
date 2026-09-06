@@ -106,6 +106,12 @@ Normally one fuse, on the positive, as close to the battery as practical. Fusing
 Ampacity-wise yes, but at 83A over 15 ft one-way, 4 AWG drops about 0.62V (5%+) — too much. Step up to 2/0, shorten the run, or (better) reconsider 24V. Run the exact numbers in the [cable-size calculator](/pages/battery-cable-size-for-inverter.html).
 {{< /faq >}}
 
+
+
+### The code basis (and why our ladder is conservative)
+
+The ampacity ladder above is **planning guidance, not a code table**. For code work, size conductors from **NEC 310.16** using the temperature column your insulation actually carries (THWN-2/USE-2 PV wire is 90°C-rated, but terminals often limit you to the 75°C column), apply the **NEC 310.15** derating factors for bundling and ambient heat, and meet **NEC 690.8(B)**, which requires PV-circuit conductors sized to at least 125% of the circuit's maximum current. Our values sit at or below the 60°C column on the small gauges and slightly below the 75°C column on the large ones — a deliberate planning margin. When your inspector is involved, the NEC table plus your AHJ's amendments win.
+
 ## Next logical reads
 
 <a href="battery-cable-size-for-inverter.html" class="text-link">Battery cable size guide + calculator</a> <a href="solar-fuse-and-breaker-sizing.html" class="text-link">Fuse and breaker sizing</a> <a href="solar-wire-size.html" class="text-link">Solar wire size (PV circuits)</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V systems</a> <a href="/pages/48v-off-grid-wiring-guide.html" class="text-link">48V off-grid wiring guide</a>

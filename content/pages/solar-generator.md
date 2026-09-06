@@ -81,7 +81,6 @@ A 100Ah LiFePO4 battery holds 1,280Wh — more than the AC180 above — and what
 - **Whole-home backup buyers.** Running a house (HVAC, water heater, well pump) means multi-day multi-kWh loads — the [battery-backup-vs-generator](solar-battery-backup-vs-generator.html) comparison explains when installed storage or a fuel generator wins.
 - **Anyone who hasn't done the load math.** Buy the notebook before the battery: [how to calculate your solar load](how-to-calculate-solar-load.html).
 
-<!-- Seasonal-planning ranges per work order w3-seasonal (2026-09-05). Corroborated live: DOE Solar Radiation Basics (https://www.energy.gov/eere/solar/articles/solar-radiation-basics) on seasonal sun variation — northern-hemisphere winter days are shorter and the sun is lower; ENERGY STAR Refrigerators (https://www.energystar.gov/products/refrigerators) on keeping a fridge at 35–38°F in a cool location. Storm-day panel yield (10–25% of rated) and peak-sun-hour figures are planning ranges, not guarantees. -->
 
 ## Hurricane season: sizing backup that survives day 2
 

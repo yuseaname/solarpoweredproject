@@ -295,6 +295,12 @@ No. Use devices explicitly rated for DC at your system voltage. DC interrupt rat
 {{< product-box asin="B017S9EINA" name="iCrimp Heavy-Duty Cable Lug Crimper (9 Dies)" label="The crimp tool lugs deserve" description="A proper hex/indent crimper for 12 AWG to 2/0 battery lugs — the difference between a connection you trust at 100A and one that heats. If you are building inverter cables, this is the tool." button="Check price on Amazon" >}}
 {{< /faq >}}
 
+
+
+### The code basis (and why our ladder is conservative)
+
+The ampacity ladder above is **planning guidance, not a code table**. For code work, size conductors from **NEC 310.16** using the temperature column your insulation actually carries (THWN-2/USE-2 PV wire is 90°C-rated, but terminals often limit you to the 75°C column), apply the **NEC 310.15** derating factors for bundling and ambient heat, and meet **NEC 690.8(B)**, which requires PV-circuit conductors sized to at least 125% of the circuit's maximum current. Our values sit at or below the 60°C column on the small gauges and slightly below the 75°C column on the large ones — a deliberate planning margin. When your inspector is involved, the NEC table plus your AHJ's amendments win.
+
 ## Next logical reads
 
 <a href="solar-fuses-vs-breakers.html" class="text-link">Solar fuses vs breakers</a> <a href="solar-wire-size.html" class="text-link">Solar wire size</a> <a href="solar-wiring-and-protection-cost.html" class="text-link">Wiring &amp; protection cost</a> <a href="solar-inverter-sizing.html" class="text-link">Inverter sizing</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">Choose system voltage</a>

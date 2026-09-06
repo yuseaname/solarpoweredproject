@@ -1,19 +1,16 @@
 +++
 title = "Articles"
-description = "Solar power guides, system sizing, costs, troubleshooting, and more."
+description = "Every Solar Powered Project guide: system sizing, wiring and protection, batteries, costs and incentives, troubleshooting, and buying guides."
 draft = false
 +++
 
-Start here:
+Practical guides for planning, wiring, and troubleshooting independent power. Every article shows its assumptions — if a number matters, you can check the math.
 
-- <a href="solar-basics.html" class="text-link">Solar power basics</a>
-- <a href="solar-system-sizing.html" class="text-link">Size a solar system</a>
-- <a href="solar-system-costs.html" class="text-link">Solar system costs</a>
-- <a href="how-to-choose-solar-inverter.html" class="text-link">Choose an inverter</a>
+**Start with the question you have:**
 
----
+- [How to size a solar system](/pages/solar-system-sizing.html) — the load-planner walkthrough
+- [Solar power basics](/pages/solar-basics.html) — watts, watt-hours, and the vocabulary
+- [Solar system costs](/pages/solar-system-costs.html) — what a system actually costs and why
+- [How to choose a solar inverter](/pages/how-to-choose-solar-inverter.html) — type first, brand second
 
-**Related guides:**
-- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
-- [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
-- [DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)](/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html)
+**Or browse by job:** the [calculators](/pages/battery-capacity.html) (capacity, wire size, fusing, output, payback), the [wiring and protection](/pages/wiring-decisions.html) cluster, [battery guides](/pages/li-ion-vs-lead-acid.html), [state cost guides](/guides/), and [Project Lab](/diy-off-grid-energy.html) experiments.

@@ -121,6 +121,12 @@ Self-managed lithium batteries each have a BMS, but the bank still needs the wir
 Yes, in matched strings: add a second identical series string in parallel (with equal-length cables and its own string fuse). Mixing ages, capacities, or chemistries within one bank is where balance problems start.
 {{< /faq >}}
 
+
+
+### The code basis (and why our ladder is conservative)
+
+The ampacity ladder above is **planning guidance, not a code table**. For code work, size conductors from **NEC 310.16** using the temperature column your insulation actually carries (THWN-2/USE-2 PV wire is 90°C-rated, but terminals often limit you to the 75°C column), apply the **NEC 310.15** derating factors for bundling and ambient heat, and meet **NEC 690.8(B)**, which requires PV-circuit conductors sized to at least 125% of the circuit's maximum current. Our values sit at or below the 60°C column on the small gauges and slightly below the 75°C column on the large ones — a deliberate planning margin. When your inspector is involved, the NEC table plus your AHJ's amendments win.
+
 ## Next logical reads
 
 <a href="battery-cable-size-for-inverter.html" class="text-link">Battery cable size guide + calculator</a> <a href="solar-fuse-and-breaker-sizing.html" class="text-link">Fuse and breaker sizing</a> <a href="charge-controller-sizing.html" class="text-link">Charge controller sizing</a> <a href="solar-wire-size.html" class="text-link">Wire size for PV circuits</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V decision</a> <a href="cabin-solar-sizing.html" class="text-link">Cabin solar sizing</a>

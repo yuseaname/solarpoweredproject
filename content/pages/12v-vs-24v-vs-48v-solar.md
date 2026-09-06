@@ -292,10 +292,11 @@ Yes, but it requires proper DC-DC conversion and careful design. Keep it simple 
 {{< faq "Does system voltage affect solar panel wiring?" >}}
 It can influence array configuration and controller choices. Always verify your charge controller’s voltage limits.
 
-{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="12V building block" description="The value benchmark for starting a 12V bank — built-in 100A BMS, low-temp protection, and thousands of cycles. (Going 24V/48V? Series/parallel-match these.)" button="Check price on Amazon" >}}
 
-{{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="Voltage-flexible controller" description="Auto-detects 12V/24V (48V-capable across the range) with Bluetooth monitoring and lithium presets — the controller that grows with a voltage upgrade." button="Check price on Amazon" >}}
 {{< /faq >}}
+
+{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="12V building block" description="The value benchmark for starting a 12V bank — built-in 100A BMS, low-temp protection, and thousands of cycles. (Going 24V/48V? Series/parallel-match these.)" button="Check price on Amazon" >}}
+{{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="Voltage-flexible controller" description="Auto-detects 12V/24V (48V-capable across the range) with Bluetooth monitoring and lithium presets — the controller that grows with a voltage upgrade." button="Check price on Amazon" >}}
 
 ## Next logical reads
 
