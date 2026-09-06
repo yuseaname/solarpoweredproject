@@ -12,7 +12,7 @@
 2. **Rybbit outbound toggle** (dashboard → Settings → "Track clicks to external websites") — starts the CTR data that drives AC-005. [R-002]
 
 **In-repo queue (revenue-first order):**
-1. ~~Renogy Rover 40A review~~ — **DONE 2026-09-06** (`<commit>`), 4th review live, roundup link closed.
+1. ~~Renogy Rover 40A review~~ — **DONE 2026-09-06** (`dd61903`), 4th review live, roundup link closed.
 2. LiTime 100Ah review (verify datasheet claims vs brand-comparison table first) — weeks-2 item.
 3. Winter cluster by ~Oct 10: well-pump power-station sizing (240V honesty angle), van-conversion use-case, winterizing off-grid systems. **Time-sensitive** (pre-season publishing window).
 4. Remaining weeks-3–13 per [buyer-intent calendar](buyer-intent-content-plan-2026-09-05.md) (authoritative roadmap of record).
