@@ -168,3 +168,19 @@ U = urgency 1(now)–4(later), I = impact 1–5, E = effort 1(easy)–3.
 ## What the user still owns (unchanged from prior audit)
 
 Hostinger Googlebot-403 firewall fix remains the #1 gate on all Google-side gains; Rybbit bot-exclusion toggle; Amazon OneLink check; 2 hero images pending approval. New from this audit: none — all fixes above are repo-side.
+
+---
+
+## Addendum — implementation log (2026-09-05/06)
+
+The top-15 improvements were executed after the audit, in three waves (commits `21d2988`, `2538962`, plus the 8 hotfix commits already listed):
+
+**Wave 1 (Boss, mechanical):** 5 canonical twins stubbed (panel duo, voltage, California flat, battery-cost guides copy) · product boxes moved out of FAQ answers on 3 pages · Project Lab hub rewritten as a 19-article classified index + `pages/_index` and `guides/_index` rebuilt with absolute canonical links · injected trailer stripped from privacy-policy · internal work-order comment removed from solar-generator · NEC 690/310 code-basis citations added to 6 wiring/fuse/controller pages · automatic git-based "Updated" dates sitewide (enableGitInfo + CI full clone + template fallback).
+
+**Wave 2 (seats + Boss):** best-solar-panels-small-roof rebuilt with a verified 2026 comparison (Maxeon 6 DC, REC Alpha Pure-R, Q.TRON BLK M-G2+, generic tier — specs per manufacturer, dead-brand FAQ covering LG 2022 / Panasonic 2025 exits; authored by Boss after two provider-killed seat runs) · solar-battery-cost-2026 repaired (vendor-blog sourcing replaced with hedged editorial bands, honest 12–25-year payback math added, DIY-box contradiction resolved with bridge + Not-for, chart deduped, 6 internal links) · T2 attribution + Not-for lines rolled out to **all 27 remaining box pages** · orphan-anchor mesh completed (24 contextual inbound links, buyer-journey section on solar-use-cases) · all sitewide links to stubbed twins repointed to canonicals (~20 links across 16 files).
+
+**Wave 3 (new authority spokes):** solar-grounding-and-lightning-protection, solar-arc-flash-dc-safety (both seat-written inside a Boss-verified NEC fact base), solar-battery-fire-safety (Boss-authored, safety-critical) · wiring-decisions expanded from a 346-word stub to the wiring/protection reference hub (planning ladder table + protection map) · worked example added to solar-panel-cost-per-watt.
+
+**Not yet done (deferred):** glossary + system-expansion spokes (improvement 15), NV/MA/IL state-bundle deepening, solar-lights/phone-charger FAQ-schema conversion, per-cycle $/kWh worked example on solar-battery-cost-per-kwh, peak-sun-hours table. All are P3/P4 polish from the top-15 list.
+
+Site: 143 content files (140 − stubs' bodies collapsed + 3 new spokes), clean build, all changes deployed and verified live.
