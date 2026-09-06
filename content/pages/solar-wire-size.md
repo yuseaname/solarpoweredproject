@@ -266,12 +266,4 @@ The ampacity ladder above is **planning guidance, not a code table**. For code w
 
 ## Next logical reads
 
-<a href="solar-wiring-and-protection-cost.html" class="text-link">Solar wiring and protection cost</a> <a href="solar-fuses-vs-breakers.html" class="text-link">Solar fuses vs breakers</a> <a href="solar-panels-series-vs-parallel.html" class="text-link">Series vs parallel solar panels</a> <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">How to choose system voltage</a>
-
----
-
-## Next logical reads
-
-- [Battery Cable Size for Solar Inverters](/pages/battery-cable-size-for-inverter.html) — the high-current side of the same decision, with its calculator
-- [Solar Fuse and Breaker Sizing](/pages/solar-fuse-and-breaker-sizing.html) — every wire you size here needs its fuse sized next
-- [Solar Wire Size Calculator](/pages/solar-wire-size.html#wire-size-calculator-amps-volts-distance) and the [worked 100W example](#worked-example-what-size-wire-for-a-100w-solar-panel) on this page
+<a href="/pages/battery-cable-size-for-inverter.html" class="text-link">Battery cable size for inverters (the high-current side)</a> <a href="/pages/solar-fuse-and-breaker-sizing.html" class="text-link">Solar fuse and breaker sizing (every wire needs its fuse next)</a> <a href="/pages/solar-wiring-and-protection-cost.html" class="text-link">Solar wiring and protection cost</a> <a href="/pages/solar-fuses-vs-breakers.html" class="text-link">Fuses vs breakers</a> <a href="/pages/solar-panels-series-vs-parallel.html" class="text-link">Series vs parallel panels</a> <a href="/pages/solar-inverter-sizing.html" class="text-link">How to size an inverter</a> <a href="/pages/12v-vs-24v-vs-48v-solar.html" class="text-link">How to choose system voltage</a>

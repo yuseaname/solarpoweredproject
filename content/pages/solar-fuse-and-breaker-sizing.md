@@ -299,7 +299,7 @@ If your system lacks clear DC-rated disconnects and correctly placed protection,
 
 Different decision, different aisle: the fuse kit above protects each string; the busbar below is where the protected strings land. If your planning table already has you combining three or more strings, size the busbar with the same math.
 
-{{< product-box asin="B094QWG3VV" name="Blue Sea Systems 2315 100A Mini BusBar (4 Studs)" label="Clean distribution point" description="Four-stud tinned-copper busbar with cover (per manufacturer spec) — the tidy, inspectable alternative to stacked ring terminals that protection devices can actually guard. Not for: the 200–250A battery-to-inverter circuits in the table above (2,000W at 12V) — those need a Class T fuse or MRBF on a larger bus. The honest tradeoff: 100A capacity, so high-current runs outgrow it fast." button="Check price on Amazon" >}}}}
+{{< product-box asin="B094QWG3VV" name="Blue Sea Systems 2315 100A Mini BusBar (4 Studs)" label="Clean distribution point" description="Four-stud tinned-copper busbar with cover (per manufacturer spec) — the tidy, inspectable alternative to stacked ring terminals that protection devices can actually guard. Not for: the 200–250A battery-to-inverter circuits in the table above (2,000W at 12V) — those need a Class T fuse or MRBF on a larger bus. The honest tradeoff: 100A capacity, so high-current runs outgrow it fast." button="Check price on Amazon" >}}
 
 ## Next logical reads
 
