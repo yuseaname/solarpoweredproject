@@ -3,6 +3,9 @@
 # HTML now caches 5 min (deploy-time lscache purge remains primary invalidation;
 # repeat visitors may see deploys up to 5 min late — accepted trade-off for CDN caching).
 
+# ── Branded 404 (Hugo-built /404.html) ──
+ErrorDocument 404 /404.html
+
 # ── www → apex 301 (canonical host consolidation) ──
 <IfModule mod_rewrite.c>
   RewriteEngine On
