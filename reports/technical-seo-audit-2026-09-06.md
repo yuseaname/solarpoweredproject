@@ -196,3 +196,43 @@ The five seat deliverables were challenged by an independent cross-provider revi
 ---
 
 *Audit artifacts: fact-pack, five seat deliverables with raw evidence, and the independent review in `.agency/tech-seo/`. Seat-failure incidents logged (2× glm-xo-3, 1× dsv4-wing-3 final-write failures — deliverables salvaged verbatim from run logs or Boss-completed where noted; qwen-judge unavailable 2026-09-06, review reassigned within the DeepSeek family). This report is the authoritative integrated record.*
+
+---
+
+## 9. Execution addendum (2026-09-06, same day — user-directed "execute all findings")
+
+All repo-side fixes executed and build-verified; commits `18285da` (content), `0148536` (templates/schema/a11y), `b2df47a` (perf/assets) + corrections/STATUS commit. Live verification post-deploy recorded below.
+
+**Fixed (by audit ID):**
+- **TS-01** FAQ double-encoding: `faq.html` now stores `plainify | htmlUnescape`; `faq-schema-render.html` uses `jsonify | safeJS`. Full-sweep verify: **573/573 FAQ Q&As decode clean** (0 quote-wrapped, 0 entity mojibake).
+- **TS-02** `/assts/` hero typo fixed; **11 dead inline-image `<figure>` blocks removed** (6 pages) — they carried "Photo: Solar Powered Project" captions for photos that never existed, so removal (not restoration) was the honest fix. Restoring real images = future content task.
+- **TS-03** All 31 broken links fixed (Florida `.hml` ×10 + `califormia`, trailing-slash ×14, `/guides/` ×7) + 3 prose typos in passing ("essentialy", "net-mering", "ro of").
+- **TS-04** All 116 dead anchors fixed: scripted token/sequence mapping to rendered heading ids + 13 semantic overrides; **build-verified 0 dead anchors**.
+- **TS-05** `layouts/_default/404.html` → `layouts/404.html`; **404.html now emits** (verified in build).
+- **TS-06** www→apex 301 via repo-deployed `.htaccess` (live-verify below).
+- **TS-07** 10 double-h1s stripped; h1→h3 skip promoted; **0 heading anomalies in build**.
+- **TS-08** Full selector scan (reviewer's condition): 55/164 tailwind classes used → 61 rules (3.3 KB) merged into design-system.css, `tailwind.css` and its link deleted. **−14.9 KB render-blocking on every page.**
+- **TS-09** `main.js` fingerprinted (sha512 + integrity).
+- **TS-10** HTML `no-store` (which turned out to be a deliberate Aug-9 repo `.htaccess` rule, not Hostinger config) replaced with `max-age=300, must-revalidate`. **Trade-off:** repeat visitors may see deploys ≤5 min late; new visitors instant; deploy-time lscache purge unchanged. Reversible by reverting one file.
+- **TS-11** 40 heroes recompressed q72 (−15–20%); 4 rendered-LCP DIY heroes recompressed to 1200px q62 (**288–370 KB → 126–168 KB**, −55%+), dimensions updated, visual quality verified acceptable via image analysis.
+- **TS-12 + TS-27** Fonts self-hosted: Fraunces + Space Grotesk latin variable woff2 (90 KB total) with **fonttools-measured size-adjust fallbacks** (Fraunces/Georgia 116.1%, Space Grotesk/Arial 108.8%); Google Fonts CDN links removed; woff2 preloaded; privacy-page gap closed by elimination (no external font flow remains).
+- **TS-13** `logo` param added (140 schemas gain publisher logo); space-named duplicate file deleted.
+- **TS-14** `.htaccess`: HSTS (no preload), XCTO, Referrer-Policy, XFO, CSP (scoped to `'self'` + `app.rybbit.io` + inline scripts/styles).
+- **TS-15** CA guide: width/height + honest alts on all 6 imgs (verified against pixels via image analysis; hero/comparison share one photo — noted, not changed).
+- **TS-16** `<noscript>` mobile-nav fallback added.
+- **TS-17** hero-proof → `--orange-deep` (3.40→5.35:1).
+- **TS-19 (partial)** guides/solar-battery-cost-2026 front-matter image switched from the misnamed chart photo to the real hero.
+- **TS-20** `updated`-branch `dateModified` now ISO-formatted (0 date-only remain).
+- **TS-21** Custom sitemap template excludes noindex pages (154→153 URLs, home retained).
+- **TS-22** EIA `rapher`→`grapher`; id variants unified.
+- **TS-23** `languageCode = 'en'`.
+- **TS-24** Font floors .6/.64/.65rem → .7rem.
+- **TS-25** `.prose { overflow-wrap: anywhere }`.
+- **TS-26** Calculator noscript hint via toolscript shortcode.
+- **TS-29** Dead GA block, unused adsense.html partial, stray body-text `lastmod` line removed.
+
+**Beyond the audit (image-integrity sweep):** comparing images to their alt text (image analysis on 8 key images) found **fabricated alt text on the solar-battery-cost-2026 page** — the same workshop photo labeled as a "cost decline chart" and a "components infographic," and a workbench photo labeled "professional electrician installing a wall-mounted battery" (2008/2010 point-and-shoot EXIF was the tell). All three removed (public correction logged on /corrections.html); payback hero alt corrected; battery-cost guides twin front-matter image fixed. Other checked heroes (home, mppt-vs-pwm, battery hero) were accurately described.
+
+**Post-fix QA (build):** 0 `.hml`/`assts`/`califormia`; 0 broken internal targets; 0 dead anchors; 0 image refs 404ing; **Amazon links 69/69 compliant**; sitemap 153/153 resolve; 0 FAQ corruption; publisher logo present; 0 heading anomalies; no external font refs; hashed main.js referenced. (An initial "69/138" Amazon compliance readout was a bad regex in the checker, not a real regression — re-verified 69/69 with correct extraction.)
+
+**Deferred (with rationale):** TS-18 title shortening — needs traffic data to prioritize (127 pages; blind rewriting = churn risk). Hero-in-body render decision (95 meta-only images) — design/content-calendar item. TS-28 Wikimedia hotlinks — needs per-image license verification before self-hosting. GSC verification + sitemap submission, Rybbit outbound toggle — user-owned. Remaining ADMIN-side: confirm the hPanel doesn't override the .htaccess caching/headers (live-verified below), and HSTS `includeSubDomains` is safe (no subdomains in use).
