@@ -261,3 +261,26 @@ Demand evidence: seat glm-or-1 (live forum/SERP mining, sources cited per query)
 **VERDICT: PASS — 88/100** (Completeness/Realism/Ethics PASS; Consistency and Usability REVISE on editorial points). 6/6 repo spot-checks matched (page-existence, traffic figures vs TSV, URL counts, templates, pilot-page claims, box census). All five fixes applied above: rows 25/32 scheduled into week-13 buffer note · cross-refs 24→14 and 26→13 corrected · first-10 rationale reconciled with the week-6 LiTime review · roundup/review count corrected · pointer-row counting footnote added.
 
 **Job log:** demand-research seat hung twice during a degraded provider evening (glm-or-1 zero steps in 35 min; dsv4-wing-1 stall) — the Boss ran the four highest-stakes demand checks live (well-pump, oxygen-concentrator, MC4, Jackery-vs-EcoFlow; sources cited in rows 27–30). Backlog seat delivered entry 1 fully; three delivery rounds then died to the same provider wave — entries 2–14 Boss-completed to the seat's format (attribution marked). qwen-judge 429'd; review fell back to glm-xo-2 (completed). Mechanical checks: proposed-slug duplication scan (1 hit — lifepo4-100ah-brand-comparison — caught and reclassified to improvement) and 32/32 named internal links verified to exist.
+
+---
+
+## Addendum — execution log (2026-09-05, commits `8c67d5b` + heroes)
+
+**The plan's first-10 executed in full, same day, in priority order:**
+
+1. **Portable-panels roundup rebuild** — TEMPLATE-ROUNDUP structure: Quick answer, methodology block, wattage-class comparison table, three best-for scenarios with catches, the 192W worked math, dated cost tiers, 5-FAQ + schema, box late with full anatomy.
+2. **Peak-sun-hours-by-state** — NEW page: EIA/NREL-anchored regional bands table with winter/summer swings, working mini-calculator (toolscript, winter band at 60%), panel-count worked comparison (Phoenix vs Seattle: 2.4× array), 4-FAQ + schema. Meshed from solar-generator's winter section.
+3. **MC4 connectors wiring guide** — NEW page (Boss-authored after the seat stalled at the evidence-gathering step): the two documented failure modes (bad crimp, mixed brands) framed as community-reported patterns, 10-step sequence, inspection checklist, "when to call it dead," 4-FAQ + schema. No box (no verified tool pick yet — by design).
+4. **Victron SmartSolar 100/20 review** — NEW spec-based review: the 20A gate math, cold-Voc check, alternatives cross-linked to both sibling reviews, 5-yr warranty sourced, "Did you test this?" FAQ, full-anatomy box.
+5. **EPEVer Tracer 4210AN review** — NEW: the "520W-on-12V is a rating, not a plan" 40A reality check, temp-sensor advantage, 2-yr warranty with reseller-variance caveat, honest alternatives.
+6. **LiFePO4 comparison pass** — retrieval date stamped on the five-brand table (mesh links to batteries/BMS pages already present from the original build).
+7. **Winter + hurricane seasonal sections** — verified already present from a prior session; added the winter→peak-sun-hours mesh link.
+8. **Battery backup for oxygen concentrators** — NEW safety-first page: draw classes (300–600W label-first), runtime table by battery size, the layered plan (battery/tanks/generator; supplier is the authority for the medical layer), surge and recharge catches, CPAP cross-link, 5-FAQ + schema. No box — deliberate.
+9. **Solar glossary v1** — NEW (seat dsv4-wing-1, first-round clean delivery): 51 terms, "the five terms that decide your build," 38/38 internal links verified, FAQ + schema; ampacity figures match the site's wiring tables exactly.
+10. **Inverter loading & derating guide** — NEW: the 80% rule with the microwave worked example, heat/altitude/battery-side derating, what-happens-at-100% honesty, loading quick-reference table, 4-FAQ + schema.
+
+**Quick wins:** per-cycle $/kWh worked example added (site-consistent $0.04–0.08 vs $0.56 figures); small-roof retrieval date sharpened; CPAP Jackery math and wire-size 100W example verified already present from prior sessions.
+
+**Verification:** build 168 pages / 153 sitemap URLs (146→153); zero missing internal links across all new pages; button census 47 uniform + 1 approved diagnostic variant; all three new/rebuilt box-carrying pages pass full anatomy; all 8 touched/new pages live at HTTP 200 with heroes rendering. Heroes for 5 pages reuse themed existing site art pending dedicated art (noted in commit).
+
+**Remaining calendar work (weeks 2–13, per the plan's own schedule):** Renogy Rover review, LiTime review, well-pump sizing, van-conversion, expansion planning, monitoring guide, winterizing, maintenance hub, accessories page, Jackery-vs-EcoFlow + BLUETTI-vs-Jackery spec math, "best MPPT for 400W," roadmap page, power-station calculator, "what will 100W run" hub, state-guide deepening (NV/MA/IL), glossary quarterly expansion. These are sequenced, specced, and ready to execute next.
