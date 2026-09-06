@@ -257,11 +257,3 @@ It depends on chemistry. Lithium (LiFePO4) is safe to 80–90% DoD — down to a
 {{< faq "Does cold reduce battery capacity?" >}}
 Yes. Cold slows the chemical reactions inside the battery. Below about 0°C, lithium capacity drops by roughly 20%, and lead-acid loses even more — up to 30–40% at -20°C. Runtime in winter is shorter than the table suggests, and charging a frozen lithium battery can damage it. Keep batteries above freezing when possible.
 {{< /faq >}}
-
-## Image Prompts
-
-1. **Placement: H2-1, after the formula intro.** Concept: a clean three-step formula pyramid — Ah × V → Wh → DoD → hours — with each step in a distinct colored block and a small battery icon at the base. Composition: pyramid centered, steps stacked vertically with arrows, minimal text labels, soft studio lighting, photorealistic battery at bottom, crisp vector overlay, 16:9.
-
-2. **Placement: H2-2, in the chemistry section.** Concept: side-by-side comparison bars showing usable Wh per 100Ah — lithium at 960Wh versus lead-acid at 600Wh — with a subtle "wasted" shaded portion on the lead-acid bar. Composition: two vertical bars on a clean white background, lithium in green, lead-acid in gray, clear Wh labels, flat infographic style, readable at thumbnail size, 16:9.
-
-3. **Placement: H2-4, beside the lookup table.** Concept: a horizontal runtime tape-measure graphic stretching across device icons — router, CPAP, TV, laptop, fridge, microwave — with each icon placed at its lithium runtime position on the tape. Composition: tape measure as the horizontal axis, device icons spaced along it, warm neutral palette, flat illustration style, clean and scannable, 16:9.

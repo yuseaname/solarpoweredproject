@@ -200,11 +200,3 @@ Rarely. 100W × 4 sun hours × 0.8 = 320 Wh/day — about 22% of a modern fridge
 {{< faq "Are soft-start kits safe?" >}}
 Yes, when installed per the manufacturer's instructions. They reduce compressor start surge by roughly 50–70%, which can let a smaller generator start a larger fridge. They are common in RVs and off-grid systems.
 {{< /faq >}}
-
-## Image Prompts
-
-1. **Placement: H2-1, after the intro paragraph.** Concept: a clean three-number diagram (Running Watts / Surge Watts / Daily Wh) overlaid on a modern refrigerator, with each number in a distinct colored badge and a small compressor icon. Composition: fridge centered, slightly angled, three floating spec badges arranged vertically on the right side, soft studio lighting, photorealistic, 16:9.
-
-2. **Placement: H2-1/2, near the duty-cycle explanation.** Concept: a timeline chart showing compressor on/off bands (green blocks) over 24 hours versus a naive solid red line at full watts × 24h, with the area difference shaded. Composition: clean infographic style, horizontal time axis, two contrasting series, minimal text labels, white background, crisp vector look, 16:9.
-
-3. **Placement: H2-8, in the buying checklist section.** Concept: a four-step sizing decision flowchart — Measure → Spec → Check Surge → Days of Runtime — with a fridge icon at the start and a solar generator icon at the end. Composition: vertical flowchart, rounded rectangles connected by arrows, warm neutral palette, readable at thumbnail size, flat illustration style, 16:9.

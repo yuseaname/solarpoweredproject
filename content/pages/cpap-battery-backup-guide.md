@@ -185,11 +185,3 @@ Batteries under 100Wh are generally allowed in carry-on; 101–160Wh typically n
 {{< faq "Should I get a whole-house battery instead?" >}}
 If you already have solar or want to power more than the CPAP, a whole-house battery (5kWh+) covers many nights and other loads. But it's a bigger investment. A 100Ah lithium station is a cheaper, portable first step. See our [solar generator](/pages/solar-generator.html) and [battery capacity](/pages/battery-capacity.html) guides for the trade-offs.
 {{< /faq >}}
-
-## Image Prompts
-
-1. **Placement: H2-1, beside the label-reading section.** Concept: a close-up of a CPAP machine's spec label with the volts and amps circled in a bright callout ring, and a small "V × A = W" equation badge beside it. Composition: label centered and slightly angled, shallow depth of field, warm neutral background, crisp text readable at thumbnail size, photorealistic, 16:9.
-
-2. **Placement: H2-3, above the nights-per-battery table.** Concept: a vertical ladder graphic with four rungs — 300Wh, 500Wh, 100Ah, 200Ah — each rung labeled with nights without humidifier, and a small moon icon per night. Composition: ladder centered on a clean white background, flat infographic style, warm neutral palette, clear night counts, readable at thumbnail size, 16:9.
-
-3. **Placement: H2-4, in the outage playbook.** Concept: a decision card showing a CPAP icon on a battery, with two branches — "humidifier on" and "humidifier off" — each leading to a night-count badge, and a small "stop at 20%" marker. Composition: card centered, two clean branches, flat illustration style, calm blue and green palette, minimal text, 16:9.
