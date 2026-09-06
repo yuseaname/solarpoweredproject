@@ -279,7 +279,7 @@ Quality varies. Cheap inverters labeled "pure sine" may deliver <3% total harmon
 
 {{< /faq >}}
 
-{{< product-box asin="B081CLPDT9" name="Renogy 2000W 12V Pure Sine Inverter" label="Our pure sine pick" description="2000W continuous pure sine with remote switch and cables included — sized for the mid-size off-grid loads where waveform quality actually matters." button="Check price on Amazon" >}}
+{{< product-box asin="B081CLPDT9" name="Renogy 2000W 12V Pure Sine Inverter" label="Our pure sine pick" description="2000W continuous pure sine with remote switch and cables included (per manufacturer spec) — sized for the mid-size off-grid loads where waveform quality actually matters. Not for: whole-home service, 24V/48V banks, or the 3,000W+ classes this page's sizing links to — that needs a bigger inverter or a voltage step up. The honest tradeoff: on 12V, 2,000W means 4/0-class battery cable." button="Check price on Amazon" >}}
 
 ## Next logical reads
 

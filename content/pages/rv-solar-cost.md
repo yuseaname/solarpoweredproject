@@ -26,7 +26,7 @@ related = [
 
 ## Real-world RV solar builds with actual costs
 
-Here are three complete build examples at different budget tiers. Prices reflect 2026 retail from major solar retailers (Renogy, Rich Solar, Battle Born, Victron, etc.):
+Every build below follows the sizing-first order in the [RV solar sizing guide](/pages/rv-solar-sizing.html), then prices the parts. Here are three complete build examples at different budget tiers. Prices reflect 2026 retail from major solar retailers (Renogy, Rich Solar, Battle Born, Victron, etc.):
 
 ### Budget build — $700–$1,200
 
@@ -172,7 +172,7 @@ Not sure where to start? Match your usage pattern to a system size:
 
 **Rule of thumb:** Add 1W of solar for every 1Ah of lithium battery capacity. A 200Ah battery pairs naturally with ~200–400W of panels.
 
-See the full <a href="rv-solar-sizing.html" class="text-link">RV solar sizing guide</a> for detailed calculations.
+See the full <a href="rv-solar-sizing.html" class="text-link">RV solar sizing guide</a> for detailed calculations — and the <a href="solar-use-cases.html" class="text-link">solar use-case hub</a> to compare RV builds against cabins, sheds, and backup setups.
 
 ## Hidden costs most people miss
 
@@ -186,5 +186,5 @@ The sticker price on panels and batteries is just the beginning. Budget an extra
 - **Upgrading your converter/charger ($200–$400):** If your RV has an old single-stage converter, you may need a modern multi-stage unit to properly charge from shore power too.
 - **Insurance and registration considerations:** Some RV insurance policies require disclosure of modifications. Check before you install.
 
-{{< product-box asin="B075RTSTKS" name="Victron BMV-712 Battery Monitor" label="Worth-it upgrade" description="Exact state-of-charge at a glance. The component most often skipped and most often regretted." button="Check price on Amazon" >}}
+{{< product-box asin="B075RTSTKS" name="Victron BMV-712 Battery Monitor" label="Worth-it upgrade" description="Exact state-of-charge at a glance via shunt-based measurement (per manufacturer spec) — the component most often skipped and most often regretted. Not for: systems under ~100Ah where a cheap voltage readout is enough, or solar-origin monitoring already built into your charge controller's Bluetooth app. The honest tradeoff: a monitor is a mid-range price add-on that competes with the battery budget itself." button="Check price on Amazon" >}}
 

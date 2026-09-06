@@ -238,6 +238,8 @@ Thick cable only helps if the terminations and protection hardware match. Many �
 -   **Quality crimps:** poor crimps act like resistors and create heat.
 -   **Torque and re-check:** high-current connections should be torqued to spec and inspected periodically.
 
+{{< product-box asin="B017S9EINA" name="iCrimp Heavy-Duty Cable Lug Crimper (9 Dies)" label="The crimp tool lugs deserve" description="A proper hex/indent crimper for 12 AWG to 2/0 battery lugs (per manufacturer spec) — the difference between a connection you trust at 100A and one that heats. If you are building inverter cables, this is the tool. Not for: 4/0 cable — the table above shows a 2,000W inverter at 12V needs 4/0 AWG, and this die set tops out at 2/0. The honest tradeoff: one more tool to buy (or rent) before you run the big cable." button="Check price on Amazon" >}}
+
 ### Protection checklist
 
 -   Use **DC-rated** fuses/breakers/disconnects at the correct voltage rating for your system.
@@ -291,8 +293,6 @@ Often, yes—oversizing reduces voltage drop and heating. The practical limits a
 
 {{< faq "Is it safe to use AC breakers on DC inverter circuits?" >}}
 No. Use devices explicitly rated for DC at your system voltage. DC interrupt ratings are not interchangeable with AC ratings.
-
-{{< product-box asin="B017S9EINA" name="iCrimp Heavy-Duty Cable Lug Crimper (9 Dies)" label="The crimp tool lugs deserve" description="A proper hex/indent crimper for 12 AWG to 2/0 battery lugs — the difference between a connection you trust at 100A and one that heats. If you are building inverter cables, this is the tool." button="Check price on Amazon" >}}
 {{< /faq >}}
 
 

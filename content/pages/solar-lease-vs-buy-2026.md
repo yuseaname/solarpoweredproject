@@ -195,4 +195,4 @@ The solar industry is mature in 2026. Panel efficiency averages 22%+, inverters 
 **Related guides:**
 - [Solar Financing Options: How to Pay for Solar Panels](/pages/solar-financing-options.html)
 - [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california/)
-- [How Much Do Solar Panels Cost in California in 2026?](/pages/solar-panel-cost-california.html)
+- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california.html)

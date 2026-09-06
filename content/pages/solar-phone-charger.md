@@ -152,6 +152,6 @@ Yes. Dust, fingerprints, and bird droppings create "shading" on the cells. Even 
 - [Best solar lights for your yard](/pages/solar-lights-for-yard.html)
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
 
-{{< product-box asin="B082HPTZ3P" name="Nekteck 28W USB solar charger" label="The travel-tier workhorse" description="Four foldable monocrystalline panels, two USB-A ports at up to 4A total, IPX4. At 28W under good sun it charges a phone in roughly the same time as a wall charger, with headroom for a second device. Hang it from a pack, not the ground." button="Check price on Amazon" >}}
+{{< product-box asin="B082HPTZ3P" name="Nekteck 28W USB solar charger" label="The travel-tier workhorse" description="Four foldable monocrystalline panels, two USB-A ports at up to 4A total, IPX4 (per manufacturer spec). At 28W under good sun it charges a phone in roughly the same time as a wall charger, with headroom for a second device. Hang it from a pack, not the ground. Not for: integrated power-bank duty — it has no internal battery, so nighttime or cloudy-day charging needs a separate power bank, exactly as this guide's hybrid strategy describes. The honest tradeoff: IPX4 shrugs off light rain but isn't the IP65/IP67 submersion rating this guide recommends for wet-weather hiking." button="Check price on Amazon" >}}
 
 

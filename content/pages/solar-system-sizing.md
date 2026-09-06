@@ -168,7 +168,7 @@ Divide daily Wh by average peak sun hours to estimate needed panel watts.
 
 <a href="solar-panel-output.html" class="text-link">Use the solar panel output calculator →</a>
 
-{{< product-box asin="B07GF5JY35" name="Renogy 100W 12V Monocrystalline Panel" label="The sizing math, made real" description="Once your watt-hour math says how many watts of panel you need, this is the module to check the number against — the $1/Watt benchmark that turns a sizing worksheet into a shopping list." button="Check price on Amazon" >}}
+{{< product-box asin="B07GF5JY35" name="Renogy 100W 12V Monocrystalline Panel" label="The sizing math, made real" description="Once your watt-hour math says how many watts of panel you need, this is the module to check the number against (per manufacturer spec) — the $1/Watt benchmark that turns a sizing worksheet into a shopping list. Not for: whole-home or grid-tied arrays — by the Step 2 math, a 2,000Wh/day cabin needs ~625W, and whole-home loads run well past that in multiples of 100W modules. The honest tradeoff: 100W per module means you buy and mount many units for bigger arrays." button="Check price on Amazon" >}}
 
 ## Step 3: Size batteries
 
@@ -176,7 +176,7 @@ Choose a battery bank to cover the number of hours or days you want in reserve.
 
 <a href="/pages/battery-capacity.html" class="text-link">Use the battery capacity calculator →</a>
 
-{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="The 1.28 kWh building block" description="Battery-bank sizing is usable-kWh multiplication — and this is the unit most DIY banks multiply by. Built-in 100A BMS and low-temp protection come standard in the arithmetic." button="Check price on Amazon" >}}
+{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="The 1.28 kWh building block" description="Battery-bank sizing is usable-kWh multiplication — and this is the unit most DIY banks multiply by. Built-in 100A BMS and low-temp protection come standard in the arithmetic (per manufacturer spec). Not for: 48V banks or whole-home loads without series/parallel-matched wiring — this is a 12V unit, and the bank math here sizes to the system voltage you pick. The honest tradeoff: usable kWh per unit is small, so big banks mean many units and more wiring." button="Check price on Amazon" >}}
 
 ## Step 4: Size the inverter
 
@@ -192,7 +192,7 @@ Example: 4,000 W array ÷ 48 V × 1.25 ≈ **104 A**. Round up to the next stand
 
 Compare MPPT and PWM in [MPPT vs PWM](mppt-vs-pwm.html) and see [charge controller cost](mppt-charge-controller-cost.html).
 
-{{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="The controller that fits the math" description="If your controller sizing lands in the 20–30A range, this is the default answer: 100V open-circuit ceiling, lithium presets, and Bluetooth so you can verify the sizing against real charge data." button="Check price on Amazon" >}}
+{{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="The controller that fits the math" description="If your controller sizing lands in the 20–30A range, this is the default answer: 100V open-circuit ceiling, lithium presets, and Bluetooth so you can verify the sizing against real charge data (per manufacturer spec). Not for: the Step 5 example — a 4,000W / 48V array needs ~104A, and this is a 20–30A-class 12/24V controller. The honest tradeoff: the 100V input rail caps string voltage; bigger arrays need the 150V line." button="Check price on Amazon" >}}
 
 ## Common sizing mistakes
 
@@ -222,7 +222,7 @@ Grid-tied systems size to offset annual kWh and meet utility/net metering rules.
 {{< /faq >}}
 
 {{< faq "What if my roof is small?" >}}
-Use higher-efficiency panels, prioritize consumption reduction, and consider a ground mount. See [best solar panels for small homes](best-solar-panels-for-small-homes.html). - <a href="solar-payback-calculator.html" class="text-link">Solar payback calculator</a>
+Use higher-efficiency panels, prioritize consumption reduction, and consider a ground mount. See [best solar panels for small roofs and small homes](best-solar-panels-small-roof.html). - <a href="solar-payback-calculator.html" class="text-link">Solar payback calculator</a>
 {{< /faq >}}
 
 {{< faq-schema >}}

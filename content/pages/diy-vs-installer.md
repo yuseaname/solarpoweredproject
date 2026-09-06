@@ -234,4 +234,4 @@ The 30% federal ITC expired December 31, 2025, so 2026 installs get no federal c
 **Related guides:**
 - [Ground Mount Solar Panels: Cost, DIY vs Installer, and When to Choose Ground Over Roof](/pages/ground-mount-solar-panels.html)
 - [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california/)
-- [How Much Does a Solar Battery Cost in 2026?](/guides/solar-battery-cost-2026/)
+- [How Much Does a Solar Battery Cost in 2026?](/pages/solar-battery-cost-2026.html)

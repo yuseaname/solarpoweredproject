@@ -25,7 +25,7 @@ An off-grid solar system gets built in a fixed order, and the order *is* the roa
 5. **Pick the charge controller and wire every circuit** — MPPT amps ≈ array watts ÷ battery volts × 1.25, fuses sized to conductor and code.
 6. **Permit and inspect** — off-grid permitting is lighter than grid-tied but rarely zero; call your AHJ before buying hardware.
 
-Panels are the fourth thing you size, not the first. A DIY off-grid build runs roughly **$1,100–$2,900 in parts** for a 1 kWh/day weekend cabin and **$5,400–$16,000** for a 7 kWh/day full-time home — batteries dominate either budget. Each step below carries worked math and links to the deep-dive guides.
+Panels are the fourth thing you size, not the first. A DIY off-grid build runs roughly **$1,100–$2,900 in parts** for a 1 kWh/day weekend cabin and **$5,400–$16,000** for a 7 kWh/day full-time home — batteries dominate either budget. Each step below carries worked math and links to the deep-dive guides, and the [solar maintenance guide](/pages/solar-maintenance.html) covers what keeps a build healthy after commissioning.
 
 ## Key takeaways
 

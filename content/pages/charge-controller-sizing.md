@@ -175,7 +175,7 @@ Two patterns worth noticing: rows 3 and 4 are the **same 400W array** — doubli
 
 ## Voltage limits: the spec that kills MPPT controllers
 
-The amp formula sizes the output side. The input side has its own hard limit: every MPPT controller has a **maximum PV input voltage** — commonly 100V or 150V class on popular models (check your datasheet for the exact figure). Exceed it, even briefly on a cold morning, and the input stage can be permanently damaged.
+The amp formula sizes the output side. The input side has its own hard limit: every MPPT controller has a **maximum PV input voltage** — commonly 100V or 150V class on popular models (check your datasheet for the exact figure). Exceed it, even briefly on a cold morning, and the input stage can be permanently damaged. If your controller stops charging, the [MPPT not-charging checklist](/pages/mppt-charge-controller-not-charging.html) walks the likely causes, voltage ceiling included.
 
 The number to check is the string's **open-circuit voltage (Voc)** from the panel spec sheet — the highest voltage the array ever presents, occurring exactly when the controller first sees the panels: cold, sunlit, no load. Panel voltage **rises as cells get colder**; a practical rule of thumb is **Voc up roughly +10% below freezing (0°C / 32°F)** — a conservative shortcut; the precise correction uses the panel's temperature coefficient of Voc (typically −0.27 to −0.30%/°C from 25°C).
 

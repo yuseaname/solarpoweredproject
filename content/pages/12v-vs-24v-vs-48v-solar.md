@@ -27,6 +27,8 @@ related = [
 -   **48V** is the right choice for whole-home backup and large off-grid systems (3,000W+).
 -   **Wire size is the deciding factor.** If you need 4/0 cable (thick as a finger) at 12V, the same load at 48V only needs 8 AWG (pencil-thin).
 
+Voltage choice is one step in the full sizing sequence — count daily loads first, then pick the bank voltage, then size the controller and inverter around it. The [solar system sizing guide](/pages/solar-system-sizing.html) runs that whole order before you buy wire.
+
 ## Quick decision guide
 
 Don't want to read the whole article? Match your situation:
@@ -295,8 +297,8 @@ It can influence array configuration and controller choices. Always verify your 
 
 {{< /faq >}}
 
-{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="12V building block" description="The value benchmark for starting a 12V bank — built-in 100A BMS, low-temp protection, and thousands of cycles. (Going 24V/48V? Series/parallel-match these.)" button="Check price on Amazon" >}}
-{{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="Voltage-flexible controller" description="Auto-detects 12V/24V (48V-capable across the range) with Bluetooth monitoring and lithium presets — the controller that grows with a voltage upgrade." button="Check price on Amazon" >}}
+{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="12V building block" description="The value benchmark for starting a 12V bank — built-in 100A BMS, low-temp protection, and thousands of cycles (per manufacturer spec). Not for: loads above ~2,000W on 12V or a 48V bank — by this page's wire math, those need 24V/48V or 4/0-class cable. The honest tradeoff: going 24V/48V later means series/parallel-matching these." button="Check price on Amazon" >}}
+{{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="Voltage-flexible controller" description="Auto-detects 12V/24V (48V-capable across the range, per manufacturer spec) with Bluetooth monitoring and lithium presets — the controller that grows with a voltage upgrade. Not for: arrays above ~400W on 12V or ~800W on 24V — by the current math on this page, bigger strings or 48V banks need the 150V line. The honest tradeoff: the 100V input rail caps string voltage growth." button="Check price on Amazon" >}}
 
 ## Next logical reads
 

@@ -113,7 +113,7 @@ If you’re trying to reduce cost, the cleanest approach is often to define a re
 -   **Ignoring surge requirements:** an undersized surge rating can cause nuisance trips and upgrades.
 -   **Skipping compatibility checks:** confirm battery voltage, controller compatibility, and waveform requirements.
 
-{{< product-box asin="B081CLPDT9" name="Renogy 2000W 12V Pure Sine Inverter" label="Mid-size cost anchor" description="2000W pure sine with remote and cables included — the honest mid-size reference point for inverter cost tables: enough for real loads, without paying for surge headroom you will not use." button="Check price on Amazon" >}}
+{{< product-box asin="B081CLPDT9" name="Renogy 2000W 12V Pure Sine Inverter" label="Mid-size cost anchor" description="2000W pure sine with remote and cables included (per manufacturer spec) — the honest mid-size reference point for inverter cost tables: enough for real loads, without paying for surge headroom you will not use. Not for: whole-home service or continuous loads above 2,000W — that's a transfer-switch and electrician conversation. The honest tradeoff: the 2000W class buys real capacity, but an oversized inverter on a small bank invites hidden wiring costs — battery-side DC current, not panel watts, sets the cable, fuse, and battery requirements." button="Check price on Amazon" >}}
 
 ## FAQ
 

@@ -236,6 +236,10 @@ The failure mode that actually kills controllers. Two common triggers:
 
 **The honest replacement path:** a blown input stage is not a DIY board repair for most people — replacement is the realistic option. Before buying, note your battery voltage, array watts, and worst-case cold Voc, then size the new controller's max PV input with margin. Our <a href="best-mppt-charge-controllers.html" class="text-link">best MPPT charge controllers</a> guide matches controllers to array size and battery voltage. And to keep the next controller alive: size the PV-side fuse/breaker correctly — see <a href="solar-fuse-and-breaker-sizing.html" class="text-link">solar fuse and breaker sizing</a>.
 
+**When to stop and call a licensed electrician:** if you smell burning, see scorched or melted terminals, measure voltage where you shouldn't (grounded frames or conduits live), or find a battery that won't hold charge after all these checks, stop working on it — that's the point where a licensed electrician or qualified solar professional takes over. Panel voltages are high enough to injure, and a battery that stays hot or swollen is a fire risk, not a DIY project.
+
+{{< product-box asin="B018CLOSTC" name="Klein Tools MM600 Multimeter" label="First diagnostic tool" description="Step one of every MPPT troubleshooting checklist is measuring PV voltage — an auto-ranging 1000V meter verifies PV voltage and Voc against spec-sheet numbers (per manufacturer spec). Not for: measuring inside a live breaker panel or any energized AC service — that stays with a licensed electrician. The honest tradeoff: a bench meter you already own may read fine, but an auto-ranging 1000V unit removes margin for error." button="Check price on Amazon" >}}
+
 ## FAQ
 
 {{< faq "Why is my MPPT controller showing PV voltage but zero charge current?" >}}
@@ -252,8 +256,6 @@ Cold can increase PV voltage (affecting limits) and lithium batteries may preven
 
 {{< faq "When should I call a professional?" >}}
 If you can’t verify PV voltage/current within safe procedures, see repeated faults, or suspect wiring damage, stop and contact a qualified professional.
-
-{{< product-box asin="B018CLOSTC" name="Klein Tools MM600 Multimeter" label="First diagnostic tool" description="Step one of every MPPT troubleshooting checklist is measuring PV voltage — an auto-ranging 1000V meter like this is the tool that answers it." button="Check price on Amazon" >}}
 {{< /faq >}}
 
 ## Next logical reads

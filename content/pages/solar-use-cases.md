@@ -25,6 +25,18 @@ This hub maps the site's solar scenarios — home backup, off-grid cabins, RVs a
 - **The 30% federal tax credit expired December 31, 2025** (P.L. 119-21). 2026 installs get $0 federal credit, so payback math uses the full system price — roughly 10–13 years in high-cost states.
 - **DIY saves real money on small systems** — commonly 30–50% on RV-scale builds — but grid-tied work usually needs permits and a licensed electrician.
 
+## The buying order that saves money
+
+Decision order matters more than any single purchase — buying panels first causes most sizing failures; the sequence below fixes that.
+
+1. **Audit loads first.** Count daily watt-hours per device before pricing anything — every panel, battery, and inverter size here derives from that number, and a wattmeter does it in an evening.
+2. **Size the system.** Panels, battery, and inverter all follow from the load. The [solar system sizing guide](/pages/solar-system-sizing.html) sequences those steps with a load planner, and it works at any scale.
+3. **Pick components by spec, not brand.** Match the one spec that matters per part — usable kWh for batteries, continuous watts for inverters, max input voltage for charge controllers. The [components guide](/pages/solar-components.html) lists each one.
+4. **Budget with honest bands.** Plan from the ranges in our [solar panel cost breakdown](/pages/how-much-do-solar-panels-cost.html), and treat any quote as a starting point — regional labor and your utility move the real number.
+5. **Decide DIY vs installer on scale, not ego.** Small off-grid builds are DIY-friendly; grid-tied and whole-home work usually needs permits and a licensed electrician. The [DIY vs installer guide](/pages/diy-vs-installer.html) is blunt about where that line sits.
+
+The same order applies at every scale — fridge backup or cabin — and it matches how this site reviews gear: [how we recommend](/pages/how-we-recommend.html) explains that standard.
+
 ## The scenarios at a glance
 
 <table>
@@ -144,7 +156,7 @@ This hub maps the site's solar scenarios — home backup, off-grid cabins, RVs a
 
 ## Home backup: critical loads, not the whole house
 
-A realistic home backup keeps a fridge, lights, phones, a CPAP, and maybe a well pump alive — roughly 1,500–4,000 Wh/day. A 2,000Wh-class portable station runs about $1,500–$2,200; a wired home battery runs roughly $1,000–$1,400 per kWh installed before panels. The biggest mistake is sizing for the whole house; pick critical loads first and the budget shrinks an order of magnitude. With no federal credit for 2026 installs, backup buys resilience, not payback — the [federal tax credit explainer](/pages/solar-panel-tax-credit.html) covers what remains.
+A realistic home backup keeps a fridge, lights, phones, a CPAP, and maybe a well pump alive — roughly 1,500–4,000 Wh/day. A 2,000Wh-class portable station runs about $1,500–$2,200; a wired home battery runs roughly $1,000–$1,400 per kWh installed before panels. The biggest mistake is sizing for the whole house; pick critical loads first and the budget shrinks an order of magnitude. Once critical loads are set, the inverter is sized from simultaneous running watts plus surge — the [inverter sizing guide](/pages/solar-inverter-sizing.html) does both checks with a calculator. With no federal credit for 2026 installs, backup buys resilience, not payback — the [federal tax credit explainer](/pages/solar-panel-tax-credit.html) covers what remains.
 
 <a href="/pages/what-size-solar-generator-run-refrigerator.html" class="text-link">What size solar generator runs a fridge</a> — worked watts, surge, and Wh math for the load people back up first.
 

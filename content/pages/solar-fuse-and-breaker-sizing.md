@@ -292,8 +292,8 @@ If your system lacks clear DC-rated disconnects and correctly placed protection,
 
 {{< /faq >}}
 
-{{< product-box asin="B08L56RDNP" name="BougeRV 15A MC4 Inline Fuse Kit (5-pk)" label="String-level protection" description="Waterproof IP68 in-line fuse holders for panel strings — the cheapest insurance a DIY array can buy. Match the fuse rating to your string current." button="Check price on Amazon" >}}
-{{< product-box asin="B094QWG3VV" name="Blue Sea Systems 2315 100A Mini BusBar (4 Studs)" label="Clean distribution point" description="Four-stud tinned-copper busbar with cover — the tidy, inspectable alternative to stacked ring terminals that protection devices can actually guard." button="Check price on Amazon" >}}}}
+{{< product-box asin="B08L56RDNP" name="BougeRV 15A MC4 Inline Fuse Kit (5-pk)" label="String-level protection" description="Waterproof IP68 in-line fuse holders for panel strings (per manufacturer spec) — the cheapest insurance a DIY array can buy. Match the fuse rating to your string current. Not for: strings whose Isc × 1.56 exceeds 15A (roughly Isc above ~9.6A), or controller/battery circuits — this page's table sizes those at 20–30A and up. The honest tradeoff: a fixed 15A rating, so verify your exact Isc before buying." button="Check price on Amazon" >}}
+{{< product-box asin="B094QWG3VV" name="Blue Sea Systems 2315 100A Mini BusBar (4 Studs)" label="Clean distribution point" description="Four-stud tinned-copper busbar with cover (per manufacturer spec) — the tidy, inspectable alternative to stacked ring terminals that protection devices can actually guard. Not for: the 200–250A battery-to-inverter circuits in the table above (2,000W at 12V) — those need a Class T fuse or MRBF on a larger bus. The honest tradeoff: 100A capacity, so high-current runs outgrow it fast." button="Check price on Amazon" >}}}}
 
 ## Next logical reads
 

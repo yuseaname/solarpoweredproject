@@ -175,6 +175,6 @@ However, if the prospect of navigating building permits, managing high-voltage w
 ---
 
 **Related guides:**
-- [How Much Does a Solar Battery Cost in 2026?](/guides/solar-battery-cost-2026/)
+- [How Much Does a Solar Battery Cost in 2026?](/pages/solar-battery-cost-2026.html)
 - [How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide](/pages/solar-battery-cost-2026.html)
 - [Solar Installation Safety Guide: Electrical, Roof, and PPE Essentials](/pages/solar-installation-safety-guide.html)

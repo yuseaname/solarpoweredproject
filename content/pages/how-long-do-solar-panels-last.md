@@ -139,4 +139,4 @@ No. Most warranties are split into two types: a **Product Warranty** (covering m
 **Related guides:**
 - [Solar Panel Degradation Rate: Complete Homeowner Guide](/pages/solar-panel-degradation-rate.html)
 - [How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide](/pages/solar-battery-cost-2026.html)
-- [How Much Does a Solar Battery Cost in 2026?](/guides/solar-battery-cost-2026/)
+- [How Much Does a Solar Battery Cost in 2026?](/pages/solar-battery-cost-2026.html)

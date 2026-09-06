@@ -131,9 +131,9 @@ Comparing batteries by nameplate kWh only can lead to poor value. Usable kWh and
 
 <a href="solar-battery-cost-per-kwh.html" class="text-link">Battery cost per kWh (how to compare)</a> <a href="/pages/li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid</a>
 
-{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="Cabin bank building block" description="The cabin-cost math favorite: 1.28 kWh per unit, scale by stacking. Low-temp protection matters more in cabins than anywhere else on the property." button="Check price on Amazon" >}}
+{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="Cabin bank building block" description="The cabin-cost math favorite: 1.28 kWh per unit at 12.8V nominal (per manufacturer spec), scale by stacking. Low-temp protection matters more in cabins than anywhere else on the property. Not for: whole-cabin AC-heavy loads or 48V banks — by the tiers above, regular off-grid use with a fridge needs a mid-range bank, and stacking many 12V units adds wiring. The honest tradeoff: each unit is one 1.28kWh block, so larger autonomy means more units." button="Check price on Amazon" >}}
 
-{{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="Right-sized cabin controller" description="The 30A tier covers most weekend-cabin arrays, and Bluetooth lets you check charging from town — the feature cabin owners actually use." button="Check price on Amazon" >}}
+{{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="Right-sized cabin controller" description="The 30A tier covers most weekend-cabin arrays (per manufacturer spec), and Bluetooth lets you check charging from town — the feature cabin owners actually use. Not for: the high-capacity tier above — larger arrays or 48V banks push past 30A and the 100V input rail, and need the 150V line instead. The honest tradeoff: 30A caps a 12V array near the 400W mark." button="Check price on Amazon" >}}
 
 ## FAQ
 

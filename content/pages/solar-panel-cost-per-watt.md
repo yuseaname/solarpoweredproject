@@ -51,6 +51,18 @@ For consumer purchases, a common range is **$0.40 to $1.20 per watt** for panels
 
 Related: <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a>
 
+## Worked example: 3 kW of panels, three ways
+
+The same 3,000 watts of panel costs very different amounts depending on how you buy it — this is why "$/W for panels" and "$/W installed" are different numbers and why comparing them directly misleads:
+
+| Buying path | Math | Panel cost | Effective $/W |
+| :-- | :-- | :-- | :-- |
+| 6 × 500 W pallet-class modules | 3,000 W × $0.50/W | **$1,500** | $0.50/W |
+| 10 × 300 W one-off shipping | 3,000 W × $0.90/W | **$2,700** | $0.90/W |
+| Residential installed (labor+racking+inverter+permitting) | 3,000 W × ~$2.80/W installed | **~$8,400** | $2.80/W |
+
+Three honest readings from that table: (1) pallet-class $/W is real but assumes you can receive a freight shipment and accept mixed grades; (2) the installed figure isn't a markup scandal — panels are typically the *minority* of an installed system's cost (see our [full cost breakdown](/pages/solar-system-costs.html)); (3) a 3 kW DIY array's *panel* budget is a $1,200–$2,700 question, not an $8,400 one. Use the [system sizing planner](/pages/solar-system-sizing.html) to pin the wattage before pricing any of this.
+
 ## How to estimate panel cost for your system
 
 Start with the panel wattage you need, then multiply by your expected $/W.
@@ -112,5 +124,5 @@ Not reliably. In some systems, batteries or labor dominate. Use a full breakdown
 
 **Related guides:**
 - [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california/)
-- [How Much Do Solar Panels Cost in California in 2026?](/pages/solar-panel-cost-california.html)
+- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california.html)
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)

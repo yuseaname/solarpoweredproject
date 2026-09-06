@@ -138,5 +138,5 @@ Yes. Solar panels are completely silent. Wind turbines produce "aerodynamic nois
 
 **Related guides:**
 - [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
-- [How Much Does a Solar Battery Cost in 2026?](/guides/solar-battery-cost-2026/)
+- [How Much Does a Solar Battery Cost in 2026?](/pages/solar-battery-cost-2026.html)
 - [How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide](/pages/solar-battery-cost-2026.html)

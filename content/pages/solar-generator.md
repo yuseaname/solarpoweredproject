@@ -46,7 +46,7 @@ Runtime math uses duty cycles for compressor appliances — a modern fridge draw
 
 CPAP numbers assume running from DC (12V) — the humidifier and heated tube roughly double consumption, and inverter losses add 10–15%. The full worked math is in our [CPAP battery backup guide](cpap-battery-backup-guide.html).
 
-{{< product-box asin="B0C1SMJTDT" name="BLUETTI AC180 (1,152Wh, 1,800W)" label="The 1kWh-class benchmark" description="1,152Wh LiFePO4 with 1,800W continuous and 2,700W surge — enough inverter for a fridge's compressor start with margin, and roughly a day of fridge runtime per charge. Per manufacturer spec." button="Check price on Amazon" >}}
+{{< product-box asin="B0C1SMJTDT" name="BLUETTI AC180 (1,152Wh, 1,800W)" label="The 1kWh-class benchmark" description="1,152Wh LiFePO4 with 1,800W continuous and 2,700W surge — enough inverter for a fridge's compressor start with margin, and roughly a day of fridge runtime per charge. Per manufacturer spec. Not for: whole-home backup or continuous loads above 1,800W — by the sizing math above that is the 2–3kWh class or installed storage. The honest tradeoff: a sealed unit — no cell swaps or upgrades later." button="Check price on Amazon" >}}
 
 ## The surge trap: sizing the inverter, not just the battery
 
@@ -72,7 +72,7 @@ That recharges a 512Wh unit in a day — but refilling a 1,152Wh station takes a
 | Repair/upgrade | Sealed unit | Swap cells, grow bank |
 | Best for | Outages, travel, renters | Cabins, vans, permanent backup |
 
-{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="The DIY-path building block" description="1,280Wh of LiFePO4 with a 100A BMS and low-temp cutoff — more usable watt-hours than a 1kWh power station, at a lower cost per Wh. You supply the inverter, charging, and fusing (see wiring decisions)." button="Check price on Amazon" >}}
+{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="The DIY-path building block" description="1,280Wh of LiFePO4 with a 100A BMS and low-temp cutoff (per manufacturer spec) — more usable watt-hours than a 1kWh power station, at a lower cost per Wh. Not for: plug-and-play portability or whole-home backup — you supply the inverter, charging, and fusing (see wiring decisions). The honest tradeoff: assembly and integration are on you." button="Check price on Amazon" >}}
 
 A 100Ah LiFePO4 battery holds 1,280Wh — more than the AC180 above — and what it runs long-term is covered in [how long will a 100Ah battery run](how-long-will-100ah-battery-run.html). Power stations sell integration; DIY sells watt-hours per dollar.
 
@@ -141,4 +141,4 @@ The station can charge its battery while simultaneously powering devices — use
 
 ## Next logical reads
 
-<a href="/pages/what-size-solar-generator-run-refrigerator.html" class="text-link">Fridge sizing math</a> <a href="/pages/how-long-will-100ah-battery-run.html" class="text-link">100Ah runtime reference</a> <a href="/pages/cpap-battery-backup-guide.html" class="text-link">CPAP backup planning</a> <a href="/pages/pure-sine-vs-modified-sine-inverter.html" class="text-link">Pure sine vs modified sine</a> <a href="/pages/portable-solar-panels.html" class="text-link">Portable panel guide</a> <a href="/diy-off-grid-energy/diy-hand-crank-generator-emergency-charging.html" class="text-link">Realistic hand-crank charging math</a>
+<a href="/pages/what-size-solar-generator-run-refrigerator.html" class="text-link">Fridge sizing math</a> <a href="/pages/how-long-will-100ah-battery-run.html" class="text-link">100Ah runtime reference</a> <a href="/pages/cpap-battery-backup-guide.html" class="text-link">CPAP backup planning</a> <a href="/pages/pure-sine-vs-modified-sine-inverter.html" class="text-link">Pure sine vs modified sine</a> <a href="/pages/portable-solar-panels.html" class="text-link">Portable panel guide</a> <a href="/pages/solar-use-cases.html" class="text-link">When a solar generator fits your use case</a> <a href="/diy-off-grid-energy/diy-hand-crank-generator-emergency-charging.html" class="text-link">Realistic hand-crank charging math</a>

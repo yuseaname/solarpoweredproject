@@ -351,8 +351,8 @@ By carefully sizing your system, choosing the right financing method, and levera
 ---
 
 **Related guides:**
-- [How Much Do Solar Panels Cost in California in 2026?](/pages/solar-panel-cost-california.html)
-- [How Much Does a Solar Battery Cost in 2026?](/guides/solar-battery-cost-2026/)
+- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california.html)
+- [How Much Does a Solar Battery Cost in 2026?](/pages/solar-battery-cost-2026.html)
 - [How Much Do Solar Panels Cost in Nevada in 2026?](/guides/solar-panel-cost-nevada.html)
 - [How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide](/pages/solar-battery-cost-2026.html)
 

@@ -39,7 +39,7 @@ Florida pricing sits on the cheaper side of the national spread — far below Ca
 | 10 kW | $25,000 – $32,500 | Family home / EV / pool pump |
 | 12 kW | $30,000 – $39,000 | Large home + EVs + pool |
 
-*Ranges are calculated from the $2.50–$3.25/W state spread and rounded to the nearest $250. A battery adds roughly $10,000–$15,000 on top — see [solar battery cost 2026](/guides/solar-battery-cost-2026.hml).*
+*Ranges are calculated from the $2.50–$3.25/W state spread and rounded to the nearest $250. A battery adds roughly $10,000–$15,000 on top — see [solar battery cost 2026](/pages/solar-battery-cost-2026.html).*
 
 Two things push quotes around within that band. First, **wind-load-rated mounting is essentialy mandatory in South Florida**. Miami-Dade and nearby coastal counties enforce high ultimate wind-speed design criteria, which means more attachment points, engineered racking, and stamped drawings than a quote in, say, inland Georgia would need — roughly $0.10–$0.25/W extra near the coast versus Central Florida. Second, **roof condition matters more than in milder climates**: a 25-year-old asphalt shingle roof that needs replacement under the array adds thousands, and re-roofing after panels are installed is expensive. Get the roof inspected before you sign.
 

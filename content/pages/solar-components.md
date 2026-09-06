@@ -157,7 +157,7 @@ Panels are the generator: photovoltaic cells convert sunlight into direct curren
 
 <a href="solar-panel-output.html" class="text-link">Calculate panel output →</a> <a href="how-many-solar-panels-to-power-a-house.html" class="text-link">How many panels for a house →</a> <a href="solar-panel-efficiency.html" class="text-link">Panel efficiency →</a>
 
-{{< product-box asin="B07GF5JY35" name="Renogy 100W 12V Monocrystalline Panel" label="The reference panel" description="The module most component guides describe by default — monocrystalline, IP67, and the mounting and branch-connector ecosystem every other component assumes." button="Check price on Amazon" >}}
+{{< product-box asin="B07GF5JY35" name="Renogy 100W 12V Monocrystalline Panel" label="The reference panel" description="The module most component guides describe by default — monocrystalline, IP67 (per manufacturer spec), and the mounting and branch-connector ecosystem every other component assumes. Not for: whole-home or grid-tied loads — by the worked math above, a 2,000Wh/day cabin needs ~625W, about six of these. The honest tradeoff: 100W per module means many pieces for bigger arrays." button="Check price on Amazon" >}}
 
 ## Charge controller
 
@@ -167,7 +167,7 @@ The charge controller sits between the panels and the battery and prevents overc
 
 <a href="best-mppt-charge-controllers.html" class="text-link">Best MPPT charge controllers</a> <a href="mppt-charge-controller-cost.html" class="text-link">MPPT cost guide</a> <a href="12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V systems</a>
 
-{{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="The reference controller" description="The charge controller component diagrams are drawn around — MPPT efficiency, 12/24V auto-detect, lithium presets, and Bluetooth monitoring as the standard feature set." button="Check price on Amazon" >}}
+{{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="The reference controller" description="The charge controller component diagrams are drawn around — MPPT efficiency, 12/24V auto-detect, lithium presets, and Bluetooth monitoring (per manufacturer spec) as the standard feature set. Not for: 48V banks or strings whose cold-morning Voc pushes past 100V — by the worked example above, a four-panel string lands in the 150V class. The honest tradeoff: 30A caps a 12V array near the 400W mark." button="Check price on Amazon" >}}
 
 ## Battery bank
 

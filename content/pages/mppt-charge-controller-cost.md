@@ -119,7 +119,7 @@ Estimate your array watts and divide by battery voltage to estimate charge curre
 -   **Skipping headroom:** a controller at the edge of specs can trip or run hot.
 -   **Ignoring expansion plans:** if you’ll add panels later, plan voltage/current room now.
 
-{{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="The price-performance reference" description="The controller every MPPT cost table benchmarks against — where the diminishing-returns curve flattens. Bluetooth monitoring and lithium presets at the mid-tier price point." button="Check price on Amazon" >}}
+{{< product-box asin="B073ZJ3L13" name="Victron SmartSolar MPPT 100/30" label="The price-performance reference" description="The controller every MPPT cost table benchmarks against — 100V input / 30A output, Bluetooth monitoring, and lithium presets at the mid-tier price point (per manufacturer spec). Not for: 48V banks or arrays over ~400W on a 12V bank — those land in the $600–$1,200+ class where the box above stops being the reference. The honest tradeoff: the Victron premium buys monitoring and build quality, so a budget Tracer or Rover hits the same charge current for less." button="Check price on Amazon" >}}
 
 ## FAQ
 

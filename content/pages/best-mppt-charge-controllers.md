@@ -44,7 +44,7 @@ These are the controllers to consider when your array is modest and you want a k
 
 The Tracer line has been the budget reference for years. The 4210AN pairs a 40 A charge stage with an onboard display; it covers most small-to-mid builds on 12/24 V (520 W on 12 V, 1040 W on 24 V).
 
-{{< product-box asin="B01GMUPGZA" name="EPEver Tracer 4210AN 40A 12V/24V MPPT Solar Charge Controller with Display" label="Budget reference class" description="The 40 A / 100 V Tracer is the floor of ‘controller that will not surprise you’: lithium presets, remote battery temperature input, and a display that shows what the controller is actually doing. Wireless monitoring is optional via EPEver’s BT-1 adapter." button="Check price on Amazon" >}}
+{{< product-box asin="B01GMUPGZA" name="EPEver Tracer 4210AN 40A 12V/24V MPPT Solar Charge Controller with Display" label="Budget reference class" description="The 40 A / 100 V Tracer is the floor of ‘controller that will not surprise you’ (per manufacturer spec): lithium presets, remote battery temperature input, and a display that shows what the controller is actually doing. Wireless monitoring is optional via EPEver’s BT-1 adapter. Not for: arrays above ~520 W on 12 V or ~1,040 W on 24 V, or 48 V banks — this is a 12/24 V controller. The honest tradeoff: wireless monitoring costs extra (BT-1 module)." button="Check price on Amazon" >}}
 
 **Where it wins:** lowest cost per amp in its class, and the display means no phone is required to see what it is doing.
 
@@ -54,7 +54,7 @@ The Tracer line has been the budget reference for years. The 4210AN pairs a 40 A
 
 The Rover 40 sits at the top of the 100 V input class. If your array runs at higher voltage than battery (typical for single-string 12/24 V builds), this is the natural budget pick.
 
-{{< product-box asin="B01MSYGZGI" name="Renogy Rover 40A 12V/24V MPPT Solar Charge Controller with Bluetooth" label="Top of the 100 V class" description="The highest-amp controller that fits a 100 V input rail — 520 W on 12 V or 1040 W on 24 V of genuine MPPT tracking, sized for arrays whose cold-morning string voltage stays safely under the ceiling." button="Check price on Amazon" >}}
+{{< product-box asin="B01MSYGZGI" name="Renogy Rover 40A 12V/24V MPPT Solar Charge Controller with Bluetooth" label="Top of the 100 V class" description="The highest-amp controller that fits a 100 V input rail — 520 W on 12 V or 1040 W on 24 V of genuine MPPT tracking (per manufacturer spec), sized for arrays whose cold-morning string voltage stays safely under the ceiling. Not for: arrays whose cold-morning string voltage can exceed 100 V, or 48 V banks — that needs a 150 V+ controller. The honest tradeoff: 100 V input headroom runs out faster than a 150 V controller as arrays grow." button="Check price on Amazon" >}}
 
 **Where it wins:** clean display, solid Bluetooth app, straightforward menus.
 
@@ -68,7 +68,7 @@ This is the class where most DIY off-grid systems actually land — enough featu
 
 The most copied controller family in the DIY community. Not because it is the cheapest, but because it does exactly what the spec sheet says and its monitoring stack (VictronConnect) is genuinely useful. The 100/20 is the right-sized entry: arrays up to ~260 W on 12 V or ~520 W on 24 V.
 
-{{< product-box asin="B075NPQHQK" name="Victron Energy SmartSolar MPPT 100V 20A 12/24V Solar Charge Controller with Bluetooth" label="The DIY entry default" description="Bluetooth, lithium presets, and temperature-compensated charging in the box. For one or two panels and a 100Ah bank, this is Victron quality without paying for headroom you will not use." button="Check price on Amazon" >}}
+{{< product-box asin="B075NPQHQK" name="Victron Energy SmartSolar MPPT 100V 20A 12/24V Solar Charge Controller with Bluetooth" label="The DIY entry default" description="Bluetooth, lithium presets, and temperature-compensated charging in the box (per manufacturer spec). For one or two panels and a 100Ah bank, this is Victron quality without paying for headroom you will not use. Not for: arrays above ~260 W on 12 V or ~520 W on 24 V — that needs the 100/30 or a bigger rail. The honest tradeoff: price per amp sits above the budget class." button="Check price on Amazon" >}}
 
 **Where it wins:** firmware maturity, ecosystem (BMV, SmartShunt, Cerbo), documented limits you can trust.
 
@@ -78,7 +78,7 @@ The most copied controller family in the DIY community. Not because it is the ch
 
 The same platform with more current — the model most small-system builds converge on. If your sizing math landed at 20–30 A on a 100 V rail (400 W on 12 V, 800 W on 24 V), this is the right step rather than jumping to a different brand.
 
-{{< product-box asin="B073ZJ3L13" name="Victron Energy SmartSolar MPPT 100V 30A 12/24V Solar Charge Controller with Bluetooth" label="The standard reference" description="The 100 V / 30 A model most builds converge on. Bluetooth monitoring, lithium charging profiles built in, and the Victron quality floor — where diminishing returns start to flatten." button="Check price on Amazon" >}}
+{{< product-box asin="B073ZJ3L13" name="Victron Energy SmartSolar MPPT 100V 30A 12/24V Solar Charge Controller with Bluetooth" label="The standard reference" description="The 100 V / 30 A model most builds converge on (per manufacturer spec). Bluetooth monitoring, lithium charging profiles built in, and the Victron quality floor — where diminishing returns start to flatten. Not for: arrays above ~400 W on 12 V or ~800 W on 24 V, or 48 V banks — the 150 V line is the next step. The honest tradeoff: still capped at 100 V input." button="Check price on Amazon" >}}
 
 **Where it wins:** same maturity as the 100/20 but with headroom for future panel growth.
 

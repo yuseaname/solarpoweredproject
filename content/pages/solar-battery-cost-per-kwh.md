@@ -94,7 +94,7 @@ In grid-tied systems without backup, batteries may be optional. In off-grid or w
 
 <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="diy-vs-installer.html" class="text-link">DIY vs installer cost</a>
 
-{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="The $/kWh reference point" description="The battery we benchmark cost-per-kWh math against: 1.28 kWh nominal, thousands of cycles, and a built-in BMS — the datasheet numbers behind realistic DIY cost models." button="Check price on Amazon" >}}
+{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="The $/kWh reference point" description="The battery we benchmark cost-per-kWh math against: 1.28 kWh nominal (100Ah at 12.8V, per manufacturer spec), thousands of cycles, and a built-in BMS — the datasheet numbers behind realistic DIY cost models. Not for: whole-home grid-tied backup or 24V/48V banks without matching series/parallel wiring decisions — this is a 12V building block, and this page's usable-kWh and lifetime-kWh math is exactly how you check whether one of these (or several) fits. The honest tradeoff: DIY pricing beats turnkey quotes, but you take on the sizing, wiring, and battery-management work yourself." button="Check price on Amazon" >}}
 
 ## FAQ
 

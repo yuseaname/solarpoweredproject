@@ -145,10 +145,10 @@ If you are looking for security or path lighting, yes. A $5 light uses low-quali
 ---
 
 **Related guides:**
-- [How Much Does a Solar Battery Cost in 2026?](/guides/solar-battery-cost-2026/)
+- [How Much Does a Solar Battery Cost in 2026?](/pages/solar-battery-cost-2026.html)
 - [How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide](/pages/solar-battery-cost-2026.html)
 - [Solar phone charger](/pages/solar-phone-charger.html)
 
-{{< product-box asin="B0816BTL82" name="SOLPEX 16-pack solar pathway lights" label="The install-and-forget set" description="Warm-white 3000K, IP65 stakes with 1,000mAh cells — sized for the 6-8 hour runtime tier on a full-sun day. Sixteen covers a typical front-walk layout; buy warm white (3000K) if you want them to read as lighting, not security." button="Check price on Amazon" >}}
+{{< product-box asin="B0816BTL82" name="SOLPEX 16-pack solar pathway lights" label="The install-and-forget set" description="Warm-white 3000K, IP65 stakes with 1,000mAh cells (per manufacturer spec) — sized for the 6–8 hour runtime tier on a full-sun day. Sixteen covers a typical front-walk layout; buy warm white (3000K) if you want them to read as lighting, not security. Not for: security or floodlighting duty — the page's 500+ lumen security tier is a different product class entirely. The honest tradeoff: pathway lights are decorative, low-lumen fixtures, so you trade any meaningful task or security illumination for simplicity and near-zero upkeep." button="Check price on Amazon" >}}
 
 

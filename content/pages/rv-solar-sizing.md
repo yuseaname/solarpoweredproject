@@ -52,6 +52,8 @@ Use an efficiency factor like 0.75–0.85 to account for heat, wiring, and charg
 
 An inverter is sized primarily by the maximum AC wattage you’ll run at once, plus starting surges for some devices. If you only run DC loads and USB charging, you may not need a large inverter.
 
+A quick 12V current reality check before you size: a 2000W inverter at 12V pulls roughly 170A on the DC side at full tilt — <a href="battery-cable-size-for-inverter.html" class="text-link">cable and fuse sizing matter more than panel watts here</a>, because battery-side current, not the solar array, sets the wire and protection requirements. Also plan for surges: motors and compressors can draw 2–4x their running watts for a few seconds at startup, so an inverter sized to continuous watts alone can trip on a fridge or pump start.
+
 <a href="solar-components.html" class="text-link">Solar components explained</a> <a href="solar-inverter-sizing.html" class="text-link">How to size an inverter</a> <a href="pure-sine-vs-modified-sine-inverter.html" class="text-link">Pure sine vs modified sine</a> <a href="micro-vs-string-inverters.html" class="text-link">Inverter types (general)</a>
 
 ## Common RV sizing scenarios (quick ranges)
@@ -111,7 +113,7 @@ It can, but it typically requires a large battery bank, substantial panel wattag
 
 If you are starting from zero and want a proven single-kit solution that covers panels + controller in one box, the Renogy 200W starter kit is a common baseline to compare against when sizing your own build:
 
-{{< product-box asin="B00BCRG22A" name="Renogy 200W 12V Mono Starter Kit (2×100W Panels + 30A PWM Controller)" label="Single-kit baseline" description="Two 100 W monocrystalline panels with a mounted 30 A PWM Wanderer controller — the simplest way to get a working RV or cabin array before upgrading to an MPPT setup." button="Check price on Amazon" >}}
+{{< product-box asin="B00BCRG22A" name="Renogy 200W 12V Mono Starter Kit (2×100W Panels + 30A PWM Controller)" label="Single-kit baseline" description="Two 100W monocrystalline panels with a mounted 30A PWM Wanderer controller (per manufacturer spec) — the simplest way to get a working RV or cabin array before upgrading to an MPPT setup. Not for: the heavy-load band of this guide's table — moderate to heavy inverter use (3,000–6,000+ Wh/day) outgrows 200W of panels and a PWM controller quickly. The honest tradeoff: the kit's 30A PWM keeps cost down, but it harvests less than an MPPT on the same panels, and you'll likely upgrade the controller rather than the panels." button="Check price on Amazon" >}}
 
 ## Next logical reads
 

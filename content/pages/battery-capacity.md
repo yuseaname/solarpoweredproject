@@ -136,11 +136,11 @@ Example: 2,000 Wh × 2 days ÷ 0.90 ÷ 0.80 = **5,556 Wh total battery bank**.
 - **Total capacity** is the nameplate you must buy to keep DoD healthy.
 - Higher voltage means lower current for the same power, so less voltage drop and thinner cable. See [12V vs 24V vs 48V solar](12v-vs-24v-vs-48v-solar.html) and [how to choose system voltage](12v-vs-24v-vs-48v-solar.html).
 
-{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="1.28 kWh, exactly" description="The formula's most common real-world answer: at 12.8V nominal, 100Ah is 1.28 kWh — the unit that makes bank-sizing multiplication concrete." button="Check price on Amazon" >}}
+{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="1.28 kWh, exactly" description="The formula's most common real-world answer: at 12.8V nominal, 100Ah is 1.28 kWh (per manufacturer spec) — the unit that makes bank-sizing multiplication concrete. Not for: the whole-house example above — a 5,556Wh bank at 48V needs a 48V configuration, and a single 12V unit caps at 1.28kWh usable. The honest tradeoff: 1.28kWh per unit means big banks stack many batteries and add wiring." button="Check price on Amazon" >}}
 
 ## Tips
 
-- **Li-ion/LiFePO4** often supports 80–90% DoD with 4,000–6,000 cycles. Lead-acid is usually limited to 50% DoD for longevity.
+- **Li-ion/LiFePO4** often supports 80–90% DoD with 4,000–6,000 cycles. Lead-acid is usually limited to 50% DoD for longevity — the [li-ion vs lead-acid](/pages/li-ion-vs-lead-acid.html) comparison works through that usable-capacity math.
 - **Factor inverter efficiency** for AC loads. DC loads skip that loss.
 - **Size for critical loads first**, then add discretionary loads.
 - **Cold temperatures reduce usable capacity** and can slow charging. Size for the coldest month if off-grid year-round.

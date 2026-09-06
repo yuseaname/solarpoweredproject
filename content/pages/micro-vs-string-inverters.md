@@ -156,7 +156,7 @@ The eight clean panels are untouched. Only the two shaded panels lose output, an
 
 ### Does the premium pay for itself?
 
-Micro hardware for ten panels runs 10 × $120–$250 = **$1,200–$2,500**, versus roughly **$800–$2,000** for a right-sized string inverter (a 4kW array needs a ~3.6–4.8kW unit under the standard 90–120% sizing rule). Call the premium **a few hundred to ~$1,500**. Against $54–$280/yr of recovered production, the payback is anywhere from **~2 years in the worst shade to never in light shade**. Two honest caveats cut both ways:
+Micro hardware for ten panels runs 10 × $120–$250 = **$1,200–$2,500**, versus roughly **$800–$2,000** for a right-sized string inverter (a 4kW array needs a ~3.6–4.8kW unit under the standard 90–120% [inverter sizing](/pages/solar-inverter-sizing.html) rule). Call the premium **a few hundred to ~$1,500**. Against $54–$280/yr of recovered production, the payback is anywhere from **~2 years in the worst shade to never in light shade**. Two honest caveats cut both ways:
 
 -   If trimming the branch or relocating two panels eliminates the shade, that beats any inverter architecture — free, permanent.
 -   The string inverter will likely need one ~$1,000–$2,500 replacement within 25 years; micros with 25-year warranties usually don't. That narrows the lifetime cost gap in micros' favor even before shade math.

@@ -206,7 +206,7 @@ For many off-grid and RV use cases, waveform matters for compatibility.
 
 <a href="pure-sine-vs-modified-sine-inverter.html" class="text-link">Pure sine vs modified sine wave</a> <a href="micro-vs-string-inverters.html" class="text-link">Micro vs string inverters (grid-tied)</a>
 
-{{< product-box asin="B081CLPDT9" name="Renogy 2000W 12V Pure Sine Inverter" label="When the math says 2000W" description="If your load list lands in the 1500–2000W continuous range, this is the honest default: pure sine for electronics and motors, remote switch, and cables in the box — no surge-headroom upsell." button="Check price on Amazon" >}}
+{{< product-box asin="B081CLPDT9" name="Renogy 2000W 12V Pure Sine Inverter" label="When the math says 2000W" description="If your load list lands in the 1500–2000W continuous range, this is the honest default: pure sine for electronics and motors, remote switch, and cables in the box (per manufacturer spec) — no surge-headroom upsell. Not for: the worked example below — 2,100W running with a ~3,100W worst-case startup needs a 3,000W class unit, not 2,000W. The honest tradeoff: at 12V the battery draw reaches ~194A continuous, which pushes toward 24V/48V cabling." button="Check price on Amazon" >}}
 
 ## Worked example: small off-grid cabin
 

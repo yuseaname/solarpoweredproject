@@ -15,7 +15,7 @@ image_height = 1024
 
 ## Quick answer
 
-A home solar system is three pieces working together: solar panels that turn sunlight into DC electricity, an inverter that converts that DC into the AC power your outlets use, and (optionally) batteries that store energy for night or outages — plus the wiring and breakers that hold it together safely. In one sentence you can repeat to a neighbor: panels make the power, the inverter makes it usable, and the battery decides whether you still have power when the sun isn't shining. Everything else — sizing, costs, wiring, payback — is detail on top of that picture. One 2026 fact belongs in the picture from the start: the 30% federal tax credit expired December 31, 2025, so a system installed this year gets no federal credit and pays back over roughly 10–13 years in high-cost states.
+A home solar system is three pieces working together: solar panels that turn sunlight into DC electricity, an inverter that converts that DC into the AC power your outlets use, and (optionally) batteries that store energy for night or outages — plus the wiring and breakers that hold it together safely. In one sentence you can repeat to a neighbor: panels make the power, the inverter makes it usable, and the battery decides whether you still have power when the sun isn't shining. Everything else — sizing, costs, wiring, payback — is detail on top of that picture; the [full system planning guide](/pages/solar-system-sizing.html) works through the design order. One 2026 fact belongs in the picture from the start: the 30% federal tax credit expired December 31, 2025, so a system installed this year gets no federal credit and pays back over roughly 10–13 years in high-cost states.
 
 ## Key takeaways
 
