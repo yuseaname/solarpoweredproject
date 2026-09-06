@@ -14,6 +14,8 @@
 
 **Claim tiers used throughout:** T1 firsthand-tested (documented on-site build/measurement) · T2 manufacturer-stated · T3 reputable third-party (source + date) · T4 editorial judgment · T5 unknown/unverified. No T2–T5 claim may be presented as T1.
 
+**Ground-truth note.** The audit's ITC fact base — the 30% federal residential credit expired Dec 31, 2025 under P.L. 119-21 — was verified during the sitewide Sept-2026 ITC purge (public log: `/corrections.html`) and is stated consistently across fact pack, all four seats, and the corrected content files; it is inherited ground truth for this audit, not a claim this audit re-derived from live sources.
+
 **Limitations.** (1) No lab access — product-claim verification is documentary, not physical. (2) 11 low-priority URLs were signals-classified without full reads (seat D, flagged in its file). (3) Three thin pages and two DIY safety items (compressed-air, alternator warnings) were pattern-classified without full reads (seat C, flagged). (4) Keyword/SERP difficulty is deliberately out of scope — covered by the 2026-09-05 keyword audit (`reports/seo-keyword-audit-2026-09-05.md`). (5) Several defects were **fixed during the audit** (below) — the report describes pre-fix state and marks them.
 
 **Fixes deployed during this audit (7 commits, all live):**
@@ -41,7 +43,7 @@
 | Claim support & qualification | **C+** | The audit's biggest gap. T2 attribution ("per manufacturer spec") on only 3→4 of 36 box pages. T5 numbers on legacy pages (device percentages, lifespan years, $1.50/W). Vendor blogs cited as market research (CNTEpower). 3 math errors found (all fixed). |
 | Non-commercial guidance | **A** | Safety-forward throughout (300-word safety hub pages, "when to call a professional" triggers, 400V DC/thermal-runaway DIY warnings), worked math with stated assumptions on 11 of 13 informational pages sampled. |
 | Thin / repetitive / AI-sounding | **B+** | AI-tell density genuinely low (25 instances / 16 files, mostly benign). 9 content pages under 800 words. Templated sameness: injected "Related guides" trailers sitewide (incl. trust pages + canonical-twin links). Two editorial generations visibly coexist. |
-| Trust infrastructure | **B+** (was B−) | 14 trust surfaces; publication-byline honesty page and how-we-recommend are best-in-class; corrections log real; every affiliate link verified `rel="sponsored"` + point-of-click disclosure. After the audit's truth-alignment fixes, remaining gaps: review dates invisible on 133 pages, author-bio template never renders. |
+| Trust infrastructure | **B+** (was B−) | 14 trust surfaces; publication-byline honesty page and how-we-recommend are best-in-class; corrections log real; every affiliate link verified `rel="sponsored"` + point-of-click disclosure. After the audit's truth-alignment fixes, remaining gaps: review dates invisible on 133 pages (7 do set it), author-bio template never renders. |
 | Scannability vs depth | **A−** | "In brief" answer boxes, TOC rails >800w, 60+ pages with tables, 11 calculators. HTML tables undercounted by tooling (scan artifact). |
 | Topical authority | **B** | Strong hubs (troubleshooting, fundamentals, safety); anchor-orphan problem (7 high-traffic pages with 0 inbound links); missing authority spokes (grounding, arc flash, battery fire, monitoring, glossary). Full map in §5. |
 
@@ -73,7 +75,8 @@
 | /pages/wiring-decisions.html | wiring hub | 346-word stub anchoring the site's most safety-critical cluster | expand | P2 |
 | /pages/solar-panel-cost-per-watt.html | cost | Thin for a money page (584w), no worked system total | expand | P2 |
 | /pages/privacy-policy.html | trust | Injected trailer links both canonical twins from a privacy policy | update | P2 |
-| /pages/methodology.html | trust | Promises review dates that render on 6 of 140 pages | update | P2 |
+| /pages/methodology.html | trust | Promises review dates that render on 7 of 140 pages | update | P2 |
+| /pages/affiliate-disclosure.html | trust | 3 overclaims fixed in audit (commit 5bf60cb); YAML front matter still the odd one out vs TOML peers | update | **P1** |
 | /pages/authors.html | trust | Promises NEC citations content doesn't deliver | update | P2 |
 
 **Cluster verdicts** (full per-page detail in seat files): buyer-core 13 pages: 5 keep, 6 update, 2 merge-stub · buyer-tail 24: 7 keep, 10 update, 6 expand, 1 P1 update · informational 13: 9 keep, 4 update · trust 14: 10 keep, 4 update · Project Lab 20: keep cluster-wide + positioning pass · state guides 10: keep/update (EIA-cited, post-de-templating; NV/MA/IL thin).
