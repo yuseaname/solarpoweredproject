@@ -12,12 +12,12 @@ related = [
 ]
 image = "/images/diy-hand-crank-generator-emergency-charging/hero.webp"
 image_alt = "Hand-crank generator technical plate: cutaway of the dynamo and gear train charging a USB power bank"
-image_width = 1536
-image_height = 1024
+image_width = 1200
+image_height = 800
 +++
 
 <figure class="article-image article-image--hero">
-<img src="/images/diy-hand-crank-generator-emergency-charging/hero.webp" loading="eager" data-fetchpriority="high" decoding="async" alt="Hand-crank generator technical plate: cutaway of the dynamo and gear train charging a USB power bank" width="1536" height="1024" />
+<img src="/images/diy-hand-crank-generator-emergency-charging/hero.webp" loading="eager" data-fetchpriority="high" decoding="async" alt="Hand-crank generator technical plate: cutaway of the dynamo and gear train charging a USB power bank" width="1200" height="800" />
 </figure>
 
 ## The quick answer (if you're in a hurry)

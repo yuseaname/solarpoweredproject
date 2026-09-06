@@ -12,12 +12,12 @@ related = [
 ]
 image = "/images/diy-pelton-turbine-pico-hydro/hero.webp"
 image_alt = "Pelton turbine technical plate: penstock nozzle driving the bucket runner and generator from a mountain stream"
-image_width = 1536
-image_height = 1024
+image_width = 1200
+image_height = 800
 +++
 
 <figure class="article-image article-image--hero">
-<img src="/images/diy-pelton-turbine-pico-hydro/hero.webp" loading="eager" data-fetchpriority="high" decoding="async" alt="Pelton turbine technical plate: penstock nozzle driving the bucket runner and generator from a mountain stream" width="1536" height="1024" />
+<img src="/images/diy-pelton-turbine-pico-hydro/hero.webp" loading="eager" data-fetchpriority="high" decoding="async" alt="Pelton turbine technical plate: penstock nozzle driving the bucket runner and generator from a mountain stream" width="1200" height="800" />
 </figure>
 
 ## Key takeaways

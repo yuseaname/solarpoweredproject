@@ -7,12 +7,12 @@ description = "A realistic DIY thermoelectric generator guide: Seebeck basics, t
 author = "Solar Powered Project"
 image = "/images/diy-thermoelectric-generator-teg-battery-charging/hero.webp"
 image_alt = "Thermoelectric generator technical plate: TEG module between stove top and heat sink, with Seebeck-effect cross-section detail"
-image_width = 1024
-image_height = 1536
+image_width = 800
+image_height = 1200
 +++
 
 <figure class="article-image article-image--hero">
-<img src="/images/diy-thermoelectric-generator-teg-battery-charging/hero.webp" loading="eager" data-fetchpriority="high" decoding="async" alt="Thermoelectric generator technical plate: TEG module between stove top and heat sink, with Seebeck-effect cross-section detail" width="1024" height="1536" />
+<img src="/images/diy-thermoelectric-generator-teg-battery-charging/hero.webp" loading="eager" data-fetchpriority="high" decoding="async" alt="Thermoelectric generator technical plate: TEG module between stove top and heat sink, with Seebeck-effect cross-section detail" width="800" height="1200" />
 </figure>
 
 ## Key takeaways
