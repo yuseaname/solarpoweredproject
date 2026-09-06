@@ -5,10 +5,11 @@ slug = "solar-installation-safety-guide"
 date = 2026-08-10
 draft = false
 description = "Stay safe during DIY solar installation: DC electrical safety, fall protection, PPE checklist, weather rules, battery handling, and when to hire a professional."
-image = "/images/solar-installation-safety-guide/hero.webp"
+image = "/images/solar-installation-safety-guide/hero.jpg"
+image_alt = "Diagram of a solar electrical system with a protective disconnect enclosure between panels, battery, and inverter"
 author = "Solar Powered Project"
-image_width = 1536
-image_height = 1024
+image_width = 1024
+image_height = 768
 +++
 
 ## Key takeaways

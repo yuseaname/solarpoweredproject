@@ -213,7 +213,7 @@ Three reliable indicators: capacity has dropped noticeably (shorter runtime), vo
 
 ## Next logical reads
 
-<a href="li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid comparison</a> <a href="solar-battery-cost-per-kwh.html" class="text-link">Solar battery cost per kWh</a> <a href="battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-battery-not-charging-troubleshooting.html" class="text-link">Solar battery not charging troubleshooting</a> <a href="solar-maintenance.html" class="text-link">Solar maintenance checklist</a>
+<a href="/pages/solar-battery-monitoring-guide.html" class="text-link">Battery monitoring guide (know your real state of charge)</a> <a href="li-ion-vs-lead-acid.html" class="text-link">Li-ion vs lead-acid comparison</a> <a href="solar-battery-cost-per-kwh.html" class="text-link">Solar battery cost per kWh</a> <a href="battery-capacity.html" class="text-link">Battery capacity calculator</a> <a href="solar-battery-not-charging-troubleshooting.html" class="text-link">Solar battery not charging troubleshooting</a> <a href="solar-maintenance.html" class="text-link">Solar maintenance checklist</a>
 
 ---
 

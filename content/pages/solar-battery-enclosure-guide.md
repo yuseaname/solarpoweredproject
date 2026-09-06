@@ -5,10 +5,10 @@ date = 2026-08-10
 draft = false
 description = "How to build or choose a solar battery enclosure: ventilation for lead-acid, temperature control for lithium, placement, fire safety, and code requirements."
 image = "/images/solar-battery-enclosure-guide/hero.webp"
-image_alt = "Ventilated solar battery enclosure with insulated walls and proper venting"
+image_alt = "Two deep-cycle batteries with cables installed inside a wooden shed — the enclosure decisions this guide works through"
 author = "Solar Powered Project"
 image_width = 1536
-image_height = 1024
+image_height = 864
 +++
 
 ## Key takeaways

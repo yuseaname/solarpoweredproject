@@ -5,10 +5,11 @@ slug = "how-to-calculate-solar-load"
 date = 2026-08-10
 draft = false
 description = "Learn how to calculate your daily solar energy needs in watt-hours. Includes a step-by-step load worksheet, common appliance wattages, and sizing mistakes to avoid."
-image = "/images/how-to-calculate-solar-load/hero.webp"
+image = "/images/how-to-calculate-solar-load/hero.jpg"
+image_alt = "Solar calculator and planning worksheet on a desk — the arithmetic side of a load calculation"
 author = "Solar Powered Project"
-image_width = 1536
-image_height = 1024
+image_width = 1024
+image_height = 576
 +++
 
 ## Key takeaways
