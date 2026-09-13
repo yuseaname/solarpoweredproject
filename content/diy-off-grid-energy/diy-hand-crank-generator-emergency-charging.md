@@ -211,6 +211,8 @@ As another reference point, many common power banks store on the order of **tens
 
 ## Wiring and protection (don’t skip this)
 
+{{< product-box asin="B0B57L9FNL" name="Klein Tools MM325 Multimeter" label="Know your real output" description="Every honest hand-crank plan starts with measured numbers, not advertised ones: crank voltage, current into your actual device, and how both sag as your arms tire. A 600V CAT III meter handles all of it at hobby power (per manufacturer spec). Not for: anything mains-side. The honest tradeoff: continuity mode is the feature you will use most — for tracing which of your connector swaps broke — and any meter does that; this one survives the workbench." button="Check price on Amazon" >}}
+
 Hand generators are low power, but that doesn’t mean wiring is optional. Loose connections and thin wires create voltage drop and heat, which makes charging unstable.
 
 -   **Use the right wire gauge** for the current you expect.
@@ -235,6 +237,8 @@ A hand-crank generator is best as a “last-mile” backup when solar is unavail
 -   Hand crank tops up small devices if needed.
 
 <a href="../pages/solar-system-sizing.html" class="text-link">System sizing guide →</a> <a href="../pages/solar-battery-not-charging-troubleshooting.html" class="text-link">Battery charging troubleshooting →</a>
+
+For the solar side of the pairing: <a href="../pages/solar-phone-charger.html" class="text-link">solar phone chargers compared →</a> and <a href="../pages/solar-battery-monitoring-guide.html" class="text-link">battery monitoring on a budget →</a>.
 
 ## Troubleshooting
 

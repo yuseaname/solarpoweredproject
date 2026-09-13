@@ -77,7 +77,7 @@ If you are buying an integrated power bank, the capacity is measured in milliamp
 -   **10,000mAh:** Two to three full charges.
 -   **20,000mAh:** The industry standard for heavy users; provides 4-6 charges but is significantly heavier.
 
-If the spec-sheet section already matched your charging needs, {{< amazon asin="B082HPTZ3P" text="Check price on Amazon" placement="mid-page" >}} — the standalone-vs-integrated comparison below is there if you'd rather settle the architecture question first.
+If the spec-sheet section already matched your charging needs, {{< amazon asin="B071G4CQSR" text="Check price on Amazon" placement="mid-page" >}} — the standalone-vs-integrated comparison below is there if you'd rather settle the architecture question first.
 
 ## Comparison: Standalone Panels vs. Integrated Power Banks
 
@@ -128,7 +128,7 @@ When budgeting for solar gear, consider the "Cost per Watt" rather than the tota
 
 **Investment Tip:** If you spend $70 on a 21W panel today, it will likely serve you for 5+ years. A $20 "cheap" charger will likely fail or become obsolete within 12 months due to battery degradation or low efficiency.
 
-{{< product-box asin="B082HPTZ3P" name="Nekteck 28W USB solar charger" label="The travel-tier workhorse" description="Four foldable monocrystalline panels, two USB-A ports at up to 4A total, IPX4 (per manufacturer spec). At 28W under good sun, charging speed should land in everyday wall-charger territory — our estimate from the rated output (makers don't publish charge times), with headroom for a second device. Hang it from a pack, not the ground. Not for: integrated power-bank duty — it has no internal battery, so nighttime or cloudy-day charging needs a separate power bank, exactly as this guide's hybrid strategy describes. The honest tradeoff: IPX4 shrugs off light rain but isn't the IP65/IP67 submersion rating this guide recommends for wet-weather hiking." button="Check price on Amazon" >}}
+{{< product-box asin="B071G4CQSR" name="BigBlue 28W Solar Panel Charger with Digital Ammeter" label="The travel-tier workhorse" description="Foldable 28W charger with USB-A and USB-C outputs and a built-in digital ammeter so you can see real-time output in the field (per manufacturer spec) — the ammeter is genuinely useful for learning how angle, shade, and clouds change harvest. At 28W under good sun, charging speed should land in everyday wall-charger territory — our estimate from the rated output (the maker doesn't publish charge times), with headroom for a second device. Hang it from a pack, not the ground. Not for: integrated power-bank duty — it has no internal battery, so nighttime or cloudy-day charging needs a separate power bank, exactly as this guide's hybrid strategy describes. The honest tradeoff: it is priced above the cheapest 28W folders, and the premium is the ammeter plus USB-C; if you never look at the readout, a simpler panel charges the same." button="Check price on Amazon" >}}
 
 ## Frequently Asked Questions
 

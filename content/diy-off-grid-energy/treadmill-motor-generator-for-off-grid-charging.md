@@ -170,9 +170,13 @@ A useful mindset is to build for **repeatable watts**, not peak claims. Measure 
 
 ## How it pairs with solar
 
+{{< product-box asin="B0B57L9FNL" name="Klein Tools MM325 Multimeter" label="Know your motor before the wind arrives" description="A treadmill motor’s DC output scales with RPM, and open-circuit voltage can climb far above battery voltage fast. Measuring volts across your real speed range — before connecting anything — is how you size the regulation stage honestly. 600V CAT III covers PM motor experiments with margin (per manufacturer spec). Not for: grid work or AC panels. The honest tradeoff: any DC meter reads motor volts; this one’s fused inputs are cheap insurance when a spinning PM motor back-feeds your probes." button="Check price on Amazon" >}}
+
 Solar is typically the primary “energy” source; a treadmill motor generator is a supplemental experiment source. Pairing works best when the shared battery bank is wired like a normal off-grid system and each source has its own regulation and protection.
 
 <a href="../pages/solar-components.html" class="text-link">Solar components explained →</a> <a href="../pages/solar-system-sizing.html" class="text-link">System sizing guide →</a>
+
+Wiring-side references: <a href="../pages/solar-fuse-and-breaker-sizing.html" class="text-link">fuse and breaker sizing →</a> and <a href="../pages/battery-cable-size-for-inverter.html" class="text-link">cable sizing for DC loads →</a>.
 
 ## Troubleshooting
 

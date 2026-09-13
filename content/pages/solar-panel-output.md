@@ -140,7 +140,7 @@ Example: 400 W × 4.5 hours × 0.80 = **1,440 Wh/day** (about 43 kWh/month).
 
 System efficiency accounts for real-world losses: heat, wiring voltage drop, inverter conversion, dust, shading, and mismatch. Use 0.75–0.85 for planning; drop to 0.70 for conservative off-grid estimates.
 
-If you would rather measure your panel's real output than estimate it, {{< amazon asin="B018CLOSTC" text="See specs on Amazon" placement="mid-page" >}} — the efficiency-factor guidance below explains what the estimate already accounts for.
+If you would rather measure your panel's real output than estimate it, {{< amazon asin="B0B57L9FNL" text="See specs on Amazon" placement="mid-page" >}} — the efficiency-factor guidance below explains what the estimate already accounts for.
 
 ## Choose an efficiency factor
 
@@ -259,7 +259,7 @@ Solar output swings dramatically between summer and winter. Plan for your **wors
 - **Load planning:** knowing daily production lets you match appliances to available energy. Start with [system sizing](solar-system-sizing.html).
 - **Troubleshooting:** if real output is much lower than this estimate, check shading, tilt, soiling, or controller issues in [low output troubleshooting](solar-output-troubleshooting.html) and [panel cleaning basics](solar-panel-cleaning-cost.html).
 
-{{< product-box asin="B018CLOSTC" name="Klein Tools MM600 Multimeter" label="Verify real output" description="Estimated output is theory; a meter is truth. A 1000V-rated auto-ranging multimeter lets you confirm panel Voc and string voltage against spec-sheet numbers (per manufacturer spec). Not for: probing inside a live breaker panel or any energized AC service — that stays with a licensed electrician. The honest tradeoff: a basic meter will read panel voltage fine, so the extra spend is for CAT-rated safety and auto-ranging on the jobs where you need it." button="See specs on Amazon" >}}
+{{< product-box asin="B0B57L9FNL" name="Klein Tools MM325 Multimeter" label="Verify real output" description="Estimated output is theory; a meter is truth. A 600V-rated multimeter lets you confirm single-panel and small-string Voc against spec-sheet numbers (per manufacturer spec) — enough for the one- or two-panel setups this calculator is usually sizing. Not for: long series strings that can exceed 600V Voc, or probing inside a live breaker panel or any energized AC service — that stays with a licensed electrician. The honest tradeoff: manual-ranging means you select the scale, and a meter you already own may read battery voltage fine — this one adds a CAT III 600V safety rating and drop-tested build." button="See specs on Amazon" >}}
 
 
 ## Next logical reads

@@ -79,6 +79,8 @@ The safest approach is to use your battery manufacturer’s documentation and ap
 
 ## Step 4: Compare charge current vs load (net charging)
 
+{{< product-box asin="B0B57L9FNL" name="Klein Tools MM325 Multimeter" label="The one tool Steps 2–4 depend on" description="Steps 2 through 4 all come down to reading real volts and amps instead of guessing. This 600V CAT III meter covers 12V/24V bank checks and panel Voc on the one- or two-panel setups most readers are diagnosing (per manufacturer spec). Not for: long series strings above 600V Voc, or any energized AC service panel — that stays with a licensed electrician. The honest tradeoff: manual-ranging means you select the scale, and any working meter you already own does the same job — this one adds a drop-tested housing and clear continuity beeping for fuse checks." button="Check price on Amazon" >}}
+
 If loads are high, the battery may not rise even with solar present. This shows up as “controller says charging, battery stays flat.”
 
 -   If possible, **turn off non-critical loads** briefly and see whether net charge changes.
@@ -194,6 +196,8 @@ If you see heat damage, smell burning, find melted insulation, or can’t verify
 {{< /faq >}}
 
 ## Next logical reads
+
+If your controller turns out to be the culprit: <a href="mppt-charge-controller-not-charging.html" class="text-link">MPPT controller troubleshooting →</a> · <a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM (replacement logic) →</a> · <a href="solar-battery-monitoring-guide.html" class="text-link">Battery monitoring guide →</a> · <a href="lifepo4-charging-below-freezing.html" class="text-link">Cold-weather charging limits →</a>
 
 <a href="solar-output-troubleshooting.html" class="text-link">Low solar output troubleshooting</a> <a href="mppt-charge-controller-not-charging.html" class="text-link">MPPT not charging? (checklist)</a> <a href="inverter-keeps-shutting-off-troubleshooting.html" class="text-link">Inverter keeps shutting off (troubleshooting)</a> <a href="solar-maintenance.html" class="text-link">Solar maintenance checklist</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a> <a href="inverter-keeps-shutting-off-troubleshooting.html" class="text-link">Inverter keeps shutting off: causes</a> <a href="best-solar-batteries-2026.html" class="text-link">If the battery is the failure: home batteries compared</a>
 

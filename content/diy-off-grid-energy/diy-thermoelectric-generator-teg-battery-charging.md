@@ -285,6 +285,8 @@ TEG modules have no moving parts, so mechanical maintenance is minimal. But ther
 
 ## Electrical design for battery charging
 
+{{< product-box asin="B0B57L9FNL" name="Klein Tools MM325 Multimeter" label="TEG output is invisible without it" description="Module makers quote open-circuit numbers; your stove delivers heat flux they never tested. Measuring real volts and milliamps at your actual temperature difference is the only way to size the boost stage honestly. This 600V CAT III meter covers low-voltage DC and resistance checks (per manufacturer spec). Not for: any mains-adjacent work. The honest tradeoff: manual ranging suits noisy DIY sources — auto-ranging meters can flicker between scales on TEG output that wobbles with the fire." button="Check price on Amazon" >}}
+
 Getting from a 3V TEG module to a safely charged 12V battery requires careful voltage regulation and protection.
 
 ### System voltage choice (12V most common for low power)
@@ -412,6 +414,8 @@ It's purely educational when:
 -   The effort and cost exceed just buying more solar panels or battery capacity.
 
 ## How thermoelectric pairs with solar and batteries
+
+For the battery half of the pairing: <a href="../pages/li-ion-vs-lead-acid.html" class="text-link">battery chemistry tradeoffs →</a> and <a href="../pages/solar-battery-monitoring-guide.html" class="text-link">monitoring charge you can trust →</a>.
 
 TEG and solar are complementary, not competitive. Solar dominates during the day; TEG can charge at night or during winter when a woodstove runs continuously.
 

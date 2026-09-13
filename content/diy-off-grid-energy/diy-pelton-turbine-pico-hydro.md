@@ -22,12 +22,16 @@ image_height = 800
 
 ## Key takeaways
 
+Battery-side planning: <a href="../pages/solar-system-sizing.html" class="text-link">system sizing calculator →</a> and <a href="../pages/solar-battery-monitoring-guide.html" class="text-link">monitoring what actually arrives →</a>.
+
 -   Your maximum power is set by site physics: **watts ≈ 9.81 × head(m) × flow(L/s)** before losses.
 -   Pelton-style turbines like **higher head** (pressure) and **lower flow** compared to water wheels.
 -   The DIY goal is a **stable jet + controllable load** so you can measure real watts, not just open-circuit voltage.
 -   Pair with solar using a **battery-first** approach: regulation, fusing, and realistic expectations.
 
 ## Beginner explanation: what “pico hydro” actually means
+
+{{< product-box asin="B0B57L9FNL" name="Klein Tools MM325 Multimeter" label="Measure the jet, not the dream" description="The watts equation needs your real head and flow, and the build needs real volts once it spins. A 600V CAT III meter reads runner-generator output and charging voltage for 12V/24V pico-hydro experiments (per manufacturer spec). Not for: utility interconnection or AC service work. The honest tradeoff: at pico-hydro power levels any DC meter works; this one survives a wet bench and its continuity beep is the fastest way to find the rectifier wire you forgot to solder." button="Check price on Amazon" >}}
 
 Pico hydro usually means “small enough to be a DIY experiment,” often from a few watts to a few hundred watts. It’s not magic. You’re converting **gravity potential energy** in water (height) into **electrical power**.
 
@@ -251,13 +255,13 @@ Reduce losses first: larger pipe (less friction), a cleaner nozzle jet, better b
 
 {{< faq "Where should I start if I’m totally new?" >}}
 Start with <a href="micro-hydro-basics-for-off-grid-power.html" class="text-link">micro-hydro basics</a>, then build a measurement-focused Version 1 runner so you can learn safely before integrating batteries.
+{{< /faq >}}
 
 ---
 
 **Related guides:**
 - [DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety)](/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html)
-- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
+- [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-battery-charging.html)
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
-{{< /faq >}}
 
 <a href="/pages/solar-system-sizing.html" class="text-link">System sizing calculator</a>

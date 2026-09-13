@@ -9,6 +9,10 @@ author = "Solar Powered Project"
 
 ## Key takeaways
 
+Storage comparisons for the buffer side: <a href="../pages/battery-capacity.html" class="text-link">battery capacity explained →</a> and <a href="../pages/how-much-do-solar-batteries-cost.html" class="text-link">what storage really costs →</a>.
+
+{{< product-box asin="B0B57L9FNL" name="Klein Tools MM325 Multimeter" label="Physics, meet measurement" description="A gravity battery lives or dies by numbers: motor voltage at your descent speed, current into the buffer battery, and round-trip efficiency you can only learn by measuring both directions. This 600V CAT III meter covers 12V/24V experiment ranges (per manufacturer spec). Not for: mains circuits. The honest tradeoff: a motor-as-generator makes messy voltage that swings with load — manual ranging reads it steadily where auto-ranging meters sometimes hunt." button="Check price on Amazon" >}}
+
 -   Gravity batteries store energy as **gravitational potential energy**: E = mgh (mass × gravity × height).
 -   Energy density is extremely low: **1kg lifted 10m stores only 0.027Wh**, vs 50–250Wh for 1kg of lithium battery.
 -   Conversion efficiency (mechanical → electrical) is typically **40–70%** depending on gearing, generator, and friction losses.

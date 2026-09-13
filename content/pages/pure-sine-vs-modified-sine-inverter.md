@@ -240,7 +240,7 @@ The price gap between pure sine and modified sine has narrowed dramatically. Her
 
 **The practical reality:** Most people end up buying pure sine eventually. Modified sine buyers often upgrade after their first laptop charger melts or their fridge compressor dies. If you can afford the $40–$60 premium at the 1000W size (2026 bands, see our <a href="/pages/solar-inverter-cost.html" class="text-link">solar inverter cost guide</a>), skip the experiment.
 
-If the decision guide put you in the pure-sine column, {{< amazon asin="B081CLPDT9" text="Check price on Amazon" placement="mid-page" >}} — the sizing and common-mistakes sections below are there if you want to double-check before you buy.
+If the decision guide put you in the pure-sine column, {{< amazon asin="B0DX6LF196" text="Check price on Amazon" placement="mid-page" >}} — the sizing and common-mistakes sections below are there if you want to double-check before you buy.
 
 ## Does waveform affect inverter sizing?
 
@@ -286,7 +286,7 @@ Quality varies. Cheap inverters labeled "pure sine" may deliver <3% total harmon
 
 {{< /faq >}}
 
-{{< product-box asin="B081CLPDT9" name="Renogy 2000W 12V Pure Sine Inverter" label="Our pure sine pick" description="2000W continuous pure sine with remote switch and cables included (per manufacturer spec) — sized for the mid-size off-grid loads where waveform quality actually matters. Not for: whole-home service, 24V/48V banks, or the 3,000W+ classes this page's sizing links to — that needs a bigger inverter or a voltage step up. The honest tradeoff: on 12V, 2,000W means 4/0-class battery cable." button="Check price on Amazon" >}}
+{{< product-box asin="B0DX6LF196" name="Renogy 2000W 12V Pure Sine Wave Inverter" label="Our pure sine pick" description="2000W continuous pure sine (4000W surge) with ECO power-saving mode and remote-control switching (per manufacturer spec) — sized for the mid-size off-grid loads where waveform quality actually matters. Not for: whole-home service, 24V/48V banks, or the 3,000W+ classes this page's sizing links to — that needs a bigger inverter or a voltage step up. The honest tradeoff: on 12V, 2,000W means 4/0-class battery cable." button="Check price on Amazon" >}}
 
 ## Next logical reads
 

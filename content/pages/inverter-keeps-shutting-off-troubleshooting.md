@@ -50,7 +50,7 @@ If the inverter shuts off when a device starts (fridge compressor, pump, microwa
 
 <a href="solar-inverter-sizing.html" class="text-link">Inverter sizing guide</a> <a href="pure-sine-vs-modified-sine-inverter.html" class="text-link">Pure sine vs modified sine (compatibility)</a>
 
-{{< product-box asin="B018CLOSTC" name="Klein Tools MM600 Multimeter" label="Measure before you guess" description="Every shutdown diagnosis starts with real numbers — battery voltage at the terminals, voltage at the inverter input, under load. A 1000V-rated auto-ranging meter (per manufacturer spec) is the tool that settles overload vs undervoltage. Not for: inverter current draws — use a clamp meter for those; probe jacks top out far below inverter amps. The honest tradeoff: probes and batteries are the recurring cost; the meter outlives several sets." button="Check price on Amazon" >}}
+{{< product-box asin="B0B57L9FNL" name="Klein Tools MM325 Multimeter" label="Measure before you guess" description="Every shutdown diagnosis starts with real numbers — battery voltage at the terminals, voltage at the inverter input, under load. A 1000V-rated auto-ranging meter (per manufacturer spec) is the tool that settles overload vs undervoltage. Not for: inverter current draws — use a clamp meter for those; probe jacks top out far below inverter amps. The honest tradeoff: probes and batteries are the recurring cost; the meter outlives several sets." button="Check price on Amazon" >}}
 
 ## Cause 2: low battery voltage (real) vs voltage drop (wiring)
 

@@ -98,6 +98,8 @@ A direct drive can reduce slip and improve efficiency, but it requires guards, a
 
 ## Generator options (what actually works in DIY builds)
 
+{{< product-box asin="B0B57L9FNL" name="Klein Tools MM325 Multimeter" label="Cadence, voltage, and honesty" description="The regulation stage only makes sense once you can see it working: charging voltage at the battery vs generator open-circuit volts, and current at your real cadence. This 600V CAT III meter reads both comfortably for 12V/24V experiments (per manufacturer spec). Not for: mains circuits. The honest tradeoff: at these low currents a clamp meter is arguably better for in-line amps, but needs a DC-capable one — through-probe amps on this meter are fine for the sub-10A reality of pedal power." button="Check price on Amazon" >}}
+
 The “generator” in a pedal power system is simply a device that turns rotation into electricity. For DIY experiments, you’ll typically see a few practical categories.
 
 ### Permanent-magnet alternator (PM alternator)
@@ -115,6 +117,8 @@ Some hub motors can be used as generators. The key considerations are matching s
 Whichever path you choose, design for predictable, safe charging rather than peak watts. A comfortable system that stores energy consistently is more useful than a high-watt setup that is stressful to pedal.
 
 ## Battery choices: 12V vs 24V vs 48V for pedal power
+
+Deeper reference: <a href="../pages/12v-vs-24v-vs-48v-solar.html" class="text-link">12V vs 24V vs 48V systems compared →</a> — the same voltage math applies to pedal-charged banks.
 
 A pedal generator is typically a low-power source. That pushes many DIY builds toward 12V because it’s common and works with small DC loads. But there are tradeoffs.
 

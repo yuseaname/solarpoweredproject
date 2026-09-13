@@ -76,7 +76,7 @@ Start with the obvious because it's usually correct. If you have a monitoring ap
 
 <a href="solar-output-troubleshooting.html" class="text-link">Low solar output troubleshooting</a> <a href="solar-panel-cleaning-cost.html" class="text-link">Solar panel cleaning cost</a>
 
-If Step 1 is as far as you can get without real numbers, {{< amazon asin="B018CLOSTC" text="Check price on Amazon" placement="mid-page" >}} — the remaining steps below walk the full diagnosis with and without a meter.
+If Step 1 is as far as you can get without real numbers, {{< amazon asin="B0B57L9FNL" text="Check price on Amazon" placement="mid-page" >}} — the remaining steps below walk the full diagnosis with and without a meter.
 
 ## Step 2: Confirm PV voltage is high enough {#step2}
 
@@ -243,7 +243,7 @@ The failure mode that actually kills controllers. Two common triggers:
 
 **When to stop and call a licensed electrician:** if you smell burning, see scorched or melted terminals, measure voltage where you shouldn't (grounded frames or conduits live), or find a battery that won't hold charge after all these checks, stop working on it — that's the point where a licensed electrician or qualified solar professional takes over. Panel voltages are high enough to injure, and a battery that stays hot or swollen is a fire risk, not a DIY project.
 
-{{< product-box asin="B018CLOSTC" name="Klein Tools MM600 Multimeter" label="First diagnostic tool" description="Step one of every MPPT troubleshooting checklist is measuring PV voltage — an auto-ranging 1000V meter verifies PV voltage and Voc against spec-sheet numbers (per manufacturer spec). Not for: measuring inside a live breaker panel or any energized AC service — that stays with a licensed electrician. The honest tradeoff: a bench meter you already own may read fine, but an auto-ranging 1000V unit removes margin for error." button="Check price on Amazon" >}}
+{{< product-box asin="B0B57L9FNL" name="Klein Tools MM325 Multimeter" label="First diagnostic tool" description="Step one of every MPPT troubleshooting checklist is measuring PV voltage — this 600V-rated meter covers 12V/24V system banks and single-panel Voc checks against spec-sheet numbers (per manufacturer spec). Not for: large series strings that can exceed 600V Voc, or probing inside a live breaker panel or any energized AC service — that stays with a licensed electrician. The honest tradeoff: it is manual-ranging, so you pick the scale, and any meter you already own may read battery voltage fine — this one adds a CAT III 600V safety rating and drop-tested build." button="Check price on Amazon" >}}
 
 ## FAQ
 

@@ -179,6 +179,8 @@ If you’re still building the fundamentals for the electrical half, these are t
 
 ## Core components and DIY-friendly options
 
+{{< product-box asin="B0B57L9FNL" name="Klein Tools MM325 Multimeter" label="Commissioning tool" description="When the penstock first fills, you want numbers: generator voltage at your real head, and charging current into the battery. A 600V CAT III meter handles 12V/24V micro-hydro experiments with margin (per manufacturer spec). Not for: grid interconnection or AC service panels — licensed professionals only. The honest tradeoff: any DC-capable meter reads turbine volts; this one adds fused inputs and a drop-rated case, which matters when measurements happen beside water and penstock plumbing." button="Check price on Amazon" >}}
+
 Turbine selection depends mostly on whether your site has high head and low flow, or low head and high flow. For DIY projects, you’ll most often see these broad categories:
 
 -   **Impulse turbines** (like Pelton-style runners): best for **higher head** and **lower flow**. A nozzle creates a fast jet that hits buckets on the runner.

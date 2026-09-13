@@ -348,6 +348,8 @@ Stirling makes economic sense only with:
 
 ## Electrical design for generator output
 
+{{< product-box asin="B0B57L9FNL" name="Klein Tools MM325 Multimeter" label="Small output demands real measurement" description="A Stirling generator making single-digit watts is invisible to guesswork: you need to read volts and milliamps to know anything about your build. This 600V CAT III meter measures low-voltage DC output and resistance for heater/coil checks (per manufacturer spec). Not for: mains-voltage work of any kind. The honest tradeoff: manual ranging means selecting the volt scale yourself — at hobby power levels that is a feature, since auto-ranging meters can hunt on noisy DIY generator output." button="Check price on Amazon" >}}
+
 Coupling a Stirling engine to a battery charging system requires matching speeds, managing vibration, and regulating variable voltage.
 
 ### Generator coupling and speed matching
@@ -488,6 +490,8 @@ Don't build one if:
 -   You expect it to replace solar panels or grid power (it won't).
 
 ## How Stirling engines pair with solar and batteries
+
+Turning small DC into usable AC later: <a href="../pages/pure-sine-vs-modified-sine-inverter.html" class="text-link">pure sine vs modified sine →</a> and <a href="../pages/how-to-choose-solar-inverter.html" class="text-link">choosing an inverter honestly →</a>.
 
 Stirling and solar are complementary: solar dominates during sunny days; Stirling can provide backup power at night if you have continuous heat.
 

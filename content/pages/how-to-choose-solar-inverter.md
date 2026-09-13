@@ -207,7 +207,7 @@ Over 20 years, a 1% efficiency difference on a 6kW system producing ~9,000 kWh/y
 -   **Grid code compliance:** For grid-tied systems, the inverter must be listed on your utility's approved inverter list. Check before purchasing.
 -   **Service and support:** A well-documented inverter from a major brand with local installer support is worth more than a cheaper unit that's hard to service.
 
-{{< product-box asin="B081CLPDT9" name="Renogy 2000W 12V Pure Sine Inverter" label="A safe default choice" description="If the sizing math in this guide points you at 2000W continuous, this is the honest default: pure sine, remote switch, cables in the box (per manufacturer spec), from a brand that honors warranties. Not for: whole-home service, 24V/48V banks, or the 3,000W-class scenario in the sizing example above (well pump + fridge + AC ≈ 5,000W worst-moment surge) — that is a transfer-switch or bigger-inverter conversation. The honest tradeoff: 12V-only, so high-load runs mean 4/0-class cable." button="Check price on Amazon" >}}
+{{< product-box asin="B0DX6LF196" name="Renogy 2000W 12V Pure Sine Wave Inverter" label="A safe default choice" description="If the sizing math in this guide points you at 2000W continuous, this is the honest default: pure sine with an ECO power-saving mode and remote-control switching (per manufacturer spec), from a brand that honors warranties. Not for: whole-home service, 24V/48V banks, or the 3,000W-class scenario in the sizing example above (well pump + fridge + AC ≈ 5,000W worst-moment surge) — that is a transfer-switch or bigger-inverter conversation. The honest tradeoff: 12V-only, so high-load runs mean 4/0-class cable." button="Check price on Amazon" >}}
 
 ## Frequently Asked Questions
 

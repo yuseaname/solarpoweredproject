@@ -108,7 +108,9 @@ If you want your measurements to translate into something useful, keep a simple 
 
 ## Charging a battery safely
 
-Wind output is variable. That variability is exactly why you should use regulation and protection before charging batteries.
+Wind output is variable.
+
+{{< product-box asin="B0B57L9FNL" name="Klein Tools MM325 Multimeter" label="Verify before you connect" description="Before a variable wind source ever touches a battery, measure what it actually makes: open-circuit voltage across RPM sweep, then voltage under your intended load. A 600V CAT III meter is comfortable headroom for small 12V/24V turbine experiments (per manufacturer spec). Not for: grid tie, or energized AC panels — licensed electrician territory. The honest tradeoff: any working meter reads DC volts; this one earns its place with fused inputs and a case that survives bench drops, useful in a shop full of rotating parts." button="Check price on Amazon" >}} That variability is exactly why you should use regulation and protection before charging batteries.
 
 ### Minimum safe wiring concepts
 
@@ -152,6 +154,8 @@ Wind and solar can complement each other seasonally: some regions have windier w
 -   Consider a hybrid controller approach for multiple sources.
 
 For a practical overview, see <a href="multi-source-hybrid-charge-controller.html" class="text-link">multi-source hybrid charge control</a>.
+
+Next steps if the wind data says go: <a href="../pages/mppt-charge-controller-not-charging.html" class="text-link">charge controller troubleshooting →</a> and <a href="../pages/best-mppt-charge-controllers.html" class="text-link">choosing a controller for the battery side →</a>.
 
 ## Troubleshooting
 

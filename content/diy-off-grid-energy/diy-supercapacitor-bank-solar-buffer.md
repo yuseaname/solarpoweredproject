@@ -9,6 +9,10 @@ author = "Solar Powered Project"
 
 ## Key takeaways
 
+For the battery the caps buffer: <a href="../pages/li-ion-vs-lead-acid.html" class="text-link">chemistry tradeoffs →</a> and <a href="../pages/solar-battery-monitoring-guide.html" class="text-link">monitoring without guesswork →</a>.
+
+{{< product-box asin="B0B57L9FNL" name="Klein Tools MM325 Multimeter" label="Balance verification tool" description="Series-connected supercaps drift without balancing boards, and the only way to catch drift is per-cap voltage readings. A 600V CAT III meter with sharp probes reads individual 2.7V cells in a stacked bank safely (per manufacturer spec). Not for: mains work, or charging experiments above 600V DC. The honest tradeoff: this is fundamentally a voltmeter job — any working meter does it — but fused inputs matter when the bank you are probing can dump hundreds of amps into a dropped probe." button="Check price on Amazon" >}}
+
 -   Supercaps are great for **seconds to minutes** of buffering, not hours of backup.
 -   Energy is **E = ½ C V²** — voltage squared is why “just a few volts drop” can be a lot of energy release.
 -   Series strings need **balancing** so one cell doesn’t overvoltage.
