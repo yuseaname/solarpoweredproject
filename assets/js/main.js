@@ -1,5 +1,7 @@
 (function () {
   'use strict';
+
+  /* --- Navigation toggle --- */
   var toggle = document.getElementById('nav-toggle');
   var menu = document.getElementById('mobile-menu');
   var lastFocus = null;
@@ -18,6 +20,8 @@
   }
   var nav = document.getElementById('main-nav');
   if (nav) { var scrollState = function () { nav.classList.toggle('is-scrolled', window.scrollY > 8); }; addEventListener('scroll', scrollState, { passive: true }); scrollState(); }
+
+  /* --- Search --- */
   var input = document.getElementById('site-search');
   var output = document.getElementById('search-results');
   var count = document.getElementById('search-count');
@@ -34,8 +38,7 @@
     input.addEventListener('input', render);
   }
 
-  /* Accessibility enhancements: calculator result announcements, numeric mobile
-     keypads, table header scope + keyboard scrollability, mobile TOC collapse. */
+  /* --- Accessibility enhancements --- */
   document.querySelectorAll('.prose div[id$="results"], .prose div[id$="result"], .prose p[id$="results"], .prose p[id$="result"]').forEach(function (el) {
     el.setAttribute('role', 'status');
     el.setAttribute('aria-live', 'polite');
@@ -50,17 +53,87 @@
     document.querySelectorAll('details.toc-details').forEach(function (d) { d.removeAttribute('open'); });
   }
 
-  /* Engagement proxy for the affiliate measurement plan: fires once when the
-     footer becomes visible. Page-level only — no identifiers, no cookies. */
-  var footer = document.querySelector('footer');
-  if (footer && 'IntersectionObserver' in window) {
-    var seenEnd = false;
-    new IntersectionObserver(function (entries, obs) {
-      if (!seenEnd && entries[0].isIntersecting) {
-        seenEnd = true;
-        obs.disconnect();
-        if (window.rybbit && typeof window.rybbit.event === 'function') window.rybbit.event('reached_end');
-      }
-    }, { threshold: 0.5 }).observe(footer);
+  /* --- Rybbit Analytics (ported from airecorderguide spec) --- */
+  /* Queue events until Rybbit script is ready; no PII; enum/bucket props only. */
+  var queue = [];
+  var rybbitReady = false;
+
+  function flushQueue() {
+    rybbitReady = true;
+    queue.splice(0).forEach(function (obj) {
+      try { window.rybbit.event(obj.event, obj.props || {}); } catch (e) {}
+    });
   }
+
+  function track(name, props) {
+    var obj = { event: name, props: props };
+    queue.push(obj);
+    if (rybbitReady) flushQueue();
+  }
+
+  /* Wait for Rybbit */
+  try {
+    if (window.rybbit && typeof window.rybbit.onReady === 'function') {
+      window.rybbit.onReady(flushQueue);
+    } else {
+      var tries = 0;
+      var t = setInterval(function () {
+        if (window.rybbit && typeof window.rybbit.event === 'function') {
+          clearInterval(t);
+          flushQueue();
+        } else if (++tries > 50) { clearInterval(t); }
+      }, 200);
+    }
+  } catch (e) {}
+
+  /* --- Shared helpers --- */
+  function pageId() {
+    var p = location.pathname.replace(/\/+$/, '');
+    return p === '' ? 'home' : p.split('/').pop();
+  }
+
+  function pageType() {
+    var p = location.pathname;
+    if (p === '/' || p === '/index.html') return 'home';
+    if (/^\/best-/.test(p)) return 'hub';
+    if (/-review\/$/.test(p)) return 'review';
+    if (/-vs-|comparison/.test(p)) return 'vs';
+    if (/^\/(calculator|tools)/.test(p)) return 'tool';
+    if (/^\/(about|contact|affiliate-disclosure|editorial-policy|review-methodology|privacy-policy|terms)\/?$/.test(p) || /404/.test(p)) return 'trust';
+    return 'informational';
+  }
+
+  /* --- scroll_depth: milestones 25/50/75/90 --- */
+  var seenDepth = {};
+  window.addEventListener('scroll', function () {
+    var doc = document.documentElement;
+    var pct = ((window.scrollY + window.innerHeight) / (doc.scrollHeight || 1)) * 100;
+    [25, 50, 75, 90].forEach(function (m) {
+      if (pct >= m && !seenDepth[m]) {
+        seenDepth[m] = true;
+        track('scroll_depth', { milestone: m, page_id: pageId(), page_type: pageType() });
+      }
+    });
+  }, { passive: true });
+
+  /* --- engagement: on tab hide, bucket seconds --- */
+  var t0 = Date.now();
+  document.addEventListener('visibilitychange', function () {
+    if (document.visibilityState === 'hidden') {
+      var s = Math.round((Date.now() - t0) / 1000);
+      var b = s < 5 ? 'lt5s' : s < 15 ? '5_15s' : s < 45 ? '15_45s' : s < 120 ? '45s_2m' : 'gt2m';
+      track('engagement', { engagement_bucket: b, page_id: pageId(), page_type: pageType() });
+    }
+  });
+
+  /* --- contact_submit: any form with action to contact endpoint --- */
+  document.addEventListener('submit', function (e) {
+    var form = e.target;
+    if (!form || !form.getAttribute) return;
+    var action = form.getAttribute('action') || '';
+    if (action.indexOf('contact') !== -1 || form.id === 'contact-form') {
+      track('contact_submit', { form_id: form.id || 'contact', page_id: pageId() });
+    }
+  }, { passive: true });
+
 })();
