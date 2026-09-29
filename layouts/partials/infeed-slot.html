@@ -1,0 +1,14 @@
+{{- /* infeed-slot.html — mobile in-feed product slot (Solar Phase 2b port). */ -}}
+{{- $p := .pick -}}
+{{- $i := .i -}}
+<div class="infeed-slot" aria-label="Recommended product">
+  <div class="infeed-card">
+    <span class="infeed-kicker">Our pick{{ if gt $i 0 }} #{{ add $i 1 }}{{ end }}</span>
+    <strong class="infeed-name">{{ $p.name }}</strong>
+    {{ with $p.label }}<span class="infeed-label">{{ . }}</span>{{ end }}
+    <a class="button button-solar infeed-cta" href="https://www.amazon.com/dp/{{ $p.asin }}?tag={{ $p.tag }}" rel="sponsored nofollow noopener" target="_blank"
+       data-rybbit-event="affiliate_click" data-rybbit-prop-destination="{{ $p.asin }}"
+       data-rybbit-prop-format="infeed" data-rybbit-prop-position="slot-{{ add $i 1 }}">Check price on Amazon</a>
+    <span class="infeed-note">As an Amazon Associate we earn from qualifying purchases. Price &amp; availability shown on Amazon.com.</span>
+  </div>
+</div>

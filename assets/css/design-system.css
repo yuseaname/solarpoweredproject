@@ -204,3 +204,22 @@ img { max-width: 100%; height: auto; }
 .affiliate-disclosure{background:#422006;border-color:#a16207;color:#fde68a}
 .affiliate-disclosure a{color:#fcd34d}
 }
+
+/* == PICK RAIL CARD + IN-FEED SLOTS (Phase 2/2b port, 2026-09-28) ==========
+   Desktop: pick card sits in the existing article-rail under the TOC.
+   Mobile (<=900px): rail card hidden, in-feed slot cards between paragraphs. */
+.pick-rail-card { margin-top:22px; padding:18px 16px; border:1px solid var(--line); background:#f3ead8; }
+.pick-rail-kicker { display:inline-block; margin-bottom:8px; padding:3px 10px; background:var(--orange,#e8a13a); border-radius:999px; font-family:var(--sans); font-size:.62rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:#fff; }
+.pick-rail-name { display:block; margin:0 0 4px; font-family:var(--sans); font-weight:800; font-size:1rem; line-height:1.25; color:var(--ink); }
+.pick-rail-label { display:block; font-family:var(--sans); font-size:.78rem; font-weight:600; color:var(--ink-soft); margin-bottom:10px; }
+.pick-rail-cta { display:inline-block; width:100%; text-align:center; margin-bottom:8px; }
+.pick-rail-note { display:block; font-family:var(--sans); font-size:.66rem; line-height:1.45; color:var(--ink-soft); }
+.infeed-slot { display:block; }
+@media (min-width: 901px) { .infeed-slot { display:none; } }
+.infeed-card { margin:26px 0; padding:16px 18px 14px; border:1px solid var(--line); background:#f3ead8; }
+.infeed-kicker { display:inline-block; margin-bottom:6px; padding:2px 9px; background:var(--orange,#e8a13a); border-radius:999px; font-family:var(--sans); font-size:.6rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:#fff; }
+.infeed-name { display:block; margin:0 0 4px; font-family:var(--sans); font-weight:800; font-size:.98rem; line-height:1.25; color:var(--ink); }
+.infeed-label { display:block; font-family:var(--sans); font-size:.76rem; font-weight:600; color:var(--ink-soft); margin-bottom:8px; }
+.infeed-cta { display:inline-block; margin-bottom:6px; }
+.infeed-note { display:block; font-family:var(--sans); font-size:.66rem; line-height:1.45; color:var(--ink-soft); }
+@media (max-width: 900px){ .pick-rail-card { display:none; } }

@@ -5,6 +5,12 @@
 {{- $ptype := .Page.Params.pagetype | default .Page.Section | default "informational" -}}
 {{- $position := add (.Page.Scratch.Get "affiliateCount" | default 0) 1 -}}
 {{- .Page.Scratch.Set "affiliateCount" $position -}}
+{{- $allPicks := .Page.Store.Get "picks" | default slice -}}
+{{- if not (where $allPicks "asin" $asin) -}}
+  {{- $p := dict "asin" $asin "name" (printf "Amazon item %s" $asin) "tag" $tag -}}
+  {{- if not (.Page.Store.Get "sidebar_pick") -}}{{- .Page.Store.Set "sidebar_pick" $p -}}{{- end -}}
+  {{- .Page.Store.Set "picks" ($allPicks | append $p) -}}
+{{- end -}}
 <a href="https://www.amazon.com/dp/{{ $asin }}?tag={{ $tag }}" rel="sponsored nofollow noopener" target="_blank" class="amazon-link"
    data-rybbit-event="affiliate_click"
    data-rybbit-prop-destination="{{ $asin }}"

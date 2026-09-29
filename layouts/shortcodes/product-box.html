@@ -7,6 +7,15 @@
 {{- $ptype := .Page.Params.pagetype | default .Page.Section | default "informational" -}}
 {{- $position := add (.Page.Scratch.Get "affiliateCount" | default 0) 1 -}}
 {{- .Page.Scratch.Set "affiliateCount" $position -}}
+{{- /* Phase 2 (2026-09-28): register picks for the desktop rail card + mobile
+       in-feed slots (partials/pick-rail-card.html, infeed-slot.html). First
+       distinct ASIN = rail pick; up to 3 distinct feed slots. */ -}}
+{{- $allPicks := .Page.Store.Get "picks" | default slice -}}
+{{- if not (where $allPicks "asin" $asin) -}}
+  {{- $p := dict "asin" $asin "name" ($name | default (printf "Amazon item %s" $asin)) "label" $label "desc" $desc "tag" $tag -}}
+  {{- if not (.Page.Store.Get "sidebar_pick") -}}{{- .Page.Store.Set "sidebar_pick" $p -}}{{- end -}}
+  {{- .Page.Store.Set "picks" ($allPicks | append $p) -}}
+{{- end -}}
 <div class="product-box">
   {{ with $label }}<span class="product-label">{{ . }}</span>{{ end }}
   <strong class="product-name">{{ $name }}</strong>

@@ -1,0 +1,15 @@
+{{- /* pick-rail-card.html — desktop rail pick card (Solar Phase 2 port,
+       2026-09-28). Rendered inside the existing .article-rail aside, under
+       the TOC. Sticky via the rail's own rules. */ -}}
+{{- $pick := .pick -}}
+{{- with $pick -}}
+<div class="pick-rail-card">
+  <span class="pick-rail-kicker">Our top pick</span>
+  <strong class="pick-rail-name">{{ .name }}</strong>
+  {{ with .label }}<span class="pick-rail-label">{{ . }}</span>{{ end }}
+  <a class="button button-solar pick-rail-cta" href="https://www.amazon.com/dp/{{ .asin }}?tag={{ .tag }}" rel="sponsored nofollow noopener" target="_blank"
+     data-rybbit-event="affiliate_click" data-rybbit-prop-destination="{{ .asin }}"
+     data-rybbit-prop-format="sidebar" data-rybbit-prop-position="rail">Check price on Amazon</a>
+  <span class="pick-rail-note">As an Amazon Associate we earn from qualifying purchases. Price &amp; availability shown on Amazon.com.</span>
+</div>
+{{- end -}}
