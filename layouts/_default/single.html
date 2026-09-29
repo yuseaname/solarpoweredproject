@@ -4,8 +4,13 @@
   {{- $content := .Content -}}
 {{- $picks := .Store.Get "picks" | default slice -}}
 {{- if gt (len $picks) 0 -}}
+  {{- /* Script guard: embedded JS (toolscript calculators) can carry a literal
+         '</p>' inside string constants; splitting there corrupts the script
+         (live CI incident 2026-09-29, solar-inverter-sizing). Script pages
+         keep the rail; slot injection is skipped. */ -}}
   {{- $parts := split $content "</p>" -}}
-  {{- $n := len $parts -}}
+  {{- $n := 0 -}}
+  {{- if not (findRE `<script` $content 1) -}}{{- $n = len $parts -}}{{- end -}}
   {{- if gt $n 8 -}}
     {{- $slots := slice 0.33 0.66 0.88 -}}
     {{- $out := "" -}}
