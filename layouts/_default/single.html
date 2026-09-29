@@ -10,7 +10,8 @@
          keep the rail; slot injection is skipped. */ -}}
   {{- $parts := split $content "</p>" -}}
   {{- $n := 0 -}}
-  {{- if not (findRE `<script` $content 1) -}}{{- $n = len $parts -}}{{- end -}}
+  {{- /* hazard = a JS string containing </p> (toolscript HTML builders): matches `</p>` immediately followed by a quote char. Plain analytics scripts never match; RE2 has no lookahead so this is the probe. */ -}}
+  {{- if not (findRE `</p>["']` $content 1) -}}{{- $n = len $parts -}}{{- end -}}
   {{- if gt $n 8 -}}
     {{- $slots := slice 0.33 0.66 0.88 -}}
     {{- $out := "" -}}
