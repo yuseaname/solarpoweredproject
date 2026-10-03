@@ -16,6 +16,7 @@ image_height = 1024
 {{< affiliate-disclosure >}}
 
 <p class="jump-links"><a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#how-to-pick-an-mppt-before-picking-a-brand" class="text-link">How to pick an MPPT before picking a brand</a> <a href="#budget-picks" class="text-link">Budget picks</a> <a href="#the-victron-step-up" class="text-link">The Victron step-up</a> <a href="#head-to-head-comparison" class="text-link">Head-to-head comparison</a> <a href="#common-buying-mistakes" class="text-link">Common buying mistakes</a> <a href="#faq" class="text-link">FAQ</a></p>
+
 ## Key takeaways
 
 **How to read this page:** this is a spec-based comparison — we have not bench-tested these controllers. Specs come from the manufacturers' published documentation (marked "per manufacturer spec" where cited), warranty terms from each manufacturer's warranty page (retrieved 2026-09-05), and every pick is a scenario match by voltage class and budget, not a ranking. The criteria behind how products earn a mention on this site are on our <a href="/pages/how-we-recommend.html" class="text-link">how we recommend</a> page. Before you buy, skim the <a href="#common-buying-mistakes" class="text-link">common buying mistakes</a> below — two of them change which pick is right. Comparing all four side by side first? Jump to the <a href="#head-to-head-comparison" class="text-link">head-to-head table</a>.

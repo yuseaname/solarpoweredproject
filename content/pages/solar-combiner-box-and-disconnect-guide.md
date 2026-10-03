@@ -13,6 +13,7 @@ image_height = 768
 +++
 
 <p class="jump-links"><a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#what-a-combiner-box-does-plain-english" class="text-link">What a combiner box does (plain English)</a> <a href="#you-may-not-need-one-if" class="text-link">When you typically need one</a> <a href="#whats-inside-a-combiner-box-high-level" class="text-link">What’s inside a combiner box</a> <a href="#where-it-goes-near-the-array-vs-near-the-controller" class="text-link">Where it goes (near array vs near controller)</a> <a href="#dc-disconnects-what-theyre-for-serviceability--safer-troubleshooting" class="text-link">DC disconnects: what they’re for</a> <a href="#common-mistakes-and-what-to-do-instead" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next-logical-reads" class="text-link">Next logical reads</a></p>
+
 ## Key takeaways
 
 -   A combiner box **combines multiple PV strings** into a single “home run” and can add string protection.

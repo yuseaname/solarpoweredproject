@@ -15,6 +15,7 @@ image_height = 1024
 {{< affiliate-disclosure >}}
 
 <p class="jump-links"><a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#step-1-estimate-your-rv-daily-energy-use-whday" class="text-link">Step 1: Estimate your RV daily energy use (Wh/day)</a> <a href="#step-2-size-your-rv-battery-capacity" class="text-link">Step 2: Size your RV battery capacity</a> <a href="#step-3-size-solar-panels-for-daily-refill" class="text-link">Step 3: Size solar panels for daily refill</a> <a href="#step-4-choose-an-inverter-if-you-need-ac-power" class="text-link">Step 4: Choose an inverter (if you need AC power)</a> <a href="#common-rv-sizing-scenarios-quick-ranges" class="text-link">Common RV sizing scenarios (quick ranges)</a> <a href="#starter-kit-reference" class="text-link">Starter kit reference</a></p>
+
 ## Key takeaways
 
 -   Start with a realistic daily energy estimate (Wh/day) for your RV loads.

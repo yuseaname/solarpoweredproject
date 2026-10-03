@@ -14,6 +14,7 @@ image_height = 1024
 {{< affiliate-disclosure >}}
 
 <p class="jump-links"><a href="#quick-answer-when-each-option-tends-to-win" class="text-link">Quick answer</a> <a href="#solar-vs-generator-comparison-table" class="text-link">Comparison table</a> <a href="#a-practical-decision-framework-no-guesswork" class="text-link">Decision framework</a> <a href="#common-mistakes-to-avoid" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a></p>
+
 ## Quick answer: when each option tends to win
 
 -   **Solar usually wins** if you use the cabin frequently and want quiet, predictable operation.

@@ -15,6 +15,7 @@ image_height = 1024
 {{< affiliate-disclosure >}}
 
 <p class="jump-links"><a href="#quick-answer" class="text-link">Quick answer</a> <a href="#comparison-table" class="text-link">Comparison table</a> <a href="#the-capacity-math-that-changes-the-decision" class="text-link">The capacity math that changes the decision</a> <a href="#lifetime-cost-per-usable-kwh" class="text-link">Lifetime cost per usable kWh</a> <a href="#temperature-and-environment" class="text-link">Temperature and environment</a> <a href="#charging-behavior" class="text-link">Charging behavior</a> <a href="#when-lead-acid-still-wins" class="text-link">When lead-acid still wins</a></p>
+
 ## Quick answer
 
 If your battery bank will cycle most days — an off-grid cabin, a full-time RV, a daily backup routine — buy LiFePO4 and be done with it. Per usable kilowatt-hour actually delivered over its life, lithium beats lead-acid by roughly 5 to 7 times, and the arithmetic below shows exactly where that number comes from. If the battery will sit near full as occasional backup, if your real budget is $150 rather than $300, or if you can source a good used or free lead-acid bank, lead-acid is still the rational choice. Lithium's one hard limitation is cold: a LiFePO4 battery cannot be charged below 0°C (32°F) without a built-in heater or a low-temperature cutoff, which matters in unheated sheds, cabins, and winter RV trips. Lead-acid charges happily in the cold but gives up 20–30% of its capacity there. Everything else in this comparison is detail; those last two sentences are the decision.

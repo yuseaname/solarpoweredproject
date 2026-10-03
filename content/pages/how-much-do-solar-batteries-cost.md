@@ -15,6 +15,7 @@ image_height = 1024
 {{< affiliate-disclosure >}}
 
 <p class="jump-links"><a href="#understanding-solar-battery-pricing-models" class="text-link">Understanding Solar Battery Pricing Models</a> <a href="#average-costs-by-battery-type--capacity" class="text-link">Average Costs by Battery Type & Capacity</a> <a href="#hidden-costs--installation-expenses" class="text-link">Hidden Costs & Installation Expenses</a> <a href="#government-incentives--tax-credits-that-lower-costs" class="text-link">Government Incentives & Tax Credits That Lower Costs</a> <a href="#calculating-return-on-investment-roi" class="text-link">Calculating Return on Investment (ROI)</a> <a href="#making-the-right-decision" class="text-link">Making the Right Decision</a> <a href="#related-guides" class="text-link">Related guides</a></p>
+
 Panels are only half the story — most people adding solar eventually look at storage. The question that decides the budget: **how much do solar batteries cost?**
 
 The price tag is not the cost. Total cost of ownership (TCO) includes hardware, installation, maintenance, and replacement — the sections below break each out. This guide demystifies the expenses associated with solar battery systems, breaking down hidden fees, technology-specific values, and real-world ROI timelines to help you plan your investment.

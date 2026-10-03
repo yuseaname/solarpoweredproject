@@ -19,6 +19,7 @@ related = [
 
 {{< affiliate-disclosure >}}
 <p class="jump-links"><a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#the-code-basis-and-why-our-ladder-is-conservative" class="text-link">Why inverter cables are different</a> <a href="#step-1-estimate-maximum-dc-current-use-the-inverters-specs" class="text-link">Step 1: Estimate maximum DC current</a> <a href="#step-2-measure-the-run-the-part-most-people-miss" class="text-link">Step 2: Measure the run (the part most people miss)</a> <a href="#step-3-set-a-practical-voltage-drop-target-performance-not-perfection" class="text-link">Step 3: Set a practical voltage-drop target</a> <a href="#step-4-choose-cable--lugs--protection-as-a-system" class="text-link">Step 4: Choose cable + lugs + protection as a system</a> <a href="#quick-voltage-drop-check" class="text-link">Why 24V/48V makes this easier</a> <a href="#common-mistakes-and-how-to-avoid-them" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next-logical-reads" class="text-link">Next logical reads</a></p>
+
 ## Key takeaways
 
 -   Battery-to-inverter cables are often the **highest-current** wires in a solar system.

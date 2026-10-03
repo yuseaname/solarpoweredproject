@@ -21,6 +21,7 @@ related = [
 {{< affiliate-disclosure >}}
 
 <p class="jump-links"><a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#quick-decision-guide" class="text-link">Quick decision guide</a> <a href="#pick-your-voltage-calculator" class="text-link">Pick-your-voltage calculator</a> <a href="#quick-comparison-table" class="text-link">Quick comparison table</a> <a href="#why-voltage-matters-current-and-wiring" class="text-link">Why voltage matters: current and wiring</a> <a href="#when-to-upgrade-from-12v-to-24v-or-48v" class="text-link">When to upgrade from 12V to 24V or 48V</a> <a href="#use-case-recommendations" class="text-link">Use-case recommendations</a></p>
+
 ## Key takeaways
 
 -   **Higher voltage = lower current = thinner, cheaper wire.** Going from 12V to 48V cuts your current by 75%, dramatically reducing copper costs.
