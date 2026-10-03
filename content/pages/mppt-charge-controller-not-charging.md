@@ -19,7 +19,7 @@ related = [
 
 {{< affiliate-disclosure >}}
 
-<a href="#quick-diagnostic-flowchart-zero-charge-current-start-here" class="text-link">Quick diagnostic flowchart: zero charge current? Start here</a> <a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#how-mppt-finds-power-one-concept" class="text-link">How MPPT “finds” power (one concept)</a> <a href="#step1" class="text-link">Step 1: Confirm PV input exists (sun/shade/soiling) {#step1}</a> <a href="#step2" class="text-link">Step 2: Confirm PV voltage is high enough {#step2}</a> <a href="#step3" class="text-link">Step 3: Validate array wiring and controller limits {#step3}</a> <a href="#step4" class="text-link">Step 4: Check charging stage and settings {#step4}</a>
+<p class="jump-links"><a href="#quick-diagnostic-flowchart-zero-charge-current-start-here" class="text-link">Quick diagnostic flowchart: zero charge current? Start here</a> <a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#how-mppt-finds-power-one-concept" class="text-link">How MPPT “finds” power (one concept)</a> <a href="#step1" class="text-link">Step 1: Confirm PV input exists (sun/shade/soiling) {#step1}</a> <a href="#step2" class="text-link">Step 2: Confirm PV voltage is high enough {#step2}</a> <a href="#step3" class="text-link">Step 3: Validate array wiring and controller limits {#step3}</a> <a href="#step4" class="text-link">Step 4: Check charging stage and settings {#step4}</a></p>
 ## Quick diagnostic flowchart: zero charge current? Start here
 
 Work through these in order. Most "not charging" problems are found in the first three steps:
@@ -40,8 +40,7 @@ Work through these in order. Most "not charging" problems are found in the first
 | Battery voltage (charging) | 14.0–14.7V (lead-acid bulk) | Stuck below 13.5V in full sun |
 | Charge current | Matches expected based on sun | 0A in good sun when battery isn't full |
 
-<a href="#quick-diagnostic-flowchart-zero-charge-current-start-here" class="text-link">Quick diagnostic flowchart</a> <a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#how-mppt-finds-power-one-concept" class="text-link">How MPPT finds power</a> <a href="#step1" class="text-link">Step 1: Confirm PV input (sun/shade/soiling)</a> <a href="#step2" class="text-link">Step 2: Confirm PV voltage is high enough</a> <a href="#step3" class="text-link">Step 3: Validate array wiring & controller limits</a> <a href="#step4" class="text-link">Step 4: Check charging stage & settings</a> <a href="#step5" class="text-link">Step 5: Battery protections (BMS/temp/full)</a> <a href="#seasonal-patterns-when-not-charging-is-normal" class="text-link">Seasonal patterns</a> <a href="#when-to-replace-vs-repair-the-controller" class="text-link">When to replace vs repair</a> <a href="#common-mistakes" class="text-link">Common mistakes</a> <a href="#no-output" class="text-link">No output at all</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next-logical-reads" class="text-link">Next logical reads</a>
-
+<p class="jump-links"><a href="#quick-diagnostic-flowchart-zero-charge-current-start-here" class="text-link">Quick diagnostic flowchart</a> <a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#how-mppt-finds-power-one-concept" class="text-link">How MPPT finds power</a> <a href="#step1" class="text-link">Step 1: Confirm PV input (sun/shade/soiling)</a> <a href="#step2" class="text-link">Step 2: Confirm PV voltage is high enough</a> <a href="#step3" class="text-link">Step 3: Validate array wiring & controller limits</a> <a href="#step4" class="text-link">Step 4: Check charging stage & settings</a> <a href="#step5" class="text-link">Step 5: Battery protections (BMS/temp/full)</a> <a href="#seasonal-patterns-when-not-charging-is-normal" class="text-link">Seasonal patterns</a> <a href="#when-to-replace-vs-repair-the-controller" class="text-link">When to replace vs repair</a> <a href="#common-mistakes" class="text-link">Common mistakes</a> <a href="#no-output" class="text-link">No output at all</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next-logical-reads" class="text-link">Next logical reads</a></p>
 ## Key takeaways
 
 -   MPPT needs **enough PV voltage headroom** above battery voltage to do its job — typically 5V+ on a 12V system.
@@ -58,7 +57,7 @@ Solar panels have a “sweet spot” where voltage and current combine to produc
 **Practical implication:** if PV voltage is too low (or input is tiny), there’s no useful point to track.
 
 <figure>
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/53/MaximumPowerPoint.svg" loading="lazy" width="640" height="360" alt="Power-voltage curve marking the maximum power point for a solar panel." />
+<img src="/images/mppt-charge-controller-not-charging/MaximumPowerPoint.svg" loading="lazy" width="640" height="360" alt="Power-voltage curve marking the maximum power point for a solar panel." />
 <figcaption>Image: Stündle, Public domain — Source: <a href="https://commons.wikimedia.org/wiki/File:MaximumPowerPoint.svg" class="text-link">Wikimedia Commons</a></figcaption>
 </figure>
 

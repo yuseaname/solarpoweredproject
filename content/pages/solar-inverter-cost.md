@@ -13,8 +13,7 @@ image_height = 1024
 +++
 
 {{< affiliate-disclosure >}}
-<a href="#quick-answer-typical-inverter-price-ranges" class="text-link">Quick answer</a> <a href="#inverter-cost-by-type-what-changes-the-price" class="text-link">Cost by inverter type</a> <a href="#what-drives-solar-inverter-cost-the-most" class="text-link">What drives inverter cost</a> <a href="#how-inverter-sizing-affects-total-system-cost" class="text-link">How sizing changes cost</a> <a href="#common-mistakes-that-increase-inverter-cost" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
-
+<p class="jump-links"><a href="#quick-answer-typical-inverter-price-ranges" class="text-link">Quick answer</a> <a href="#inverter-cost-by-type-what-changes-the-price" class="text-link">Cost by inverter type</a> <a href="#what-drives-solar-inverter-cost-the-most" class="text-link">What drives inverter cost</a> <a href="#how-inverter-sizing-affects-total-system-cost" class="text-link">How sizing changes cost</a> <a href="#common-mistakes-that-increase-inverter-cost" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a></p>
 ## Quick answer: typical inverter price ranges
 
 Most solar inverter budgets fall into predictable bands. A common way to compare is cost per watt of inverter capacity, but the better view is “total installed system impact” (wiring, battery current, and compatibility).

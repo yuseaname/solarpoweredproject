@@ -2,6 +2,7 @@
 title = "DIY Flywheel Energy Storage: Safe Low-Speed Build + Realistic Calculations"
 slug = "diy-flywheel-energy-storage"
 date = 2026-05-31
+updated = 2026-10-03
 draft = false
 description = "A realistic DIY flywheel energy storage guide: how flywheels store energy, safe low-speed build paths, simple calculations, expected output, common mistakes, safety limits, and how flywheels pair with solar + batteries."
 author = "Solar Powered Project"
@@ -22,6 +23,8 @@ A DIY flywheel can store **less than 1 watt-hour** at safe speeds — enough to 
 | Best use | Learning, surge buffering | Real energy storage |
 
 If your goal is practical energy storage, <a href="../pages/battery-capacity.html" class="text-link">start with batteries</a>. If you want to understand how energy storage works, keep reading.
+
+{{< product-box asin="B0B57L9FNL" name="Klein Tools MM325 Multimeter" label="Measure the watts you actually make" description="Every flywheel claim in this guide comes down to measured numbers: volts out, amps into your battery, and how fast both sag as the wheel slows. A 600V CAT III meter handles every reading a hobby flywheel will ever produce (per manufacturer spec). Not for: mains-side work. The honest tradeoff: your Version 2 build's headline number — single-digit watts — is only honest if you measure it; without a meter you're estimating from a spec sheet." button="Check price on Amazon" >}}
 
 ## Key takeaways
 
@@ -97,6 +100,8 @@ Once you can measure output and keep voltages predictable, you can use a flywhee
 For battery-charging architecture ideas, the human-power guide is a good template.
 
 <a href="pedal-power-generator-for-off-grid-battery-charging.html" class="text-link">Pedal power charging architectures →</a>
+
+{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4 Battery, 100A BMS, Group 31" label="The storage your flywheel can't give you" description="The honest math above: a safe DIY flywheel stores under 2 Wh; this stores 1,280 Wh — the 'real energy storage' column of the comparison table. If Version 3 taught you that buffering is useful but storage is what you need, a LiFePO4 battery is the graduated step (size per our battery-capacity guide, not by guess). Not for: readers who only wanted the physics. The honest tradeoff: it costs more than the whole flywheel build, which is exactly the point the table makes." button="Check price on Amazon" >}}
 
 ## The math: energy vs RPM (with real examples)
 

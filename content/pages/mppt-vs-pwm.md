@@ -15,8 +15,7 @@ image_height = 1024
 
 {{< affiliate-disclosure >}}
 
-<a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#comparison-table" class="text-link">Comparison table</a> <a href="#the-core-physics-where-the-missing-watts-go" class="text-link">The core physics: where the missing watts go</a> <a href="#when-pwm-actually-wins" class="text-link">When PWM actually wins</a> <a href="#how-much-harvest-mppt-actually-gains-by-scenario" class="text-link">How much harvest MPPT actually gains, by scenario</a> <a href="#sizing-an-mppt-the-voltage-window" class="text-link">Sizing an MPPT: the voltage window</a> <a href="#what-the-real-controllers-cost" class="text-link">What the real controllers cost</a>
-
+<p class="jump-links"><a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#comparison-table" class="text-link">Comparison table</a> <a href="#the-core-physics-where-the-missing-watts-go" class="text-link">The core physics: where the missing watts go</a> <a href="#when-pwm-actually-wins" class="text-link">When PWM actually wins</a> <a href="#how-much-harvest-mppt-actually-gains-by-scenario" class="text-link">How much harvest MPPT actually gains, by scenario</a> <a href="#sizing-an-mppt-the-voltage-window" class="text-link">Sizing an MPPT: the voltage window</a> <a href="#what-the-real-controllers-cost" class="text-link">What the real controllers cost</a></p>
 **Short answer:** pick MPPT when your panel voltage runs meaningfully above battery voltage, your array is bigger than about 200W, or your bank is 24V or 48V. Pick PWM when you're building a small 12V system with "12V" panels in a warm climate and the price gap matters more than the last slice of harvest. The arithmetic is below.
 
 ## Key takeaways

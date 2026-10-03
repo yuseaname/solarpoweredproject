@@ -18,8 +18,7 @@ related = [
 +++
 
 {{< affiliate-disclosure >}}
-<a href="#what-drives-cabin-solar-cost-the-most" class="text-link">Top cost drivers</a> <a href="#typical-cabin-solar-budget-tiers-high-level" class="text-link">Budget tiers</a> <a href="#cost-breakdown-by-component-category" class="text-link">Cost breakdown table</a> <a href="#why-size-first-buy-second-saves-money" class="text-link">Why sizing first saves money</a> <a href="#where-cabin-solar-systems-typically-overspend" class="text-link">Where cabin systems overspend</a> <a href="#faq" class="text-link">FAQ</a>
-
+<p class="jump-links"><a href="#what-drives-cabin-solar-cost-the-most" class="text-link">Top cost drivers</a> <a href="#typical-cabin-solar-budget-tiers-high-level" class="text-link">Budget tiers</a> <a href="#cost-breakdown-by-component-category" class="text-link">Cost breakdown table</a> <a href="#why-size-first-buy-second-saves-money" class="text-link">Why sizing first saves money</a> <a href="#where-cabin-solar-systems-typically-overspend" class="text-link">Where cabin systems overspend</a> <a href="#faq" class="text-link">FAQ</a></p>
 ## What drives cabin solar cost the most
 
 -   **Battery size:** larger autonomy and higher daily use increase cost quickly.

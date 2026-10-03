@@ -18,8 +18,7 @@ related = [
 +++
 
 {{< affiliate-disclosure >}}
-<a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#the-code-basis-and-why-our-ladder-is-conservative" class="text-link">Why inverter cables are different</a> <a href="#step-1-estimate-maximum-dc-current-use-the-inverters-specs" class="text-link">Step 1: Estimate maximum DC current</a> <a href="#step-2-measure-the-run-the-part-most-people-miss" class="text-link">Step 2: Measure the run (the part most people miss)</a> <a href="#step-3-set-a-practical-voltage-drop-target-performance-not-perfection" class="text-link">Step 3: Set a practical voltage-drop target</a> <a href="#step-4-choose-cable--lugs--protection-as-a-system" class="text-link">Step 4: Choose cable + lugs + protection as a system</a> <a href="#quick-voltage-drop-check" class="text-link">Why 24V/48V makes this easier</a> <a href="#common-mistakes-and-how-to-avoid-them" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next-logical-reads" class="text-link">Next logical reads</a>
-
+<p class="jump-links"><a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#the-code-basis-and-why-our-ladder-is-conservative" class="text-link">Why inverter cables are different</a> <a href="#step-1-estimate-maximum-dc-current-use-the-inverters-specs" class="text-link">Step 1: Estimate maximum DC current</a> <a href="#step-2-measure-the-run-the-part-most-people-miss" class="text-link">Step 2: Measure the run (the part most people miss)</a> <a href="#step-3-set-a-practical-voltage-drop-target-performance-not-perfection" class="text-link">Step 3: Set a practical voltage-drop target</a> <a href="#step-4-choose-cable--lugs--protection-as-a-system" class="text-link">Step 4: Choose cable + lugs + protection as a system</a> <a href="#quick-voltage-drop-check" class="text-link">Why 24V/48V makes this easier</a> <a href="#common-mistakes-and-how-to-avoid-them" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next-logical-reads" class="text-link">Next logical reads</a></p>
 ## Key takeaways
 
 -   Battery-to-inverter cables are often the **highest-current** wires in a solar system.
@@ -175,7 +174,7 @@ Panel wiring is often higher voltage and lower current. Inverter battery cables 
 **Rule of thumb:** high current + long distance = heat risk + voltage drop.
 
 <figure>
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/NOCO_12-Volt_Car_Battery_Clips_-_Car_Jumper_Cable_%2842059511091%29.jpg" loading="lazy" width="640" height="427" alt="Jumper cable clamps on a 12V battery terminal, similar to high-current solar inverter cabling." />
+<img src="/images/battery-cable-size-for-inverter/NOCO_12-Volt_Car_Battery_Clips_-_Car_Jumper_Cable_(42059511091).webp" loading="lazy" width="640" height="427" alt="Jumper cable clamps on a 12V battery terminal, similar to high-current solar inverter cabling." />
 <figcaption>Image: Tony Webster, CC BY 2.0 — Source: <a href="https://commons.wikimedia.org/wiki/File:NOCO_12-Volt_Car_Battery_Clips_-_Car_Jumper_Cable_(42059511091).jpg" class="text-link">Wikimedia Commons</a></figcaption>
 </figure>
 

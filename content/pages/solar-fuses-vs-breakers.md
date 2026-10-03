@@ -13,8 +13,7 @@ image_height = 1024
 
 {{< affiliate-disclosure >}}
 
-<a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#quick-answer-for-most-small-systems" class="text-link">Quick answer</a> <a href="#what-each-device-is-good-at" class="text-link">What each device is good at</a> <a href="#the-five-places-people-get-protection-wrong" class="text-link">The five places people get protection wrong</a> <a href="#a-shopping-checklist-that-prevents-unsafe-mismatches" class="text-link">A shopping checklist (ratings to verify)</a> <a href="#common-mistakes-risk--symptom--fix-direction" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a>
-
+<p class="jump-links"><a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#quick-answer-for-most-small-systems" class="text-link">Quick answer</a> <a href="#what-each-device-is-good-at" class="text-link">What each device is good at</a> <a href="#the-five-places-people-get-protection-wrong" class="text-link">The five places people get protection wrong</a> <a href="#a-shopping-checklist-that-prevents-unsafe-mismatches" class="text-link">A shopping checklist (ratings to verify)</a> <a href="#common-mistakes-risk--symptom--fix-direction" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a></p>
 ## Key takeaways
 
 -   Fuses and breakers both provide overcurrent protection, but they’re not interchangeable in every DC application.

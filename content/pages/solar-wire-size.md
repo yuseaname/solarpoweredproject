@@ -11,8 +11,7 @@ image_width = 1536
 image_height = 1024
 +++
 
-<a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#the-real-goal-safety--performance" class="text-link">The real goal</a> <a href="#two-rules-that-prevent-most-mistakes" class="text-link">Two rules that prevent most mistakes</a> <a href="#a-simple-4-step-decision-flow-what-to-measure-first" class="text-link">A simple 4-step decision flow</a> <a href="#rule-2-distance-drives-voltage-drop" class="text-link">Why higher voltage simplifies wiring</a> <a href="#what-dc-rated-means-a-quick-checklist" class="text-link">A quick “DC-rated” checklist</a> <a href="#two-rules-that-prevent-most-mistakes" class="text-link">Common wire-sizing mistakes</a> <a href="#faq" class="text-link">FAQ</a>
-
+<p class="jump-links"><a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#the-real-goal-safety--performance" class="text-link">The real goal</a> <a href="#two-rules-that-prevent-most-mistakes" class="text-link">Two rules that prevent most mistakes</a> <a href="#a-simple-4-step-decision-flow-what-to-measure-first" class="text-link">A simple 4-step decision flow</a> <a href="#rule-2-distance-drives-voltage-drop" class="text-link">Why higher voltage simplifies wiring</a> <a href="#what-dc-rated-means-a-quick-checklist" class="text-link">A quick “DC-rated” checklist</a> <a href="#two-rules-that-prevent-most-mistakes" class="text-link">Common wire-sizing mistakes</a> <a href="#faq" class="text-link">FAQ</a></p>
 ## Key takeaways
 
 -   Start by identifying the circuit: PV wiring, controller-to-battery, or battery-to-inverter.

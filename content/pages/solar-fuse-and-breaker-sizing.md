@@ -19,8 +19,7 @@ related = [
 +++
 
 {{< affiliate-disclosure >}}
-<a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#what-fuses-and-breakers-protect-and-what-they-dont" class="text-link">What fuses/breakers protect (and what they don’t)</a> <a href="#the-4-common-solar-circuits-pick-the-one-youre-sizing" class="text-link">The 4 common solar circuits</a> <a href="#sizing-using-labels-avoid-guesswork" class="text-link">Sizing using labels (avoid guesswork)</a> <a href="#placement-rules-of-thumb-planning-level" class="text-link">Placement rules-of-thumb</a> <a href="#dc-rated-checklist-quick-sanity-check-before-you-buy" class="text-link">DC-rated checklist</a> <a href="#common-mistakes-and-how-to-avoid-them" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next-logical-reads" class="text-link">Next logical reads</a>
-
+<p class="jump-links"><a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#what-fuses-and-breakers-protect-and-what-they-dont" class="text-link">What fuses/breakers protect (and what they don’t)</a> <a href="#the-4-common-solar-circuits-pick-the-one-youre-sizing" class="text-link">The 4 common solar circuits</a> <a href="#sizing-using-labels-avoid-guesswork" class="text-link">Sizing using labels (avoid guesswork)</a> <a href="#placement-rules-of-thumb-planning-level" class="text-link">Placement rules-of-thumb</a> <a href="#dc-rated-checklist-quick-sanity-check-before-you-buy" class="text-link">DC-rated checklist</a> <a href="#common-mistakes-and-how-to-avoid-them" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next-logical-reads" class="text-link">Next logical reads</a></p>
 ## Key takeaways
 
 -   Start by identifying the circuit: PV wiring, controller-to-battery, or battery-to-inverter.
@@ -190,7 +189,7 @@ In planning terms, overcurrent protection exists to reduce the chance that a fau
 Protection also improves serviceability (being able to isolate parts of the system), but it’s not a substitute for correct cable sizing, tight terminations, or DC-rated disconnects.
 
 <figure>
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Electrical_fuses%2C_plug-in_type%2C_different_sizes.jpeg" loading="lazy" width="640" height="427" alt="Assorted DC plug-in fuses used for solar circuit protection." />
+<img src="/images/solar-fuse-and-breaker-sizing/Electrical_fuses,_plug-in_type,_different_sizes.webp" loading="lazy" width="640" height="427" alt="Assorted DC plug-in fuses used for solar circuit protection." />
 <figcaption>Image: havarhen, CC BY-SA 3.0 — Source: <a href="https://commons.wikimedia.org/wiki/File:Electrical_fuses,_plug-in_type,_different_sizes.jpeg" class="text-link">Wikimedia Commons</a></figcaption>
 </figure>
 

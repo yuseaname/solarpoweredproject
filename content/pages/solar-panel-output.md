@@ -24,7 +24,7 @@ related = [
 
 {{< affiliate-disclosure >}}
 
-<a href="#quick-estimate" class="text-link">Quick estimate</a> <a href="#solar-panel-output-calculator" class="text-link">Solar panel output calculator</a> <a href="#the-formula" class="text-link">The formula</a> <a href="#choose-an-efficiency-factor" class="text-link">Choose an efficiency factor</a> <a href="#quick-reference-output-table" class="text-link">Quick-reference output table</a> <a href="#what-can-this-actually-power" class="text-link">What can this actually power?</a> <a href="#seasonal-variation-expect-3050-less-in-winter" class="text-link">Seasonal variation: expect 30–50% less in winter</a>
+<p class="jump-links"><a href="#quick-estimate" class="text-link">Quick estimate</a> <a href="#solar-panel-output-calculator" class="text-link">Solar panel output calculator</a> <a href="#the-formula" class="text-link">The formula</a> <a href="#choose-an-efficiency-factor" class="text-link">Choose an efficiency factor</a> <a href="#quick-reference-output-table" class="text-link">Quick-reference output table</a> <a href="#what-can-this-actually-power" class="text-link">What can this actually power?</a> <a href="#seasonal-variation-expect-3050-less-in-winter" class="text-link">Seasonal variation: expect 30–50% less in winter</a></p>
 ## Quick estimate
 
 A single **400W solar panel** in a typical US location produces about **1,100–1,600 watt-hours (Wh) per day** — roughly 33–48 kWh per month. That's enough to run a small chest freezer, recharge phones and laptops several times over, or run LED lights for hours. Actual output depends on your peak sun hours and system efficiency; use the calculator below for your exact setup.

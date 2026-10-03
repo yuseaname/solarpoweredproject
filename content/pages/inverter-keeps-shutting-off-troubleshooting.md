@@ -13,8 +13,7 @@ image_height = 1024
 +++
 
 {{< affiliate-disclosure >}}
-<a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#first-capture-the-shutdown-clue" class="text-link">First: capture the shutdown clue</a> <a href="#cause-1-overload-or-surge-start" class="text-link">Cause 1: overload or surge start</a> <a href="#alarm-keeps-beeping-low-voltage-alarm-before-shutdown" class="text-link">Cause 2: low battery voltage (real) vs voltage drop (wiring)</a> <a href="#cause-3-overheating--poor-airflow" class="text-link">Cause 3: overheating / poor airflow</a> <a href="#cause-4-settings-modes-and-cutoffs" class="text-link">Cause 4: settings, modes, and cutoffs</a> <a href="#alarm-keeps-beeping-low-voltage-alarm-before-shutdown" class="text-link">Alarm keeps beeping: low-voltage alarm</a> <a href="#common-mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next-logical-reads" class="text-link">Next logical reads</a>
-
+<p class="jump-links"><a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#first-capture-the-shutdown-clue" class="text-link">First: capture the shutdown clue</a> <a href="#cause-1-overload-or-surge-start" class="text-link">Cause 1: overload or surge start</a> <a href="#alarm-keeps-beeping-low-voltage-alarm-before-shutdown" class="text-link">Cause 2: low battery voltage (real) vs voltage drop (wiring)</a> <a href="#cause-3-overheating--poor-airflow" class="text-link">Cause 3: overheating / poor airflow</a> <a href="#cause-4-settings-modes-and-cutoffs" class="text-link">Cause 4: settings, modes, and cutoffs</a> <a href="#alarm-keeps-beeping-low-voltage-alarm-before-shutdown" class="text-link">Alarm keeps beeping: low-voltage alarm</a> <a href="#common-mistakes" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next-logical-reads" class="text-link">Next logical reads</a></p>
 ## Key takeaways
 
 -   Most inverter shutdowns are caused by **overload/surge** or **low voltage under load**.
@@ -34,7 +33,7 @@ Before you “fix” anything, get one data point:
 If your inverter has a history log, that’s often the fastest answer.
 
 <figure>
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Inverter_CJC01.jpg" loading="lazy" width="640" height="459" alt="Portable DC-to-AC inverter used in RV and off-grid solar systems." />
+<img src="/images/inverter-keeps-shutting-off-troubleshooting/Inverter_CJC01.webp" loading="lazy" width="640" height="459" alt="Portable DC-to-AC inverter used in RV and off-grid solar systems." />
 <figcaption>Image: C J Cowie, CC BY-SA 3.0 — Source: <a href="https://commons.wikimedia.org/wiki/File:Inverter_CJC01.jpg" class="text-link">Wikimedia Commons</a></figcaption>
 </figure>
 
