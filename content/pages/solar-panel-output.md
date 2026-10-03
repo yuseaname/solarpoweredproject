@@ -282,3 +282,4 @@ Start with your annual kWh usage and divide by the per-panel annual production f
 {{< /faq >}}
 
 {{< faq-schema >}}
+ <a href="how-to-test-solar-panel-with-multimeter.html" class="text-link">How to test a solar panel with a multimeter</a>

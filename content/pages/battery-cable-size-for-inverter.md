@@ -315,3 +315,4 @@ The ampacity ladder above is **planning guidance, not a code table**. For code w
 - [What Size Solar Generator to Run a Refrigerator?](/pages/what-size-solar-generator-run-refrigerator.html)
 - [How Long Will a 100Ah Battery Run?](/pages/how-long-will-100ah-battery-run.html)
 - [CPAP Battery Backup: Sizing and Run Times](/pages/cpap-battery-backup-guide.html)
+ <a href="batteries-in-series-vs-parallel.html" class="text-link">Batteries in series vs parallel</a>

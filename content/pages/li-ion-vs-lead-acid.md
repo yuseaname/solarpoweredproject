@@ -187,3 +187,4 @@ Not anymore. The 30% federal residential clean energy credit expired December 31
 
 - <a href="/pages/best-solar-batteries-2026.html" class="text-link">Best solar batteries 2026 comparison</a>
 - <a href="/pages/litime-100ah-review.html" class="text-link">LiTime 12V 100Ah spec-based review</a>
+ <a href="lifepo4-low-voltage-cutoff.html" class="text-link">LiFePO4 low-voltage cutoff settings</a>

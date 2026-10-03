@@ -233,3 +233,4 @@ Not usually. Going from 94% to 97% efficiency saves roughly 3% of your productio
 - [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
 - [How Much Does a Solar Battery Cost in 2026? Complete Buyer's Guide](/pages/solar-battery-cost-2026.html)
+ <a href="lifepo4-low-voltage-cutoff.html" class="text-link">LiFePO4 low-voltage cutoff settings</a>

@@ -228,3 +228,4 @@ Anytime you see melted insulation, burned smell, tripping DC breakers, or fault 
 - [MPPT Charge Controller Not Charging: Troubleshooting Checklist (PV Voltage, Settings)](/pages/mppt-charge-controller-not-charging.html)
 - [Solar Battery Not Charging: Troubleshooting Checklist (MPPT, Wiring, Loads)](/pages/solar-battery-not-charging-troubleshooting.html)
 - [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
+ <a href="how-to-test-solar-panel-with-multimeter.html" class="text-link">Test a solar panel with a multimeter</a>

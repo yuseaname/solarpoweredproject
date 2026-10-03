@@ -21,3 +21,4 @@ lastmod = 2026-09-05
 The 12/24/48V decision — with the decision table, worked wire-cost math, and an interactive voltage picker — now lives in **[12V vs 24V vs 48V Solar Systems](/pages/12v-vs-24v-vs-48v-solar.html)**.
 
 Going big? [48V Off-Grid Wiring Guide](/pages/48v-off-grid-wiring-guide.html) picks up where the voltage choice ends.
+ <a href="batteries-in-series-vs-parallel.html" class="text-link">Batteries in series vs parallel</a>
