@@ -3,7 +3,7 @@ title = "DIY Car Alternator Generator for Battery Charging: What Actually Works"
 slug = "diy-car-alternator-generator-battery-charging"
 date = 2026-05-31
 draft = false
-description = "A realistic DIY car alternator generator guide: how alternators work, why low RPM disappoints, pulley ratios, safe wiring and protection, realistic watts, and how to use an alternator as a supplemental charger in an off-grid solar battery system."
+description = "Can a car alternator charge an off-grid battery bank? A realistic guide: how alternators work, why low RPM disappoints, pulley ratios, and realistic watts."
 author = "Solar Powered Project"
 +++
 

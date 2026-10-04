@@ -3,7 +3,7 @@ title = "Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & H
 slug = "multi-source-hybrid-charge-controller"
 date = 2026-05-31
 draft = false
-description = "A realistic guide to hybrid off-grid charging: combining solar + wind + hydro safely, controller selection per source, parallel charging architecture, dump load wiring, voltage regulation, and protection strategy."
+description = "How do you combine solar, wind, and hydro safely? A realistic guide to hybrid charging: controller selection per source, parallel charging, and dump loads."
 author = "Solar Powered Project"
 +++
 

@@ -4,7 +4,7 @@ slug = "contact"
 aliases = ["/contact"]
 date = 2026-05-31
 draft = false
-description = "Contact Solar Powered Project with a question, correction, content feedback, or a broken-link report."
+description = "Have a question or correction for Solar Powered Project? Reach out with content feedback, a broken-link report, or a suggestion for what we cover next."
 author = "Solar Powered Project"
 no_ads = true
 +++

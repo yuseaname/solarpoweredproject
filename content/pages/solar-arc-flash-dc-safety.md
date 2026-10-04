@@ -3,7 +3,7 @@ title = "Arc Flash on DC Systems: Why Battery Banks Demand Respect"
 slug = "solar-arc-flash-dc-safety"
 date = 2026-09-06
 draft = false
-description = "Why a dropped wrench on a battery bank is an emergency: what a DC arc is and why it sustains, the prevention ladder (fuse at the terminal, insulated tools, one-hand rule), and NEC 690.11 arc-fault protection."
+description = "Why is a dropped wrench on a battery bank an emergency? What a DC arc is and why it sustains, the prevention ladder, and NEC 690.11 arc-fault protection."
 author = "Solar Powered Project"
 +++
 

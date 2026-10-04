@@ -3,7 +3,7 @@ title = "DIY Buck/Boost Regulation for Variable Generators: Stable Battery Charg
 slug = "diy-buck-boost-regulation-variable-generator-battery-charging"
 date = 2026-05-31
 draft = false
-description = "A practical DIY guide to buck, boost, and buck-boost regulation for variable DIY generators: why generator voltage varies, how to match voltage to batteries safely, constant-current vs constant-voltage concepts, fusing and wire sizing, common mistakes, and how regulation fits into a solar + experimental hybrid system."
+description = "How do you charge batteries from a variable generator? A practical guide to buck, boost, and buck-boost regulation and matching voltage to batteries."
 author = "Solar Powered Project"
 +++
 

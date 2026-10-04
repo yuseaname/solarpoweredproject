@@ -3,7 +3,7 @@ title = "DIY Generator Test Bench: Measure Real Watts, Watt-Hours, and Losses"
 slug = "diy-generator-test-bench-measure-watts-watt-hours"
 date = 2026-05-31
 draft = false
-description = "Build a reusable DIY generator test bench: measure watts and watt-hours, load test vs open-circuit voltage, use adjustable loads, wire safely, and compare Wh/day to solar output for hybrid off-grid planning."
+description = "How do you measure a generator's real output? Build a reusable DIY test bench: measure watts and watt-hours, load test vs open-circuit voltage."
 author = "Solar Powered Project"
 +++
 

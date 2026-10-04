@@ -3,7 +3,7 @@ title = "DIY Compressed Air Energy Storage (CAES): Realistic, Safe Experiments"
 slug = "diy-compressed-air-energy-storage"
 date = 2026-05-31
 draft = false
-description = "A practical DIY compressed air energy storage (CAES) guide: how it works, realistic energy density, simple calculations, safe experiment setups, expected efficiency, common mistakes, safety hazards, and how CAES pairs with solar."
+description = "Is DIY compressed air energy storage worth it? A CAES guide: how it works, realistic energy density, safe setups, expected efficiency, and safety."
 author = "Solar Powered Project"
 +++
 

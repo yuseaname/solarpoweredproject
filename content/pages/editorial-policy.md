@@ -4,7 +4,7 @@ slug = "editorial-policy"
 aliases = ["/editorial-policy"]
 date = 2026-05-31
 draft = false
-description = "How Solar Powered Project approaches accuracy, sources, updates, advertising independence, corrections, and safety boundaries."
+description = "How does Solar Powered Project approach accuracy? Read our policy on sources, updates, advertising independence, corrections, and safety boundaries."
 author = "Solar Powered Project"
 no_ads = true
 +++

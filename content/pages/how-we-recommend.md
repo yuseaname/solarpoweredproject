@@ -3,7 +3,7 @@ title = "How We Pick and Link Products"
 slug = "how-we-recommend"
 date = 2026-09-05
 draft = false
-description = "How product mentions and affiliate links on Solar Powered Project are chosen: spec-driven criteria, no test-lab claims, no brand payments, and current prices always on Amazon."
+description = "How are product mentions and affiliate links on Solar Powered Project chosen? Spec-driven criteria, no test-lab claims, no brand payments, current prices."
 author = "Solar Powered Project"
 no_ads = true
 +++

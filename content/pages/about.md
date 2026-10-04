@@ -4,7 +4,7 @@ slug = "about"
 aliases = ["/about"]
 date = 2026-05-31
 draft = false
-description = "Solar Powered Project is a practical field guide to independent power systems, built around clear assumptions and useful next decisions."
+description = "What is Solar Powered Project? A practical field guide to independent power systems, built around clear assumptions and useful next decisions."
 author = "Solar Powered Project"
 no_ads = true
 +++

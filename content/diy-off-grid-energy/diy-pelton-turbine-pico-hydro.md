@@ -3,7 +3,7 @@ title = "DIY Pelton Turbine Pico Hydro: Simple Runner Build + Realistic Watts"
 slug = "diy-pelton-turbine-pico-hydro"
 date = 2026-05-31
 draft = false
-description = "Build a safe DIY Pelton-style pico hydro turbine for learning and trickle charging: nozzle sizing, spoon-bucket runner concepts, realistic power math from head + flow, wiring protection, and how to pair hydro experiments with solar batteries."
+description = "Can a DIY Pelton turbine trickle-charge a battery? Build a pico hydro setup: nozzle sizing, runner concepts, and realistic power math from head + flow."
 author = "Solar Powered Project"
 related = [
   "/diy-off-grid-energy/micro-hydro-basics-for-off-grid-power.html",

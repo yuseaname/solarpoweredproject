@@ -4,7 +4,7 @@ title = "Solar Permits and Building Codes: What You Need to Know Before Installi
 slug = "solar-permits-and-building-codes"
 date = 2026-08-10
 draft = false
-description = "Solar panel permits and building codes explained: NEC requirements, AHJ variations, off-grid vs grid-tied rules, RV exemptions, and how to navigate the permitting process."
+description = "Solar panel permits and building codes explained: NEC requirements, AHJ variations, off-grid vs grid-tied rules, RV exemptions, and how to navigate them."
 author = "Solar Powered Project"
 
 related = [

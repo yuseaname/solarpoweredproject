@@ -3,7 +3,7 @@ title = "DIY Supercapacitor Bank for Solar: Buffer Surges Safely (Balancing Basi
 slug = "diy-supercapacitor-bank-solar-buffer"
 date = 2026-05-31
 draft = false
-description = "A realistic DIY supercapacitor bank guide for off-grid solar experiments: what supercaps are good for (and not), basic energy math, series balancing, inrush limiting, fusing, safe wiring, and practical ways to use supercaps as a buffer alongside batteries."
+description = "What are supercapacitors good for? A DIY bank guide: energy math, series balancing, inrush limiting, fusing, and using supercaps as a solar buffer."
 author = "Solar Powered Project"
 +++
 

@@ -6,7 +6,7 @@ date = 2026-05-31
 draft = false
 image = "/images/solar-lease-vs-buy-2026/hero.webp"
 author = "Solar Powered Project"
-description = "Solar Lease vs Buy. Compare solar lease vs buying options, costs, incentives, and long-term savings."
+description = "Solar lease or buy in 2026? Compare lease vs buying options, costs, incentives, and long-term savings before you sign anything for your home."
 image_width = 1536
 image_height = 1024
 +++

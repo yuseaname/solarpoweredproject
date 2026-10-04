@@ -3,7 +3,7 @@ title = "DIY Micro-Hydro Generator: Build a Run-of-River System (Sizing + Safety
 slug = "micro-hydro-basics-for-off-grid-power"
 date = 2026-05-31
 draft = false
-description = "A practical, physics-based run-of-river micro-hydro guide: head vs flow sizing, real example watts, core components, a DIY build checklist, common mistakes, safety, and how to pair with solar + batteries."
+description = "How much power can micro-hydro make? A physics-based run-of-river guide: head vs flow sizing, real example watts, core components, and common mistakes."
 author = "Solar Powered Project"
 +++
 

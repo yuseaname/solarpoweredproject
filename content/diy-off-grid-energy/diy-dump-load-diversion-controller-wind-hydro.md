@@ -3,7 +3,7 @@ title = "DIY Dump Load (Diversion Control) for Wind + Hydro: Protect Batteries S
 slug = "diy-dump-load-diversion-controller-wind-hydro"
 date = 2026-05-31
 draft = false
-description = "A practical DIY diversion (dump load) guide for wind and hydro experiments: why batteries need protection when full, how diversion control works, sizing a dump load, safe wiring with fuses and disconnects, heat management, common mistakes, and how diversion fits into a multi-source solar battery system."
+description = "How does a dump load work? A DIY diversion guide for wind and hydro: protecting full batteries, sizing a dump load, safe wiring, and common mistakes."
 author = "Solar Powered Project"
 +++
 

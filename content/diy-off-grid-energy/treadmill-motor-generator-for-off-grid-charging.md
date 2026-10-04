@@ -3,7 +3,7 @@ title = "Treadmill Motor as a Generator: DIY Battery Charging for Wind, Water, o
 slug = "treadmill-motor-generator-for-off-grid-charging"
 date = 2026-05-31
 draft = false
-description = "A practical guide to using a treadmill DC motor as a generator: how voltage depends on RPM, safe rectification and regulation, build plans for pedal/wind/water experiments, realistic wattage expectations, wiring protection, common mistakes, safety, and how to pair with solar."
+description = "Can a treadmill motor charge a battery? A practical guide: how voltage depends on RPM, safe rectification and regulation, and realistic wattage."
 author = "Solar Powered Project"
 +++
 

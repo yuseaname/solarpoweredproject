@@ -3,7 +3,7 @@ title = "DIY Stirling Engine Generator: Turn Heat Into Electricity (Educational 
 slug = "diy-stirling-engine-generator-off-grid"
 date = 2026-05-31
 draft = false
-description = "A realistic DIY Stirling engine generator guide: thermodynamics basics, Carnot efficiency limits, realistic power output, heat sources, and where it fits as a supplemental off-grid solar experiment."
+description = "Can a Stirling engine generate useful off-grid power? A realistic DIY guide: thermodynamics basics, Carnot efficiency limits, and realistic power output."
 author = "Solar Powered Project"
 +++
 

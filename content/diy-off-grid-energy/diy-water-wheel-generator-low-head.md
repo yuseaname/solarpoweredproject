@@ -3,7 +3,7 @@ title = "DIY Water Wheel Generator: Low-Head Stream Power (Realistic Watts + Bui
 slug = "diy-water-wheel-generator-low-head"
 date = 2026-05-31
 draft = false
-description = "A practical DIY water wheel generator guide for low-head streams: how water wheels differ from micro-hydro turbines, simple sizing math, realistic watts and watt-hours, build options, common mistakes, safety/legal limits, and how to pair with solar + batteries."
+description = "Can a water wheel power your off-grid setup? A low-head guide: sizing math, realistic watts and watt-hours, and how wheels differ from micro-hydro."
 author = "Solar Powered Project"
 +++
 

@@ -3,7 +3,7 @@ title = "DIY Savonius Wind Turbine (Vertical Axis): Safe Build + Realistic Outpu
 slug = "diy-savonius-wind-turbine-vertical-axis"
 date = 2026-05-31
 draft = false
-description = "A practical DIY Savonius (vertical-axis) wind turbine guide: simple rotor builds, tower and safety basics, realistic watts and Wh/day estimates, wiring protection, common mistakes, and how to pair VAWT experiments with solar + batteries."
+description = "How do you build a DIY Savonius wind turbine? A practical guide: rotor builds, tower and safety basics, realistic watts, and wiring protection."
 author = "Solar Powered Project"
 +++
 

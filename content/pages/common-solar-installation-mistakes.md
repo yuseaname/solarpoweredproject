@@ -4,7 +4,7 @@ title = "12 Common Solar Installation Mistakes (And How to Avoid Each One)"
 slug = "common-solar-installation-mistakes"
 date = 2026-08-10
 draft = false
-description = "The most common DIY solar installation mistakes—from undersized wires to bad battery matching—explained with specific fixes for each one."
+description = "The most common DIY solar installation mistakes—from undersized wires to bad battery matching—explained with specific fixes for each one and fixes."
 author = "Solar Powered Project"
 
 +++

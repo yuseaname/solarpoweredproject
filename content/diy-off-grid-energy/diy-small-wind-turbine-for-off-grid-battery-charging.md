@@ -3,7 +3,7 @@ title = "DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Co
 slug = "diy-small-wind-turbine-for-off-grid-battery-charging"
 date = 2026-05-31
 draft = false
-description = "A practical, physics-based guide to small wind battery charging: siting and tower height, realistic output vs rated watts, rectification, diversion (dump loads) and charge control, wiring protection, safety, and how wind pairs with solar."
+description = "How much power does a small wind turbine make? A physics-based guide to siting, tower height, realistic output vs rated watts, and charge control."
 author = "Solar Powered Project"
 +++
 

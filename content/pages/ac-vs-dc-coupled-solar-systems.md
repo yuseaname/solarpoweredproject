@@ -4,7 +4,7 @@ title = "AC vs DC Coupled Solar Systems: Which Architecture Is Right for You?"
 slug = "ac-vs-dc-coupled-solar-systems"
 date = 2026-08-10
 draft = false
-description = "DC-coupled vs AC-coupled solar systems compared: charging efficiency, scalability, cost, and which architecture fits RVs, cabins, and whole-home off-grid builds."
+description = "AC-coupled vs DC-coupled solar: which fits your build? Compare charging efficiency, scalability, cost, and fit for RVs, cabins, and whole-home off-grid."
 author = "Solar Powered Project"
 
 +++

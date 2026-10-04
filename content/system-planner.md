@@ -1,7 +1,7 @@
 +++
 title = "Solar System Planner"
 date = 2026-08-10
-description = "Plan a solar power system in the right order: usage, panels, batteries, voltage, inverter, wiring, and protection."
+description = "Plan a solar power system in the right order: usage, panels, batteries, voltage, inverter, wiring, and protection — step by step, in sequence."
 no_ads = true
 +++
 

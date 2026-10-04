@@ -3,7 +3,7 @@ title = "Solar Battery Fire Safety: Prevention, Response, and What Actually Work
 slug = "solar-battery-fire-safety"
 date = 2026-09-06
 draft = false
-description = "How lithium and lead-acid solar batteries catch fire, the prevention measures that matter (fusing, torque, chemistry), and the honest response guidance — including why Class D extinguishers are the wrong tool for lithium-ion."
+description = "How do lithium and lead-acid solar batteries catch fire? The prevention measures that matter (fusing, torque, chemistry) and honest response guidance."
 author = "Solar Powered Project"
 +++
 

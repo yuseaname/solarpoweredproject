@@ -3,7 +3,7 @@ title = "48V Off-Grid System Wiring Guide (Cables, Fuses, Bank Setup)"
 slug = "48v-off-grid-wiring-guide"
 date = 2026-09-05
 draft = false
-description = "How to wire a 48V off-grid system: battery bank configurations, cable and fuse sizing math, Class T protection, MPPT input limits, and DC-DC converters for 12V loads."
+description = "How do you wire a 48V off-grid system? Battery bank configurations, cable and fuse sizing math, Class T protection, MPPT input limits, DC-DC converters."
 author = "Solar Powered Project"
 related = [
   "/pages/battery-cable-size-for-inverter.html",

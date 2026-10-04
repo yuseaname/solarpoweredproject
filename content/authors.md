@@ -1,7 +1,7 @@
 +++
 title = "Who Makes Solar Powered Project"
 date = 2026-08-10
-description = "Who publishes Solar Powered Project, why we publish under a publication byline, what we do and read, and what we do not claim."
+description = "Who publishes Solar Powered Project, why we publish under a publication byline, what we do and read, and what we do not claim to be, and why."
 no_ads = true
 +++
 

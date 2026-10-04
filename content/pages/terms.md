@@ -4,7 +4,7 @@ slug = "terms"
 aliases = ["/terms", "/terms-of-service"]
 date = 2026-05-31
 draft = false
-description = "Terms of use for Solar Powered Project: practical educational information, not site-specific professional advice."
+description = "What are the terms of use for Solar Powered Project? Read the rules and our stance: practical educational information, not professional advice."
 author = "Solar Powered Project"
 no_ads = true
 +++

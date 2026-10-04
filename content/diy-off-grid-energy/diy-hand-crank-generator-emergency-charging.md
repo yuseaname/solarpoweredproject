@@ -3,7 +3,7 @@ title = "DIY Hand-Crank Generator: Realistic Power Output"
 slug = "diy-hand-crank-generator-emergency-charging"
 date = 2026-05-31
 draft = false
-description = "A practical DIY hand-crank generator guide: realistic wattage expectations, safe charging architecture, rectifiers and regulators, build options, wiring protection, common mistakes, safety, and how to pair hand power with solar + batteries."
+description = "How much power can a hand-crank generator make? A DIY guide: realistic wattage, safe charging architecture, rectifiers and regulators, and build options."
 author = "Solar Powered Project"
 related = [
   "/diy-off-grid-energy/diy-generator-test-bench-measure-watts-watt-hours.html",

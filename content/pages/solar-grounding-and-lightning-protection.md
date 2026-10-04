@@ -4,7 +4,7 @@ title = "Solar Grounding and Lightning Protection: What Actually Protects Your S
 slug = "solar-grounding-and-lightning-protection"
 date = 2026-09-06
 draft = false
-description = "Equipment grounding, system bonding, and the grounding electrode explained separately — with NEC 690 context, surge protector placement, and the honest limits on lightning protection."
+description = "Equipment grounding, system bonding, and the grounding electrode explained separately — with NEC 690 context, surge protector placement, lightning limits."
 author = "Solar Powered Project"
 related = [
   "/pages/solar-installation-safety-guide.html",

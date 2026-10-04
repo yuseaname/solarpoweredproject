@@ -3,7 +3,7 @@ title = "Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)"
 slug = "gravity-battery-diy-energy-storage"
 date = 2026-05-31
 draft = false
-description = "A realistic DIY gravity battery guide: potential energy physics (mgh), energy density vs chemical batteries, pulley builds, safety, and when it can supplement solar storage as an educational experiment."
+description = "Does a gravity battery store useful energy? A DIY guide: mgh physics, energy density vs chemical batteries, pulley builds, safety, and when it helps solar."
 author = "Solar Powered Project"
 +++
 

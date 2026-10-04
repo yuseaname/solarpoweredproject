@@ -3,7 +3,7 @@ title = "DIY Bicycle Generator: Pedal-Powered Battery Charging (Realistic Guide)
 slug = "pedal-power-generator-for-off-grid-battery-charging"
 date = 2026-05-31
 draft = false
-description = "A realistic DIY bicycle generator guide: expected wattage, safe charging architecture, build styles, sizing examples, limitations, and how to pair pedal power with solar + batteries."
+description = "How much power can pedal power make? A realistic DIY bicycle generator guide: expected wattage, safe charging architecture, build styles, and limitations."
 author = "Solar Powered Project"
 related = [
   "/diy-off-grid-energy/diy-hand-crank-generator-emergency-charging.html",

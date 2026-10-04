@@ -4,7 +4,7 @@ slug = "diy-flywheel-energy-storage"
 date = 2026-05-31
 updated = 2026-10-03
 draft = false
-description = "A realistic DIY flywheel energy storage guide: how flywheels store energy, safe low-speed build paths, simple calculations, expected output, common mistakes, safety limits, and how flywheels pair with solar + batteries."
+description = "Can a DIY flywheel store useful energy? A realistic guide: how flywheels store energy, safe low-speed build paths, calculations, and safety limits."
 author = "Solar Powered Project"
 +++
 

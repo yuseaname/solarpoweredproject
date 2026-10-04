@@ -4,7 +4,7 @@ slug = "privacy-policy"
 aliases = ["/privacy", "/privacy-policy"]
 date = 2026-05-31
 draft = false
-description = "Privacy information for Solar Powered Project, including analytics, advertising technologies, and contact options."
+description = "Privacy information for Solar Powered Project, including analytics, advertising technologies, and contact options for questions or data requests."
 author = "Solar Powered Project"
 no_ads = true
 +++
