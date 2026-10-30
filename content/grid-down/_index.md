@@ -19,10 +19,11 @@ Power systems built for the day the grid can't help you — planned with arithme
 
 - [Powering Communications When the Grid Is Down](/grid-down/grid-down-communications-power.html) — a ~40Wh/day comms budget that keeps phones, radios, and lights running, and the charging hierarchy behind it
 
-## Arrays and hardening
+## Arrays, hardening, and repair
 
 - [From One Panel to a Microgrid: Wiring a Multi-Panel Array](/grid-down/solar-array-from-salvage.html) — string math, controller headroom rules, and a 2/4/8-panel scaling table
 - [Faraday Cages for Solar Electronics](/grid-down/faraday-cage-solar-electronics.html) — what a cage can and cannot do, CME versus HEMP physics, and a falsifiable DIY attenuation test
+- [Solar Not Working After a Storm](/grid-down/solar-not-working-after-storm.html) — the six-step diagnosis order that finds post-storm failures before you buy replacements
 
 ## The generator wing
 

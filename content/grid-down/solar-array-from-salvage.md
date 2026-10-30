@@ -34,6 +34,11 @@ Planning numbers for the common salvage unit — a "12V nominal" 100W panel: Vmp
 - **Parallel strings of 2:** currents add → Imp 11A at 18V. Power: ~200W at 12V-class voltage, cheaper controller class but thicker copper.
 - **Series-parallel (2S2P):** two series strings (36V, 5.5A each) in parallel → 36V, 11A, ~400W. The standard layout for 4-panel builds: comfortable voltage, moderate current, and each string is separately fused.
 
+<figure>
+<img src="/images/solar-array-from-salvage/fig-2s2p.webp" loading="lazy" width="640" height="427" alt="Technical-plate wiring diagram: four panels as two fused strings converging on a busbar, then a controller, then a battery." />
+<figcaption>The standard four-panel layout: two separately fused strings land on one busbar before the controller. (Illustrative)</figcaption>
+</figure>
+
 Mismatch warning carried over from the [salvage guide](/grid-down/salvaged-solar-panels.html): within a series string, panels should share a current class (the weakest panel sets the string's current); between parallel strings, voltage classes should match. Mixed salvage works — but sort it *before* wiring, not after wondering why the harvest is low.
 
 ## The headroom rule
@@ -45,6 +50,11 @@ Worked example, 100V-class controller (e.g., the [Victron 100/30](/pages/best-mp
 - **3× in series:** 3 × 21V = 63V nominal Voc. Cold margin: 63 × 1.15 ≈ **72V** — comfortable.
 - **4× in series:** 84V nominal. Cold: 84 × 1.15 ≈ **97V** — technically under 100V, but a hard-freeze morning with a worse-than-average coefficient brushes the limit. Verdict: 4S on a 100V controller is *climate-dependent*; the honest build is 2S2P instead, or step to a 150V-class controller.
 - **The rule of thumb:** plan string Voc at **+15%** for cold, and stop at ~90% of the controller's limit. If the math is close, change the layout — a controller that dies takes the harvest of every panel behind it.
+
+<figure>
+<img src="/images/solar-array-from-salvage/fig-headroom.webp" loading="lazy" width="640" height="427" alt="Technical-plate illustration: two gauge columns beside panel stacks — one marker at a comfortable mid-scale, the other pushed into a hatched warning band near the top." />
+<figcaption>Headroom in one picture: three panels sit comfortable on a 100V-class input; the fourth brushes the ceiling on a cold dawn. (Illustrative)</figcaption>
+</figure>
 
 Current has its own ceiling: the controller's rating (20A, 30A…) applies on the *battery* side for MPPT units, so array current is bounded by array watts ÷ charging voltage — [the sizing guide works the cases](/pages/charge-controller-sizing.html).
 

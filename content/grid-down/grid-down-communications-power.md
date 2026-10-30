@@ -46,6 +46,11 @@ Medical devices jump the queue entirely: [a CPAP night is 240–700Wh](/pages/cp
 
 **Layer 1 — The power bank (day one).** A 20,000mAh bank at 3.7V holds ~74Wh — roughly 1.5 days of the full budget, or a week if you're phone-only. Everyone already owns Layer 1; the plan is keeping it charged and knowing where it is.
 
+<figure>
+<img src="/images/grid-down-communications-power/fig-hierarchy.webp" loading="lazy" width="640" height="427" alt="Technical-plate illustration of a three-level energy pyramid: pedal charger, folding solar panel, battery — feeding a phone and radio at the apex." />
+<figcaption>The hierarchy in one picture: buffer on top, panel in the middle, muscle at the base — each layer backs the one above it. (Illustrative)</figcaption>
+</figure>
+
 **Layer 2 — The panel (day two onward).** This is where the outage stops being countdown and becomes routine:
 
 {{< product-box asin="B071G4CQSR" name="BigBlue 28W Solar Panel Charger with Digital Ammeter" label="Layer 2: the folding panel" description="A folding 28W panel with a built-in ammeter — you watch real harvest instead of guessing (per manufacturer spec), which matters most in marginal weather. Not for: running appliances; this is a comms-and-lighting tool. The honest tradeoff: it charges USB devices directly, so it skips your 12V bank — pair it with the power bank it keeps alive." button="Check price on Amazon" >}}
@@ -65,6 +70,11 @@ When the panel is shaded, stolen, or broken, you are the power plant — and the
 - **Heat-to-power (TEG): a few watts.** A stove-top [TEG module](/diy-off-grid-energy/diy-thermoelectric-generator-teg-battery-charging.html) at 3–8% efficiency trickles single-digit watts — enough to keep a weather radio alive off a woodstove you'd run anyway.
 
 The discipline that makes muscle power work: charge a *buffer* (power bank), never pedal to feed a device directly. Batteries forgive your rest breaks; radios don't.
+
+<figure>
+<img src="/images/grid-down-communications-power/fig-muscle.webp" loading="lazy" width="640" height="427" alt="Technical-plate illustration: an arm cranking a small generator feeding a thin stream into a small battery, beside legs pedaling a larger generator feeding a wide stream into a larger battery." />
+<figcaption>Arms versus legs, same hour of effort: the width of the stream is what lands in the battery. (Illustrative)</figcaption>
+</figure>
 
 ## Radios: what to standardize
 

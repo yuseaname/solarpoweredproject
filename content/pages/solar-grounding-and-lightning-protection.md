@@ -87,7 +87,7 @@ Related: <a href="off-grid-solar-system-setup-guide.html" class="text-link">Off-
 
 ## Lightning and surge protection: what actually helps {#lightning}
 
-Set expectations first, honestly: **a direct strike on a home array is not survivable engineering.** The energy is far beyond what residential hardware can absorb, and no ground rod you can afford changes that. What grounding and surge protection actually do is manage the two things that destroy systems in *near-miss* situations: **induced transients** — voltage spikes induced into wiring by strikes hundreds of feet away — and **side flashes**. Managed well, that's the difference between a storm you sleep through and a fried charge controller. It is not an anti-lightning suit.
+Set expectations first, honestly: **a direct strike on a home array is not survivable engineering.** The energy is far beyond what residential hardware can absorb, and no ground rod you can afford changes that. What grounding and surge protection actually do is manage the two things that destroy systems in *near-miss* situations: **induced transients** — voltage spikes induced into wiring by strikes hundreds of feet away — and **side flashes**. Managed well, that's the difference between a storm you sleep through and a fried charge controller. It is not an anti-lightning suit. (Already storm-damaged? Work the [post-storm diagnosis order](/grid-down/solar-not-working-after-storm.html) before replacing anything.)
 
 ### What SPDs do
 

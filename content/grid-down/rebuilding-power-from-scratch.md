@@ -49,6 +49,11 @@ Scarce watt-hours force an order of operations. Work down this ladder — each r
 
 The pattern: **the ladder is cheap at the top and expensive at the bottom.** Tiers 1–2 together cost about 60Wh/day — one 100W panel harvests 6–8× that on an average day. Tier 4 is where budgets get serious.
 
+<figure>
+<img src="/images/rebuilding-power-from-scratch/fig-triage.webp" loading="lazy" width="640" height="427" alt="Technical-plate illustration: a five-shelf priority ladder from lantern to water pump, each shelf tied to a progressively larger battery." />
+<figcaption>The triage ladder: each rung down costs roughly an order of magnitude more energy than the one above — plan top-down, never bottom-up. (Illustrative)</figcaption>
+</figure>
+
 ## The three build tiers
 
 Planning math: harvest/day ≈ panel watts × peak-sun-hours (4 is a common planning figure; [check your region's real number](/pages/solar-panel-output.html)). Every figure below is arithmetic, not a promise — sun varies.
@@ -62,6 +67,11 @@ Planning math: harvest/day ≈ panel watts × peak-sun-hours (4 is a common plan
 {{< product-box asin="B073ZJ3L13" name="Victron Energy SmartSolar MPPT 100V 30A 12/24V Solar Charge Controller with Bluetooth" label="The Tier-2 control element" description="The 100V/30A model most 300–400W builds converge on (per manufacturer spec): Bluetooth monitoring, lithium profiles, temperature compensation. Not for: arrays above ~400W on 12V — that's 150V-class territory. The honest tradeoff: you pay for the brand floor; the budget class does the same chemistry of charging for less, with a weaker track record." button="Check price on Amazon" >}}
 
 **Tier 3 — The household system (~US$3,500–5,000+).** 800W+ of array, 200Ah+ of storage or an [expandable power station class](/pages/jackery-vs-ecoflow-power-stations.html) (1,024–1,152Wh units that accept extra batteries, per manufacturer specs), 240V capability if a well pump is in scope (the [DELTA Pro 3 class](/pages/solar-generator-well-pump-sizing.html)), and proper [combiner + disconnect](/pages/solar-combiner-box-and-disconnect-guide.html). At this scale the [full system-sizing guide](/pages/solar-system-sizing.html) takes over — the grid-down version of Tier 3 is just a well-engineered off-grid system with a hardening pass.
+
+<figure>
+<img src="/images/rebuilding-power-from-scratch/fig-tiers.webp" loading="lazy" width="640" height="427" alt="Technical-plate illustration: three workbenches with progressively larger solar systems from one panel to a large array with battery bank and power station." />
+<figcaption>Three build tiers, one bench apart: from a single panel and a meter to an array, bank, and station — all sized by the same arithmetic. (Illustrative)</figcaption>
+</figure>
 
 {{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4 Battery, 100A BMS, Group 31" label="The storage element, sized honestly" description="1,280Wh of nameplate storage, ~960Wh+ usable depth on lithium chemistry, 100A BMS. Not for: charging below freezing without the self-heating variant — [the cold-chemistry physics here](/pages/lifepo4-charging-below-freezing.html). The honest tradeoff: LiFePO4 costs more than AGM upfront and repays it in cycle life and usable depth." button="Check price on Amazon" >}}
 

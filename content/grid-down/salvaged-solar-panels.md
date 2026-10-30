@@ -47,6 +47,11 @@ The full procedure with safety framing lives in our [multimeter testing guide](/
 3. **Isc (current, meter in current mode across the terminals, briefly):** healthy panels read **70–90% of rated Isc in real conditions** — that's physics (angle, haze, temperature), not a defect.
 4. **Judgment:** Voc near zero → dead panel or broken wiring. Voc fine but Isc near zero → internal string or bypass-diode failure. Both healthy → keeper; log the numbers.
 
+<figure>
+<img src="/images/salvaged-solar-panels/fig-junctionbox.webp" loading="lazy" width="640" height="427" alt="Cutaway technical-plate illustration of a solar panel junction box showing bypass diodes and two test probes." />
+<figcaption>Where the measurements meet the hardware: the junction box's bypass diodes decide whether cell damage kills the whole panel or only one section. (Illustrative)</figcaption>
+</figure>
+
 {{< product-box asin="B0B57L9FNL" name="Klein Tools MM325 Multimeter" label="The salvage-yard decision tool" description="Both salvage tests — Voc and the brief Isc check — sit inside this meter's DC voltage and 10A current ranges for typical 12V/24V panels, with a 600V CAT III rating covering series strings safely (per manufacturer spec). Not for: high-voltage residential string systems. The honest tradeoff: manual ranging means you think about scale before every reading — in salvage work, that pause is a feature." button="Check price on Amazon" >}}
 
 ## Worked examples
@@ -64,6 +69,11 @@ This is where salvage systems die. **Series strings share current; parallel stri
 - **Series mismatch:** a 100W panel (6A) in series with a 50W panel (3A) runs the whole string at ~3A. Voltage adds (18V + 18V = 36V) but power is 36V × 3A = **108W from 150W of panels** — the big panel wastes half its capability. Rule: series-string only panels of the same current class.
 - **Parallel mismatch:** different-voltage panels in parallel fight; the higher-voltage string can back-feed the weaker one. Blocking diodes help, but the honest rule is the same: parallel only matched panels, and [fuse each string](/pages/solar-fuse-and-breaker-sizing.html).
 - **The salvage heuristic:** one tested panel matched to one suitable controller beats any mismatched pile. Mismatched hardware is where "free panels" quietly becomes an underperforming, overcomplicated system.
+
+<figure>
+<img src="/images/salvaged-solar-panels/fig-mismatch.webp" loading="lazy" width="640" height="427" alt="Technical-plate illustration contrasting a bottlenecked series path with two fused parallel branches." />
+<figcaption>Why sorting matters before wiring: a mismatched string throttles to its weakest panel, while separately fused strings keep one bad unit from sinking the rest. (Illustrative)</figcaption>
+</figure>
 
 ## The controller is mandatory
 

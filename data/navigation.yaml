@@ -5,6 +5,9 @@ main:
   - name: Plan a System
     url: /system-planner.html
     description: Size panels, batteries, inverters, and wiring.
+  - name: Calculators
+    url: /calculators.html
+    description: Tilt, payback, and load-budget tools with the math shown.
   - name: Costs & Payback
     url: /guides.html
     description: Costs, incentives, financing, and tradeoffs.

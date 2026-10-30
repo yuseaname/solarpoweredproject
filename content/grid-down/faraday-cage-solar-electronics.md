@@ -37,6 +37,11 @@ What that means for a practical cage:
 - **Insulate the contents from the walls.** A device touching the cage wall is on the outside of the shield, electrically. Cardboard or cloth lining inside a metal container is part of the design, not packaging.
 - **No through-wires.** A cable entering the cage is an antenna delivering the outside to the inside. A "cage" with a charging cable running through the lid is a decorated box.
 
+<figure>
+<img src="/images/faraday-cage-solar-electronics/fig-physics.webp" loading="lazy" width="640" height="427" alt="Physics-diagram illustration: external field lines deflecting around a closed conducting box whose interior stays empty, with induced charge dots on the outer surfaces." />
+<figcaption>The physics in one picture: a closed conductor deflects the external field while the interior stays calm — induced charge lives only on the outer surface. (Illustrative)</figcaption>
+</figure>
+
 ## Know your threat: CME vs HEMP
 
 These get conflated constantly, and the distinction decides what protection even means:
@@ -56,6 +61,11 @@ A cage around your *operating* system is a contradiction — panels can't charge
 - Memory sticks with manuals, firmware, wiring diagrams — knowledge is an electronic component too
 
 The logic: after a pulse event, the grid is down and your exposed electronics may be down with it. The caged spares are how the [four-element system](/grid-down/rebuilding-power-from-scratch.html) gets rebuilt on day two. Rotate the spares into service periodically so you're debugging a *known-good* controller, not a five-year-old mystery.
+
+<figure>
+<img src="/images/faraday-cage-solar-electronics/fig-spares.webp" loading="lazy" width="640" height="427" alt="Technical-plate illustration: a shelf holding an open cardboard-lined steel can with a controller and radio, a smaller sealed can, and a documents folder with a blank tag." />
+<figcaption>The spares library: sealed, lined, labeled — and rotated into service before it becomes a mystery box. (Illustrative)</figcaption>
+</figure>
 
 ## Build and test your own
 
