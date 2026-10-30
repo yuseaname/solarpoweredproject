@@ -5,6 +5,10 @@ description = "Plan a solar power system in the right order: usage, panels, batt
 no_ads = true
 +++
 
+## Quick answer
+
+Plan a solar system in this order: **1) daily energy use** (watt-hours — every other number depends on it), **2) panel watts** (daily Wh ÷ sun hours ÷ 0.8), **3) battery capacity** (days of autonomy × daily Wh ÷ usable DoD), **4) system voltage** (12V small, 24V mid, 48V when inverters pass 2kW), **5) inverter** (worst simultaneous load + 25%), **6) wiring and protection** last, sized to what the steps above produced. Buying hardware out of order is the #1 first-build mistake. Each step below links the full guide.
+
 ## Start with what you need to power
 
 A dependable system begins with daily energy use—not a panel count. Use the sizing guide to build an estimate, then continue through each decision below.

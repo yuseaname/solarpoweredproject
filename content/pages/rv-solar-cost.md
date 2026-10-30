@@ -21,6 +21,10 @@ related = [
 
 <p class="jump-links"><a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#real-world-rv-solar-builds-with-actual-costs" class="text-link">Real-world RV solar builds with actual costs</a> <a href="#diy-vs-professional-installation-cost" class="text-link">DIY vs professional installation cost</a> <a href="#cost-breakdown-by-category" class="text-link">Cost breakdown by category</a> <a href="#how-sizing-impacts-cost-and-prevents-overspending" class="text-link">How sizing impacts cost (and prevents overspending)</a> <a href="#where-rv-builds-typically-overspend" class="text-link">Where RV builds typically overspend</a> <a href="#what-size-rv-solar-do-i-need-quick-reference" class="text-link">What size RV solar do I need? (quick reference)</a></p>
 
+## Quick answer
+
+A realistic RV solar setup costs **$1,500–$4,000** for comfortable daily off-grid use: ~$400–$900 panels, ~$600–$1,600 battery (the single biggest line at 30–40% of total), ~$150–$400 controller, ~$200–$600 inverter, plus wiring and protection. Budget builds start near $700; high-capacity systems pass $10,000. Professional installation adds $500–$2,000 — most owners DIY this range — and the #1 money-saver is sizing your loads first (the [RV sizing guide](rv-solar-sizing.html) works the math) so you buy the right hardware once.
+
 ## Key takeaways
 
 -   A realistic RV solar setup costs **$1,500–$4,000** for a system that handles daily off-grid use. Budget systems start around $700; high-capacity builds can exceed $10,000.
@@ -179,6 +183,24 @@ Not sure where to start? Match your usage pattern to a system size:
 See the full <a href="rv-solar-sizing.html" class="text-link">RV solar sizing guide</a> for detailed calculations — and the <a href="solar-use-cases.html" class="text-link">solar use-case hub</a> to compare RV builds against cabins, sheds, and backup setups.
 
 If the quick-reference table matched your rig's size class, {{< amazon asin="B075RTSTKS" text="Check price on Amazon" placement="mid-page" >}} — the hidden-costs section below is there if you'd rather budget the whole build first.
+
+## FAQ
+
+{{< faq "How much does RV solar cost vs a portable power station?" >}}
+A 400W roof system with a 100Ah battery runs $1,500–$2,500 and refills itself every sunny day; a comparable-capacity portable station (1kWh class) costs $700–$1,200 but needs shore power or a generator to refill. Full-timers almost always come out ahead with mounted solar within the first year; weekenders may prefer the station's simplicity.
+{{< /faq >}}
+
+{{< faq "Can I install RV solar myself?" >}}
+Yes — this is one of the most DIY-friendly solar categories. Most installs are panels on the roof, an MPPT controller near the battery, and properly fused cabling, all low-voltage DC work. Budget a weekend, follow the [wire size](solar-wire-size.html) and [fuse sizing](solar-fuse-and-breaker-sizing.html) rules, and seal every roof penetration properly — the roof leak, not the electrics, is the expensive failure mode.
+{{< /faq >}}
+
+{{< faq "Is lithium worth it for an RV battery?" >}}
+Usually yes at current prices: a 100Ah LiFePO4 delivers more usable energy (80–90% depth of discharge vs ~50% for lead-acid), weighs half as much, and lasts 3–5× more cycles. The tradeoffs are higher upfront cost and charging limits below freezing — either a self-heating battery or a winter charging strategy. The full chemistry comparison is in [Li-ion vs lead-acid](li-ion-vs-lead-acid.html).
+{{< /faq >}}
+
+{{< faq "How many watts of solar do I need for boondocking?" >}}
+For weekend boondocking (lights, fans, phones, water pump), 200–400W covers most usage with a 100–200Ah battery. Full-timers running a residential fridge and an inverter typically need 600–1,200W of panels plus 300–400Ah of storage. Start from your actual watt-hour budget in the [RV sizing guide](rv-solar-sizing.html) rather than rule-of-thumb kits.
+{{< /faq >}}
 
 ## Hidden costs most people miss
 

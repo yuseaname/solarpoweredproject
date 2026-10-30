@@ -24,7 +24,13 @@ A DIY flywheel can store **less than 1 watt-hour** at safe speeds — enough to 
 
 If your goal is practical energy storage, <a href="../pages/battery-capacity.html" class="text-link">start with batteries</a>. If you want to understand how energy storage works, keep reading.
 
+{{< affiliate-disclosure >}}
+
 {{< product-box asin="B0B57L9FNL" name="Klein Tools MM325 Multimeter" label="Measure the watts you actually make" description="Every flywheel claim in this guide comes down to measured numbers: volts out, amps into your battery, and how fast both sag as the wheel slows. A 600V CAT III meter handles every reading a hobby flywheel will ever produce (per manufacturer spec). Not for: mains-side work. The honest tradeoff: your Version 2 build's headline number — single-digit watts — is only honest if you measure it; without a meter you're estimating from a spec sheet." button="Check price on Amazon" >}}
+
+## Quick answer
+
+A flywheel stores energy as rotation, and the physics is unforgiving: stored energy rises with **speed squared**, so at safe DIY speeds (hundreds of RPM on a steel rotor) a flywheel holds seconds-to-minutes of useful power, not hours — a 25kg wheel at 500 RPM stores roughly 5–10Wh, versus 1,280Wh in a 100Ah LiFePO4 battery. What flywheels do well is **short-burst buffering** (smoothing surge loads) and being essentially unlimited-cycle. The honest DIY version is a low-speed demonstrator; a fixed battery bank remains the storage tier that actually runs a [grid-down](/grid-down/rebuilding-power-from-scratch.html) or off-grid system.
 
 ## Key takeaways
 

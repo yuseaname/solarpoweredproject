@@ -18,6 +18,10 @@ related = [
 
 <p class="jump-links"><a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#before-you-troubleshoot-what-not-charging-really-means" class="text-link">Before you troubleshoot: what “not charging” really means</a> <a href="#step-1-rule-out-normal-low-input-weather-season-shading" class="text-link">Step 1: Rule out “normal low input” (weather, season, shading)</a> <a href="#step-2-check-the-controller-status-bulkabsorptionfloat" class="text-link">Step 2: Check the controller status (bulk/absorption/float)</a> <a href="#step-3-confirm-the-battery-isnt-already-full-or-limited-by-bms" class="text-link">Step 3: Confirm the battery isn’t already full (or limited by BMS)</a> <a href="#step-4-compare-charge-current-vs-load-net-charging" class="text-link">Step 4: Compare charge current vs load (net charging)</a> <a href="#step-5-inspect-wiring-fusesbreakers-and-connections" class="text-link">Step 5: Inspect wiring, fuses/breakers, and connections</a> <a href="#panel-side" class="text-link">Panel-side causes: how to test the panels themselves</a> <a href="#common-mistakes-and-what-they-look-like" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next-logical-reads" class="text-link">Next logical reads</a></p>
 
+## Quick answer
+
+A solar battery that "isn't charging" is **usually charging less than you expect, not failing**: the controller floats a near-full bank (little current by design), clouds or winter sun angle cut the input, or loads are consuming the harvest as fast as it arrives. Before replacing anything, check in order: PV voltage at the controller vs battery voltage (is there headroom?), then connections and fuses, then whether the bank is simply already full. The checklist below walks all of it.
+
 ## Key takeaways
 
 -   “Not charging” is often **low solar input** (clouds, winter sun angle, new shading) rather than a failed component.

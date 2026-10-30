@@ -11,6 +11,10 @@ image_width = 1536
 image_height = 1024
 +++
 
+## Quick answer
+
+A solar water heater cuts water-heating energy by **50–80%** (water heating is typically the second-largest household energy load), using collectors that heat fluid directly instead of making electricity first — roughly **3× more efficient per square foot than photovoltaic** doing the same job. Expect **$3,000–$9,000 installed** for a residential system with payback in the 5–10 year range depending on climate and your current fuel. In freezing climates, indirect glycol systems are the standard; in frost-free regions, direct systems win on simplicity. No federal credit applies in 2026 — check state incentives.
+
 Welcome to SolarPoweredProject.com, your resource for mastering renewable energy technology. This guide provides a technical and financial breakdown of solar water heating systems, designed to help homeowners and project managers evaluate the feasibility, installation requirements, and long-term ROI of transitioning from electric or gas heating to solar thermal energy.
 
 ## Key Takeaways
@@ -147,21 +151,21 @@ Determine if you are performing a **Direct System** or **Indirect System** insta
 
 ## Frequently Asked Questions
 
-### Can a solar water heater work on cloudy days?
-
+{{< faq "Can a solar water heater work on cloudy days?" >}}
 Yes. While efficiency drops significantly during heavy cloud cover, solar thermal collectors can still capture diffuse radiation. However, your backup heating source (gas or electric) will likely need to activate more frequently during these periods.
+{{< /faq >}}
 
-### Does a solar water heater replace my existing water heater?
-
+{{< faq "Does a solar water heater replace my existing water heater?" >}}
 Not entirely. Most residential solar thermal setups are "supplemental." They use solar energy to pre-heat the water, and your existing gas or electric heater only kicks in to bring the temperature from the solar-reached level (e.g., 120°F) to your desired setting.
+{{< /faq >}}
 
-### How long do solar thermal collectors last?
+{{< faq "How long do solar thermal collectors last?" >}}
+High-quality flat plate collectors typically last 20 years or more. Evacuated tube collectors may have a slightly shorter lifespan (15–20 years) due to the complexity of the vacuum seals and glass components.
+{{< /faq >}}
 
-High-quality flat plate collectors typically last 20 years or more. Evacuated tube collectors may have a slightly shorter lifespan (15-20 years) due to the complexity of the vacuum seals and glass components.
-
-### Is it better to use Solar PV or Solar Thermal for water heating?
-
+{{< faq "Is it better to use Solar PV or Solar Thermal for water heating?" >}}
 If you already have a large Solar PV array, it is often more cost-effective to simply use the excess electricity from your PV system to power a standard electric water heater. However, if you do not have PV, a dedicated Solar Thermal system is more efficient at the specific task of heating water.
+{{< /faq >}}
 
 ***
 

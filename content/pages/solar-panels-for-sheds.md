@@ -21,6 +21,10 @@ related = [
 
 <p class="jump-links"><a href="#key-takeaways" class="text-link">Key Takeaways</a> <a href="#assessing-your-energy-needs-and-load-requirements" class="text-link">Assessing Your Energy Needs and Load Requirements</a> <a href="#system-architectures-grid-tied-vs-off-grid-vs-hybrid" class="text-link">System Architectures: Grid-Tied vs. Off-Grid vs. Hybrid</a> <a href="#essential-components-and-hardware-selection" class="text-link">Essential Components and Hardware Selection</a> <a href="#installation-steps-and-practical-considerations" class="text-link">Installation Steps and Practical Considerations</a> <a href="#frequently-asked-questions" class="text-link">Frequently Asked Questions</a> <a href="#related-guides" class="text-link">Related guides</a></p>
 
+## Quick answer
+
+A shed solar system is the cheapest real solar you can build: **$150–$600** covers lights, phone charging, and small tools with a **100–200W panel, 20–30A controller, and a 50–100Ah battery**; a workshop running power tools adds a 1,000–2,000W inverter and pushes the total to **$1,000–$2,500**. Because sheds rarely need permits-level power, most builds are DIY in a weekend — but the wiring rules don't relax: [fuse every source](wiring-decisions.html), size the [inverter cables](battery-cable-size-for-inverter.html) honestly, and keep the battery ventilated and enclosed.
+
 Transforming a shed, garage, or workshop into a self-sustaining power hub is one of the most efficient ways to begin your solar journey. Unlike large-scale residential arrays that require complex grid integration and significant permitting, solar for outbuildings often functions as an "off-grid" or "semi-detached" system, providing dedicated power for tools, lighting, security cameras, or even small workshops without increasing your main home's electricity bill. It's the scale where the [solar use-case hub](/pages/solar-use-cases.html) says most first-time builders should start.
 
 ## Key Takeaways
@@ -143,21 +147,21 @@ To give you a realistic idea of the financial commitment, here is a breakdown of
 
 ## Frequently Asked Questions
 
-### Can I use solar panels from an old residential system for my shed?
-
+{{< faq "Can I use solar panels from an old residential system for my shed?" >}}
 Yes, provided the voltage and amperage of the old panels are compatible with your new charge controller. However, you must recalculate your system's capacity based on the specific wattage of those panels.
+{{< /faq >}}
 
-### Will solar power run my heavy-duty table saw?
-
+{{< faq "Will solar power run my heavy-duty table saw?" >}}
 It depends on the "startup surge." A table saw might be rated at 1,500W, but it may require a 3,000W surge to start the motor. You must ensure your inverter is rated for that peak surge wattage.
+{{< /faq >}}
 
-### Do I need a permit for a small solar shed setup?
-
+{{< faq "Do I need a permit for a small solar shed setup?" >}}
 If the system is completely off-grid and not connected to your home's electrical wiring, you generally do not need an electrical permit. However, always check local zoning laws regarding outdoor structures and mounting.
+{{< /faq >}}
 
-### How much maintenance does a shed solar system need?
-
-Maintenance is minimal. The primary task is cleaning the panels with water and a soft cloth every 6 months to remove pollen, dust, or bird droppings, which can reduce efficiency by 10-25%.
+{{< faq "How much maintenance does a shed solar system need?" >}}
+Maintenance is minimal. The primary task is cleaning the panels with water and a soft cloth every 6 months to remove pollen, dust, or bird droppings, which can reduce efficiency by 10–25%.
+{{< /faq >}}
 
 If your load math landed in the lights-and-tool-charging band rather than the workshop scenarios, this is the baseline kit that fits:
 

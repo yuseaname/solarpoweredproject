@@ -11,6 +11,10 @@ image_width = 1536
 image_height = 1024
 +++
 
+## Quick answer
+
+Solar panels make electricity in two steps: sunlight knocks electrons loose inside silicon cells (the **photovoltaic effect** — photons in, DC current out), and the panel's cells are wired in series so their small voltages stack into a useful 30–45V. Panels produce **DC**; an inverter converts it to the **AC** your outlets use. No moving parts, nothing consumed — output degrades only ~0.5% per year, which is why panels carry 25–30-year warranties.
+
 Understanding how solar panels convert sunlight into usable electricity is the first step toward evaluating whether solar energy is a viable investment for your home or business. While the process involves complex physics, the fundamental mechanism—the photovoltaic effect—is a predictable and reliable way to generate clean energy.
 
 ## Key Takeaways

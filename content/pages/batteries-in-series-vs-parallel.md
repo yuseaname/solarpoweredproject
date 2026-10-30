@@ -34,6 +34,10 @@ Which one you want is not really a battery decision. It's a **system decision**:
 <figcaption>Series strings add voltage end to end; parallel groups keep the voltage and add capacity. Illustrative render.</figcaption>
 </figure>
 
+## Quick answer
+
+**Series adds voltage** (12V + 12V = 24V, same Ah); **parallel adds amp-hours** (12V, 100Ah + 100Ah = 200Ah). Series means lower current and thinner cable but every battery must match; parallel keeps voltage low but demands heavier cable and per-string fusing. The one rule with no exception: never mix capacities, ages, or chemistries in one bank — the weakest battery sets the limit for all of them.
+
 ## Key takeaways
 
 - **Series:** voltages add, amp-hours stay, current stays low — thinner cable, but every battery must match.

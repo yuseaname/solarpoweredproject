@@ -21,6 +21,10 @@ related = [
 
 <p class="jump-links"><a href="#quick-diagnostic-flowchart-zero-charge-current-start-here" class="text-link">Quick diagnostic flowchart: zero charge current? Start here</a> <a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#how-mppt-finds-power-one-concept" class="text-link">How MPPT “finds” power (one concept)</a> <a href="#step1" class="text-link">Step 1: Confirm PV input exists (sun/shade/soiling) {#step1}</a> <a href="#step2" class="text-link">Step 2: Confirm PV voltage is high enough {#step2}</a> <a href="#step3" class="text-link">Step 3: Validate array wiring and controller limits {#step3}</a> <a href="#step4" class="text-link">Step 4: Check charging stage and settings {#step4}</a></p>
 
+## Quick answer
+
+An MPPT showing zero (or low) charge current is **usually not broken**. In rough order of likelihood: the battery is already full (float behavior), PV input is genuinely low (clouds, shade, winter angle), or the array voltage doesn't have enough headroom above battery voltage — MPPTs typically need **5V+ of excess on a 12V system** to regulate at all. Work the flowchart below before replacing anything; the majority of "not charging" reports end at wiring, configuration, or expectations rather than a failed controller.
+
 ## Quick diagnostic flowchart: zero charge current? Start here
 
 Work through these in order. Most "not charging" problems are found in the first three steps:

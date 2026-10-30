@@ -14,6 +14,10 @@ image_height = 768
 
 {{< affiliate-disclosure >}}
 
+## Quick answer
+
+Every wiring decision in a solar system follows one rule: **each source of fault current gets its own protection, sized to the wire it feeds.** That means three separate decisions — array-side (fuses vs breakers per string), controller-to-battery (short, thick, fused), and battery-to-inverter (the heaviest circuit in the build, per the [inverter cable guide](battery-cable-size-for-inverter.html)) — plus wire gauge driven by amps and run length, not watts. The hub below walks each decision in order.
+
 ## The one rule the rest of this hub hangs on
 
 **Every source of fault current gets its own protection, sized to the wire it feeds.** In a solar system there are usually three sources: the array, the battery, and (on grid-interactive gear) the grid. Each one can dump energy into a short faster than you can react, and each needs an overcurrent device that clears before the *wire* becomes the failure point. Everything else on this page — gauge ladders, fuse-versus-breaker choices, series-versus-parallel strings — is downstream of that sentence.

@@ -13,7 +13,13 @@ image_height = 1024
 
 <p class="jump-links"><a href="#what-youre-sizing-and-why-cabins-are-different" class="text-link">What you’re sizing</a> <a href="#step-1-estimate-your-cabins-daily-energy-use-whday" class="text-link">Step 1: Daily energy use</a> <a href="#step-2-choose-autonomy-and-size-battery-capacity" class="text-link">Step 2: Battery capacity</a> <a href="#step-3-size-solar-panels-to-refill-the-battery-each-day" class="text-link">Step 3: Panel watts</a> <a href="#step-4-size-the-inverter-continuous--surge" class="text-link">Step 4: Inverter sizing</a> <a href="#step-5-pick-a-system-voltage-that-fits-your-power-level" class="text-link">Step 5: System voltage</a> <a href="#common-cabin-sizing-mistakes-and-how-to-avoid-them" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a></p>
 
-## What you’re sizing (and why cabins are different)
+## Quick answer
+
+Most off-grid cabins land in the **1–3kWh/day** band, which sizes out to roughly **600–1,200W of panel, 4–8kWh of LiFePO4 battery (2–3 days autonomy), and a 1,500–2,000W inverter** — about $4,000–$8,500 in DIY parts. The order that avoids every classic mistake: list the cabin’s loads in watt-hours first (the [load worksheet](how-to-calculate-solar-load.html) does exactly this), then battery, then panels, then inverter. Size for your worst season — winter sun can be half of summer — never the average.
+
+{{< product-box asin="B084DB36KW" name="LiTime 12V 100Ah LiFePO4" label="The cabin storage building block" description="1.28kWh of LiFePO4 per unit (per manufacturer spec) — the block the battery step above counts in. Two units give a small cabin 2.5kWh usable, four cover the 1–3kWh/day band with two days of autonomy. Not for: inverter surge loads beyond the BMS continuous rating — check the spec sheet before sizing the inverter around it. The honest tradeoff: cheaper per-kWh than pre-wired server-rack batteries, but you add the monitoring, fusing, and enclosure planning yourself." button="Check price on Amazon" >}}
+
+## What you're sizing (and why cabins are different)
 
 Most cabin solar systems are off-grid or “mostly off-grid,” which means you’re sizing for both **energy** (watt-hours per day) and **power** (peak watts at one moment). Cabins also have two common curveballs:
 

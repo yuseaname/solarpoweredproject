@@ -7,6 +7,12 @@ description = "How much power can micro-hydro make? A physics-based run-of-river
 author = "Solar Powered Project"
 +++
 
+{{< affiliate-disclosure >}}
+
+## Quick answer
+
+Micro-hydro output comes down to two site numbers: **head** (vertical drop in meters) and **flow** (liters per second). Real watts ≈ 5 × head × flow × efficiency — so 10m of head at 20 L/s yields roughly 600–800W continuous, day and night. That 24/7 duty cycle is why hydro beats solar per watt in the right site: 500W of hydro is 12kWh/day, equal to a 3.5kW solar array. Sites with head but low flow suit impulse turbines (Pelton); low head with high flow suits crossflow or a water wheel. Design it as a battery charger with regulation, and it becomes the most reliable input layer of an [off-grid or grid-down](/grid-down/rebuilding-power-from-scratch.html) system.
+
 ## Key takeaways
 
 -   Micro-hydro output is mainly set by **head** (height drop) and **flow** (water volume per second).

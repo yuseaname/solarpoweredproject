@@ -13,6 +13,10 @@ image_height = 1024
 
 <p class="jump-links"><a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#the-real-goal-safety--performance" class="text-link">The real goal</a> <a href="#two-rules-that-prevent-most-mistakes" class="text-link">Two rules that prevent most mistakes</a> <a href="#a-simple-4-step-decision-flow-what-to-measure-first" class="text-link">A simple 4-step decision flow</a> <a href="#rule-2-distance-drives-voltage-drop" class="text-link">Why higher voltage simplifies wiring</a> <a href="#what-dc-rated-means-a-quick-checklist" class="text-link">A quick “DC-rated” checklist</a> <a href="#two-rules-that-prevent-most-mistakes" class="text-link">Common wire-sizing mistakes</a> <a href="#faq" class="text-link">FAQ</a></p>
 
+## Quick answer
+
+Wire size is driven by **max amps and one-way run length** — never by "average watts." The three circuits in a solar system size differently: PV-to-controller (higher voltage, lower current), controller-to-battery (short, thick), and battery-to-inverter (the heaviest wire in the system — see the [inverter cable guide](battery-cable-size-for-inverter.html)). Keep voltage drop under 3% on runs that matter, and when in doubt, higher system voltage beats thicker copper: 48V at the same watts needs a quarter of the current of 12V.
+
 ## Key takeaways
 
 -   Start by identifying the circuit: PV wiring, controller-to-battery, or battery-to-inverter.

@@ -13,6 +13,10 @@ image_height = 1024
 
 The right tilt angle is the difference between a panel that produces what its spec sheet promises and one that quietly loses 5–15% of its annual yield. Enter your latitude below and the calculator returns your best fixed angle plus the steeper winter and shallower summer angles for adjustable mounts — then the formulas, so you can check the math yourself.
 
+## Quick answer
+
+Set your panel tilt to roughly **your latitude** for year-round output (a 40°N installation → ~40° from horizontal, facing true south in the Northern Hemisphere). For a seasonal boost, subtract ~15° in summer and add ~15° in winter — twice-a-year adjustment gains 5–10% annual yield. Flat is the worst fixed option (5–15% loss), and orientation beats angle: true south with a wrong tilt outperforms the perfect tilt facing the wrong way. The calculator below works your exact latitude.
+
 ## Key takeaways
 
 -   **Latitude is the baseline:** Your solar panel tilt should generally mirror your latitude to maximize year-round energy capture.
@@ -240,21 +244,21 @@ When deciding whether to invest in an adjustable system, calculate your "Payback
 
 ## Frequently Asked Questions
 
-### Does the direction (azimuth) matter as much as the tilt?
+{{< faq "Does the direction (azimuth) matter as much as the tilt?" >}}
+Yes. While tilt determines how much light you catch, azimuth (direction) determines *when* you catch it. In the Northern Hemisphere, facing true south is essential. If your panels face East or West, you may lose up to 15–20% of your potential daily energy.
+{{< /faq >}}
 
-Yes. While tilt determines how much light you catch, azimuth (direction) determines *when* you catch it. In the Northern Hemisphere, facing true south is essential. If your panels face East or West, you may lose up to 15-20% of your potential daily energy.
-
-### Can I use the slope of my existing roof for the angle?
-
+{{< faq "Can I use the slope of my existing roof for the angle?" >}}
 In most residential installations, yes. Most installers will use the existing pitch of the roof to save on mounting costs. If your roof pitch is within 10 degrees of your optimal calculated angle, the cost savings of using the existing pitch usually outweigh the small loss in energy production.
+{{< /faq >}}
 
-### Will dust and dirt affect the angle's efficiency?
-
+{{< faq "Will dust and dirt affect the angle's efficiency?" >}}
 While dust (soiling) affects production, it is not directly related to the tilt angle. However, a steeper tilt helps with "self-cleaning" during rainstorms, whereas a flat tilt allows dust and debris to accumulate more easily.
+{{< /faq >}}
 
-### Is it worth it to install solar in a cloudy climate?
-
+{{< faq "Is it worth it to install solar in a cloudy climate?" >}}
 Yes. While cloudy regions (like the Pacific Northwest) have lower solar irradiance, the panels still produce electricity via diffuse light. The key is to optimize the tilt to capture as much of that available light as possible during the sunnier months.
+{{< /faq >}}
 
 ## Related guides
 

@@ -7,6 +7,12 @@ description = "What are supercapacitors good for? A DIY bank guide: energy math,
 author = "Solar Powered Project"
 +++
 
+{{< affiliate-disclosure >}}
+
+## Quick answer
+
+A supercapacitor bank is a **power buffer, not an energy store**: it absorbs and releases bursts extremely fast and survives hundreds of thousands of cycles, but it holds ~50–100× less energy per dollar than lithium (a 6×350F bank stores ~1Wh). The solar use case is real but narrow — bridging surge loads, smoothing a variable source before it reaches the charge controller, or buffering a [scavenged generator](/grid-down/solar-array-from-salvage.html) whose output jumps around. For storing hours of energy, lithium wins by a mile; for surviving millions of micro-cycles, nothing else is close.
+
 ## Key takeaways
 
 For the battery the caps buffer: <a href="../pages/li-ion-vs-lead-acid.html" class="text-link">chemistry tradeoffs →</a> and <a href="../pages/solar-battery-monitoring-guide.html" class="text-link">monitoring without guesswork →</a>.

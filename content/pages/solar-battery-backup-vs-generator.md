@@ -20,6 +20,8 @@ related = [
 
 **Short answer:** pick a **battery** if your outages are short or frequent, noise and exhaust matter (HOA, close neighbors, indoor equipment like a CPAP), or you already have solar — a battery makes the panels useful during an outage and silent backup automatic. Pick a **generator** if your outages run multi-day, your loads include a well pump, electric heat, or central AC, or the budget per protected watt is the constraint. Homes with both risks often land on the hybrid: a small battery for essentials plus a generator for the long tail. The math and the decision checklist are below.
 
+{{< product-box asin="B0B9XB57XM" name="EF ECOFLOW Portable Power Station DELTA 2, 1024Wh" label="The battery-backup baseline" description="1,024Wh / 1,800W (per manufacturer spec) — the size class where battery backup starts covering fridges, internet, and medical devices through a typical outage quietly and indoors. Expandable with extra batteries instead of replacing the unit. Not for: whole-home backup or well pumps — 3,000W+ surge loads need a larger station or a fixed installed battery. The honest tradeoff: at ~$1/Wh you pay a premium per kWh over an installed battery bank; what you buy is zero installation, zero fuel, and indoor-safe operation." button="Check price on Amazon" >}}
+
 ## Key takeaways
 
 -   A battery is a **finite tank measured in kWh**; a generator is a **fuel machine measured in runtime**. Size a battery by usable watt-hours against your daily essential load; size a generator by surge watts against your biggest motor start.

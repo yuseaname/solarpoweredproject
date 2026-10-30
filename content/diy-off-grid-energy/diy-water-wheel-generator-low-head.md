@@ -7,6 +7,14 @@ description = "Can a water wheel power your off-grid setup? A low-head guide: si
 author = "Solar Powered Project"
 +++
 
+{{< affiliate-disclosure >}}
+
+## Quick answer
+
+A low-head water wheel can genuinely charge batteries — output is set by the reality-check equation **P ≈ 0.5 × flow (L/s) × head (m)** in watts, so a modest stream (50 L/s over 1m) offers ~25–50W of real, 24/7 power. That round-the-clock duty cycle is water's superpower: 30W continuous is ~720Wh/day, rivaling a 200W solar array. If you have flowing water on a property, micro-hydro is usually the strongest single input a [grid-down](/grid-down/rebuilding-power-from-scratch.html) or off-grid plan can have. The engineering realities: debris and flood survival, gearing to charging RPM, and regulation before any battery connection.
+
+{{< product-box asin="B0B57L9FNL" name="Klein Tools MM325 Multimeter" label="Site survey, then watts" description="A water site's promise is proven with two readings: volts and amps into a resistive load while the wheel runs at working speed — multiplied, they end the estimate-versus-reality argument (per manufacturer spec, 600V CAT III). Not for: submersion or direct outdoor exposure — meter the circuit at the bench, not the stream. The honest tradeoff: a half-hour of measurement before building beats a season of guessing after." button="Check price on Amazon" >}}
+
 ## Key takeaways
 
 -   Low-head water wheels are usually about **flow** more than head, so output is often modest unless flow is high.

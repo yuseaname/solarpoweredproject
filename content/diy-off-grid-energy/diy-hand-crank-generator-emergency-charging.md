@@ -16,6 +16,8 @@ image_width = 1200
 image_height = 800
 +++
 
+{{< affiliate-disclosure >}}
+
 <figure class="article-image article-image--hero">
 <img src="/images/diy-hand-crank-generator-emergency-charging/hero.webp" loading="eager" data-fetchpriority="high" decoding="async" alt="Hand-crank generator technical plate: cutaway of the dynamo and gear train charging a USB power bank" width="1200" height="800" />
 </figure>

@@ -18,6 +18,11 @@ related = [
 
 
 {{< affiliate-disclosure >}}
+
+## Quick answer
+
+Solar panels themselves cost **$0.40–$1.20 per watt** — roughly **$180–$500 per panel** at 2026 pricing, with pallet quantities near $0.45–$0.70/W. Installed, a complete system runs **$2.50–$3.50 per watt** ($15,000–$21,000 for 6kW), because panels are only 25–30% of an installed quote: labor, permitting, and installer margin make up the rest. There is no federal tax credit in 2026 — the 30% ITC expired December 31, 2025 — so budget the full price and check your [state's incentives](/guides.html) instead.
+
 Understanding the cost of solar energy is the most critical step in determining whether a transition to renewable energy is financially viable for your household. While the upfront investment can seem daunting, the true cost of solar is measured not just in dollars spent today, but in the long-term reduction of utility bills and the lifetime value of the energy produced. This guide provides a detailed breakdown of the components, variables, and financial incentives that dictate the total price of a solar installation.
 
 ## Key Takeaways
@@ -117,21 +122,23 @@ In a Lease or PPA, a third-party company installs and maintains the panels on yo
 
 ## Frequently Asked Questions
 
-### How long does it take for solar panels to pay for themselves?
+{{< faq "How long does it take for solar panels to pay for themselves?" >}}
+The payback period typically ranges from 6 to 10 years with favorable rates and sun, stretching toward 10–14 years nationally without the federal credit (which expired December 31, 2025). It depends on your local electricity rates, the sunlight your roof receives, and available state incentives — run your own numbers in the [payback calculator](solar-payback-calculator.html).
+{{< /faq >}}
 
-The "payback period" typically ranges from 6 to 10 years. This depends on your local electricity rates, the amount of sunlight your roof receives, and the amount of available state incentives.
-
-### Did the 30% Federal Tax Credit apply to the whole cost?
-
+{{< faq "Did the 30% Federal Tax Credit apply to the whole cost?" >}}
 For systems installed in 2025 or earlier, yes — the Federal Investment Tax Credit (ITC) applied to the total system cost, including labor, equipment, and battery storage (if part of the solar installation), as a credit against federal income tax liability. The credit expired December 31, 2025, so 2026 installations get no federal credit; check whether your state offers its own credit or exemption.
+{{< /faq >}}
 
-### Will solar panels increase my home's value?
-
+{{< faq "Will solar panels increase my home's value?" >}}
 Studies, including those from Zillow, suggest that solar installations can increase home resale value by approximately 4%. Homeowners generally prefer the predictable, lower utility costs associated with solar-equipped properties.
+{{< /faq >}}
 
-### Is it cheaper to buy panels or lease them?
+{{< faq "Is it cheaper to buy panels or lease them?" >}}
+Buying (via cash or loan) is almost always cheaper in the long run. While leasing has no upfront cost, the owner of the system keeps the tax benefits and the long-term savings from the increased energy production. The full comparison is in [solar lease vs buy (2026)](solar-lease-vs-buy-2026.html).
+{{< /faq >}}
 
-Buying (via cash or loan) is almost always cheaper in the long run. While leasing has no upfront cost, the owner of the system keeps the tax benefits and the long-term savings from the increased energy production.
+{{< product-box asin="B07GF5JY35" name="Renogy 100W 12V Monocrystalline Panel" label="What a per-watt price looks like in hardware" description="At $0.40–$1.20/W, panels are the cheapest major component in a solar system — this 100W 12V monocrystalline module (per manufacturer spec) is the commodity benchmark the per-watt math above is built on. Not for: whole-house arrays, where pallet-priced higher-wattage modules win on $/W. The honest tradeoff: single panels cost more per watt than pallet buys; what you get is hardware you can add one at a time." button="Check price on Amazon" >}}
 
 ## Related guides
 

@@ -16,6 +16,8 @@ image_width = 1200
 image_height = 800
 +++
 
+{{< affiliate-disclosure >}}
+
 <figure class="article-image article-image--hero">
 <img src="/images/pedal-power-generator-for-off-grid-battery-charging/hero.webp" loading="eager" data-fetchpriority="high" decoding="async" alt="Pedal-powered generator technical plate: bicycle rear roller driving a motor through a charge controller into a 12V battery" width="1200" height="800" />
 </figure>

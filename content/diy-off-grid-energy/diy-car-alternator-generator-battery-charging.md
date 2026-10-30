@@ -7,6 +7,14 @@ description = "Can a car alternator charge an off-grid battery bank? A realistic
 author = "Solar Powered Project"
 +++
 
+{{< affiliate-disclosure >}}
+
+## Quick answer
+
+Yes, a car alternator can charge a battery — but it is the wrong generator for low-speed DIY drives. Alternators are built for **thousands of engine RPM**: belt one to a bicycle or water wheel and you usually get field-excitation problems and single-digit watts, not the 60A on the label. What makes alternators interesting is scavenging: after a grid-down event they're among the most available generators, which is exactly the context the [rebuilding power from scratch](/grid-down/rebuilding-power-from-scratch.html) pillar covers. Judge any build by **measured amps into a real battery**, never open-circuit voltage.
+
+{{< product-box asin="B0B57L9FNL" name="Klein Tools MM325 Multimeter" label="The verdict tool" description="The difference between a working alternator rig and a spinning paperweight is one measurement: amps into a real battery at your actual drive speed. This meter reads the volts and milliamps that tell you whether field excitation is happening and whether the 60A label means anything at your RPM (per manufacturer spec). Not for: mains work. The honest tradeoff: without measured amps, every alternator build report is a guess — this is the tool that ends the argument." button="Check price on Amazon" >}}
+
 ## Key takeaways
 
 -   Alternators are designed for **high RPM** and **engine-driven power** — low-speed DIY drives often underperform.

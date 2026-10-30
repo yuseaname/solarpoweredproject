@@ -17,6 +17,10 @@ image_height = 1024
 
 <p class="jump-links"><a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#what-a-battery-management-system-actually-does" class="text-link">What a battery management system actually does</a> <a href="#how-a-bms-works" class="text-link">How a BMS works</a> <a href="#types-of-bms" class="text-link">Types of BMS</a> <a href="#when-you-need-an-external-bms" class="text-link">When you need an external BMS</a></p>
 
+## Quick answer
+
+A battery management system is the lithium battery's built-in bodyguard: it monitors every cell's voltage and **disconnects the battery** the moment any cell overcharges, over-discharges, or overheats. Lithium banks **require** one — without it, cells drift and can catch fire — while lead-acid tolerates abuse but still benefits from a low-voltage disconnect. The common confusion: a BMS manages the *battery*; a charge controller manages the *panels*. They are different jobs, and a system needs both.
+
 ## Key takeaways
 
 -   A BMS monitors the voltage of each battery or cell and disconnects the bank if any one exceeds safe limits.
@@ -120,6 +124,24 @@ What lead-acid banks **do** benefit from is monitoring — a shunt-based battery
 
 {{< product-box asin="B075RTSTKS" name="Victron BMV-712 Battery Monitor" label="Recommended monitor" description="Shunt-based monitoring with Bluetooth and detailed in-app history — the unit our own wiring diagrams assume (per manufacturer spec). If you run lead-acid, this is the monitor that saves a $1,000 bank — the honest tradeoff: it's a monitor, not a protective BMS, so pair it with a charge controller or inverter LVD for automatic disconnect. Not for: series-connected lithium banks above 12V, which need an external protective BMS that can disconnect the whole string — see the section above before relying on monitoring alone." button="Check price on Amazon" >}}
 
+
+## FAQ
+
+{{< faq "Do I need a separate BMS if my battery has one built in?" >}}
+No — nearly all LiFePO4 drop-in batteries ship with an internal BMS, and adding an external one in-line usually causes more problems (double disconnects, conflicting limits) than it solves. An external BMS earns its place when you build a bank from raw cells or need monitoring your built-in BMS doesn't expose.
+{{< /faq >}}
+
+{{< faq "Can a BMS fix an overcharged lithium battery?" >}}
+No. A BMS prevents overcharge by disconnecting; it cannot repair cells already stressed by repeated abuse. If your bank keeps hitting BMS disconnects, the fix is upstream — correct charge controller settings and absorption voltage — not the BMS itself.
+{{< /faq >}}
+
+{{< faq "Does lead-acid need a BMS?" >}}
+Not in the same way. Lead-acid chemistry tolerates overcharge (it just gasses) and doesn't cell-balance the way lithium must. What lead-acid banks do need is a low-voltage disconnect and periodic monitoring — the [battery monitoring guide](solar-battery-monitoring-guide.html) covers the lightweight options.
+{{< /faq >}}
+
+{{< faq "What's the difference between a BMS and a charge controller?" >}}
+The charge controller manages the panels' input to the battery (it decides how hard to charge); the BMS manages the battery itself (it decides whether the battery may charge or discharge at all). A system needs both: the controller optimizes, the BMS protects.
+{{< /faq >}}
 
 ## Next logical reads
 

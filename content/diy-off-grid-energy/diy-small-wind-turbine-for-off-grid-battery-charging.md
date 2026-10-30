@@ -7,6 +7,8 @@ description = "How much power does a small wind turbine make? A physics-based gu
 author = "Solar Powered Project"
 +++
 
+{{< affiliate-disclosure >}}
+
 ## Quick answer
 
 Small wind rarely delivers its "rated watts" at backyard tower heights — most sites see far less than nameplate, so plan around measured average energy (Wh/day), not peak numbers. A turbine always needs a safe electrical load: charge control plus, in most systems, a diversion (dump) load. Start with the [diversion-load basics](/diy-off-grid-energy/diy-dump-load-diversion-controller-wind-hydro.html) before buying hardware.

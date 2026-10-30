@@ -12,6 +12,10 @@ image_width = 1536
 image_height = 1024
 +++
 
+## Quick answer
+
+The three rules that prevent almost all solar-installation injuries: **cover the panels** with opaque material before wiring (they are live whenever exposed to light), **treat every battery bank as able to deliver thousands of amps** into a dropped wrench — remove jewelry, use insulated tools, fuse before the battery is connected — and above 6 feet, **use fall protection** (harness, anchor, never alone). Lithium fires need a Class D extinguisher or dry sand, never water.
+
 ## Key takeaways
 
 -   DC electrical work is dangerous — a shorted battery bank can deliver thousands of amps in an instant.

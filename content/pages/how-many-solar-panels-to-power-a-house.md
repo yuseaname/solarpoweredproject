@@ -12,6 +12,10 @@ image_width = 1024
 image_height = 768
 +++
 
+## Quick answer
+
+The average US home (~10,500 kWh/year, ~29 kWh/day) needs **roughly 15–25 panels** — a 6–10kW array — to offset its full usage, assuming today's ~440W panels and 4–5 peak sun hours. The honest answer is a formula, not a number: **panels = daily kWh ÷ (peak sun hours × panel watts × 0.8)**. A home using 29 kWh/day at 4 sun hours with 440W panels needs 29,000 ÷ (4 × 440 × 0.8) ≈ 21 panels. Work your own number below before quoting anyone else's.
+
 If you have been staring at your rising monthly utility bills and wondering, **"how many solar panels to power a house,"** you are certainly not alone. As energy prices continue to fluctuate across the United States, more homeowners are looking toward the sun as a way to lock in predictable energy costs and increase their property value.
 
 However, the answer to how many panels you need isn't a single, universal number. There is no single universal number. The number of solar panels required for your specific home depends on a complex interplay of your energy consumption, your geographic location, your roof's orientation, and the efficiency of the technology you choose.
@@ -165,6 +169,24 @@ The panels collect the energy, but the inverter converts it into the AC power yo
 Solar panels lose a tiny fraction of their efficiency every year (usually about 0.5%). When calculating your needs, it is always better to slightly oversize your system. It is much easier to add a few more panels during the initial installation than it is to try and "expand" a system five years later.
 
 ---
+
+## FAQ
+
+{{< faq "How many solar panels do I need for a 2,000 sq ft house?" >}}
+Square footage is a weak proxy — consumption is what counts. A typical 2,000 sq ft home uses 25–35 kWh/day, which needs a 7–10kW array: roughly 16–23 modern 440W panels. An all-electric home with EV charging can double that; an efficient home with gas heating can halve it. Run the load math, not the floor-area math.
+{{< /faq >}}
+
+{{< faq "Is 10kW enough to power a house?" >}}
+For most homes, yes for offsetting annual usage — 10kW produces roughly 40–50 kWh/day in good sun regions, more than the average home consumes. "Powering" a house off-grid is different: that requires the battery bank and inverter capacity to match instantaneous load, which is a much larger investment.
+{{< /faq >}}
+
+{{< faq "Do solar panels work in winter?" >}}
+Yes — output drops with shorter days and lower sun angle, typically to 40–60% of summer production in most of the US, but panels actually run more efficiently in cold weather. Snow cover stops production entirely until cleared or shed. Off-grid systems must be sized for the winter floor, not the annual average.
+{{< /faq >}}
+
+{{< faq "Can I run my house on solar without a battery?" >}}
+Grid-tied, yes — the grid acts as your battery through net metering, which is why grid-tied is the cheapest architecture. During an outage, though, a battery-less grid-tied system shuts down by design (anti-islanding protection). Power when the grid is down requires a battery and a backup-capable inverter.
+{{< /faq >}}
 
 ## Conclusion: Taking the Next Step
 

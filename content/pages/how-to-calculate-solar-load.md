@@ -12,6 +12,10 @@ image_width = 1024
 image_height = 1536
 +++
 
+## Quick answer
+
+Your solar load is **daily watt-hours**: for each device, watts × hours used, then summed. The formula is the whole method — a 150W fridge running 8 equivalent hours is 1,200 Wh/day; ten 5W LED bulbs on 4 hours are 200 Wh/day; the house total is the sum. Divide that by peak sun hours × 0.75–0.85 system efficiency to get panel watts, and don't forget surge: motors and compressors draw 2–3× their running watts at startup, which sizes the inverter, not the panels.
+
 ## Key takeaways
 
 -   A solar load calculation starts with listing every device and finding its wattage and daily run hours.

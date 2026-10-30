@@ -7,6 +7,12 @@ description = "How do you build a DIY Savonius wind turbine? A practical guide: 
 author = "Solar Powered Project"
 +++
 
+{{< affiliate-disclosure >}}
+
+## Quick answer
+
+A Savonius (vertical-axis) turbine is the easiest wind generator to build — and the least productive per swept area. Being **drag-based**, it caps out around 15–20% efficiency versus 30–40% for lift-based designs, so expect tens of watts, not hundreds, at typical backyard wind speeds. The upgrade that matters most isn't the rotor: it's **height and location**, because wind speed — and therefore power — rises steeply with elevation. Measure results as Wh/day into a battery, and treat any turbine as one input in a [multi-source grid-down plan](/grid-down/rebuilding-power-from-scratch.html), not a primary supply.
+
 ## Key takeaways
 
 -   Savonius turbines are **drag-based**: they’re simple and high-torque, but efficiency is limited.
