@@ -181,7 +181,7 @@ Two realities to accept before you start: a single 100W panel cannot run a fridg
 
 ## What this site covers
 
--   **Sizing and load math:** calculators for <a href="solar-panel-output.html" class="text-link">panel output</a>, <a href="battery-capacity.html" class="text-link">battery capacity</a>, <a href="solar-inverter-sizing.html" class="text-link">inverter sizing</a>, and <a href="how-to-calculate-solar-load.html" class="text-link">load planning</a>, with the arithmetic shown, not hidden.
+-   **Sizing and load math:** calculators for <a href="solar-panel-output.html" class="text-link">panel output</a>, <a href="battery-capacity.html" class="text-link">battery capacity</a>, <a href="solar-inverter-sizing.html" class="text-link">inverter sizing</a>, and <a href="how-to-calculate-solar-load.html" class="text-link">load planning</a>, with the arithmetic shown, not hidden — all gathered in the <a href="/calculators.html" class="text-link">calculators hub</a>.
 -   **Component decisions:** panels (mono vs poly), inverters (micro vs string, <a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM</a> controllers), batteries (<a href="li-ion-vs-lead-acid.html" class="text-link">LiFePO4 vs lead-acid</a>), and system voltage — each with comparison tables and honest trade-offs.
 -   **Costs, incentives, and wiring:** the <a href="/guides.html" class="text-link">cost guides hub</a> with regional pricing, the <a href="solar-system-costs.html" class="text-link">installed vs DIY breakdown</a>, the 2026 incentive reality (no federal ITC), and a full <a href="wiring-decisions.html" class="text-link">wiring and protection</a> cluster for the safety-critical part.
 
@@ -237,4 +237,3 @@ It depends on your electricity rate, net metering terms, and whether you need ou
 **Related guides:**
 - [DIY Stirling Engine Generator: Turn Heat Into Electricity (Educational Build)](/diy-off-grid-energy/diy-stirling-engine-generator-off-grid.html)
 - [Gravity Battery DIY: Store Energy with Weights (Physics + Build Guide)](/diy-off-grid-energy/gravity-battery-diy-energy-storage.html)
-- [How do solar panels work](/pages/how-do-solar-panels-work.html)

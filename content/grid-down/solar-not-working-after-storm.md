@@ -14,7 +14,8 @@ related = [
   "/pages/solar-grounding-and-lightning-protection.html",
   "/pages/solar-battery-not-charging-troubleshooting.html",
   "/grid-down/salvaged-solar-panels.html",
-  "/pages/mc4-connectors-wiring-guide.html"
+  "/pages/mc4-connectors-wiring-guide.html",
+  "/pages/solar-panel-shading-effects.html"
 ]
 +++
 

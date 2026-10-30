@@ -122,6 +122,7 @@ Between the two budget picks, the Rover’s built-in Bluetooth app is the daily-
 
 -   **Sizing by panel watts alone, ignoring voltage:** a 4 kW array at 48 V draws very different current from a 4 kW array at 12 V. Size on both.
 -   **Ignoring cold-weather V<sub>oc</sub>:** panels gain ~0.3% V<sub>oc</sub> per °C below 25°C. A “90 V” string can exceed 100 V on a -10°C morning.
+-   **Forgetting partial shade:** if part of the array shades out predictably, a second controller (or a two-input unit) for the shaded string beats one big controller — see [how shading affects solar panels](solar-panel-shading-effects.html).
 -   **Buying the cheapest controller and a separate monitor:** you will pay more in total and lose the single-device simplicity that makes maintenance easier.
 -   **Assuming higher amps = better:** a correctly-sized 30 A controller outperforms an undersized 60 A one running at its limit. Size first; brand second.
 

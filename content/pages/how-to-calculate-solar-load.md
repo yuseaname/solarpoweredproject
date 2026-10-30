@@ -27,7 +27,7 @@ Every correctly sized solar system on the planet starts with the same boring, un
 
 Skip this step or fudge the numbers and you end up with a system that can't keep up, batteries that chronically undercharge, a generator that runs every other weekend, and a lingering feeling that solar "just doesn't work." It does work — you just sized it wrong.
 
-The good news is that the calculation itself is genuinely simple. Middle-school arithmetic. What takes time is the inventory: walking through your home, cabin, or RV with a notepad and being honest about how many hours a day the TV is actually on.
+The good news is that the calculation itself is genuinely simple. Middle-school arithmetic. What takes time is the inventory: walking through your home, cabin, or RV with a notebook. Doing exactly that for an RV? The [RV solar sizing guide](rv-solar-sizing.html) adapts this worksheet with RV-specific ranges and panel constraints.
 
 Related: <a href="solar-system-sizing.html" class="text-link">How to size a complete solar system</a> <a href="solar-basics.html" class="text-link">Solar power basics</a>
 

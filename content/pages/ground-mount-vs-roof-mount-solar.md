@@ -130,7 +130,7 @@ The choice is not about which technology is superior; it is about which fits you
 
 Roof mounts are cheaper, simpler to permit, and less visible — the default for most homes. Ground mounts cost more but allow optimal orientation, easier cleaning, and shade avoidance where the roof is unsuitable.
 
-**Next step:** get a shade analysis and a structural roof assessment before choosing — both are cheap compared to the wrong mount.
+**Next step:** get a shade analysis and a structural roof assessment before choosing — both are cheap compared to the wrong mount. To read the shade analysis yourself first, [how shading affects solar panels](solar-panel-shading-effects.html) explains what a shadow actually costs in kWh and which fixes work.
 
 ## Related guides
 

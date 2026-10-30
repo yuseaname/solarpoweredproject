@@ -1,10 +1,14 @@
 +++
-title = "Guides"
-description = "In-depth solar cost guides: what systems cost by state, current electricity rates, incentives after the 2025 federal credit expiry, and honest payback math."
+title = "Solar Cost Guides by State (2026)"
+description = "State-by-state solar cost guides with EIA electricity-rate data, post-ITC payback math, and the companion tools: system cost breakdown, net metering by state, and the payback calculator."
 draft = false
 +++
 
-Deep cost guides with current numbers. Each state guide uses EIA electricity-rate data, states its assumptions, and recomputes payback without the expired federal credit (the 30% ITC ended December 31, 2025).
+Deep cost guides with current numbers. Each state guide uses EIA electricity-rate data, states its assumptions, and recomputes payback without the expired federal credit (the 30% ITC ended December 31, 2025 — there is no federal tax credit for systems installed in 2026).
+
+How to use these: start with the component-level [solar system cost breakdown](/pages/solar-system-costs.html) to see what a system *should* cost in parts versus installed, then open your state's guide for local rates and incentives, then run your own break-even in the [calculators hub](/calculators.html).
+
+## State panel cost guides (2026)
 
 - [Solar Panel Cost in California (2026)](/guides/solar-panel-cost-california.html) — net-billing exports and the NEM-3.0 math
 - [Solar Panel Cost in Texas (2026)](/guides/solar-panel-cost-texas.html) — ERCOT territory and plan-dependent buyback
@@ -16,6 +20,13 @@ Deep cost guides with current numbers. Each state guide uses EIA electricity-rat
 - [Solar Panel Cost in Illinois (2026)](/guides/solar-panel-cost-illinois.html)
 - [Solar Panel Cost in Massachusetts (2026)](/guides/solar-panel-cost-massachusetts.html)
 - [Solar Panel Cost in Nevada (2026)](/guides/solar-panel-cost-nevada.html)
-- [Solar Battery Cost 2026](/pages/solar-battery-cost-2026.html)
 
-Comparing incentives across states? [Net Metering by State (2026)](/pages/net-metering-by-state-2026.html) is the companion table.
+## The rest of the cost picture
+
+- [Solar Battery Cost 2026](/pages/solar-battery-cost-2026.html) — storage pricing per kWh, installed versus DIY
+- [Solar system cost breakdown](/pages/solar-system-costs.html) — the three-tier anchor guide (panels, batteries, inverter, line by line)
+- [Solar lease vs buy in 2026](/pages/solar-lease-vs-buy-2026.html) — cash, loan, lease, and PPA compared now that the federal credit is gone
+- [Solar financing options](/pages/solar-financing-options.html) — how to pay for solar panels
+- [Solar payback calculator](/pages/solar-payback-calculator.html) — break-even math with your own rate and sun hours
+
+Comparing incentives across states? [Net Metering by State (2026)](/pages/net-metering-by-state-2026.html) is the companion table, and [peak sun hours by state](/pages/peak-sun-hours-by-state.html) sets the production side of the payback equation.

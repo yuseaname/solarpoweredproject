@@ -18,7 +18,11 @@ related = [
 +++
 
 {{< affiliate-disclosure >}}
-<p class="jump-links"><a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#the-code-basis-and-why-our-ladder-is-conservative" class="text-link">Why inverter cables are different</a> <a href="#step-1-estimate-maximum-dc-current-use-the-inverters-specs" class="text-link">Step 1: Estimate maximum DC current</a> <a href="#step-2-measure-the-run-the-part-most-people-miss" class="text-link">Step 2: Measure the run (the part most people miss)</a> <a href="#step-3-set-a-practical-voltage-drop-target-performance-not-perfection" class="text-link">Step 3: Set a practical voltage-drop target</a> <a href="#step-4-choose-cable--lugs--protection-as-a-system" class="text-link">Step 4: Choose cable + lugs + protection as a system</a> <a href="#quick-voltage-drop-check" class="text-link">Why 24V/48V makes this easier</a> <a href="#common-mistakes-and-how-to-avoid-them" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next-logical-reads" class="text-link">Next logical reads</a></p>
+<p class="jump-links"><a href="#quick-answer" class="text-link">Quick answer</a> <a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#the-code-basis-and-why-our-ladder-is-conservative" class="text-link">Why inverter cables are different</a> <a href="#step-1-estimate-maximum-dc-current-use-the-inverters-specs" class="text-link">Step 1: Estimate maximum DC current</a> <a href="#step-2-measure-the-run-the-part-most-people-miss" class="text-link">Step 2: Measure the run (the part most people miss)</a> <a href="#step-3-set-a-practical-voltage-drop-target-performance-not-perfection" class="text-link">Step 3: Set a practical voltage-drop target</a> <a href="#step-4-choose-cable--lugs--protection-as-a-system" class="text-link">Step 4: Choose cable + lugs + protection as a system</a> <a href="#quick-voltage-drop-check" class="text-link">Why 24V/48V makes this easier</a> <a href="#common-mistakes-and-how-to-avoid-them" class="text-link">Common mistakes</a> <a href="#faq" class="text-link">FAQ</a> <a href="#next-logical-reads" class="text-link">Next logical reads</a></p>
+
+## Quick answer
+
+For short runs (under 5 feet one-way) on copper cable: a 1000W inverter at 12V needs **4 AWG**, a 1500W at 12V needs **2/0 AWG**, and a 2000W at 12V needs **4/0 AWG**. Doubling system voltage roughly quarters the current — the same 2000W inverter at 48V needs only **8 AWG**. Fuse the positive lead to protect the wire (DC-rated only), and if the inverter shuts down under load while the battery reads fine, suspect voltage drop in the cable or a hot lug before blaming the hardware. Work the four steps below — or use the [one-page inverter cable size chart](inverter-cable-size-chart.html) for a faster lookup.
 
 ## Key takeaways
 
@@ -246,7 +250,9 @@ Thick cable only helps if the terminations and protection hardware match. Many �
 -   Use **DC-rated** fuses/breakers/disconnects at the correct voltage rating for your system.
 -   Protection is typically chosen to **protect the wire** and the circuit, not to “protect the appliance.”
 
-<a href="solar-fuses-vs-breakers.html" class="text-link">Solar fuses vs breakers (where each belongs)</a> <a href="solar-wiring-and-protection-cost.html" class="text-link">Wiring &amp; protection cost (what’s included)</a>
+{{< product-box asin="B094QWG3VV" name="Blue Sea Systems 2315 100A Mini BusBar (4 Studs)" label="The termination that tidies high-current runs" description="Four-stud, 100A-rated DC busbar (per manufacturer spec) for landing inverter, battery, and charger positives on one torqued, inspectable point instead of a stack of ring lugs. Not for: the main 12V feed of a 2000W-class inverter — 167A exceeds this bar's rating; use it for sub-100A distribution or size the busbar up. The honest tradeoff: it adds a component, but it turns your worst heat suspect (the stacked lug) into four labeled, re-torqueable studs." button="Check price on Amazon" >}}
+
+<a href="solar-fuses-vs-breakers.html" class="text-link">Solar fuses vs breakers (where each belongs)</a> <a href="solar-wiring-and-protection-cost.html" class="text-link">Wiring &amp; protection cost (what’s included)</a> <a href="inverter-cable-size-chart.html" class="text-link">Inverter cable size chart (one-page lookup)</a>
 
 ## Why 24V or 48V usually makes battery cabling easier
 

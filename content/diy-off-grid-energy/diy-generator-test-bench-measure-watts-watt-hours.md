@@ -213,14 +213,15 @@ Not at first. A controlled resistive load is usually safer and more repeatable f
 Measure RPM while increasing load. If RPM collapses and watts drop, you’re past the sweet spot. Back off the load and change gearing or generator choice if needed.
 {{< /faq >}}
 
-{{< faq "What’s a realistic “success metric” for wind experiments?" >}}
+{{< faq "What’s a realistic success metric for wind experiments?" >}}
 Track Wh/day and “time above a minimum watt level.” Peak watts in gusts matter less than consistent energy over time.
+{{< /faq >}}
 
 ---
 
 **Related guides:**
 - [DIY Small Wind Turbine for Battery Charging (Wiring + Diversion Load Control)](/diy-off-grid-energy/diy-small-wind-turbine-for-off-grid-battery-charging.html)
+- [Treadmill Motor as a Generator: DIY Battery Charging for Wind, Water, or Pedal Power](/diy-off-grid-energy/treadmill-motor-generator-for-off-grid-charging.html)
 - [Multi-Source Hybrid Off-Grid Charge Controller: Combine Solar, Wind & Hydro](/diy-off-grid-energy/multi-source-hybrid-charge-controller.html)
 - [DIY Car Alternator Generator for Battery Charging: What Actually Works](/diy-off-grid-energy/diy-car-alternator-generator-battery-charging.html)
-{{< /faq >}}
 

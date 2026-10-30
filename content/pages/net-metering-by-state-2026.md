@@ -154,4 +154,4 @@ Often yes: a battery shifts exports from $0.04/kWh daytime sales to displacing $
 
 ## Next logical reads
 
-<a href="solar-panel-tax-credit.html" class="text-link">Federal solar tax credit 2026: what ended</a> <a href="solar-payback-calculator.html" class="text-link">Solar payback calculator</a> <a href="how-much-do-solar-panels-cost.html" class="text-link">How much do solar panels cost?</a> <a href="solar-battery-cost-2026.html" class="text-link">Solar battery costs 2026</a>
+<a href="solar-panel-tax-credit.html" class="text-link">Federal solar tax credit 2026: what ended</a> <a href="solar-payback-calculator.html" class="text-link">Solar payback calculator</a> <a href="solar-lease-vs-buy-2026.html" class="text-link">Solar lease vs buy (how financing changes the math)</a> <a href="how-much-do-solar-panels-cost.html" class="text-link">How much do solar panels cost?</a> <a href="solar-battery-cost-2026.html" class="text-link">Solar battery costs 2026</a>

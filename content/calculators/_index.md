@@ -22,4 +22,6 @@ Every number a solar plan needs can be computed with a hand calculator and patie
 
 ## Where the numbers go next
 
+Once the tools have given you panel watts, battery Wh, and payback years, the budget side takes over: the [solar system cost breakdown](/pages/solar-system-costs.html) prices those numbers line by line (installed and DIY), the [state cost guides](/guides.html) localize them, and [solar lease vs buy](/pages/solar-lease-vs-buy-2026.html) settles how to pay for it.
+
 Load and sun-hours feed directly into [system sizing](/pages/solar-system-sizing.html); wiring decisions flow into [wire size](/pages/solar-wire-size.html) and [fuse sizing](/pages/solar-fuse-and-breaker-sizing.html); and the whole budget-first approach is framed in [Rebuilding Power From Scratch](/grid-down/rebuilding-power-from-scratch.html).

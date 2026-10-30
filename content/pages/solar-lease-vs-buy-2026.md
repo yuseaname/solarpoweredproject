@@ -13,6 +13,12 @@ image_height = 1024
 
 {{< affiliate-disclosure >}}
 
+<p class="jump-links"><a href="#quick-answer" class="text-link">Quick answer</a> <a href="#the-four-ways-to-go-solar-in-2026" class="text-link">The four ways to go solar</a> <a href="#cost-comparison-20-year-savings-example" class="text-link">20-year savings example</a> <a href="#the-federal-tax-credit-in-2026-what-ended-what-still-helps" class="text-link">The federal credit in 2026</a> <a href="#decision-framework-which-option-is-right-for-you" class="text-link">Decision framework</a> <a href="#hidden-costs-to-watch-for" class="text-link">Hidden costs</a> <a href="#red-flags-when-to-walk-away" class="text-link">Red flags</a> <a href="#faq" class="text-link">FAQ</a></p>
+
+## Quick answer
+
+In 2026, **buying (cash or loan) beats leasing whenever you can claim your state's incentives and plan to stay 10+ years** — ownership keeps state credits, rebates, SRECs, and the ~4.1% home-value lift, while leases and PPAs sign those away for $0 down. Choose a **lease or PPA only if** your credit score blocks loan qualification (under ~640) or zero-maintenance convenience genuinely outweighs roughly half the lifetime savings. And note the 2026 baseline that applies to every option: the 30% federal tax credit expired December 31, 2025, so no financing method gets it anymore — a 7kW cash purchase still nets ~+$15,000 over 20 years, a lease +$8,000–$14,000. For what the hardware itself should cost before financing enters, see the [solar system cost breakdown](solar-system-costs.html).
+
 Choosing between leasing and buying solar panels is one of the biggest financial decisions you will make when going solar. The wrong choice can cost you tens of thousands of dollars over the life of your system. This guide breaks down every option — cash purchase, solar loan, lease, and PPA — so you can pick the one that maximizes your savings.
 
 ## The Four Ways to Go Solar in 2026
@@ -127,7 +133,7 @@ The 30% federal Residential Clean Energy Credit (IRS Section 25D) **expired Dece
 
 -   **Installed in 2025?** You can still claim 30% on your 2025 federal return (filed in 2026) using Form 5695 — including carryforward if your liability was smaller than the credit.
 -   **Leases and PPAs:** Third-party ownership never gave the homeowner the federal credit anyway — the finance company claimed it. Expect repriced contracts as operators absorb the same loss.
--   **What still helps:** State tax credits, property tax exemptions, sales tax exemptions, utility rebates, and SREC programs survive — and they flow to the system owner (cash and loan buyers), not lease/PPA customers. Check DSIRE (dsireusa.org) for your state.
+-   **What still helps:** State tax credits, property tax exemptions, sales tax exemptions, utility rebates, and SREC programs survive — and they flow to the system owner (cash and loan buyers), not lease/PPA customers. Check DSIRE (dsireusa.org) for your state, then compare export terms in [net metering by state (2026)](net-metering-by-state-2026.html) and your state's pricing in the [state cost guides](/guides.html).
 
 ## Decision Framework: Which Option Is Right for You?
 
@@ -183,10 +189,38 @@ For most homeowners in 2026, the best path is:
 
 The solar industry is mature in 2026. Panel efficiency averages 22%+, inverters are more reliable, and installation costs have dropped 40% since 2015. There has never been a better time to go solar — but choosing the right financing method is what separates a good investment from a great one.
 
+## FAQ
+
+{{< faq "Is a solar lease worth it in 2026?" >}}
+Only in specific situations: credit scores that block loan qualification, or homeowners who genuinely value zero maintenance and $0 down over maximum savings. In the 20-year comparison above, leasing nets $8,000–$14,000 versus $15,000 for cash — and unlike ownership, a lease adds no home value and signs state incentives over to the leasing company. With the federal credit gone for every financing method in 2026, the lease's one historical edge (the installer claimed the ITC and priced some of it back into the payment) has weakened.
+{{< /faq >}}
+
+{{< faq "What is the difference between a solar lease and a PPA?" >}}
+A lease charges a fixed monthly payment whether the system produces or not; a PPA charges per kilowatt-hour actually generated. In practice both are third-party ownership — the finance company owns the equipment and keeps the incentives — and both complicate home sales similarly. PPAs shift some production risk to you (unless production-guaranteed) but also charge less in low-production months.
+{{< /faq >}}
+
+{{< faq "Can I claim the federal tax credit on a leased system?" >}}
+No — and in 2026 there is no federal credit for homeowners under any structure. Before the December 31, 2025 expiry, third-party-owned systems never passed the credit to the customer anyway; the finance company claimed it. Purchased systems installed in 2025 can still claim 30% on that year's return via Form 5695.
+{{< /faq >}}
+
+{{< faq "What happens if I sell a house with a solar lease?" >}}
+The lease must be transferred to the buyer (who must qualify with the leasing company) or paid off at buyout — often $10,000–$20,000 mid-contract. Some buyers negotiate lease assumption; others walk. Owned systems have no such barrier and appraise higher, which is why realtors increasingly steer sellers away from leases. If a move within 5 years is plausible, that alone usually decides lease versus buy.
+{{< /faq >}}
+
+{{< faq "What is a lease escalator clause?" >}}
+A contractual annual payment increase, typically 2–3%. It quietly compounds: a $150/month lease with a 3% escalator is $269/month in year 25. Read the escalator before signing and compare it against your utility's historical rate increases — if the escalator exceeds utility inflation, the lease's savings shrink every year.
+{{< /faq >}}
+
+{{< faq "Should I use the solar payback calculator before deciding?" >}}
+Yes — financing choice changes payback more than panel brand does. Run your numbers in the [solar payback calculator](solar-payback-calculator.html) with your state's rate and sun hours (state-by-state data in the [cost guides](/guides.html)), then compare cash, loan, and lease scenarios at your actual electricity rate rather than the salesperson's default.
+{{< /faq >}}
+
 ## Related guides
 
 -   <a href="solar-basics.html" class="text-link">Solar power basics</a>
+-   <a href="solar-system-costs.html" class="text-link">Solar system cost breakdown</a>
 -   <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a>
+-   <a href="net-metering-by-state-2026.html" class="text-link">Net metering by state (2026)</a>
 -   <a href="solar-components.html" class="text-link">Solar components guide</a>
 - <a href="solar-payback-calculator.html" class="text-link">Solar payback calculator</a>
 
@@ -194,5 +228,4 @@ The solar industry is mature in 2026. Panel efficiency averages 22%+, inverters 
 
 **Related guides:**
 - [Solar Financing Options: How to Pay for Solar Panels](/pages/solar-financing-options.html)
-- [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california.html)
 - [How Much Do Solar Panels Cost in California in 2026?](/guides/solar-panel-cost-california.html)

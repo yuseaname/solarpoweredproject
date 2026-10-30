@@ -161,7 +161,7 @@ It increases voltage, not “free power.” Total power depends on sunlight and 
 {{< /faq >}}
 
 {{< faq "What happens if one panel is shaded?" >}}
-Shading can reduce output more in series strings. Design tries to group panels with similar sun exposure in the same string.
+Shading can reduce output more in series strings — one shaded cell can cost the whole string 30–50% of its output. Design tries to group panels with similar sun exposure in the same string; the full mechanism and the fix hierarchy are in [how shading affects solar panels](solar-panel-shading-effects.html).
 {{< /faq >}}
 
 {{< faq "Can I mix series and parallel?" >}}

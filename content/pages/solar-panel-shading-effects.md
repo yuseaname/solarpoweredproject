@@ -11,6 +11,12 @@ image_width = 1536
 image_height = 1024
 +++
 
+<p class="jump-links"><a href="#quick-answer" class="text-link">Quick answer</a> <a href="#key-takeaways" class="text-link">Key takeaways</a> <a href="#the-counterintuitive-truth-about-shading" class="text-link">The counterintuitive truth</a> <a href="#how-bypass-diodes-work" class="text-link">How bypass diodes work</a> <a href="#why-series-strings-suffer-most" class="text-link">Why series strings suffer</a> <a href="#module-level-power-electronics-mlpes" class="text-link">Optimizers &amp; microinverters</a> <a href="#how-much-does-shading-actually-cost-you" class="text-link">What shading costs you</a> <a href="#the-solution-hierarchy" class="text-link">The solution hierarchy</a> <a href="#faq" class="text-link">FAQ</a></p>
+
+## Quick answer
+
+A single shaded cell can cut a panel's output by **30–50%**, and if that panel sits in a series string, the whole string can drop to match it. Bypass diodes (built into every modern panel) cap the damage at roughly **one-third of the module per diode group** — they don't eliminate the loss. Fix shading in order of cost-effectiveness: trim the obstruction → move the panels ([ground vs roof mounting](ground-mount-vs-roof-mount-solar.html) matters here) → restring so shaded panels sit on their own MPPT input → add DC optimizers → switch to microinverters. Before buying anything, read [how shading affects solar panels](#why-one-shaded-cell-kills-the-whole-string) below — most people overspend on hardware for a problem geometry can fix.
+
 ## Key takeaways
 
 -   A single shaded cell in a series string can drag down the output of the entire panel — and often the entire string — by 30% to 50% or more.
@@ -134,7 +140,7 @@ When you discover shading on your array, work through these fixes in order — c
 
 2. **Relocate or reconfigure panels.** If only one or two panels are shaded, can they be moved to an unshaded section of the roof? On a ground mount, shifting the array 10 feet east or west may clear the shadow. Small adjustments to panel layout often solve the problem at zero hardware cost.
 
-3. **Re-wire the array.** If you can't eliminate the shade, separate the shaded panels into their own parallel string or their own MPPT input on the charge controller/inverter. Many string inverters have 2 independent MPPT channels — putting shaded panels on one channel and unshaded panels on the other recovers most of the loss.
+3. **Re-wire the array.** If you can't eliminate the shade, separate the shaded panels into their own parallel string or their own MPPT input on the charge controller/inverter. Many string inverters have 2 independent MPPT channels — putting shaded panels on one channel and unshaded panels on the other recovers most of the loss. Off-grid, the same trick works with a controller that has multiple inputs; the [best MPPT charge controllers](best-mppt-charge-controllers.html) roundup covers which mid-size units carry more than one tracking channel.
 
 4. **Add DC optimizers.** If rewiring isn't enough, optimizers on the affected panels (or the whole array) let each panel track its own maximum power point. This is the most cost-effective hardware fix for partial, variable shade.
 
@@ -163,7 +169,7 @@ If shading is unavoidable and affects more than 10–15% of your array's annual 
 {{< /faq >}}
 
 {{< faq "Does snow count as shading?" >}}
-Yes — snow covering panels blocks light just like any other obstruction. A panel buried under an inch of snow produces essentially nothing. The fix is physical removal (roof rake, warm panels) or simply waiting for it to slide off if your panels are mounted at a steep enough angle. Dark panels in sunlight will often shed snow on their own once the sun comes out.
+Yes — snow covering panels blocks light just like any other obstruction. A panel buried under an inch of snow produces essentially nothing. The fix is physical removal (roof rake, warm panels) or simply waiting for it to slide off if your panels are mounted at a steep enough angle. Dark panels in sunlight will often shed snow on their own once the sun comes out. Storm debris — leaves and branches scattered across an array — behaves the same way; the [post-storm diagnosis order](/grid-down/solar-not-working-after-storm.html) walks the checks that separate "dirty panels" from "damaged controller."
 {{< /faq >}}
 
 ## Next logical reads
