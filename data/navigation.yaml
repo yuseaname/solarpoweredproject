@@ -14,6 +14,9 @@ main:
   - name: Project Lab
     url: /diy-off-grid-energy.html
     description: Honest experiments in alternative generation.
+  - name: Grid-Down Lab
+    url: /grid-down.html
+    description: Salvage, testing, and hardened power when infrastructure fails.
   - name: Search
     url: /search.html
     description: Find a specific question or component.

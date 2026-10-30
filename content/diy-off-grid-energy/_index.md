@@ -43,3 +43,7 @@ Physics-first experiments in alternative generation. Every article leads with th
 - [Dump-Load Diversion Controller for Wind & Hydro](/diy-off-grid-energy/diy-dump-load-diversion-controller-wind-hydro.html) — where excess watts go when the bank is full
 - [DIY Car-Alternator Generator](/diy-off-grid-energy/diy-car-alternator-generator-battery-charging.html) — why the most popular DIY generator is usually the wrong one
 - [Buck/Boost Regulation for Variable Generator Charging](/diy-off-grid-energy/diy-buck-boost-regulation-variable-generator-battery-charging.html)
+
+## When the grid is gone
+
+The planning layer that turns these experiments into a system: [Rebuilding Power From Scratch](/grid-down/rebuilding-power-from-scratch.html) — the four-element framework, triage ladder, and three build tiers. For the parts supply chain that survives disasters: [salvaged solar panels — find, test, use](/grid-down/salvaged-solar-panels.html), and [the ~40Wh/day communications budget](/grid-down/grid-down-communications-power.html) that muscle power from this page feeds perfectly.

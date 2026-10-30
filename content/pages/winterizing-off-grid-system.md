@@ -20,7 +20,7 @@ related = [
 
 ## Quick answer
 
-Winterizing an off-grid system is five jobs, in this order: **protect the batteries from cold charging** (the only winter failure that permanently destroys hardware), **re-set your harvest expectations to winter sun**, **manage snow and tilt on the panels**, **check the wiring and connections that cold contracts and condensation corrode**, and **triage your loads before the first deep freeze, not during it**. Nothing here needs testing claims — it's manufacturer spec math and physics you can verify against your own gear. Do the list once in autumn and your January self will thank you.
+Winterizing an off-grid system is five jobs, in this order: **protect the batteries from cold charging** (the only winter failure that permanently destroys hardware), **re-set your harvest expectations to winter sun**, **manage snow and tilt on the panels**, **check the wiring and connections that cold contracts and condensation corrode**, and **triage your loads before the first deep freeze, not during it**. Nothing here needs testing claims — it's manufacturer spec math and physics you can verify against your own gear. Do the list once in autumn and your January self will thank you. The load-triage habit here is the winter cut of the [complete grid-down guide](/grid-down/rebuilding-power-from-scratch.html).
 
 ## 1. Batteries: the one mistake that's permanent
 

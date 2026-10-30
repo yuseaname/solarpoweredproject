@@ -22,6 +22,8 @@ image_height = 768
 
 <a href="solar-panels-series-vs-parallel.html" class="text-link">Series vs parallel solar panels</a> <a href="wiring-decisions.html" class="text-link">Solar wiring decisions (pillar hub)</a>
 
+Scaling toward a multi-panel array? [From One Panel to a Microgrid](/grid-down/solar-array-from-salvage.html) works the string arithmetic, the controller headroom rule, and the 2/4/8-panel build table.
+
 ## What a combiner box does (plain English)
 
 If your array has more than one string, you have multiple sets of PV wires leaving the panels. A combiner box is simply a tidy, protected place to bring those strings together and send one pair of wires onward.

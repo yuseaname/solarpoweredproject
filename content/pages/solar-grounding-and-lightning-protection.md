@@ -23,6 +23,8 @@ related = [
 -   Residential systems typically bond to the existing service ground rather than adding a separate island rod (NEC 690.47 context) — but your AHJ and equipment manuals win.
 -   Surge protective devices (SPDs, UL 1449) buy real protection against induced surges — DC protection at the combiner and controller, AC at the panel — with short, straight ground conductors.
 
+For the exotic-pulse side of hardening — what a Faraday cage actually does for spares, and how to test one honestly — see the [Faraday cage guide](/grid-down/faraday-cage-solar-electronics.html). Surge protection and enclosure shielding solve different problems; this page is the one that pays off this storm season.
+
 ## "Grounding" is three different jobs {#jobs}
 
 Ask three people whether their solar is "grounded" and you'll get three different answers, all sincere, all about different things. The word covers three jobs that share hardware but solve different problems:

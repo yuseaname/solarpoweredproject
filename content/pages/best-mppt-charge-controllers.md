@@ -25,6 +25,8 @@ image_height = 1024
 -   The 100 V input class covers most single-string builds up to ~400 W on 12 V or ~800 W on 24 V at 30 A; bigger arrays need higher-voltage controllers or parallel units.
 -   Bluetooth monitoring is no longer premium-only — it’s the baseline feature that separates good controllers from ones you will regret buying a separate monitor for later.
 
+When you scale to multiple panels, the controller’s voltage ceiling becomes the hard boundary — [the array wiring guide](/grid-down/solar-array-from-salvage.html) shows the cold-weather headroom math that picks the class for you.
+
 <a href="mppt-vs-pwm.html" class="text-link">MPPT vs PWM (when MPPT actually matters)</a> <a href="solar-system-sizing.html" class="text-link">How to size a solar system</a>
 
 ## How to pick an MPPT before picking a brand

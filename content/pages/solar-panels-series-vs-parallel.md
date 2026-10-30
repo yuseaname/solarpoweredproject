@@ -25,6 +25,8 @@ image_height = 1024
 -   Series often helps with longer wire runs; parallel can be more forgiving in partial shading situations.
 -   Your charge controller’s voltage/current limits are the hard boundaries—design inside them.
 
+Mixing salvaged panels of different ratings? Sort by current class before wiring anything — the [salvage testing guide](/grid-down/salvaged-solar-panels.html) covers the mismatch math, and [From One Panel to a Microgrid](/grid-down/solar-array-from-salvage.html) scales it to real strings.
+
 <a href="solar-system-sizing.html" class="text-link">How to size a solar system (start here)</a>
 
 ## Quick decision guide (choose this if…)
