@@ -24,7 +24,7 @@ Whether you are trekking through a remote national park, camping in a desert, or
 
 ## Key Takeaways
 
-**Short answer:** for charging that actually works off-grid, the winning setup is a **foldable panel (14–21W+) paired with a separate power bank** — practical daytime charging speeds, stored energy for night. Integrated "solar power banks" are emergency trickle devices (their 1–2W panel takes days to refill the bank), not chargers. If it must fit in a pocket, buy it as a backup — not as the plan.
+**The trap to skip:** integrated "solar power banks" — a battery with a 1–2W panel glued on — are emergency trickle devices, not chargers; their panel takes days of sun to refill the bank they carry. If it must fit in a pocket, buy it as a backup, not as the plan.
 
 -   **Prioritize Wattage over Size:** Always look for a minimum of 5W for trickle charging, but aim for 14W to 21W for practical, usable speeds.
 -   **Check Port Specifications:** Ensure the charger provides at least 2.1A (Amps) or utilizes USB-C Power Delivery (PD) to prevent "trickle-only" charging that fails to overcome battery drain.
