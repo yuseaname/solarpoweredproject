@@ -20,6 +20,10 @@ image_height = 800
 <img src="/images/pedal-power-generator-for-off-grid-battery-charging/hero.webp" loading="eager" data-fetchpriority="high" decoding="async" alt="Pedal-powered generator technical plate: bicycle rear roller driving a motor through a charge controller into a 12V battery" width="1200" height="800" />
 </figure>
 
+## Quick answer
+
+A fit adult sustains roughly 50–150W of mechanical output for an hour — less electrical after losses — enough to charge small electronics or top up a battery bank, not run appliances. The safe chain is generator → rectifier → regulated charger → battery. Pair it with a properly [sized solar array](/pages/solar-system-sizing.html) for bulk power; pedal power is the backup and the training ground.
+
 ## Key takeaways
 
 -   Most people can sustain roughly **50–150W** of mechanical output for an hour; electrical output will be lower after losses.

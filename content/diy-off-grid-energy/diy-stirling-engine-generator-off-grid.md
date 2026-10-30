@@ -7,6 +7,10 @@ description = "Can a Stirling engine generate useful off-grid power? A realistic
 author = "Solar Powered Project"
 +++
 
+## Quick answer
+
+DIY and kit Stirling generators produce milliwatts to a few watts — real engines reach 5–15% efficiency against the Carnot limit, nowhere near sales-page numbers. They shine as thermodynamics and combined-heat-and-power demos, not battery chargers. For heat-to-electricity you can actually measure, see the [TEG approach](/diy-off-grid-energy/diy-thermoelectric-generator-teg-battery-charging.html).
+
 ## Key takeaways
 
 -   Stirling engines use **external combustion** in a closed cycle, making them fuel-flexible (wood, propane, solar thermal, waste heat).

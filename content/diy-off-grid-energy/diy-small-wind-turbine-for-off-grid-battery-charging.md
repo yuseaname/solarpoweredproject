@@ -7,12 +7,18 @@ description = "How much power does a small wind turbine make? A physics-based gu
 author = "Solar Powered Project"
 +++
 
+## Quick answer
+
+Small wind rarely delivers its "rated watts" at backyard tower heights — most sites see far less than nameplate, so plan around measured average energy (Wh/day), not peak numbers. A turbine always needs a safe electrical load: charge control plus, in most systems, a diversion (dump) load. Start with the [diversion-load basics](/diy-off-grid-energy/diy-dump-load-diversion-controller-wind-hydro.html) before buying hardware.
+
 ## Key takeaways
 
 -   Small wind succeeds on **site quality** (clean airflow) more than hardware. A short tower in turbulence is usually wasted money.
 -   Plan around **average energy (Wh/day)**, not peak “rated watts.” Most sites see far less than nameplate output.
 -   Wind turbines need **charge control** and often a **dump load** so the turbine always has a safe electrical load.
 -   The safest off-grid pattern is: **turbine → rectifier (if needed) → wind controller (with diversion/dump) → battery → inverter/loads**.
+
+{{< product-box asin="B0B57L9FNL" name="Klein Tools MM325 Multimeter" label="Measure before you trust a rated watt" description="The whole plan on this page stands or falls on two numbers you can only measure: open-circuit voltage at your tower and real charge current into your battery. A 600V CAT III meter handles hobby-scale wind safely (per manufacturer spec). Not for: anything mains-side. The honest tradeoff: what you're really verifying is the controller's diversion behavior — watch battery voltage hold while the dump load warms — and any meter does that; this one also survives the workbench." button="Check price on Amazon" >}}
 
 ## Quick reality check: when small wind works (and when it doesn’t)
 

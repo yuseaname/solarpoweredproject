@@ -15,6 +15,10 @@ image_height = 1200
 <img src="/images/diy-thermoelectric-generator-teg-battery-charging/hero.webp" loading="eager" data-fetchpriority="high" decoding="async" alt="Thermoelectric generator technical plate: TEG module between stove top and heat sink, with Seebeck-effect cross-section detail" width="800" height="1200" />
 </figure>
 
+## Quick answer
+
+A consumer thermoelectric module converts only 3–8% of a temperature difference into electricity — expect milliwatts to a few watts per module, and often under 5V, so a boost converter usually sits between module and battery. Great experiment, poor primary charger. For matching low, variable generator voltage to a battery, see [buck/boost regulation](/diy-off-grid-energy/diy-buck-boost-regulation-variable-generator-battery-charging.html).
+
 ## Key takeaways
 
 -   Thermoelectric generators work via the **Seebeck effect**: a temperature difference across a semiconductor module creates voltage.

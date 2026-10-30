@@ -36,7 +36,7 @@ A hand-crank generator can realistically produce **5–30 watts sustained**. Tha
 | 12V car battery | Barely, only as top-up | Impractical for meaningful charge |
 | Anything via an inverter | No — losses are too high | Not realistic |
 
-**The best use:** keep a hand-crank as a backup to solar panels and batteries. When the sun is out, solar does the heavy lifting. When it's not, hand-crank fills small gaps for critical devices.
+**The best use:** keep a hand-crank as a backup to solar panels and batteries. When the sun is out, solar does the heavy lifting. When it's not, hand-crank fills small gaps for critical devices. Wire it generator → rectifier → regulated DC output — never straight to a battery, which risks overvoltage — and for serious human-power output, [pedal power sustains 50–150W](/diy-off-grid-energy/pedal-power-generator-for-off-grid-battery-charging.html): legs beat arms.
 
 ## Key takeaways
 
