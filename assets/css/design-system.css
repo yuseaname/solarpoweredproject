@@ -226,7 +226,7 @@ nav[aria-label="Breadcrumb"]{margin:0 0 27px;font-size:.75rem;color:var(--muted)
 .infeed-label { display:block; font-family:var(--sans); font-size:.76rem; font-weight:600; color:var(--ink-soft); margin-bottom:8px; }
 .infeed-cta { display:inline-block; margin-bottom:6px; }
 .infeed-note { display:block; font-family:var(--sans); font-size:.66rem; line-height:1.45; color:var(--ink-soft); }
-@media (max-width: 900px){ .pick-rail-card { display:none; } }
+@media (max-width: 900px){ .pick-rail-card, .pick-rail-pick { display:none; } /* 2026-10-30: restyle renamed the card to .pick-rail-pick but never updated this rule — desktop rail pick had been leaking onto mobile since 10/4, double-surfacing the breakpoint */ }
 
 /* 2026-10-04 content-native rail restyle (NN/g rail-blindness) */
 .article-rail-eyebrow{display:block;font-size:.68rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#8a7a5c;margin-bottom:.45rem}

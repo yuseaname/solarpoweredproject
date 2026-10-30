@@ -3,25 +3,37 @@
   <div class="article-header-wrap">{{ partial "breadcrumbs.html" . }}<header class="article-header"><p class="section-kicker">{{ if eq .Section "diy-off-grid-energy" }}Project Lab · site-specific experiments{{ else }}{{ .Params.topic | default "Practical field guide" }}{{ end }}</p><h1>{{ .Title }}</h1>{{ with .Params.description }}<p class="article-dek">{{ . }}</p>{{ end }}<div class="article-meta">{{ with .Params.author }}<span>By {{ . }}</span>{{ end }}<time datetime="{{ .Date.Format "2006-01-02" }}">Published {{ .Date.Format "Jan 2, 2006" }}</time>{{ $u := "" }}{{ with .Params.updated }}{{ $u = . }}{{ end }}{{ if not $u }}{{ if and .GitInfo (gt .Lastmod .Date) }}{{ $u = .Lastmod }}{{ end }}{{ end }}{{ with $u }}<span>Updated {{ dateFormat "Jan 2, 2006" $u }}</span>{{ end }}{{ with .Params.reviewed }}<span>Reviewed {{ dateFormat "Jan 2, 2006" . }}</span>{{ end }}<span>{{ .ReadingTime }} min read</span></div></header>{{ partial "system-strip.html" . }}</div>
   {{- $content := .Content -}}
 {{- $picks := .Store.Get "picks" | default slice -}}
-{{- if gt (len $picks) 0 -}}
-  {{- /* Script guard: embedded JS (toolscript calculators) can carry a literal
-         '</p>' inside string constants; splitting there corrupts the script
-         (live CI incident 2026-09-29, solar-inverter-sizing). Script pages
-         keep the rail; slot injection is skipped. */ -}}
+{{- $hasPicks := gt (len $picks) 0 -}}
+{{- /* Script guard: embedded JS (toolscript calculators) can carry a literal
+       '</p>' inside string constants; splitting there corrupts the script
+       (live CI incident 2026-09-29, solar-inverter-sizing). Script pages
+       keep the rail + template slot-1 (rendered without any splitting);
+       mid-content injection is skipped. */ -}}
+{{- $hazard := findRE `</p>["']` $content 1 -}}
+{{- if and $hasPicks (not $hazard) -}}
   {{- $parts := split $content "</p>" -}}
-  {{- $n := 0 -}}
-  {{- /* hazard = a JS string containing </p> (toolscript HTML builders): matches `</p>` immediately followed by a quote char. Plain analytics scripts never match; RE2 has no lookahead so this is the probe. */ -}}
-  {{- if not (findRE `</p>["']` $content 1) -}}{{- $n = len $parts -}}{{- end -}}
+  {{- $n := len $parts -}}
   {{- if gt $n 8 -}}
-    {{- $slots := slice 0.33 0.66 0.88 -}}
+    {{- /* 2026-10-30 (R3): slot-1 moved OUT of this loop to a deterministic
+           template slot right after the In-brief answer box (above the mobile
+           fold on every monetized page). These two inject at mid/late depth
+           and number 2-3, drawing picks[1..2].
+           Injection point = precomputed integer part-index (ceil(f*n)-1), NOT
+           a float window test: the old `ge/lt depth-window` check double-fired
+           when a fraction landed exactly on a part boundary (0.5 on even n) —
+           latent until R3's 0.5 exposed it. Integer eq fires exactly once. */ -}}
+    {{- $slots := slice 0.5 0.85 -}}
+    {{- $targets := slice -}}
+    {{- range $f := $slots -}}
+      {{- $targets = $targets | append (sub (int (math.Ceil (mul $f (float $n)))) 1) -}}
+    {{- end -}}
     {{- $out := "" -}}
     {{- range $idx, $part := $parts -}}
       {{- $out = printf "%s%s" $out $part -}}
-      {{- $depth := div (float (add $idx 1)) (float $n) -}}
       {{- $isLast := eq (add $idx 1) $n -}}
-      {{- range $si, $f := $slots -}}
-        {{- if and (not $isLast) (ge (sub $depth $f) 0) (lt (sub $depth $f) (div (float 1.0) (float $n))) (lt $si (len $picks)) -}}
-          {{- $out = printf "%s</p>%s" $out (partial "infeed-slot.html" (dict "pick" (index $picks $si) "i" $si)) -}}
+      {{- range $si, $t := $targets -}}
+        {{- if and (not $isLast) (eq $idx $t) (lt (add $si 1) (len $picks)) -}}
+          {{- $out = printf "%s</p>%s" $out (partial "infeed-slot.html" (dict "pick" (index $picks (add $si 1)) "i" (add $si 1))) -}}
         {{- end -}}
       {{- end -}}
       {{- if not $isLast -}}{{- $out = printf "%s</p>" $out -}}{{- end -}}
@@ -29,5 +41,5 @@
     {{- $content = $out -}}
   {{- end -}}
 {{- end -}}
-<div class="article-layout"><aside class="article-rail">{{ with .Store.Get "sidebar_pick" }}{{ partial "pick-rail-card.html" (dict "pick" .) }}{{ end }}{{ if gt .WordCount 800 }}{{ partial "toc.html" . }}{{ end }}</aside><div class="article-reading"><div class="article-answer"><span>In brief</span><p>{{ .Params.answer | default .Params.description | default "Use this guide to understand the decision, its constraints, and the most useful next step." }}</p></div><div class="article-content prose">{{ $content | safeHTML }}</div>{{ partial "faq-schema-render.html" . }}{{ with .Params.author_bio }}<section class="author-note"><p class="eyebrow">About the byline</p><strong>{{ $.Params.author }}</strong><p>{{ . }}</p></section>{{ end }}{{ partial "next-steps.html" . }}{{ partial "related-posts.html" . }}</div></div>
+<div class="article-layout"><aside class="article-rail">{{ with .Store.Get "sidebar_pick" }}{{ partial "pick-rail-card.html" (dict "pick" .) }}{{ end }}{{ if gt .WordCount 800 }}{{ partial "toc.html" . }}{{ end }}</aside><div class="article-reading"><div class="article-answer"><span>In brief</span><p>{{ .Params.answer | default .Params.description | default "Use this guide to understand the decision, its constraints, and the most useful next step." }}</p></div>{{ if $hasPicks }}{{ partial "infeed-slot.html" (dict "pick" (index $picks 0) "i" 0) }}{{ end }}<div class="article-content prose">{{ $content | safeHTML }}</div>{{ partial "faq-schema-render.html" . }}{{ with .Params.author_bio }}<section class="author-note"><p class="eyebrow">About the byline</p><strong>{{ $.Params.author }}</strong><p>{{ . }}</p></section>{{ end }}{{ partial "next-steps.html" . }}{{ partial "related-posts.html" . }}</div></div>
 </article>{{ end }}
