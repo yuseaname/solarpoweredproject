@@ -13,6 +13,8 @@ As of mid-2026, the average solar panel cost in Nevada is **$2.50 – $2.90 per 
 
 Nevada homeowners pay an average residential electricity rate near **13.11¢/kWh** — the lowest residential rate in the nation ([EIA Electric Power Monthly, Table 5.6.A, June 2026](https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a), retrieved 2026-09-05) and enjoy **6.5–7.0 peak sun hours per day** — the strongest solar resource of any state. Simple payback typically runs **10–13 years** for 2026 purchases.
 
+On the bill side, [average utility bills by state (2026)](https://utilityexplained.com/blog/average-utility-bills-by-state-2026/) puts that rate in context with what households pay for electricity, gas, and water nationwide.
+
 ## Average Solar Panel Cost Nevada 2026 Breakdown
 
 ### National vs Nevada Pricing Comparison

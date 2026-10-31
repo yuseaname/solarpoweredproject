@@ -65,6 +65,8 @@ There are three ways to get the wattage, in order of accuracy:
 
 For devices that cycle on and off (fridge, freezer, furnace, well pump), you want the **average** wattage over the day, not the momentary running watts. A 150W fridge doesn't run 24 hours — the compressor runs maybe 30–40% of the time, so average consumption is closer to 1,000–1,400 Wh/day for a full-size unit. A Kill-A-Watt over 24 hours captures this automatically.
 
+For a deeper dive on measuring household appliances — plug meters, metering smart plugs, your utility's own hourly data — [Kill A Watt alternatives compared](https://utilityexplained.com/blog/kill-a-watt-alternatives/) walks every method by cost and accuracy.
+
 ### Step 3: Estimate daily running hours
 
 This is where most people lie to themselves. Be realistic, not aspirational. The laptop runs 6 hours, not "a couple." The lights are on 4 hours in the evening, not "barely at all."

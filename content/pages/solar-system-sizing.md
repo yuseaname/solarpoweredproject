@@ -40,6 +40,8 @@ Add up appliance wattage and daily hours of use. Multiply watts by hours to get 
 
 Use the planner below to estimate your total daily load. It will suggest panel, battery, inverter, and charge-controller sizes.
 
+Not sure what a whole house actually uses? [How many kWh a house uses per day](https://utilityexplained.com/blog/how-many-kwh-does-a-house-use-per-day/) gives national averages by home size — a good sanity check on your own list.
+
 ## Interactive solar load planner
 
 <form id="sizing-form" class="space-y-4 p-4 bg-gray-50 rounded-lg border border-gray-200">

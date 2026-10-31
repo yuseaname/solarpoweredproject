@@ -20,6 +20,8 @@ related = [
 
 Solar gear is full of abbreviations, and sellers use them loosely. This glossary is version 1 of the plain-English reference for every term that actually matters on this site — each entry is a short definition plus the number or rule that turns the term into a decision. We add and refine entries quarterly as the guides grow. The definitions are standard electrical and solar physics, so what you read here should match the datasheet, the code book, and the other pages on this site — where a term belongs to a deeper guide, the link is right there.
 
+For the utility-bill side of the dictionary — CCF, therms, demand charges, riders — see the companion [utility terms glossary](https://utilityexplained.com/utilities-glossary/).
+
 ## The five terms that decide your build
 
 -   **Voc** — the highest voltage your array can ever present, so it decides whether your charge controller survives a cold, sunny morning.

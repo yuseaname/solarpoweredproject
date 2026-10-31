@@ -26,6 +26,8 @@ related = [
 
 Net metering means every kWh you export offsets a kWh you imported at the retail rate — the best deal. Net billing means exports earn a lower, wholesale-adjacent "avoided cost" rate — typically **$0.03–$0.08/kWh** versus retail rates of $0.12–$0.40. Which regime your state uses can swing payback by **5+ years** on the same system. Find your state in the table, then verify with your utility — several states are mid-transition.
 
+To see how those credits actually land on a statement — true-ups, minimum bills, what to check before you sign — [net metering explained from the bill side](https://utilityexplained.com/blog/net-metering-explained/) walks a real bill line by line.
+
 ## Net metering by state (August 2026)
 
 Compiled from state PUC rules and utility tariffs as of August 2026. Categories are simplified — many utilities apply caps, fees, or tiered rates within a category. **Always confirm current terms with your utility before signing.**

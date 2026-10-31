@@ -28,6 +28,8 @@ As of mid-2026, solar panels in New York cost **$2.80–$3.25 per watt installed
 - Snow, not sun, is the production constraint upstate; NYC metro carries high labor and permitting costs.
 - The state has **6 GW of installed solar** and leads the U.S. in community solar capacity (NYSERDA, retrieved 2026-09-05).
 
+On the bill side, [average utility bills in New York (2026)](https://utilityexplained.com/blog/average-utility-bills-in-new-york/) tracks what households actually pay for electricity, gas, and water — the baseline any solar savings claim gets measured against.
+
 ## What solar costs in New York right now
 
 New York pricing sits at the top of the national spread — above Colorado and Illinois, close to California once NYC labor and permitting are included. The table below is the gross installed price before any NY-Sun payment or state tax credit:

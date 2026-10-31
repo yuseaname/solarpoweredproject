@@ -28,6 +28,8 @@ As of mid-2026, plan on **$2.50–$3.25 per watt installed** for residential roo
 - Municipal utilities and co-ops set their own rules; Austin Energy runs its own rebate plus a "Value of Solar" credit framework — a genuine exception worth checking.
 - Hail is the physical design constraint, not sun. Spec impact-rated modules, and treat grid outages (Uri, the 2024 Houston derecho) as the argument for a battery.
 
+On the bill side, [average utility bills in Texas (2026)](https://utilityexplained.com/blog/average-utility-bills-in-texas/) tracks what households actually pay for electricity, gas, and water — the baseline any solar savings claim gets measured against.
+
 ## What solar costs in Texas right now
 
 Texas remains one of the cheapest-per-watt states: dense installer markets keep big-metro bids competitive, and permitting is simpler than in many states. The range below is the gross installed price before any utility rebate:

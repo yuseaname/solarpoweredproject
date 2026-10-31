@@ -99,6 +99,8 @@ Two worked examples, same 2,000Wh/day cabin load (0.75 efficiency):
 
 That is the entire argument for knowing your worst-month number before buying anything: it can double your panel budget. The complete load-planning method is our <a href="/pages/solar-system-sizing.html" class="text-link">system sizing guide</a>, and the seasonal-tilt side of the same problem is in the <a href="/pages/solar-panel-angle-calculator.html" class="text-link">panel angle calculator</a>.
 
+Sun hours are half the payback equation; the other half is [what households in your state pay for electricity](https://utilityexplained.com/blog/average-utility-bills-by-state-2026/).
+
 ## Frequently Asked Questions
 
 {{< faq "What is a peak sun hour exactly?" >}}

@@ -38,6 +38,8 @@ Your utility bill is the starting document. To begin your calculation, look for 
 
 Why 12 months? Because energy consumption is seasonal. In the United States, many households see a large seasonal spike in electricity usage due to air conditioning, or in the winter due to electric heating. Relying on a single month's bill (like a mild spring month) will lead to an undersized system that fails to cover your peak needs.
 
+If the bill itself is the confusing part — fees, tiers, estimated reads — [how to read your electric bill, line by line](https://utilityexplained.com/blog/01-how-to-read-your-electric-bill/) explains every piece of the statement.
+
 ### Identifying "Energy Vampires" and High-Draw Appliances
 
 While the total kWh is your baseline, it is also helpful to identify which appliances are driving that number. If you are planning to add an Electric Vehicle (EV) to your garage, install a swimming pool pump, or switch to an electric heat pump, your future energy needs will be significantly higher than your current ones. When calculating your solar needs, it is wise to "future-proof" your system by accounting for these upcoming changes.

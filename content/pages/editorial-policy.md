@@ -13,6 +13,8 @@ no_ads = true
 
 We publish practical field guides that help readers understand independent power systems and make better next decisions. Clear explanations are useful only when their assumptions and limits are also clear.
 
+Solar Powered Project has a companion site, [Utility Explained](https://utilityexplained.com/), which explains utility bills and rates; both are published by the same small independent publisher.
+
 ## Accuracy and sources
 
 For claims that materially affect safety, policy, cost, performance, or equipment choices, we aim to prioritize primary or authoritative references such as manufacturer documentation, government agencies, utilities, standards bodies, and established research organizations. Sources and context should be visible where they matter—not implied by a general statement.

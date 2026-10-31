@@ -56,6 +56,8 @@ related = [
 
 **Cost per protected day, honestly.** Amortizing either purchase over outage days only produces decades-long payback numbers — both are resiliency purchases. The fair comparison is per *scenario*: for a home with several short outages a year and a solar array already on the roof, the battery's marginal cost buys silent, automatic coverage plus daily time-of-use value; for a home that loses power for a week at a time, the generator's band buys days of *real* whole-house power that a 10–15 kWh battery physically cannot supply. Different products for different failure modes.
 
+For the full standby-vs-portable cost breakdown — equipment, transfer gear, installation — [whole house generator vs. portable: true cost](https://utilityexplained.com/blog/45-whole-house-generator-vs-portable-cost/) does that math from the buying side.
+
 ## The honest caveats
 
 The battery marketing underplays three things: **capacity ceilings** (a battery that "backs up the house" usually backs up a subpanel of essentials, not the whole house), **recharge reality** (without solar or grid, a battery is a one-way tank), and **surge limits** (a central AC compressor or a 1 HP well pump can exceed both the continuous and surge ratings of typical residential units — soft-start kits help, check the math first). The generator marketing underplays three others: **maintenance neglect** (an unexercised, unserviced generator fails when called), **fuel logistics in regional events**, and **carbon monoxide** — the reason for hard rules, not judgment calls.

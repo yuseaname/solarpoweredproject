@@ -26,6 +26,8 @@ As of mid-2026, solar panels in Florida cost roughly **$2.50–$3.25 per watt in
 - Hurricane wind loads are the physical design constraint here, not sun: Miami-Dade and coastal counties use the strictest wind-speed criteria, so rated mounting, more roof attachments, and stamped engineering are the norm on quotes, and insurance and permitting take real time.
 - Florida's flat-ish rates (−1.6% year over year) don't give you the rate-escalation tailwind inland states enjoy — treat future rate increases as upside, not the base case.
 
+On the bill side, [average utility bills in Florida (2026)](https://utilityexplained.com/blog/average-utility-bills-in-florida/) tracks what households actually pay for electricity, gas, and water — the baseline any solar savings claim gets measured against.
+
 ## What solar costs in Florida right now
 
 Florida pricing sits on the cheaper side of the national spread — far below California, broadly comparable to Texas and Arizona. The range below is the gross installed price before any utility program:

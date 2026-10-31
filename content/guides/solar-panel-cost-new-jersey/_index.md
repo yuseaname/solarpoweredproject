@@ -24,6 +24,8 @@ New Jersey's residential electricity rates are well above the national average �
 - **SREC-II income** is the difference between 9–12-year and 12–14-year payback — and the piece you must verify at quote time (see caveats below).
 - **New Jersey is still one of the stronger post-credit states** — you just need honest numbers, not 2025-era marketing math.
 
+On the bill side, [average utility bills by state (2026)](https://utilityexplained.com/blog/average-utility-bills-by-state-2026/) tracks what households pay for electricity, gas, and water nationwide — the baseline any solar savings claim gets measured against.
+
 ## What the money looks like: per-watt and total system cost
 
 Installers in New Jersey typically quote **$2.80 – $3.20 per watt** for a straightforward roof-mounted system. Northern metro areas (the NY-orbit counties) run toward the top of the band; South Jersey and competitive suburban markets tend to the bottom. As everywhere, the final number rides on roof complexity, panel tier, whether a battery is included, and how many installers you actually get in a bidding war.

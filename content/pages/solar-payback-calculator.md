@@ -220,6 +220,8 @@ document.addEventListener('DOMContentLoaded', function() {
 | Rate escalation | 2–4% | Historical utility inflation |
 | Degradation | 0.5% | Modern panel warranties |
 
+The rate row is the one people guess at most: [average utility bills by state (2026)](https://utilityexplained.com/blog/average-utility-bills-by-state-2026/) has current electric, gas, and water numbers, and the [electricity cost calculator](https://utilityexplained.com/calculators/electricity-cost/) prices any load at your own rate.
+
 ## When solar pays back faster
 
 - Higher electricity rates

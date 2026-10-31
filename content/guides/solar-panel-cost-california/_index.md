@@ -19,6 +19,8 @@ related = [
 
 As of March 2026, the average solar panel cost in California ranges from **$2.39 to $3.14 per watt**, bringing the total price for a typical residential system to approximately **$22,000 to $23,000**. For the average California household requiring a 9.21 kW system to cover their electric bill, the price typically settles around **$22,588**, though this figure fluctuates based on location, roof complexity, and chosen equipment. Note: the 30% federal ITC expired December 31, 2025 — 2026 buyers pay the full price; 2025 installs keep the credit. California's high electricity rates and NEM 3.0 self-consumption economics now carry the investment case.
 
+On the bill side, [average utility bills in California (2026)](https://utilityexplained.com/blog/average-utility-bills-in-california/) tracks what households actually pay for electricity, gas, and water — the baseline any solar savings claim gets measured against.
+
 <figure class="article-image article-image--hero">
 <img src="/assets/images/solar-panel-cost-california/solar-panel-cost-california-hero.jpg" loading="eager" data-fetchpriority="high" decoding="async" width="1400" height="787" alt="Aerial view of industrial rooftops covered in rows of solar panels" />
 </figure>

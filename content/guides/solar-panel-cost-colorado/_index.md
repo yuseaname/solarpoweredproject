@@ -21,6 +21,8 @@ As of mid-2026, solar panels in Colorado cost **$2.60–$3.00 per watt installed
 - Hail and snow are the physical design constraints here, not sun. Spec hail-rated modules and enough pitch to shed snow.
 - Colorado had roughly **1,532 MW of small-scale solar PV** as of June 2026, up about 22% year over year ([EIA Electric Power Monthly, Table 6.2.B](https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_6_02_b), retrieved 2026-09-05). This is a mature, competitive installer market — which helps pricing.
 
+On the bill side, [average utility bills by state (2026)](https://utilityexplained.com/blog/average-utility-bills-by-state-2026/) tracks what households pay for electricity, gas, and water nationwide — the baseline any solar savings claim gets measured against.
+
 ## What solar costs in Colorado right now
 
 Colorado pricing sits in the middle of the national spread — not as cheap as Texas, not as expensive as California. The range below is the gross installed price before any utility program payments:

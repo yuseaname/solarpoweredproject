@@ -13,6 +13,8 @@ As of mid-2026, the average solar panel cost in Massachusetts is **$2.90 – $3.
 
 Massachusetts homeowners pay some of the highest electricity rates in the country — at **29.61¢/kWh** ([EIA Electric Power Monthly, Table 5.6.A, June 2026](https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a), retrieved 2026-09-05) — with **3.5–4.5 peak sun hours per day**. High rates offset modest sun; with SMART income included, simple payback typically runs **9–13 years**.
 
+On the bill side, [average utility bills by state (2026)](https://utilityexplained.com/blog/average-utility-bills-by-state-2026/) puts that rate in context with what households pay for electricity, gas, and water nationwide.
+
 ## Average Solar Panel Cost Massachusetts 2026 Breakdown
 
 ### National vs Massachusetts Pricing Comparison

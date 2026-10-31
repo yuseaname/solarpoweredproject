@@ -21,6 +21,8 @@ Illinois homeowners pay an average residential electricity rate of **19.89¢/kWh
 - **Illinois Shines (the Adjustable Block Program)** buys 15 years of your system's RECs through an Approved Vendor. It is the state's main incentive, and its value is quote-dependent.
 - **Retail-rate net metering survives** in ComEd and Ameren territory — confirm your utility's current distributed-generation rider before signing.
 
+On the bill side, [average utility bills by state (2026)](https://utilityexplained.com/blog/average-utility-bills-by-state-2026/) tracks what households pay for electricity, gas, and water nationwide — the baseline any solar savings claim gets measured against.
+
 ## What solar costs in Illinois in 2026
 
 ### Cost per watt

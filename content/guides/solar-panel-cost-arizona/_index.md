@@ -26,6 +26,8 @@ Worked honestly for cash, a 7 kW system producing ~**12,900 kWh/year** offsets a
 - Monsoon dust and 110°F summer heat cut real production: soiling plus heat derating belong in honest estimates, and panel cleaning genuinely pays off in the desert.
 - HOAs cannot prohibit solar devices ([A.R.S. § 33-1816](https://www.azleg.gov/ars/33/01816.htm)); a homeowner who substantially prevails over a violation can recover attorney fees.
 
+On the bill side, [average utility bills by state (2026)](https://utilityexplained.com/blog/average-utility-bills-by-state-2026/) tracks what households pay for electricity, gas, and water nationwide — the baseline any solar savings claim gets measured against.
+
 ## What solar costs in Arizona right now
 
 Arizona pricing sits in the lower-middle of the national spread, with a mature installer market and heavy competition in the Phoenix and Tucson metros. These are **gross installed prices before incentives**:

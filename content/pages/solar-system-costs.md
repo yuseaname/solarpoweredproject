@@ -344,6 +344,8 @@ The DIY-versus-installed delta is concentrated in the bottom two rows. Hardware 
 
 **State incentives still exist.** State tax credits, utility rebates, and performance incentives (SRECs in some markets) were never affected by the federal expiry. California's SGIP remains among the strongest for battery storage. Check your state's programs before you size the budget — a meaningful state rebate can claw back several years of payback.
 
+To see what the electricity you would offset is worth month to month, [the electricity cost calculator](https://utilityexplained.com/calculators/electricity-cost/) prices any load at your own rate.
+
 ## What changes the price?
 
 System size, battery choice, inverter type, mounting complexity, and local labor rates all affect totals. Three matter more than the rest:

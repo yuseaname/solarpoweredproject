@@ -34,6 +34,8 @@ This specialized meter tracks electricity in two directions:
 1.  **Import:** The amount of energy you pull from the grid when your panels aren't producing enough.
 2.  **Export:** The amount of excess energy your panels send back to the grid.
 
+To see how those two numbers land on an actual bill — credits, true-ups, minimum charges — [how net metering affects your electric bill](https://utilityexplained.com/blog/net-metering-explained/) walks the statement line by line.
+
 ### The "Net" Calculation
 
 The term "net metering" refers to the "net" difference between your imports and your exports. At the end of your billing cycle, the utility company looks at the total amount of energy you took from them and subtracts the total amount of energy you gave to them.

@@ -35,6 +35,9 @@ A 150W fridge at a 40% duty cycle uses 150 × 0.40 × 24 = **1,440 Wh/day** — 
 
 ## Measure your actual fridge (10 minutes, no gear or a $20 meter)
 
+The gold standard is a $20 plug meter for 24 hours — [how many watts a refrigerator uses, and how to measure yours exactly](https://utilityexplained.com/blog/how-many-watts-does-refrigerator-use/) walks that measurement step by step.
+
+
 ### Method A: nameplate + duty-cycle estimate
 
 Read the nameplate inside the fridge door for volts and amps. Multiply for running watts. Then estimate duty cycle from the table below. This is the fastest method and good enough for a first pass.
