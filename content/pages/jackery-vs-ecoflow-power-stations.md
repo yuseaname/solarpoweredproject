@@ -49,6 +49,8 @@ This single calculation picks the winner more often than every other spec combin
 - **Loads between 1,500W and 1,800W** (many hair dryers, some microwaves, some induction plates, job-site tools): the DELTA 2 runs them; the Jackery 1000 v2 doesn't. If your emergency list includes one of these, that's the ballgame — or consider the Jackery 2000-class instead of fighting the gate.
 - **Loads over 1,800W** (well pumps that turn out to be 240V submersibles, big table saws, some space heaters): neither unit — and no adapter fixes a 240V submersible; that's the [well-pump page's](/pages/solar-generator-well-pump-sizing.html) separate problem.
 
+For the permanent-installation version of this decision, [whole house generator vs. portable: true cost](https://utilityexplained.com/blog/45-whole-house-generator-vs-portable-cost/) prices standby systems against portables.
+
 Worked runtime math at the class level (usable ≈ 90% of nameplate on LiFePO4): 1,070 × 0.9 ≈ **963Wh** vs 1,024 × 0.9 ≈ **922Wh** — about 21 vs 20 hours of a 45W CPAP+humidifier setup, or roughly one day of a modern fridge's cycling (~0.9–1.2kWh/day; measure yours with the method in [our refrigerator sizing page](/pages/what-size-solar-generator-run-refrigerator.html)). A 4% capacity difference disappears into measurement noise.
 
 <figure class="article-image">

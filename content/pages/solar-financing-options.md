@@ -69,6 +69,8 @@ With the federal credit gone, stack what's left — these flow to the **system o
 - **Sales-tax and property-tax exemptions** in many states
 - **Net metering / export credits** — the biggest lever and the most variable ([explained here](solar-net-metering-explained.html))
 
+Every savings estimate leans on your electric rate — [average utility bills by state (2026)](https://utilityexplained.com/blog/average-utility-bills-by-state-2026/) is the reference for what households actually pay.
+
 ## Questions to ask any lender — before you sign
 
 1. **What is the cash price vs the financed price for the same system?** (dealer-fee detector)

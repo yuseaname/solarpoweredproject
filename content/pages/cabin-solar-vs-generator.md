@@ -105,6 +105,8 @@ Generator power is only as reliable as your fuel supply and upkeep. If you prefe
 
 Flip the usage and the winner flips: a cabin used **20 weekends a year** (~8 kWh/weekend) burns roughly $170–210/yr in fuel plus $80–150/yr of maintenance — solar's up-front premium pays back in roughly 4–7 years even at low usage, and never for the noise, fumes, and "did I winterize it" anxiety. A cabin used **twice a year**? Buy the generator, skip the array, spend the difference on batteries later if the pattern changes. **The usage frequency is the entire decision** — everything else is detail.
 
+For the grid-side cost baseline — what a standby or portable generator actually costs installed — [whole house generator vs. portable: true cost](https://utilityexplained.com/blog/45-whole-house-generator-vs-portable-cost/) is the companion number.
+
 ## FAQ
 
 {{< faq "Is solar worth it for an off-grid cabin?" >}}

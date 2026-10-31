@@ -62,6 +62,8 @@ Measure in the freezer's real location (a garage freezer in July runs a very dif
 
 No meter? Use the EnergyGuide label's kWh/year ÷ 365 as a fallback. It's a yearly average that already includes cycling, but it may understate a hot-weather or heavy-use day — a floor, not a ceiling.
 
+The fridge sibling of this measurement — [how many watts a refrigerator uses, and how to measure yours exactly](https://utilityexplained.com/blog/how-many-watts-does-refrigerator-use/) — uses the same 24-hour meter method.
+
 ## The sizing formula
 
 **Battery Wh needed = (daily Wh × days of autonomy ÷ usable DoD) × 1.1**

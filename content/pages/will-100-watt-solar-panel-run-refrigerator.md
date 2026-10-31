@@ -65,6 +65,8 @@ These are planning ranges — duty cycle varies with room temperature, door open
 
 **The 12V compressor fridge is the interesting case.** These Danfoss/Secop-style units in RVs, vans, boats, and cabins run on DC directly (no inverter), draw 30–60W while the compressor runs, and land around 0.4–0.8kWh/day — toward 1.2kWh in hot weather with heavy use. It's the only fridge class in the same ballpark as 300–400Wh/day, and it's still borderline, not comfortable.
 
+For the measured version of that number on your own fridge, [how many watts a refrigerator uses](https://utilityexplained.com/blog/how-many-watts-does-refrigerator-use/) walks the 24-hour meter method.
+
 ## Why the battery is non-negotiable
 
 Even if the daily watt-hours balanced perfectly, a panel alone still couldn't run a fridge:

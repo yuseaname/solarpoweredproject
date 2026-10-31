@@ -45,6 +45,8 @@ The nameplate figure is the *maximum* rated input at full output — not your ty
 | Average in cooling, SEER 17–22 (12k BTU / 1 ton) | ~400–700W | The number to use for nightly energy math |
 | Startup surge | ~2× running | Inverter ramp, not the 3–5× of old compressors |
 
+Deciding between system types before the battery math? [Ductless mini-split vs. central air](https://utilityexplained.com/blog/ductless-mini-split-vs-central-air/) compares the equipment side — this page handles the watts side.
+
 ## Section 2: Energy budget — 8 hours × 500W ≈ 4kWh
 
 The working case: **0.5kW average × 8h = 4kWh per night**. That's "worst-case-ish" — 500W sits mid-range of a SEER 17–22 unit's 400–700W. A mild night lands closer to 3kWh; a long, hot one can run 5kWh+.

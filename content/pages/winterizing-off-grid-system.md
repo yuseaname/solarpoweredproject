@@ -69,6 +69,8 @@ Winter loads quietly grow (lights on longer, a small heater fan, the well pump's
 3. **Pre-plan the backup decision:** at what state-of-charge do you fire the generator? Decide at 70% SOC on a sunny day, not at 20% at 10pm. Our [solar battery vs generator](/pages/solar-battery-backup-vs-generator.html) comparison frames the tradeoff.
 4. **Know your state of charge, not your voltage guess:** winter cold makes voltage readings lie worse than usual — a shunt-based monitor (the [monitoring math](/pages/solar-battery-management-system-explained.html) is in our BMS guide) is the difference between managing and guessing.
 
+And if the off-grid structure is a house with plumbing, [how to keep pipes from freezing (without heat)](https://utilityexplained.com/blog/how-to-keep-pipes-from-freezing/) covers the water side of the same cold snap.
+
 ## The one-page checklist
 
 | # | Task | Why | When |

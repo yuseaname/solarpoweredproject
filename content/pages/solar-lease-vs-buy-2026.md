@@ -127,6 +127,8 @@ Here is a realistic comparison for a 7 kW system in California (average electric
 
 **Key takeaway:** Cash purchase still wins on net benefit — and unlike a lease or PPA, you own the system, build home value, and keep state incentives. Loan interest now narrows the financed-purchase advantage, so run both numbers before signing.
 
+Those 20-year savings scale directly with your electric rate — [average utility bills by state (2026)](https://utilityexplained.com/blog/average-utility-bills-by-state-2026/) shows the spread your state starts from.
+
 ## The Federal Tax Credit in 2026: What Ended, What Still Helps
 
 The 30% federal Residential Clean Energy Credit (IRS Section 25D) **expired December 31, 2025** under the One Big Beautiful Bill Act (P.L. 119-21, signed July 4, 2025). There is **no federal tax credit for systems placed in service on or after January 1, 2026** — a homeowner-purchased system earns $0 federal credit, and payback math must use the full system price.

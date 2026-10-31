@@ -105,6 +105,8 @@ For medical loads (CPAP, concentrators, insulin refrigeration), add a small gas 
 | 24h | 1,000–2,000 + ~150 ≈ 1,150–2,150 | 2–3kWh |
 | 48h (no sun) | 2,000–4,000 + ~300 ≈ 2,300–4,300 | 3kWh+ or battery + solar/gas recharge |
 
+For the fixed-installation version of this decision, [whole house generator vs. portable: true cost](https://utilityexplained.com/blog/45-whole-house-generator-vs-portable-cost/) prices standby systems against portables.
+
 ## Winter outages: the cold-weather gotchas
 
 Cold changes the rules on both sides of the system. First, the battery: **most LiFePO4 packs refuse or strictly limit charging below 0°C / 32°F** — the BMS uses a low-temperature cutoff to prevent lithium plating, which permanently damages cells. Discharging is usually fine down to about **-20°C**, though capacity and current sag. So keep the battery above freezing: bring the station indoors, or insulate it (an insulated cooler with a sealed heat pack works; never block the vents), and don't connect panels until the unit reports its charging temperature is in range. Some stations have self-heating cells; plan as if yours does not.
